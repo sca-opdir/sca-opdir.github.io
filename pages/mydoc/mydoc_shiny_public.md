@@ -1,6 +1,6 @@
 ---
 title: Shiny apps publiques
-tags: [shiny]
+tags: [Shiny]
 last_updated: December 2, 2023
 keywords: shiny, apps
 summary: "liste des applications shiny disponibles en ligne"
