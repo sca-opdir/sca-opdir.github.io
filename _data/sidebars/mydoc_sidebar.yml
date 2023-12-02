@@ -23,18 +23,14 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Plan  du site
+    - title: Bienvenue
       url: /index.html
-      output: web, pdf
+      output: web
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
-      output: web, pdf
-
     - title: Contact
-      url: /mydoc_supported_features.html
-      output: web, pdf
+      url: /mydoc_contact.html
+      output: web
 
   - title: Intelligence artificielle
     output: web
