@@ -19,7 +19,16 @@ entries:
     - title: Contact
       url: /mydoc_contact.html
       output: web
-
+  -title: Shiny apps
+   output:web
+   folderitems:
+    - title: Publiques
+      url: /mydoc_shiny_public.html
+      output: web
+    - title: Internes
+      url: /mydoc_shiny_private.html
+      output: web
+  
   - title: Intelligence artificielle
     output: web
     folderitems:
@@ -33,7 +42,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Prompt engineering
+        - title: Comment prompter
           url: /mydoc_ia_chatgpt_promptengineering.html
           output: web
 
