@@ -36,11 +36,13 @@ entries:
       url: /mydoc_supported_features.html
       output: web, pdf
 
-
   - title: Intelligence artificielle
     output: web
     folderitems:
 
+    - title: Aperçu
+      url: /mydoc_tag_archives_overview.html
+      output: web
 
       subfolders:
       - title: IA générative
@@ -51,5 +53,9 @@ entries:
           url: /tag_formatting.html
           output: web
 
+        - title: Bing Chat
+          url: /tag_navigation.html
+          output: web
 
-
+ 
+ 
