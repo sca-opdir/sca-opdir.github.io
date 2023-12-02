@@ -1,6 +1,6 @@
 ---
 title: Généralités sur l'intelligence artificielle
-tags: [publishing, single_sourcing, content_types]
+tags: [IA, IT]
 last_updated: July 3, 2016
 keywords: API, content API, UI text, inline help, context-sensitive help, popovers, tooltips
 summary: "Généralités sur l'intelligence artificielle"
