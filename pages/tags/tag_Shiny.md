@@ -2,7 +2,7 @@
 title: "Shiny Pages"
 search: exclude
 tagName: Shiny
-permalink: tag_shiny.html
+permalink: tag_Shiny.html
 sidebar: mydoc_sidebar
 folder: tags
 ---
