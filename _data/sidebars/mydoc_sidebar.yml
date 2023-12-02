@@ -36,21 +36,21 @@ entries:
     output: web
     folderitems:
 
-    - title: Aperçu
-      url: /mydoc_tag_archives_overview.html
+    - title: Généralités
+      url: /mydoc_generalites_ia.html
       output: web
 
       subfolders:
-      - title: IA générative
+      - title: ChatGPT
         output: web
         subfolderitems:
 
-        - title: ChatGPT
-          url: /tag_formatting.html
+        - title: Prompt engineering
+          url: /mydoc_ia_chatgpt_promptengineering.html
           output: web
 
-        - title: Bing Chat
-          url: /tag_navigation.html
+        - title: Exemples d'utilisation
+          url: /mydoc_ia_chatgpt_exemples.html
           output: web
 
  
