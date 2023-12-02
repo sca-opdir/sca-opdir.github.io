@@ -1,8 +1,8 @@
 ---
-title: "Getting started pages"
-tagName: getting_started
+title: "Home pages"
+tagName: home
 search: exclude
-permalink: tag_getting_started.html
+permalink: tag_home.html
 sidebar: mydoc_sidebar
 folder: tags
 ---
