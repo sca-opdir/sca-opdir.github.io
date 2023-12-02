@@ -1,6 +1,6 @@
 ---
 title: Contact
-tags: [getting_started, troubleshooting]
+tags: [home]
 keywords:
 summary: "Comment me contacter"
 sidebar: mydoc_sidebar
