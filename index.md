@@ -7,9 +7,9 @@ permalink: index.html
 summary: Bienvenue.
 ---
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+{% include note.html content="Contactez-moi pour contribuer activement à cette page :-) marie(dot)zufferey(at)admin(dot)vs(dot)ch" %}
 
-## Outils IT pour l'OPDir
+## Buts du site
 
 Sur ce site sont rassemblés des informations sur des outils IT potentiellement utiles pour notre Office.
 
