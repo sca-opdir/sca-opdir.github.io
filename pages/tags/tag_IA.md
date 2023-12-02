@@ -2,7 +2,7 @@
 title: "IA pages"
 tagName: IA
 search: exclude
-permalink: tag_ia.html
+permalink: tag_IA.html
 sidebar: mydoc_sidebar
 folder: tags
 ---
