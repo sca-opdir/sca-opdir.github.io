@@ -1,8 +1,8 @@
 ---
 title: ChatGPT - prompt engineering
-keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
+keywords: IA, IT, ChatGPT
 last_updated: July 3, 2016
-tags: [getting_started]
+tags: [IA]
 summary: "Conseils de prompt engineering"
 sidebar: mydoc_sidebar
 permalink: mydoc_ia_chatgpt_promptengineering.html
