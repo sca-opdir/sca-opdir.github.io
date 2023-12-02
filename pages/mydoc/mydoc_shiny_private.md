@@ -1,9 +1,9 @@
 ---
 title: Shiny apps internes
-tags: [shiny]
+tags: [Shiny]
 last_updated: December 2, 2023
 keywords: shiny, apps
-summary: "liste des applications shiny usage interne)
+summary: "liste des applications shiny usage interne"
 sidebar: mydoc_sidebar
 permalink: mydoc_shiny_private.html
 folder: mydoc
