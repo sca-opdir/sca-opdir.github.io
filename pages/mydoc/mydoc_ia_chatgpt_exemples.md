@@ -2,7 +2,7 @@
 title: ChatGPT - exemples d'utilisation
 keywords: IA, IT, ChatGPT
 last_updated: July 3, 2016
-tags: [IA, IT]
+tags: [IA]
 summary: "Exemples d'utilisation de ChatGPT"
 sidebar: mydoc_sidebar
 permalink: mydoc_ia_chatgpt_exemples.html
