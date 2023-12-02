@@ -1,8 +1,8 @@
 ---
-title: "Collaboration pages"
-tagName: collaboration
+title: "IA pages"
+tagName: IA
 search: exclude
-permalink: tag_collaboration.html
+permalink: tag_ia.html
 sidebar: mydoc_sidebar
 folder: tags
 ---
