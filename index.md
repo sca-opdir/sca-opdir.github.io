@@ -1,10 +1,10 @@
 ---
 title: "Outils IT pour l'OPDir"
 keywords: sample homepage
-tags: [getting_started]
+tags: [home]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: Bienvenue.
+summary: Bienvenue
 ---
 
 {% include note.html content="Contactez-moi pour contribuer activement à cette page :-) marie(dot)zufferey(at)admin(dot)vs(dot)ch" %}
