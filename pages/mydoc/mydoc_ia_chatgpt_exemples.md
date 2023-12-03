@@ -22,8 +22,8 @@ NB : pour une raison inconnue, je n'ai pas réussi à faire respecter la numéro
 > c. Suivi et contrôle du projet : suvii avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts
 
 
-<div class="chatgptIn">
- 1. Gestion de projets<br>
+<div class="chatgptIn"><br>
+1. Gestion de projets<br>
 a. Planification de projet : définition objectifs, création échéancier, identification ressources, création plan, établissement des livrables<br>
 b. Gestion des risques du projet : identification des risques, élaboration plan de contingence, gestion des problèmes, analyse des risques, planification de la réponse aux risques<br>
 c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts<br>
