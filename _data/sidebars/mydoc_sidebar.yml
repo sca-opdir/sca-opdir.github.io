@@ -25,7 +25,7 @@ entries:
     folderitems:
 
     - title: Généralités
-      url: /mydoc_generalites_ia.html
+      url: /mydoc_ia_generalites.html
       output: web
 
       subfolders:
@@ -41,5 +41,8 @@ entries:
           url: /mydoc_ia_chatgpt_exemples.html
           output: web
 
+    - title: Autres outils
+      url: /mydoc_ia_autres_outils.html
+      output: web
  
  
