@@ -33,6 +33,10 @@ entries:
         output: web
         subfolderitems:
 
+        - title: Usages
+          url: /ChatGPT_usages.html
+          output: web
+
         - title: Comment prompter
           url: /mydoc_ia_chatgpt_promptengineering.html
           output: web
