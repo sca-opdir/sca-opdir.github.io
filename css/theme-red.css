@@ -119,3 +119,22 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #8B2605;
 }
+
+
+#mycontainer {
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#mylabel {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    height: 20px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid red;
+    text-align: center;
+}
