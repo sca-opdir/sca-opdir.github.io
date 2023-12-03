@@ -49,4 +49,6 @@ entries:
       url: /mydoc_ia_autres_outils.html
       output: web
  
- 
+    - title: Réflexions
+      url: /IA_reflexion.html
+      output: web
