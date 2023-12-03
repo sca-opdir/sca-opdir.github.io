@@ -5,7 +5,7 @@ last_updated: July 3, 2016
 tags: [IA]
 summary: "outils basés sur l'IA"
 sidebar: mydoc_sidebar
-permalink: mydoc_ia_autres_outils.html
+permalink: IA_autres_outils.html
 folder: mydoc
 ---
 
