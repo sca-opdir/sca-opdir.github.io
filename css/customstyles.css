@@ -1208,7 +1208,7 @@ h4.panel-title {
 
 .chatgptIn {
     font-size:90%;
-    color: #025E2E;
+    color: #013A1C;
     margin:0px 0px 0px 0px;
     border-left: 5px solid #058B45;
     padding-left: 10px;
@@ -1216,7 +1216,7 @@ h4.panel-title {
 }
 
 .chatgptIn:before {
-    content: "User: ";
+    content: "User:<br>";
     font-weight: bold;
 }
 
