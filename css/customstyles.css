@@ -1203,6 +1203,19 @@ h4.panel-title {
 }
 
 
+.chatgptOut {
+    font-size:90%;
+    color: #763603;
+    margin:0px 0px 0px 0px;
+    border-left: 5px solid #C15907;
+    padding-left: 10px;
+
+}
+
+.chatgptOut:before {
+    content: "User: ";
+    font-weight: bold;
+}
 
 
 
@@ -1216,7 +1229,7 @@ h4.panel-title {
 }
 
 .chatgptIn:before {
-    content: "User:<br>";
+    content: "User: ";
     font-weight: bold;
 }
 
