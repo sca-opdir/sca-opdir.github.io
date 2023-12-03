@@ -4,7 +4,7 @@ tags: [home]
 keywords:
 summary: "Comment me contacter"
 sidebar: mydoc_sidebar
-permalink: mydoc_contact.html
+permalink: contact.html
 folder: mydoc
 ---
 
