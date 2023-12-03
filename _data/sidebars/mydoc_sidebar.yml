@@ -42,7 +42,7 @@ entries:
           output: web
 
         - title: Exemples d'utilisation
-          url: /mydoc_ia_chatgpt_exemples.html
+          url: /ChatGPT_exemples.html
           output: web
 
     - title: Autres outils
