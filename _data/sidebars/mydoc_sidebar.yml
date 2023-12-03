@@ -17,7 +17,7 @@ entries:
       type: homepage
 
     - title: Contact
-      url: /mydoc_contact.html
+      url: /contact.html
       output: web
 
   - title: Intelligence artificielle
@@ -25,7 +25,7 @@ entries:
     folderitems:
 
     - title: Généralités
-      url: /mydoc_ia_generalites.html
+      url: /IA_generalites.html
       output: web
 
       subfolders:
@@ -38,7 +38,7 @@ entries:
           output: web
 
         - title: Comment prompter
-          url: /ChatGPT_promptengineering.html
+          url: /ChatGPT_prompt_engineering.html
           output: web
 
         - title: Exemples d'utilisation
@@ -46,7 +46,7 @@ entries:
           output: web
 
     - title: Autres outils
-      url: /mydoc_ia_autres_outils.html
+      url: /IA_autres_outils.html
       output: web
  
     - title: Réflexions
