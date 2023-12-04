@@ -1008,6 +1008,126 @@ En résumé, ce code manipule des DataFrames en remplaçant certaines valeurs ma
 </div>
 <hr>
 
+## Trouver un mot adéquat pour compléter une phrase
+<div class="chatgptIn"><br>
+Quel mot pourrait remplacer le "X" dans la phrase ci-dessous : <br>
+"Si cela ne te cause pas trop de X, pourrais-tu m'extraire les données demandées hier?" <br>
+Donne 5 possibilités.
+</div>
+<div class="chatgptOut"><br>
+Voici cinq possibilités pour remplacer le "X" dans la phrase : <br>
+Si cela ne te cause pas trop d'inconvénients, pourrais-tu m'extraire les données demandées hier? <br>
+Si cela ne te cause pas trop de soucis, pourrais-tu m'extraire les données demandées hier? <br>
+Si cela ne te cause pas trop de tracas, pourrais-tu m'extraire les données demandées hier? <br>
+Si cela ne te cause pas trop de désagréments, pourrais-tu m'extraire les données demandées hier? <br>
+Si cela ne te cause pas trop de gêne, pourrais-tu m'extraire les données demandées hier? <br>
+</div>
+<hr>
+
+## Résumé d'un texte d'une autre langue sous forme de liste et points-clés 
+
+<div class="mycomment">Attention à ne pas introduire de données confidentielles ni privées !
+</div>
+<div class="chatgptIn"><br>
+En utilisant uniquement les informations contenues dans le texte en allemand ci-dessous, sans ajouter des informations externes, résume en français, en une phrase pour chaque intervenant sa position ; puis liste les points-clés de la discussion :
+<br>
+2. Attribut «nicht kontrollierbar» <br>
+
+<b>Personne1</b> erläutert den Antrag der xxx. <br>
+<b>Personne2 </b>Den zusätzlichen Wert «nicht kontrollierbar» zu den bestehenden Werten «NK» und «NZ» hätte folgende technische Anpassungen zur Folge, wie im An-trag ergänzt wurde: Acontrol Back- und Frontend, Datenimport, mobile Erfassungsge-räte (xxx, ..?) sowie BI-Reports. Abzuklären wie weit dies auch Einfluss auf Asan hat, da Acontrol und Asan auf der gemeinsamen Datenbank xxx basieren. <br>
+<b>Personne3</b> Unterstreicht die technische Auswirkung auf xxx, da es sich um eine fundamentale Anpassung an der Struktur der Kontrollergebnisse handelt. Die Frage ist, ob dieser Antrag wirklich so zu verstehen ist oder er vielmehr ein Zeichen setzen soll, dass es KP gibt, die anspruchsvoll sind. Die Herausforderung der Kontroll-stellen ist nachvollziehbar. Ist hier der richtige Ort um die Kontrollpunkte zu kommen-tieren inkl. deren Resultatwerten? Es sollte die Realität abgebildet werden, ob etwas kontrolliert oder eben nicht kontrolliert wurde auch mit einer möglichen Bemerkung, weshalb etwas nicht kontrolliert wurde. <br>
+<b>Personne2 </b>Mit der Digitalisierungsstrategie sollten die heutigen Systeme bis in acht Jahren abgelöst werden. Dieses Thema sollte in das künftige System einfliessen. <br>
+<b>Personne4 </b>Ich interpretiere diesen Antrag als ein Signal der Kantone und Kontroll-stellen, dass gewisse Kontrollpunkte schwierig und herausfordernd zu kontrollieren sind. Vor allem bei Selbstdeklarationen schätze ich, ist es schwierig für die kontrollie-rende Person ein Ergebnis zu erfassen. Eine solche Änderung könnte zudem nicht nur bei Direktzahlungskontrollen umgesetzt werden, denn es betrifft auch die Tierschutz-kontrollen. Wie geht man mit dieser Problematik im heutigen System um? Wählt man «nicht kontrolliert» oder «kein Mangel»? Ich meine, richtig wäre es im heutigen System «nicht kontrolliert» zu wählen. Dieses Thema sollte in die Gestaltung des neuen Sys-tems einfliessen, bei welchem alle Überlegungen zu Kontrollen neu gemacht werden können, losgelöst vom existierenden System. <br>
+<b>Personne5</b> Technisch sehe ich keine grosse Herausforderung. Es stellt sich jedoch die Frage, was für Konsequenzen es hat, wenn ein Kontrollpunkt mit «nicht kontrollier-bar» deklariert wird? Dies wird die Herausforderung sein. <br>
+<b>Personne1 </b>Im Bereich Abdrift/Abschwemmung lassen wir die Kontrollpunkte (KP) durch das System als nicht kontrolliert beantworten, d.h. der Kontrolleur erhält diese KP nicht auf das Tablet, damit nicht Aussagen gemacht werden, die nicht überprüft werden können. Seitens xxx und xxx hat man in der Vergangenheit mehrfach darauf hingewiesen, dass es KP gibt, die jährlich dem Kontrolleur aufs Tablet kommen, ob-wohl keine bis wenig Mängel festgestellt werden. Hier wäre auch eine Möglichkeit zu entschlacken und die Vielzahl der KP herunterzubringen. Bei diesem Antrag spielt auch der Gedanke mit, dass man die Menge der KP herunterbringen soll, damit der Kontrolleur wie auch der Betriebsleiter in einer angemessenen Zeit die verschiedenen Programme kontrollieren kann und das System nicht kollabiert. Seitens xxx könnte man anhand der Auswertungen überprüfen, welche KP Sinn machen und somit das System entschlacken. <br>
+<b>Personne6 </b>Dieses Anliegen kann sehr gut nachvollzogen werden und wurde auch in den xxx-Kantonen diskutiert. Es ist politisch eher heikel, weil es das ganze Direktzahlungssystem in Frage stellt und die Glaubwürdigkeit untergraben würde. Wenn wir Kontrollen haben, welche nicht kontrollierbar sind, gibt dies politischen Druck. xxx hat auch ausgesagt, dass das Direktzahlungssystem zu kom-plex ist. Hier müsste der Hebel angesetzt werden. <br>
+<b>Personne4 </b>Mit dem risikobasierten Kontrollsystem haben wir die Fokuskontroll-punkte eingeführt. Damit verzichten wir aktiv auf die Kontrolle von vielen verschiede-nen Kontrollpunkten und damit sollte auch der Kontrollaufwand reduziert sein. Zudem müssen nicht alle Kontrollpunkte jedes Jahr kontrolliert werden. Ja, es ist politisch hei-kel. Es gäbe noch weitere Fragen wie zum Beispiel: Ist ein Kontrollpunkt nicht kontrol-lierbar oder ist er nur in einem gewissen Zeitraum nicht kontrollierbar. <br>
+<b>Personne1 </b>Ja, die Fokuskontrollpunkte hat man eingeführt, um die Flughöhe zu erhöhen. Durch die Summe aller KP inkl. den neuen Beitragsprogrammen hat die An-zahl der Kontrollinhalte jedoch wieder zugenommen. Die dahinterstehenden Kosten für die technische Umsetzung sehen wir auch. Hingegen wenn keine Diskussion und keine Bewegung in diese Richtung stattfindet, um das Problem bei den Kontrollstellen zu entschärfen, ist es für die langjährigen Mitarbeitenden, welche sich konstruktiv auch in verschiedenen Arbeitsgruppen einbringen, zermürbend. <br>
+<b>Personne7 </b>Nebst den fachlichen und technischen Auswirkungen hätte es auch rechtliche Konsequenzen, weil man die xxx anpassen müsste. <br>
+<b>Personne8 </b>Bereits zu Beginn von Acontrol gab es diese Diskussion, da «nicht kon-trolliert» und «nicht kontrollierbar» nicht das Gleiche bedeuten. Aber man hatte damals der Einfachheit halber entschieden, nicht kontrolliert einzuführen. Wenn etwas nicht kontrollierbar ist, dann ist es «nicht kontrolliert». Somit «nicht kontrolliert» verwenden anstelle «kein Mangel», was als erfüllt gelten würde. <br>
+Nach dieser guten und konstruktiven Diskussion wurde dieser Antrag mit drei Ja- zu sieben Nein-Stimmen abgelehnt. 
+Gemäss den stattgefundenen Diskussionen wird dieses Bedürfnis ein Thema bleiben und muss sicherlich im Rahmen des künftigen Kontrollsystems 2030+ in die Überle-gungen einfliessen. 
+
+</div>
+<br>
+<div class="chatgptOut">
+<br>
+Résumé des positions des intervenants :<br>
+1.	<b>Personne1</b> : Suggère de répondre "nicht kontrolliert" pour les points de contrôle (KP) liés à l'abdrift/abschwemmung pour éviter des déclarations non vérifiables. <br>
+2.	<b>Personne2</b>  : Propose l'ajout de la valeur "nicht kontrollierbar" avec des ajustements techniques nécessaires et souligne l'impact sur xxx. <br>
+3.	<b>Personne3</b>  : Interroge la compréhension du besoin, souligne la complexité des points de contrôle, et s'interroge sur la pertinence de commenter les résultats. <br>
+4.	<b>Personne4 </b>: Interprète le besoin comme signalant la difficulté de contrôler certains points, surtout dans les auto-déclarations, et suggère une réflexion pour le nouveau système. <br>
+5.	<b>Personne5</b>  : Ne voit pas de grands défis techniques, mais s'inquiète des conséquences de déclarer un point de contrôle comme "nicht kontrollierbar".<br>
+6.	<b>Personne6 </b>: Comprend la préoccupation mais souligne le risque politique de remettre en question le système de paiement direct. <br>
+7.	<b>Personne7</b>  : Mentionne les implications juridiques et la nécessité d'ajuster xxx en cas d'ajout de "nicht kontrollierbar".<br>
+8.	<b>Personne8</b>  : Rappelle la différence entre "nicht kontrolliert" et "nicht kontrollierbar" et propose d'utiliser "nicht kontrolliert" pour l'instant. <br>
+Points clés de la discussion : <br>
+•	Débat sur l'ajout de "nicht kontrollierbar" comme valeur pour les points de contrôle. <br>
+•	Discussion sur les implications techniques, politiques et juridiques de cette proposition. <br>
+•	Réflexion sur la complexité des points de contrôle, en particulier dans le système actuel. <br>
+•	Soulignement de la nécessité d'intégrer cette discussion dans la conception du futur système de contrôle (2030+).
+</div>
+<hr>
+
+## Résumé d'un texte sous forme de tableau
+<div class="chatgptIn"><br>
+Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contributions ; résume-le en créant un tableau de 3 colonne (chaque ligne correspond à une surface ou un type de surface) : la 1ère colonne "Surface" indiquera un type de surface (par ex. "surface à litière"), la 2ème colonne "Oui" contient une croix si la surface donne droit à contribution, la 3ème colonne "Non" contient une croix si la surface ne donne pas droit à contribution. Sépare les colonnes du tableau par des barres verticales "|" sous forme de texte pour que je puisse l'importer dans excel.
+<coller ici l'art. 35 de l'OPD>
+</div>
+<br>
+<div class="chatgptOut"><br> [copié et formaté dans excel]
+
+<table>
+  <thead>
+    <tr>
+      <th>Surface</th>
+      <th>Oui</th>
+      <th>Non</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Surface agricole utile</td>
+      <td>✔️</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Petites structures dans pâturages extensifs</td>
+      <td>✔️</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Petites structures dans prairies riveraines</td>
+      <td>✔️</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Bandes refuge dans prairie extensive</td>
+      <td>✔️</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Surfaces avec accord écrit (non exploitées)</td>
+      <td>✔️</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Surfaces dans zone limitrophe étrangère</td>
+      <td>❌</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Surfaces herbagères dans région d'estivage</td>
+      <td>❌</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td>Surfaces en pépinières ou culture forestière</td>
+      <td>❌</td>
+      <td
+</div>
+<hr>
+
 
 <!--
 <div id="mycontainer">
