@@ -526,56 +526,6 @@ demandées par le service.
 </div>
 <hr>
 
-## Générer la liste de questions à se poser pour savoir si les conditions sont remplies
-
-<div class="chatgptIn"><br>
-Le texte ci-dessous présente les conditions qui doivent être remplies pour qu'une exploitation agricole soit reconnue. Résume sous forme de liste les questions que doit se poser un exploitant pour savoir s'il remplit ces conditions. Chaque question doit être concise et tenir sur une ligne.<br>
-Une exploitation agricole doit être reconnue par la Commission de reconnaissance des exploitations (CRE) du Service cantonal de l’agriculture (SCA) pour pouvoir bénéficier de soutiens financiers tels que les paiements directs, les aides aux améliorations structurelles ou d'autres contributions agricoles. <br>
-A cette fin, elle doit remplir divers critères, notamment : <br>
-UMOS : l’exploitation doit nécessiter au moins 0.2 Unité de main d’œuvre standard (UMOS). Le calcul des UMOS peut se faire à l’aide du programme en ligne suivant https://agripedia.ch/focus-ap-pa/outil-de-calcul-des-contributions/. Pour le calcul des UMOS, il faut utiliser le dernier onglet dénommé "Limitations" de l’outil Excel de calcul des contributions<br>
-Bâtiments et terres : l’exploitant doit être soit propriétaire, soit fermier pour au moins 30% des surfaces totales, ainsi que de l’étable (extraits du registre foncier, contrats de bail, etc.). <br>
-Contrôles de conformité : pour s’assurer que l’exploitation respecte les prestations écologiques requises (PER) ou les autres programmes au bénéfice de paiements directs, il est nécessaire de la contrôler. L’exploitant doit s’enregistrer auprès de l’organisation de contrôle agréée : AVPI : avpi@agrivalais.ch, Bio.inspecta AG : info@bio-inspecta.ch, Bio Test Agro AG : info@bio-test-agro.ch, Vitival : vitival@agrivalais.ch, IFELV : info@ifelv.ch. <br>
-Formation professionnelle : l’exploitant doit attester d’une formation agricole reconnue (minimum AFP). A défaut, il doit attester d’une formation reconnue dans une autre branche, accompagnée soit d’une formation agricole continue (cours paiements directs), soit d’une activité agricole exercée pendant au moins 3 ans (demande des certificats AVS à la caisse de compensation). <br>
-No IBAN : l’exploitation doit avoir son propre compte bancaire ou postal. Elle ne peut pas recevoir ses prestations sur le compte d’un tiers. Pour la relation bancaire ou postale des sociétés de personnes (SS, SNC) et des personnes morales (Sàrl, SA), prière de ne pas utiliser le formulaire ci-dessous. Dans ces cas, il faut solliciter de votre banque ou de la poste les instructions de paiement nécessaires ou un bulletin de versement où figure le No IBAN. <br>
-Détenteurs de bétail : pour une exploitation avec du bétail, il est nécessaire que l’étable soit conforme et certifiée par le vétérinaire cantonal (demande pour contrôle à l’Office vétérinaire ovet@admin.vs.ch) et par le secteur de protection des eaux (demande pour contrôle au Service de l’environnement sen@admin.vs.ch). Pour les exploitants sans formation professionnelle mais dont l’exploitation a moins de 0.5 UMOS en région de montagne, il est aussi nécessaire d’avoir suivi les cours sur la protection des animaux chateauneuf@admin.vs.ch. <br>
-Déclarations des surfaces : l’exploitation doit remplir les diverses données sur ses structures agricoles exigées pour l’obtention des paiements directs https://www.vs.ch/web/sca/saisie-en-ligne-des-donnees-agricoles. <br>
-Des procédures simplifiées existent pour les hoiries suite au décès de l’exploitant ou pour la reprise d’exploitation par l’époux/l’épouse. <br>
-Une procédure particulière est nécessaire pour les sociétés de personnes (SS, SNC) et les personnes morales (Sàrl, SA). <br>
-
-Selon la sorte d’exploitation à reconnaître, divers documents doivent être retournés à la CRE, conformément aux formulaires et listes ci-dessous. <br>
-Les instructeurs de la CRE se répartissent les dossiers selon la langue et selon les régions du canton (voir distribution des périmètres à droite de la page). Ils traitent les demandes et répondent aux questions utiles des requérants. <br>
-Délais<br>
-La demande de reconnaissance, avec production de l’intégralité des pièces nécessaires à la reconnaissance, doit être déposée au plus tard le 31 janvier et la demande des paiements directs (déclaration des surfaces) doit être effectuée lors de la saisie en ligne des données agricoles selon le calendrier annuel (Saisie en ligne des données agricoles). <br>
-Tout dossier non complet ne pourra pas être examiné et nécessitera un renvoi à l’année suivante (pas de paiement direct, ni d’aide aux améliorations structurelles, ni d’autres contributions agricoles pour l’année en cours). <br>
-Nous vous recommandons de contacter rapidement le responsable régional, afin de finaliser votre dossier à temps. <br>
-</div>
-<br>
-<div class="chatgptOut">
-    <br><i>Résultat pas dans le format attendu</i>
-</div>
-<br>
-<div class="chatgptIn"><br>
-Lister uniquement sous forme de questions les questions que l'exploitant doit se poser (s'il répond oui, il remplit conditions).
-</div>
-<br>
-<div class="chatgptOut">
-<br>
-<ol>
-<li>L'exploitation nécessite-t-elle au moins 0.2 Unité de main d’œuvre standard (UMOS) selon le calcul en ligne? </li>
-<li>Suis-je propriétaire ou fermier pour au moins 30% des surfaces totales, y compris l'étable?
-<li>Ai-je enregistré mon exploitation auprès d'une organisation de contrôle agréée pour vérifier le respect des prestations écologiques requises (PER) ou autres programmes? </li>
-<li>Prouvé-je une formation agricole reconnue (minimum AFP) ou une formation dans une autre branche avec une formation agricole continue ou une activité agricole de 3 ans? </li>
-<li>Mon exploitation possède-t-elle son propre compte bancaire ou postal, excluant les prestations sur le compte d'un tiers? </li>
-<li>L'étable de mon exploitation est-elle certifiée par le vétérinaire cantonal et le secteur de protection des eaux? </li>
-<li>Ai-je rempli les données sur les structures agricoles nécessaires pour l'obtention des paiements directs? </li>
-<li>Si applicable, ai-je suivi les procédures simplifiées pour les hoiries ou la reprise d'exploitation par l'époux/l'épouse? </li>
-<li>Si ma structure est une société de personnes ou une personne morale, ai-je suivi la procédure particulière? </li>
-<li>Ai-je déposé ma demande de reconnaissance avant le 31 janvier et effectué la saisie en ligne des données agricoles selon le calendrier annuel? </li>
-<li>Mon dossier est-il complet, incluant l'intégralité des pièces nécessaires à la reconnaissance? </li>
-<li>Ai-je contacté rapidement le responsable régional pour finaliser mon dossier à temps?</li>
-</ol>
-</div>
-<hr>
 
 ## Corriger orthographe, grammaire et ponctuation
 
