@@ -1128,6 +1128,70 @@ Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contrib
 </div>
 <hr>
 
+## Demander de répondre à une question en se basant sur un texte donné en entrée
+
+<div class="mycomment"><br>
+NB: limité en raison du nombre de caractère maximal qu'on peut passer dans la prompt
+</div>
+<div class="chatgptIn"><br>
+Les données ci-dessous contiennent des informations concernant les sanctions à appliquer si les conditions de participation à 3 programme (SST, SRPA, Mise au pâturage) ne sont pas remplies ; pour chacun des programmes, la 3ème colonne à droite "Réduction" indique la sanction à appliquer pour chaque type de manquement indiqué dans la colonne "Manquement concernant le point de contrôle" (1ère colonne à gauche) ; la sanction varie selon la catégorie de bétail (indiquée dans la deuxième colonne). En se basant uniquement sur ces données, réponds à la question suivante : quelle est la sanction à appliquer s'il est constaté que de la litière manque dans une écurie de bovins ? Si les données ne permettent pas de répondre à la question, réponds :"je ne sais pas".<br>
+<i>coller ici une partie de l'annexe 8 / tableau des sanctions de l'OPD issu du document word</i>
+</div><br><div class="chatgptOut"><br>
+Selon les données fournies, la sanction à appliquer s'il est constaté que de la litière manque dans une écurie de bovins dépend de la situation spécifique. Voici les informations pertinentes:<br>
+•	Si la litière est en quantité insuffisante, la réduction serait de 10 points. <br>
+•	Si la litière est beaucoup trop insuffisante, la réduction serait de 40 points. <br>
+•	Si la litière est totalement absente (pas de litière conforme SST), la réduction serait de 110 points. <br>
+Donc, la sanction à appliquer dépend du degré de manquement à la norme de litière, et cela peut varier entre 10 et 110 points, en fonction de la situation spécifique observée.
+</div>
+<br>
+<div class="chatgptIn"><br>
+Même consigne que la question précédente, mais pour la question : "quelle est la sanction à appliquer en cas de fauche précoce d'une prairie extensive ?"
+</div><br><div class="chatgptOut"><br> 
+En se basant uniquement sur les données fournies, il n'y a pas d'information spécifique concernant la sanction à appliquer en cas de fauche précoce d'une prairie extensive. Par conséquent, je ne peux pas répondre à cette question en utilisant les données disponibles.
+</div>
+<hr>
+## Demander de résumer un texte de façon facilement compréhensible ou en langage FALC
+
+<div class="chatgptIn"><br>
+Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; résume chacune de ces sections de façon claire et concise de telle manière qu'un enfant de 10 ans pourrait comprendre. Résume chaque section en 1 paragraphe d'environ 50 mots.
+<i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012</i> 
+</div><br><div class="chatgptOut"><br>
+<b>A1-1 Principes: </b><br>
+Cette section parle d'une loi pour protéger l'environnement. Elle dit que si quelque chose peut nuire à la nature, il faut le réduire avant que ça devienne un problème. La loi interdit de vendre des produits qui pourraient nuire à l'environnement, et ceux qui les utilisent doivent le faire de manière sûre. Il faut aussi informer les gens sur ces produits. <br>
+<b>A1-2 Restrictions d’utilisation pour certains engrais: </b><br>
+Cela concerne l'utilisation des engrais dans l'agriculture. On dit quand et comment on peut les utiliser. Par exemple, on ne peut pas mettre certains engrais pendant certaines périodes, et les liquides ne peuvent pas être utilisés dans certaines conditions du sol. Il y a aussi des limites sur la quantité pour éviter les problèmes. <br>
+<b>A1-3 Interdictions d’utilisation dans certaines régions: </b><br>
+Cette partie explique où on ne peut pas épandre d'engrais. Il est interdit dans les zones naturelles spéciales et près des cours d'eau pour protéger l'eau. Les autorités locales peuvent aussi avoir d'autres règles pour protéger leur eau. <br>
+<b>A1-4 Mise en circulation d’engrais: </b><br>
+Ici, on parle de la façon dont les engrais sont approuvés et utilisés. Certains engrais doivent répondre à des règles strictes pour être vendus. On ne peut pas mélanger certains produits dangereux avec les engrais. Les agriculteurs doivent suivre ces règles pour protéger la qualité des engrais et de l'environnement.
+</div>
+<div class="mycomment"><br>
+NB : ça marche mieux de lui demander et de rebondir sur sa réponse ; si on écrit la question en mettant "si tu ne connais pas le langage facile à lire et à comprendre (FALC), réponds "je ne sais pas"", il répond qu'il ne sait pas 
+</div>
+<br>
+<div class="chatgptIn"><br> 
+Est-ce que tu connais le langage facile à lire et à comprendre (FALC) ?
+</div><br><div class="chatgptOut"><br>
+Oui, je suis familiarisé avec le concept [...]
+</div>
+<br>
+<div class="chatgptIn"><br> 
+Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; puisque tu connais le langage facile à lire et à comprendre (FALC), résume chacune de ces sections de façon claire et concise de telle manière en utilisant l'approche du langage FALC. Résume chaque section en 1 paragraphe d'environ 30 mots en langage facile à lire et à comprendre.<br>
+<i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012>
+</div><br><div class="chatgptOut"><br>
+<b>A1-1 Principes:</b><br>
+La loi sur la protection de l'environnement vise à prévenir les atteintes nuisibles ou gênantes. Elle interdit la mise en commerce de substances pouvant menacer l'environnement ou la santé humaine. L'utilisation de ces substances doit éviter de constituer une menace. De plus, ceux qui les commercialisent doivent informer sur leurs propriétés environnementales. <br>
+<b>A1-2 Restrictions d'utilisation pour certains engrais: </b><br>
+L'épandage d'engrais azotés est autorisé pendant les périodes favorables à l'absorption par les plantes. Les engrais liquides ne doivent être épandus que sur un sol apte à les absorber, évitant les conditions météorologiques extrêmes. Des limitations précises s'appliquent à l'épandage de compost et de digestats solides.<br>
+<b>A1-3 Interdictions d'utilisation dans certaines régions: </b><br>
+Il est interdit d'épandre des engrais dans des réserves naturelles et zones spécifiques pour protéger l'environnement. Les limitations s'étendent aux eaux superficielles et zones de protection des eaux souterraines. Les autorités cantonales peuvent imposer des restrictions supplémentaires si nécessaire. <br>
+<b>A1-4 Mise en circulation d'engrais: </b><br>
+La réglementation sur la mise en circulation d'engrais couvre l'homologation, l'importation et l'utilisation. Les engrais doivent répondre à des exigences qualitatives spécifiques, excluant l'ajout de produits nuisibles. L'Office fédéral peut autoriser certains additifs sous conditions strictes pour ne pas compromettre la fertilité du sol.
+</div>
+<hr>
+
+
+
 
 <!--
 <div id="mycontainer">
