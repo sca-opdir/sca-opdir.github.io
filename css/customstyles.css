@@ -1205,7 +1205,7 @@ h4.panel-title {
 
 .chatgptOut {
     font-size:90%;
-    width: 50px;
+    width: 800px;
     color: #763603;
     margin:0px 0px 0px 0px;
     border-left: 5px solid #C15907;
@@ -1223,6 +1223,7 @@ h4.panel-title {
 .chatgptIn {
     font-size:90%;
     color: #013A1C;
+    width: 800px;
     margin:0px 0px 0px 0px;
     border-left: 5px solid #058B45;
     padding-left: 10px;
