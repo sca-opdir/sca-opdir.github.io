@@ -1242,6 +1242,51 @@ Globalement, le candidat semble avoir une solide base académique, des compéten
 </div>
 <hr>
 
+## Générer une FAQ sur la base d'un manuel d'instruction pour utilisateurs d'un outil informatique
+
+<div class="chatgptIn"><br>
+Le texte ci-dessous est issu d'un manuel d'instruction pour la saisie en ligne de données agricoles. Liste 20 questions techniques que pourrait se poser un professionnel du monde agricole qui doit utiliser cette plateforme pour saisir ses données et réponds à chacune de ces questions de manière très brève à la façon question-réponse d'une FAQ. <br>
+<i>coller ici le texte du manuel d'instruction</i>
+</div><br><div class="chatgptOut"><br>
+<b>FAQ - Saisie en ligne de données agricoles </b><br>
+1. <b>Comment sélectionner mon rôle pour la saisie des données?</b> Cliquez sur l'onglet "Utilisateurs", choisissez votre rôle parmi les différents onglets. <br>
+2. <b>Comment ouvrir le menu principal sur les petits écrans?</b> Utilisez le bouton "Maison" pour revenir à la page de sélection des exploitations. <br>
+3. <b>Comment enregistrer, générer un document ou annuler une saisie en <b>Cours?</b> Utilisez les boutons correspondants dans la section "Boutons". <br>
+4. <b>Comment choisir une exploitation et filtrer les données?</b> Utilisez la "Zone de filtres par critères" et sélectionnez une exploitation en cliquant sur son nom. <br>
+5. <b>Comment mettre à jour les informations générales de mon exploitation?</b> Cliquez sur "Modifier" dans la section "Détail de l'exploitation" et validez les modifications. <br>
+6. <b>Comment ajouter ou modifier des membres de l'exploitation?</b> Allez dans la section "Composition", cliquez sur "Modifier" et saisissez les modifications. <br>
+7. <b>Comment saisir la main-d'œuvre et d'autres annonces?</b> Utilisez les sections appropriées, comme "Main d'œuvre" ou "Autres annonces", et suivez les instructions. <br>
+8. <b>Comment annoncer des nouvelles surfaces ou changer de code de culture?</b> Utilisez les sections "Surfaces exploitées" et "Détail de la surface exploitée" pour effectuer ces opérations. <br>
+9. <b>Comment corriger des erreurs de saisie avant la validation?</b> Cliquez sur "Valider" et corrigez les erreurs signalées en utilisant le bouton "Voir erreur". <br>
+10. <b>Comment générer un document de validation et le télécharger?</b> - Allez dans la section "Contrôle et validation", cliquez sur "Afficher" puis "Je confirme avoir vérifié les documents". <br>
+11. <b>Comment télécharger des documents de synthèse?</b> - Accédez à la section "Documents de synthèse", cliquez sur "Générer" puis "Afficher". <br>
+12. <b>Comment consulter les parcelles de mon exploitation sur une carte?</b> - Utilisez la section "Parcelles de l’exploitation" et cliquez sur "Détail surface" pour plus d'informations. <br>
+13. <b>Comment recenser le bétail, les ruchers, et les poissons?</b> - Utilisez les sections appropriées, telles que "Relevé des animaux" ou "Ruchers", pour saisir ces données. <br>
+14. <b>Comment corriger des erreurs après la validation?</b> - Après la validation, les données ne peuvent plus être modifiées. Assurez-vous de corriger les erreurs avant de valider. <br>
+15. <b>Comment télécharger le document de validation après la validation?</b> - Allez dans la section "Document de validation" pour télécharger le document généré. <br>
+16. <b>Comment ajouter une nouvelle parcelle exploitée ou dessiner une surface?</b> - Utilisez les sections "Ajouter une nouvelle parcelle exploitée" ou "Dessiner une surface" pour ces opérations. <br>
+17. <b>Comment annoncer des codes de culture pour les programmes de renoncement?</b> - Consultez les sections spécifiques comme "Renoncement herbicides" et "Renoncement phytosanitaires" pour annoncer les codes de culture. <br>
+18. <b>Comment annoncer de nouvelles surfaces de promotion de la biodiversité qualité 2 ou dans les réseaux agro-environnementaux?</b> - Utilisez les sections "Annonces des SPB II" ou "Annoncer des surfaces réseaux" pour effectuer ces annonces. <br>
+19. <b>Comment changer de code de culture sur une surface agricole existante?</b> - Utilisez la section "Parcelle et surfaces" et suivez les étapes décrites pour changer le code de culture. <br>
+20. <b>Comment supprimer une parcelle si vous ne l’exploitez plus?</b> - Allez dans la section "Surfaces exploitées", sélectionnez la parcelle et cliquez sur "Supprimer". Attention, cette action est irréversible. 
+</div>
+<hr>
+    
+## Convertir tableau en texte
+
+<div class="chatgptIn"><br>
+Le tableau ci-dessous contient 3 colonnes ; la 1ère indique la personne responsable, la 2ème l'action effectuée; la 3ème la période à laquelle l'action a été effectuée. A partir de ce tableau rédige un court paragraphe qui explique les actions effectuées. La chronologie des actions doit être respectée. Ne rajoute pas d'autres informations que celles contenues dans le tableau.<br>
+Caroline;collecte des données;juin 2023<br>
+Caroline;vérification résultats;fin septembre 2023<br>
+Marie;écrit le script;mai 2023<br>
+Marie;calcul des réductions;mi-septembre 2023<br>
+Johanna;préparation cartes;avril 2023<br>
+Johanna;saisie des réductions;fin septembre 2023<br>
+
+</div><br><div class="chatgptOut"><br>
+Au cours du mois d'avril 2023, Johanna a débuté le processus en se chargeant de la préparation des cartes nécessaires à une tâche spécifique. Par la suite, en juin 2023, Caroline a pris le relais en collectant les données requises pour le projet. Marie a ensuite contribué en mai 2023 en rédigeant le script nécessaire à l'accomplissement des prochaines étapes. Vers la mi-septembre 2023, Marie a repris ses responsabilités en effectuant le calcul des réductions, tandis que Caroline a entrepris la vérification des résultats obtenus. Simultanément, Johanna a finalisé le processus en saisissant les réductions nécessaires à la fin du mois de septembre 2023. Ainsi, chaque personne a joué un rôle crucial à des moments spécifiques, assurant ainsi le déroulement cohérent et ordonné des différentes actions nécessaires au projet.
+</div>
+<hr>
 
 
 <!--
