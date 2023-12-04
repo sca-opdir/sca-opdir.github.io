@@ -10,6 +10,6 @@ permalink: index.html
 
 ## Buts du site
 
-Sur ce site sont rassemblés des informations sur des outils IT potentiellement utiles pour notre Office.
+Sur ce site sont rassemblées des informations sur des outils IT potentiellement utiles pour notre Office.
 
 {% include links.html %}
