@@ -1190,6 +1190,57 @@ La réglementation sur la mise en circulation d'engrais couvre l'homologation, l
 </div>
 <hr>
 
+## Remplacer un mot (et ses formes dérivées) par un autre seulement là où cela est pertinent
+
+<div class="chatgptIn"><br>
+Dans le texte ci-dessus, remplace là où cela fait du sens toutes les formes du verbe faire par celles du verbe "procéder" sans rien changer au reste du texte. Si le verbe procéder ne fait pas dans sens dans le contexte, laisse le verbe "faire".<br>
+J'ai fait une analyse de texte, tout en faisant une revue de littérature. Toi tu faisais des biscuits. J'ai fait l'examen aujourd'hui. Demain, je ferai la révision. Il fait beau demain.
+</div><br><div class="chatgptOut"><br>
+J'ai procédé à une analyse de texte, tout en procédant à une revue de littérature. Toi, tu faisais des biscuits. J'ai procédé à l'examen aujourd'hui. Demain, je procéderai à la révision. Il fait beau demain.
+</div>
+<hr>
+
+## Remplacer un mot par des synonymes
+
+<div class="chatgptIn"><br>
+Dans le texte ci-dessous, le terme "ouvrage" revient fréquemment. Remplace-le autant que possible par des synonymes, sans que cela ne change le sens du texte. Laisse le reste du texte inchangé. Indique en gras les mots utilisés en remplacement.
+<br>
+Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le présent et le futur. C’est l’ambition de l’ouvrage dévoilé à Châteauneuf ce mercredi. Il prend la forme d’un coffret comprenant un livre d’histoire et cinq cahiers sur les thématiques incontournables pour l’agriculture valaisanne d’aujourd’hui et de demain. Cet ouvrage vient clore le jubilé du centième anniversaire de l’Ecole cantonale d’agriculture. «L’idée était de proposer un ouvrage de synthèse accessible à tous», résume l’historienne Delphine Debons, mandatée par le Service de l’agriculture pour ce travail historique et de mise en perspective. En une centaine de pages, l'ouvrage retrace un siècle d’enseignement à l’école d’agriculture et de mise en œuvre de la politique agricole valaisanne. «J’ai, par exemple, été étonnée de découvrir que l’école de Châteauneuf gérait en gros toute l’agriculture durant une période», note Delphine Debons. Pour aborder le passé de l’institution et étoffer son ouvrage, l’historienne s’est plongée dans les rapports triennaux publiés par l’école depuis 1924 jusqu’en 2001 et dans d’autres archives pour compléter et nuancer les éléments de ces rapports.
+
+</div>
+<br>
+<div class="chatgptOut">
+<br>
+Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le présent et le futur. C’est l’ambition du recueil dévoilé à Châteauneuf ce mercredi. Il prend la forme d’un coffret comprenant un livre d’histoire et cinq cahiers sur les thématiques incontournables pour l’agriculture valaisanne d’aujourd’hui et de demain. Ce travail vient clore le jubilé du centième anniversaire de l’Ecole cantonale d’agriculture. «L’idée était de proposer un document de synthèse accessible à tous», résume l’historienne Delphine Debons, mandatée par le Service de l’agriculture pour ce projet historique et de mise en perspective. En une centaine de pages, le document retrace un siècle d’enseignement à l’école d’agriculture et de mise en œuvre de la politique agricole valaisanne. «J’ai, par exemple, été étonnée de découvrir que l’école de Châteauneuf gérait en gros toute l’agriculture durant une période», note Delphine Debons. Pour aborder le passé de l’institution et étoffer son travail, l’historienne s’est plongée dans les rapports triennaux publiés par l’école depuis 1924 jusqu’en 2001 et dans d’autres archives pour compléter et nuancer les éléments de ces rapports.
+</div>
+
+<hr>
+## Analyser un CV par rapport à l'annonce du poste
+
+<div class="chatgptIn"><br>
+Je vais te donner 2 textes. Tout d'abord un descriptif d'un poste issu d'une annonce d'emploi. Ensuite le CV d'une personne qui a postulé pour ce poste. Analyse le profil du candidat. Puis, liste ses points forts pour le poste, puis ses points faibles pour le poste.<br>
+L'annonce du poste :<br>
+<i>copier ici l'annonce du poste</i><br>
+Le CV du candidat : <br>
+<i>copier ici le cv</i><br>
+
+</div>
+<br>
+<div class="chatgptOut"><br>
+Analyse du profil du candidat pour le poste décrit dans l'annonce d'emploi : <br>
+Points forts pour le poste : <br>
+1.	<b>Formation académique solide : </b>  Le candidat a un doctorat en sciences de la vie avec une spécialisation en bioinformatique, ce qui correspond bien au champ de compétences requis dans l'annonce. <br>
+2.	<b>Expérience pertinente : </b>  La postdoctorante a travaillé dans le groupe Reasoning & Explainable AI à l'Institut Idiap, avec un projet axé sur le deep learning pour la caractérisation des tumeurs et la découverte de biomarqueurs. Cette expérience est directement liée à la manipulation de données complexes, ce qui est essentiel pour le poste. <br>
+3.	<b>Compétences informatiques :</b> Le candidat possède des compétences avancées en programmation (R et Python) et a travaillé avec des outils tels que GitHub et Bitbucket. Ces compétences correspondent aux exigences en informatique de l'annonce. <br>
+4.	<b>Expérience en agriculture : </b> Les stages professionnels incluent une période au département de l'agriculture et à Mediplant, ce qui peut apporter une compréhension pratique du secteur agricole. <br>
+5.	<b>Polyvalence et esprit innovateur : </b> Le candidat a montré sa polyvalence en travaillant sur des projets variés, de la bioinformatique à la rédaction et à la gestion de projets environnementaux. L'implication dans des associations et l'organisation d'événements démontrent également un esprit innovateur et une capacité à initier des projets. <br>
+Points faibles pour le poste : <br>
+1.	<b>Langue allemande : </b> Bien que le candidat ait indiqué avoir des connaissances de base en allemand (B1-B2), la préférence est donnée à la langue maternelle allemande. Cela pourrait être un point faible, surtout dans le contexte de contacts réguliers avec les exploitants agricoles et les services administratifs cantonaux et fédéraux. <br>
+2.	<b>Expérience spécifique en gestion de bases de données agricoles : </b>  Bien que le candidat ait des compétences en gestion de bases de données, l'annonce mentionne la nécessité de travailler sur des bases de données spécifiques en agriculture. Il n'y a pas d'indication claire dans le CV concernant une expérience directe dans ce domaine spécifique. <br>
+3.	<b>Expérience directe en contrôles liés aux paiements directs dans les exploitations agricoles : </b> Bien que le candidat ait travaillé sur des projets liés à l'agriculture, il n'y a pas de mention explicite d'expérience directe dans la mise en œuvre de mesures liées aux paiements directs dans les exploitations agricoles, ce qui est une des responsabilités clés du poste. <br>
+Globalement, le candidat semble avoir une solide base académique, des compétences techniques pertinentes, et une expérience diversifiée, mais pourrait bénéficier d'une expérience plus directe dans le domaine spécifique des bases de données agricoles et des contrôles liés aux paiements directs. La maîtrise de l'allemand pourrait également être renforcée pour mieux correspondre aux préférences linguistiques de l'annonce.
+</div>
+<hr>
 
 
 
