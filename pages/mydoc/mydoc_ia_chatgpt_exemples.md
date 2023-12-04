@@ -391,7 +391,8 @@ La 5e édition des Mérites Agricoles a salué la cave Chanton, Stéphanie Motti
 <hr>
 
 ## Trouver des titres 
-<div class="mycomment"><br>
+
+<div class="mycomment">
 Vrai titre :<br>
 100e de l’EAV : un livre d’histoire et cinq cahiers thématiques réunis dans un coffret
 </div>
@@ -409,7 +410,9 @@ Les cahiers thématiques traitent de l’alimentation, de l’environnement, du 
 Publié par les Archives du Valais, dans la série des Cahiers de Vallesia, ce coffret clôt les festivités officielles du 100e anniversaire de l’Ecole d’agriculture du Valais. Une année marquée notamment par la soirée des anciennes et des anciens, la journée portes ouvertes, un cycle de conférences et la présence de l’école en qualité d’hôte d’honneur à la Foire du Valais. <br>
 
 Une séance de dédicaces permettra au public de rencontrer les auteurs et les illustrateurs du livre du 100e le mercredi 13 décembre de 17h30 à 20h00 à Châteauneuf. L’occasion également de déguster les vins de la cuvée du 100e, une Petite Arvine et un Cornalin issus des domaines viticoles de l’Etat du Valais.
-</div><br><div class="chatgptOut"><br>
+</div>
+<br>
+<div class="chatgptOut"><br>
 1.	"Centenaire de l'Ecole d'Agriculture du Valais : Un Coffret d'Histoire Inédit"<br>
 2.	"Châteauneuf - 100 Ans d'Agriculture : Le Récit Captivant d'une Institution Centenaire"<br>
 3.	"Cahiers de Vallesia : L'Épopée de l'Agriculture Valaisanne en Cinq Thématiques"<br>
@@ -421,6 +424,7 @@ Une séance de dédicaces permettra au public de rencontrer les auteurs et les i
 9.	"Centenaire de l'EAV : Des Cahiers qui Racontent l'Agriculture Valaisanne en Pointillé"<br>
 10.	"Rencontre et Dédicaces : Plongez dans l'Histoire avec les Créateurs du Coffret du 100e"
 </div>
+
 <hr>
 
 ## Remplacer un terme par des synonymes à l'intérieur d'un texte
@@ -614,6 +618,7 @@ Note: Certaines de ces corrections sont des suggestions de style ou de clarté, 
 
 <div class="chatgptIn"><br>
 Je vais te donner du XSD puis du XML; dis-moi si le XML est conforme au XSD et si tous les éléments du XSD sont bien présents dans le XML. Si le XML n'est pas consistant avec le XSD, explique pourquoi.<br>
+    
     ```
   <xs:complexType name="registrationDataType"><br>
     <xs:sequence><br>
@@ -634,6 +639,7 @@ Je vais te donner du XSD puis du XML; dis-moi si le XML est conforme au XSD et s
 <n0:E_KLRebHangbeitrag>false</n0:E_KLRebHangbeitrag><br>
 </n0:registrationData>
           ```
+          
 </div><br><div class="chatgptOut"><br>
 Le XML que vous avez fourni semble être conforme au schéma XML (XSD) que vous avez partagé. Les éléments du XML correspondent aux éléments déclarés dans le XSD, et les valeurs semblent également correspondre aux types de données spécifiés dans le schéma.<br>
 Cependant, il y a une petite différence : le XSD spécifie que l'élément E_INInsitu doit être présent, mais il n'apparaît pas dans le XML que vous avez fourni. Selon le XSD, cet élément est requis (minOccurs="1"), mais il est manquant dans le XML. <br>
@@ -651,6 +657,7 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
 
 <div class="chatgptIn"><br>
 Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
+    
 ```
     <pointGroup><br>
       <pointGroupID>07.1.1</pointGroupID><br>
@@ -666,10 +673,12 @@ Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
         <pointID>02</pointID><br>
       </point><br>
     </pointGroup>
-          ``` 
+          ```
+
           <br>
 </div><br><div class="chatgptOut"><br>
 Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structure dans la deuxième balise `<pointGroup>`. Voici une version corrigée :
+
 ```
 <pointGroup>
   <pointGroupID>07.1.1</pointGroupID>
@@ -687,6 +696,7 @@ Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structu
   </point>
 </pointGroup>
 ```
+
 Les erreurs corrigées sont les suivantes :
 <ol><li>Dans la deuxième balise `<pointGroup>`, la balise `<pointGroupID>` n'était pas correctement fermée. Il manquait la balise de fermeture `</pointGroupID>`.</li>
 <li>Dans la deuxième balise `<pointGroup>`, la balise `<pointID>` était mal placée. Elle devrait être à l'intérieur de la balise `<point>`. Dans votre version incorrecte, elle était en dehors de la balise `<point>`. J'ai déplacé la balise `<pointID>` à l'intérieur de la balise `<point>`.</li></ol>
@@ -768,11 +778,14 @@ Cette analyse doit être adaptée en fonction des spécificités du canton et de
 <hr>
 
 ## Analyser un document et suggérer des améliorations selon les intérêts d'un certain point de vue 
+
 <div class="chatgptIn"><br>
 Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et propose des améliorations pour la rendre plus profitable pour le canton
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf></i>
 
-</div><br><div class="chatgptOut"><br>
+</div>
+<br>
+<div class="chatgptOut"><br>
 En tant que responsable des systèmes d'information d'un canton suisse, voici quelques suggestions pour améliorer la charte sur la numérisation de l'agriculture et la rendre plus profitable pour le canton:
 <ol><li>Personnalisation pour le Canton:
 <ul><li>Intégrer des éléments spécifiques au canton dans la charte pour refléter les besoins et les priorités locaux. Par exemple, tenir compte des particularités agricoles du canton, des ressources disponibles et des spécificités économiques.</li></ul>
@@ -803,8 +816,9 @@ En intégrant ces éléments, la charte pourrait devenir plus adaptée aux besoi
 <div class="chatgptIn"><br>
 Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et liste 10 questions qu'il faudrait adresser à l'administration fédérale pour s'assurer que cette charte soit bénéfique pour le canton. <br>
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf></i>
+</div><br>
 
-</div><br><div class="chatgptOut"><br>
+<div class="chatgptOut"><br>
 En tant que responsable des systèmes d'information du canton suisse, voici 10 questions que vous pourriez adresser à l'administration fédérale pour vous assurer que la charte sur la numérisation de l'agriculture soit bénéfique pour votre canton :
 <ol><li>**Interopérabilité des systèmes** : Comment la charte assure-t-elle l'interopérabilité des systèmes numériques entre la Confédération, les cantons et les acteurs privés, afin de garantir une collaboration efficace et harmonieuse?</li><li>
 **Protection des données** : Comment la charte garantit-elle la protection des données dans le cadre de la numérisation de l'agriculture et du secteur agroalimentaire, en particulier en ce qui concerne la collecte, le stockage et le traitement des données sensibles? </li><li>
@@ -874,8 +888,11 @@ Imagine un débat entre des représentants de ces 4 points de vue ; chacun a le 
 2.	<b>Cd2 (en faveur): </b> "Les contrôles plus ciblés et une meilleure efficacité administrative sont des avantages majeurs de digiFLUX. Les agriculteurs bénéficieront également d'une réduction de la charge administrative. Investissons dans une solution qui améliore l'efficacité globale de nos processus." <br>
 3.	<b>Cd3 (en défaveur): </b> "Les risques liés à la sécurité des données persistent. Imposer une transition sans dispositions transitoires peut créer des problèmes. Devrions-nous sacrifier la sécurité pour l'efficacité? N'est-il pas plus sage d'explorer des alternatives moins risquées?"
 </div>
+
 <hr>
+
 ## Tableau excel depuis pdf
+
 <div class="mycomment">
 NB : il faut ensuite coller la réponse de chatGPT dans Excel en utilisant l'Assistant Importation de texte ; on peut aussi demander à ChatGPT de produire le tableau en format html et utiliser un convertisseur en ligne qui convertit html en xlsx (e.g. https://products.aspose.app/cells/conversion/html-to-xlsx)
 </div>
@@ -906,6 +923,7 @@ eCH-XXXX | Das Format des Inhalts entspricht dem eCH-Standard eCH-XXXX (voir www
 <hr>
 
 ## Mettre en majuscule les lettres en début de phrase
+
 <div class="mycomment">
 NB : n'arrive pas à respecter de ne pas changer la ponctuation et à ne pas mettre en majuscule la lettre après "->" 
 </div>
@@ -938,6 +956,7 @@ Cas particuliers: <br>
 9.	Prêles résistantes à l'herbicide.
 </div>
 <hr>
+
 ## Trouver la formule excel à utiliser pour obtenir un résultat
 
 <div class="mycomment">
@@ -974,8 +993,9 @@ Pour résoudre cette tâche dans Excel, vous pouvez utiliser la fonction SOMMEPR
 ## Explication de code informatique'un code Python ou R
 
 <div class="chatgptIn"><br>
-Que fait le code R ci-dessous ?
-``` 
+Que fait le code R ci-dessous ?<br>
+
+``` R
 filled_pdirg_dt <- pdirg_dt
 stopifnot(!is.na(filled_pdirg_dt[,insc2g]))
 stopifnot(missing$variable %in%colnames(filled_pdirg_dt))
@@ -1166,6 +1186,7 @@ Même consigne que la question précédente, mais pour la question : "quelle est
 En se basant uniquement sur les données fournies, il n'y a pas d'information spécifique concernant la sanction à appliquer en cas de fauche précoce d'une prairie extensive. Par conséquent, je ne peux pas répondre à cette question en utilisant les données disponibles.
 </div>
 <hr>
+
 ## Demander de résumer un texte de façon facilement compréhensible ou en langage FALC
 
 <div class="chatgptIn"><br>
@@ -1211,7 +1232,10 @@ La réglementation sur la mise en circulation d'engrais couvre l'homologation, l
 <div class="chatgptIn"><br>
 Dans le texte ci-dessus, remplace là où cela fait du sens toutes les formes du verbe faire par celles du verbe "procéder" sans rien changer au reste du texte. Si le verbe procéder ne fait pas dans sens dans le contexte, laisse le verbe "faire".<br>
 J'ai fait une analyse de texte, tout en faisant une revue de littérature. Toi tu faisais des biscuits. J'ai fait l'examen aujourd'hui. Demain, je ferai la révision. Il fait beau demain.
-</div><br><div class="chatgptOut"><br>
+</div>
+<br>
+<div class="chatgptOut">
+    <br>
 J'ai procédé à une analyse de texte, tout en procédant à une revue de littérature. Toi, tu faisais des biscuits. J'ai procédé à l'examen aujourd'hui. Demain, je procéderai à la révision. Il fait beau demain.
 </div>
 <hr>
@@ -1231,6 +1255,7 @@ Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le
 </div>
 
 <hr>
+
 ## Analyser un CV par rapport à l'annonce du poste
 
 <div class="chatgptIn"><br>
