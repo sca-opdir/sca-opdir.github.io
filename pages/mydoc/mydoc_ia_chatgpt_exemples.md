@@ -86,6 +86,48 @@ Pour ces mêmes données, résume de façon concise sous forme de liste les tâc
 14. Corriger la base de données (Mylène). <br>
 </div>
 
+<br>
+## Extraire des éléments d'un XML
+
+<div class="chatgptIn"><br>
+Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-dessous : <br>
+<n0:E_KLZonenbeitrag>true</n0:E_KLZonenbeitrag><br>
+<n0:E_KLAllgHangbeitrag>true</n0:E_KLAllgHangbeitrag><br>
+<n0:E_KLSteillagenbeitrag>true</n0:E_KLSteillagenbeitrag><br>
+<n0:E_KLRebHangbeitrag>false</n0:E_KLRebHangbeitrag><br>
+<n0:E_KLAlpungsbeitrag>true</n0:E_KLAlpungsbeitrag><br>
+<n0:E_KLSoemmerungsbeitrag>false</n0:E_KLSoemmerungsbeitrag><br>
+<n0:E_VSBasisbeitrag>true</n0:E_VSBasisbeitrag><br>
+<n0:E_VSZonenbeitrag>true</n0:E_VSZonenbeitrag><br>
+<n0:E_VSOffeneAckerflaecheundDauerkulturen>true</n0:E_VSOffeneAckerflaecheundDauerkulturen><br>
+<n0:E_VSEinzelkultur>true</n0:E_VSEinzelkultur><br>
+<n0:E_BDQualitaetsbeitrag>true</n0:E_BDQualitaetsbeitrag><br>
+<n0:E_BDQualitaetsbeitragSoem>false</n0:E_BDQualitaetsbeitragSoem><br>
+<n0:E_BDVernetzungsbeitrag>true</n0:E_BDVernetzungsbeitrag><br>
+<n0:E_LQBeitrag>true</n0:E_LQBeitrag><br>
+<n0:E_LQBeitragSoem>false</n0:E_LQBeitragSoem><br>
+<n0:E_PSBiolandbau>false</n0:E_PSBiolandbau><br>
+</div><br><div class="chatgptOut"><br>
+Voici les noms des éléments sans le namespace "n0" : <br>
+````
+E_KLZonenbeitrag
+E_KLAllgHangbeitrag
+E_KLSteillagenbeitrag
+E_KLRebHangbeitrag
+E_KLAlpungsbeitrag
+E_KLSoemmerungsbeitrag
+E_VSBasisbeitrag
+E_VSZonenbeitrag
+E_VSOffeneAckerflaecheundDauerkulturen
+E_VSEinzelkultur
+E_BDQualitaetsbeitrag
+E_BDQualitaetsbeitragSoem
+E_BDVernetzungsbeitrag
+E_LQBeitrag
+E_LQBeitragSoem
+E_PSBiolandbau
+```
+</div>
 
 
 
