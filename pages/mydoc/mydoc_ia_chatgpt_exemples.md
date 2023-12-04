@@ -1288,6 +1288,90 @@ Au cours du mois d'avril 2023, Johanna a débuté le processus en se chargeant d
 </div>
 <hr>
 
+## Création d'un glossaire en se basant sur les infos d'un texte et tri alphabétique
+
+<div class="chatgptIn"><br>
+Le texte ci-dessous donne la définition de plusieurs concepts ; tous les concepts définis par le mot "Par", par exemple la phrase qui commence "Par terres assolées, on entends les terres [...]" définit le concept "terres assolées". A partir de ce texte et en utilisant uniquement les informations contenues dans ce texte, créer un glossaire qui donne la définition de ces concepts introduits par le mot "Par" ; le glossaire doit avoir le format : "concept = définition". La définition du concept doit être très brève (maximum 20 mots) 
+<i>coller ici les art. 18 à 36 de l'OTerm</i>
+</div>
+<br>
+<div class="chatgptOut">
+<br>
+Glossaire :<br>
+1.	<b>Terres assolées </b>= Terres soumises à la rotation culturale, composées de terres ouvertes et de prairies temporaires. <br>
+2.	<b>Terres ouvertes </b>= Surfaces dédiées aux cultures annuelles, légumes, baies annuelles, jachères florales, tournantes, et ourlets sur terres assolées. <br>
+3.	<b>Prairies temporaires </b>= Prairies ensemencées exploitées pendant un cycle de végétation dans le cadre de l’assolement. <br>
+4.	<b>Culture principale </b>= Culture occupant le sol le plus longtemps pendant la période de végétation, mise en place au plus tard le 1er juin. <br>
+5.	<b>Surfaces herbagères permanentes </b>= Surfaces couvertes de graminées et d'herbacées, existant depuis plus de six ans en prairies ou pâturages. <br>
+6.	<b>Surfaces herbagères </b>= Prairies temporaires et surfaces herbagères permanentes. <br>
+7.	<b>Cultures pérennes </b>= Vignes, cultures fruitières, baies pluriannuelles, plantes aromatiques, houblon, cultures maraîchères, horticoles, châtaigneraies entretenues, et autres. <br>
+8.	<b>Cultures fruitières </b>= Vergers compacts avec différentes densités d'arbres selon les types. <br>
+9.	<b>Haies, bosquets champêtres et berges boisées </b>= Bandes boisées de buissons, arbres et arbrisseaux, avec certaines limites de superficie, largeur et âge. <br>
+10.	<b>Surfaces d'estivage (SEst) </b>= Pâturages communautaires, pâturages d'estivage, et prairies de fauche pour l'affouragement durant l'estivage. <br>
+11.	<b>Pâturages communautaires </b>= Surfaces exploitées en commun par une collectivité pour le pacage du bétail. <br>
+12.	<b>Pâturages d'estivage </b>= Surfaces exclusivement utilisées pour le pacage estival des animaux, faisant partie d'une exploitation d'estivage.
+<div>
+<br>
+<div class="chatgptIn"><br>
+Est-ce que tu identifies d'autres concepts qui ne sont pas introduits par "Par" mais qui pourraient être inclus dans le glossaire ? si oui, complète le glossaire avec ces termes.
+</div>
+<div class="mycomment">
+NB : ce n'est pas parfait, par exemple Pâturages communautaires et Pâturages d'estivage sont introduits par "par"
+</div><br>
+<div class="chatgptOut">
+<br>
+Bien que la plupart des concepts soient introduits par "Par", il y a des termes connexes dans le texte qui peuvent être inclus dans le glossaire :<br>
+13.	<b>Assolement </b>= Rotation culturale appliquée aux terres assolées. <br>
+14.	<b>Jachères florales </b>= Surfaces laissées en friche et cultivées avec des fleurs dans le cadre de la rotation culturale. <br>
+15.	<b>Jachères tournantes </b>= Surfaces alternativement en culture et en jachère dans le cadre de la rotation culturale. <br>
+16.	<b>Ourlets sur terres assolées </b>= Bandes de terre en bordure des champs dans le cadre de la rotation culturale.
+17.	<b>Cas de force majeure </b>= Événement imprévu et inévitable, tel que défini dans l'article 106, pouvant affecter la récolte. <br>
+18.	<b>Surfaces à litière </b>= Surfaces cultivées de manière extensive dans des lieux humides, fauchées rarement, utilisées exceptionnellement comme fourrage. <br>
+19.	<b>Vignes </b>= Cultures pérennes comprenant la culture de raisin. <br>
+20.	<b>Cultures maraîchères pluriannuelles </b>= Cultures horticoles de plein champ sur plusieurs années. <br>
+21.	<b>Sapins de Noël </b>= Cultures pluriannuelles destinées à la production de sapins de Noël. <br>
+22.	<b>Roseau de Chine (Miscanthus) </b>= Culture pluriannuelle de roseau de Chine à des fins diverses. <br>
+23.	<b>Haies, bosquets champêtres et berges boisées </b>= Bandes boisées de buissons, arbres et arbrisseaux, avec certaines limites de superficie, largeur et âge. <br>
+24.	<b>Pâturages communautaires </b>= Surfaces exploitées en commun par une collectivité pour le pacage du bétail. <br>
+25.	Pâturages d'estivage </b>= Surfaces exclusivement utilisées pour le pacage estival des animaux, faisant partie d'une exploitation d'estivage. <br>
+Ces termes complémentaires fournissent une compréhension plus approfondie du contexte agricole et de la gestion des terres décrits dans le texte.
+</div>
+<br>
+<div class="chatgptIn"><br>
+Est-ce que tu as utilisé uniquement les informations contenues dans le texte ?
+</div><br><div class="chatgptOut"><br>
+Oui, mes ajouts au glossaire sont basés uniquement sur les informations contenues dans le texte fourni. Aucune connaissance externe n'a été utilisée pour enrichir le glossaire. Si vous avez d'autres questions ou si vous souhaitez des clarifications sur des termes spécifiques, n'hésitez pas à demander.
+<div class="chatgptIn"><br> Peux-tu mettre ensemble ces deux glossaires et trier les concepts par ordre alphabétique ?
+</div><br>
+<div class="chatgptOut">
+<br>
+Bien sûr, voici le glossaire combiné avec les concepts triés par ordre alphabétique : <br>
+1.	<b>Assolement </b>= Rotation culturale appliquée aux terres assolées. <br>
+2.	<b>Cas de force majeure </b>= Événement imprévu et inévitable, tel que défini dans l'article 106, pouvant affecter la récolte. <br>
+3.	<b>Cultures fruitières </b>= Vergers compacts avec différentes densités d'arbres selon les types. <br>
+4.	<b>Cultures maraîchères pluriannuelles </b>= Cultures horticoles de plein champ sur plusieurs années. <br>
+5.	<b>Cultures pérennes </b>= Vignes, cultures fruitières, baies pluriannuelles, plantes aromatiques, houblon, cultures maraîchères, horticoles, châtaigneraies entretenues, et autres. <br>
+6.	<b>Haies, bosquets champêtres et berges boisées </b>= Bandes boisées de buissons, arbres et arbrisseaux, avec certaines limites de superficie, largeur et âge. <br>
+7.	<b>Jachères florales </b>= Surfaces laissées en friche et cultivées avec des fleurs dans le cadre de la rotation culturale. <br>
+8.	<b>Jachères tournantes = Surfaces alternativement en culture et en jachère dans le cadre de la rotation culturale. <br>
+9.	<b>Ourlets sur terres assolées </b>= Bandes de terre en bordure des champs dans le cadre de la rotation culturale. <br>
+10.	<b>Pâturages communautaires </b>= Surfaces exploitées en commun par une collectivité pour le pacage du bétail. <br>
+11.	<b>Pâturages d'estivage </b>= Surfaces exclusivement utilisées pour le pacage estival des animaux, faisant partie d'une exploitation d'estivage. <br>
+12.	<b>Pâturages temporaires </b>= Prairies ensemencées exploitées pendant un cycle de végétation dans le cadre de l’assolement. <br>
+13.	<b>Pâturages d'estivage </b>= Surfaces utilisées exclusivement pour le pacage estival des animaux, faisant partie d'une exploitation d'estivage. <br>
+14.	<b>Sapins de Noël </b>= Cultures pluriannuelles destinées à la production de sapins de Noël. <br>
+15.	<b>Surfaces à litière </b>= Surfaces cultivées d'une manière extensive dans des lieux humides, fauchées rarement, utilisées exceptionnellement comme fourrage. <br>
+16.	<b>Surfaces d'estivage (SEst) </b>= Pâturages communautaires, pâturages d'estivage, et prairies de fauche pour l'affouragement durant l'estivage. <br>
+17.	<b>Surfaces herbagères </b>= Prairies temporaires et surfaces herbagères permanentes. <br>
+18.	<b>Surfaces herbagères permanentes </b>= Surfaces couvertes de graminées et d'herbacées, existant depuis plus de six ans en prairies ou pâturages. <br>
+19.	<b>Surfaces herbagères </b>= Prairies temporaires et surfaces herbagères permanentes. <br>
+20.	<b>Terres assolées </b>= Terres soumises à la rotation culturale, composées de terres ouvertes et de prairies temporaires. <br>
+21.	<b>Terres ouvertes </b>= Surfaces dédiées aux cultures annuelles, légumes, baies annuelles, jachères florales, tournantes, et ourlets sur terres assolées. <br>
+22.	<b>Vignes </b>= Cultures pérennes comprenant la culture de raisin. <br>
+Les termes sont maintenant présentés de manière alphabétique pour une référence plus facile. <br>
+</div
+<hr>
+
 
 <!--
 <div id="mycontainer">
