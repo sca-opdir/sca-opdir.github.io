@@ -1373,6 +1373,79 @@ Les termes sont maintenant présentés de manière alphabétique pour une réfé
 <hr>
 
 
+## Repérer des termes dupliqués dans une liste 
+
+<div class="mycomment">
+NB : n'a pas fonctionné, résultat totalement erroné
+</div>
+<br>
+<div class="chatgptIn"><br>
+Y a-t-il des verbes qui reviennent plus d'une fois dans la liste ci-dessous ? Si oui, lesquels ? <br>
+propose / réalise / estime / crée / aides à [formuler/créer/préparer/élaborer/me préparer pour ...] pour [une start-up qui ...] / identifie / évalue [la performance] / élabore / rédige / donne / formule / mène / génère / développe /écris / cartographie [le parcours ...] / énumère / prépare / utilise [l'analyse SWOT] pour concevoir / examine [notre proposition/ce site web] et suggère [des façons de l'améliorer pour la rendre plus ...] / conçois / fournis / analyse [le parcours/une crise récente ...] / examine [le CV pour ...] et évalue / élabore / estime / présente / suggère / effectue / guide [le client à travers le processus] / conçois / imagine 
+</div><br><div class="chatgptOut"><br>
+Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les verbes qui apparaissent plus d'une fois :
+"propose" apparaît deux fois.
+"réalise" apparaît deux fois.
+"estime" apparaît trois fois.
+"crée" apparaît deux fois.
+</div>
+<hr>
+
+## Compter l'occurrence des mots (échec !)
+
+<div class="mycomment">
+NB : n'a pas fonctionné ; occurrence totale et formes dérivées non agrégées 
+</div>
+<br>
+<div class="chatgptIn"><br>
+Compte le nombre d'occurrence totale de chaque mot dans le texte ci-dessous ; réponds par un tableau contenant le mot en 1ère colonne et l’occurrence en 2ème colonne; le tableau doit donner le résultat pour tout le texte (1 ligne par mot, il ne doit pas y avoir de doublons dans la 1ère colonne) ; le tableau doit être trié par ordre décroissant du nombre d'occurrences ; ne prends en compte que les mots de plus de 3 lettres ; un mot et ses formes dérivées ne doivent être comptabilisés qu'une fois ; 
+par exemple pour la phrase "tu es agriculteur et je suis agricultrice" le résultat doit être : <br>
+être;2<br>
+agriculteur;2<br>
+le texte à analyser est : <br>
+
+<i>copier ici le texte</i>
+</div>
+<br>
+<div class="chatgptOut"><br>
+mot;occurrence<br>
+contributions;14<br>
+surfaces;11<br>
+pour;10<br>
+cultivé;9<br>
+contributions;9<br>
+maintien;9<br>
+paysage;8<br>
+contribution;8<br>
+</div>
+<hr>
+
+
+## Sélectionner les extraits de texte qui permettent de répondre à une question
+
+ <div class="chatgptIn"><br>
+NB : ne marche pas parfaitement
+</div>
+<br><div class="chatgptIn"><br>
+Dans le texte ci-dessous, sélectionne, pour chaque système d'information, les extraits qui se rapportent à la question suivante : "pour chaque système d'information, combien d'agriculteurs/exploitants sont concernés par ce système ?" Veille à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Si l'information n'est pas présente dans le texte, indique que le texte ne permet pas de le savoir. 
+<i>coller ici les paragraphes 2.2.2.1 à 2.2.2.5 du rapport Bourgeois <https://www.blw.admin.ch/dam/blw/fr/dokumente/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf.download.pdf/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf></i>
+</div>
+<br>
+<div class="chatgptOut"><br>
+<b>Acorda:</b><br>
+•	Le fichier d’adresses comprend environ 5000 exploitations agricoles bénéficiaires de paiements directs et 5400 éleveurs d’animaux de rente à titre non commercial. <br>
+<b>Agricola: </b><br>
+•	Plus de 21 000 exploitants utilisent Agricola pour enregistrer les données nécessaires à l’exécution de la législation agricole. <br>
+<b>GELAN: </b><br>
+•	Près de 32 000 exploitants traitent ainsi la plus grande partie de leurs affaires en lien avec les autorités via ce système. <br>
+<b>LAWIS: </b><br>
+•	Quelque 26 000 exploitants communiquent avec les autorités via LAWIS. <br>
+<b>SAP Agri Valais: </b><br>
+•	Une interface web permet à des utilisateurs tiers (extérieurs à l’administration cantonale) de saisir des données agricoles directement dans la base de données agricoles SAP. Ces utilisateurs sont des exploitants bénéficiaires ou non de paiements directs. <br>
+</div>
+<hr>
+
+
 <!--
 <div id="mycontainer">
     <div id="mylabel">I'm a Box</div>
