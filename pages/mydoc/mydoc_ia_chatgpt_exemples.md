@@ -107,7 +107,11 @@ Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-d
 <n0:E_LQBeitrag>true</n0:E_LQBeitrag><br>
 <n0:E_LQBeitragSoem>false</n0:E_LQBeitragSoem><br>
 <n0:E_PSBiolandbau>false</n0:E_PSBiolandbau><br>
-</div><br><div class="chatgptOut"><br>
+    
+</div><br>
+
+<div class="chatgptOut"><br>
+
 Voici les noms des éléments sans le namespace "n0" : <br>
 ````
 E_KLZonenbeitrag
