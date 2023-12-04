@@ -8,6 +8,7 @@ sidebar: mydoc_sidebar
 permalink: ChatGPT_exemples.html
 folder: mydoc
 ---
+# Catégorie 1
 
 ## Générer la liste de questions à se poser pour savoir si les conditions sont remplies
 
@@ -228,6 +229,8 @@ Mylène prépare la base de données avec les manquements, bordures et tampon. E
 </div>
 
 <hr>
+
+# Catégorie 2
 
 ## Reformatage d'une liste en colonne séparée par des virgules
 
