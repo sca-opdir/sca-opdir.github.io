@@ -119,7 +119,7 @@ Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-d
 <div class="chatgptOut"><br>
 
 Voici les noms des éléments sans le namespace "n0" : <br>
-````
+```
 E_KLZonenbeitrag
 E_KLAllgHangbeitrag
 E_KLSteillagenbeitrag
@@ -175,7 +175,8 @@ les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe d
 Mylène prépare la base de données avec les manquements, bordures et tampon. En 1ᵉʳ, elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant, s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires. Les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants. Les courriers sont envoyés au même moment que le décompte paiements directs. Les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe des réclamations des exploitants. La décision d'accepter ou refuser la réclamation revient à Fabrice. Si la réclamation est acceptée, la réduction est annulée.
 À la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. La 1ᵉʳᵉ importe les résultats de la campagne dans Acontrol ; la 2ᵉᵐᵉ corrige la base de données.
 </div>
-<br>
+
+<hr>
 
 ## Reformatage d'une liste en colonne séparée par des virgules
 
@@ -238,6 +239,137 @@ Aujourd’hui, le système des **paiements directs** atteint à son tour ses lim
 Dans le rapport de postulat « **Orientation future de la politique agricole** », le **Conseil fédéral** a présenté des approches pour le **développement et la simplification** du système des **paiements directs**. Mentionnons notamment le potentiel de la **numérisation**, une orientation plus marquée vers des **paiements axés sur les résultats** plutôt que sur les mesures ou encore le remplacement de certains **paiements annuels** par des **paiements uniques** dans le cadre d’**améliorations structurelles**. En adoptant la **motion 22.4251**, le **Parlement** a chargé le **Conseil fédéral** de concrétiser la proposition de ligne stratégique formulée dans le rapport de postulat et de présenter un **message d’ici à fin 2027 au plus tard**. Dans ce cadre, une attention particulière sera accordée à la **simplification des instruments** et à la **réduction de la charge administrative**. Pour les prochaines années, la priorité devra donc aller à la **stabilité** et à la **mise en œuvre des mandats légaux existants** ou des **interventions parlementaires transmises**.
 </div>
 <hr>
+
+## Mail pour informer d'un refus d'une demande, en français et en allemand
+
+<div class="chatgptIn"><br>
+Je suis employée dans l'administration publique. Ecris un mail poli et concis, mais sans trop de formalités, pour informer un client que sa demande '''de se XXXX''' est refusée car déposée hors délai. Nous sommes désolés mais vu la base légale et l'impossibilité d'effectuer les contrôles correspondants nous pouvons pas l'accepter. <br>
+Le type de demande qui est entre triple guillemets doit être laissé tel quel et sera précisé par l'utilisateur par après. Ecris l'e-mail en français et sépare par une barre horizontale le même e-mail en allemand.
+</div><br><div class="chatgptOut"><br>
+Objet : Refus de votre demande de se XXXX<br>
+Cher(e) [Nom du client], <br>
+Nous espérons que ce message vous trouve en bonne santé. Nous avons bien reçu votre demande de se XXXX. <br>
+Cependant, après avoir effectué les vérifications nécessaires, nous regrettons de vous informer que votre demande a été refusée. Malheureusement, celle-ci a été déposée hors délai, et conformément à la base légale en vigueur, nous ne sommes pas en mesure de l'accepter. <br>
+Nous comprenons que cela puisse être décevant, et nous nous excusons pour les désagréments que cela pourrait occasionner. Si vous avez des questions ou si vous souhaitez discuter de cette décision, n'hésitez pas à nous contacter. Nous sommes là pour vous assister dans la mesure du possible. <br>
+Nous vous remercions de votre compréhension. <br>
+Cordialement, <br>
+[Votre Nom] <br>
+[Votre Position] <br>
+[Nom de l'Administration] <br>
+[Coordonnées de Contact] <br>
+---<br>
+Betreff: Ablehnung Ihres Antrags auf „se XXXX“<br>
+Sehr geehrte(r) [Kundenname], <br>
+wir hoffen, diese Nachricht erreicht Sie in guter Verfassung. Wir haben Ihren Antrag auf „se XXXX“ erhalten. <br>
+Leider müssen wir Ihnen mitteilen, dass Ihr Antrag nach Durchführung der erforderlichen Überprüfungen abgelehnt wurde. Bedauerlicherweise wurde er außerhalb der festgelegten Frist eingereicht, und gemäß der geltenden Rechtsgrundlage können wir ihn daher nicht akzeptieren. <br>
+Wir verstehen, dass dies enttäuschend sein kann, und entschuldigen uns für eventuelle Unannehmlichkeiten. Wenn Sie Fragen haben oder über diese Entscheidung sprechen möchten, stehen wir Ihnen gerne zur Verfügung. Wir sind bemüht, Ihnen so gut wie möglich behilflich zu sein. <br>
+Wir danken Ihnen für Ihr Verständnis. <br>
+Mit freundlichen Grüßen, <br>
+[Ihr Name] <br>
+[Ihre Position] <br>
+[Name der Verwaltung] <br>
+[Kontaktinformationen] <br>
+</div>
+<hr>
+
+## Ré-écrire un mail dans un style plus adéquat
+
+<div class="chatgptIn"><br>
+Je suis employée dans l'administration publique. Ré-écris le mail ci-dessous pour qu'il soit plus poli et concis, mais sans trop de formalités<br>
+Bonjour, <br>
+Désolée mais nous ne pouvons pas accepter votre demande pour vous inscrire au programme SRPA . C'est trop tard, nous ne pourrions pas effectuer les contrôles comme il faut. <br>
+bonne journée et meilleures salutations<br>
+Marie Zufferey
+</div><br><div class="chatgptOut"><br>
+Bonjour, <br>
+Nous regrettons de vous informer que votre demande d'inscription au programme SRPA ne peut être acceptée, car elle est parvenue trop tard pour permettre une vérification adéquate. <br>
+Bonne journée, <br>
+Marie Zufferey<br>
+</div>
+<div class="chatgptIn"><br>
+Dans un style un petit peu plus formel
+</div><br><div class="chatgptOut"><br>
+Chère/Cher [Nom], <br>
+Nous vous présentons nos excuses, mais il nous est malheureusement impossible d'accéder à votre demande d'inscription au programme SRPA, en raison de sa réception tardive. Cette contrainte temporelle compromettrait la réalisation des contrôles nécessaires. <br>
+Nous vous prions de bien vouloir nous excuser pour cet inconvénient. <br>
+Cordialement, <br>
+Marie Zufferey<br>
+</div>
+<hr>
+
+## Résumé d'un texte pour la newsletter
+<div class="mycomment">
+NB : n'arrive pas à faire respecter la longueur de nombre de mots -> lu sur <https://platform.openai.com/docs/guides/prompt-engineering> : " le fait de demander au modèle de générer un nombre spécifique de mots ne permet pas d'obtenir une grande précision. Le modèle peut générer de manière plus fiable des résultats avec un nombre spécifique de paragraphes ou de puces."<br>
+
+Vrai texte : <br>
+Remise des mérites agricoles 2023<br>
+A l’occasion de la cinquième édition, les mérites agricoles ont été attribués à la cave Chanton, à l’agricultrice Stéphanie Mottiez et à l’application mon-producteur.ch. Créée en 2018, cette récompense vise à reconnaître et à encourager la recherche de l’excellence, l’engagement et l’innovation en matière d’agriculture.
+</div><br>
+<div class="chatgptIn"><br>
+Résume le communiqué de presse ci-dessous en un paragraphe de 50 mots maximum à paraitre dans une newsletter ; conserve le style du communiqué de presse et utilise uniquement les informations présentes dans le communiqué de presse ; en plus du paragraphe de 50 mots, ajoute un titre attractif<br>
+Remise des mérites agricoles 2023<br>
+A l’occasion de la cinquième édition, les mérites agricoles ont été attribués à la cave Chanton, à l’agricultrice Stéphanie Mottiez et à l’application mon-producteur.ch. Créée en 2018, cette récompense vise à reconnaître et à encourager la recherche de l’excellence, l’engagement et l’innovation en matière d’agriculture. <br>
+La cérémonie de remise des mérites agricoles 2023 a eu lieu à l’Ecole d’agriculture du Valais à Châteauneuf en présence des lauréats : la cave Chanton de Viège, l’agricultrice Stéphanie Mottiez de Saint-Maurice ainsi que les créateurs de l’application mon-producteur.ch basée à Martigny. Ces derniers se sont vus remettre un trophée, une vidéo promotionnelle ainsi qu’un montant de 5000 francs à attribuer à une personne, un projet ou un groupement novateur ou actif au niveau de la relève agricole. <br>
+Mon-producteur.ch, une application pour rapprocher les producteurs et les consommateurs<br>
+Créée en 2017 par Jacques Martinez et Patrick Tacchini, l’application<br>
+mon-producteur.ch permet de trouver les producteurs faisant de la vente directe à proximité de chez soi et de s’y rendre par géolocalisation. Concrètement, lors d’une recherche, les dix producteurs les plus proches apparaissent en premier et il est aussi possible de chercher un produit par catégorie. Les utilisateurs peuvent également trouver toutes les informations utiles relatives aux producteurs et à leurs produits. En plus d’offrir une visibilité aux producteurs locaux et de les mettre en relation avec les consommateurs, l’application, dont le téléchargement est gratuit, et le site internet lié visent à promouvoir les produits du terroir et à favoriser le commerce de proximité, tout en déchargeant les producteurs des aspects marketing et communication. <br>
+Stéphanie Mottiez, un parcours exemplaire<br>
+En 2013, âgée de 19 ans, Stéphanie Mottiez obtient son CFC d’agricultrice à l’Ecole d’agriculture du Valais. Elle poursuit sa formation par l’obtention du brevet d’agricultrice et tutoie la perfection avec une moyenne générale de 5.9 sur 6. En 2023, elle obtient brillamment sa maîtrise. Ce parcours remarquable récompense une véritable passionnée. Issue d’une famille d’agriculteurs, elle passe dès son plus jeune âge tout son temps libre à aider dans l’exploitation familiale. Aujourd’hui, elle est à la tête de la ferme des Perrières à Saint-Maurice, où elle a succédé à Philippe Monnay. Elle gère un troupeau de près de 80 vaches adultes et d’autant de jeunes, qui produit annuellement 600'000 kilos de lait. Elle exploite également plus de 50 hectares de grandes cultures (labour, blé panifiable, maïs fourrager). Toujours curieuse de nouvelles techniques et très engagée au niveau de la transmission du savoir, elle forme également des apprentis. <br>
+Chanton Weine, les vins, une passion en famille<br>
+Créative et passionnée, la famille Chanton à Viège travaille la vigne depuis 1944. Au cours des années 1980, elle s’est spécialisée dans les cépages autochtones tombés dans l’oubli, tels que l’Himbertscha, le Gwäss et plus tard l’Eyholzer Roter et le Plantscher. Un travail de pionner que perpétue le fils, Mario Chanton, représentant de la troisième génération. Il dirige l’entreprise familiale depuis 2008. Les vignes sont réparties sur les vignobles de Visperterminen, Varen et Loèche. Elles sont travaillées avec minutie, suivant des méthodes simples et naturelles, au plus près de la compréhension du sol et en fonction des conditions climatiques, pour une maturation optimale des raisins. Dans la cave Chanton, les vins sont produits à partir de levures indigènes, affinés et accompagnés. Une méthode complexe, inhabituellement lente, qui ajoute encore à l’originalité des cuvées.
+</div><br><div class="chatgptOut"><br>
+Titre Attractif: "Célébration de l'Excellence Agricole 2023: Cave Chanton, Stéphanie Mottiez et mon-producteur.ch Honorés"<br>
+La cinquième édition des Mérites Agricoles a distingué la cave Chanton, l'agricultrice Stéphanie Mottiez et l'application mon-producteur.ch. La cérémonie, à l'Ecole d'agriculture du Valais, a récompensé l'engagement et l'innovation. Stéphanie Mottiez, élevée dans l'agriculture depuis l'enfance, a brillamment obtenu sa maîtrise en 2023, gérant la ferme des Perrières. La famille Chanton, passionnée de vignobles depuis 1944, a été saluée pour son travail pionnier dans les cépages autochtones. Mon-producteur.ch, une application gratuite rapprochant producteurs et consommateurs, a également été honorée pour son rôle clé dans la promotion des produits locaux.
+</div><br>
+<div class="chatgptIn"><br>
+Le paragraphe fait 89 mots, alors qu'il devrait en faire 50
+</div><br><div class="chatgptOut"><br>
+Titre Attractif: "Révélation des Lauréats Agricoles 2023: Cave Chanton, Stéphanie Mottiez et mon-producteur.ch"<br>
+La 5e édition des Mérites Agricoles a honoré la cave Chanton, l'agricultrice Stéphanie Mottiez et l'appli mon-producteur.ch. La cérémonie à l'Ecole d'agriculture du Valais a célébré l'excellence et l'innovation. Stéphanie Mottiez, héritière passionnée, a brillamment obtenu sa maîtrise en 2023, dirigeant la ferme des Perrières. La famille Chanton, vigneronne depuis 1944, a été saluée pour son travail pionnier avec des cépages autochtones. Mon-producteur.ch, une appli gratuite connectant producteurs et consommateurs, a été récompensée pour sa contribution à la promotion des produits locaux.
+</div>
+<br>
+<div class="chatgptIn"><br>
+Raccourcis-le encore de moitié
+</div><br><div class="chatgptOut"><br>
+Titre Attractif: "Révélation des Lauréats Agricoles 2023: Cave Chanton, Stéphanie Mottiez et mon-producteur.ch"<br>
+La 5e édition des Mérites Agricoles a salué la cave Chanton, Stéphanie Mottiez et mon-producteur.ch. La cérémonie a honoré l'excellence et l'innovation. Stéphanie Mottiez, héritière passionnée, a brillamment obtenu sa maîtrise en 2023, dirigeant la ferme des Perrières. La famille Chanton, vigneronne depuis 1944, a été saluée pour son travail pionnier. Mon-producteur.ch, une appli gratuite connectant producteurs et consommateurs, a été récompensée pour sa contribution à la promotion des produits locaux.
+</div>
+<hr>
+
+## Trouver des titres 
+<div class="mycomment"><br>
+Vrai titre :<br>
+100e de l’EAV : un livre d’histoire et cinq cahiers thématiques réunis dans un coffret
+</div>
+<br>
+<div class="chatgptIn"><br>
+Donne-moi une liste de 10 titres attractifs pour un court article dans une newsletter ; l'article résumera le communiqué de presse ci-dessous<br>
+100 ans de l’Ecole d’agriculture du Valais<br>
+Un livre d’histoire et cinq cahiers thématiques réunis dans un coffret<br>
+L’Ecole d’agriculture du Valais (EAV) célèbre ses 100 ans en 2023. Pour clore ce jubilé, le Service de l’agriculture a mandaté l’historienne Delphine Debons afin de concevoir un ouvrage original, sous la forme d’un coffret réunissant un livre d’histoire et cinq cahiers en lien avec des thématiques incontournables pour l’avenir de l’agriculture valaisanne. Ce coffret est publié par les Archives de l’Etat du Valais, dans la série des Cahiers de Vallesia. <br>
+15 novembre 1923 : les premiers élèves entrent dans les nouvelles salles de classe de l’Ecole d’agriculture du Valais. Les bâtiments viennent d’être construits, les domaines de production sont en plein développement et l’école est au centre d’un vaste programme de modernisation de l’agriculture valaisanne. Un siècle plus tard, le moment est venu de retracer l’histoire de cette institution, tout en apportant un éclairage sur le présent et les perspectives pour l’agriculture valaisanne. <br>
+Cette mission a été confiée par le Service de l’agriculture à l’historienne Delphine Debons, qui a imaginé un coffret contenant un ouvrage historique intitulé « Châteauneuf – 100 ans d’agriculture », qui retrace un siècle d’enseignement agricole et de mise en œuvre de la politique agricole cantonale, ainsi que cinq cahiers « Agriculture Aujourd’hui ». L’histoire de l’institution a été abordée en premier lieu sur la base des rapports triennaux publiés par l’école depuis 1924 jusqu’en 2001. D’autres éléments d’archives ont ensuite été consultés en ciblant les thématiques importantes, de manière à confirmer les éléments des rapports, à les compléter ou à les nuancer. <br>
+
+Les cahiers thématiques traitent de l’alimentation, de l’environnement, du paysage et de l’image. Inspirés du format « magazine », ils donnent la parole à des acteurs et des actrices de l’agriculture d’aujourd’hui à travers des entretiens, des reportages ou des bandes dessinées, dans l’idée d’apporter différents éclairages et de croiser les regards pour construire un portrait en pointillé de l’agriculture valaisanne. Tous sont illustrés par quatre artistes, chacun construisant la ligne graphique d’un cahier avec son style propre. Le cinquième cahier est consacré à des parcours de vie en lien avec l’Ecole d’agriculture du Valais. Il contient des contributions de chaque artiste. <br>
+
+Publié par les Archives du Valais, dans la série des Cahiers de Vallesia, ce coffret clôt les festivités officielles du 100e anniversaire de l’Ecole d’agriculture du Valais. Une année marquée notamment par la soirée des anciennes et des anciens, la journée portes ouvertes, un cycle de conférences et la présence de l’école en qualité d’hôte d’honneur à la Foire du Valais. <br>
+
+Une séance de dédicaces permettra au public de rencontrer les auteurs et les illustrateurs du livre du 100e le mercredi 13 décembre de 17h30 à 20h00 à Châteauneuf. L’occasion également de déguster les vins de la cuvée du 100e, une Petite Arvine et un Cornalin issus des domaines viticoles de l’Etat du Valais.
+</div><br><div class="chatgptOut"><br>
+1.	"Centenaire de l'Ecole d'Agriculture du Valais : Un Coffret d'Histoire Inédit"<br>
+2.	"Châteauneuf - 100 Ans d'Agriculture : Le Récit Captivant d'une Institution Centenaire"<br>
+3.	"Cahiers de Vallesia : L'Épopée de l'Agriculture Valaisanne en Cinq Thématiques"<br>
+4.	"Un Siècle d'Enseignement Agricole : L'Héritage de l'Ecole d'Agriculture du Valais"<br>
+5.	"Agriculture Aujourd'hui : Les Cahiers Illustrés qui Dressent le Portrait de Valais"<br>
+6.	"Rétrospective et Perspectives : Le Centenaire de l'Ecole d'Agriculture du Valais"<br>
+7.	"Coffret du Centenaire : Histoire et Thématiques Clés de l'Agriculture Valaisanne"<br>
+8.	"Vallesia Célèbre 100 Ans : Un Coffret Témoignant de l'Évolution Agricole"<br>
+9.	"Centenaire de l'EAV : Des Cahiers qui Racontent l'Agriculture Valaisanne en Pointillé"<br>
+10.	"Rencontre et Dédicaces : Plongez dans l'Histoire avec les Créateurs du Coffret du 100e"
+</div>
+<hr>
+
+
 
 <!--
 <div id="mycontainer">
