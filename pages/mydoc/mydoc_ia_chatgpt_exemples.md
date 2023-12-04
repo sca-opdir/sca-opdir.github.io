@@ -610,6 +610,7 @@ Note: Certaines de ces corrections sont des suggestions de style ou de clarté, 
 
 <div class="chatgptIn"><br>
 Je vais te donner du XSD puis du XML; dis-moi si le XML est conforme au XSD et si tous les éléments du XSD sont bien présents dans le XML. Si le XML n'est pas consistant avec le XSD, explique pourquoi.<br>
+    ```
   <xs:complexType name="registrationDataType"><br>
     <xs:sequence><br>
       <xs:element name="E_KLZonenbeitrag" type="blw-pay:JN"/><br>
@@ -628,6 +629,7 @@ Je vais te donner du XSD puis du XML; dis-moi si le XML est conforme au XSD et s
 <n0:E_KLSteillagenbeitrag>true</n0:E_KLSteillagenbeitrag><br>
 <n0:E_KLRebHangbeitrag>false</n0:E_KLRebHangbeitrag><br>
 </n0:registrationData>
+          ```
 </div><br><div class="chatgptOut"><br>
 Le XML que vous avez fourni semble être conforme au schéma XML (XSD) que vous avez partagé. Les éléments du XML correspondent aux éléments déclarés dans le XSD, et les valeurs semblent également correspondre aux types de données spécifiés dans le schéma.<br>
 Cependant, il y a une petite différence : le XSD spécifie que l'élément E_INInsitu doit être présent, mais il n'apparaît pas dans le XML que vous avez fourni. Selon le XSD, cet élément est requis (minOccurs="1"), mais il est manquant dans le XML. <br>
