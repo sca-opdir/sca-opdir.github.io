@@ -550,7 +550,8 @@ Tout dossier non complet ne pourra pas être examiné et nécessitera un renvoi 
 Nous vous recommandons de contacter rapidement le responsable régional, afin de finaliser votre dossier à temps. <br>
 </div>
 <br>
-<div class="chatgptOut"><br> [Résultat pas dans le format attendu]
+<div class="chatgptOut">
+    <br><i>Résultat pas dans le format attendu</i>
 </div>
 <br>
 <div class="chatgptIn"><br>
