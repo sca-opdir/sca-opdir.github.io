@@ -37,7 +37,9 @@ elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et expl
 les courriers sont envoyés au même moment que le décompte paiements directs<br>
 les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe des réclamations des exploitants ; la décision d'accepter ou refuser la réclamation revient à Fabrice ; si la réclamation est acceptée, la réduction est annulée<br>
 à la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol ; Marie importe les résultats de la campagne dans Acontrol ; Mylène corrige la base de données
-</div><br><div class="chatgptOut"><br>
+</div>
+<br>
+<div class="chatgptOut"><br>
 Mylène:<br>
 <ul>
 <li>Préparer la base de données avec les manquements, bordures, et tampon. </li>
@@ -58,7 +60,7 @@ Fabrice: <br>
 <li>Traiter les réclamations des exploitants. </li>
 <li>Décider d'accepter ou refuser la réclamation. </li>
 <li>Transmettre à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. </li></ul>
-
+</div>
 <div class="mycomment">Pour obtenir la même chose sous forme de tableau à importer dans Excel</div>
 <div class="chatgptIn"><br>
 Présente les mêmes données sous forme de tableau (1 ligne par personne, 1ère colonne = nom de la personne, 2ème colonne = tâches à effectuer) ; sépare les colonnes par une barre verticale (ne formate pas le tableau, laisse-le sous forme de texte à copier) 
@@ -66,7 +68,8 @@ Présente les mêmes données sous forme de tableau (1 ligne par personne, 1ère
 <div class="mycomment">Pour obtenir une liste des tâches de façon chronologique</div>
 <div class="chatgptIn"><br>
 Pour ces mêmes données, résume de façon concise sous forme de liste les tâches à effectuer en utilisant des mots-clés en maintenant leur ordre chronologique tel qu'indiqué dans le texte en entrée et indique entre parenthèses la personne responsable de la tâche
-</div><br><div class="chatgptOut"><br>
+</div><br>
+<div class="chatgptOut"><br>
 1. Préparer la base de données avec manquements, bordures, tampon (Mylène).<br>
 2. Transmettre le fichier à Marie (Mylène). <br>
 3. Examiner et calculer les réductions pour chaque propriétaire et exploitant (Marie). <br>
