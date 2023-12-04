@@ -369,6 +369,212 @@ Une séance de dédicaces permettra au public de rencontrer les auteurs et les i
 </div>
 <hr>
 
+## Remplacer un terme par des synonymes à l'intérieur d'un texte
+<div class="chatgptIn"><br>
+Le texte ci-dessous contient un grand nombre de fois le mot "durée" ; quand cela est possible, sans rien changer au reste du texte, remplace uniquement ce mot (et ses formes dérivées) par un synonyme adapté au contexte. Ce remplacement ne doit pas affecté ni le sens, ni le style ni le ton du texte.<br>
+La durée d’utilisation des vaches laitières se mesure en nombre de lactations ou en jours de production laitière. Elle se termine généralement par l’abattage des animaux ou – beaucoup plus rarement – par la conversion en vaches allaitantes. La durée d’utilisation est un indicateur de l’efficience de la production laitière en termes d’impact sur le climat et de rentabilité. Il faut savoir que pendant la phase d’élevage des génisses, aucun revenu n’est généré, alors que des émissions sont produites.<br>
+Des travaux scientifiques ont montré que l’optimum économique et écologique de la durée d’utilisation des vaches laitières est plus élevé que la durée d’utilisation actuellement appliquée en Suisse et ailleurs. Ce sont les agriculteurs et les agricultrices qui décident en fin de compte si et quand une vache doit être abattue. Ils n’agissent toutefois pas de manière indépendante. Leurs décisions sont influencées par des conditions-cadre structurelles et celles-ci sont définies par différents acteurs de l’industrie laitière.
+</div>
+<br>
+<div class="chatgptOut"><br>
+Le temps d’utilisation des vaches laitières se mesure en nombre de lactations ou en jours de production laitière. Il se termine généralement par l’abattage des animaux ou – beaucoup plus rarement – par la conversion en vaches allaitantes. La période d’utilisation est un indicateur de l’efficience de la production laitière en termes d’impact sur le climat et de rentabilité. Il faut savoir que pendant la phase d’élevage des génisses, aucun revenu n’est généré, alors que des émissions sont produites. <br>
+Des travaux scientifiques ont montré que l’optimum économique et écologique de la période d’utilisation des vaches laitières est plus élevé que la durée d’utilisation actuellement appliquée en Suisse et ailleurs. Ce sont les agriculteurs et les agricultrices qui décident en fin de compte si et quand une vache doit être abattue. Ils n’agissent toutefois pas de manière indépendante. Leurs décisions sont influencées par des conditions-cadre structurelles et celles-ci sont définies par différents acteurs de l’industrie laitière.
+</div>
+
+<hr>
+
+## Mettre sur la même ligne des phrases coupées par un retour à la ligne
+
+<div class="chatgptIn"><br>
+Le texte ci-dessous contient des phrases qui ont été coupées par un retour à la ligne. Ré-écris exactement le même texte mais en mettant sur la même ligne les phrases qui n'auraient pas dû être coupées. <br>
+Le préposé est tenu de s’informer sur les nouveautés agricoles, principalement sur les <br>
+exigences liées aux paiements directs. Il participe obligatoirement aux séances <br>
+d’information et aux cours de formation qui ont lieu au minimum une fois par année et sont <br>
+organisés par le service ou des tiers mandatés par ce dernier. Le préposé suit les <br>
+instructions du service. <br>
+Le préposé est un relai entre les exploitants et le service sur les questions de données <br>
+agricoles et de l’utilisation des surfaces agricoles. <br>
+1.3. Assurance qualité des données des recensements<br>
+Le préposé est responsable du contrôle qualité des données fournies par l’exploitant agricole <br>
+lors des sessions informatiques ouvertes à son attention par le service. <br>
+Le service informe le préposé de l’ouverture des sessions par messagerie électronique. <br>
+Le service met à disposition des préposés une plateforme internet permettant la gestion des <br>
+exploitations et des parcelles situées sur la commune, ainsi que des outils de contrôle <br>
+efficaces. <br>
+Le préposé opère les modifications nécessaires en ligne des données fausses ou inexactes <br>
+dans les délais fixés par le service. <br>
+Sur les exploitations de base (exploitations à l’année, exploitations non commerciales), la <br>
+justesse des données fournies par l’exploitant doit notamment être contrôlée, soit : <br>
+</div><br><div class="chatgptOut"><br>
+Le préposé est tenu de s’informer sur les nouveautés agricoles, principalement sur les exigences liées aux paiements directs. Il participe obligatoirement aux séances d’information et aux cours de formation qui ont lieu au minimum une fois par année et sont organisés par le service ou des tiers mandatés par ce dernier. Le préposé suit les instructions du service. Le préposé est un relai entre les exploitants et le service sur les questions de données agricoles et de l’utilisation des surfaces agricoles. <br>
+1.3. Assurance qualité des données des recensements<br>
+Le préposé est responsable du contrôle qualité des données fournies par l’exploitant agricole lors des sessions informatiques ouvertes à son attention par le service. Le service informe le préposé de l’ouverture des sessions par messagerie électronique. Le service met à disposition des préposés une plateforme internet permettant la gestion des exploitations et des parcelles situées sur la commune, ainsi que des outils de contrôle efficaces. Le préposé opère les modifications nécessaires en ligne des données fausses ou inexactes dans les délais fixés par le service. Sur les exploitations de base (exploitations à l’année, exploitations non commerciales), la justesse des données fournies par l’exploitant doit notamment être contrôlée, soit :  
+</div>
+<hr>
+
+## Formuler un cahier des charges décrit dans un texte en une liste de tâches à effectuer
+
+<div class="mycomment">
+NB : la mise en gras n'est pas très convaincante
+</div>
+<br>
+
+<div class="chatgptIn"><br>
+Le texte ci-dessous décrit un cahier des charges des préposés agricoles ; résume toutes les tâches qu'un préposé agricole doit remplir, en mettant en gras le ou les mots-clés importants pour chaque tâche (chaque item de la liste doit contenir au moins un mot en gras) ; ce doit être une liste type ''bullet point" où chaque tâche correspond à un item de la liste et doit être résumée en maximum une phrase<br>
+CAHIER DES CHARGES DES PREPOSES AGRICOLES EN CHARGE<br>
+DES PAIEMENTS DIRECTS<br>
+1.1. Généralités <br>
+Le préposé agricole en charge des paiements directs (ci-après préposé) accomplit les 
+tâches que la directive lui attribue selon les modalités explicitées par celle-ci. 
+Le préposé dispose de suffisamment de compétences informatiques lui permettant d’utiliser 
+la plateforme électronique ainsi que les documents en ligne mis à disposition par le service. 
+1.2. Information et formation <br>
+Le préposé est tenu de s’informer sur les nouveautés agricoles, principalement sur les 
+exigences liées aux paiements directs. Il participe obligatoirement aux séances 
+d’information et aux cours de formation qui ont lieu au minimum une fois par année et sont 
+organisés par le service ou des tiers mandatés par ce dernier. Le préposé suit les 
+instructions du service. 
+Le préposé est un relai entre les exploitants et le service sur les questions de données 
+agricoles et de l’utilisation des surfaces agricoles. 
+1.3. Assurance qualité des données des recensements<br>
+Le préposé est responsable du contrôle qualité des données fournies par l’exploitant agricole 
+lors des sessions informatiques ouvertes à son attention par le service. 
+Le service informe le préposé de l’ouverture des sessions par messagerie électronique. 
+Le service met à disposition des préposés une plateforme internet permettant la gestion des 
+exploitations et des parcelles situées sur la commune, ainsi que des outils de contrôle 
+efficaces. 
+Le préposé opère les modifications nécessaires en ligne des données fausses ou inexactes 
+dans les délais fixés par le service. 
+Sur les exploitations de base (exploitations à l’année, exploitations non commerciales), la 
+justesse des données fournies par l’exploitant doit notamment être contrôlée, soit : 
+a) Nom et prénom de l’exploitant <br>
+b) Parcelles annoncées par l’exploitant et exploitation effective de ces parcelles par celui-ci <br>
+c) Traitement des annonces de parcelles à double <br>
+d) Codes de culture indiqués <br>
+e) Surfaces exploitées annoncées par l’exploitant par rapport à la surface totale de la 
+parcelle <br>
+f) Vérification et validation avec l’aide du teneur de cadastre des parcelles sans 
+mensuration officielle annoncée <br>
+g) Autres demandes spécifiques du service <br>
+La validation de la justesse des données par le préposé se fait pour les parcelles et les 
+exploitations sises sur sa commune dans les délais fixés par le service. 
+1.4. Contrôles sur le terrain <br>
+Afin de garantir que les données numériques ou géoréférencées soient correctes, le 
+préposé effectue des contrôles sur le terrain conformément aux instructions et selon le 
+calendrier fixé par le service. 
+Le préposé contrôle sur le terrain : 
+a) La justesse des cultures annoncées par l’exploitant (code de culture) <br>
+b) La couverture du sol effective des parcelles annoncées <br>
+c) Le respect de la part maximale d’embuissonnement accepté <br>
+d) La justesse de l’application des règles liées aux surfaces de promotion de la biodiversité 
+telle que la date de fauche des prairies extensives et prairies peu intensives <br>
+e) Des besoins spécifiques demandés par le service <br>
+L’ensemble des exploitations est contrôlé par le préposé sur une période de 8 ans sur la 
+base de quelques surfaces par exploitation. <br>
+1.5. Corrections diverses suite aux contrôles sur le terrain <br>
+Suite aux contrôles sur le terrain, le préposé transmet toute modification sur les exploitants 
+ou les surfaces exploitées au service. 
+1.6. Collaboration avec les autorités cantonales et fédérales <br>
+Le préposé assiste les représentants du service et de l’Office fédéral de l’agriculture (OFAG) 
+lors des visites et des contrôles menés dans sa juridiction. 
+Il répond aux attentes et demandes de précision ou éclaircissement du service. 
+Il fournit les informations demandées par le service en cas de procédure de réclamation ou 
+de recours. 
+Il reste à disposition pour d’autres tâches liées à la qualité des données agricoles 
+demandées par le service.
+</div>
+<br>
+<div class="chatgptOut"><br> [seulement les titres de section sont en gras]
+</div>
+<br>
+<div class="chatgptIn"><br> certains points de la liste contiennent aucun mot en gras 
+</div>
+<br>
+<div class="chatgptOut"><br>
+**Généralités**
+<ul><li>Accomplir les tâches attribuées par la **directive**. </li>
+<li>Utiliser la plateforme électronique et les documents en ligne. </li>
+</ul>
+**Information et formation**
+<ul><li>S'informer sur les **nouveautés agricoles** et les exigences des **paiements directs**. </li>
+<li>Participer aux séances d'information et aux cours de formation. </li>
+<li>Être un relai entre les exploitants et le service sur les questions de données agricoles. </li>
+</ul>
+**Assurance qualité des données des recensements**
+<ul><li>Contrôler la qualité des données fournies par l’exploitant agricole. </li>
+<li>Utiliser une plateforme internet pour la gestion des exploitations et parcelles. </li>
+<li>Opérer des modifications en ligne pour corriger les données fausses ou inexactes. </li>
+<li>Contrôler la justesse des données telles que **nom, parcelles, codes de culture**, etc. </li>
+<li>Valider la justesse des données pour les parcelles et exploitations dans les délais fixés. </li>
+</ul>
+**Contrôles sur le terrain**
+<ul><li>Effectuer des contrôles sur le terrain conformément aux instructions et au calendrier. </li>
+<li>Contrôler la justesse des cultures, la couverture du sol, le respect des règles liées à la biodiversité, etc. </li>
+<li>Contrôler l'ensemble des exploitations sur une période de **8 ans**. </li>
+</ul>
+**Corrections diverses suite aux contrôles sur le terrain**
+<ul>
+<li>Transmettre toute modification sur les exploitants ou les surfaces exploitées au service. </li>
+</ul>
+**Collaboration avec les autorités cantonales et fédérales**
+<ul>
+<li>Assister les représentants du service et de l'**Office fédéral de l’agriculture (OFAG)** lors des visites et contrôles. </li>
+<li>Répondre aux attentes et demandes de précision du service. </li>
+<li>Fournir les informations demandées en cas de procédure de réclamation ou recours.</li>
+<li>Rester à disposition pour d'autres tâches liées à la qualité des données agricoles. </li></ul>
+
+</div>
+<hr>
+
+## Générer la liste de questions à se poser pour savoir si les conditions sont remplies
+
+<div class="chatgptIn"><br>
+Le texte ci-dessous présente les conditions qui doivent être remplies pour qu'une exploitation agricole soit reconnue. Résume sous forme de liste les questions que doit se poser un exploitant pour savoir s'il remplit ces conditions. Chaque question doit être concise et tenir sur une ligne.<br>
+Une exploitation agricole doit être reconnue par la Commission de reconnaissance des exploitations (CRE) du Service cantonal de l’agriculture (SCA) pour pouvoir bénéficier de soutiens financiers tels que les paiements directs, les aides aux améliorations structurelles ou d'autres contributions agricoles. <br>
+A cette fin, elle doit remplir divers critères, notamment : <br>
+UMOS : l’exploitation doit nécessiter au moins 0.2 Unité de main d’œuvre standard (UMOS). Le calcul des UMOS peut se faire à l’aide du programme en ligne suivant https://agripedia.ch/focus-ap-pa/outil-de-calcul-des-contributions/. Pour le calcul des UMOS, il faut utiliser le dernier onglet dénommé "Limitations" de l’outil Excel de calcul des contributions<br>
+Bâtiments et terres : l’exploitant doit être soit propriétaire, soit fermier pour au moins 30% des surfaces totales, ainsi que de l’étable (extraits du registre foncier, contrats de bail, etc.). <br>
+Contrôles de conformité : pour s’assurer que l’exploitation respecte les prestations écologiques requises (PER) ou les autres programmes au bénéfice de paiements directs, il est nécessaire de la contrôler. L’exploitant doit s’enregistrer auprès de l’organisation de contrôle agréée : AVPI : avpi@agrivalais.ch, Bio.inspecta AG : info@bio-inspecta.ch, Bio Test Agro AG : info@bio-test-agro.ch, Vitival : vitival@agrivalais.ch, IFELV : info@ifelv.ch. <br>
+Formation professionnelle : l’exploitant doit attester d’une formation agricole reconnue (minimum AFP). A défaut, il doit attester d’une formation reconnue dans une autre branche, accompagnée soit d’une formation agricole continue (cours paiements directs), soit d’une activité agricole exercée pendant au moins 3 ans (demande des certificats AVS à la caisse de compensation). <br>
+No IBAN : l’exploitation doit avoir son propre compte bancaire ou postal. Elle ne peut pas recevoir ses prestations sur le compte d’un tiers. Pour la relation bancaire ou postale des sociétés de personnes (SS, SNC) et des personnes morales (Sàrl, SA), prière de ne pas utiliser le formulaire ci-dessous. Dans ces cas, il faut solliciter de votre banque ou de la poste les instructions de paiement nécessaires ou un bulletin de versement où figure le No IBAN. <br>
+Détenteurs de bétail : pour une exploitation avec du bétail, il est nécessaire que l’étable soit conforme et certifiée par le vétérinaire cantonal (demande pour contrôle à l’Office vétérinaire ovet@admin.vs.ch) et par le secteur de protection des eaux (demande pour contrôle au Service de l’environnement sen@admin.vs.ch). Pour les exploitants sans formation professionnelle mais dont l’exploitation a moins de 0.5 UMOS en région de montagne, il est aussi nécessaire d’avoir suivi les cours sur la protection des animaux chateauneuf@admin.vs.ch. <br>
+Déclarations des surfaces : l’exploitation doit remplir les diverses données sur ses structures agricoles exigées pour l’obtention des paiements directs https://www.vs.ch/web/sca/saisie-en-ligne-des-donnees-agricoles. <br>
+Des procédures simplifiées existent pour les hoiries suite au décès de l’exploitant ou pour la reprise d’exploitation par l’époux/l’épouse. <br>
+Une procédure particulière est nécessaire pour les sociétés de personnes (SS, SNC) et les personnes morales (Sàrl, SA). <br>
+
+Selon la sorte d’exploitation à reconnaître, divers documents doivent être retournés à la CRE, conformément aux formulaires et listes ci-dessous. <br>
+Les instructeurs de la CRE se répartissent les dossiers selon la langue et selon les régions du canton (voir distribution des périmètres à droite de la page). Ils traitent les demandes et répondent aux questions utiles des requérants. <br>
+Délais<br>
+La demande de reconnaissance, avec production de l’intégralité des pièces nécessaires à la reconnaissance, doit être déposée au plus tard le 31 janvier et la demande des paiements directs (déclaration des surfaces) doit être effectuée lors de la saisie en ligne des données agricoles selon le calendrier annuel (Saisie en ligne des données agricoles). <br>
+Tout dossier non complet ne pourra pas être examiné et nécessitera un renvoi à l’année suivante (pas de paiement direct, ni d’aide aux améliorations structurelles, ni d’autres contributions agricoles pour l’année en cours). <br>
+Nous vous recommandons de contacter rapidement le responsable régional, afin de finaliser votre dossier à temps. <br>
+</div>
+<br>
+<div class="chatgptOut"><br> [Résultat pas dans le format attendu]
+</div>
+<br>
+<div class="chatgptIn"><br>
+Lister uniquement sous forme de questions les questions que l'exploitant doit se poser (s'il répond oui, il remplit conditions).
+</div>
+<br>
+<div class="chatgptOut">
+<br>
+<ol>
+<li>L'exploitation nécessite-t-elle au moins 0.2 Unité de main d’œuvre standard (UMOS) selon le calcul en ligne? </li>
+<li>Suis-je propriétaire ou fermier pour au moins 30% des surfaces totales, y compris l'étable?
+<li>Ai-je enregistré mon exploitation auprès d'une organisation de contrôle agréée pour vérifier le respect des prestations écologiques requises (PER) ou autres programmes? </li>
+<li>Prouvé-je une formation agricole reconnue (minimum AFP) ou une formation dans une autre branche avec une formation agricole continue ou une activité agricole de 3 ans? </li>
+<li>Mon exploitation possède-t-elle son propre compte bancaire ou postal, excluant les prestations sur le compte d'un tiers? </li>
+<li>L'étable de mon exploitation est-elle certifiée par le vétérinaire cantonal et le secteur de protection des eaux? </li>
+<li>Ai-je rempli les données sur les structures agricoles nécessaires pour l'obtention des paiements directs? </li>
+<li>Si applicable, ai-je suivi les procédures simplifiées pour les hoiries ou la reprise d'exploitation par l'époux/l'épouse? </li>
+<li>Si ma structure est une société de personnes ou une personne morale, ai-je suivi la procédure particulière? </li>
+<li>Ai-je déposé ma demande de reconnaissance avant le 31 janvier et effectué la saisie en ligne des données agricoles selon le calendrier annuel? </li>
+<li>Mon dossier est-il complet, incluant l'intégralité des pièces nécessaires à la reconnaissance? </li>
+<li>Ai-je contacté rapidement le responsable régional pour finaliser mon dossier à temps?</li>
+</ol>
+</div>
+<hr>
 
 
 <!--
