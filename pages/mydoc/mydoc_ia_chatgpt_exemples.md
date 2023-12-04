@@ -21,12 +21,17 @@ Dans le texte ci-dessous, corrige les fautes de frappe, sans apporter aucune aut
 a. Planfiication de projet : défintiion objectifs, création échéancier, identification ressources, créattion plan, établissement des livrables<br>
 b. Gestion des risques du projet : identification des risques, élaboration plan de contingence, gestion des problèmes, anlayse des risques, planfiication de la préposne aux risques<br>
 c. Suivi et contrôle du projet : suvii avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts<br>
-</div><br><div class="chatgptOut"><br>
+</div>
+<br>
+<div class="chatgptOut">
+<br>
 1. Gestion de projets<br>
 a. Planification de projet : définition objectifs, création échéancier, identification ressources, création plan, établissement des livrables<br>
 b. Gestion des risques du projet : identification des risques, élaboration plan de contingence, gestion des problèmes, analyse des risques, planification de la réponse aux risques<br>
 c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts<br>
 </div>
+
+<hr>
 
 ## Extraire les tâches de chacun depuis des notes de réunion "en vrac"
 
@@ -43,17 +48,17 @@ les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe d
 Mylène:<br>
 <ul>
 <li>Préparer la base de données avec les manquements, bordures, et tampon. </li>
-<li>Corriger la base de données à la fin de la période de réclamation.</li></ul><br>
+<li>Corriger la base de données à la fin de la période de réclamation.</li></ul>
 Marie: <br>
 <ul><li>Recevoir le fichier de Mylène. </li>
 <li>Examiner, pour chaque propriétaire et exploitant, s'il est nécessaire de faire une réduction (calcul de la réduction). </li>
 <li>Préparer les courriers pour les exploitants et les propriétaires en cas de réduction. </li>
-<li>Importer les résultats de la campagne dans Acontrol. </li></ul><br>
+<li>Importer les résultats de la campagne dans Acontrol. </li></ul>
 Olivier: <br>
 <ul><li>Recevoir les courriers propriétaires de Marie. </li>
 <li>S'occuper de l'envoi des courriers propriétaires. </li>
 <li>Traiter les réclamations propriétaires. </li>
-<li>En cas de réclamation acceptée, annuler la réduction. </li></ul><br>
+<li>En cas de réclamation acceptée, annuler la réduction. </li></ul>
 Fabrice: <br>
 <ul><li>Recevoir les courriers exploitants de Marie. </li>
 <li>S'occuper de l'envoi des courriers exploitants. </li>
@@ -86,7 +91,8 @@ Pour ces mêmes données, résume de façon concise sous forme de liste les tâc
 14. Corriger la base de données (Mylène). <br>
 </div>
 
-<br>
+<hr>
+
 ## Extraire des éléments d'un XML
 
 <div class="chatgptIn"><br>
@@ -133,7 +139,7 @@ E_PSBiolandbau
 ```
 </div>
 
-
+<hr>
 
 ## Rédaction newsletter à partir d'idée en vrac sur le même style qu'un modèle
 
@@ -146,10 +152,11 @@ Le texte doit être fluide et engageant, écrit dans un style similaire à ce pa
 <div class="chatgptOut">
 <br>Cet hiver, l'Office des paiements directs et l'Office vétérinaire lancent une campagne de contrôles des sorties hivernales du bétail. Des films vidéos de cinq sorties seront capturés dans une dizaine d'exploitations à travers le canton. Cette initiative renforce la transparence de l'agriculture, favorisant ainsi la confiance avec le monde non agricole.
 </div>
-<br>
 
+<hr>
 
 ## Correction des majuscules, de la ponctuation et des exposants dans un texte
+
 <div class="chatgptIn">
 <br>
 Ré-écris le texte ci-dessous en corrigeant uniquement ces 3 choses : 
@@ -171,7 +178,9 @@ Mylène prépare la base de données avec les manquements, bordures et tampon. E
 <br>
 
 ## Reformatage d'une liste en colonne séparée par des virgules
-<div class="chatgptIn"><br>
+
+<div class="chatgptIn">
+<br>
 Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et en les séparant par ", " : <br>
         501<br>
         502<br>
@@ -206,8 +215,29 @@ Dans la liste ci-dessous, enlève les guillemets autour de chaque nombre et sép
 501;502;503;504;505;506;507;508;509;510;511;512;513;514;515;516;517;518;519;520;521;522;523;524;525;526;527;528;529;530;531;532;533;534;535;536;537;538;539;540;541;542;543;544;545;546;547;548;549;550;551;552;553;554;555;556;557;558;559;560;561;562;563;564;565;566;567;568;569;570;571;572;573;574;575;576;577;578;579;580;581;582;583;584;585;586;587;588;589;590;591;592;593;594;595;596;597;598
 </div>
 
+<hr>
+
+## Mettre en évidence (en gras) les parties importantes d'un texte
+
+<div class="mycomment">
+NB : pas très convaincant le résultat, pas réussi à obtenir mieux
+</div>
+
+<div class="chatgptIn"><br>
+Mettre en gras les passages importants du texte ci-dessous ; en lisant les passages en gras, je devrais avoir un bon résumé du contenu de ce texte. <br>
+Les paiements directs sont un instrument important de la politique agricole, dont on ne peut plus se passer. Il y a exactement 30 ans, la politique agricole avait atteint ses limites. Depuis, les garanties de prix et d’écoulement de certains produits ont été progressivement supprimées et de nouveaux paiements directs ont été introduits et développés, posant le fondement d’une agriculture plus durable et mieux orientée vers le marché en Suisse. De même, diverses réformes agricoles ont été adoptées par le Parlement et mises en œuvre par le Conseil fédéral. <br>
+Aujourd’hui, le système des paiements directs atteint à son tour ses limites de complexité et d’applicabilité. À quoi est due cette évolution ? Les objectifs de la politique agricole n’ont cessé d’être étendus et affinés, et leur réalisation présente des lacunes importantes. Le système des paiements directs a donc intégré des mesures différenciées, comme les contributions à la qualité du paysage dans le cadre de la Politique agricole 14-17. Divers parlementaires ont aussi déposé des motions demandant des mesures supplémentaires ou des règles spéciales, fréquemment en invoquant l’égalité de traitement ou la prise en compte des particularités des exploitations. C’est ainsi que des contributions au bien-être des animaux ont été introduites pour les bisons en 2018 et que d’autres dispositions exceptionnelles ont dû être ajoutées périodiquement pour la sortie des animaux aux fins de leur bien-être. L’exécution par les cantons requiert en outre des dispositions qui puissent être efficacement contrôlées. À leur demande, l’OFAG a ainsi dû préciser par des directives détaillées l’exigence d’offrir des possibilités de refuge telles que des arbres et des abris sur les pâturages pour volaille. <br>
+Dans le rapport de postulat « Orientation future de la politique agricole », le Conseil fédéral a présenté des approches pour le développement et la simplification du système des paiements directs. Mentionnons notamment le potentiel de la numérisation, une orientation plus marquée vers des paiements axés sur les résultats plutôt que sur les mesures ou encore le remplacement de certains paiements annuels par des paiements uniques dans le cadre d’améliorations structurelles. En adoptant la motion 22.4251, le Parlement a chargé le Conseil fédéral de concrétiser la proposition de ligne stratégique formulée dans le rapport de postulat et de présenter un message d’ici à fin 2027 au plus tard. Dans ce cadre, une attention particulière sera accordée à la simplification des instruments et à la réduction de la charge administrative. Pour les prochaines années, la priorité devra donc aller à la stabilité et à la mise en œuvre des mandats légaux existants ou des interventions parlementaires transmises. <br>
+</div>
+<br>
+<div class="chatgptOut">
 <br>
 
+**Les paiements directs** sont un instrument important de la politique agricole, dont on ne peut plus se passer. Il y a exactement 30 ans, la politique agricole avait atteint ses limites. Depuis, les **garanties de prix et d’écoulement** de certains produits ont été progressivement supprimées et de nouveaux **paiements directs** ont été introduits et développés, posant le fondement d’une agriculture plus durable et mieux orientée vers le marché en Suisse. De même, diverses **réformes agricoles** ont été adoptées par le Parlement et mises en œuvre par le Conseil fédéral.
+Aujourd’hui, le système des **paiements directs** atteint à son tour ses limites de complexité et d’applicabilité. À quoi est due cette évolution ? Les **objectifs de la politique agricole** n’ont cessé d’être étendus et affinés, et leur réalisation présente des lacunes importantes. Le système des **paiements directs** a donc intégré des mesures différenciées, comme les **contributions à la qualité du paysage** dans le cadre de la Politique agricole 14-17. Divers **parlementaires** ont aussi déposé des motions demandant des mesures supplémentaires ou des règles spéciales, fréquemment en invoquant l’**égalité de traitement** ou la prise en compte des **particularités des exploitations**. C’est ainsi que des **contributions au bien-être des animaux** ont été introduites pour les bisons en 2018 et que d’autres dispositions exceptionnelles ont dû être ajoutées périodiquement pour la sortie des animaux aux fins de leur bien-être. L’**exécution par les cantons** requiert en outre des dispositions qui puissent être efficacement contrôlées. À leur demande, l’OFAG a ainsi dû préciser par des **directives détaillées** l’exigence d’offrir des possibilités de refuge telles que des arbres et des abris sur les pâturages pour volaille.
+Dans le rapport de postulat « **Orientation future de la politique agricole** », le **Conseil fédéral** a présenté des approches pour le **développement et la simplification** du système des **paiements directs**. Mentionnons notamment le potentiel de la **numérisation**, une orientation plus marquée vers des **paiements axés sur les résultats** plutôt que sur les mesures ou encore le remplacement de certains **paiements annuels** par des **paiements uniques** dans le cadre d’**améliorations structurelles**. En adoptant la **motion 22.4251**, le **Parlement** a chargé le **Conseil fédéral** de concrétiser la proposition de ligne stratégique formulée dans le rapport de postulat et de présenter un **message d’ici à fin 2027 au plus tard**. Dans ce cadre, une attention particulière sera accordée à la **simplification des instruments** et à la **réduction de la charge administrative**. Pour les prochaines années, la priorité devra donc aller à la **stabilité** et à la **mise en œuvre des mandats légaux existants** ou des **interventions parlementaires transmises**.
+</div>
+<hr>
 
 <!--
 <div id="mycontainer">
