@@ -135,8 +135,40 @@ E_PSBiolandbau
 
 
 
+## Rédaction newsletter à partir d'idée en vrac sur le même style qu'un modèle
+
+<div class="chatgptIn"><br>
+Je suis employée dans l'administration publique et j'aimerais un court texte à placer dans une newsletter à l'intention de personnes actives en agriculture pour informer des éléments suivants : l'office des paiements directs et l'office vétérinaire vont organiser une campagne de contrôles des sorties hivernales du bétail cet hiver - les sorties seront contrôlées par des films vidéos de cinq sorties hivernales au cours de l'hiver -  une dizaines d'exploitations à travers tout le canton seront sélectionnés et subiront ces contrôles - ces contrôles sont un bon moyen d'améliorer la confiance avec le monde non agricole. <br>
+L'expression " vidéos de cinq sorties hivernales" doit figurer tel quel. Ce texte informatif ne s'adresse pas directement aux personnes concernées par ces contrôles, mais veut informer le reste de la population que ces contrôles auront lieu. Le texte doit être court, chaleureux et ne pas utiliser l'impératif, long de 50 mots maximum et tenir dans 1 paragraphe. <br>
+Le texte doit être fluide et engageant, écrit dans un style similaire à ce paragraphe : " L’Ecole d’agriculture du Valais (EAV) célèbre ses 100 ans en 2023. Pour clore ce jubilé, le Service de l’agriculture a mandaté l’historienne Delphine Debons afin de concevoir un ouvrage original, sous la forme d’un coffret réunissant un livre d’histoire et cinq cahiers en lien avec des thématiques incontournables pour l’avenir de l’agriculture valaisanne. Ce coffret est publié par les Archives de l’Etat du Valais, dans la série des Cahiers de Vallesia."
+</div>
+<br>
+<div class="chatgptOut">
+<br>Cet hiver, l'Office des paiements directs et l'Office vétérinaire lancent une campagne de contrôles des sorties hivernales du bétail. Des films vidéos de cinq sorties seront capturés dans une dizaine d'exploitations à travers le canton. Cette initiative renforce la transparence de l'agriculture, favorisant ainsi la confiance avec le monde non agricole.
+</div>
+<br>
 
 
+## Correction des majuscules, de la ponctuation et des exposants dans un texte
+<div class="chatgptIn">
+<br>
+Ré-écris le texte ci-dessous en corrigeant uniquement ces 3 choses : 
+1. rajoute les "." et les "," qui manquent <br>
+2. met en majuscule les lettres des mots qui devraient commencer par une majuscule (c'est-à-dire ceux en début de paragraphe ou après un ".")<br>
+3. met en exposant ce qui devrait l'être (par exemple dans 1er "er" devrait être placé comme exposant)
+<br>
+Mylène prépare la base de données avec les manquements bordures tampon<br>
+en 1er elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires ; les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants<br>
+les courriers sont envoyés au même moment que le décompte paiements directs<br>
+les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe des réclamations des exploitants. la décision d'accepter ou refuser la réclamation revient à Fabrice. si la réclamation est acceptée, la réduction est annulée<br>
+à la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. la 1ère importe les résultats de la campagne dans Acontrol ; la 2ème corrige la base de données<br>
+</div>
+<br>
+<div class="chatgptOut"><br>
+Mylène prépare la base de données avec les manquements, bordures et tampon. En 1ᵉʳ, elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant, s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires. Les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants. Les courriers sont envoyés au même moment que le décompte paiements directs. Les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe des réclamations des exploitants. La décision d'accepter ou refuser la réclamation revient à Fabrice. Si la réclamation est acceptée, la réduction est annulée.
+À la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. La 1ᵉʳᵉ importe les résultats de la campagne dans Acontrol ; la 2ᵉᵐᵉ corrige la base de données.
+</div>
+<br>
 
 
 
