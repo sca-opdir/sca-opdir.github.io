@@ -45,7 +45,7 @@ Lister uniquement sous forme de questions les questions que l'exploitant doit se
 <br>
 <ol>
 <li>L'exploitation nécessite-t-elle au moins 0.2 Unité de main d’œuvre standard (UMOS) selon le calcul en ligne? </li>
-<li>Suis-je propriétaire ou fermier pour au moins 30% des surfaces totales, y compris l'étable?
+<li>Suis-je propriétaire ou fermier pour au moins 30% des surfaces totales, y compris l'étable?</li>
 <li>Ai-je enregistré mon exploitation auprès d'une organisation de contrôle agréée pour vérifier le respect des prestations écologiques requises (PER) ou autres programmes? </li>
 <li>Prouvé-je une formation agricole reconnue (minimum AFP) ou une formation dans une autre branche avec une formation agricole continue ou une activité agricole de 3 ans? </li>
 <li>Mon exploitation possède-t-elle son propre compte bancaire ou postal, excluant les prestations sur le compte d'un tiers? </li>
@@ -647,7 +647,7 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
 
 <div class="chatgptIn"><br>
 Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
-
+```
     <pointGroup><br>
       <pointGroupID>07.1.1</pointGroupID><br>
       <point><br>
@@ -661,9 +661,11 @@ Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
       </point><br>
         <pointID>02</pointID><br>
       </point><br>
-    </pointGroup><br>
+    </pointGroup>
+          ``` 
+          <br>
 </div><br><div class="chatgptOut"><br>
-Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structure dans la deuxième balise <pointGroup>. Voici une version corrigée :
+Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structure dans la deuxième balise `<pointGroup>`. Voici une version corrigée :
 ```
 <pointGroup>
   <pointGroupID>07.1.1</pointGroupID>
@@ -699,15 +701,15 @@ Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-de
 </div><br><div class="chatgptOut"><br>
 Analyse de la Charte sur la Numérisation de l'Agriculture pour le Canton Suisse :<br>
 <ol><li>**Avantages pour le canton** :
-<ul><li>**Renforcement de la durabilité et de la compétitivité** : La numérisation peut accroître l'efficience tout au long de la chaîne de valeur, ce qui pourrait bénéficier au canton en termes de durabilité et de compétitivité.
-<li>**Réduction de la charge administrative** : La numérisation peut contribuer à réduire la charge administrative, ce qui peut être un avantage pour les autorités cantonales.
+<ul><li>**Renforcement de la durabilité et de la compétitivité** : La numérisation peut accroître l'efficience tout au long de la chaîne de valeur, ce qui pourrait bénéficier au canton en termes de durabilité et de compétitivité.</li>
+<li>**Réduction de la charge administrative** : La numérisation peut contribuer à réduire la charge administrative, ce qui peut être un avantage pour les autorités cantonales.</li>
 <li>**Promotion de la collaboration et du dialogue** : La charte encourage la mise en réseau de toutes les parties prenantes, favorisant ainsi la collaboration et le partage d'informations. </li></ul></li>
 <li>Désavantages pour le canton :
-<ul><li>**Coûts de mise en œuvre** : La transition vers la numérisation peut entraîner des coûts importants pour le canton en termes de développement de nouvelles infrastructures et de formation du personnel.
+<ul><li>**Coûts de mise en œuvre** : La transition vers la numérisation peut entraîner des coûts importants pour le canton en termes de développement de nouvelles infrastructures et de formation du personnel.</li>
 <li>**Dépendance technologique** : Une dépendance accrue aux technologies numériques peut poser des risques en cas de pannes ou de failles de sécurité. </li></ul></li>
 <li>**Répercussions pour le canton** :
-<ul><li>**Impact sur l'économie locale** : La numérisation de l'agriculture peut avoir des répercussions sur l'économie locale, en influençant les modèles d'affaires traditionnels.
-<li>**Amélioration de l'efficacité des services publics** : La numérisation peut améliorer l'efficacité des services publics du canton, notamment dans le domaine agricole.
+<ul><li>**Impact sur l'économie locale** : La numérisation de l'agriculture peut avoir des répercussions sur l'économie locale, en influençant les modèles d'affaires traditionnels.</li>
+<li>**Amélioration de l'efficacité des services publics** : La numérisation peut améliorer l'efficacité des services publics du canton, notamment dans le domaine agricole.</li>
 </li></ul></li><li>**Tableau "Points forts" et "Points faibles" de la charte** :
 </li></ol>
 <table>
@@ -1073,9 +1075,10 @@ Points clés de la discussion : <br>
 <hr>
 
 ## Résumé d'un texte sous forme de tableau
+
 <div class="chatgptIn"><br>
 Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contributions ; résume-le en créant un tableau de 3 colonne (chaque ligne correspond à une surface ou un type de surface) : la 1ère colonne "Surface" indiquera un type de surface (par ex. "surface à litière"), la 2ème colonne "Oui" contient une croix si la surface donne droit à contribution, la 3ème colonne "Non" contient une croix si la surface ne donne pas droit à contribution. Sépare les colonnes du tableau par des barres verticales "|" sous forme de texte pour que je puisse l'importer dans excel.
-<coller ici l'art. 35 de l'OPD>
+<i>coller ici l'art. 35 de l'OPD</i>
 </div>
 <br>
 <div class="chatgptOut"><br> [copié et formaté dans excel]
@@ -1127,9 +1130,15 @@ Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contrib
     <tr>
       <td>Surfaces en pépinières ou culture forestière</td>
       <td>❌</td>
-      <td
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
+
 <hr>
+
 
 ## Demander de répondre à une question en se basant sur un texte donné en entrée
 
@@ -1344,6 +1353,8 @@ Ces termes complémentaires fournissent une compréhension plus approfondie du c
 Est-ce que tu as utilisé uniquement les informations contenues dans le texte ?
 </div><br><div class="chatgptOut"><br>
 Oui, mes ajouts au glossaire sont basés uniquement sur les informations contenues dans le texte fourni. Aucune connaissance externe n'a été utilisée pour enrichir le glossaire. Si vous avez d'autres questions ou si vous souhaitez des clarifications sur des termes spécifiques, n'hésitez pas à demander.
+</div>
+    <br>
 <div class="chatgptIn"><br> Peux-tu mettre ensemble ces deux glossaires et trier les concepts par ordre alphabétique ?
 </div><br>
 <div class="chatgptOut">
