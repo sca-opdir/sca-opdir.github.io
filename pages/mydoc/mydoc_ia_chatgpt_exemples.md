@@ -462,12 +462,13 @@ efficaces. <br>
 Le préposé opère les modifications nécessaires en ligne des données fausses ou inexactes <br>
 dans les délais fixés par le service. <br>
 Sur les exploitations de base (exploitations à l’année, exploitations non commerciales), la <br>
-justesse des données fournies par l’exploitant doit notamment être contrôlée, soit : <br>
+justesse des données fournies par l’exploitant doit notamment être contrôlée, soit : 
 </div><br><div class="chatgptOut"><br>
 Le préposé est tenu de s’informer sur les nouveautés agricoles, principalement sur les exigences liées aux paiements directs. Il participe obligatoirement aux séances d’information et aux cours de formation qui ont lieu au minimum une fois par année et sont organisés par le service ou des tiers mandatés par ce dernier. Le préposé suit les instructions du service. Le préposé est un relai entre les exploitants et le service sur les questions de données agricoles et de l’utilisation des surfaces agricoles. <br>
 1.3. Assurance qualité des données des recensements<br>
 Le préposé est responsable du contrôle qualité des données fournies par l’exploitant agricole lors des sessions informatiques ouvertes à son attention par le service. Le service informe le préposé de l’ouverture des sessions par messagerie électronique. Le service met à disposition des préposés une plateforme internet permettant la gestion des exploitations et des parcelles situées sur la commune, ainsi que des outils de contrôle efficaces. Le préposé opère les modifications nécessaires en ligne des données fausses ou inexactes dans les délais fixés par le service. Sur les exploitations de base (exploitations à l’année, exploitations non commerciales), la justesse des données fournies par l’exploitant doit notamment être contrôlée, soit :  
 </div>
+
 <hr>
 
 ## Formuler un cahier des charges décrit dans un texte en une liste de tâches à effectuer
