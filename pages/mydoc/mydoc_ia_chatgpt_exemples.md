@@ -656,6 +656,14 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
 
 ## Validation de XML
 
+```
+    <pointGroup><br>
+      <pointGroupID>07.1.1</pointGroupID><br>
+      <point><br>
+        <pointID>01</pointID><br>
+      </point><br>
+```
+
 <div class="chatgptIn"><br>
 Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
     
@@ -674,6 +682,7 @@ Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
         <pointID>02</pointID><br>
       </point><br>
     </pointGroup>
+
           ```
 
           <br>
