@@ -13,7 +13,7 @@ folder: mydoc
 ## Générer la liste de questions à se poser pour savoir si les conditions sont remplies
 
 <div markdown=1>
-*test* **deuxième test
+*test* **deuxième test**
 </div>
 
 <div class="chatgptIn"><br>
