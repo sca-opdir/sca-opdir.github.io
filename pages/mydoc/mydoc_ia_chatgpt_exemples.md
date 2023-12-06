@@ -667,7 +667,7 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
 <div class="chatgptIn"><br>
 Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
     
-```
+<code>
     <pointGroup><br>
       <pointGroupID>07.1.1</pointGroupID><br>
       <point><br>
@@ -682,8 +682,7 @@ Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
         <pointID>02</pointID><br>
       </point><br>
     </pointGroup>
-
-          ```
+      </code>
 
           <br>
 </div><br><div class="chatgptOut"><br>
