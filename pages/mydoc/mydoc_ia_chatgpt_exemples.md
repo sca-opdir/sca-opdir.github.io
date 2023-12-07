@@ -28,7 +28,7 @@ code test
 ```
 code test
 ```
-
+</div>
 <br>
 
 <div class="chatgptOut" markdown=1>
@@ -39,6 +39,7 @@ code test
 code test
 ```
 
+</div>
 <br>
 
 <div class="chatgptIn" markdown=1><br>
