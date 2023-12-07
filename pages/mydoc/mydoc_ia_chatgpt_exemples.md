@@ -67,10 +67,13 @@ Lister uniquement sous forme de questions les questions que l'exploitant doit se
 
 ## Correction des fautes de frappe après rédaction rapide
 
-<div class="mycomment" markdown=1>NB : pour une raison inconnue, je n'ai pas réussi à faire respecter la numérotation (le 1er item est toujours corrigé à 1)</div>
+<div class="mycomment" markdown=1>
+    NB : pour une raison inconnue, je n'ai pas réussi à faire respecter la numérotation (le 1er item est toujours corrigé à 1)
+</div>
 
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Dans le texte ci-dessous, corrige les fautes de frappe, sans apporter aucune autre modification et sans changer la numérotation :<br>
 10. Gestion de proejts <br>
 a. Planfiication de projet : défintiion objectifs, création échéancier, identification ressources, créattion plan, établissement des livrables<br>
