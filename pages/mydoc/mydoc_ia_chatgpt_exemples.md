@@ -129,12 +129,18 @@ Fabrice: <br>
 <li>Décider d'accepter ou refuser la réclamation. </li>
 <li>Transmettre à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. </li></ul>
 </div>
-<div class="mycomment" markdown=1>Pour obtenir la même chose sous forme de tableau à importer dans Excel</div>
-<div class="chatgptIn" markdown=1><br>
+<div class="mycomment" markdown=1>
+    Pour obtenir la même chose sous forme de tableau à importer dans Excel
+</div>
+<div class="chatgptIn" markdown=1>
+    <br>
 Présente les mêmes données sous forme de tableau (1 ligne par personne, 1ère colonne = nom de la personne, 2ème colonne = tâches à effectuer) ; sépare les colonnes par une barre verticale (ne formate pas le tableau, laisse-le sous forme de texte à copier) 
 </div><br>
-<div class="mycomment" markdown=1>Pour obtenir une liste des tâches de façon chronologique</div>
-<div class="chatgptIn" markdown=1><br>
+<div class="mycomment" markdown=1>
+    Pour obtenir une liste des tâches de façon chronologique
+</div>
+<div class="chatgptIn" markdown=1>
+    <br>
 Pour ces mêmes données, résume de façon concise sous forme de liste les tâches à effectuer en utilisant des mots-clés en maintenant leur ordre chronologique tel qu'indiqué dans le texte en entrée et indique entre parenthèses la personne responsable de la tâche
 </div><br>
 <div class="chatgptOut" markdown=1><br>
@@ -158,7 +164,8 @@ Pour ces mêmes données, résume de façon concise sous forme de liste les tâc
 
 ## Extraire des éléments d'un XML
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-dessous : <br>
     
     ```
@@ -181,7 +188,8 @@ Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-d
     ```
 </div><br>
 
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 
 Voici les noms des éléments sans le namespace "n0" : <br>
 
@@ -209,7 +217,8 @@ E_PSBiolandbau
 
 ## Rédaction newsletter à partir d'idée en vrac sur le même style qu'un modèle
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Je suis employée dans l'administration publique et j'aimerais un court texte à placer dans une newsletter à l'intention de personnes actives en agriculture pour informer des éléments suivants : l'office des paiements directs et l'office vétérinaire vont organiser une campagne de contrôles des sorties hivernales du bétail cet hiver - les sorties seront contrôlées par des films vidéos de cinq sorties hivernales au cours de l'hiver -  une dizaines d'exploitations à travers tout le canton seront sélectionnés et subiront ces contrôles - ces contrôles sont un bon moyen d'améliorer la confiance avec le monde non agricole. <br>
 L'expression " vidéos de cinq sorties hivernales" doit figurer tel quel. Ce texte informatif ne s'adresse pas directement aux personnes concernées par ces contrôles, mais veut informer le reste de la population que ces contrôles auront lieu. Le texte doit être court, chaleureux et ne pas utiliser l'impératif, long de 50 mots maximum et tenir dans 1 paragraphe. <br>
 Le texte doit être fluide et engageant, écrit dans un style similaire à ce paragraphe : " L’Ecole d’agriculture du Valais (EAV) célèbre ses 100 ans en 2023. Pour clore ce jubilé, le Service de l’agriculture a mandaté l’historienne Delphine Debons afin de concevoir un ouvrage original, sous la forme d’un coffret réunissant un livre d’histoire et cinq cahiers en lien avec des thématiques incontournables pour l’avenir de l’agriculture valaisanne. Ce coffret est publié par les Archives de l’Etat du Valais, dans la série des Cahiers de Vallesia."
@@ -258,7 +267,8 @@ Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et
         598<br>
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 
 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 
 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 
@@ -269,8 +279,12 @@ Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et
 <hr>
 
 ## Reformater une liste de nombre et enlever des guillemets
-<div class="chatgptIn" markdown=1><br>
-Dans la liste ci-dessous, enlève les guillemets autour de chaque nombre et sépare-les par un point-virgule <br>
+
+<div class="chatgptIn" markdown=1>
+    
+    <br>
+
+    Dans la liste ci-dessous, enlève les guillemets autour de chaque nombre et sépare-les par un point-virgule <br>
 "501" "502" "503" "504" "505" "506" "507" "508" "509" "510" "511" "512" "513" "514" "515" "516"
 "517" "518" "519" "520" "521" "522" "523" "524" "525" "526" "527" "528" "529" "530" "531" "532"
 "533" "534" "535" "536" "537" "538" "539" "540" "541" "542" "543" "544" "545" "546" "547" "548"
@@ -372,7 +386,8 @@ NB : n'arrive pas à faire respecter la longueur de nombre de mots -> lu sur <ht
 Vrai texte : <br>
 Remise des mérites agricoles 2023<br>
 A l’occasion de la cinquième édition, les mérites agricoles ont été attribués à la cave Chanton, à l’agricultrice Stéphanie Mottiez et à l’application mon-producteur.ch. Créée en 2018, cette récompense vise à reconnaître et à encourager la recherche de l’excellence, l’engagement et l’innovation en matière d’agriculture.
-</div><br>
+</div>
+<br>
 <div class="chatgptIn" markdown=1><br>
 Résume le communiqué de presse ci-dessous en un paragraphe de 50 mots maximum à paraitre dans une newsletter ; conserve le style du communiqué de presse et utilise uniquement les informations présentes dans le communiqué de presse ; en plus du paragraphe de 50 mots, ajoute un titre attractif<br>
 Remise des mérites agricoles 2023<br>
@@ -1078,9 +1093,12 @@ Si cela ne te cause pas trop de gêne, pourrais-tu m'extraire les données deman
 
 ## Résumé d'un texte d'une autre langue sous forme de liste et points-clés 
 
-<div class="mycomment" markdown=1>Attention à ne pas introduire de données confidentielles ni privées !
+<div class="mycomment" markdown=1>
+    Attention à ne pas introduire de données confidentielles ni privées !
 </div>
-<div class="chatgptIn" markdown=1><br>
+
+<div class="chatgptIn" markdown=1>
+    <br>
 En utilisant uniquement les informations contenues dans le texte en allemand ci-dessous, sans ajouter des informations externes, résume en français, en une phrase pour chaque intervenant sa position ; puis liste les points-clés de la discussion :
 <br>
 2. Attribut «nicht kontrollierbar» <br>
@@ -1212,7 +1230,8 @@ En se basant uniquement sur les données fournies, il n'y a pas d'information sp
 
 ## Demander de résumer un texte de façon facilement compréhensible ou en langage FALC
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; résume chacune de ces sections de façon claire et concise de telle manière qu'un enfant de 10 ans pourrait comprendre. Résume chaque section en 1 paragraphe d'environ 50 mots.
 <i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012</i> 
 </div><br><div class="chatgptOut" markdown=1><br>
@@ -1225,7 +1244,8 @@ Cette partie explique où on ne peut pas épandre d'engrais. Il est interdit dan
 <b>A1-4 Mise en circulation d’engrais: </b><br>
 Ici, on parle de la façon dont les engrais sont approuvés et utilisés. Certains engrais doivent répondre à des règles strictes pour être vendus. On ne peut pas mélanger certains produits dangereux avec les engrais. Les agriculteurs doivent suivre ces règles pour protéger la qualité des engrais et de l'environnement.
 </div>
-<div class="mycomment" markdown=1><br>
+<div class="mycomment" markdown=1>
+    <br>
 NB : ça marche mieux de lui demander et de rebondir sur sa réponse ; si on écrit la question en mettant "si tu ne connais pas le langage facile à lire et à comprendre (FALC), réponds "je ne sais pas"", il répond qu'il ne sait pas 
 </div>
 <br>
@@ -1381,7 +1401,8 @@ Est-ce que tu identifies d'autres concepts qui ne sont pas introduits par "Par" 
 </div>
 <div class="mycomment" markdown=1>
 NB : ce n'est pas parfait, par exemple Pâturages communautaires et Pâturages d'estivage sont introduits par "par"
-</div><br>
+</div>
+<br>
 <div class="chatgptOut" markdown=1>
 <br>
 Bien que la plupart des concepts soient introduits par "Par", il y a des termes connexes dans le texte qui peuvent être inclus dans le glossaire :<br>
