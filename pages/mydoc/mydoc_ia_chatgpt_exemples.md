@@ -14,6 +14,11 @@ folder: mydoc
 
 <div markdown=1>
 *test* **deuxième test**
+
+```
+code test
+```
+    
 </div>
 
 <div class="chatgptIn" markdown=1><br>
@@ -155,6 +160,7 @@ Pour ces mêmes données, résume de façon concise sous forme de liste les tâc
 
 <div class="chatgptIn" markdown=1><br>
 Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-dessous : <br>
+    
     ```
 <n0:E_KLZonenbeitrag>true</n0:E_KLZonenbeitrag><br>
 <n0:E_KLAllgHangbeitrag>true</n0:E_KLAllgHangbeitrag><br>
@@ -178,6 +184,7 @@ Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-d
 <div class="chatgptOut" markdown=1><br>
 
 Voici les noms des éléments sans le namespace "n0" : <br>
+
 ```
 E_KLZonenbeitrag
 E_KLAllgHangbeitrag
