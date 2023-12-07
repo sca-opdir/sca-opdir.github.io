@@ -132,14 +132,15 @@ Fabrice: <br>
 <div class="mycomment" markdown=1>
     Pour obtenir la même chose sous forme de tableau à importer dans Excel
 </div>
-<div class="chatgptIn" markdown=1>
+<div class="chatgptIn">
     <br>
 Présente les mêmes données sous forme de tableau (1 ligne par personne, 1ère colonne = nom de la personne, 2ème colonne = tâches à effectuer) ; sépare les colonnes par une barre verticale (ne formate pas le tableau, laisse-le sous forme de texte à copier) 
 </div><br>
-<div class="mycomment" markdown=1>
+
+<div class="mycomment">
     Pour obtenir une liste des tâches de façon chronologique
 </div>
-<div class="chatgptIn" markdown=1>
+<div class="chatgptIn">
     <br>
 Pour ces mêmes données, résume de façon concise sous forme de liste les tâches à effectuer en utilisant des mots-clés en maintenant leur ordre chronologique tel qu'indiqué dans le texte en entrée et indique entre parenthèses la personne responsable de la tâche
 </div><br>
