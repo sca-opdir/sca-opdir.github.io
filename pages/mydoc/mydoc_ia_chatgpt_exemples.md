@@ -694,7 +694,13 @@ Je vais te donner du XSD puis du XML; dis-moi si le XML est conforme au XSD et s
 </n0:registrationData>
           ```
           
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+
+<br>
+
+<div class="chatgptOut" markdown=1>
+    
+    <br>
 Le XML que vous avez fourni semble être conforme au schéma XML (XSD) que vous avez partagé. Les éléments du XML correspondent aux éléments déclarés dans le XSD, et les valeurs semblent également correspondre aux types de données spécifiés dans le schéma.<br>
 Cependant, il y a une petite différence : le XSD spécifie que l'élément E_INInsitu doit être présent, mais il n'apparaît pas dans le XML que vous avez fourni. Selon le XSD, cet élément est requis (minOccurs="1"), mais il est manquant dans le XML. <br>
 
@@ -705,6 +711,7 @@ Pour rendre le XML conforme au XSD, vous devriez ajouter un élément E_INInsitu
 ```
 Une fois cette modification apportée, le XML devrait être conforme au XSD que vous avez fourni.
 </div>
+
 <hr>
 
 ## Validation de XML
@@ -717,10 +724,12 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
       </point><br>
 ```
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    
+    <br>
 Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
     
-<code>
+```
     <pointGroup><br>
       <pointGroupID>07.1.1</pointGroupID><br>
       <point><br>
@@ -735,10 +744,13 @@ Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
         <pointID>02</pointID><br>
       </point><br>
     </pointGroup>
-      </code>
+```
 
           <br>
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structure dans la deuxième balise `<pointGroup>`. Voici une version corrigée :
 
 ```
@@ -757,6 +769,7 @@ Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structu
     <pointID>02</pointID>
   </point>
 </pointGroup>
+
 ```
 
 Les erreurs corrigées sont les suivantes :
@@ -769,12 +782,16 @@ Avec ces corrections, le XML devrait être structuré correctement.
 
 ## Analyser un document selon un certain point de vue et lister les points forts/faibles 
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte en répondant aux questions : 1) quels avantages pour le canton ? 2) quels désavantages pour le canton ? 3) quelles répercussions pour le canton ? 4) remplis un tableau à 2 colonnes "points forts" et "points faibles" de cette charte <br>
     
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf> </i>
     
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Analyse de la Charte sur la Numérisation de l'Agriculture pour le Canton Suisse :<br>
 <ol><li>**Avantages pour le canton** :
 <ul><li>**Renforcement de la durabilité et de la compétitivité** : La numérisation peut accroître l'efficience tout au long de la chaîne de valeur, ce qui pourrait bénéficier au canton en termes de durabilité et de compétitivité.</li>
@@ -841,13 +858,15 @@ Cette analyse doit être adaptée en fonction des spécificités du canton et de
 
 ## Analyser un document et suggérer des améliorations selon les intérêts d'un certain point de vue 
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et propose des améliorations pour la rendre plus profitable pour le canton
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf></i>
 
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 En tant que responsable des systèmes d'information d'un canton suisse, voici quelques suggestions pour améliorer la charte sur la numérisation de l'agriculture et la rendre plus profitable pour le canton:
 <ol><li>Personnalisation pour le Canton:
 <ul><li>Intégrer des éléments spécifiques au canton dans la charte pour refléter les besoins et les priorités locaux. Par exemple, tenir compte des particularités agricoles du canton, des ressources disponibles et des spécificités économiques.</li></ul>
@@ -870,17 +889,21 @@ En tant que responsable des systèmes d'information d'un canton suisse, voici qu
 </li><li>Partenariats Locaux:
 <ul><li>Encourager la formation de partenariats locaux entre le gouvernement, les entreprises privées et les organisations agricoles pour faciliter la mise en œuvre des initiatives de numérisation.</li></ul>
 </li></ol>
-    
+</div>
+
 En intégrant ces éléments, la charte pourrait devenir plus adaptée aux besoins spécifiques du canton, favorisant ainsi une numérisation plus efficace et bénéfique pour l'agriculture et le secteur agroalimentaire locaux.
 
 ## Analyser un document et suggérer des questions 
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et liste 10 questions qu'il faudrait adresser à l'administration fédérale pour s'assurer que cette charte soit bénéfique pour le canton. <br>
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf></i>
-</div><br>
+</div>
+    <br>
 
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 En tant que responsable des systèmes d'information du canton suisse, voici 10 questions que vous pourriez adresser à l'administration fédérale pour vous assurer que la charte sur la numérisation de l'agriculture soit bénéfique pour votre canton :
 <ol><li>**Interopérabilité des systèmes** : Comment la charte assure-t-elle l'interopérabilité des systèmes numériques entre la Confédération, les cantons et les acteurs privés, afin de garantir une collaboration efficace et harmonieuse?</li><li>
 **Protection des données** : Comment la charte garantit-elle la protection des données dans le cadre de la numérisation de l'agriculture et du secteur agroalimentaire, en particulier en ce qui concerne la collecte, le stockage et le traitement des données sensibles? </li><li>
@@ -897,10 +920,12 @@ En tant que responsable des systèmes d'information du canton suisse, voici 10 q
 
 ## Identifier des désavantages, prendre position et débattre 
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Le texte ci-dessous présente une solution informatique appelée "digiFLUX" développée par l'administration fédérale suisse. A la suite de ce texte sont également listés les avantages mis en avant par la confédération selon 4 points de vue : "Agriculture", "Commerce", "Infrastructures et espaces verts", "Cantons". Pour chacun de ces 4 points de vue, énumère les désavantages qui découleraient de l'entrée en vigueur de digiFlux. <br>
 <i>copier le texte de présentation de digiflux et les avantages listés pour les 4 secteurs</i>
-</div><br><div class="chatgptOut" markdown=1><br>
+</div><br><div class="chatgptOut" markdown=1>
+    <br>
 <b>Désavantages potentiels de digiFLUX selon quatre points de vue:</b><br>
 <b>1. Agriculture:</b><ul>
 <li><i>Complexité pour les agriculteurs</i>: Certains agriculteurs pourraient rencontrer des difficultés à s'adapter à l'outil numérique, en particulier ceux qui ne sont pas familiers avec l'utilisation d'applications web. </li>
@@ -917,9 +942,13 @@ Le texte ci-dessous présente une solution informatique appelée "digiFLUX" dév
 Il est important de noter que ces désavantages potentiels peuvent être atténués par une communication efficace, une formation adéquate et une gestion proactive des défis liés à la mise en œuvre de digiFLUX.
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Pour chacun de ces points de vue, décide s'il faut se positionner en faveur ou en défaveur de digiFlux et argumente ta position en un paragraphe d'environ 50 mots.
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 <b>1. Agriculture:</b><ul>
 <li><i>Position en faveur</i>: digiFLUX offre une transition vers la numérisation, simplifiant la déclaration obligatoire pour les agriculteurs. Bien que certains puissent ressentir une adaptation initiale difficile, les avantages à long terme, tels que la réduction de la charge administrative, justifient le soutien à cette initiative.</li>
 </ul><b>2. Commerce: </b><ul>
@@ -930,9 +959,13 @@ Pour chacun de ces points de vue, décide s'il faut se positionner en faveur ou 
 <li><i>Position en faveur</i>: Bien que nécessitant des ressources supplémentaires, digiFLUX améliore l'efficacité administrative des autorités cantonales. Les avantages, tels que des contrôles plus ciblés et une utilisation consciente des intrants, justifient le soutien en vue de renforcer les systèmes cantonaux.</li></ul>
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Imagine un débat entre des représentants de ces 4 points de vue ; chacun a le droit à 3 prises de paroles ; il y a de la tension, mais le ton reste poli
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 <b>Représentant de l'Agriculture (A):</b><br>
 1.	<b>A1 (en faveur): </b> "Mesdames et messieurs, digiFLUX est une opportunité pour l'agriculture. Oui, l'adaptation peut être difficile, mais la simplification de la déclaration et la réduction de la charge administrative à long terme sont des avantages considérables. Investissons dans cette transition numérique pour un secteur agricole plus efficace."<br>
 2.	<b>A2 (en faveur): </b> "Certains peuvent craindre la complexité, mais digiFLUX offre une chance d'optimiser nos processus. La résistance initiale sera compensée par la transparence accrue et une gestion plus ciblée des intrants. Embrassons cette évolution pour un avenir agricole plus durable." <br>
@@ -958,7 +991,8 @@ Imagine un débat entre des représentants de ces 4 points de vue ; chacun a le 
 <div class="mycomment" markdown=1>
 NB : il faut ensuite coller la réponse de chatGPT dans Excel en utilisant l'Assistant Importation de texte ; on peut aussi demander à ChatGPT de produire le tableau en format html et utiliser un convertisseur en ligne qui convertit html en xlsx (e.g. https://products.aspose.app/cells/conversion/html-to-xlsx)
 </div>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Le texte ci-dessous contient les données d'un tableau de 2 colonnes "XML Datentyp" et "Beschreibung" copié d'un pdf ; reformate ces données pour que je puisse les copier dans excel: sépare les 2 colonnes par une barre verticale et montre le résultat dans une fenêtre de code <br>
 XML Datentyp Beschreibung<br>
 boolean Enthält entweder den Wert „true“ bzw. 1 (wahr) oder „false“ bzw. 0<br>
@@ -989,7 +1023,8 @@ eCH-XXXX | Das Format des Inhalts entspricht dem eCH-Standard eCH-XXXX (voir www
 <div class="mycomment" markdown=1>
 NB : n'arrive pas à respecter de ne pas changer la ponctuation et à ne pas mettre en majuscule la lettre après "->" 
 </div>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Dans le texte ci-dessous, sans rien changer au texte ni à sa ponctuation, faire commencer chaque phrase par une majuscule ; la lettre qui suit "->" ne doit pas être mise en majuscule<br>
 
 cas particuliers<br>
@@ -1024,7 +1059,8 @@ Cas particuliers: <br>
 <div class="mycomment" markdown=1>
 Résultats pas toujours convaincants pour la question ci-dessous, pas réussi à obtenir une réponse convaincante ; les formules ne marchaient pas et les id étaient comptés à double; essayé de reformuler, ne marche pas, formules erronées ou résultat faux...
 </div>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Dans le tableau ci-dessous (colonnes séparées par ";"), quelle formule excel je peux mettre en C2 pour que le contenu de cette cellule soit "BEA" si la colonne A2 contient une des valeurs suivantes : SST ou SRPA ou WEIDE ? indique uniquement la formule excel<br>
 id;set code<br>
 12231;SST<br>
@@ -1046,7 +1082,8 @@ id;programme<br>
 213123;rausRin9
 213534;btsRin4<br>
 </div>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Pour résoudre cette tâche dans Excel, vous pouvez utiliser la fonction SOMMEPROD en combinaison avec les fonctions GAUCHE et DISTINCT. Voici comment vous pouvez procéder :[...]
 [LA REPONSE EST FAUSSE]
 </div>
@@ -1054,7 +1091,8 @@ Pour résoudre cette tâche dans Excel, vous pouvez utiliser la fonction SOMMEPR
 
 ## Explication de code informatique'un code Python ou R
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Que fait le code R ci-dessous ?<br>
 
 ``` R
@@ -1100,12 +1138,14 @@ En résumé, ce code manipule des DataFrames en remplaçant certaines valeurs ma
 <hr>
 
 ## Trouver un mot adéquat pour compléter une phrase
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Quel mot pourrait remplacer le "X" dans la phrase ci-dessous : <br>
 "Si cela ne te cause pas trop de X, pourrais-tu m'extraire les données demandées hier?" <br>
 Donne 5 possibilités.
 </div>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Voici cinq possibilités pour remplacer le "X" dans la phrase : <br>
 Si cela ne te cause pas trop d'inconvénients, pourrais-tu m'extraire les données demandées hier? <br>
 Si cela ne te cause pas trop de soucis, pourrais-tu m'extraire les données demandées hier? <br>
@@ -1165,12 +1205,14 @@ Points clés de la discussion : <br>
 
 ## Résumé d'un texte sous forme de tableau
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contributions ; résume-le en créant un tableau de 3 colonne (chaque ligne correspond à une surface ou un type de surface) : la 1ère colonne "Surface" indiquera un type de surface (par ex. "surface à litière"), la 2ème colonne "Oui" contient une croix si la surface donne droit à contribution, la 3ème colonne "Non" contient une croix si la surface ne donne pas droit à contribution. Sépare les colonnes du tableau par des barres verticales "|" sous forme de texte pour que je puisse l'importer dans excel.
 <i>coller ici l'art. 35 de l'OPD</i>
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br> [copié et formaté dans excel]
+<div class="chatgptOut" markdown=1>
+    <br> [copié et formaté dans excel]
 
 <table>
   <thead>
@@ -1231,10 +1273,12 @@ Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contrib
 
 ## Demander de répondre à une question en se basant sur un texte donné en entrée
 
-<div class="mycomment" markdown=1><br>
+<div class="mycomment" markdown=1>
+    <br>
 NB: limité en raison du nombre de caractère maximal qu'on peut passer dans la prompt
 </div>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Les données ci-dessous contiennent des informations concernant les sanctions à appliquer si les conditions de participation à 3 programme (SST, SRPA, Mise au pâturage) ne sont pas remplies ; pour chacun des programmes, la 3ème colonne à droite "Réduction" indique la sanction à appliquer pour chaque type de manquement indiqué dans la colonne "Manquement concernant le point de contrôle" (1ère colonne à gauche) ; la sanction varie selon la catégorie de bétail (indiquée dans la deuxième colonne). En se basant uniquement sur ces données, réponds à la question suivante : quelle est la sanction à appliquer s'il est constaté que de la litière manque dans une écurie de bovins ? Si les données ne permettent pas de répondre à la question, réponds :"je ne sais pas".<br>
 <i>coller ici une partie de l'annexe 8 / tableau des sanctions de l'OPD issu du document word</i>
 </div><br><div class="chatgptOut" markdown=1><br>
@@ -1245,7 +1289,8 @@ Selon les données fournies, la sanction à appliquer s'il est constaté que de 
 Donc, la sanction à appliquer dépend du degré de manquement à la norme de litière, et cela peut varier entre 10 et 110 points, en fonction de la situation spécifique observée.
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Même consigne que la question précédente, mais pour la question : "quelle est la sanction à appliquer en cas de fauche précoce d'une prairie extensive ?"
 </div><br><div class="chatgptOut" markdown=1><br> 
 En se basant uniquement sur les données fournies, il n'y a pas d'information spécifique concernant la sanction à appliquer en cas de fauche précoce d'une prairie extensive. Par conséquent, je ne peux pas répondre à cette question en utilisant les données disponibles.
@@ -1273,13 +1318,18 @@ Ici, on parle de la façon dont les engrais sont approuvés et utilisés. Certai
 NB : ça marche mieux de lui demander et de rebondir sur sa réponse ; si on écrit la question en mettant "si tu ne connais pas le langage facile à lire et à comprendre (FALC), réponds "je ne sais pas"", il répond qu'il ne sait pas 
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br> 
+<div class="chatgptIn" markdown=1>
+    <br> 
 Est-ce que tu connais le langage facile à lire et à comprendre (FALC) ?
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Oui, je suis familiarisé avec le concept [...]
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br> 
+<div class="chatgptIn" markdown=1>
+    <br> 
 Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; puisque tu connais le langage facile à lire et à comprendre (FALC), résume chacune de ces sections de façon claire et concise de telle manière en utilisant l'approche du langage FALC. Résume chaque section en 1 paragraphe d'environ 30 mots en langage facile à lire et à comprendre.<br>
 <i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012</i>
 </div><br><div class="chatgptOut" markdown=1><br>
@@ -1296,7 +1346,8 @@ La réglementation sur la mise en circulation d'engrais couvre l'homologation, l
 
 ## Remplacer un mot (et ses formes dérivées) par un autre seulement là où cela est pertinent
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Dans le texte ci-dessus, remplace là où cela fait du sens toutes les formes du verbe faire par celles du verbe "procéder" sans rien changer au reste du texte. Si le verbe procéder ne fait pas dans sens dans le contexte, laisse le verbe "faire".<br>
 J'ai fait une analyse de texte, tout en faisant une revue de littérature. Toi tu faisais des biscuits. J'ai fait l'examen aujourd'hui. Demain, je ferai la révision. Il fait beau demain.
 </div>
@@ -1309,7 +1360,8 @@ J'ai procédé à une analyse de texte, tout en procédant à une revue de litt�
 
 ## Remplacer un mot par des synonymes
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Dans le texte ci-dessous, le terme "ouvrage" revient fréquemment. Remplace-le autant que possible par des synonymes, sans que cela ne change le sens du texte. Laisse le reste du texte inchangé. Indique en gras les mots utilisés en remplacement.
 <br>
 Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le présent et le futur. C’est l’ambition de l’ouvrage dévoilé à Châteauneuf ce mercredi. Il prend la forme d’un coffret comprenant un livre d’histoire et cinq cahiers sur les thématiques incontournables pour l’agriculture valaisanne d’aujourd’hui et de demain. Cet ouvrage vient clore le jubilé du centième anniversaire de l’Ecole cantonale d’agriculture. «L’idée était de proposer un ouvrage de synthèse accessible à tous», résume l’historienne Delphine Debons, mandatée par le Service de l’agriculture pour ce travail historique et de mise en perspective. En une centaine de pages, l'ouvrage retrace un siècle d’enseignement à l’école d’agriculture et de mise en œuvre de la politique agricole valaisanne. «J’ai, par exemple, été étonnée de découvrir que l’école de Châteauneuf gérait en gros toute l’agriculture durant une période», note Delphine Debons. Pour aborder le passé de l’institution et étoffer son ouvrage, l’historienne s’est plongée dans les rapports triennaux publiés par l’école depuis 1924 jusqu’en 2001 et dans d’autres archives pour compléter et nuancer les éléments de ces rapports.
@@ -1325,7 +1377,8 @@ Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le
 
 ## Analyser un CV par rapport à l'annonce du poste
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Je vais te donner 2 textes. Tout d'abord un descriptif d'un poste issu d'une annonce d'emploi. Ensuite le CV d'une personne qui a postulé pour ce poste. Analyse le profil du candidat. Puis, liste ses points forts pour le poste, puis ses points faibles pour le poste.<br>
 L'annonce du poste :<br>
 <i>copier ici l'annonce du poste</i><br>
@@ -1334,7 +1387,8 @@ Le CV du candidat : <br>
 
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Analyse du profil du candidat pour le poste décrit dans l'annonce d'emploi : <br>
 Points forts pour le poste : <br>
 1.	<b>Formation académique solide : </b>  Le candidat a un doctorat en sciences de la vie avec une spécialisation en bioinformatique, ce qui correspond bien au champ de compétences requis dans l'annonce. <br>
@@ -1352,10 +1406,14 @@ Globalement, le candidat semble avoir une solide base académique, des compéten
 
 ## Générer une FAQ sur la base d'un manuel d'instruction pour utilisateurs d'un outil informatique
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Le texte ci-dessous est issu d'un manuel d'instruction pour la saisie en ligne de données agricoles. Liste 20 questions techniques que pourrait se poser un professionnel du monde agricole qui doit utiliser cette plateforme pour saisir ses données et réponds à chacune de ces questions de manière très brève à la façon question-réponse d'une FAQ. <br>
 <i>coller ici le texte du manuel d'instruction</i>
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 <b>FAQ - Saisie en ligne de données agricoles </b><br>
 1. <b>Comment sélectionner mon rôle pour la saisie des données?</b> Cliquez sur l'onglet "Utilisateurs", choisissez votre rôle parmi les différents onglets. <br>
 2. <b>Comment ouvrir le menu principal sur les petits écrans?</b> Utilisez le bouton "Maison" pour revenir à la page de sélection des exploitations. <br>
@@ -1382,7 +1440,8 @@ Le texte ci-dessous est issu d'un manuel d'instruction pour la saisie en ligne d
     
 ## Convertir tableau en texte
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Le tableau ci-dessous contient 3 colonnes ; la 1ère indique la personne responsable, la 2ème l'action effectuée; la 3ème la période à laquelle l'action a été effectuée. A partir de ce tableau rédige un court paragraphe qui explique les actions effectuées. La chronologie des actions doit être respectée. Ne rajoute pas d'autres informations que celles contenues dans le tableau.<br>
 Caroline;collecte des données;juin 2023<br>
 Caroline;vérification résultats;fin septembre 2023<br>
@@ -1391,14 +1450,18 @@ Marie;calcul des réductions;mi-septembre 2023<br>
 Johanna;préparation cartes;avril 2023<br>
 Johanna;saisie des réductions;fin septembre 2023<br>
 
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Au cours du mois d'avril 2023, Johanna a débuté le processus en se chargeant de la préparation des cartes nécessaires à une tâche spécifique. Par la suite, en juin 2023, Caroline a pris le relais en collectant les données requises pour le projet. Marie a ensuite contribué en mai 2023 en rédigeant le script nécessaire à l'accomplissement des prochaines étapes. Vers la mi-septembre 2023, Marie a repris ses responsabilités en effectuant le calcul des réductions, tandis que Caroline a entrepris la vérification des résultats obtenus. Simultanément, Johanna a finalisé le processus en saisissant les réductions nécessaires à la fin du mois de septembre 2023. Ainsi, chaque personne a joué un rôle crucial à des moments spécifiques, assurant ainsi le déroulement cohérent et ordonné des différentes actions nécessaires au projet.
 </div>
 <hr>
 
 ## Création d'un glossaire en se basant sur les infos d'un texte et tri alphabétique
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Le texte ci-dessous donne la définition de plusieurs concepts ; tous les concepts définis par le mot "Par", par exemple la phrase qui commence "Par terres assolées, on entends les terres [...]" définit le concept "terres assolées". A partir de ce texte et en utilisant uniquement les informations contenues dans ce texte, créer un glossaire qui donne la définition de ces concepts introduits par le mot "Par" ; le glossaire doit avoir le format : "concept = définition". La définition du concept doit être très brève (maximum 20 mots) 
 <i>coller ici les art. 18 à 36 de l'OTerm</i>
 </div>
@@ -1420,7 +1483,8 @@ Glossaire :<br>
 12.	<b>Pâturages d'estivage </b>= Surfaces exclusivement utilisées pour le pacage estival des animaux, faisant partie d'une exploitation d'estivage.
 </div> 
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Est-ce que tu identifies d'autres concepts qui ne sont pas introduits par "Par" mais qui pourraient être inclus dans le glossaire ? si oui, complète le glossaire avec ces termes.
 </div>
 <div class="mycomment" markdown=1>
@@ -1446,14 +1510,20 @@ Bien que la plupart des concepts soient introduits par "Par", il y a des termes 
 Ces termes complémentaires fournissent une compréhension plus approfondie du contexte agricole et de la gestion des terres décrits dans le texte.
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Est-ce que tu as utilisé uniquement les informations contenues dans le texte ?
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
+    <br>
 Oui, mes ajouts au glossaire sont basés uniquement sur les informations contenues dans le texte fourni. Aucune connaissance externe n'a été utilisée pour enrichir le glossaire. Si vous avez d'autres questions ou si vous souhaitez des clarifications sur des termes spécifiques, n'hésitez pas à demander.
 </div>
     <br>
-<div class="chatgptIn" markdown=1><br> Peux-tu mettre ensemble ces deux glossaires et trier les concepts par ordre alphabétique ?
-</div><br>
+<div class="chatgptIn" markdown=1>
+    <br> Peux-tu mettre ensemble ces deux glossaires et trier les concepts par ordre alphabétique ?
+</div>
+<br>
 <div class="chatgptOut" markdown=1>
 <br>
 Bien sûr, voici le glossaire combiné avec les concepts triés par ordre alphabétique : <br>
@@ -1490,7 +1560,8 @@ Les termes sont maintenant présentés de manière alphabétique pour une réfé
 NB : n'a pas fonctionné, résultat totalement erroné
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Y a-t-il des verbes qui reviennent plus d'une fois dans la liste ci-dessous ? Si oui, lesquels ? <br>
 propose / réalise / estime / crée / aides à [formuler/créer/préparer/élaborer/me préparer pour ...] pour [une start-up qui ...] / identifie / évalue [la performance] / élabore / rédige / donne / formule / mène / génère / développe /écris / cartographie [le parcours ...] / énumère / prépare / utilise [l'analyse SWOT] pour concevoir / examine [notre proposition/ce site web] et suggère [des façons de l'améliorer pour la rendre plus ...] / conçois / fournis / analyse [le parcours/une crise récente ...] / examine [le CV pour ...] et évalue / élabore / estime / présente / suggère / effectue / guide [le client à travers le processus] / conçois / imagine 
 </div><br><div class="chatgptOut" markdown=1><br>
@@ -1508,7 +1579,8 @@ Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les v
 NB : n'a pas fonctionné ; occurrence totale et formes dérivées non agrégées 
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+    <br>
 Compte le nombre d'occurrence totale de chaque mot dans le texte ci-dessous ; réponds par un tableau contenant le mot en 1ère colonne et l’occurrence en 2ème colonne; le tableau doit donner le résultat pour tout le texte (1 ligne par mot, il ne doit pas y avoir de doublons dans la 1ère colonne) ; le tableau doit être trié par ordre décroissant du nombre d'occurrences ; ne prends en compte que les mots de plus de 3 lettres ; un mot et ses formes dérivées ne doivent être comptabilisés qu'une fois ; 
 par exemple pour la phrase "tu es agriculteur et je suis agricultrice" le résultat doit être : <br>
 être;2<br>
@@ -1518,7 +1590,8 @@ le texte à analyser est : <br>
 <i>copier ici le texte</i>
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 mot;occurrence<br>
 contributions;14<br>
 surfaces;11<br>
@@ -1534,15 +1607,18 @@ contribution;8<br>
 
 ## Sélectionner les extraits de texte qui permettent de répondre à une question
 
- <div class="chatgptIn" markdown=1><br>
+ <div class="chatgptIn" markdown=1>
+     <br>
 NB : ne marche pas parfaitement
 </div>
-<br><div class="chatgptIn" markdown=1><br>
+<br><div class="chatgptIn" markdown=1>
+    <br>
 Dans le texte ci-dessous, sélectionne, pour chaque système d'information, les extraits qui se rapportent à la question suivante : "pour chaque système d'information, combien d'agriculteurs/exploitants sont concernés par ce système ?" Veille à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Si l'information n'est pas présente dans le texte, indique que le texte ne permet pas de le savoir. 
 <i>coller ici les paragraphes 2.2.2.1 à 2.2.2.5 du rapport Bourgeois <https://www.blw.admin.ch/dam/blw/fr/dokumente/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf.download.pdf/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf></i>
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
+    <br>
 <b>Acorda:</b><br>
 •	Le fichier d’adresses comprend environ 5000 exploitations agricoles bénéficiaires de paiements directs et 5400 éleveurs d’animaux de rente à titre non commercial. <br>
 <b>Agricola: </b><br>
