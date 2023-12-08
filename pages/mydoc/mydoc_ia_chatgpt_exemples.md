@@ -43,7 +43,7 @@ code test
 <br>
 
 <div class="chatgptIn" markdown=1>
-**Le texte ci-dessous présente les conditions qui doivent être remplies pour qu'une exploitation agricole soit reconnue. Résume sous forme de liste les questions que doit se poser un exploitant pour savoir s'il remplit ces conditions. Chaque question doit être concise et tenir sur une ligne.**<br>
+***Le texte ci-dessous présente les conditions qui doivent être remplies pour qu'une exploitation agricole soit reconnue. Résume sous forme de liste les questions que doit se poser un exploitant pour savoir s'il remplit ces conditions. Chaque question doit être concise et tenir sur une ligne.***<br>
 Une exploitation agricole doit être reconnue par la Commission de reconnaissance des exploitations (CRE) du Service cantonal de l’agriculture (SCA) pour pouvoir bénéficier de soutiens financiers tels que les paiements directs, les aides aux améliorations structurelles ou d'autres contributions agricoles. <br>
 A cette fin, elle doit remplir divers critères, notamment : <br>
 UMOS : l’exploitation doit nécessiter au moins 0.2 Unité de main d’œuvre standard (UMOS). Le calcul des UMOS peut se faire à l’aide du programme en ligne suivant https://agripedia.ch/focus-ap-pa/outil-de-calcul-des-contributions/. Pour le calcul des UMOS, il faut utiliser le dernier onglet dénommé "Limitations" de l’outil Excel de calcul des contributions<br>
@@ -68,12 +68,11 @@ Nous vous recommandons de contacter rapidement le responsable régional, afin de
     *Résultat pas dans le format attendu*
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
 Lister uniquement sous forme de questions les questions que l'exploitant doit se poser (s'il répond oui, il remplit conditions).
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 <ol>
 <li>L'exploitation nécessite-t-elle au moins 0.2 Unité de main d’œuvre standard (UMOS) selon le calcul en ligne? </li>
 <li>Suis-je propriétaire ou fermier pour au moins 30% des surfaces totales, y compris l'étable?</li>
@@ -98,9 +97,9 @@ Lister uniquement sous forme de questions les questions que l'exploitant doit se
 </div>
 
 
-<div class="chatgptIn">
+<div class="chatgptIn" markdown=1>
+***Dans le texte ci-dessous, corrige les fautes de frappe, sans apporter aucune autre modification et sans changer la numérotation :***
     <br>
-Dans le texte ci-dessous, corrige les fautes de frappe, sans apporter aucune autre modification et sans changer la numérotation :<br>
 10. Gestion de proejts <br>
 a. Planfiication de projet : défintiion objectifs, création échéancier, identification ressources, créattion plan, établissement des livrables<br>
 b. Gestion des risques du projet : identification des risques, élaboration plan de contingence, gestion des problèmes, anlayse des risques, planfiication de la préposne aux risques<br>
@@ -120,7 +119,7 @@ c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion
 ## Extraire les tâches de chacun depuis des notes de réunion "en vrac"
 
 <div class="chatgptIn" markdown=1>
-Le texte ci-dessus explique un processus de traitement de données ; pour chaque personne liste en utilisant des mots clés les tâches qu'il doit effectuer
+***Le texte ci-dessus explique un processus de traitement de données ; pour chaque personne liste en utilisant des mots clés les tâches qu'il doit effectuer.***
 Mylène prépare la base de données avec les manquements bordures tampon <br>
 elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires ; les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants<br>
 les courriers sont envoyés au même moment que le décompte paiements directs<br>
@@ -128,7 +127,7 @@ les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe d
 à la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol ; Marie importe les résultats de la campagne dans Acontrol ; Mylène corrige la base de données
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
 Mylène:<br>
 <ul>
 <li>Préparer la base de données avec les manquements, bordures, et tampon. </li>
@@ -150,22 +149,21 @@ Fabrice: <br>
 <li>Décider d'accepter ou refuser la réclamation. </li>
 <li>Transmettre à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. </li></ul>
 </div>
-<div class="mycomment" markdown=1>
+<div class="mycomment">
     Pour obtenir la même chose sous forme de tableau à importer dans Excel
 </div>
-<div class="chatgptIn">
-    <br>
-Présente les mêmes données sous forme de tableau (1 ligne par personne, 1ère colonne = nom de la personne, 2ème colonne = tâches à effectuer) ; sépare les colonnes par une barre verticale (ne formate pas le tableau, laisse-le sous forme de texte à copier) 
+<div class="chatgptIn" markdown=1>
+***Présente les mêmes données sous forme de tableau (1 ligne par personne, 1ère colonne = nom de la personne, 2ème colonne = tâches à effectuer) ; sépare les colonnes par une barre verticale (ne formate pas le tableau, laisse-le sous forme de texte à copier).***
 </div><br>
 
 <div class="mycomment">
     Pour obtenir une liste des tâches de façon chronologique
 </div>
-<div class="chatgptIn">
-    <br>
-Pour ces mêmes données, résume de façon concise sous forme de liste les tâches à effectuer en utilisant des mots-clés en maintenant leur ordre chronologique tel qu'indiqué dans le texte en entrée et indique entre parenthèses la personne responsable de la tâche
-</div><br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+***Pour ces mêmes données, résume de façon concise sous forme de liste les tâches à effectuer en utilisant des mots-clés en maintenant leur ordre chronologique tel qu'indiqué dans le texte en entrée et indique entre parenthèses la personne responsable de la tâche.***
+</div>
+<br>
+<div class="chatgptOut" markdown=1>
 1. Préparer la base de données avec manquements, bordures, tampon (Mylène).<br>
 2. Transmettre le fichier à Marie (Mylène). <br>
 3. Examiner et calculer les réductions pour chaque propriétaire et exploitant (Marie). <br>
@@ -187,35 +185,35 @@ Pour ces mêmes données, résume de façon concise sous forme de liste les tâc
 ## Extraire des éléments d'un XML
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-dessous : <br>
+***Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-dessous :***
     
     ```
-<n0:E_KLZonenbeitrag>true</n0:E_KLZonenbeitrag><br>
-<n0:E_KLAllgHangbeitrag>true</n0:E_KLAllgHangbeitrag><br>
-<n0:E_KLSteillagenbeitrag>true</n0:E_KLSteillagenbeitrag><br>
-<n0:E_KLRebHangbeitrag>false</n0:E_KLRebHangbeitrag><br>
-<n0:E_KLAlpungsbeitrag>true</n0:E_KLAlpungsbeitrag><br>
-<n0:E_KLSoemmerungsbeitrag>false</n0:E_KLSoemmerungsbeitrag><br>
-<n0:E_VSBasisbeitrag>true</n0:E_VSBasisbeitrag><br>
-<n0:E_VSZonenbeitrag>true</n0:E_VSZonenbeitrag><br>
-<n0:E_VSOffeneAckerflaecheundDauerkulturen>true</n0:E_VSOffeneAckerflaecheundDauerkulturen><br>
-<n0:E_VSEinzelkultur>true</n0:E_VSEinzelkultur><br>
-<n0:E_BDQualitaetsbeitrag>true</n0:E_BDQualitaetsbeitrag><br>
-<n0:E_BDQualitaetsbeitragSoem>false</n0:E_BDQualitaetsbeitragSoem><br>
-<n0:E_BDVernetzungsbeitrag>true</n0:E_BDVernetzungsbeitrag><br>
-<n0:E_LQBeitrag>true</n0:E_LQBeitrag><br>
-<n0:E_LQBeitragSoem>false</n0:E_LQBeitragSoem><br>
-<n0:E_PSBiolandbau>false</n0:E_PSBiolandbau><br>
+    
+<n0:E_KLZonenbeitrag>true</n0:E_KLZonenbeitrag>
+<n0:E_KLAllgHangbeitrag>true</n0:E_KLAllgHangbeitrag>
+<n0:E_KLSteillagenbeitrag>true</n0:E_KLSteillagenbeitrag>
+<n0:E_KLRebHangbeitrag>false</n0:E_KLRebHangbeitrag>
+<n0:E_KLAlpungsbeitrag>true</n0:E_KLAlpungsbeitrag>
+<n0:E_KLSoemmerungsbeitrag>false</n0:E_KLSoemmerungsbeitrag>
+<n0:E_VSBasisbeitrag>true</n0:E_VSBasisbeitrag>
+<n0:E_VSZonenbeitrag>true</n0:E_VSZonenbeitrag>
+<n0:E_VSOffeneAckerflaecheundDauerkulturen>true</n0:E_VSOffeneAckerflaecheundDauerkulturen>
+<n0:E_VSEinzelkultur>true</n0:E_VSEinzelkultur>
+<n0:E_BDQualitaetsbeitrag>true</n0:E_BDQualitaetsbeitrag>
+<n0:E_BDQualitaetsbeitragSoem>false</n0:E_BDQualitaetsbeitragSoem>
+<n0:E_BDVernetzungsbeitrag>true</n0:E_BDVernetzungsbeitrag>
+<n0:E_LQBeitrag>true</n0:E_LQBeitrag>
+<n0:E_LQBeitragSoem>false</n0:E_LQBeitragSoem>
+<n0:E_PSBiolandbau>false</n0:E_PSBiolandbau>
 
     ```
     
-</div><br>
+</div>
+<br>
 
 <div class="chatgptOut" markdown=1>
-    <br>
 
-Voici les noms des éléments sans le namespace "n0" : <br>
+    Voici les noms des éléments sans le namespace "n0" : 
 
 ```
 E_KLZonenbeitrag
@@ -243,10 +241,9 @@ E_PSBiolandbau
 ## Rédaction newsletter à partir d'idée en vrac sur le même style qu'un modèle
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Je suis employée dans l'administration publique et j'aimerais un court texte à placer dans une newsletter à l'intention de personnes actives en agriculture pour informer des éléments suivants : l'office des paiements directs et l'office vétérinaire vont organiser une campagne de contrôles des sorties hivernales du bétail cet hiver - les sorties seront contrôlées par des films vidéos de cinq sorties hivernales au cours de l'hiver -  une dizaines d'exploitations à travers tout le canton seront sélectionnés et subiront ces contrôles - ces contrôles sont un bon moyen d'améliorer la confiance avec le monde non agricole. <br>
-L'expression " vidéos de cinq sorties hivernales" doit figurer tel quel. Ce texte informatif ne s'adresse pas directement aux personnes concernées par ces contrôles, mais veut informer le reste de la population que ces contrôles auront lieu. Le texte doit être court, chaleureux et ne pas utiliser l'impératif, long de 50 mots maximum et tenir dans 1 paragraphe. <br>
-Le texte doit être fluide et engageant, écrit dans un style similaire à ce paragraphe : " L’Ecole d’agriculture du Valais (EAV) célèbre ses 100 ans en 2023. Pour clore ce jubilé, le Service de l’agriculture a mandaté l’historienne Delphine Debons afin de concevoir un ouvrage original, sous la forme d’un coffret réunissant un livre d’histoire et cinq cahiers en lien avec des thématiques incontournables pour l’avenir de l’agriculture valaisanne. Ce coffret est publié par les Archives de l’Etat du Valais, dans la série des Cahiers de Vallesia."
+***Je suis employée dans l'administration publique et j'aimerais un court texte à placer dans une newsletter à l'intention de personnes actives en agriculture pour informer des éléments suivants : l'office des paiements directs et l'office vétérinaire vont organiser une campagne de contrôles des sorties hivernales du bétail cet hiver - les sorties seront contrôlées par des films vidéos de cinq sorties hivernales au cours de l'hiver -  une dizaines d'exploitations à travers tout le canton seront sélectionnés et subiront ces contrôles - ces contrôles sont un bon moyen d'améliorer la confiance avec le monde non agricole. 
+L'expression " vidéos de cinq sorties hivernales" doit figurer tel quel. Ce texte informatif ne s'adresse pas directement aux personnes concernées par ces contrôles, mais veut informer le reste de la population que ces contrôles auront lieu. Le texte doit être court, chaleureux et ne pas utiliser l'impératif, long de 50 mots maximum et tenir dans 1 paragraphe. 
+Le texte doit être fluide et engageant, écrit dans un style similaire à ce paragraphe : " L’Ecole d’agriculture du Valais (EAV) célèbre ses 100 ans en 2023. Pour clore ce jubilé, le Service de l’agriculture a mandaté l’historienne Delphine Debons afin de concevoir un ouvrage original, sous la forme d’un coffret réunissant un livre d’histoire et cinq cahiers en lien avec des thématiques incontournables pour l’avenir de l’agriculture valaisanne. Ce coffret est publié par les Archives de l’Etat du Valais, dans la série des Cahiers de Vallesia."***
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
