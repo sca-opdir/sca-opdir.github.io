@@ -379,38 +379,44 @@ Mit freundlichen Grüßen, <br>
 
 <div class="chatgptIn" markdown=1>
 ***Je suis employée dans l'administration publique. Ré-écris le mail ci-dessous pour qu'il soit plus poli et concis, mais sans trop de formalités.***
+    <br>
 Bonjour, <br>
 Désolée mais nous ne pouvons pas accepter votre demande pour vous inscrire au programme SRPA . C'est trop tard, nous ne pourrions pas effectuer les contrôles comme il faut. <br>
 bonne journée et meilleures salutations<br>
 Marie Zufferey
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+
+<div class="chatgptOut" markdown=1>
 Bonjour, <br>
 Nous regrettons de vous informer que votre demande d'inscription au programme SRPA ne peut être acceptée, car elle est parvenue trop tard pour permettre une vérification adéquate. <br>
 Bonne journée, <br>
 Marie Zufferey<br>
 </div>
-<div class="chatgptIn" markdown=1><br>
+
+<div class="chatgptIn" markdown=1>
 Dans un style un petit peu plus formel
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<div class="chatgptOut" markdown=1>
 Chère/Cher [Nom], <br>
 Nous vous présentons nos excuses, mais il nous est malheureusement impossible d'accéder à votre demande d'inscription au programme SRPA, en raison de sa réception tardive. Cette contrainte temporelle compromettrait la réalisation des contrôles nécessaires. <br>
 Nous vous prions de bien vouloir nous excuser pour cet inconvénient. <br>
 Cordialement, <br>
 Marie Zufferey<br>
 </div>
+
 <hr>
 
 ## Résumé d'un texte pour la newsletter
-<div class="mycomment" markdown=1>
-NB : n'arrive pas à faire respecter la longueur de nombre de mots -> lu sur <https://platform.openai.com/docs/guides/prompt-engineering> : " le fait de demander au modèle de générer un nombre spécifique de mots ne permet pas d'obtenir une grande précision. Le modèle peut générer de manière plus fiable des résultats avec un nombre spécifique de paragraphes ou de puces."<br>
 
+<div class="mycomment">
+NB : n'arrive pas à faire respecter la longueur de nombre de mots -> lu sur <https://platform.openai.com/docs/guides/prompt-engineering> : " le fait de demander au modèle de générer un nombre spécifique de mots ne permet pas d'obtenir une grande précision. Le modèle peut générer de manière plus fiable des résultats avec un nombre spécifique de paragraphes ou de puces."<br>
 Vrai texte : <br>
 Remise des mérites agricoles 2023<br>
 A l’occasion de la cinquième édition, les mérites agricoles ont été attribués à la cave Chanton, à l’agricultrice Stéphanie Mottiez et à l’application mon-producteur.ch. Créée en 2018, cette récompense vise à reconnaître et à encourager la recherche de l’excellence, l’engagement et l’innovation en matière d’agriculture.
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
-Résume le communiqué de presse ci-dessous en un paragraphe de 50 mots maximum à paraitre dans une newsletter ; conserve le style du communiqué de presse et utilise uniquement les informations présentes dans le communiqué de presse ; en plus du paragraphe de 50 mots, ajoute un titre attractif<br>
+<div class="chatgptIn" markdown=1>
+***Résume le communiqué de presse ci-dessous en un paragraphe de 50 mots maximum à paraitre dans une newsletter ; conserve le style du communiqué de presse et utilise uniquement les informations présentes dans le communiqué de presse ; en plus du paragraphe de 50 mots, ajoute un titre attractif***<br>
 Remise des mérites agricoles 2023<br>
 A l’occasion de la cinquième édition, les mérites agricoles ont été attribués à la cave Chanton, à l’agricultrice Stéphanie Mottiez et à l’application mon-producteur.ch. Créée en 2018, cette récompense vise à reconnaître et à encourager la recherche de l’excellence, l’engagement et l’innovation en matière d’agriculture. <br>
 La cérémonie de remise des mérites agricoles 2023 a eu lieu à l’Ecole d’agriculture du Valais à Châteauneuf en présence des lauréats : la cave Chanton de Viège, l’agricultrice Stéphanie Mottiez de Saint-Maurice ainsi que les créateurs de l’application mon-producteur.ch basée à Martigny. Ces derniers se sont vus remettre un trophée, une vidéo promotionnelle ainsi qu’un montant de 5000 francs à attribuer à une personne, un projet ou un groupement novateur ou actif au niveau de la relève agricole. <br>
@@ -421,19 +427,23 @@ Stéphanie Mottiez, un parcours exemplaire<br>
 En 2013, âgée de 19 ans, Stéphanie Mottiez obtient son CFC d’agricultrice à l’Ecole d’agriculture du Valais. Elle poursuit sa formation par l’obtention du brevet d’agricultrice et tutoie la perfection avec une moyenne générale de 5.9 sur 6. En 2023, elle obtient brillamment sa maîtrise. Ce parcours remarquable récompense une véritable passionnée. Issue d’une famille d’agriculteurs, elle passe dès son plus jeune âge tout son temps libre à aider dans l’exploitation familiale. Aujourd’hui, elle est à la tête de la ferme des Perrières à Saint-Maurice, où elle a succédé à Philippe Monnay. Elle gère un troupeau de près de 80 vaches adultes et d’autant de jeunes, qui produit annuellement 600'000 kilos de lait. Elle exploite également plus de 50 hectares de grandes cultures (labour, blé panifiable, maïs fourrager). Toujours curieuse de nouvelles techniques et très engagée au niveau de la transmission du savoir, elle forme également des apprentis. <br>
 Chanton Weine, les vins, une passion en famille<br>
 Créative et passionnée, la famille Chanton à Viège travaille la vigne depuis 1944. Au cours des années 1980, elle s’est spécialisée dans les cépages autochtones tombés dans l’oubli, tels que l’Himbertscha, le Gwäss et plus tard l’Eyholzer Roter et le Plantscher. Un travail de pionner que perpétue le fils, Mario Chanton, représentant de la troisième génération. Il dirige l’entreprise familiale depuis 2008. Les vignes sont réparties sur les vignobles de Visperterminen, Varen et Loèche. Elles sont travaillées avec minutie, suivant des méthodes simples et naturelles, au plus près de la compréhension du sol et en fonction des conditions climatiques, pour une maturation optimale des raisins. Dans la cave Chanton, les vins sont produits à partir de levures indigènes, affinés et accompagnés. Une méthode complexe, inhabituellement lente, qui ajoute encore à l’originalité des cuvées.
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<div class="chatgptOut" markdown=1>
 Titre Attractif: "Célébration de l'Excellence Agricole 2023: Cave Chanton, Stéphanie Mottiez et mon-producteur.ch Honorés"<br>
 La cinquième édition des Mérites Agricoles a distingué la cave Chanton, l'agricultrice Stéphanie Mottiez et l'application mon-producteur.ch. La cérémonie, à l'Ecole d'agriculture du Valais, a récompensé l'engagement et l'innovation. Stéphanie Mottiez, élevée dans l'agriculture depuis l'enfance, a brillamment obtenu sa maîtrise en 2023, gérant la ferme des Perrières. La famille Chanton, passionnée de vignobles depuis 1944, a été saluée pour son travail pionnier dans les cépages autochtones. Mon-producteur.ch, une application gratuite rapprochant producteurs et consommateurs, a également été honorée pour son rôle clé dans la promotion des produits locaux.
-</div><br>
-<div class="chatgptIn" markdown=1><br>
-Le paragraphe fait 89 mots, alors qu'il devrait en faire 50
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+    
+<div class="chatgptIn" markdown=1>
+Le paragraphe fait 89 mots, alors qu'il devrait en faire 50.
+</div>
+
+<div class="chatgptOut" markdown=1>
 Titre Attractif: "Révélation des Lauréats Agricoles 2023: Cave Chanton, Stéphanie Mottiez et mon-producteur.ch"<br>
 La 5e édition des Mérites Agricoles a honoré la cave Chanton, l'agricultrice Stéphanie Mottiez et l'appli mon-producteur.ch. La cérémonie à l'Ecole d'agriculture du Valais a célébré l'excellence et l'innovation. Stéphanie Mottiez, héritière passionnée, a brillamment obtenu sa maîtrise en 2023, dirigeant la ferme des Perrières. La famille Chanton, vigneronne depuis 1944, a été saluée pour son travail pionnier avec des cépages autochtones. Mon-producteur.ch, une appli gratuite connectant producteurs et consommateurs, a été récompensée pour sa contribution à la promotion des produits locaux.
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
-Raccourcis-le encore de moitié
+<div class="chatgptIn" markdown=1>
+Raccourcis-le encore de moitié.
 </div><br><div class="chatgptOut" markdown=1><br>
 Titre Attractif: "Révélation des Lauréats Agricoles 2023: Cave Chanton, Stéphanie Mottiez et mon-producteur.ch"<br>
 La 5e édition des Mérites Agricoles a salué la cave Chanton, Stéphanie Mottiez et mon-producteur.ch. La cérémonie a honoré l'excellence et l'innovation. Stéphanie Mottiez, héritière passionnée, a brillamment obtenu sa maîtrise en 2023, dirigeant la ferme des Perrières. La famille Chanton, vigneronne depuis 1944, a été saluée pour son travail pionnier. Mon-producteur.ch, une appli gratuite connectant producteurs et consommateurs, a été récompensée pour sa contribution à la promotion des produits locaux.
@@ -442,13 +452,13 @@ La 5e édition des Mérites Agricoles a salué la cave Chanton, Stéphanie Motti
 
 ## Trouver des titres 
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 Vrai titre :<br>
 100e de l’EAV : un livre d’histoire et cinq cahiers thématiques réunis dans un coffret
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
-Donne-moi une liste de 10 titres attractifs pour un court article dans une newsletter ; l'article résumera le communiqué de presse ci-dessous<br>
+<div class="chatgptIn" markdown=1>
+***Donne-moi une liste de 10 titres attractifs pour un court article dans une newsletter ; l'article résumera le communiqué de presse ci-dessous***<br>
 100 ans de l’Ecole d’agriculture du Valais<br>
 Un livre d’histoire et cinq cahiers thématiques réunis dans un coffret<br>
 L’Ecole d’agriculture du Valais (EAV) célèbre ses 100 ans en 2023. Pour clore ce jubilé, le Service de l’agriculture a mandaté l’historienne Delphine Debons afin de concevoir un ouvrage original, sous la forme d’un coffret réunissant un livre d’histoire et cinq cahiers en lien avec des thématiques incontournables pour l’avenir de l’agriculture valaisanne. Ce coffret est publié par les Archives de l’Etat du Valais, dans la série des Cahiers de Vallesia. <br>
@@ -462,7 +472,7 @@ Publié par les Archives du Valais, dans la série des Cahiers de Vallesia, ce c
 Une séance de dédicaces permettra au public de rencontrer les auteurs et les illustrateurs du livre du 100e le mercredi 13 décembre de 17h30 à 20h00 à Châteauneuf. L’occasion également de déguster les vins de la cuvée du 100e, une Petite Arvine et un Cornalin issus des domaines viticoles de l’Etat du Valais.
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
 1.	"Centenaire de l'Ecole d'Agriculture du Valais : Un Coffret d'Histoire Inédit"<br>
 2.	"Châteauneuf - 100 Ans d'Agriculture : Le Récit Captivant d'une Institution Centenaire"<br>
 3.	"Cahiers de Vallesia : L'Épopée de l'Agriculture Valaisanne en Cinq Thématiques"<br>
@@ -478,13 +488,13 @@ Une séance de dédicaces permettra au public de rencontrer les auteurs et les i
 <hr>
 
 ## Remplacer un terme par des synonymes à l'intérieur d'un texte
-<div class="chatgptIn" markdown=1><br>
-Le texte ci-dessous contient un grand nombre de fois le mot "durée" ; quand cela est possible, sans rien changer au reste du texte, remplace uniquement ce mot (et ses formes dérivées) par un synonyme adapté au contexte. Ce remplacement ne doit pas affecté ni le sens, ni le style ni le ton du texte.<br>
+<div class="chatgptIn" markdown=1>
+***Le texte ci-dessous contient un grand nombre de fois le mot "durée" ; quand cela est possible, sans rien changer au reste du texte, remplace uniquement ce mot (et ses formes dérivées) par un synonyme adapté au contexte. Ce remplacement ne doit pas affecté ni le sens, ni le style ni le ton du texte.***<br>
 La durée d’utilisation des vaches laitières se mesure en nombre de lactations ou en jours de production laitière. Elle se termine généralement par l’abattage des animaux ou – beaucoup plus rarement – par la conversion en vaches allaitantes. La durée d’utilisation est un indicateur de l’efficience de la production laitière en termes d’impact sur le climat et de rentabilité. Il faut savoir que pendant la phase d’élevage des génisses, aucun revenu n’est généré, alors que des émissions sont produites.<br>
 Des travaux scientifiques ont montré que l’optimum économique et écologique de la durée d’utilisation des vaches laitières est plus élevé que la durée d’utilisation actuellement appliquée en Suisse et ailleurs. Ce sont les agriculteurs et les agricultrices qui décident en fin de compte si et quand une vache doit être abattue. Ils n’agissent toutefois pas de manière indépendante. Leurs décisions sont influencées par des conditions-cadre structurelles et celles-ci sont définies par différents acteurs de l’industrie laitière.
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
 Le temps d’utilisation des vaches laitières se mesure en nombre de lactations ou en jours de production laitière. Il se termine généralement par l’abattage des animaux ou – beaucoup plus rarement – par la conversion en vaches allaitantes. La période d’utilisation est un indicateur de l’efficience de la production laitière en termes d’impact sur le climat et de rentabilité. Il faut savoir que pendant la phase d’élevage des génisses, aucun revenu n’est généré, alors que des émissions sont produites. <br>
 Des travaux scientifiques ont montré que l’optimum économique et écologique de la période d’utilisation des vaches laitières est plus élevé que la durée d’utilisation actuellement appliquée en Suisse et ailleurs. Ce sont les agriculteurs et les agricultrices qui décident en fin de compte si et quand une vache doit être abattue. Ils n’agissent toutefois pas de manière indépendante. Leurs décisions sont influencées par des conditions-cadre structurelles et celles-ci sont définies par différents acteurs de l’industrie laitière.
 </div>
@@ -493,8 +503,8 @@ Des travaux scientifiques ont montré que l’optimum économique et écologique
 
 ## Mettre sur la même ligne des phrases coupées par un retour à la ligne
 
-<div class="chatgptIn" markdown=1><br>
-Le texte ci-dessous contient des phrases qui ont été coupées par un retour à la ligne. Ré-écris exactement le même texte mais en mettant sur la même ligne les phrases qui n'auraient pas dû être coupées. <br>
+<div class="chatgptIn" markdown=1>
+***Le texte ci-dessous contient des phrases qui ont été coupées par un retour à la ligne. Ré-écris exactement le même texte mais en mettant sur la même ligne les phrases qui n'auraient pas dû être coupées.*** <br>
 Le préposé est tenu de s’informer sur les nouveautés agricoles, principalement sur les <br>
 exigences liées aux paiements directs. Il participe obligatoirement aux séances <br>
 d’information et aux cours de formation qui ont lieu au minimum une fois par année et sont <br>
@@ -513,7 +523,8 @@ Le préposé opère les modifications nécessaires en ligne des données fausses
 dans les délais fixés par le service. <br>
 Sur les exploitations de base (exploitations à l’année, exploitations non commerciales), la <br>
 justesse des données fournies par l’exploitant doit notamment être contrôlée, soit : 
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<div class="chatgptOut" markdown=1>
 Le préposé est tenu de s’informer sur les nouveautés agricoles, principalement sur les exigences liées aux paiements directs. Il participe obligatoirement aux séances d’information et aux cours de formation qui ont lieu au minimum une fois par année et sont organisés par le service ou des tiers mandatés par ce dernier. Le préposé suit les instructions du service. Le préposé est un relai entre les exploitants et le service sur les questions de données agricoles et de l’utilisation des surfaces agricoles. <br>
 1.3. Assurance qualité des données des recensements<br>
 Le préposé est responsable du contrôle qualité des données fournies par l’exploitant agricole lors des sessions informatiques ouvertes à son attention par le service. Le service informe le préposé de l’ouverture des sessions par messagerie électronique. Le service met à disposition des préposés une plateforme internet permettant la gestion des exploitations et des parcelles situées sur la commune, ainsi que des outils de contrôle efficaces. Le préposé opère les modifications nécessaires en ligne des données fausses ou inexactes dans les délais fixés par le service. Sur les exploitations de base (exploitations à l’année, exploitations non commerciales), la justesse des données fournies par l’exploitant doit notamment être contrôlée, soit :  
@@ -523,13 +534,13 @@ Le préposé est responsable du contrôle qualité des données fournies par l�
 
 ## Formuler un cahier des charges décrit dans un texte en une liste de tâches à effectuer
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 NB : la mise en gras n'est pas très convaincante
 </div>
 <br>
 
-<div class="chatgptIn" markdown=1><br>
-Le texte ci-dessous décrit un cahier des charges des préposés agricoles ; résume toutes les tâches qu'un préposé agricole doit remplir, en mettant en gras le ou les mots-clés importants pour chaque tâche (chaque item de la liste doit contenir au moins un mot en gras) ; ce doit être une liste type ''bullet point" où chaque tâche correspond à un item de la liste et doit être résumée en maximum une phrase<br>
+<div class="chatgptIn" markdown=1>
+***Le texte ci-dessous décrit un cahier des charges des préposés agricoles ; résume toutes les tâches qu'un préposé agricole doit remplir, en mettant en gras le ou les mots-clés importants pour chaque tâche (chaque item de la liste doit contenir au moins un mot en gras) ; ce doit être une liste type ''bullet point" où chaque tâche correspond à un item de la liste et doit être résumée en maximum une phrase.***<br>
 CAHIER DES CHARGES DES PREPOSES AGRICOLES EN CHARGE<br>
 DES PAIEMENTS DIRECTS<br>
 1.1. Généralités <br>
@@ -593,13 +604,15 @@ Il reste à disposition pour d’autres tâches liées à la qualité des donné
 demandées par le service.
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br> [seulement les titres de section sont en gras]
+<div class="chatgptOut" markdown=1>
+    *(seulement les titres de section sont en gras)*
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br> certains points de la liste contiennent aucun mot en gras 
+<div class="chatgptIn" markdown=1>
+Certains points de la liste contiennent aucun mot en gras 
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
 **Généralités**
 <ul><li>Accomplir les tâches attribuées par la **directive**. </li>
 <li>Utiliser la plateforme électronique et les documents en ligne. </li>
@@ -638,12 +651,12 @@ demandées par le service.
 
 ## Corriger orthographe, grammaire et ponctuation
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 NB : attention ce n'est pas fiable du tout ! des erreurs ne sont pas identifiées, le résultat obtenu n'est pas reproductible, des erreurs sont inventées, etc. Indique des suggestions alors que je n'en veux pas. Dans certains cas, a répondu en anglais. Plusieurs essais, ci-dessous juste 1 exemple.
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
-Est-ce que tu vois des erreurs (tout type d'erreurs : orthographe, etc.) dans le texte ci-dessous ? indique seulement les erreurs sous forme de liste et ne fait aucune suggestion pour améliorer le texte. <br>
+<div class="chatgptIn" markdown=1>
+***Est-ce que tu vois des erreurs (tout type d'erreurs : orthographe, etc.) dans le texte ci-dessous ? indique seulement les erreurs sous forme de liste et ne fait aucune suggestion pour améliorer le texte.*** <br>
 Suite à un contrôle conjoint du Service de l’environnement et le Service de l’agriculture au printemps 2023, il a été constaté que la ou les parcelles en annexe dont vous êtes le/la propriétaire ne respecte(nt) pas l’Ordonnance fédérale sur la réduction des risques liée aux produits chimiques (ORRChim). <br>
 Bordures tampon le long des routes<br>
 Selon l’ORRChim: <br>
@@ -651,7 +664,6 @@ L’utilisation d’herbicides est interdite le long des routes et des chemins. 
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 "Bordures tampon" devrait être suivi d'une virgule ou d'un autre signe de ponctuation après "routes".<br>
 "réduction des risques liée" pourrait être reformulé en "réduction des risques liés".<br>
 "ne respecte(nt)" devrait être "ne respecte pas" pour être cohérent avec "la ou les parcelles".<br>
@@ -667,8 +679,8 @@ Note: Certaines de ces corrections sont des suggestions de style ou de clarté, 
 
 ## Conformité de XML par rapport à XSD
 
-<div class="chatgptIn" markdown=1><br>
-Je vais te donner du XSD puis du XML; dis-moi si le XML est conforme au XSD et si tous les éléments du XSD sont bien présents dans le XML. Si le XML n'est pas consistant avec le XSD, explique pourquoi.<br>
+<div class="chatgptIn" markdown=1>
+***Je vais te donner du XSD puis du XML; dis-moi si le XML est conforme au XSD et si tous les éléments du XSD sont bien présents dans le XML. Si le XML n'est pas consistant avec le XSD, explique pourquoi.***<br>
     
     ```
   <xs:complexType name="registrationDataType"><br>
@@ -723,7 +735,6 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
 
 <div class="chatgptIn" markdown=1>
     
-    <br>
 Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
     
 ```
@@ -747,7 +758,6 @@ Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structure dans la deuxième balise `<pointGroup>`. Voici une version corrigée :
 
 ```
@@ -780,15 +790,14 @@ Avec ces corrections, le XML devrait être structuré correctement.
 ## Analyser un document selon un certain point de vue et lister les points forts/faibles 
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte en répondant aux questions : 1) quels avantages pour le canton ? 2) quels désavantages pour le canton ? 3) quelles répercussions pour le canton ? 4) remplis un tableau à 2 colonnes "points forts" et "points faibles" de cette charte <br>
+    
+***Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte en répondant aux questions : 1) quels avantages pour le canton ? 2) quels désavantages pour le canton ? 3) quelles répercussions pour le canton ? 4) remplis un tableau à 2 colonnes "points forts" et "points faibles" de cette charte*** <br>
     
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf> </i>
     
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 Analyse de la Charte sur la Numérisation de l'Agriculture pour le Canton Suisse :<br>
 <ol><li>**Avantages pour le canton** :
 <ul><li>**Renforcement de la durabilité et de la compétitivité** : La numérisation peut accroître l'efficience tout au long de la chaîne de valeur, ce qui pourrait bénéficier au canton en termes de durabilité et de compétitivité.</li>
@@ -856,15 +865,13 @@ Cette analyse doit être adaptée en fonction des spécificités du canton et de
 ## Analyser un document et suggérer des améliorations selon les intérêts d'un certain point de vue 
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et propose des améliorations pour la rendre plus profitable pour le canton
+***Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et propose des améliorations pour la rendre plus profitable pour le canton.***
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf></i>
 
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
-En tant que responsable des systèmes d'information d'un canton suisse, voici quelques suggestions pour améliorer la charte sur la numérisation de l'agriculture et la rendre plus profitable pour le canton:
+***En tant que responsable des systèmes d'information d'un canton suisse, voici quelques suggestions pour améliorer la charte sur la numérisation de l'agriculture et la rendre plus profitable pour le canton:***
 <ol><li>Personnalisation pour le Canton:
 <ul><li>Intégrer des éléments spécifiques au canton dans la charte pour refléter les besoins et les priorités locaux. Par exemple, tenir compte des particularités agricoles du canton, des ressources disponibles et des spécificités économiques.</li></ul>
 </li><li>Consultation Locale:
@@ -893,14 +900,12 @@ En intégrant ces éléments, la charte pourrait devenir plus adaptée aux besoi
 ## Analyser un document et suggérer des questions 
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et liste 10 questions qu'il faudrait adresser à l'administration fédérale pour s'assurer que cette charte soit bénéfique pour le canton. <br>
+***Tu es responsable des systèmes d'information d'un canton suisse. Le texte ci-dessous constitue la charte sur la numérisation de l'agriculture. L'administration fédérale suisse soutient la promotion de cette charte. En tant que responsable des systèmes informatiques du canton analyse cette charte et liste 10 questions qu'il faudrait adresser à l'administration fédérale pour s'assurer que cette charte soit bénéfique pour le canton.*** <br>
 <i>coller ici la charte sur la numérisation <https://agridigital.ch/wp-content/uploads/2018/06/Charte-num%C3%A9risation.pdf></i>
 </div>
     <br>
 
 <div class="chatgptOut" markdown=1>
-    <br>
 En tant que responsable des systèmes d'information du canton suisse, voici 10 questions que vous pourriez adresser à l'administration fédérale pour vous assurer que la charte sur la numérisation de l'agriculture soit bénéfique pour votre canton :
 <ol><li>**Interopérabilité des systèmes** : Comment la charte assure-t-elle l'interopérabilité des systèmes numériques entre la Confédération, les cantons et les acteurs privés, afin de garantir une collaboration efficace et harmonieuse?</li><li>
 **Protection des données** : Comment la charte garantit-elle la protection des données dans le cadre de la numérisation de l'agriculture et du secteur agroalimentaire, en particulier en ce qui concerne la collecte, le stockage et le traitement des données sensibles? </li><li>
@@ -913,16 +918,16 @@ En tant que responsable des systèmes d'information du canton suisse, voici 10 q
 **Consultation continue** : Comment l'administration fédérale prévoit-elle de maintenir un dialogue continu avec les cantons pour s'assurer que la charte évolue en fonction des besoins spécifiques de chaque région? </li><li>
 **Évaluation des résultats : Comment la mise en œuvre de la charte sera-t-elle évaluée, et quelles mesures seront prises pour ajuster la stratégie en fonction des résultats et des retours d'expérience des cantons, y compris celui du vôtre? </li></ol>
 </div>
+
 <hr>
 
 ## Identifier des désavantages, prendre position et débattre 
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Le texte ci-dessous présente une solution informatique appelée "digiFLUX" développée par l'administration fédérale suisse. A la suite de ce texte sont également listés les avantages mis en avant par la confédération selon 4 points de vue : "Agriculture", "Commerce", "Infrastructures et espaces verts", "Cantons". Pour chacun de ces 4 points de vue, énumère les désavantages qui découleraient de l'entrée en vigueur de digiFlux. <br>
+***Le texte ci-dessous présente une solution informatique appelée "digiFLUX" développée par l'administration fédérale suisse. A la suite de ce texte sont également listés les avantages mis en avant par la confédération selon 4 points de vue : "Agriculture", "Commerce", "Infrastructures et espaces verts", "Cantons". Pour chacun de ces 4 points de vue, énumère les désavantages qui découleraient de l'entrée en vigueur de digiFlux.*** <br>
 <i>copier le texte de présentation de digiflux et les avantages listés pour les 4 secteurs</i>
-</div><br><div class="chatgptOut" markdown=1>
-    <br>
+</div>
+<div class="chatgptOut" markdown=1>
 <b>Désavantages potentiels de digiFLUX selon quatre points de vue:</b><br>
 <b>1. Agriculture:</b><ul>
 <li><i>Complexité pour les agriculteurs</i>: Certains agriculteurs pourraient rencontrer des difficultés à s'adapter à l'outil numérique, en particulier ceux qui ne sont pas familiers avec l'utilisation d'applications web. </li>
@@ -940,12 +945,10 @@ Il est important de noter que ces désavantages potentiels peuvent être atténu
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br>
-Pour chacun de ces points de vue, décide s'il faut se positionner en faveur ou en défaveur de digiFlux et argumente ta position en un paragraphe d'environ 50 mots.
+***Pour chacun de ces points de vue, décide s'il faut se positionner en faveur ou en défaveur de digiFlux et argumente ta position en un paragraphe d'environ 50 mots.***
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 <b>1. Agriculture:</b><ul>
 <li><i>Position en faveur</i>: digiFLUX offre une transition vers la numérisation, simplifiant la déclaration obligatoire pour les agriculteurs. Bien que certains puissent ressentir une adaptation initiale difficile, les avantages à long terme, tels que la réduction de la charge administrative, justifient le soutien à cette initiative.</li>
 </ul><b>2. Commerce: </b><ul>
@@ -957,12 +960,10 @@ Pour chacun de ces points de vue, décide s'il faut se positionner en faveur ou 
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br>
-Imagine un débat entre des représentants de ces 4 points de vue ; chacun a le droit à 3 prises de paroles ; il y a de la tension, mais le ton reste poli
+***Imagine un débat entre des représentants de ces 4 points de vue ; chacun a le droit à 3 prises de paroles ; il y a de la tension, mais le ton reste poli.***
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 <b>Représentant de l'Agriculture (A):</b><br>
 1.	<b>A1 (en faveur): </b> "Mesdames et messieurs, digiFLUX est une opportunité pour l'agriculture. Oui, l'adaptation peut être difficile, mais la simplification de la déclaration et la réduction de la charge administrative à long terme sont des avantages considérables. Investissons dans cette transition numérique pour un secteur agricole plus efficace."<br>
 2.	<b>A2 (en faveur): </b> "Certains peuvent craindre la complexité, mais digiFLUX offre une chance d'optimiser nos processus. La résistance initiale sera compensée par la transparence accrue et une gestion plus ciblée des intrants. Embrassons cette évolution pour un avenir agricole plus durable." <br>
@@ -985,11 +986,10 @@ Imagine un débat entre des représentants de ces 4 points de vue ; chacun a le 
 
 ## Tableau excel depuis pdf
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 NB : il faut ensuite coller la réponse de chatGPT dans Excel en utilisant l'Assistant Importation de texte ; on peut aussi demander à ChatGPT de produire le tableau en format html et utiliser un convertisseur en ligne qui convertit html en xlsx (e.g. https://products.aspose.app/cells/conversion/html-to-xlsx)
 </div>
 <div class="chatgptIn" markdown=1>
-    <br>
 Le texte ci-dessous contient les données d'un tableau de 2 colonnes "XML Datentyp" et "Beschreibung" copié d'un pdf ; reformate ces données pour que je puisse les copier dans excel: sépare les 2 colonnes par une barre verticale et montre le résultat dans une fenêtre de code <br>
 XML Datentyp Beschreibung<br>
 boolean Enthält entweder den Wert „true“ bzw. 1 (wahr) oder „false“ bzw. 0<br>
@@ -1005,7 +1005,6 @@ eCH-XXXX (voir www.ech.ch).
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 XML Datentyp | Beschreibung<br>
 boolean | Enthält entweder den Wert „true“ bzw. 1 (wahr) oder „false“ bzw. 0 (falsch). <br>
 Date | Enthält ein Datum ohne Uhrzeitangabe im Format YYYY-MM-DD. <br>
@@ -1017,12 +1016,11 @@ eCH-XXXX | Das Format des Inhalts entspricht dem eCH-Standard eCH-XXXX (voir www
 
 ## Mettre en majuscule les lettres en début de phrase
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 NB : n'arrive pas à respecter de ne pas changer la ponctuation et à ne pas mettre en majuscule la lettre après "->" 
 </div>
 <div class="chatgptIn" markdown=1>
-    <br>
-Dans le texte ci-dessous, sans rien changer au texte ni à sa ponctuation, faire commencer chaque phrase par une majuscule ; la lettre qui suit "->" ne doit pas être mise en majuscule<br>
+***Dans le texte ci-dessous, sans rien changer au texte ni à sa ponctuation, faire commencer chaque phrase par une majuscule ; la lettre qui suit "->" ne doit pas être mise en majuscule***<br>
 
 cas particuliers<br>
 1) on ne sanctionne pas les exploitants, on avertit seulement le propriétaire -> vider la colonne exploitant mais pas celle propriétaire<br>
@@ -1035,9 +1033,8 @@ cas particuliers<br>
 8) cas repris par la viti ; à reclasser en code 902 = pas de cep ; mais si c'est en 902 -> on ne peut pas faire la réduction dessus (c'est mieux qu'ils ne reçoivent pas 1000.- de PDs pour cette parcelle- ; plutôt qu'il touche 1000.- de PD et 200.- de réduction) ; SEN s'occupe du propriétaire ; viti corrige les acquits <br>
 9) prêles résistantes à l'herbicide 
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
-<br>
 Cas particuliers: <br>
 1.	On ne sanctionne pas les exploitants, on avertit seulement le propriétaire -> Vider la colonne exploitant mais pas celle propriétaire. <br>
 2.	Apparence trompeuse de bande enherbée -> Ne compte pas comme bande herbeuse si her. <br>
@@ -1053,11 +1050,10 @@ Cas particuliers: <br>
 
 ## Trouver la formule excel à utiliser pour obtenir un résultat
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 Résultats pas toujours convaincants pour la question ci-dessous, pas réussi à obtenir une réponse convaincante ; les formules ne marchaient pas et les id étaient comptés à double; essayé de reformuler, ne marche pas, formules erronées ou résultat faux...
 </div>
 <div class="chatgptIn" markdown=1>
-    <br>
 Dans le tableau ci-dessous (colonnes séparées par ";"), quelle formule excel je peux mettre en C2 pour que le contenu de cette cellule soit "BEA" si la colonne A2 contient une des valeurs suivantes : SST ou SRPA ou WEIDE ? indique uniquement la formule excel<br>
 id;set code<br>
 12231;SST<br>
@@ -1067,11 +1063,10 @@ id;set code<br>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 =SI(OU(A2="SST"; A2="SRPA"; A2="WEIDE"); "BEA"; "")<br>
 </div>
 <br>
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
 J'ai un fichier excel qui contient 2 colonnes comme le modèle ci-dessous ; la 1ère colonne contient des numéros d'exploitation ; la 2ème colonne un nom de programme qui commence par "bts" ou "raus" suivi du nom de catégorie ("Rin1", "Rin4", "Rin9", etc.) ; comment faire et quelle formule excel utiliser pour calculer le nombre de numéro d'exploitations différents qui sont associés à chacun des programmes "bts" et "raus" ? <br>
 id;programme<br>
 12312;rausRin2
@@ -1080,17 +1075,16 @@ id;programme<br>
 213534;btsRin4<br>
 </div>
 <div class="chatgptOut" markdown=1>
-    <br>
 Pour résoudre cette tâche dans Excel, vous pouvez utiliser la fonction SOMMEPROD en combinaison avec les fonctions GAUCHE et DISTINCT. Voici comment vous pouvez procéder :[...]
-[LA REPONSE EST FAUSSE]
+(LA REPONSE EST FAUSSE)
 </div>
 <hr>
 
 ## Explication de code informatique'un code Python ou R
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Que fait le code R ci-dessous ?<br>
+
+***Que fait le code R ci-dessous ?***<br>
 
 ``` R
 filled_pdirg_dt <- pdirg_dt
@@ -1113,7 +1107,6 @@ stopifnot(!is.na(filledm_dt))
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 Ce code R effectue plusieurs opérations sur des DataFrames. Voici une explication détaillée : <br>
 Copie de données : <br>
 ```R
@@ -1128,21 +1121,20 @@ stopifnot(missing$variable %in% colnames(filled_pdirg_dt))
 Vérifie que la colonne `insc2g` du DataFrame `filled_pdirg_dt` ne contient pas de valeurs manquantes. <br>
 Vérifie que la variable variable présente dans l'objet missing est une colonne dans le DataFrame `filled_pdirg_dt`.
 
-[... etc. ...]
+(... etc. ...)
 
 En résumé, ce code manipule des DataFrames en remplaçant certaines valeurs manquantes, extrayant des colonnes spécifiques, effectuant des vérifications, et fusionnant des DataFrames. Les `stopifnot` sont utilisés pour vérifier que certaines conditions sont remplies à chaque étape.
 </div>
 <hr>
 
 ## Trouver un mot adéquat pour compléter une phrase
+
 <div class="chatgptIn" markdown=1>
-    <br>
-Quel mot pourrait remplacer le "X" dans la phrase ci-dessous : <br>
+***Quel mot pourrait remplacer le "X" dans la phrase ci-dessous :*** <br>
 "Si cela ne te cause pas trop de X, pourrais-tu m'extraire les données demandées hier?" <br>
 Donne 5 possibilités.
 </div>
 <div class="chatgptOut" markdown=1>
-    <br>
 Voici cinq possibilités pour remplacer le "X" dans la phrase : <br>
 Si cela ne te cause pas trop d'inconvénients, pourrais-tu m'extraire les données demandées hier? <br>
 Si cela ne te cause pas trop de soucis, pourrais-tu m'extraire les données demandées hier? <br>
@@ -1159,8 +1151,7 @@ Si cela ne te cause pas trop de gêne, pourrais-tu m'extraire les données deman
 </div>
 
 <div class="chatgptIn" markdown=1>
-    <br>
-En utilisant uniquement les informations contenues dans le texte en allemand ci-dessous, sans ajouter des informations externes, résume en français, en une phrase pour chaque intervenant sa position ; puis liste les points-clés de la discussion :
+***En utilisant uniquement les informations contenues dans le texte en allemand ci-dessous, sans ajouter des informations externes, résume en français, en une phrase pour chaque intervenant sa position ; puis liste les points-clés de la discussion :***
 <br>
 2. Attribut «nicht kontrollierbar» <br>
 
@@ -1182,7 +1173,6 @@ Gemäss den stattgefundenen Diskussionen wird dieses Bedürfnis ein Thema bleibe
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 Résumé des positions des intervenants :<br>
 1.	<b>Personne1</b> : Suggère de répondre "nicht kontrolliert" pour les points de contrôle (KP) liés à l'abdrift/abschwemmung pour éviter des déclarations non vérifiables. <br>
 2.	<b>Personne2</b>  : Propose l'ajout de la valeur "nicht kontrollierbar" avec des ajustements techniques nécessaires et souligne l'impact sur xxx. <br>
@@ -1203,13 +1193,12 @@ Points clés de la discussion : <br>
 ## Résumé d'un texte sous forme de tableau
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contributions ; résume-le en créant un tableau de 3 colonne (chaque ligne correspond à une surface ou un type de surface) : la 1ère colonne "Surface" indiquera un type de surface (par ex. "surface à litière"), la 2ème colonne "Oui" contient une croix si la surface donne droit à contribution, la 3ème colonne "Non" contient une croix si la surface ne donne pas droit à contribution. Sépare les colonnes du tableau par des barres verticales "|" sous forme de texte pour que je puisse l'importer dans excel.
+***Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contributions ; résume-le en créant un tableau de 3 colonne (chaque ligne correspond à une surface ou un type de surface) : la 1ère colonne "Surface" indiquera un type de surface (par ex. "surface à litière"), la 2ème colonne "Oui" contient une croix si la surface donne droit à contribution, la 3ème colonne "Non" contient une croix si la surface ne donne pas droit à contribution. Sépare les colonnes du tableau par des barres verticales "|" sous forme de texte pour que je puisse l'importer dans excel.***<br>
 <i>coller ici l'art. 35 de l'OPD</i>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br> [copié et formaté dans excel]
+(copié et formaté dans excel)<br>
 
 <table>
   <thead>
@@ -1270,15 +1259,14 @@ Le texte ci-dessous décrit quelles surfaces donnent ou non droit à des contrib
 
 ## Demander de répondre à une question en se basant sur un texte donné en entrée
 
-<div class="mycomment" markdown=1>
-    <br>
+<div class="mycomment">
 NB: limité en raison du nombre de caractère maximal qu'on peut passer dans la prompt
 </div>
 <div class="chatgptIn" markdown=1>
-    <br>
-Les données ci-dessous contiennent des informations concernant les sanctions à appliquer si les conditions de participation à 3 programme (SST, SRPA, Mise au pâturage) ne sont pas remplies ; pour chacun des programmes, la 3ème colonne à droite "Réduction" indique la sanction à appliquer pour chaque type de manquement indiqué dans la colonne "Manquement concernant le point de contrôle" (1ère colonne à gauche) ; la sanction varie selon la catégorie de bétail (indiquée dans la deuxième colonne). En se basant uniquement sur ces données, réponds à la question suivante : quelle est la sanction à appliquer s'il est constaté que de la litière manque dans une écurie de bovins ? Si les données ne permettent pas de répondre à la question, réponds :"je ne sais pas".<br>
+***Les données ci-dessous contiennent des informations concernant les sanctions à appliquer si les conditions de participation à 3 programme (SST, SRPA, Mise au pâturage) ne sont pas remplies ; pour chacun des programmes, la 3ème colonne à droite "Réduction" indique la sanction à appliquer pour chaque type de manquement indiqué dans la colonne "Manquement concernant le point de contrôle" (1ère colonne à gauche) ; la sanction varie selon la catégorie de bétail (indiquée dans la deuxième colonne). En se basant uniquement sur ces données, réponds à la question suivante : quelle est la sanction à appliquer s'il est constaté que de la litière manque dans une écurie de bovins ? Si les données ne permettent pas de répondre à la question, réponds :"je ne sais pas".***<br>
 <i>coller ici une partie de l'annexe 8 / tableau des sanctions de l'OPD issu du document word</i>
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<div class="chatgptOut" markdown=1>
 Selon les données fournies, la sanction à appliquer s'il est constaté que de la litière manque dans une écurie de bovins dépend de la situation spécifique. Voici les informations pertinentes:<br>
 •	Si la litière est en quantité insuffisante, la réduction serait de 10 points. <br>
 •	Si la litière est beaucoup trop insuffisante, la réduction serait de 40 points. <br>
@@ -1287,20 +1275,20 @@ Donc, la sanction à appliquer dépend du degré de manquement à la norme de li
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br>
-Même consigne que la question précédente, mais pour la question : "quelle est la sanction à appliquer en cas de fauche précoce d'une prairie extensive ?"
+***Même consigne que la question précédente, mais pour la question : "quelle est la sanction à appliquer en cas de fauche précoce d'une prairie extensive ?"***
 </div><br><div class="chatgptOut" markdown=1><br> 
 En se basant uniquement sur les données fournies, il n'y a pas d'information spécifique concernant la sanction à appliquer en cas de fauche précoce d'une prairie extensive. Par conséquent, je ne peux pas répondre à cette question en utilisant les données disponibles.
 </div>
+
 <hr>
 
 ## Demander de résumer un texte de façon facilement compréhensible ou en langage FALC
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; résume chacune de ces sections de façon claire et concise de telle manière qu'un enfant de 10 ans pourrait comprendre. Résume chaque section en 1 paragraphe d'environ 50 mots.
+***Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; résume chacune de ces sections de façon claire et concise de telle manière qu'un enfant de 10 ans pourrait comprendre. Résume chaque section en 1 paragraphe d'environ 50 mots.***
 <i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012</i> 
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+<div class="chatgptOut" markdown=1>
 <b>A1-1 Principes: </b><br>
 Cette section parle d'une loi pour protéger l'environnement. Elle dit que si quelque chose peut nuire à la nature, il faut le réduire avant que ça devienne un problème. La loi interdit de vendre des produits qui pourraient nuire à l'environnement, et ceux qui les utilisent doivent le faire de manière sûre. Il faut aussi informer les gens sur ces produits. <br>
 <b>A1-2 Restrictions d’utilisation pour certains engrais: </b><br>
@@ -1310,26 +1298,22 @@ Cette partie explique où on ne peut pas épandre d'engrais. Il est interdit dan
 <b>A1-4 Mise en circulation d’engrais: </b><br>
 Ici, on parle de la façon dont les engrais sont approuvés et utilisés. Certains engrais doivent répondre à des règles strictes pour être vendus. On ne peut pas mélanger certains produits dangereux avec les engrais. Les agriculteurs doivent suivre ces règles pour protéger la qualité des engrais et de l'environnement.
 </div>
-<div class="mycomment" markdown=1>
-    <br>
+<div class="mycomment">
 NB : ça marche mieux de lui demander et de rebondir sur sa réponse ; si on écrit la question en mettant "si tu ne connais pas le langage facile à lire et à comprendre (FALC), réponds "je ne sais pas"", il répond qu'il ne sait pas 
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br> 
 Est-ce que tu connais le langage facile à lire et à comprendre (FALC) ?
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 Oui, je suis familiarisé avec le concept [...]
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br> 
 Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; puisque tu connais le langage facile à lire et à comprendre (FALC), résume chacune de ces sections de façon claire et concise de telle manière en utilisant l'approche du langage FALC. Résume chaque section en 1 paragraphe d'environ 30 mots en langage facile à lire et à comprendre.<br>
 <i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012</i>
-</div><br><div class="chatgptOut" markdown=1><br>
+</div><br><div class="chatgptOut" markdown=1>
 <b>A1-1 Principes:</b><br>
 La loi sur la protection de l'environnement vise à prévenir les atteintes nuisibles ou gênantes. Elle interdit la mise en commerce de substances pouvant menacer l'environnement ou la santé humaine. L'utilisation de ces substances doit éviter de constituer une menace. De plus, ceux qui les commercialisent doivent informer sur leurs propriétés environnementales. <br>
 <b>A1-2 Restrictions d'utilisation pour certains engrais: </b><br>
@@ -1344,13 +1328,11 @@ La réglementation sur la mise en circulation d'engrais couvre l'homologation, l
 ## Remplacer un mot (et ses formes dérivées) par un autre seulement là où cela est pertinent
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Dans le texte ci-dessus, remplace là où cela fait du sens toutes les formes du verbe faire par celles du verbe "procéder" sans rien changer au reste du texte. Si le verbe procéder ne fait pas dans sens dans le contexte, laisse le verbe "faire".<br>
+***Dans le texte ci-dessus, remplace là où cela fait du sens toutes les formes du verbe faire par celles du verbe "procéder" sans rien changer au reste du texte. Si le verbe procéder ne fait pas dans sens dans le contexte, laisse le verbe "faire".***<br>
 J'ai fait une analyse de texte, tout en faisant une revue de littérature. Toi tu faisais des biscuits. J'ai fait l'examen aujourd'hui. Demain, je ferai la révision. Il fait beau demain.
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 J'ai procédé à une analyse de texte, tout en procédant à une revue de littérature. Toi, tu faisais des biscuits. J'ai procédé à l'examen aujourd'hui. Demain, je procéderai à la révision. Il fait beau demain.
 </div>
 <hr>
@@ -1358,15 +1340,13 @@ J'ai procédé à une analyse de texte, tout en procédant à une revue de litt�
 ## Remplacer un mot par des synonymes
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Dans le texte ci-dessous, le terme "ouvrage" revient fréquemment. Remplace-le autant que possible par des synonymes, sans que cela ne change le sens du texte. Laisse le reste du texte inchangé. Indique en gras les mots utilisés en remplacement.
+***Dans le texte ci-dessous, le terme "ouvrage" revient fréquemment. Remplace-le autant que possible par des synonymes, sans que cela ne change le sens du texte. Laisse le reste du texte inchangé. Indique en gras les mots utilisés en remplacement.***
 <br>
 Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le présent et le futur. C’est l’ambition de l’ouvrage dévoilé à Châteauneuf ce mercredi. Il prend la forme d’un coffret comprenant un livre d’histoire et cinq cahiers sur les thématiques incontournables pour l’agriculture valaisanne d’aujourd’hui et de demain. Cet ouvrage vient clore le jubilé du centième anniversaire de l’Ecole cantonale d’agriculture. «L’idée était de proposer un ouvrage de synthèse accessible à tous», résume l’historienne Delphine Debons, mandatée par le Service de l’agriculture pour ce travail historique et de mise en perspective. En une centaine de pages, l'ouvrage retrace un siècle d’enseignement à l’école d’agriculture et de mise en œuvre de la politique agricole valaisanne. «J’ai, par exemple, été étonnée de découvrir que l’école de Châteauneuf gérait en gros toute l’agriculture durant une période», note Delphine Debons. Pour aborder le passé de l’institution et étoffer son ouvrage, l’historienne s’est plongée dans les rapports triennaux publiés par l’école depuis 1924 jusqu’en 2001 et dans d’autres archives pour compléter et nuancer les éléments de ces rapports.
 
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le présent et le futur. C’est l’ambition du recueil dévoilé à Châteauneuf ce mercredi. Il prend la forme d’un coffret comprenant un livre d’histoire et cinq cahiers sur les thématiques incontournables pour l’agriculture valaisanne d’aujourd’hui et de demain. Ce travail vient clore le jubilé du centième anniversaire de l’Ecole cantonale d’agriculture. «L’idée était de proposer un document de synthèse accessible à tous», résume l’historienne Delphine Debons, mandatée par le Service de l’agriculture pour ce projet historique et de mise en perspective. En une centaine de pages, le document retrace un siècle d’enseignement à l’école d’agriculture et de mise en œuvre de la politique agricole valaisanne. «J’ai, par exemple, été étonnée de découvrir que l’école de Châteauneuf gérait en gros toute l’agriculture durant une période», note Delphine Debons. Pour aborder le passé de l’institution et étoffer son travail, l’historienne s’est plongée dans les rapports triennaux publiés par l’école depuis 1924 jusqu’en 2001 et dans d’autres archives pour compléter et nuancer les éléments de ces rapports.
 </div>
 
@@ -1375,8 +1355,7 @@ Faire le bilan d’un siècle d’agriculture en Valais, pour mieux envisager le
 ## Analyser un CV par rapport à l'annonce du poste
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Je vais te donner 2 textes. Tout d'abord un descriptif d'un poste issu d'une annonce d'emploi. Ensuite le CV d'une personne qui a postulé pour ce poste. Analyse le profil du candidat. Puis, liste ses points forts pour le poste, puis ses points faibles pour le poste.<br>
+***Je vais te donner 2 textes. Tout d'abord un descriptif d'un poste issu d'une annonce d'emploi. Ensuite le CV d'une personne qui a postulé pour ce poste. Analyse le profil du candidat. Puis, liste ses points forts pour le poste, puis ses points faibles pour le poste.***<br>
 L'annonce du poste :<br>
 <i>copier ici l'annonce du poste</i><br>
 Le CV du candidat : <br>
@@ -1385,7 +1364,6 @@ Le CV du candidat : <br>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 Analyse du profil du candidat pour le poste décrit dans l'annonce d'emploi : <br>
 Points forts pour le poste : <br>
 1.	<b>Formation académique solide : </b>  Le candidat a un doctorat en sciences de la vie avec une spécialisation en bioinformatique, ce qui correspond bien au champ de compétences requis dans l'annonce. <br>
@@ -1404,13 +1382,11 @@ Globalement, le candidat semble avoir une solide base académique, des compéten
 ## Générer une FAQ sur la base d'un manuel d'instruction pour utilisateurs d'un outil informatique
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Le texte ci-dessous est issu d'un manuel d'instruction pour la saisie en ligne de données agricoles. Liste 20 questions techniques que pourrait se poser un professionnel du monde agricole qui doit utiliser cette plateforme pour saisir ses données et réponds à chacune de ces questions de manière très brève à la façon question-réponse d'une FAQ. <br>
+***Le texte ci-dessous est issu d'un manuel d'instruction pour la saisie en ligne de données agricoles. Liste 20 questions techniques que pourrait se poser un professionnel du monde agricole qui doit utiliser cette plateforme pour saisir ses données et réponds à chacune de ces questions de manière très brève à la façon question-réponse d'une FAQ.*** <br>
 <i>coller ici le texte du manuel d'instruction</i>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 <b>FAQ - Saisie en ligne de données agricoles </b><br>
 1. <b>Comment sélectionner mon rôle pour la saisie des données?</b> Cliquez sur l'onglet "Utilisateurs", choisissez votre rôle parmi les différents onglets. <br>
 2. <b>Comment ouvrir le menu principal sur les petits écrans?</b> Utilisez le bouton "Maison" pour revenir à la page de sélection des exploitations. <br>
@@ -1438,8 +1414,7 @@ Le texte ci-dessous est issu d'un manuel d'instruction pour la saisie en ligne d
 ## Convertir tableau en texte
 
 <div class="chatgptIn" markdown=1>
-    <br>
-Le tableau ci-dessous contient 3 colonnes ; la 1ère indique la personne responsable, la 2ème l'action effectuée; la 3ème la période à laquelle l'action a été effectuée. A partir de ce tableau rédige un court paragraphe qui explique les actions effectuées. La chronologie des actions doit être respectée. Ne rajoute pas d'autres informations que celles contenues dans le tableau.<br>
+***Le tableau ci-dessous contient 3 colonnes ; la 1ère indique la personne responsable, la 2ème l'action effectuée; la 3ème la période à laquelle l'action a été effectuée. A partir de ce tableau rédige un court paragraphe qui explique les actions effectuées. La chronologie des actions doit être respectée. Ne rajoute pas d'autres informations que celles contenues dans le tableau.***<br>
 Caroline;collecte des données;juin 2023<br>
 Caroline;vérification résultats;fin septembre 2023<br>
 Marie;écrit le script;mai 2023<br>
@@ -1450,7 +1425,6 @@ Johanna;saisie des réductions;fin septembre 2023<br>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 Au cours du mois d'avril 2023, Johanna a débuté le processus en se chargeant de la préparation des cartes nécessaires à une tâche spécifique. Par la suite, en juin 2023, Caroline a pris le relais en collectant les données requises pour le projet. Marie a ensuite contribué en mai 2023 en rédigeant le script nécessaire à l'accomplissement des prochaines étapes. Vers la mi-septembre 2023, Marie a repris ses responsabilités en effectuant le calcul des réductions, tandis que Caroline a entrepris la vérification des résultats obtenus. Simultanément, Johanna a finalisé le processus en saisissant les réductions nécessaires à la fin du mois de septembre 2023. Ainsi, chaque personne a joué un rôle crucial à des moments spécifiques, assurant ainsi le déroulement cohérent et ordonné des différentes actions nécessaires au projet.
 </div>
 <hr>
@@ -1458,13 +1432,11 @@ Au cours du mois d'avril 2023, Johanna a débuté le processus en se chargeant d
 ## Création d'un glossaire en se basant sur les infos d'un texte et tri alphabétique
 
 <div class="chatgptIn" markdown=1>
-    <br>
 Le texte ci-dessous donne la définition de plusieurs concepts ; tous les concepts définis par le mot "Par", par exemple la phrase qui commence "Par terres assolées, on entends les terres [...]" définit le concept "terres assolées". A partir de ce texte et en utilisant uniquement les informations contenues dans ce texte, créer un glossaire qui donne la définition de ces concepts introduits par le mot "Par" ; le glossaire doit avoir le format : "concept = définition". La définition du concept doit être très brève (maximum 20 mots) 
 <i>coller ici les art. 18 à 36 de l'OTerm</i>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 Glossaire :<br>
 1.	<b>Terres assolées </b>= Terres soumises à la rotation culturale, composées de terres ouvertes et de prairies temporaires. <br>
 2.	<b>Terres ouvertes </b>= Surfaces dédiées aux cultures annuelles, légumes, baies annuelles, jachères florales, tournantes, et ourlets sur terres assolées. <br>
@@ -1508,21 +1480,18 @@ Ces termes complémentaires fournissent une compréhension plus approfondie du c
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br>
 Est-ce que tu as utilisé uniquement les informations contenues dans le texte ?
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 Oui, mes ajouts au glossaire sont basés uniquement sur les informations contenues dans le texte fourni. Aucune connaissance externe n'a été utilisée pour enrichir le glossaire. Si vous avez d'autres questions ou si vous souhaitez des clarifications sur des termes spécifiques, n'hésitez pas à demander.
 </div>
     <br>
 <div class="chatgptIn" markdown=1>
-    <br> Peux-tu mettre ensemble ces deux glossaires et trier les concepts par ordre alphabétique ?
+***Peux-tu mettre ensemble ces deux glossaires et trier les concepts par ordre alphabétique ?***
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>
 Bien sûr, voici le glossaire combiné avec les concepts triés par ordre alphabétique : <br>
 1.	<b>Assolement </b>= Rotation culturale appliquée aux terres assolées. <br>
 2.	<b>Cas de force majeure </b>= Événement imprévu et inévitable, tel que défini dans l'article 106, pouvant affecter la récolte. <br>
@@ -1553,13 +1522,12 @@ Les termes sont maintenant présentés de manière alphabétique pour une réfé
 
 ## Repérer des termes dupliqués dans une liste 
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 NB : n'a pas fonctionné, résultat totalement erroné
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br>
-Y a-t-il des verbes qui reviennent plus d'une fois dans la liste ci-dessous ? Si oui, lesquels ? <br>
+***Y a-t-il des verbes qui reviennent plus d'une fois dans la liste ci-dessous ? Si oui, lesquels ?*** <br>
 propose / réalise / estime / crée / aides à [formuler/créer/préparer/élaborer/me préparer pour ...] pour [une start-up qui ...] / identifie / évalue [la performance] / élabore / rédige / donne / formule / mène / génère / développe /écris / cartographie [le parcours ...] / énumère / prépare / utilise [l'analyse SWOT] pour concevoir / examine [notre proposition/ce site web] et suggère [des façons de l'améliorer pour la rendre plus ...] / conçois / fournis / analyse [le parcours/une crise récente ...] / examine [le CV pour ...] et évalue / élabore / estime / présente / suggère / effectue / guide [le client à travers le processus] / conçois / imagine 
 </div><br><div class="chatgptOut" markdown=1><br>
 Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les verbes qui apparaissent plus d'une fois :
@@ -1572,14 +1540,13 @@ Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les v
 
 ## Compter l'occurrence des mots (échec !)
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
 NB : n'a pas fonctionné ; occurrence totale et formes dérivées non agrégées 
 </div>
 <br>
 <div class="chatgptIn" markdown=1>
-    <br>
-Compte le nombre d'occurrence totale de chaque mot dans le texte ci-dessous ; réponds par un tableau contenant le mot en 1ère colonne et l’occurrence en 2ème colonne; le tableau doit donner le résultat pour tout le texte (1 ligne par mot, il ne doit pas y avoir de doublons dans la 1ère colonne) ; le tableau doit être trié par ordre décroissant du nombre d'occurrences ; ne prends en compte que les mots de plus de 3 lettres ; un mot et ses formes dérivées ne doivent être comptabilisés qu'une fois ; 
-par exemple pour la phrase "tu es agriculteur et je suis agricultrice" le résultat doit être : <br>
+***Compte le nombre d'occurrence totale de chaque mot dans le texte ci-dessous ; réponds par un tableau contenant le mot en 1ère colonne et l’occurrence en 2ème colonne; le tableau doit donner le résultat pour tout le texte (1 ligne par mot, il ne doit pas y avoir de doublons dans la 1ère colonne) ; le tableau doit être trié par ordre décroissant du nombre d'occurrences ; ne prends en compte que les mots de plus de 3 lettres ; un mot et ses formes dérivées ne doivent être comptabilisés qu'une fois ; 
+par exemple pour la phrase "tu es agriculteur et je suis agricultrice" le résultat doit être :*** <br>
 être;2<br>
 agriculteur;2<br>
 le texte à analyser est : <br>
@@ -1588,7 +1555,6 @@ le texte à analyser est : <br>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 mot;occurrence<br>
 contributions;14<br>
 surfaces;11<br>
@@ -1605,17 +1571,14 @@ contribution;8<br>
 ## Sélectionner les extraits de texte qui permettent de répondre à une question
 
  <div class="chatgptIn" markdown=1>
-     <br>
 NB : ne marche pas parfaitement
 </div>
-<br><div class="chatgptIn" markdown=1>
-    <br>
+<div class="chatgptIn" markdown=1>
 Dans le texte ci-dessous, sélectionne, pour chaque système d'information, les extraits qui se rapportent à la question suivante : "pour chaque système d'information, combien d'agriculteurs/exploitants sont concernés par ce système ?" Veille à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Si l'information n'est pas présente dans le texte, indique que le texte ne permet pas de le savoir. 
 <i>coller ici les paragraphes 2.2.2.1 à 2.2.2.5 du rapport Bourgeois <https://www.blw.admin.ch/dam/blw/fr/dokumente/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf.download.pdf/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf></i>
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br>
 <b>Acorda:</b><br>
 •	Le fichier d’adresses comprend environ 5000 exploitations agricoles bénéficiaires de paiements directs et 5400 éleveurs d’animaux de rente à titre non commercial. <br>
 <b>Agricola: </b><br>
