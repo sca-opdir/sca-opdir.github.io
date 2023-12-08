@@ -54,7 +54,7 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 - prise de décision : demander un avis d'expert (plugin *Your AI Council*) ; demander une analyse basée sur un certain modèle (ex. modèle SWOT)
 - apprentissage : créer un plan de cours, formation de nouveaux collaborateurs, poser des questions sur une thématique
 
-## Tâche propice à ChatGPT ?
+## Est-ce qu'une tâche est propice à ChatGPT ?
 -	des exemples sont-ils disponibles ?
 -	une méthodoogie existe-t-elle ?
 -	faut-il analyser (documentes, textes, données,etc.) ?
