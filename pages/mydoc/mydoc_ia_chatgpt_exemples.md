@@ -8,7 +8,6 @@ sidebar: mydoc_sidebar
 permalink: ChatGPT_exemples.html
 folder: mydoc
 ---
-# Catégorie 1
 
 ## Générer la liste de questions à se poser pour savoir si les conditions sont remplies
 
