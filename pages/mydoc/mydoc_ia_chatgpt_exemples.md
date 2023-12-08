@@ -1598,6 +1598,38 @@ Avec ces corrections, le XML devrait être structuré correctement.
     
 <hr>
 
+## Générer des données aléatoires
+
+<div class="chatgptIn" markdown=1>
+***Génère un set de données aléatoires de 10 lignes avec des données comme ci-dessous :***<br>
+1ère colonne : un nombre de 7 ou 8 chiffres ; 2ème colonne : un nom de famille ; 3ème colonne : un prénom; 4ème colonne : un nombre entre 10 et 2500 (précision de 2 chiffres après la virgule) ; 5 ème colonne : un nombre entre 10 et 2500 (précision de 2 chiffres après la virgule), plus petit ou égal au nombre de la 4ème colonne;6ème colonne un nombre entier entre 501 et 598 ; par exemple : <br>
+numéro_ct;nom;prénom;surf_totale;surf_exploitée;code_culture <br>
+123127;bagnoud;marc;1200.23;1000.00;504
+</div>
+
+<div class="chatgptOut" markdown=1>
+Voici un ensemble de données aléatoires de 10 lignes qui répondent à vos critères :
+numéro_ct;nom;prénom;surf_totale;surf_exploitée;code_culture <br>
+1234567;Dubois;Jean;1250.45;1100.30;515<br>
+2345678;Smith;Emily;1550.67;1300.50;523<br>
+3456789;Johnson;Michael;980.12;800.75;534<br>
+4567890;Martin;Sophie;2245.32;2000.25;542<br>
+5678901;Garcia;David;750.89;600.75;556<br>
+6789012;Kim;Lisa;1320.76;1200.50;567<br>
+7890123;Chen;Kevin;1890.34;1600.75;578<br>
+8901234;Lopez;Maria;1325.78;1200.00;586<br>
+9876543;Wilson;James;2250.99;2000.25;597<br>
+8765432;Nguyen;Anna;1720.45;1500.75;598<br>
+    
+Ces données sont générées de manière aléatoire et respectent les spécifications que vous avez fournies pour chaque colonne.
+</div>
+
+
+
+
+
+
+
 <!--
 <div id="mycontainer">
     <div id="mylabel">I'm a Box</div>
