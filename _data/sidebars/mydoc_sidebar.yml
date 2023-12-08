@@ -41,7 +41,7 @@ entries:
           url: /ChatGPT_prompt_engineering.html
           output: web
 
-        - title: Exemples d'utilisation
+        - title: Exemples d'utilisation (3.5)
           url: /ChatGPT_exemples.html
           output: web
 
