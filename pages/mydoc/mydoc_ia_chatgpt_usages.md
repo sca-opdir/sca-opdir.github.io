@@ -34,6 +34,34 @@ folder: mydoc
 *	retranscrire et résumer des vidéos YouTube (plugin VoxScript)
 *	analyser et interpréter des fichiers (données, images, etc.) téléversés ; exécuter et générer du code ; créer des graphiques ; OCR ; convertir des données en site web (fonctionnalité bêta Advanced Data Analysis)
 
+## Type de tâches à déléguer
+
+Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a jamais le temps de faire. En particulier :
+*	Analyser et synthétiser (interprétation, présentation, résumé)
+*	Appliquer un modèle : suivre des structures prédéfinies (e.g. AIDA en copywritting)
+*	Traduire et corriger
+*	Compléter : créer le début du contenu (code, texte, PV, etc.), le faire compléter par ChatGPT
+*	Rédiger selon un contexte précis (e-mails, standards, discours, PPT, FAQ, etc.) 
+*	Générer des idées et conseiller (brainstorming, avis et critique constructive, faire jouer rôle d'expert)
+*	S'inclure dans une automatisation : réponses par e-mail, traduction automatique, mise à jour de fiches produits, veille média, envoi d'e-mails personnalisés, chatbot service client, résumé de réunion, mise à jour de données CRM, etc.
+
+## Exemples :
+- analyser, traiter (par ex. présenter sous forme de tableau), catégoriser les e-mails ; envoyer des e-mail personnalisés
+-	organisation d'une journée de travail (créer un planning) en fonction d'une liste de contraintes
+- rédaction de contenu (traduction, correction, analyse,	synthèse,	reformulation dans un style)
+- préparer une réunion, synthétiser les notes d'une réunion, préparer un PowerPoint, élaborer un discours
+- Excel et analyse de données : obtenir une synthèse ou des formules Excel (version gratuite), utiliser Advanced Data Analysis (version payante9
+- prise de décision : demander un avis d'expert (plugin *Your AI Council*) ; demander une analyse basée sur un certain modèle (ex. modèle SWOT)
+- apprentissage : créer un plan de cours, formation de nouveaux collaborateurs, poser des questions sur une thématique
+
+## Tâche propice à ChatGPT ?
+-	des exemples sont-ils disponibles ?
+-	une méthodoogie existe-t-elle ?
+-	faut-il analyser (documentes, textes, données,etc.) ?
+-	une automatisation est-elle envisageable ?
+-	quel est le niveau de risque ?
+
+
 
 
 {% include links.html %}
