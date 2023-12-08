@@ -213,10 +213,14 @@ Fabrice: <br>
 </div>
 <br>
 
-<div class="chatgptOut" markdown=1>
+<div class="chatgptOut">
 
     Voici les noms des éléments sans le namespace "n0" : 
 
+</div>
+
+<div class="chatgptOut" markdown=1>
+    
 ```
 E_KLZonenbeitrag
 E_KLAllgHangbeitrag
@@ -249,7 +253,7 @@ Le texte doit être fluide et engageant, écrit dans un style similaire à ce pa
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-<br>Cet hiver, l'Office des paiements directs et l'Office vétérinaire lancent une campagne de contrôles des sorties hivernales du bétail. Des films vidéos de cinq sorties seront capturés dans une dizaine d'exploitations à travers le canton. Cette initiative renforce la transparence de l'agriculture, favorisant ainsi la confiance avec le monde non agricole.
+Cet hiver, l'Office des paiements directs et l'Office vétérinaire lancent une campagne de contrôles des sorties hivernales du bétail. Des films vidéos de cinq sorties seront capturés dans une dizaine d'exploitations à travers le canton. Cette initiative renforce la transparence de l'agriculture, favorisant ainsi la confiance avec le monde non agricole.
 </div>
 
 <hr>
@@ -257,7 +261,6 @@ Le texte doit être fluide et engageant, écrit dans un style similaire à ce pa
 ## Correction des majuscules, de la ponctuation et des exposants dans un texte
 
 <div class="chatgptIn" markdown=1>
-<br>
 Ré-écris le texte ci-dessous en corrigeant uniquement ces 3 choses : 
 1. rajoute les "." et les "," qui manquent <br>
 2. met en majuscule les lettres des mots qui devraient commencer par une majuscule (c'est-à-dire ceux en début de paragraphe ou après un ".")<br>
@@ -270,29 +273,26 @@ les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe d
 à la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. la 1ère importe les résultats de la campagne dans Acontrol ; la 2ème corrige la base de données<br>
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
 Mylène prépare la base de données avec les manquements, bordures et tampon. En 1ᵉʳ, elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant, s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires. Les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants. Les courriers sont envoyés au même moment que le décompte paiements directs. Les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe des réclamations des exploitants. La décision d'accepter ou refuser la réclamation revient à Fabrice. Si la réclamation est acceptée, la réduction est annulée.
 À la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. La 1ᵉʳᵉ importe les résultats de la campagne dans Acontrol ; la 2ᵉᵐᵉ corrige la base de données.
 </div>
 
 <hr>
 
-# Catégorie 2
-
 ## Reformatage d'une liste en colonne séparée par des virgules
 
 <div class="chatgptIn" markdown=1>
-<br>
-Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et en les séparant par ", " : <br>
+*** Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et en les séparant par ", " :***
         501<br>
         502<br>
 [... partie omise pour gain de place, mais mise en input pour ChatGPT ...] <br>
         597<br>
         598<br>
 </div>
-<br>
+
+
 <div class="chatgptOut" markdown=1>
-    <br>
 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 
 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 
 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 
@@ -305,10 +305,7 @@ Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et
 ## Reformater une liste de nombre et enlever des guillemets
 
 <div class="chatgptIn" markdown=1>
-    
-    <br>
-
-    Dans la liste ci-dessous, enlève les guillemets autour de chaque nombre et sépare-les par un point-virgule <br>
+    ***Dans la liste ci-dessous, enlève les guillemets autour de chaque nombre et sépare-les par un point-virgule :*** 
 "501" "502" "503" "504" "505" "506" "507" "508" "509" "510" "511" "512" "513" "514" "515" "516"
 "517" "518" "519" "520" "521" "522" "523" "524" "525" "526" "527" "528" "529" "530" "531" "532"
 "533" "534" "535" "536" "537" "538" "539" "540" "541" "542" "543" "544" "545" "546" "547" "548"
@@ -318,7 +315,7 @@ Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et
 "597" "598"
 </div>
 <br>
-<div class="chatgptOut" markdown=1><br>
+<div class="chatgptOut" markdown=1>
 501;502;503;504;505;506;507;508;509;510;511;512;513;514;515;516;517;518;519;520;521;522;523;524;525;526;527;528;529;530;531;532;533;534;535;536;537;538;539;540;541;542;543;544;545;546;547;548;549;550;551;552;553;554;555;556;557;558;559;560;561;562;563;564;565;566;567;568;569;570;571;572;573;574;575;576;577;578;579;580;581;582;583;584;585;586;587;588;589;590;591;592;593;594;595;596;597;598
 </div>
 
@@ -330,16 +327,14 @@ Reformate la liste ci-dessous en mettant sur une même ligne tous les nombres et
 NB : pas très convaincant le résultat, pas réussi à obtenir mieux
 </div>
 
-<div class="chatgptIn" markdown=1><br>
-Mettre en gras les passages importants du texte ci-dessous ; en lisant les passages en gras, je devrais avoir un bon résumé du contenu de ce texte. <br>
+<div class="chatgptIn" markdown=1>
+***Mettre en gras les passages importants du texte ci-dessous ; en lisant les passages en gras, je devrais avoir un bon résumé du contenu de ce texte.***
 Les paiements directs sont un instrument important de la politique agricole, dont on ne peut plus se passer. Il y a exactement 30 ans, la politique agricole avait atteint ses limites. Depuis, les garanties de prix et d’écoulement de certains produits ont été progressivement supprimées et de nouveaux paiements directs ont été introduits et développés, posant le fondement d’une agriculture plus durable et mieux orientée vers le marché en Suisse. De même, diverses réformes agricoles ont été adoptées par le Parlement et mises en œuvre par le Conseil fédéral. <br>
 Aujourd’hui, le système des paiements directs atteint à son tour ses limites de complexité et d’applicabilité. À quoi est due cette évolution ? Les objectifs de la politique agricole n’ont cessé d’être étendus et affinés, et leur réalisation présente des lacunes importantes. Le système des paiements directs a donc intégré des mesures différenciées, comme les contributions à la qualité du paysage dans le cadre de la Politique agricole 14-17. Divers parlementaires ont aussi déposé des motions demandant des mesures supplémentaires ou des règles spéciales, fréquemment en invoquant l’égalité de traitement ou la prise en compte des particularités des exploitations. C’est ainsi que des contributions au bien-être des animaux ont été introduites pour les bisons en 2018 et que d’autres dispositions exceptionnelles ont dû être ajoutées périodiquement pour la sortie des animaux aux fins de leur bien-être. L’exécution par les cantons requiert en outre des dispositions qui puissent être efficacement contrôlées. À leur demande, l’OFAG a ainsi dû préciser par des directives détaillées l’exigence d’offrir des possibilités de refuge telles que des arbres et des abris sur les pâturages pour volaille. <br>
 Dans le rapport de postulat « Orientation future de la politique agricole », le Conseil fédéral a présenté des approches pour le développement et la simplification du système des paiements directs. Mentionnons notamment le potentiel de la numérisation, une orientation plus marquée vers des paiements axés sur les résultats plutôt que sur les mesures ou encore le remplacement de certains paiements annuels par des paiements uniques dans le cadre d’améliorations structurelles. En adoptant la motion 22.4251, le Parlement a chargé le Conseil fédéral de concrétiser la proposition de ligne stratégique formulée dans le rapport de postulat et de présenter un message d’ici à fin 2027 au plus tard. Dans ce cadre, une attention particulière sera accordée à la simplification des instruments et à la réduction de la charge administrative. Pour les prochaines années, la priorité devra donc aller à la stabilité et à la mise en œuvre des mandats légaux existants ou des interventions parlementaires transmises. <br>
 </div>
-<br>
-<div class="chatgptOut" markdown=1>
-<br>
 
+<div class="chatgptOut" markdown=1>
 <b>Les paiements directs</b> sont un instrument important de la politique agricole, dont on ne peut plus se passer. Il y a exactement 30 ans, la politique agricole avait atteint ses limites. Depuis, les **garanties de prix et d’écoulement** de certains produits ont été progressivement supprimées et de nouveaux **paiements directs** ont été introduits et développés, posant le fondement d’une agriculture plus durable et mieux orientée vers le marché en Suisse. De même, diverses **réformes agricoles** ont été adoptées par le Parlement et mises en œuvre par le Conseil fédéral.
 Aujourd’hui, le système des **paiements directs** atteint à son tour ses limites de complexité et d’applicabilité. À quoi est due cette évolution ? Les **objectifs de la politique agricole** n’ont cessé d’être étendus et affinés, et leur réalisation présente des lacunes importantes. Le système des **paiements directs** a donc intégré des mesures différenciées, comme les **contributions à la qualité du paysage** dans le cadre de la Politique agricole 14-17. Divers **parlementaires** ont aussi déposé des motions demandant des mesures supplémentaires ou des règles spéciales, fréquemment en invoquant l’**égalité de traitement** ou la prise en compte des **particularités des exploitations**. C’est ainsi que des **contributions au bien-être des animaux** ont été introduites pour les bisons en 2018 et que d’autres dispositions exceptionnelles ont dû être ajoutées périodiquement pour la sortie des animaux aux fins de leur bien-être. L’**exécution par les cantons** requiert en outre des dispositions qui puissent être efficacement contrôlées. À leur demande, l’OFAG a ainsi dû préciser par des **directives détaillées** l’exigence d’offrir des possibilités de refuge telles que des arbres et des abris sur les pâturages pour volaille.
 Dans le rapport de postulat « **Orientation future de la politique agricole** », le **Conseil fédéral** a présenté des approches pour le **développement et la simplification** du système des **paiements directs**. Mentionnons notamment le potentiel de la **numérisation**, une orientation plus marquée vers des **paiements axés sur les résultats** plutôt que sur les mesures ou encore le remplacement de certains **paiements annuels** par des **paiements uniques** dans le cadre d’**améliorations structurelles**. En adoptant la **motion 22.4251**, le **Parlement** a chargé le **Conseil fédéral** de concrétiser la proposition de ligne stratégique formulée dans le rapport de postulat et de présenter un **message d’ici à fin 2027 au plus tard**. Dans ce cadre, une attention particulière sera accordée à la **simplification des instruments** et à la **réduction de la charge administrative**. Pour les prochaines années, la priorité devra donc aller à la **stabilité** et à la **mise en œuvre des mandats légaux existants** ou des **interventions parlementaires transmises**.
@@ -348,10 +343,12 @@ Dans le rapport de postulat « **Orientation future de la politique agricole** �
 
 ## Mail pour informer d'un refus d'une demande, en français et en allemand
 
-<div class="chatgptIn" markdown=1><br>
-Je suis employée dans l'administration publique. Ecris un mail poli et concis, mais sans trop de formalités, pour informer un client que sa demande '''de se XXXX''' est refusée car déposée hors délai. Nous sommes désolés mais vu la base légale et l'impossibilité d'effectuer les contrôles correspondants nous pouvons pas l'accepter. <br>
-Le type de demande qui est entre triple guillemets doit être laissé tel quel et sera précisé par l'utilisateur par après. Ecris l'e-mail en français et sépare par une barre horizontale le même e-mail en allemand.
-</div><br><div class="chatgptOut" markdown=1><br>
+<div class="chatgptIn" markdown=1>
+***Je suis employée dans l'administration publique. Ecris un mail poli et concis, mais sans trop de formalités, pour informer un client que sa demande '''de se XXXX''' est refusée car déposée hors délai. Nous sommes désolés mais vu la base légale et l'impossibilité d'effectuer les contrôles correspondants nous pouvons pas l'accepter. 
+Le type de demande qui est entre triple guillemets doit être laissé tel quel et sera précisé par l'utilisateur par après. Ecris l'e-mail en français et sépare par une barre horizontale le même e-mail en allemand. ***
+</div>
+
+<div class="chatgptOut" markdown=1>
 Objet : Refus de votre demande de se XXXX<br>
 Cher(e) [Nom du client], <br>
 Nous espérons que ce message vous trouve en bonne santé. Nous avons bien reçu votre demande de se XXXX. <br>
@@ -376,12 +373,13 @@ Mit freundlichen Grüßen, <br>
 [Name der Verwaltung] <br>
 [Kontaktinformationen] <br>
 </div>
+
 <hr>
 
 ## Ré-écrire un mail dans un style plus adéquat
 
-<div class="chatgptIn" markdown=1><br>
-Je suis employée dans l'administration publique. Ré-écris le mail ci-dessous pour qu'il soit plus poli et concis, mais sans trop de formalités<br>
+<div class="chatgptIn" markdown=1>
+***Je suis employée dans l'administration publique. Ré-écris le mail ci-dessous pour qu'il soit plus poli et concis, mais sans trop de formalités.***
 Bonjour, <br>
 Désolée mais nous ne pouvons pas accepter votre demande pour vous inscrire au programme SRPA . C'est trop tard, nous ne pourrions pas effectuer les contrôles comme il faut. <br>
 bonne journée et meilleures salutations<br>
