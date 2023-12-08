@@ -12,7 +12,6 @@ folder: mydoc
 *Sources:*
 *  50 ressources ChatGPT : https://outilia.notion.site/50-Ressources-ChatGPT-en-fran-ais-84e6040a73a149eea99fdd54dbeaff11
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
-* [PME Magazine](https://www.pme.ch/dossiers-et-hors-series/2023/09/19/comment-utiliser-lintelligence-artificielle-pour-doper-votre-entreprise-632768)
  
 ## A quoi peut servir ChatGPT ?
 
