@@ -56,15 +56,15 @@ folder: mydoc
   * Cre8tiveAI
   * SolidGrids
   * Codeformer
-Conception
+* Conception
   * Mokker,
   * Astria
   * Designs.ai
-Générateur d'images
+* Générateur d'images
   * FireFly
   * Dall-E 2
   * Midjourney
-Générateur de logo
+* Générateur de logo
   * CandyIcons
   * Logomaster.ai
   * logomakerr
