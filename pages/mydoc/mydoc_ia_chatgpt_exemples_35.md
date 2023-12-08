@@ -3,7 +3,7 @@ title: ChatGPT 3.5 - exemples d'utilisation
 keywords: IA, IT, ChatGPT
 last_updated: December 4, 2023
 tags: [IA]
-summary: "Exemples d'utilisation de ChatGPT"
+summary: "Exemples d'utilisation de ChatGPT (3.5)"
 sidebar: mydoc_sidebar
 permalink: ChatGPT_exemples35.html
 folder: mydoc
