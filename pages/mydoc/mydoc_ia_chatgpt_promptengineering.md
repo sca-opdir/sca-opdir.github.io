@@ -67,7 +67,7 @@ Pas obligatoire d'avoir toujours les 6, mais 1-3 quasi-obligatoires.
 
 Exemple :
 
-[P] Nous sommes dans le domaine culinaire. [R] Durant toute notre conversation, tu es un chef cuisinier très expérimenté. [O] Le but est de procurer des conseils pratiques à des débutants qui savent juste cuire des pâtes. [M] Les instructions seront fournies dans l'ordre chronologique, [P] mais sans ajouter de numérotation avant chaque tâche. Les recettes seront utilisées pour un blog, elles ont un maximum de mille mots. [T] Tu t'exprimes sur un ton jovial, inspirant et avec bienveillance. Montre que tu as compris en m'expliquant comment faire une omelette.
+*[P] Nous sommes dans le domaine culinaire. [R] Durant toute notre conversation, tu es un chef cuisinier très expérimenté. [O] Le but est de procurer des conseils pratiques à des débutants qui savent juste cuire des pâtes. [M] Les instructions seront fournies dans l'ordre chronologique, [P] mais sans ajouter de numérotation avant chaque tâche. Les recettes seront utilisées pour un blog, elles ont un maximum de mille mots. [T] Tu t'exprimes sur un ton jovial, inspirant et avec bienveillance. Montre que tu as compris en m'expliquant comment faire une omelette.*
 
 
 ## Rebondir sur la réponse de ChatGPT (message de suivi)
@@ -250,8 +250,6 @@ Question : <insérer la question ici>*
 
 5. Diviser les tâches complexes en sous-tâches (flux de tâches plus simples, utiliser résultats des tâches antérieures pour construire les entrées des tâches ultérieures)
   a.	classification des intentions pour identifier les instructions les plus pertinentes :
-
-
     - quand de nombreux ensembles d'instructions indépendants sont nécessaires pour traiter différents cas, .
     - commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires- commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires
     - définir des catégories fixes et coder en dur les instructions pertinentes pour le traitement des tâches d'une catégorie donnée. 
@@ -266,21 +264,51 @@ Catégories secondaires du support technique : Dépannage, [...] <br>
 Catégories secondaires de la gestion de compte : Réinitialisation du mot de passe, [...]<br>-
 UTILISATEUR :  J'ai besoin de faire fonctionner mon internet à nouveau.*
 
-  b.	résumer ou filtrer les dialogues précédents
+  b.	résumer ou filtrer les dialogues précédents (longueur de contexte limitée !)
+    - résumer les tours de parole précédents
+    -	sélectionner dynamiquement les parties antérieures de la conversation qui sont les plus pertinentes pour la requête en cours (cf. recherche basée sur les *embeddings*)
+    - pour résumer les longs documents : le faire par morceaux et construire un résumé complet de manière récursive (utiliser une séquence de requêtes pour résumer chaque section du document ; si nécessaire inclure un résumé courant du texte)
 
-7. Laisser le modèle "réfléchir".
-  a.	faire élaborer au modèle sa propre solution 
-  b.	monologue intérieur ou séquence de questions pour masquer le raisonnement du modèle
-  c.	demander au modèle s'il a manqué quelque chose lors des passages précédents
+7. Laisser le modèle "réfléchir" (demander une "chaîne de pensée")
+  a.	faire élaborer au modèle sa propre solution (ex: plutôt que demander si une réponse à un problème est correcte, demander de résoudre le problème et comparer la réponse obtenue)
+  b.	monologue intérieur ou séquence de questions pour masquer le raisonnement du modèle (quand le raisonnement ne doit pas être visible pour l'utilisateur; demander une réponse dans un format structuré qui facilite leur analyse et seule une partie du résultat est rendue visible pour l'utilisateur)
+  c.	demander au modèle s'il a manqué quelque chose lors des passages précédents (ex: dans l'analyse de longs documents, risque de s'arrêter trop tôt) : utiliser des requêtes de suivi (*follow-up*) pour trouver les extraits manqués lors des passages précédents
 
-8. Utiliser des outils externes
+*SYSTÈME : Vous disposez d'un document délimité par des guillemets triples. Votre tâche consiste à sélectionner les extraits qui se rapportent à la question suivante : "<insérer votre question ici>".
+Veillez à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Fournissez des résultats au format JSON comme suit :
+[{"extrait" : "..."},
+...
+{"extrait" : "..."}]
+UTILISATEUR : """<insérer le document ici>"""
+ChatGPT : [...] 
+UTILISATEUR : Existe-t-il d'autres extraits pertinents ? Veillez à ne pas répéter les extraits. Veillez également à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation. En d'autres termes, n'extrayez pas de petits extraits auxquels il manque un contexte important.*
+
+
+9. Utiliser des outils externes
   a.	recherche basée sur les embeddings
+
+*Embeddings de texte* = vecteurs permettant de mesurer la parenté entre les chaînes de texte ; utilisés pour mettre en œuvre une recherche de connaissances efficace. Découpage d'un texte en morceau, stockage des embeddings, puis lors d'une requête recherche vectorielle pour trouver les morceaux stockés les plus liés à la requête (c'est-à-dire les plus proches les uns des autres dans l'espace d'embedding). Permet ainsi d'ajouter des informations pertinentes à l'entrée du modèle de manière dynamique au moment de l'exécution.
+
+*Retrieval Augmented Generation (RAG)* = a technique that implements an information retrieval component to the generation process. Allowing us to retrieve relevant information and feed this information into the generation model as a secondary source of information.
+
   b.	exécution de code (calculs, appels à API externes)
-  c.	donner accès à des fonctions spécifiques
 
-9. Tester systématiquement les changements
-  a.	valuer les résultats du modèle par rapport à des réponses de référence
+LLMs pas fiables pour calculs arithmétiques précis. Solution : demander d'écrire et d'exécuter du code au lieu d'effectuer ses propres calculs. Exemple :<br>
+*SYSTÈME : Vous pouvez écrire et exécuter du code Python en l'entourant de triples crochets, par exemple ``code goes here``. Utilisez-le pour effectuer des calculs.
+UTILISATEUR : Trouvez toutes les racines réelles du polynôme suivant : 3*x**5 - 5*x**4 - 3*x**3 - 7*x - 10.*
 
+Appel à des API externes : expliquer à un modèle comment utiliser une API en lui fournissant de la documentation et/ou des exemples de code montrant comment utiliser l'API. Exemple :<br>
+*SYSTÈME : Vous pouvez écrire et exécuter du code Python en l'entourant de triples crochets. Notez également que vous avez accès au module suivant pour aider les utilisateurs à envoyer des messages à leurs amis :
+``python
+import message
+message.write(to="John", message="Hey, tu veux qu'on se retrouve après le travail ?")``*  
+
+  c.	donner accès à des fonctions spécifiques (manière recommandée d'utiliser les modèles OpenAI pour appeler des fonctions externes)
+
+Via l'API "Chat Completions" : transmettre une liste de descriptions de fonctions dans les requêtes. Permet de générer des arguments de fonction selon les schémas fournis qui sont renvoyés par l'API au format JSON et peuvent être utilisés pour exécuter les appels de fonction. Les résultats de ces derniers sont ensuite réinjectés dans un modèle dans la requête suivante.
+
+11. Tester systématiquement les changements (mesurer les performances <u>globales</u> avec une suite de tests complète (*evals*))
+  a.	valuer les résultats du modèle par rapport à des réponses de référence (ex: utiliser une requête de modèle pour compter combien de faits requis sont inclus dans la réponse)
 
  
 
