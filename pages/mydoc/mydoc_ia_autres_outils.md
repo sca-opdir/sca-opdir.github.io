@@ -131,16 +131,16 @@ folder: mydoc
   * Microsoft AI Builder
   * IBM Watsonx.ai
   * Amazon Bedrock
+
+ 
+## Affaires et administration
 * Productivité
   * Numerous.ai
   * Akkio
   * AlphaResearch
- 
-## Affaires et administration
-
 * Support client
   * ReviewWriter
-  * CaeinatedCX
+  * CaffeinatedCX
   * Cody
 * Ressources Humaines
   * Cody
@@ -154,6 +154,8 @@ folder: mydoc
   * Gamma
   * AutoSlide
   * Tome
+
+## Education et formation
 
 * Assistant d'éducation
   * Prepsup
