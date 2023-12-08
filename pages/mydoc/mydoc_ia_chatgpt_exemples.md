@@ -89,11 +89,12 @@ Lister uniquement sous forme de questions les questions que l'exploitant doit se
 <li>Ai-je contacté rapidement le responsable régional pour finaliser mon dossier à temps?</li>
 </ol>
 </div>
+
 <hr>
 
 ## Correction des fautes de frappe après rédaction rapide
 
-<div class="mycomment" markdown=1>
+<div class="mycomment">
     NB : pour une raison inconnue, je n'ai pas réussi à faire respecter la numérotation (le 1er item est toujours corrigé à 1)
 </div>
 
