@@ -11,7 +11,9 @@ folder: mydoc
 
 *Sources*
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
-
+* Conférence InnoVibes,
+* [6 stratégies d'openAI pour obtenir de meilleurs résultats](https://platform.openai.com/docs/guides/prompt-engineering)
+  
 ## Eléments-clés du prompt
 
 * contexte
@@ -19,7 +21,7 @@ folder: mydoc
 * cheminement à suivre
 * cadrage et contraintes
 
-## Méthode ACTIF-VE développée par M. Corthésy
+## Méthode ACTIF-VE (M. Corthésy)
 
 7 éléments pour un prompt de qualité, leur ordre n'est pas important :
 
@@ -52,6 +54,22 @@ folder: mydoc
   - faire répondre à la question de départ en plusieurs étapes, décrites une à une dans le prompt, avec une validation avant de passer à la suivante (limite de mémoire : si besoin rappeler les éléments principaux de la discussion) 
   - ex. : "Tu suivras 4 étapes. A la fin de chaque étape tu me poseras des questions pour améliorer ta réponse et tu me demanderas si je valide l'étape. Ensuite, tu passeras à l'étape suivante quand je te dirai : OK. Etape 1 : tu vas me demander ... ; Etape 2 ...".
 
+## Méthode PROMPT
+
+1. **Paysage** : plantez le décor, décrivez le contexte, la toile de fond, soit le paysage de votre commande
+2. **Rôle** : placez ChatGPT dans un rôle spécifique
+3. **Objectif** : procurez l'objectif attendu de votre commande
+4. **Moyen(s)** : donnez des indices, des exemples ou autres moyens à ChatGPT pour accomplir l'objectif
+5. **Particularité(s)** : évoquez les autres particularités et/ou contraintes dont ChatGPT doit tenir compte
+6. **Ton** : spécifiez le ton de la réponse attendue (formel, humoristique, décontracté, etc.)
+
+Pas obligatoire d'avoir toujours les 6, mais 1-3 quasi-obligatoires.
+
+Exemple :
+
+[P] Nous sommes dans le domaine culinaire. [R] Durant toute notre conversation, tu es un chef cuisinier très expérimenté. [O] Le but est de procurer des conseils pratiques à des débutants qui savent juste cuire des pâtes. [M] Les instructions seront fournies dans l'ordre chronologique, [P] mais sans ajouter de numérotation avant chaque tâche. Les recettes seront utilisées pour un blog, elles ont un maximum de mille mots. [T] Tu t'exprimes sur un ton jovial, inspirant et avec bienveillance. Montre que tu as compris en m'expliquant comment faire une omelette.
+
+
 ## Rebondir sur la réponse de ChatGPT (message de suivi)
 
 * Une fois la réponse obtenue, relancer avec une autre question
@@ -62,6 +80,36 @@ folder: mydoc
 * Passer dans un mode itératif et améliorer continuellement le prompt selon les besoins spécifiques 
 * ChatGPT révise le prompt à chaque étape
 * Attention à la limitation de la mémoire (rappeler les éléments clés de la discussion si besoin)
+
+## Faire poser des questions pour optimiser la réponse
+
+"[P] On prépare une offre Black Friday. [R] Tu es expert en copywriting, tu as la plum de David Ogilvy. [O] On veut optimiser la conversion sur cette offre, avec la meilleure proposition de valeur. Propose-moi une offre et un argumentaire. **Mais avant, pose-moi des questions pour optimiser ta réponse.**"
+
+
+## Transfomer chatGPT en expert de notre entreprise 
+
+Dans un instant je vais te demander de rédiger du contenu efficace pour mon entreprise. Il s'agit du contenu d'un site, d'un blog, de publications pour Instagram et d'e-mails de vente. **Avant de commencer j'aimerais que tu comprennes parfaitement mon entreprise et mes clients. Pose-moi au moins 20 questions sur mon entreprise, mes clients, mon audience et tout ce dont tu as besoin pour réaliser la tâche au mieux possible.**
+
+
+## Retrouver le prompt afin de reproduire du contenu existant
+
+Par exemple : si on trouve une description de produit très bien faite, et on veut adopter le même style pour ses propres produits.
+
+*Etape 1* <br>
+USER : "Rétroconcevoir signifie créer un prompt à partir d'un texte. Tu es un expert en ingénierie de prompt, capable de rétr-concevoir des prompts sur la abse d'n texteou d'une information. Este-ce que tu peux me donner un exemple d'un prompte rétro-conçu ?"
+ChatGPT : [...]
+
+*Etape 2* <br>
+USER : "Bien, maintenant, génère un modèle technique de ce prompt rétro-conçu."
+ChatGPT : [...]
+
+*Etape 3* <br>
+USER : Rétro-conçoit un prompt pour ce texte : <insérer texte>. Assure-toi de prendre en compte le ton, le langage, la syntaxe, l'esprit et le style du texte, pour que ton prompte génère ce même texte.
+ChatGPT : [...]
+
+*Etape 4* <br>
+USER : Je désire vendre <description du produit>. <Insérer le prompt créé par ChatGPT en [3]>.
+ChatGPT : [...]
 
 
 ## Se prémunir des hallucinations
@@ -101,55 +149,139 @@ Nombre de tokens que ChatGPT peut traiter est limité ; plus la conversation ava
 Cf. livres pour les exemples de prompts suivants :
 
 1. entreprenariat
-a. validation d'idées : génération d'idées, analyse SWOT, recherche de marché, estimation de la demande, création de persona
-b. planification d'entreprise : rédaction d'un énoncé de mission, création d'un plan d'entreprise, analyse des risques, stratégie de croissance, rédaction d'un pitch, élaboration d'un plan de financement, rédaction d'un résumé exécutif, évaluation de l'entreprise, négociation avec les investisseurs, planification stratégique, analyse de la concurrence, planification financière, optimisation des opérations, gestion d'équipes
+  a. validation d'idées : génération d'idées, analyse SWOT, recherche de marché, estimation de la demande, création de persona
+  b. planification d'entreprise : rédaction d'un énoncé de mission, création d'un plan d'entreprise, analyse des risques, stratégie de croissance, rédaction d'un pitch, élaboration d'un plan de financement, rédaction d'un résumé exécutif, évaluation de l'entreprise, négociation avec les investisseurs, planification stratégique, analyse de la concurrence, planification financière, optimisation des opérations, gestion d'équipes
+
 2. Ventes
-a. prospection et acquisition de clients : recherche de prospects, stratégie de prospection, optimisation du taux de conversion, engagement de clients, analyse du parcours client
-b. négociation et clôture de ventes : préparation à la négociation, scénario de clôture de vente, objection de vente, techniques de persuasion, suivi après une présentation de vente
-c.  stratégie de vente : évaluation du processus de vente, développement de la stratégie de vente, optimisation de la proposition de valeur, planification des ventes, analyse de la performance des ventes
-d. gestion de la relation client : gestion des plaintes, amélioration de l'expérience client, rétention des clients, analyse de la satisfaction des clients, étude de cas client
+  a. prospection et acquisition de clients : recherche de prospects, stratégie de prospection, optimisation du taux de conversion, engagement de clients, analyse du parcours client
+  b. négociation et clôture de ventes : préparation à la négociation, scénario de clôture de vente, objection de vente, techniques de persuasion, suivi après une présentation de vente
+  c.  stratégie de vente : évaluation du processus de vente, développement de la stratégie de vente, optimisation de la proposition de valeur, planification des ventes, analyse de la performance des ventes
+  d. gestion de la relation client : gestion des plaintes, amélioration de l'expérience client, rétention des clients, analyse de la satisfaction des clients, étude de cas client
+
 3. Ressources humaines
-a. recrutement et embauche : création annonce emploi, rédaction courriel après entrevue, analyse CV, simulation questions d'entretien, rédaction lettre de projet
-b. développement et formation du personnel : création plan de formation, feedback de performance, élaboration parcours de carrière, rédaction d'un courrier de formation, élaboration guide d'intégration
-c. gestion des performances : analyse, retour
-d. rédaction d'un plan d'amélioration de la performance : évaluation, rédaction d'un plan de formation
-e. relations avec les employés et engagement : amélioration de l'engagement, gestion des conflits, rédaction lettre d'appréciation, création enquête de satisfaction, élaboration politique d'équité
+  a. recrutement et embauche : création annonce emploi, rédaction courriel après entrevue, analyse CV, simulation questions d'entretien, rédaction lettre de projet
+  b. développement et formation du personnel : création plan de formation, feedback de performance, élaboration parcours de carrière, rédaction d'un courrier de formation, élaboration guide d'intégration
+  c. gestion des performances : analyse, retour
+  d. rédaction d'un plan d'amélioration de la performance : évaluation, rédaction d'un plan de formation
+  e. relations avec les employés et engagement : amélioration de l'engagement, gestion des conflits, rédaction lettre d'appréciation, création enquête de satisfaction, élaboration politique d'équité
+
 4. Marketing
-a. E-mail marketing : création plan de campagne, rédaction e-mail de bienvenue, élaboration e-mail de relance, analyse de performance des campagnes d'e-mail marketing
-b. Content marketing : rédaction e-mail promotion spéciale, création de contenus de blog engageants, optimisation contenu pour SEO, rédaction légendes engageantes, création titres de blog attrayants, rédaction e-mails marketing convaincants
-c. SEO et SEM : rédaction balises méta optimisées pour SEO, audit SEO d'un site web, création campagne SEM, recherche mots-clés pour nouveau contenu, analyse performance SEO
-d. Réseaux sociaux : création calendrier de contenu pour réseaux sociaux, rédactions de posts de médias sociaux engageants, analyse des performances des médias sociaux, gestion des commentaires et interactions sur les réseaux sociaux, planification d'une campagne de publicité sur les réseaux sociaux
+  a. E-mail marketing : création plan de campagne, rédaction e-mail de bienvenue, élaboration e-mail de relance, analyse de performance des campagnes d'e-mail marketing
+  b. Content marketing : rédaction e-mail promotion spéciale, création de contenus de blog engageants, optimisation contenu pour SEO, rédaction légendes engageantes, création titres de blog attrayants, rédaction e-mails marketing convaincants
+  c. SEO et SEM : rédaction balises méta optimisées pour SEO, audit SEO d'un site web, création campagne SEM, recherche mots-clés pour nouveau contenu, analyse performance SEO
+  d. Réseaux sociaux : création calendrier de contenu pour réseaux sociaux, rédactions de posts de médias sociaux engageants, analyse des performances des médias sociaux, gestion des commentaires et interactions sur les réseaux sociaux, planification d'une campagne de publicité sur les réseaux sociaux
+
 5. Service client
-a. Gestion des réclamations : traitement des retours de produits, gestion des remboursements, réponse à une réclamation, gestion des échanges de produits, traitement de plaintes
-b. réponse aux demandes des clients : réponse à une question, gestion d'une demande de suivi de commande, réponse à une demande d'informations, gestion d'une demande de réservation, réponse à une demande d'assistance technique
-c. formation des employés du service client : création d'un programme de formation, évaluation des compétences, formation continue, gestion des retours, intégration nouvelles technologies
-d. mesure de la satisfaction client : création d'un questionnaire de satisfaction, analyse des retours clients, mise en place système de notation, évaluation des retours après réclamation, mesure fidélité
+  a. Gestion des réclamations : traitement des retours de produits, gestion des remboursements, réponse à une réclamation, gestion des échanges de produits, traitement de plaintes
+  b. réponse aux demandes des clients : réponse à une question, gestion d'une demande de suivi de commande, réponse à une demande d'informations, gestion d'une demande de réservation, réponse à une demande d'assistance technique
+  c. formation des employés du service client : création d'un programme de formation, évaluation des compétences, formation continue, gestion des retours, intégration nouvelles technologies
+  d. mesure de la satisfaction client : création d'un questionnaire de satisfaction, analyse des retours clients, mise en place système de notation, évaluation des retours après réclamation, mesure fidélité
+
 6. Enseignement et formation
-a. Préparation d'un cours : planification, intégration multimédia, activité sur la probabilité, intégration pensée critique, cours précis
-b. Evaluation des élèves : évaluation compétences, examen, évaluation pensée critique, test oral, évaluation du développement socio-émotionnel
-c. Formation continue pour enseignants : programme sur les méthodologies d'enseignement, webinaire sur les outils numériques, présentation sur la gestion de la classe, guide sur la pédagogie différenciée, atelier sur l'apprentissage collaboratif
-d. Communication avec les parents : lettre e bienvenue pour nouvelle année, courriel sur une sorite, rapport de progrès, courriel sur les candidatures universitaires, lettre sur bien-être mental
+  a. Préparation d'un cours : planification, intégration multimédia, activité sur la probabilité, intégration pensée critique, cours précis
+  b. Evaluation des élèves : évaluation compétences, examen, évaluation pensée critique, test oral, évaluation du développement socio-émotionnel
+  c. Formation continue pour enseignants : programme sur les méthodologies d'enseignement, webinaire sur les outils numériques, présentation sur la gestion de la classe, guide sur la pédagogie différenciée, atelier sur l'apprentissage collaboratif
+  d. Communication avec les parents : lettre e bienvenue pour nouvelle année, courriel sur une sorite, rapport de progrès, courriel sur les candidatures universitaires, lettre sur bien-être mental
+
 7. Développement web
-a. Langages de programmation : exploration avancée de JavaScript, astuces CSS avancées, utilisations avancées de Python, optimisation de l'environnement et développement PHP, HTML5 et API
-b. Traduction de code informatique : de JavaScript à Python, de PHP à Node.js, de Python à Java, de JavaScript à TypeScript, de Python à Rust
-c. Conception et UX : critique de l'UX, conception interface utilisateur réactive, intégration UX dans processus de développement, accessibilité web, création prototype
-d. Sécurité web et conformité : audit de sécurité, conformité RGPD, traitement données sensibles, contrôles d'accès, prévention attaques XSS
+  a. Langages de programmation : exploration avancée de JavaScript, astuces CSS avancées, utilisations avancées de Python, optimisation de l'environnement et développement PHP, HTML5 et API
+  b. Traduction de code informatique : de JavaScript à Python, de PHP à Node.js, de Python à Java, de JavaScript à TypeScript, de Python à Rust
+  c. Conception et UX : critique de l'UX, conception interface utilisateur réactive, intégration UX dans processus de développement, accessibilité web, création prototype
+  d. Sécurité web et conformité : audit de sécurité, conformité RGPD, traitement données sensibles, contrôles d'accès, prévention attaques XSS
+
 8. Rédacteurs web
-a. Création de contenu : rédaction article de blog, création étude de cas, écriture guide, rédaction livre blanc, création article de nouvelles
-b. SEO : optimisation mots-clés, rédaction métadescriptions, création titres SEO-friendly, optimisation contenu existant, balisage contenu SEO
-c. Rédaction de scripts : de podcast, de vidéo YouTube, publicitaire, de webinaire, de vidéo explicative
-d. Révision et édition : édition article de blog, correction erreurs grammaires et style, amélioration lisibilité, révision d'un script de podcast, édition SEO
+  a. Création de contenu : rédaction article de blog, création étude de cas, écriture guide, rédaction livre blanc, création article de nouvelles
+  b. SEO : optimisation mots-clés, rédaction métadescriptions, création titres SEO-friendly, optimisation contenu existant, balisage contenu SEO
+  c. Rédaction de scripts : de podcast, de vidéo YouTube, publicitaire, de webinaire, de vidéo explicative
+  d. Révision et édition : édition article de blog, correction erreurs grammaires et style, amélioration lisibilité, révision d'un script de podcast, édition SEO
+
 9. Community management
-a. Stratégie de CM : rédaction d'un plan CM, établissement des objectifs, définition communauté cible, élaboration stratégie d'engagement, évaluation de la performance
-b. Création et curation de contenu : élaboration calendrier de contenu, curation contenu, création contenu engageant, publication promotion, publication réponse
-c. Gestion des médias sociaux : élaboration stratégie médias sociaux, création calendrier de publication, analyse performance médias sociaux, élaboration campagne médias sociaux, gestion commentaires et réactions
-d. Gestion de crise : élaboration plan gestion de crise, communication de crise, analyse de crise, communication interne en temps de crise, reprise après crise
+  a. Stratégie de CM : rédaction d'un plan CM, établissement des objectifs, définition communauté cible, élaboration stratégie d'engagement, évaluation de la performance
+  b. Création et curation de contenu : élaboration calendrier de contenu, curation contenu, création contenu engageant, publication promotion, publication réponse
+  c. Gestion des médias sociaux : élaboration stratégie médias sociaux, création calendrier de publication, analyse performance médias sociaux, élaboration campagne médias sociaux, gestion commentaires et réactions
+  d. Gestion de crise : élaboration plan gestion de crise, communication de crise, analyse de crise, communication interne en temps de crise, reprise après crise
+
 10. Gestion de projets
-a. Planification de projet : définition objectifs, création échéancier, identification ressources, création plan, établissement des livrables
-b. Gestion des risques du projet : identification des risques, élaboration plan de contingence, gestion des problèmes, analyse des risques, planification de la réponse aux risques
-c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts
+  a. Planification de projet : définition objectifs, création échéancier, identification ressources, création plan, établissement des livrables
+  b. Gestion des risques du projet : identification des risques, élaboration plan de contingence, gestion des problèmes, analyse des risques, planification de la réponse aux risques
+  c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts
+
 11. Communication de projet : création d'un plan de communication, communication des changements, communication des risques, présentation des progrès, compte rendu final
 
+## 6 stratégies openAI
 
+1. Instructions claires 
+  a.	ajouter des détails à la requête 
+  b.	faire adopter un persona au modèle<br>
+"Message système" accessible aux utilisateurs de l’API peut être utilisé pour spécifier le persona utilisé par le modèle dans ses réponses. Exemple:<br>
+*SYSTÈME : "Lorsque je vous demande de m'aider à écrire quelque chose, vous me répondez par un document qui contient au moins une blague ou un commentaire amusant dans chaque paragraphe."*<br>
+*UTILISATEUR : "J'écris une note de remerciement à mon fournisseur de boulons en acier pour avoir livré à temps et dans un délai très court. Cela nous a permis de livrer une commande importante."*
+
+  c.	utiliser des délimiteurs (guillemets triples, balises XML, titres de section, etc.) pour délimiter les sections de l'entrée à traiter différemment
+  d.	préciser les étapes nécessaires à l'accomplissement d'une tâche<br>
+Décomposé la tâche en **séquence d'étapes**
+*SYSTÈME : "Utilisez les instructions suivantes, étape par étape, pour répondre aux demandes de l'utilisateur."* <br>
+*Étape 1 - L'utilisateur vous fournira un texte entre trois guillemets. Résumez ce texte en une phrase avec un préfixe indiquant "Résumé : ".*<br>
+*Étape 2 - Traduisez le résumé de l'étape 1 en espagnol, avec un préfixe indiquant "Traduction : ".*<br>
+*UTILISATEUR : """insérer le texte ici"""*
+
+
+  e.	fournir des exemples (ex: un exemple de style particulier difficile à décrire explicitement - *"few-shot" prompting*)
+  f.	préciser la longueur souhaitée (en nombre de mots, de phrases, de paragraphes, de puces, etc.)<br>
+<b>Attention</b> : spécifier un nombre de mots ne permet pas d'obtenir une grande précision (plus fiable de demander des résultats avec un nombre spécifique de paragraphes ou de puces)
+
+
+
+3. Fournir un texte de référence
+  a.	faire répondre le modèle à l'aide d'un texte de référence (à partir des informations fournies dans le prompt - mais longueur limitée ! - ou en utilisant les *embeddings*)
+
+*SYSTÈME : "Utiliser les articles fournis, délimités par des triples guillemets, pour répondre aux questions. Si la réponse ne se trouve pas dans les articles, écrire "Je n'ai pas trouvé de réponse"."*
+*UTILISATEUR : <insérer les articles, chacun délimité par des guillemets triples>*
+*Question : <insérer la question ici>*
+
+
+  b.	faire répondre le modèle à l'aide de citations tirées d'un texte de référence
+
+*SYSTÈME : "Vous recevrez un document délimité par des guillemets triples et une question. Votre tâche consiste à répondre à la question en utilisant uniquement le document fourni et à citer le(s) passage(s) du document utilisé(s) pour répondre à la question. Si le document ne contient pas les informations nécessaires pour répondre à la question, écrivez simplement : "Informations insuffisantes" : "Informations insuffisantes". Si une réponse à la question est fournie, elle doit être annotée d'une citation. Utilisez le format suivant pour citer les passages pertinents ({"citation" : ...})."*
+*UTILISATEUR :
+"""<insérer le document ici>""
+Question : <insérer la question ici>*
+
+
+5. Diviser les tâches complexes en sous-tâches (flux de tâches plus simples, utiliser résultats des tâches antérieures pour construire les entrées des tâches ultérieures)
+  a.	classification des intentions pour identifier les instructions les plus pertinentes :
+
+
+    - quand de nombreux ensembles d'instructions indépendants sont nécessaires pour traiter différents cas, .
+    - commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires- commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires
+    - définir des catégories fixes et coder en dur les instructions pertinentes pour le traitement des tâches d'une catégorie donnée. 
+    - commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessairesPeut être appliqué de manière récursive pour décomposer une tâche en une séquence d'étapes. 
+    - chaque requête ne contient que les instructions nécessaires à l'exécution de l'étape suivante : réduction du taux d'erreur et éventuellement du coût
+
+Exemple : application de service à la clientèle où les requêtes peuvent être classées <br>
+*SYSTÈME : Vous allez recevoir des demandes de service à la clientèle. Classez chaque requête dans une catégorie principale et une catégorie secondaire. Fournissez votre résultat au format json avec les clés : primaire et secondaire. <br>
+Catégories primaires : Facturation, [...] <br>
+Catégories secondaires de facturation : Désinscription ou mise à niveau, [...]<br>
+Catégories secondaires du support technique : Dépannage, [...] <br>
+Catégories secondaires de la gestion de compte : Réinitialisation du mot de passe, [...]<br>-
+UTILISATEUR :  J'ai besoin de faire fonctionner mon internet à nouveau.*
+
+  b.	résumer ou filtrer les dialogues précédents
+
+7. Laisser le modèle "réfléchir".
+  a.	faire élaborer au modèle sa propre solution 
+  b.	monologue intérieur ou séquence de questions pour masquer le raisonnement du modèle
+  c.	demander au modèle s'il a manqué quelque chose lors des passages précédents
+
+8. Utiliser des outils externes
+  a.	recherche basée sur les embeddings
+  b.	exécution de code (calculs, appels à API externes)
+  c.	donner accès à des fonctions spécifiques
+
+9. Tester systématiquement les changements
+  a.	valuer les résultats du modèle par rapport à des réponses de référence
+
+
+ 
 
 {% include links.html %}
