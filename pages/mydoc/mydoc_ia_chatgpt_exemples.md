@@ -1,5 +1,5 @@
 ---
-title: ChatGPT - exemples d'utilisation
+title: ChatGPT 3.5 - exemples d'utilisation
 keywords: IA, IT, ChatGPT
 last_updated: December 4, 2023
 tags: [IA]
@@ -63,7 +63,8 @@ La demande de reconnaissance, avec production de l’intégralité des pièces n
 Tout dossier non complet ne pourra pas être examiné et nécessitera un renvoi à l’année suivante (pas de paiement direct, ni d’aide aux améliorations structurelles, ni d’autres contributions agricoles pour l’année en cours). <br>
 Nous vous recommandons de contacter rapidement le responsable régional, afin de finaliser votre dossier à temps. <br>
 </div>
-<br>
+
+
 <div class="chatgptOut" markdown=1>
     *Résultat pas dans le format attendu*
 </div>
