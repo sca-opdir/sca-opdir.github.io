@@ -42,8 +42,8 @@ code test
 </div>
 <br>
 
-<div class="chatgptIn" markdown=1><br>
-Le texte ci-dessous présente les conditions qui doivent être remplies pour qu'une exploitation agricole soit reconnue. Résume sous forme de liste les questions que doit se poser un exploitant pour savoir s'il remplit ces conditions. Chaque question doit être concise et tenir sur une ligne.<br>
+<div class="chatgptIn" markdown=1>
+**Le texte ci-dessous présente les conditions qui doivent être remplies pour qu'une exploitation agricole soit reconnue. Résume sous forme de liste les questions que doit se poser un exploitant pour savoir s'il remplit ces conditions. Chaque question doit être concise et tenir sur une ligne.**<br>
 Une exploitation agricole doit être reconnue par la Commission de reconnaissance des exploitations (CRE) du Service cantonal de l’agriculture (SCA) pour pouvoir bénéficier de soutiens financiers tels que les paiements directs, les aides aux améliorations structurelles ou d'autres contributions agricoles. <br>
 A cette fin, elle doit remplir divers critères, notamment : <br>
 UMOS : l’exploitation doit nécessiter au moins 0.2 Unité de main d’œuvre standard (UMOS). Le calcul des UMOS peut se faire à l’aide du programme en ligne suivant https://agripedia.ch/focus-ap-pa/outil-de-calcul-des-contributions/. Pour le calcul des UMOS, il faut utiliser le dernier onglet dénommé "Limitations" de l’outil Excel de calcul des contributions<br>
