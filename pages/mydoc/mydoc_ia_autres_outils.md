@@ -9,7 +9,9 @@ permalink: IA_autres_outils.html
 folder: mydoc
 ---
 
-*Sources: <https://www.ge.ch/document/guide-intelligence-artificielle>, <https://outilia.notion.site/b36ebb86a60f4adfae1ea0c9186f419c?v=795b5a44d1d34d18800e0be65f8232b8>*
+*Sources principales*: 
+* guide GE : <https://www.ge.ch/document/guide-intelligence-artificielle>,
+* 100 outils IA : <https://outilia.notion.site/b36ebb86a60f4adfae1ea0c9186f419c?v=795b5a44d1d34d18800e0be65f8232b8>*
 
 ## Texte et écriture
 
