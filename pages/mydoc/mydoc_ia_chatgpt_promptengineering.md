@@ -50,7 +50,18 @@ folder: mydoc
 
 6. **validation** (amélioration) et 7. **étapes** (processus)
   - faire répondre à la question de départ en plusieurs étapes, décrites une à une dans le prompt, avec une validation avant de passer à la suivante (limite de mémoire : si besoin rappeler les éléments principaux de la discussion) 
-  - ex. : "Tu suivras 4 étapes. A la fin de chaque étape tu me poseras des questions pour améliorer ta réponse et tu me demanderas si je valide l'étape. Ensuite, tu passeras à l'étape suivante quand je te dirai : OK. Etape 1 : tu vas me demander [...] ; Etape 2 [...]".
+  - ex. : "Tu suivras 4 étapes. A la fin de chaque étape tu me poseras des questions pour améliorer ta réponse et tu me demanderas si je valide l'étape. Ensuite, tu passeras à l'étape suivante quand je te dirai : OK. Etape 1 : tu vas me demander ... ; Etape 2 ...".
+
+## Rebondir sur la réponse de ChatGPT (message de suivi)
+
+* Une fois la réponse obtenue, relancer avec une autre question
+* Ex. : faire faire un tableau avec les caractéristiques principales des concurrents puis follow-up message "tu es un commercial expert [...] ; sur la base des informations récoltées dans le tableau sur les concurrents, trouve les faiblesses de chaque concurrent ... utilise ton analyse pour établir une stratégie ... "
+
+## Amélioration continue du prompt
+
+* Passer dans un mode itératif et améliorer continuellement le prompt selon les besoins spécifiques 
+* ChatGPT révise le prompt à chaque étape
+* Attention à la limitation de la mémoire (rappeler les éléments clés de la discussion si besoin)
 
 
 ## Se prémunir des hallucinations
