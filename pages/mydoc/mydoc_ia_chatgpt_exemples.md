@@ -715,7 +715,7 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
 <li><b>Répercussions pour le canton</b> :
 <ul><li><b>Impact sur l'économie locale</b> : La numérisation de l'agriculture peut avoir des répercussions sur l'économie locale, en influençant les modèles d'affaires traditionnels.</li>
 <li><b>Amélioration de l'efficacité des services publics</b> : La numérisation peut améliorer l'efficacité des services publics du canton, notamment dans le domaine agricole.</li>
-</li></ul></li><li><b>Tableau "Points forts" et "Points faibles" de la charte</b> :
+</ul></li><li><b>Tableau "Points forts" et "Points faibles" de la charte</b> :
 </li></ol>
 <table>
   <tr>
