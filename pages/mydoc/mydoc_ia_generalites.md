@@ -21,30 +21,30 @@ folder: mydoc
 
 ## Avantages de l'intelligence artificielle
 
-• Large champ d’application
-• Augmentation de la productivité
-• Réduction des intermédiaires
-• Gain de temps et d’efficacité
-• Capacité à prendre des décisions basées sur un nombre important de paramètres différents
-• Réduction des coûts
-• Automatisation des tâches, processus, supervision
-• Aide à la prise de décisions
-• Disponible en tout temps
-• Apprentissage continu permettant d’améliorer les performances au cours du temps
-• Optimisation des ressources
-• Création de nouveaux métiers 
+* Large champ d’application
+* Augmentation de la productivité
+* Réduction des intermédiaires
+* Gain de temps et d’efficacité
+* Capacité à prendre des décisions basées sur un nombre important de paramètres différents
+* Réduction des coûts
+* Automatisation des tâches, processus, supervision
+* Aide à la prise de décisions
+* Disponible en tout temps
+* Apprentissage continu permettant d’améliorer les performances au cours du temps
+* Optimisation des ressources
+* Création de nouveaux métiers 
 
 ## Désavantages de l'intelligence artificielle
 
-• Absence de jugement moral
-• Perte de réflexion personnelle et de connaissances de base
-• Baisse du niveau de compétences
-• Nécessité d’accéder à un équipement informatique pour interagir
-• Dépendance technologique
-• Suppression d’emplois
-• Connexion Internet requise la plupart du temps
-• Biais algorithmiques et excès de confiance envers les outils
-• Dépendance à la qualité des données d’entrainement auxquelles se réfère l’outil
-• Consommation d’énergie
+* Absence de jugement moral
+* Perte de réflexion personnelle et de connaissances de base
+* Baisse du niveau de compétences
+* Nécessité d’accéder à un équipement informatique pour interagir
+* Dépendance technologique
+* Suppression d’emplois
+* Connexion Internet requise la plupart du temps
+* Biais algorithmiques et excès de confiance envers les outils
+* Dépendance à la qualité des données d’entrainement auxquelles se réfère l’outil
+* Consommation d’énergie
 
 {% include links.html %}
