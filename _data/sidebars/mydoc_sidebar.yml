@@ -56,6 +56,10 @@ entries:
     - title: Autres outils
       url: /IA_autres_outils.html
       output: web
+
+    - title: IA en entreprise
+      url: /IA_enEntreprise.html
+      output: web
  
     - title: Réflexions
       url: /IA_reflexion.html
