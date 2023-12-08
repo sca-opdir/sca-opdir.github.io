@@ -12,36 +12,6 @@ folder: mydoc
 
 ## Générer la liste de questions à se poser pour savoir si les conditions sont remplies
 
-<div markdown=1>
-*test* **deuxième test**
-
-```
-code test
-```
-    
-</div>
-
-<div class="mycomment" markdown=1>
-
-    *test* **deuxième test**
-
-```
-code test
-```
-</div>
-<br>
-
-<div class="chatgptOut" markdown=1>
-
-    *test* **deuxième test**
-
-```
-code test
-```
-
-</div>
-<br>
-
 <div class="chatgptIn" markdown=1>
 ***Le texte ci-dessous présente les conditions qui doivent être remplies pour qu'une exploitation agricole soit reconnue. Résume sous forme de liste les questions que doit se poser un exploitant pour savoir s'il remplit ces conditions. Chaque question doit être concise et tenir sur une ligne.***<br>
 Une exploitation agricole doit être reconnue par la Commission de reconnaissance des exploitations (CRE) du Service cantonal de l’agriculture (SCA) pour pouvoir bénéficier de soutiens financiers tels que les paiements directs, les aides aux améliorations structurelles ou d'autres contributions agricoles. <br>
