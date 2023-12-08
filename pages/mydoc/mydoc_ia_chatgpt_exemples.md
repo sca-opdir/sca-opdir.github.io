@@ -691,68 +691,7 @@ Une fois cette modification apportée, le XML devrait être conforme au XSD que 
 
 <hr>
 
-## Validation de XML
 
-```
-    <pointGroup><br>
-      <pointGroupID>07.1.1</pointGroupID><br>
-      <point><br>
-        <pointID>01</pointID><br>
-      </point><br>
-```
-
-<div class="chatgptIn" markdown=1>
-    
-Est-ce que le XML ci-dessous est correct ? Si non, explique pourquoi. <br>
-    
-```
-    <pointGroup><br>
-      <pointGroupID>07.1.1</pointGroupID><br>
-      <point><br>
-        <pointID>01</pointID><br>
-      </point><br>
-    </pointGroup><br>
-    <pointGroup><br>
-      <pointGroupID>07.1.2<br>
-      <point><br>
-        <pointID>01</pointID><br>
-      </point><br>
-        <pointID>02</pointID><br>
-      </point><br>
-    </pointGroup>
-```
-
-</div>
-
-<div class="chatgptOut" markdown=1>
-Non, le XML que vous avez fourni n'est pas correct. Il y a une erreur de structure dans la deuxième balise `<pointGroup>`. Voici une version corrigée :
-
-```
-<pointGroup>
-  <pointGroupID>07.1.1</pointGroupID>
-  <point>
-    <pointID>01</pointID>
-  </point>
-</pointGroup>
-<pointGroup>
-  <pointGroupID>07.1.2</pointGroupID>
-  <point>
-    <pointID>01</pointID>
-  </point>
-  <point>
-    <pointID>02</pointID>
-  </point>
-</pointGroup>
-
-```
-
-Les erreurs corrigées sont les suivantes :
-<ol><li>Dans la deuxième balise `<pointGroup>`, la balise `<pointGroupID>` n'était pas correctement fermée. Il manquait la balise de fermeture `</pointGroupID>`.</li>
-<li>Dans la deuxième balise `<pointGroup>`, la balise `<pointID>` était mal placée. Elle devrait être à l'intérieur de la balise `<point>`. Dans votre version incorrecte, elle était en dehors de la balise `<point>`. J'ai déplacé la balise `<pointID>` à l'intérieur de la balise `<point>`.</li></ol>
-Avec ces corrections, le XML devrait être structuré correctement.
-</div>
-    
-<hr>
 
 ## Analyser un document selon un certain point de vue et lister les points forts/faibles 
 
