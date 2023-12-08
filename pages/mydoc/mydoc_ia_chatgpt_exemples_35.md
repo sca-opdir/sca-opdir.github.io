@@ -5,7 +5,7 @@ last_updated: December 4, 2023
 tags: [IA]
 summary: "Exemples d'utilisation de ChatGPT"
 sidebar: mydoc_sidebar
-permalink: ChatGPT_exemples.html
+permalink: ChatGPT_exemples35.html
 folder: mydoc
 ---
 
