@@ -65,7 +65,7 @@ Nous vous recommandons de contacter rapidement le responsable régional, afin de
 </div>
 <br>
 <div class="chatgptOut" markdown=1>
-    <br><i>Résultat pas dans le format attendu</i>
+    *Résultat pas dans le format attendu*
 </div>
 <br>
 <div class="chatgptIn" markdown=1><br>
