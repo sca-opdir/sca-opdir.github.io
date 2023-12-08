@@ -38,7 +38,7 @@ entries:
           output: web
 
         - title: Comment prompter
-          url: /ChatGPT_prompt_engineering.html
+          url: /ChatGPT_promptEngineering.html
           output: web
 
         - title: Exemples d'utilisation (3.5)
