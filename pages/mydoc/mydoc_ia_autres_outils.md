@@ -215,7 +215,8 @@ folder: mydoc
   * Trip Planner AI
 * Santé
   * Merative
-  * Viz.ai, Enlitic Curie
+  * Viz.ai
+  * Enlitic Curie
 * Sport
   * Endurance
   * FitnessAI
