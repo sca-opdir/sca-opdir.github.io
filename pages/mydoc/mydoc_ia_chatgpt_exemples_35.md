@@ -1164,19 +1164,24 @@ Ici, on parle de la façon dont les engrais sont approuvés et utilisés. Certai
 <div class="mycomment">
 NB : ça marche mieux de lui demander et de rebondir sur sa réponse ; si on écrit la question en mettant "si tu ne connais pas le langage facile à lire et à comprendre (FALC), réponds "je ne sais pas"", il répond qu'il ne sait pas 
 </div>
-<br>
-<div class="chatgptIn" markdown=1>
+
+<div class="chatgptIn">
+    <br>
 Est-ce que tu connais le langage facile à lire et à comprendre (FALC) ?
 </div>
-<br>
-<div class="chatgptOut" markdown=1>
-Oui, je suis familiarisé avec le concept [...]
+
+<div class="chatgptOut">
+    <br>
+Oui, je suis familiarisé avec le concept ...
 </div>
-<br>
+
 <div class="chatgptIn" markdown=1>
 Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; puisque tu connais le langage facile à lire et à comprendre (FALC), résume chacune de ces sections de façon claire et concise de telle manière en utilisant l'approche du langage FALC. Résume chaque section en 1 paragraphe d'environ 30 mots en langage facile à lire et à comprendre.<br>
 <i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012</i>
-</div><br><div class="chatgptOut" markdown=1>
+</div>
+
+<div class="chatgptOut">
+    <br>
 <b>A1-1 Principes:</b><br>
 La loi sur la protection de l'environnement vise à prévenir les atteintes nuisibles ou gênantes. Elle interdit la mise en commerce de substances pouvant menacer l'environnement ou la santé humaine. L'utilisation de ces substances doit éviter de constituer une menace. De plus, ceux qui les commercialisent doivent informer sur leurs propriétés environnementales. <br>
 <b>A1-2 Restrictions d'utilisation pour certains engrais: </b><br>
@@ -1396,13 +1401,16 @@ NB : n'a pas fonctionné, résultat totalement erroné
 <div class="chatgptIn" markdown=1>
 ***Y a-t-il des verbes qui reviennent plus d'une fois dans la liste ci-dessous ? Si oui, lesquels ?*** <br>
 propose / réalise / estime / crée / aides à [formuler/créer/préparer/élaborer/me préparer pour ...] pour [une start-up qui ...] / identifie / évalue [la performance] / élabore / rédige / donne / formule / mène / génère / développe /écris / cartographie [le parcours ...] / énumère / prépare / utilise [l'analyse SWOT] pour concevoir / examine [notre proposition/ce site web] et suggère [des façons de l'améliorer pour la rendre plus ...] / conçois / fournis / analyse [le parcours/une crise récente ...] / examine [le CV pour ...] et évalue / élabore / estime / présente / suggère / effectue / guide [le client à travers le processus] / conçois / imagine 
-</div><br><div class="chatgptOut" markdown=1><br>
+</div>
+
+<div class="chatgptOut" markdown=1><br>
 Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les verbes qui apparaissent plus d'une fois :
 "propose" apparaît deux fois.
 "réalise" apparaît deux fois.
 "estime" apparaît trois fois.
 "crée" apparaît deux fois.
 </div>
+
 <hr>
 
 ## Compter l'occurrence des mots (échec !)
