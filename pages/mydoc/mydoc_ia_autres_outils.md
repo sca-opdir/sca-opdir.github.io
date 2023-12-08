@@ -67,7 +67,7 @@ folder: mydoc
 * Générateur de logo
   * CandyIcons
   * Logomaster.ai
-  * logomakerr
+  * Logomakerr
  
 
 
