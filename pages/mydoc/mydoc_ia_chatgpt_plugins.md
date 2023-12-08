@@ -28,7 +28,7 @@ folder: mydoc
 
 * **Wolfram Alpha** : effectuer des calculs mathématiques
 
-* **Photorealistic** : générer des descriptions détaillées pour la création d'images photoréalistes ; peut être utilisé pour visualiser des concepts, des idées ou des scènes de manière réaliste ; ChatGPT est capable de détecter quand le plugin doit intervenir
+* **Photorealistic** : générer des descriptions détaillées pour la création d'images photoréalistes ; peut être utilisé pour visualiser des concepts, des idées ou des scènes de manière réaliste ; peut détecter automatiquement quand le plugin doit intervenir ; créer des prompts pour Midjourney
 
 * **Whimsical Diagrams** : réaliser des mind maps directement dans l'interface ChatGPT ; créer des diagrammes
 
@@ -36,7 +36,7 @@ folder: mydoc
 
 * **Your AI Council** : offre plusieurs perspectives dans le cadre d'une recherche ou dans la résolution d'un problème complexe ; poser une question à un "conseil IA" composé de plusieurs spécialistes, chacun dans un domaine distinct, pour obtenir une réponse ; le plugin simule un débat entre ces experts ; utile dans une situation où nous avons besoin de différentes perspectives
 
-* **Canva** : connecter la plateforme de création de contenus visuels avec ChatGPT
+* **Canva** : connecter la plateforme de création de contenus visuels avec ChatGPT (par ex. création de logos)
 
 * **CapCut** : créer des courtes vidéos (logiciel de montage vidéos)
 
