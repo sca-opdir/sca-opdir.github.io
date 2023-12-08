@@ -40,7 +40,32 @@ folder: mydoc
   * [textshuttle](https://textshuttle.com/) (y.c. suisse allemand)
   * [Google Translate](https://translate.google.com)
   * ChatPDF
+ * Brainstormer
+  * IdeaBot.ai
+  * Ideaflip.com
 
+## Affaires et administration
+* Productivité
+  * Numerous.ai
+  * Akkio
+  * AlphaResearch
+* Support client
+  * ReviewWriter
+  * CaffeinatedCX
+  * Cody
+* Ressources Humaines
+  * Cody
+  * Huru
+  * AI Resume Parser
+* Assistant Juridique
+  * LexMachina
+  * Genie
+  * Casetext
+* Présentations
+  * Gamma
+  * AutoSlide
+  * Tome
+  * Beautiful.ai
   
 ## Image et illustration
 
@@ -62,12 +87,16 @@ folder: mydoc
   * Designs.ai
 * Générateur d'images
   * FireFly
-  * Dall-E 2
+  * [DALL-E](https://www.bing.com/images/create)
   * Midjourney
 * Générateur de logo
   * CandyIcons
   * Logomaster.ai
   * Logomakerr
+  * Stable Diffusion
+  * Tailor Brands
+  * Designs.ai
+  * DocLogo
  
 
 
@@ -133,27 +162,7 @@ folder: mydoc
   * Amazon Bedrock
 
  
-## Affaires et administration
-* Productivité
-  * Numerous.ai
-  * Akkio
-  * AlphaResearch
-* Support client
-  * ReviewWriter
-  * CaffeinatedCX
-  * Cody
-* Ressources Humaines
-  * Cody
-  * Huru
-  * AI Resume Parser
-* Assistant Juridique
-  * LexMachina
-  * Genie
-  * Casetext
-* Présentations
-  * Gamma
-  * AutoSlide
-  * Tome
+
 
 ## Education et formation
 
@@ -197,7 +206,7 @@ folder: mydoc
   * Jasper
   * adcopy.ai
 
-## Styles de vie et diversitissement 
+## Styles de vie et divertissement 
 
 * Mode
   * Designovel
@@ -224,24 +233,5 @@ folder: mydoc
   * FitnessAI
   * Alfa AI
 
-
-
-
-
-
-## Rédaction de contenu
-
-## Traduction
-
-
-
-## Illustrations
-
-Utile pour créer des illustrations "sur mesure" pour des présentations par exemple
-
-* Création d'image avec [DALL-E](https://www.bing.com/images/create)
-* 
-
-## 
 
 {% include links.html %}
