@@ -42,7 +42,15 @@ entries:
           output: web
 
         - title: Exemples d'utilisation (3.5)
-          url: /ChatGPT_exemples.html
+          url: /ChatGPT_exemples35.html
+          output: web
+
+        - title: Exemples d'utilisation (4.0)
+          url: /ChatGPT_exemples40.html
+          output: web
+
+        - title: Plugins et bêta
+          url: /ChatGPT_pluginsEtBeta.html
           output: web
 
     - title: Autres outils
