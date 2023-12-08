@@ -98,7 +98,7 @@ Lister uniquement sous forme de questions les questions que l'exploitant doit se
 </div>
 
 
-<div class="chatgptIn" markdown=1>
+<div class="chatgptIn">
     <br>
 Dans le texte ci-dessous, corrige les fautes de frappe, sans apporter aucune autre modification et sans changer la numérotation :<br>
 10. Gestion de proejts <br>
@@ -107,7 +107,7 @@ b. Gestion des risques du projet : identification des risques, élaboration plan
 c. Suivi et contrôle du projet : suvii avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts<br>
 </div>
 <br>
-<div class="chatgptOut" markdown=1>
+<div class="chatgptOut">
 <br>
 1. Gestion de projets<br>
 a. Planification de projet : définition objectifs, création échéancier, identification ressources, création plan, établissement des livrables<br>
@@ -119,7 +119,7 @@ c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion
 
 ## Extraire les tâches de chacun depuis des notes de réunion "en vrac"
 
-<div class="chatgptIn" markdown=1><br>
+<div class="chatgptIn" markdown=1>
 Le texte ci-dessus explique un processus de traitement de données ; pour chaque personne liste en utilisant des mots clés les tâches qu'il doit effectuer
 Mylène prépare la base de données avec les manquements bordures tampon <br>
 elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires ; les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants<br>
