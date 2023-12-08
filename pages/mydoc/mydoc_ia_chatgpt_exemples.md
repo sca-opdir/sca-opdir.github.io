@@ -344,8 +344,7 @@ Dans le rapport de postulat « **Orientation future de la politique agricole** �
 ## Mail pour informer d'un refus d'une demande, en français et en allemand
 
 <div class="chatgptIn" markdown=1>
-***Je suis employée dans l'administration publique. Ecris un mail poli et concis, mais sans trop de formalités, pour informer un client que sa demande '''de se XXXX''' est refusée car déposée hors délai. Nous sommes désolés mais vu la base légale et l'impossibilité d'effectuer les contrôles correspondants nous pouvons pas l'accepter. 
-Le type de demande qui est entre triple guillemets doit être laissé tel quel et sera précisé par l'utilisateur par après. Ecris l'e-mail en français et sépare par une barre horizontale le même e-mail en allemand. ***
+***Je suis employée dans l'administration publique. Ecris un mail poli et concis, mais sans trop de formalités, pour informer un client que sa demande '''de se XXXX''' est refusée car déposée hors délai. Nous sommes désolés mais vu la base légale et l'impossibilité d'effectuer les contrôles correspondants nous pouvons pas l'accepter. Le type de demande qui est entre triple guillemets doit être laissé tel quel et sera précisé par l'utilisateur par après. Ecris l'e-mail en français et sépare par une barre horizontale le même e-mail en allemand.***
 </div>
 
 <div class="chatgptOut" markdown=1>
