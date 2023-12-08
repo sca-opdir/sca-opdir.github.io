@@ -91,6 +91,7 @@ c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion
 
 <div class="chatgptIn" markdown=1>
 ***Le texte ci-dessus explique un processus de traitement de données ; pour chaque personne liste en utilisant des mots clés les tâches qu'il doit effectuer.***
+    <br>
 Mylène prépare la base de données avec les manquements bordures tampon <br>
 elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires ; les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants<br>
 les courriers sont envoyés au même moment que le décompte paiements directs<br>
@@ -216,7 +217,7 @@ E_PSBiolandbau
 L'expression " vidéos de cinq sorties hivernales" doit figurer tel quel. Ce texte informatif ne s'adresse pas directement aux personnes concernées par ces contrôles, mais veut informer le reste de la population que ces contrôles auront lieu. Le texte doit être court, chaleureux et ne pas utiliser l'impératif, long de 50 mots maximum et tenir dans 1 paragraphe. 
 Le texte doit être fluide et engageant, écrit dans un style similaire à ce paragraphe : " L’Ecole d’agriculture du Valais (EAV) célèbre ses 100 ans en 2023. Pour clore ce jubilé, le Service de l’agriculture a mandaté l’historienne Delphine Debons afin de concevoir un ouvrage original, sous la forme d’un coffret réunissant un livre d’histoire et cinq cahiers en lien avec des thématiques incontournables pour l’avenir de l’agriculture valaisanne. Ce coffret est publié par les Archives de l’Etat du Valais, dans la série des Cahiers de Vallesia."***
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
 Cet hiver, l'Office des paiements directs et l'Office vétérinaire lancent une campagne de contrôles des sorties hivernales du bétail. Des films vidéos de cinq sorties seront capturés dans une dizaine d'exploitations à travers le canton. Cette initiative renforce la transparence de l'agriculture, favorisant ainsi la confiance avec le monde non agricole.
 </div>
@@ -237,7 +238,7 @@ les courriers sont envoyés au même moment que le décompte paiements directs<b
 les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe des réclamations des exploitants. la décision d'accepter ou refuser la réclamation revient à Fabrice. si la réclamation est acceptée, la réduction est annulée<br>
 à la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. la 1ère importe les résultats de la campagne dans Acontrol ; la 2ème corrige la base de données<br>
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
 Mylène prépare la base de données avec les manquements, bordures et tampon. En 1ᵉʳ, elle transmet le fichier à Marie qui regarde, pour chaque propriétaire et exploitant, s'il y a lieu de faire une réduction ou pas (calcul de la réduction) ; si réduction, elle prépare les courriers pour les exploitants et les propriétaires. Les courriers propriétaires sont envoyés à Olivier qui se charge de l'envoi ; Fabrice se charge des courriers exploitants. Les courriers sont envoyés au même moment que le décompte paiements directs. Les réclamations propriétaires sont traitées par Olivier ; Fabrice s'occupe des réclamations des exploitants. La décision d'accepter ou refuser la réclamation revient à Fabrice. Si la réclamation est acceptée, la réduction est annulée.
 À la fin de la période de réclamation, Fabrice transmet à Mylène et Marie la liste des réductions acceptées pour l'import dans Acontrol. La 1ᵉʳᵉ importe les résultats de la campagne dans Acontrol ; la 2ᵉᵐᵉ corrige la base de données.
@@ -1120,7 +1121,8 @@ Donc, la sanction à appliquer dépend du degré de manquement à la norme de li
 <br>
 <div class="chatgptIn" markdown=1>
 ***Même consigne que la question précédente, mais pour la question : "quelle est la sanction à appliquer en cas de fauche précoce d'une prairie extensive ?"***
-</div><br><div class="chatgptOut" markdown=1><br> 
+</div>
+<div class="chatgptOut" markdown=1>
 En se basant uniquement sur les données fournies, il n'y a pas d'information spécifique concernant la sanction à appliquer en cas de fauche précoce d'une prairie extensive. Par conséquent, je ne peux pas répondre à cette question en utilisant les données disponibles.
 </div>
 
@@ -1132,8 +1134,10 @@ En se basant uniquement sur les données fournies, il n'y a pas d'information sp
 ***Le texte ci-dessous contient différentes sections numérotées selon le modèle "A1-1 Principes" ; résume chacune de ces sections de façon claire et concise de telle manière qu'un enfant de 10 ans pourrait comprendre. Résume chaque section en 1 paragraphe d'environ 50 mots.***
 <i>copier ici le texte de la section A1 Législation sur l’utilisation et la mise en circulation des engrais, pp. 43-45, du magazine Environnement Éléments fertilisants et utilisation des engrais dans l’agriculture 2012</i> 
 </div>
+
 <div class="chatgptOut" markdown=1>
-<b>A1-1 Principes: </b><br>
+    
+*A1-1 Principes:*<br>
 Cette section parle d'une loi pour protéger l'environnement. Elle dit que si quelque chose peut nuire à la nature, il faut le réduire avant que ça devienne un problème. La loi interdit de vendre des produits qui pourraient nuire à l'environnement, et ceux qui les utilisent doivent le faire de manière sûre. Il faut aussi informer les gens sur ces produits. <br>
 <b>A1-2 Restrictions d’utilisation pour certains engrais: </b><br>
 Cela concerne l'utilisation des engrais dans l'agriculture. On dit quand et comment on peut les utiliser. Par exemple, on ne peut pas mettre certains engrais pendant certaines périodes, et les liquides ne peuvent pas être utilisés dans certaines conditions du sol. Il y a aussi des limites sur la quantité pour éviter les problèmes. <br>
@@ -1297,13 +1301,12 @@ Glossaire :<br>
 </div> 
 <br>
 <div class="chatgptIn" markdown=1>
-    <br>
 Est-ce que tu identifies d'autres concepts qui ne sont pas introduits par "Par" mais qui pourraient être inclus dans le glossaire ? si oui, complète le glossaire avec ces termes.
 </div>
 <div class="mycomment" markdown=1>
 NB : ce n'est pas parfait, par exemple Pâturages communautaires et Pâturages d'estivage sont introduits par "par"
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
 <br>
 Bien que la plupart des concepts soient introduits par "Par", il y a des termes connexes dans le texte qui peuvent être inclus dans le glossaire :<br>
@@ -1322,19 +1325,19 @@ Bien que la plupart des concepts soient introduits par "Par", il y a des termes 
 25.	Pâturages d'estivage </b>= Surfaces exclusivement utilisées pour le pacage estival des animaux, faisant partie d'une exploitation d'estivage. <br>
 Ces termes complémentaires fournissent une compréhension plus approfondie du contexte agricole et de la gestion des terres décrits dans le texte.
 </div>
-<br>
+
 <div class="chatgptIn" markdown=1>
 Est-ce que tu as utilisé uniquement les informations contenues dans le texte ?
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
 Oui, mes ajouts au glossaire sont basés uniquement sur les informations contenues dans le texte fourni. Aucune connaissance externe n'a été utilisée pour enrichir le glossaire. Si vous avez d'autres questions ou si vous souhaitez des clarifications sur des termes spécifiques, n'hésitez pas à demander.
 </div>
-    <br>
+    
 <div class="chatgptIn" markdown=1>
 ***Peux-tu mettre ensemble ces deux glossaires et trier les concepts par ordre alphabétique ?***
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
 Bien sûr, voici le glossaire combiné avec les concepts triés par ordre alphabétique : <br>
 1.	<b>Assolement </b>= Rotation culturale appliquée aux terres assolées. <br>
@@ -1369,7 +1372,7 @@ Les termes sont maintenant présentés de manière alphabétique pour une réfé
 <div class="mycomment">
 NB : n'a pas fonctionné, résultat totalement erroné
 </div>
-<br>
+
 <div class="chatgptIn" markdown=1>
 ***Y a-t-il des verbes qui reviennent plus d'une fois dans la liste ci-dessous ? Si oui, lesquels ?*** <br>
 propose / réalise / estime / crée / aides à [formuler/créer/préparer/élaborer/me préparer pour ...] pour [une start-up qui ...] / identifie / évalue [la performance] / élabore / rédige / donne / formule / mène / génère / développe /écris / cartographie [le parcours ...] / énumère / prépare / utilise [l'analyse SWOT] pour concevoir / examine [notre proposition/ce site web] et suggère [des façons de l'améliorer pour la rendre plus ...] / conçois / fournis / analyse [le parcours/une crise récente ...] / examine [le CV pour ...] et évalue / élabore / estime / présente / suggère / effectue / guide [le client à travers le processus] / conçois / imagine 
@@ -1387,7 +1390,7 @@ Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les v
 <div class="mycomment">
 NB : n'a pas fonctionné ; occurrence totale et formes dérivées non agrégées 
 </div>
-<br>
+
 <div class="chatgptIn" markdown=1>
 ***Compte le nombre d'occurrence totale de chaque mot dans le texte ci-dessous ; réponds par un tableau contenant le mot en 1ère colonne et l’occurrence en 2ème colonne; le tableau doit donner le résultat pour tout le texte (1 ligne par mot, il ne doit pas y avoir de doublons dans la 1ère colonne) ; le tableau doit être trié par ordre décroissant du nombre d'occurrences ; ne prends en compte que les mots de plus de 3 lettres ; un mot et ses formes dérivées ne doivent être comptabilisés qu'une fois ; 
 par exemple pour la phrase "tu es agriculteur et je suis agricultrice" le résultat doit être :*** <br>
@@ -1397,7 +1400,7 @@ le texte à analyser est : <br>
 
 <i>copier ici le texte</i>
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
 mot;occurrence<br>
 contributions;14<br>
@@ -1421,7 +1424,7 @@ NB : ne marche pas parfaitement
 Dans le texte ci-dessous, sélectionne, pour chaque système d'information, les extraits qui se rapportent à la question suivante : "pour chaque système d'information, combien d'agriculteurs/exploitants sont concernés par ce système ?" Veille à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Si l'information n'est pas présente dans le texte, indique que le texte ne permet pas de le savoir. 
 <i>coller ici les paragraphes 2.2.2.1 à 2.2.2.5 du rapport Bourgeois <https://www.blw.admin.ch/dam/blw/fr/dokumente/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf.download.pdf/Bericht_F_Postulat_Bourgeois_19.3988_Digitalisation_dans_le_domaine%20agricole.R%C3%B4le_de_la_Conf%C3%A9d%C3%A9ration_18.05.2022.pdf></i>
 </div>
-<br>
+
 <div class="chatgptOut" markdown=1>
 <b>Acorda:</b><br>
 •	Le fichier d’adresses comprend environ 5000 exploitations agricoles bénéficiaires de paiements directs et 5400 éleveurs d’animaux de rente à titre non commercial. <br>
@@ -1438,7 +1441,8 @@ Dans le texte ci-dessous, sélectionne, pour chaque système d'information, les 
 
 
 <div class="chatgptOut">
-<br>Analyse de la Charte sur la Numérisation de l'Agriculture pour le Canton Suisse :<br>
+    <br>
+Analyse de la Charte sur la Numérisation de l'Agriculture pour le Canton Suisse :<br>
 <ol><li><b>Avantages pour le canton</b> :
 <ul><li><b>Renforcement de la durabilité et de la compétitivité</b> : La numérisation peut accroître l'efficience tout au long de la chaîne de valeur, ce qui pourrait bénéficier au canton en termes de durabilité et de compétitivité.</li>
 <li><b>Réduction de la charge administrative</b> : La numérisation peut contribuer à réduire la charge administrative, ce qui peut être un avantage pour les autorités cantonales.</li>
