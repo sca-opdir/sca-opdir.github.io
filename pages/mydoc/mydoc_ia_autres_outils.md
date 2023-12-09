@@ -9,9 +9,10 @@ permalink: IA_autres_outils.html
 folder: mydoc
 ---
 
-*Sources principales*: 
-* guide GE : <https://www.ge.ch/document/guide-intelligence-artificielle>,
-* 100 outils IA : <https://outilia.notion.site/b36ebb86a60f4adfae1ea0c9186f419c?v=795b5a44d1d34d18800e0be65f8232b8>*
+*Sources*: 
+* (*guide de l'Etat de  Genève*)[<https://www.ge.ch/document/guide-intelligence-artificielle]
+* (*100 outils IA*)[https://outilia.notion.site/b36ebb86a60f4adfae1ea0c9186f419c?v=795b5a44d1d34d18800e0be65f8232b8]
+* Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
 
 ## Texte et écriture
 
@@ -39,16 +40,41 @@ folder: mydoc
   * [DeepL](https://www.deepl.com/translator)
   * [textshuttle](https://textshuttle.com/) (y.c. suisse allemand)
   * [Google Translate](https://translate.google.com)
-  * ChatPDF
+  * ChatGPT
+  * Microsoft Translator 
+  * IBM Watson Language Translator 
+  * Systran
+  * Linguee
+  * MateCat
+  * SDL Language Cloud 
+  * Yandex.Translate
+  * Promt
  * Brainstormer
   * IdeaBot.ai
   * Ideaflip.com
 
 ## Affaires et administration
+
+* Gestion de projets
+  * Asana (gestion de tâches, recommandation de priorités, planification automatique, attribution de ressources)
+  * Trello (gestion de tâches, recommandation de priorités, planification automatique, attribution de ressources)
+  * Smartsheet (planification et allocation des ressources)
+  * Resource Guru (gestion des ressources)
+  * Microsoft Project (analyse prédictive, anticipation des problèmes et optimisation des ressources)
+  * Wrike (prédiction de délais, optimisation des charges de travail)
+  * Tableau (analyser les données du projet, outils prédictifs)
+  * Power BI (analyse de données, tableaux de bords)
+  * Slack (chatbots pour réponses automatisées)
+  * Microsoft Teams (collaboration et communication)
+  * RiskWatch (gestion des risques)
+  * ARM (gestion des risques)
+  * Zendesk (chatbot pour support projet)
 * Productivité
   * Numerous.ai
   * Akkio
   * AlphaResearch
+  * Zapier (automatisation de tâches répétitives)
+  * Integromat (automatisation de tâches répétitives)
 * Support client
   * ReviewWriter
   * CaffeinatedCX
@@ -57,6 +83,15 @@ folder: mydoc
   * Cody
   * Huru
   * AI Resume Parser
+  * Workday (solutions complètes de gestion des ressources humaines)
+  * IBM Watson Talent (recrutement, gestion des talents, analyse des compétences)
+  * Oracle Cloud HCM (suite complète de gestion des ressources humaines)
+  * SAP SuccessFactors (recrutement, gestion des talents et de formation)
+  * Cornerstone OnDemand (gestion des talents)
+   * BambooHR (gestion des ressources humaines)
+   * Ultimate Software UltiPro (gestion des ressources humaines et des talents, analyse données RH)
+  * SmartRecruiters (recrutement)
+  * ADP DataCloud (analyse données RH pour la prise de décisions) 
 * Assistant Juridique
   * LexMachina
   * Genie
@@ -118,6 +153,15 @@ folder: mydoc
   * Whisper
   * Speechtext.ai
   * EchoFox
+* Interprétation
+  * Google Translate
+  * DeepL
+  * Microsoft Translator
+  * IBM Watson Language Translator
+  * SDL Language Cloud
+  * SYSTRAN Pure Neural Server
+  * iFlytek Translator
+  * Prompsit Language Engineering 
 
 ## Vidéos et illustration
 
@@ -201,10 +245,17 @@ folder: mydoc
   * MarketingBlocks AI
   * Oppwiser
   * Oliv AI
-* Marketing
+* Marketing (Salesforce et HubSpot considérés comme les deux meilleurs CRM marketing)
   * Cody
   * Jasper
   * adcopy.ai
+  * HubSpot (automatisation du marketing, optimisation du contenu et gestion de la relation client)
+  * Salesforce (analyses pour le marketing et les ventes)
+  * Google Analytics (analyse du trafic web et comportement des utilisateurs)
+  * Adobe Marketing Cloud (analyse client, optimisation du contenu, marketing personnalisé)
+  * Mailchimp (marketing par e-mail)
+  * Zoho CRM (notation des prospects et des contacts, analyse prédictive, analyse de sentiments)
+
 
 ## Styles de vie et divertissement 
 
