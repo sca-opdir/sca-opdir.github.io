@@ -14,9 +14,9 @@ folder: mydoc
 
 ## Accès
 
-Via l'API
-Via la [plateforme web](https://chat.openai.com/)
-Via le cloud (ex. : Microsoft offre également la version payante de ChatGPT via sa plateforme Azure, ce qui permet aux entreprises de l'intégrer facilement dans leurs applications et services.)
+* Via la [plateforme web](https://chat.openai.com/)
+* Via l'API
+* Via le cloud (ex. : Microsoft offre également la version payante de ChatGPT via sa plateforme Azure, ce qui permet aux entreprises de l'intégrer facilement dans leurs applications et services.)
 
 ## Sous le capot de ChatGPT
 
