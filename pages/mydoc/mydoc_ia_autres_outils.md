@@ -10,9 +10,14 @@ folder: mydoc
 ---
 
 *Sources*: 
-* (*guide de l'Etat de  Genève*)[<https://www.ge.ch/document/guide-intelligence-artificielle]
-* (*100 outils IA*)[https://outilia.notion.site/b36ebb86a60f4adfae1ea0c9186f419c?v=795b5a44d1d34d18800e0be65f8232b8]
-* Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
+* [*guide de l'Etat de  Genève*)(https://www.ge.ch/document/guide-intelligence-artificielle)
+* [*100 outils IA*](https://outilia.notion.site/b36ebb86a60f4adfae1ea0c9186f419c?v=795b5a44d1d34d18800e0be65f8232b8)
+* *Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)*
+* *<https://www.techopedia.com/top-10-most-popular-ai-tools>*
+* *<https://clickup.com/blog/ai-tools>*
+* *<https://www.forbes.com/sites/bernardmarr/2023/02/28/beyond-chatgpt-14-mind-blowing-ai-tools-everyone-should-be-trying-out-now/?sh=2581c9627a1b>*
+  
+... et encore beaucoup d'autres ! Liste d'outils IA continuellement mise à jour : [Always Up-to-date AI Tools Database](https://dev-share.clickup.com/9805000210/gr/h/946rvgj-16/6be1ba8fcf3f101?_gl=1*xghqd4*_gcl_au*MTQ2MzY3OTY5MS4xNzAyMTEyNjQx)
 
 ## Texte et écriture
 
@@ -20,6 +25,8 @@ folder: mydoc
   * ChatGPT
   * Flapper.ai
   * FutureDesk
+  * [Bard](https://bard.google.com)
+  * [NovelAI](https://novelai.net) (génération d'histoires)
 * Assistant de messagerie
   * Rasa.io
   * SummrAIz
@@ -28,10 +35,13 @@ folder: mydoc
   * StudyCrumb
   * Linguix
   * Netus AI
+  * [QuillBot](https://www.quillbot.com)
+  * [Legal Robot](https://legalrobot.com/)("traduit" les textes légaux en textes compréhensibles)
 * Résumé
   * Wordtune
   * Rewordify
   * Jasper
+  * [QuillBot](https://www.quillbot.com)
 * Conteur d’histoires
   * MyTales
   * Maigic Book
@@ -40,6 +50,7 @@ folder: mydoc
   * [DeepL](https://www.deepl.com/translator)
   * [textshuttle](https://textshuttle.com/) (y.c. suisse allemand)
   * [Google Translate](https://translate.google.com)
+  * [QuillBot](https://www.quillbot.com)
   * ChatGPT
   * Microsoft Translator 
   * IBM Watson Language Translator 
@@ -113,18 +124,21 @@ folder: mydoc
   * Weaverse
   * Fotor
 * Édition d'images
+  * [CleanUp.Pictures](https://cleanup.pictures/) (retouche d'images)
   * Cre8tiveAI
   * SolidGrids
   * Codeformer
 * Conception
-  * Mokker,
+  * Mokker
   * Astria
   * Designs.ai
 * Générateur d'images
   * FireFly
   * [DALL-E](https://www.bing.com/images/create)
   * Midjourney
+  * [civitai](https://civitai.com)
 * Générateur de logo
+  * [Looka](https://looka.com/)
   * CandyIcons
   * Logomaster.ai
   * Logomakerr
@@ -137,7 +151,11 @@ folder: mydoc
 
 ## Audio et musique
 
+* Générateur de sons
+  * [Soundraw](https://soundraw.io/)
 * Edition audio
+  * [Podcastle](https://podcastle.ai)
+  * [Lalal.ai](https://www.lalal.ai/) (audio source separation)
   * Krisp
   * Audo Studio
   * Aflorithmic
@@ -146,14 +164,16 @@ folder: mydoc
   * Mubert
   * Beatoven
 * Synthèse vocale
-  * Murf.ai
+  * [Murf](https://murf.ai/) (text-to-speech)
   * Resemble
   * Veed
 * Transcripteur
+  * [Fireflies](https://fireflies.ai) (prise de note et transcriptions depuis des outils de vidéoconférences comme Zoom, Teams ou Webex)
+  * [Krisp](https://krisp.ai) (prise de note et transcriptions depuis des outils de vidéoconférences comme Zoom, Teams ou Webex, avec nettoyage des bruits parasites)
   * Whisper
   * Speechtext.ai
   * EchoFox
-* Interprétation
+* Interprétation (traduction orale)
   * Google Translate
   * DeepL
   * Microsoft Translator
@@ -177,6 +197,10 @@ folder: mydoc
   * Moovly
   * Pictory
   * Synthesia
+  * [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia)(animation d'images)
+  * [Gen-1](https://futurism.com/the-byte/stable-diffusion-creator-ai-stylized-video)(text-to-video)
+  * [civitai](https://civitai.com)
+  * [Lumen5](https://lumen5.com/)
 * 3D
   * Recraft
   * Alpha3D
@@ -188,14 +212,16 @@ folder: mydoc
   * AutoGPT
   * Taskade
   * PromptPal
-* Assistant de code
-  * GitHub Copilot X
+* [Assistant de code](https://sourceforge.net/software/ai-coding-assistants)
+  * GitHub Copilot
   * ChatGPT
   * AskCodi
+  * MLOps
 * Développeur
   * Flutterflow
   * Durable
   * Browse AI
+  * HuggingFace
 * Low-Code/No-Code
   * Bubble
   * Builder.ai
@@ -204,8 +230,6 @@ folder: mydoc
   * Microsoft AI Builder
   * IBM Watsonx.ai
   * Amazon Bedrock
-
- 
 
 
 ## Education et formation
@@ -237,6 +261,8 @@ folder: mydoc
   * Munch
   * StoryLab
   * SocialBee
+  * Brandwatch (surveillance des réseaux sociaux et des conversations en ligne)
+  * Talkwalker (écoute et analyse des réseaux sociaux)
 * E-commerce
   * Weaverse
   * SolidGrids
@@ -283,6 +309,11 @@ folder: mydoc
   * Endurance
   * FitnessAI
   * Alfa AI
+
+## Divers
+
+* Pharma
+  * PharmaSUGEN (analye et interprétation de diverses sources (médias sociaux, forums, etc.) pour comprendre l'expérience des patients, les effets secondaires et les tendances du marché)
 
 
 {% include links.html %}
