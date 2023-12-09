@@ -38,9 +38,6 @@ folder: mydoc
 * ressources humaines : recrutement (analyse de CV, sélection de candidats), analyse de performances (ex: repérer les talents internes, évaluations), analytique (ex: prédire les besoins en effectifs), gestion du temps et des présences, développement du personnel (ex: identifier des lacunes et recommander des programmes de formation), assistance aux employés (ex: chatbot)
 * gestion de projets : planification et gestion des tâches, gestion des ressources, analyse prédictive et modélisation (anticipation des problèmes), suivi et analyse des performances, gestion des risques, communication, support
 
-
-
-
 ## Type de tâches à déléguer
 
 Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a jamais le temps de faire. En particulier :
@@ -53,6 +50,7 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 *	S'inclure dans une automatisation : réponses par e-mail, traduction automatique, mise à jour de fiches produits, veille média, envoi d'e-mails personnalisés, chatbot service client, résumé de réunion, mise à jour de données CRM, etc.
 
 ## Exemples :
+
 - analyser, traiter (par ex. présenter sous forme de tableau), catégoriser les e-mails ; envoyer des e-mail personnalisés
 -	organisation d'une journée de travail (créer un planning) en fonction d'une liste de contraintes
 - rédaction de contenu (traduction, correction, analyse,	synthèse,	reformulation dans un style)
@@ -61,14 +59,17 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 - prise de décision : demander un avis d'expert (plugin *Your AI Council*) ; demander une analyse basée sur un certain modèle (ex. modèle SWOT)
 - apprentissage : créer un plan de cours, formation de nouveaux collaborateurs, poser des questions sur une thématique
 
-
-
 ## Est-ce qu'une tâche est propice à ChatGPT ?
+
 -	des exemples sont-ils disponibles ?
 -	une méthodoogie existe-t-elle ?
 -	faut-il analyser (documentes, textes, données,etc.) ?
--	une automatisation est-elle envisageable ?
+-	une automatisation est-elle envisageable ?  
 -	quel est le niveau de risque ?
+
+## Autres lectures
+
+* [Comment utiliser Chat GPT en entreprise ?](https://digital-tpe-grandest.com/comment-utiliser-chat-gpt-en-entreprise/) (avec webinaires)
 
 
 
