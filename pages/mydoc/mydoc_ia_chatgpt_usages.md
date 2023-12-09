@@ -12,12 +12,13 @@ folder: mydoc
 *Sources:*
 *  50 ressources ChatGPT : https://outilia.notion.site/50-Ressources-ChatGPT-en-fran-ais-84e6040a73a149eea99fdd54dbeaff11
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
- 
+ * Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
+
 ## A quoi peut servir ChatGPT ?
 
 *	génération d'idées (brainstorming, nouvelles idées, plans de formation, etc.)
 *	générer du code informatique
-*	rédaction de contenu (articles, e-mails, standards, FAQ, etc.)
+*	rédaction de contenu (communiqués de presse, rapports, textes marketing, articles, e-mails, standards, FAQ, etc.)
 *	traduire et corriger du texte
 *	service client
 *	créer des tableaux
@@ -33,6 +34,12 @@ folder: mydoc
 *	réaliser des mind maps et des diagrammes (plugin Whimsical Diagrams)
 *	retranscrire et résumer des vidéos YouTube (plugin VoxScript)
 *	analyser et interpréter des fichiers (données, images, etc.) téléversés ; exécuter et générer du code ; créer des graphiques ; OCR ; convertir des données en site web (fonctionnalité bêta Advanced Data Analysis)
+* pratiquer de nouvelles compétences (générer des questions pour se préparer à une présentation pour un nouveau marché)
+* ressources humaines : recrutement (analyse de CV, sélection de candidats), analyse de performances (ex: repérer les talents internes, évaluations), analytique (ex: prédire les besoins en effectifs), gestion du temps et des présences, développement du personnel (ex: identifier des lacunes et recommander des programmes de formation), assistance aux employés (ex: chatbot)
+* gestion de projets : planification et gestion des tâches, gestion des ressources, analyse prédictive et modélisation (anticipation des problèmes), suivi et analyse des performances, gestion des risques, communication, support
+
+
+
 
 ## Type de tâches à déléguer
 
@@ -53,6 +60,8 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 - Excel et analyse de données : obtenir une synthèse ou des formules Excel (version gratuite), utiliser Advanced Data Analysis (version payante9
 - prise de décision : demander un avis d'expert (plugin *Your AI Council*) ; demander une analyse basée sur un certain modèle (ex. modèle SWOT)
 - apprentissage : créer un plan de cours, formation de nouveaux collaborateurs, poser des questions sur une thématique
+
+
 
 ## Est-ce qu'une tâche est propice à ChatGPT ?
 -	des exemples sont-ils disponibles ?
