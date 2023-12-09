@@ -52,6 +52,10 @@ entries:
         - title: Plugins et bêta
           url: /ChatGPT_pluginsEtBeta.html
           output: web
+          
+        - title: Sous le capot
+          url: /ChatGPT_sousLeCapot.html
+          output: web
 
     - title: Autres outils
       url: /IA_autres_outils.html
@@ -63,4 +67,16 @@ entries:
  
     - title: Réflexions
       url: /IA_reflexion.html
+      output: web
+
+  - title: Shiny
+    output: web
+    folderitems:
+
+    - title: Apps internes
+      url: /Shiny_private.html
+      output: web
+
+    - title: Apps publiques
+      url: /Shiny_public.html
       output: web
