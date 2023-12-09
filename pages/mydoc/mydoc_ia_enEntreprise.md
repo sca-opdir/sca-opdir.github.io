@@ -3,7 +3,7 @@ title: Intégration de l'IA en entreprise
 keywords: IA
 last_updated: December 08, 2023
 tags: [IA]
-summary:"Comment intégrer l'IA en entreprise"
+summary: "Comment intégrer l'IA en entreprise"
 sidebar: mydoc_sidebar
 permalink: IA_enEntreprise.html
 folder: mydoc
