@@ -17,15 +17,7 @@ folder: mydoc
 
 ## Définition
 
-L'intelligence artificielle fait référence au développement de systèmes
-informatiques et
-d'algorithmes capables
-d'effectuer des tâches
-nécessitant généralement
-l'intelligence humaine, telles
-que l'apprentissage, la
-résolution de problèmes et la
-prise de décision.
+L'intelligence artificielle fait référence au développement de systèmes informatiques et d'algorithmes capables d'effectuer des tâches nécessitant généralement l'intelligence humaine, telles que l'apprentissage, la résolution de problèmes et la prise de décision.
 
 ## Contexte et bref historique
 
@@ -51,7 +43,7 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 
 <u>IA générative</u> : l'algorithme crée du contenu (textes, images, traductions, etc.) à partir des instructions fournies, se base sur l'apprentissage profond (*deep learning*).
 
-$`\neq`$
+&ne;
 
 **IA $`\neq`$ GenAI** : bien que ce soit surtout l'IA générative (GenAI) qui fasse parler d'elle récemment, l'IA ne se limite pas à cela ! L'IA générative est en effet une sous-catégorie de l'*apprentissage profond*, qui est une sous-catégorie des *réseaux de neurones* qui sont une sous-catégorie de l'*apprentissage automatique* qui est une sous-catégorie de l'intelligence artificielle.
 
