@@ -26,10 +26,8 @@ Des briques pour comprendre (un peu) le fonctionnement de ChatGPT
 
 https://datascientest.com/introduction-au-nlp-natural-language-processing
 https://datascientest.com/nlp-word-embedding-word2vec
-https://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture01-wordvecs1.pdf
-http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01-wordvecs1.pdf
-http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes02-wordvecs2.pdf
-http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture02-wordvecs2.pdf
+https://web.stanford.edu/class/cs224n/slides
+http://web.stanford.edu/class/cs224n/readings
 
 = compréhension, manipulation et génération du langage naturel par les machines
 
@@ -100,8 +98,21 @@ Modèles de language (*language model*, *LM*) pour prédire le mot suivant
 * Autres types de RNNs : 
   - RNNs bidirectionels (regarder le contexte à gauche et à droite ; a besoin de la séquence en entier en input) ; ne sont pas des modèles de language (seulement contexte à gauche) 
   - RNNs multi-couches (*multi-layer* ou *stacked* RNNs) : RNNs par définition profond dans 1 dimension (*unrolling* sur plusieurs pas de temps) ; ajouter une dimension supplémentaire en appliquant plusieurs RNNs pour capturer des *higher-level* et *lower-level features* ; les *hidden states* d'une cache sont les inputs de la couche suivante ; sont plus puissants mais requièrent des *skip connections*
-  
+
+Traduction avec les RNNs : combiner 2 RNNs (*encoder RNN* qui encode la séquence source et *decoder RNN* qui génère la sentence *conditioned on encoding*
+
+#### L'attention
+
+Goulot d'étranglement lors de la prédiction *sequence-to-sequence* (*bottleneck problem*)
+
+![Bottleneck problem pour prédictions sequence-to-sequence](../../images/bottleneck_problem.png "Bottleneck problem").
  
+-> solution : l'**attention**
+
+Idée centrale : à chaque étape du décodeur, connection directe à l'encodeur pour se concentrer sur une partie particulière de la séquence source
+
+![Attention pour sequence-to-sequence prediction](../../images/attention.png "Attention").
+
 
 ### Large Language Models (LLMs)
 
@@ -113,4 +124,5 @@ il existe d'autres modèles de langage génératifs qui peuvent être utilisés 
 ### Transformers
 
 #### Tokenizers
+
 
