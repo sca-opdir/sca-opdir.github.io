@@ -1,9 +1,9 @@
 ---
-title: Réflexions sur l'IA
+title: Divers
 keywords: IA, IT
 last_updated: December 3, 2023
 tags: [IA]
-summary: "réfléchir aux usages de l'IA"
+summary: "un peu de recul..."
 sidebar: mydoc_sidebar
 permalink: IA_reflexion.html
 folder: mydoc
