@@ -5,7 +5,7 @@ last_updated: December 2, 2023
 keywords: shiny, apps
 summary: "liste des applications shiny usage interne"
 sidebar: mydoc_sidebar
-permalink: mydoc_shiny_private.html
+permalink: Shiny_private.html
 folder: mydoc
 ---
 
