@@ -43,9 +43,7 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 
 <u>IA générative</u> : l'algorithme crée du contenu (textes, images, traductions, etc.) à partir des instructions fournies, se base sur l'apprentissage profond (*deep learning*).
 
-&ne;
-
-**IA $`\neq`$ GenAI** : bien que ce soit surtout l'IA générative (GenAI) qui fasse parler d'elle récemment, l'IA ne se limite pas à cela ! L'IA générative est en effet une sous-catégorie de l'*apprentissage profond*, qui est une sous-catégorie des *réseaux de neurones* qui sont une sous-catégorie de l'*apprentissage automatique* qui est une sous-catégorie de l'intelligence artificielle.
+**IA &ne; GenAI** : bien que ce soit surtout l'IA générative (GenAI) qui fasse parler d'elle récemment, l'IA ne se limite pas à cela ! L'IA générative est en effet une sous-catégorie de l'*apprentissage profond*, qui est une sous-catégorie des *réseaux de neurones* qui sont une sous-catégorie de l'*apprentissage automatique* qui est une sous-catégorie de l'intelligence artificielle.
 
 ![les champs de l'IA](../../images/fields.png "Sous-ensembles de l'IA").
 
