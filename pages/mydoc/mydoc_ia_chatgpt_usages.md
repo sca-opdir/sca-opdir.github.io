@@ -18,7 +18,7 @@ folder: mydoc
 
 *	génération d'idées (brainstorming, nouvelles idées, plans de formation, etc.)
 *	générer du code informatique
-*	rédaction de contenu (communiqués de presse, rapports, textes marketing, articles, e-mails, standards, FAQ, etc.)
+*	rédaction de contenu (communiqués de presse, rapports, textes marketing, articles, e-mails, standards, présentation, FAQ, etc.)
 *	traduire et corriger du texte
 *	service client
 *	créer des tableaux
@@ -54,24 +54,25 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 - analyser, traiter (par ex. présenter sous forme de tableau), catégoriser les e-mails ; envoyer des e-mail personnalisés
 -	organisation d'une journée de travail (créer un planning) en fonction d'une liste de contraintes
 - rédaction de contenu (traduction, correction, analyse,	synthèse,	reformulation dans un style)
-- préparer une réunion, synthétiser les notes d'une réunion, préparer un PowerPoint, élaborer un discours
+- préparer une réunion, synthétiser les notes d'une réunion, préparer un PowerPoint (n'interagit pas directement avec PowerPoint ; peut rédiger le contenu et/ou le code VBA pour générer la présentation), élaborer un discours
 - Excel et analyse de données : obtenir une synthèse ou des formules Excel (version gratuite), utiliser Advanced Data Analysis (version payante9
 - prise de décision : demander un avis d'expert (plugin *Your AI Council*) ; demander une analyse basée sur un certain modèle (ex. modèle SWOT)
 - apprentissage : créer un plan de cours, formation de nouveaux collaborateurs, poser des questions sur une thématique
 
-## Est-ce qu'une tâche est propice à ChatGPT ?
 
+
+## Est-ce qu'une tâche est propice à ChatGPT ?
 -	des exemples sont-ils disponibles ?
 -	une méthodoogie existe-t-elle ?
 -	faut-il analyser (documentes, textes, données,etc.) ?
--	une automatisation est-elle envisageable ?  
+-	une automatisation est-elle envisageable ?
 -	quel est le niveau de risque ?
 
 ## Autres lectures
 
-* [Comment utiliser Chat GPT en entreprise ?](https://digital-tpe-grandest.com/comment-utiliser-chat-gpt-en-entreprise/) (avec webinaires)
-
-
+* [Améliorer les performances administratives grâce à l’Intelligence Artificielle](https://www.esas-formation.fr/actualites/intelligence-artificielle-taches-administratives)
+* [https://www.webotit.ai/blog/un-guide-complet-sur-lutilisation-de-chatgpt-pour-les-entreprises](https://www.webotit.ai/blog/un-guide-complet-sur-lutilisation-de-chatgpt-pour-les-entreprises)
+* [Einsatz Künstlicher Intelligenz in der Verwaltung: rechtliche und ethische Fragen](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/politik-staat/kanton/digitale-verwaltung-und-e-government/projekte_digitale_transformation/ki_einsatz_in_der_verwaltung_2021.pdf) (rapport mandaté par le canton de Zurich, 2021)
 
 
 {% include links.html %}
