@@ -80,7 +80,7 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 * Dépendance à la qualité des données d’entrainement auxquelles se réfère l’outil
 * Consommation d’énergie
 
-## Exemples d'utilisation en entreprise
+## Exemples d'utilisation d'IA générative en entreprise
 
 1. Rédiger des e-mails et y répondre (ex. : <chatgptwriter.ai> pour utiliser ChatGPT sans quitter sa messagerie)
 2. Résumer un document
