@@ -33,15 +33,29 @@ prise de décision.
 
 ## Différentes catégories d'intelligence artificielle (IA)
 
-<u>Apprentissage supervisé:</u> l'algorithme apprend à reconnaitre des éléments (images, sons, etc.) à partir d’une grande quantité d’exemples.
+Nombreuses classifications possibles... Quelques catégories fréquentes :
 
-<u>Apprentissage par renforcement:</u> l'algorithme apprend en étant récompensé pour une victoire et puni pour une défaite.
+<u>Apprentissage supervisé</u> : l'algorithme apprend à reconnaitre des éléments (images, sons, etc.) à partir d’une grande quantité d’exemples.
+  - régression 
+  - classification
 
-IA sémantique, IA distribuée
+<u>Apprentissage non supervisé</u> : l'algorithme apprend des données sans nécessité d'étiquetage.
+  - clustering
+  - réduction de dimension
 
-<u>IA générative:</u> l'algorithme crée du contenu (textes, images, traductions, etc.) à partir des instructions fournies. 
+<u>Apprentissage par renforcement</u> : l'algorithme apprend en étant récompensé pour une victoire et puni pour une défaite ; il génère une règle qui définit la meilleure stratégie pour obtenir le plus de récompenses possibles.
+
+<u>IA sémantique</u> : structuration des connaissances (graphe de connaissances, ontologie) ; ne requiert pas forcément de l'apprentissage automatique (*machine learning*) (ex: chatbot basé sur des règles, système expert)
+
+<u>IA distribuée</u> : la charge et le traitement de la tâche sont répartis entre plusieurs agents autonomes qui interagissent (ex: modélisation de système complexe) ; associée ou non à du *machine learning* 
+
+<u>IA générative</u> : l'algorithme crée du contenu (textes, images, traductions, etc.) à partir des instructions fournies, se base sur l'apprentissage profond (*deep learning*).
 
 **IA $\neq$ GenAI** : bien que ce soit surtout l'IA générative (GenAI) qui fasse parler d'elle récemment, l'IA ne se limite pas à cela ! L'IA générative est en effet une sous-catégorie de l'*apprentissage profond*, qui est une sous-catégorie des *réseaux de neurones* qui sont une sous-catégorie de l'*apprentissage automatique* qui est une sous-catégorie de l'intelligence artificielle.
+
+![les champs de l'IA](../../images/fields.png "Sous-ensembles de l'IA").
+
+*source : https://www.engenome.com/news/AI-regulation/*
 
 ## Avantages de l'intelligence artificielle
 
