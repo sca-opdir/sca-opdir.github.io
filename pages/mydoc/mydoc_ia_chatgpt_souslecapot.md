@@ -1,8 +1,8 @@
 ---
-title: Sous le capôt
+title: Sous le capot
 keywords: IA, IT, ChatGPT
 last_updated: December 09, 2023
-tags: [IA]
+tags: [IA, ChatGPT]
 summary: "Quelques mots sur le fonctionnement de ChatGPT"
 sidebar: mydoc_sidebar
 permalink: ChatGPT_sousLeCapot.html
