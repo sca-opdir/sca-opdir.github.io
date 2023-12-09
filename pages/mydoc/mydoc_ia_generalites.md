@@ -51,7 +51,9 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 
 <u>IA générative</u> : l'algorithme crée du contenu (textes, images, traductions, etc.) à partir des instructions fournies, se base sur l'apprentissage profond (*deep learning*).
 
-**IA $\neq$ GenAI** : bien que ce soit surtout l'IA générative (GenAI) qui fasse parler d'elle récemment, l'IA ne se limite pas à cela ! L'IA générative est en effet une sous-catégorie de l'*apprentissage profond*, qui est une sous-catégorie des *réseaux de neurones* qui sont une sous-catégorie de l'*apprentissage automatique* qui est une sous-catégorie de l'intelligence artificielle.
+$`\neq`$
+
+**IA $`\neq`$ GenAI** : bien que ce soit surtout l'IA générative (GenAI) qui fasse parler d'elle récemment, l'IA ne se limite pas à cela ! L'IA générative est en effet une sous-catégorie de l'*apprentissage profond*, qui est une sous-catégorie des *réseaux de neurones* qui sont une sous-catégorie de l'*apprentissage automatique* qui est une sous-catégorie de l'intelligence artificielle.
 
 ![les champs de l'IA](../../images/fields.png "Sous-ensembles de l'IA").
 
@@ -102,6 +104,8 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 générateurs de slogans d’entreprise gratuits, qui utilisent l’IA, sont proposés sur des sites comme Zyro.com et Shopify.com.
 10. Préparer des documents de présentation (format PowerPoint avec ChatGPT ; Beautiful.ai)
 
-L'IA va-t-elle prendre mon travail ? L'IA a déjà débarqué dans le monde professionnel. Dès lors, la question est plutôt : comment utiliser pour améliorer mon travail et le rendre plus intéressant ?
+## L'IA va-t-elle prendre mon travail ?
+
+L'IA a déjà débarqué dans le monde professionnel. Dès lors, la question est plutôt : comment utiliser pour améliorer mon travail et le rendre plus intéressant ?
 
 {% include links.html %}
