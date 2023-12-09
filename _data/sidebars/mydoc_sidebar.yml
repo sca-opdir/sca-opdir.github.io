@@ -32,6 +32,10 @@ entries:
       - title: ChatGPT
         output: web
         subfolderitems:
+        
+        - title: Fonctionnement
+          url: /ChatGPT_fonctionnement.html
+          output: web
 
         - title: Usages
           url: /ChatGPT_usages.html
