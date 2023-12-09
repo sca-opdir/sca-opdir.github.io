@@ -84,17 +84,27 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 
 ## Exemples d'utilisation en entreprise
 
-1. Rédiger des e-mails et y répondre (ex. <chatgptwriter.ai> pour utiliser ChatGPT sans quitter sa messagerie)
+1. Rédiger des e-mails et y répondre (ex. : <chatgptwriter.ai> pour utiliser ChatGPT sans quitter sa messagerie)
 2. Résumer un document
-3. Analyser un document et fournir des critiques (ex. ChatGPT, Docalysis)
+3. Analyser un document et fournir des critiques (ex.: ChatGPT, Docalysis)
 4. Concevoir une newsletter (choix des dates optimales, rédaction du contenu)
 5. Rédiger une offre d’emploi
-6. Brainstormer (ex. IdeaBot.ai, Ideaflip.com)
+6. Brainstormer (ex. : IdeaBot.ai, Ideaflip.com)
 7. Aider à la programmation informatique (ChatGPT pour : coder une application, écrire des tests, identifier les bugs, optimiser du code, apprentissage, etc.)
 8. Inventer un logo (DALL·E, Midjourney, Stable Diffusion, Tailor Brands, Designs.ai, DocLogo, etc.)
-9. Créer un slogan
-générateurs de slogans d’entreprise gratuits, qui utilisent l’IA, sont proposés sur des sites comme Zyro.com et Shopify.com.
+9. Créer un slogan (ex. : Zyro.com, Shopify.com)
 10. Préparer des documents de présentation (format PowerPoint avec ChatGPT ; Beautiful.ai)
+
+## Points de vigilance
+
+* Sensibilisation et formation des collaborateurs
+* Intégrer les connaissances métiers
+* Esprit critique et vérification des résultats
+* Qualité et quantité des données en entrée
+* Modèles basés sur des probabilités
+* Faible (aucune) explicabilité
+* Services externes (garantir l'accès à nos donées)
+* Protection des données, encadrement légal
 
 ## L'IA va-t-elle prendre mon travail ?
 
