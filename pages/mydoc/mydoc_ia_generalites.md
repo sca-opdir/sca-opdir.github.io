@@ -9,23 +9,44 @@ permalink: IA_generalites.html
 folder: mydoc
 ---
 
-*Sources : 
-* [Guide publié par l'Etat de Genève](https://www.ge.ch/document/guide-intelligence-artificielle)
-* [PME Magazine](https://www.pme.ch/dossiers-et-hors-series/2023/09/19/comment-utiliser-lintelligence-artificielle-pour-doper-votre-entreprise-632768)*
+*Sources :* 
+* [*Guide publié par l'Etat de Genève*](https://www.ge.ch/document/guide-intelligence-artificielle)
+* [*PME Magazine*](https://www.pme.ch/dossiers-et-hors-series/2023/09/19/comment-utiliser-lintelligence-artificielle-pour-doper-votre-entreprise-632768)
+* [*Novatix*](https://www.novatix.ch/services/intelligence-artificielle)
+* Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
+
+## Définition
+
+L'intelligence artificielle fait référence au développement de systèmes
+informatiques et
+d'algorithmes capables
+d'effectuer des tâches
+nécessitant généralement
+l'intelligence humaine, telles
+que l'apprentissage, la
+résolution de problèmes et la
+prise de décision.
+
+## Contexte et bref historique
 
 
-## Différentes catégories d'intelligence artificielle
+
+## Différentes catégories d'intelligence artificielle (IA)
 
 <u>Apprentissage supervisé:</u> l'algorithme apprend à reconnaitre des éléments (images, sons, etc.) à partir d’une grande quantité d’exemples.
 
 <u>Apprentissage par renforcement:</u> l'algorithme apprend en étant récompensé pour une victoire et puni pour une défaite.
 
+IA sémantique, IA distribuée
+
 <u>IA générative:</u> l'algorithme crée du contenu (textes, images, traductions, etc.) à partir des instructions fournies. 
+
+**IA $\neq$ GenAI** : bien que ce soit surtout l'IA générative (GenAI) qui fasse parler d'elle récemment, l'IA ne se limite pas à cela ! L'IA générative est en effet une sous-catégorie de l'*apprentissage profond*, qui est une sous-catégorie des *réseaux de neurones* qui sont une sous-catégorie de l'*apprentissage automatique* qui est une sous-catégorie de l'intelligence artificielle.
 
 ## Avantages de l'intelligence artificielle
 
 * Large champ d’application
-* Augmentation de la productivité
+* Augmentation de la productivité, optimisation
 * Réduction des intermédiaires
 * Gain de temps et d’efficacité
 * Capacité à prendre des décisions basées sur un nombre important de paramètres différents
@@ -35,7 +56,10 @@ folder: mydoc
 * Disponible en tout temps
 * Apprentissage continu permettant d’améliorer les performances au cours du temps
 * Optimisation des ressources
-* Création de nouveaux métiers 
+* Création de nouveaux métiers
+* Prédictions (anticiper et s'adapter rapidement)
+* Expérience clients (interactions sur mesure, marketing ciblé)
+* Innovation
 
 ## Désavantages de l'intelligence artificielle
 
@@ -64,5 +88,6 @@ folder: mydoc
 générateurs de slogans d’entreprise gratuits, qui utilisent l’IA, sont proposés sur des sites comme Zyro.com et Shopify.com.
 10. Préparer des documents de présentation (format PowerPoint avec ChatGPT ; Beautiful.ai)
 
+L'IA va-t-elle prendre mon travail ? L'IA a déjà débarqué dans le monde professionnel. Dès lors, la question est plutôt : comment utiliser pour améliorer mon travail et le rendre plus intéressant ?
 
 {% include links.html %}
