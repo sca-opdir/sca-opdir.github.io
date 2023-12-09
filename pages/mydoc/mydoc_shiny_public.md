@@ -5,7 +5,7 @@ last_updated: December 2, 2023
 keywords: shiny, apps
 summary: "liste des applications shiny disponibles en ligne"
 sidebar: mydoc_sidebar
-permalink: mydoc_shiny_public.html
+permalink: Shiny_public.html
 folder: mydoc
 ---
 
