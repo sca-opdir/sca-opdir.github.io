@@ -24,7 +24,8 @@ folder: mydoc
 
 ##### Contrôles 
 
-* Rubriques Acontrol et schémas de réduction Annexe 8 : <https://sca-opdir.shinyapps.io/rubriques-acontrol> (ancienne version : <https://sca-opdir.shinyapps.io/controles-reductions-pdir> - n'est plus mise à jour)
+* Rubriques Acontrol et schémas de réduction Annexe 8 : <https://sca-opdir.shinyapps.io/rubriques-acontrol>
+* Ancienne version : <https://sca-opdir.shinyapps.io/controles-reductions-pdir> - pas à jour
 
 
 ##### Paiements directs
