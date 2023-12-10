@@ -159,8 +159,7 @@ Fabrice: <br>
 <div class="chatgptIn" markdown=1>
 ***Extrais le nom des éléments et enlève le namespace "n0" dans le code XML ci-dessous :***
     
-    ```
-    
+```
 <n0:E_KLZonenbeitrag>true</n0:E_KLZonenbeitrag>
 <n0:E_KLAllgHangbeitrag>true</n0:E_KLAllgHangbeitrag>
 <n0:E_KLSteillagenbeitrag>true</n0:E_KLSteillagenbeitrag>
@@ -177,13 +176,11 @@ Fabrice: <br>
 <n0:E_LQBeitrag>true</n0:E_LQBeitrag>
 <n0:E_LQBeitragSoem>false</n0:E_LQBeitragSoem>
 <n0:E_PSBiolandbau>false</n0:E_PSBiolandbau>
-
     ```
-    
 </div>
 
 
-<div class="chatgptOut">
+<div class="chatgptOut" markdown=1>
 
     Voici les noms des éléments sans le namespace "n0" : 
     
