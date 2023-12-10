@@ -58,3 +58,10 @@ GPT-4 peut aussi enfiler la robe d’avocat pour répondre à des questions juri
 ## Génération d'images
 
 ## Manuel d'utilisation à partir d'image
+
+
+## Demander la critique d'une page web
+
+## Analyser un lien web
+
+
