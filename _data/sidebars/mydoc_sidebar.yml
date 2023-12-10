@@ -57,9 +57,6 @@ entries:
           url: /ChatGPT_pluginsEtBeta.html
           output: web
           
-        - title: Sous le capot
-          url: /ChatGPT_sousLeCapot.html
-          output: web
 
     - title: Autres outils
       url: /IA_autres_outils.html
