@@ -1231,7 +1231,7 @@ h4.panel-title {
 }
 
 .chatgptIn:before {
-    content: "User: ";
+    content: "<u>User</u>: ";
     font-weight: bold;
 }
 
