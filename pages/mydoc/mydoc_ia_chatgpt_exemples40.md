@@ -1,5 +1,5 @@
 ---
-title: ChatGPT 4.0 - exemples d'utilisation
+title: ChatGPT 4.0 - exemples d'utilisation (y.c. plugins)
 keywords: IA, IT, ChatGPT
 last_updated: December 4, 2023
 tags: [IA]
@@ -9,7 +9,32 @@ permalink: ChatGPT_exemples40.html
 folder: mydoc
 ---
 
+## Accéder à un PDF stocké à une URL et générer un document (.docx ou .pdf) du texte traduit en allemand (plugin *AskYourPDF*)
+
+<div class="mycomment" markdown=1>NB : sans préciser d'utiliser le plugin *AskYourPDF*, cela n'a pas marché car il utilise *WebPilot* et n'arrive pas à lire le pdf.
+</div>
+  
+<div class="chatgptIn">
+  <br>
+Accède au contenu de la page https://www.vs.ch/documents/15726774/18619542/Mod%C3%A8le_procuration+saisie+internet+donn%C3%A9es+agricoles_FR.pdf/32a79212-2c21-03a6-34f3-15e8816e7917?t=1678542930897 en utilisant le plugin AskYourPDF, puis génère un document docx contenant la traduction en allemand de ce contenu.
+</div>
+
+ChatGPT retourne un lien qui permet de télécharger le document traduit en .docx ou .pdf.
+
+## Connaissance sur le monde réel avec le plugin *Wolfram*
+
+<div class="chatgptIn">
+  <br>
+Réponds à cette question en utilisant le plugin Wolfram ; est-ce que tu connais la plante Bunias orientalis ? est-ce que tu peux en faire une illustration ?
+</div>d
+
+
+
 ## Créer des GPTs personnalisés
+
+https://openai.com/blog/introducing-gpts 
+
+https://www.whatplugin.ai/ (plugins et GPTs)
 
 concevant des modèles plus spécialisés pour des domaines et des tâches plus spécifiques
 démarrer une conversation avec le GPT Builder en lui expliquant ce que vous attendez de lui.
