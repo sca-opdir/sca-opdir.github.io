@@ -1216,6 +1216,7 @@ h4.panel-title {
 .chatgptOut:before {
     content: "ChatGPT: ";
     font-weight: bold;
+    text-decoration: underline;
 }
 
 
@@ -1231,8 +1232,9 @@ h4.panel-title {
 }
 
 .chatgptIn:before {
-    content: "<u>User</u>: ";
+    content: "User: ";
     font-weight: bold;
+    text-decoration: underline;
 }
 
 
