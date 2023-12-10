@@ -95,6 +95,102 @@ Modèles de language (*language model*, *LM*) pour prédire le mot suivant
 
 ![légende module](../../images/legende_module.png "légende").
 
+
+3 Gated Recurrent Units
+Beyond the extensions discussed so far, RNNs have been found to perform better with the use of more complex units for activation. So far,
+we have discussed methods that transition from hidden state ht−1 to
+ht using an affine transformation and a point-wise nonlinearity. Here,
+we discuss the use of a gated activation function thereby modifying
+the RNN architecture. What motivates this? Well, although RNNs
+can theoretically capture long-term dependencies, they are very hard
+to actually train to do this. Gated recurrent units are designed in a
+manner to have more persistent memory thereby making it easier for
+RNNs to capture long-term dependencies. Let us see mathematically
+how a GRU uses ht−1 and xt to generate the next hidden state ht
+. We
+will then dive into the intuition of this architecture.
+![GRU (vue mathématique)](../../images/GRU_math.png "GRU - math").
+The above equations can be thought of a GRU’s four fundamental operational stages and they have intuitive interpretations that make this
+model much more intellectually satisfying (see Figure 12):
+1. New memory generation: A new memory ˜ht
+is the consolidation of
+a new input word xt with the past hidden state ht−1. Anthropomorphically, this stage is the one who knows the recipe of combining a
+newly observed word with the past hidden state ht−1 to summarize
+this new word in light of the contextual past as the vector ˜ht
+.
+2. Reset Gate: The reset signal rt
+is responsible for determining how
+important ht−1 is to the summarization ˜ht
+. The reset gate has the
+ability to completely diminish past hidden state if it finds that ht−1
+is irrelevant to the computation of the new memory.
+3. Update Gate: The update signal zt
+is responsible for determining
+how much of ht−1 should be carried forward to the next state. For
+instance, if zt ≈ 1, then ht−1 is almost entirely copied out to ht
+.
+Conversely, if zt ≈ 0, then mostly the new memory ˜ht
+is forwarded
+to the next hidden state.
+5. Hidden state: The hidden state ht
+is finally generated using the
+past hidden input ht−1 and the new memory generated ˜ht with the
+advice of the update gate.
+
+o train a GRU, we need to learn all
+the different parameters: W, U, W(r)
+, U(r)
+, W(z)
+, U(z)
+.
+![GRU (vue interne)](../../images/GRU_details.png "GRU - détails").
+
+4 Long-Short-Term-Memories
+Long-Short-Term-Memories are another type of complex activation unit
+that differ a little from GRUs. The motivation for using these is similar
+to those for GRUs however the architecture of such units does differ.
+Let us first take a look at the mathematical formulation of LSTM units
+before diving into the intuition behind this design:
+
+![LST (vue détaillée)](../../images/LSTM_details.png "LSTM - détails").
+
+We can gain intuition of the structure of an LSTM by thinking of its
+architecture as the following stages:
+1. New memory generation: This stage is analogous to the new memory generation stage we saw in GRUs. We essentially use the input
+word xt and the past hidden state ht−1 to generate a new memory
+c˜t which includes aspects of the new word x
+(t)
+.
+2. Input Gate: We see that the new memory generation stage doesn’t
+check if the new word is even important before generating the new
+memory – this is exactly the input gate’s function. The input gate
+uses the input word and the past hidden state to determine whether
+or not the input is worth preserving and thus is used to gate the new
+memory. It thus produces it as an indicator of this information.
+3. Forget Gate: This gate is similar to the input gate except that it
+does not make a determination of usefulness of the input word –
+instead it makes an assessment on whether the past memory cell is
+useful for the computation of the current memory cell. Thus, the
+forget gate looks at the input word and the past hidden state and
+produces ft
+.
+4. Final memory generation: This stage first takes the advice of the
+forget gate ft and accordingly forgets the past memory ct−1. Similarly, it takes the advice of the input gate it and accordingly gates
+the new memory c˜t
+. It then sums these two results to produce the
+final memory ct
+.
+5. Output/Exposure Gate: This is a gate that does not explicitly exist
+in GRUs. It’s purpose is to separate the final memory from the
+hidden state. The final memory ct contains a lot of information that
+is not necessarily required to be saved in the hidden state. Hidden
+states are used in every single gate of an LSTM and thus, this gate
+makes the assessment regarding what parts of the memory ct needs
+to be exposed/present in the hidden state ht
+. The signal it produces
+to indicate this is ot and this is used to gate the point-wise tanh of
+the memory
+
 * Autres types de RNNs : 
   - RNNs bidirectionels (regarder le contexte à gauche et à droite ; a besoin de la séquence en entier en input) ; ne sont pas des modèles de language (seulement contexte à gauche) 
   - RNNs multi-couches (*multi-layer* ou *stacked* RNNs) : RNNs par définition profond dans 1 dimension (*unrolling* sur plusieurs pas de temps) ; ajouter une dimension supplémentaire en appliquant plusieurs RNNs pour capturer des *higher-level* et *lower-level features* ; les *hidden states* d'une cache sont les inputs de la couche suivante ; sont plus puissants mais requièrent des *skip connections*
