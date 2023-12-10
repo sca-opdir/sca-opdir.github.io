@@ -13,6 +13,7 @@ folder: mydoc
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
 * https://www.01net.com/actualites/plugins-chatgpt-extensions-tout-savoir.html 
 https://autogpt.net/top-10-chat-gpt-plugins/
+* trouver des plugins et des GPTs https://www.whatplugin.ai/
 
 ## Les plugins ChatGPT 
 
