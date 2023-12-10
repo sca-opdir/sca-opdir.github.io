@@ -750,6 +750,7 @@ En intégrant ces éléments, la charte pourrait devenir plus adaptée aux besoi
 
    
 <div class="chatgptOut">
+<br>
 En tant que responsable des systèmes d'information du canton suisse, voici 10 questions que vous pourriez adresser à l'administration fédérale pour vous assurer que la charte sur la numérisation de l'agriculture soit bénéfique pour votre canton :
 <ol><li><b>Interopérabilité des systèmes</b> : Comment la charte assure-t-elle l'interopérabilité des systèmes numériques entre la Confédération, les cantons et les acteurs privés, afin de garantir une collaboration efficace et harmonieuse?</li><li>
 **Protection des données</b> : Comment la charte garantit-elle la protection des données dans le cadre de la numérisation de l'agriculture et du secteur agroalimentaire, en particulier en ce qui concerne la collecte, le stockage et le traitement des données sensibles? </li><li>
@@ -773,6 +774,7 @@ En tant que responsable des systèmes d'information du canton suisse, voici 10 q
 </div>
 
 <div class="chatgptOut">
+<br>
 <b>Désavantages potentiels de digiFLUX selon quatre points de vue:</b><br>
 <b>1. Agriculture:</b><ul>
 <li><i>Complexité pour les agriculteurs</i>: Certains agriculteurs pourraient rencontrer des difficultés à s'adapter à l'outil numérique, en particulier ceux qui ne sont pas familiers avec l'utilisation d'applications web. </li>
@@ -789,11 +791,13 @@ En tant que responsable des systèmes d'information du canton suisse, voici 10 q
 Il est important de noter que ces désavantages potentiels peuvent être atténués par une communication efficace, une formation adéquate et une gestion proactive des défis liés à la mise en œuvre de digiFLUX.
 </div>
 
+
 <div class="chatgptIn" markdown=1>
 ***Pour chacun de ces points de vue, décide s'il faut se positionner en faveur ou en défaveur de digiFlux et argumente ta position en un paragraphe d'environ 50 mots.***
 </div>
 
 <div class="chatgptOut">
+<br>
 <b>1. Agriculture:</b><ul>
 <li><i>Position en faveur</i>: digiFLUX offre une transition vers la numérisation, simplifiant la déclaration obligatoire pour les agriculteurs. Bien que certains puissent ressentir une adaptation initiale difficile, les avantages à long terme, tels que la réduction de la charge administrative, justifient le soutien à cette initiative.</li>
 </ul><b>2. Commerce: </b><ul>
@@ -1392,7 +1396,7 @@ Les termes sont maintenant présentés de manière alphabétique pour une réfé
 ## Repérer des termes dupliqués dans une liste 
 
 <div class="mycomment">
-NB : n'a pas fonctionné, résultat totalement erroné
+NB : n'a pas fonctionné, résultat totalement erroné (fonctionne avec GPT-4)
 </div>
 
 <div class="chatgptIn" markdown=1>
@@ -1400,20 +1404,21 @@ NB : n'a pas fonctionné, résultat totalement erroné
 propose / réalise / estime / crée / aides à [formuler/créer/préparer/élaborer/me préparer pour ...] pour [une start-up qui ...] / identifie / évalue [la performance] / élabore / rédige / donne / formule / mène / génère / développe /écris / cartographie [le parcours ...] / énumère / prépare / utilise [l'analyse SWOT] pour concevoir / examine [notre proposition/ce site web] et suggère [des façons de l'améliorer pour la rendre plus ...] / conçois / fournis / analyse [le parcours/une crise récente ...] / examine [le CV pour ...] et évalue / élabore / estime / présente / suggère / effectue / guide [le client à travers le processus] / conçois / imagine 
 </div>
 
-<div class="chatgptOut" markdown=1><br>
-Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les verbes qui apparaissent plus d'une fois :
-"propose" apparaît deux fois.
-"réalise" apparaît deux fois.
-"estime" apparaît trois fois.
-"crée" apparaît deux fois.
+<div class="chatgptOut">
+<br>
+Oui, il y a des verbes qui reviennent plus d'une fois dans la liste. Voici les verbes qui apparaissent plus d'une fois :<br>
+"propose" apparaît deux fois.<br>
+"réalise" apparaît deux fois.<br>
+"estime" apparaît trois fois.<br>
+"crée" apparaît deux fois.<br>
 </div>
 
 <hr>
 
-## Compter l'occurrence des mots (échec !)
+## Compter l'occurrence des mots
 
 <div class="mycomment">
-NB : n'a pas fonctionné ; occurrence totale et formes dérivées non agrégées 
+NB : n'a pas fonctionné ; occurrence totale et formes dérivées non agrégées ; fonctionne beaucoup mieux avec GPT-4
 </div>
 
 <div class="chatgptIn" markdown=1>
@@ -1427,15 +1432,8 @@ le texte à analyser est : <br>
 </div>
 
 <div class="chatgptOut" markdown=1>
-mot;occurrence<br>
-contributions;14<br>
-surfaces;11<br>
-pour;10<br>
-cultivé;9<br>
-contributions;9<br>
-maintien;9<br>
-paysage;8<br>
-contribution;8<br>
+mot;occurrence
+*réponse totalement erronée*
 </div>
 <hr>
 
