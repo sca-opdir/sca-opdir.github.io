@@ -42,23 +42,32 @@ https://autogpt.net/top-10-chat-gpt-plugins/
 
 ### Accès à du contenu (web)
 
+* **AiPDF** (testé) : permet d'interagir avec des pdfs <u>de n'importe quelle taille</u>
+
 * **WebPilot** : accéder au web en temps réel ; lui donner une URL pour résumer la page, obtenir une liste structurée des points clés du contenu, extraire les informations essentielles, suggérer des questions en lien avec le contenu
 
-* **AskYourPDF** : extraire, naviguer ou rechercher des informations dans un document PDF fourni sous formue d'URL ; pour manipuler un document stocké sur votre ordinateur, le télécharger manuellement sur la plateforme AskYourPDF ; une fois le document téléchargé, vous recevrez un identifiant à communiquer à ChatGPT 
+* **AskYourPDF** (testé) : extraire, naviguer ou rechercher des informations dans un document PDF fourni sous formue d'URL ; pour manipuler un document stocké sur votre ordinateur, le télécharger manuellement sur la plateforme AskYourPDF ; une fois le document téléchargé, vous recevrez un identifiant à communiquer à ChatGPT 
 
 ### Illustration
 
-* **Show Me Diagrams** : faire des graphiques (diagrammes, schémas explicatifs) sur base des données en sa possession (ex. : demander d'expliquer le fonctionnement d’une voiture, un graphique s’affichera automatiquement dans la conversation) ; pratique pour remplir des présentations PowerPoint ; les faire modifier en communiquant vos souhaits à l'IA
+* **Show Me Diagrams** (testé) : faire des graphiques (diagrammes, schémas explicatifs) sur base des données en sa possession (ex. : demander d'expliquer le fonctionnement d’une voiture, un graphique s’affichera automatiquement dans la conversation) ; pratique pour remplir des présentations PowerPoint ; les faire modifier en communiquant vos souhaits à l'IA 
 
 
 * **Whimsical Diagrams** : réaliser des mind maps directement dans l'interface ChatGPT ; créer des diagrammes
 
-* **Canva** : connecter la plateforme de création de contenus visuels avec ChatGPT (par ex. création de logos)
+* **Canva** (testé) : connecter la plateforme de création de contenus visuels avec ChatGPT (par ex. création de logos)
 
 
 * **Photorealistic** : générer des descriptions détaillées pour la création d'images photoréalistes ; peut être utilisé pour visualiser des concepts, des idées ou des scènes de manière réaliste ; peut détecter automatiquement quand le plugin doit intervenir ; créer des prompts pour Midjourney
 
-  
+* **Mermaid** (testé) 
+* **Charts&Diagrams** (testé) : basé sur Mermaid
+* **MixerBox Diagrams** (testé) : basé sur Mermaid
+
+  * **Canva** (testé) : suggère seulement des templates ?
+  * **Diagrams** (testé) : basé sur kroki.io
+  * 
+
 ### Audio et vidéo
 
 * **VoxScript** : permet de retranscrire le texte de vidéos YouTube et résumer les points clés ; peut effectuer des recherches en temps réel d'autres informations sur le web
@@ -94,9 +103,21 @@ A-to-Z Video Summary : décrire ce que l'on souhaite regarder et propose une lis
 
 ## Plugins testés
 
-cf.  ChatGPT_exemples40.html
+### Contenu
+
+Ai PDF
+
+WebPilot, Link Reader
+
+### Illustration
+AI Diagrams, Mermaid Chart, MixerBox Diagrams, Charts&Diagrams, Diagrams : cf.  ChatGPT_exemples40.html
+
+Diagrams Show Me : lien bloqué
 
 
 AskYourPDF : limite nombre de pages et taille pdf
 ChatPDF : limite nombre de pages et taille pdf
+Canva : pour le dessin, ne fait pas le diagramme, mais propose des templates qui pourraient faire l'affaire
+Eraser : par défaut fait des diagrammes "informatiques" relation entre bases de données
 
+DocMaker pour créer un pdf d'un CV : n'arrive pas à le faire, toujours une erreur
