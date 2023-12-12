@@ -261,6 +261,18 @@ il existe d'autres modèles de langage génératifs qui peuvent être utilisés 
 
 ## Self-attention
 
+• Circa 2016, the de facto strategy in NLP is to 
+encode sentences with a bidirectional LSTM:
+(for example, the source sentence in a translation) 
+3
+• Define your output (parse, sentence, 
+summary) as a sequence, and use an LSTM to 
+generate it.
+• Use attention to allow flexible access to 
+memory
+
+
+
 By 2017, however, the basic strategy to solve
 a natural language processing task was to begin with a recurrent
 neural network
@@ -269,7 +281,24 @@ Issues with RNN
 can parallelize the computation of the network on a GPU because
 of the number of serial dependencies. (Serial meaning one-after-theother) -> cannot leverage power of GPUs (and later, other accelerators like Tensor Processing Units
 (TPUs)
-2) linear interaction distance. A related issue with RNNs is the difficulty with which distant tokens in a sequence can interact with each
+Forward and backward passes have O(sequence length) 
+unparallelizable operations
+ future RNN hidden states can’t be computed in full before past RNN 
+hidden states have been computed
+
+3) linear interaction distance.
+
+ RNNs are unrolled “left-to-right”.
+• This encodes linear locality: a useful heuristic!
+• Nearby words often affect each other’s meanings
+• Problem: RNNs take O(sequence length) steps for 
+distant word pairs to interact.
+O(sequence length) steps for distant word pairs to interact means:
+• Hard to learn long-distance dependencies (because gradient problems!)
+• Linear order of words is “baked in”; we already know linear order isn’t the 
+right way to think about sentences…
+
+   A related issue with RNNs is the difficulty with which distant tokens in a sequence can interact with each
 other. By interact, we mean that the presence of one token (already
 observed in the past) gainfully affects the processing of another token.
 e it can be difficult for networks to precisely
@@ -290,8 +319,75 @@ for recurrent neural networks just based on attention. This will solve
 both the parallelization issues and the linear interaction distance
 issues with recurrent neural network
 
+if not recurrence, then what? How about word windows?
+• Word window models aggregate local contexts
+• (Also known as 1D convolution; we’ll go over this in depth later!)
+• Number of unparallelizable operations does not increase sequence length!
+Word window models aggregate local contexts
+• What about long-distance dependencies?
+• Stacking word window layers allows interaction between farther words
+• Maximum Interaction distance = sequence length / window size
+• (But if your sequences are too long, you’ll just ignore long-distance context)
 
- minimal self-attention architecture
+If not recurrence, then what? How about attention?
+• Attention treats each word’s representation as a query to access and 
+incorporate information from a set of values.
+• Number of unparallelizable operations does not increase sequence length.
+• Maximum interaction distance: O(1), since all words interact at every layer!
+all words attend 
+to all words in 
+previous layer
+In self-attention, the queries, keys, and values are drawn from the same source
+
+Can self-attention be a drop-in 
+replacement for recurrence?
+• No. It has a few issues, which 
+we’ll go through.
+• First, self-attention is an 
+operation on sets. It has no 
+inherent notion of order
+Self-attention doesn’t know the order of its inputs.
+Fixing the first self-attention problem: sequence order : Since self-attention doesn’t build in order information, we need to encode the order of the 
+sentence in our keys, queries, and values.  add the position vectors to our inputs
+In deep self-attention 
+networks, we do this at the 
+first layer! You could 
+concatenate them as well, 
+but people mostly just add…
+Position representation vectors learned from scratch as learnable parameters; each position gets to be learned to fit the data
+
+2nd issue : No nonlinearities for deep 
+learning! It’s all just weighted 
+averages
+there are no elementwise 
+nonlinearities in self-attention; 
+stacking more self-attention layers 
+just re-averages value vectors
+• Easy fix: add a feed-forward network
+to post-process each output vector.
+the FF network processes the result of attention
+
+3d issue : Need to ensure we don’t 
+“look at the future” when 
+predicting a sequence
+• Like in machine translation
+• Or language modeling
+
+To use self-attention in 
+decoders, we need to ensure 
+we can’t peek at the future.
+• At every timestep, we could 
+change the set of keys and 
+queries to include only past 
+words. (Inefficient!)
+• To enable parallelization, we 
+mask out attention to future 
+words by setting attention 
+scores to −∞.
+(Mask out the future by artificially 
+setting attention weights to 0!)
+
+##### minimal self-attention architecture
 Attention, broadly construed, is a method for taking a query, and
 softly looking up information in a key-value store by picking the
 value(s) of the key(s) most like the query. By “picking” and “most
@@ -412,6 +508,20 @@ summary: Our minimal self-attention architecture has (1) the self-attention
 operation, (2) position representations, (3) elementwise nonlinearities,
 and (4) future masking (in the context of language modeling.)
 
+Necessities for a self-attention building block
+Self-attention:
+• the basis of the method.
+• Position representations:
+• Specify the sequence order, since self-attention is an unordered function of its 
+inputs.
+• Nonlinearities:
+• At the output of the self-attention block
+• Frequently implemented as a simple feed-forward network.
+• Masking:
+• In order to parallelize operations while not looking at the future.
+• Keeps information about the future from “leaking” to the past.
+
+
 #### Transformer
 
  as of 2023, by far the most-used architecture in NLP is called
@@ -419,6 +529,12 @@ the Transformer, introduced by [Vaswani et al., 2017] much more components in ad
 
 The Transformer is an architecture based on self-attention that consists of stacked Blocks, each of which contains self-attention and feedforward layers, and a few other components
 
+3. Tricks to help with training!
+1. Residual connections
+2. Layer normalization
+3. Scaling the dot product
+4. These tricks don’t improve what the model is able to do; they help improve the training process. 
+Both of these types of modeling improvements are very important!
 
 ##### multi-head self-attention
 
@@ -513,7 +629,7 @@ as √
 d. So, we normalize the dot products by √
 d to stop this scaling:
 
-##### ransformer Encoder
+##### Transformer Encoder
 A Transformer Encoder takes a single sequence w1:n, and performs
 no future masking. It embeds the sequence with E to make x1:n, adds
 the position representation, and then applies a stack of independently
