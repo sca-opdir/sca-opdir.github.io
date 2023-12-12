@@ -57,7 +57,8 @@ https://autogpt.net/top-10-chat-gpt-plugins/
 
 
 * **Photorealistic** : générer des descriptions détaillées pour la création d'images photoréalistes ; peut être utilisé pour visualiser des concepts, des idées ou des scènes de manière réaliste ; peut détecter automatiquement quand le plugin doit intervenir ; créer des prompts pour Midjourney
-* 
+
+  
 ### Audio et vidéo
 
 * **VoxScript** : permet de retranscrire le texte de vidéos YouTube et résumer les points clés ; peut effectuer des recherches en temps réel d'autres informations sur le web
@@ -67,6 +68,8 @@ https://autogpt.net/top-10-chat-gpt-plugins/
 * **SpeechKey** : plugin *text-to-speech* générant des voix humaines naturelles (utile par exemple en combinaison avec Visla)
 * **Mixerbox Oneplayer** : conseiller des playlists à la demande en fonction de votre humour, vos goûts ou même sur base d’une couleur particulière. Toutes les listes de lecture peuvent être écoutées sur le site de Mixerbox
 
+A-to-Z Video Summary : décrire ce que l'on souhaite regarder et propose une liste de vidéos YouTube  
+* Music : avec texte et type de musique, crée une chanson avec lien de téléchargement 
 
 ## Fonctionnalités en bêta
 
@@ -88,4 +91,12 @@ https://autogpt.net/top-10-chat-gpt-plugins/
   - réaliser une reconnaissance optique (OCR)
   - convertir des données en site web
 
+
+## Plugins testés
+
+cf.  ChatGPT_exemples40.html
+
+
+AskYourPDF : limite nombre de pages et taille pdf
+ChatPDF : limite nombre de pages et taille pdf
 
