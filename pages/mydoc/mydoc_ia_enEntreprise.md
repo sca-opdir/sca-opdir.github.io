@@ -41,5 +41,9 @@ gains de productivité rarement immédiats, planifier et évaluer sur le long te
   - suivi régulier et ajustements
   - rapports de performance des KPI
 
+## Exemples
+
+* ChatBot de l'[Association Jura & Trois-Lacs Tourisme](https://www.j3l.ch/) basé sur ChatGPT ([article RTS](https://www.rts.ch/info/economie/14186432-lintelligence-artificielle-debarque-dans-les-offices-de-tourisme-en-suisse.html))
+* Batmaid a automatisé son système de paie en un temps record avec ChatGPT - la plateforme de ménage à domicile utilise la technologie d'OpenAI pour simplifier les activités internes de ses opérateurs administratifs et ses agents de nettoyage, et gagner en efficience. [Article AGEFI](https://agefi.com/actualites/entreprises/batmaid-a-automatise-son-systeme-de-paie-en-un-temps-record-avec-chatgpt)
 
 
