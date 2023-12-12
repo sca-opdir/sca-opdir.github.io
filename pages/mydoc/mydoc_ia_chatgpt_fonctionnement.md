@@ -259,7 +259,317 @@ https://towardsdatascience.com/attention-and-transformer-models-fe667f958378
 il existe d'autres modèles de langage génératifs qui peuvent être utilisés comme alternatives à ChatGPT. Par exemple, des modèles Open Source tels que Falcon-40b-instruct, Guanaco-65b-merged, Llama-65b, Alpaca et Vicuna sont disponibles et peuvent être personnalisés pour répondre à des besoins spécifiques.
 (ne veut pas dire gratuits ?!)
 
-### Transformers
+## Self-attention
+
+By 2017, however, the basic strategy to solve
+a natural language processing task was to begin with a recurrent
+neural network
+Issues with RNN 
+1) As the sequence gets longer, there is only so much I
+can parallelize the computation of the network on a GPU because
+of the number of serial dependencies. (Serial meaning one-after-theother) -> cannot leverage power of GPUs (and later, other accelerators like Tensor Processing Units
+(TPUs)
+2) linear interaction distance. A related issue with RNNs is the difficulty with which distant tokens in a sequence can interact with each
+other. By interact, we mean that the presence of one token (already
+observed in the past) gainfully affects the processing of another token.
+e it can be difficult for networks to precisely
+“recall” the presence of a word when a large number of operations
+occur after observing that word. This can make it difficult to learn
+how distant words should impact the representation of the current
+word.
+
+direct interaction between elements of a sequence
+might remind you of the attention mechanism [
+
+t, while generating a translation,
+we learned how to look back into the source sequence once per token
+of the translation.
+
+n entire replacement
+for recurrent neural networks just based on attention. This will solve
+both the parallelization issues and the linear interaction distance
+issues with recurrent neural network
+
+
+ minimal self-attention architecture
+Attention, broadly construed, is a method for taking a query, and
+softly looking up information in a key-value store by picking the
+value(s) of the key(s) most like the query. By “picking” and “most
+like,” we mean averaging overall values, putting more weight on
+those which correspond to the keys more like the query. In selfattention, we mean that we use the same elements to help us define
+the querys as we do the keys and values.
+In this section, we’ll discuss how to develop contextual representations with methods wherein the main mechanism for contextualization is not recurrence, but attention
+
+e many forms of self-attention we’ll discuss  key-query-value self-attention
+
+Our contextual representation hi of xi
+is a linear combination (that
+is, a weighted sum) of the values of the sequence,
+hi =
+n
+∑
+j=1
+αijvj
+, (7)
+where the weights, these αij control the strength of contribution of
+each vj
+. Going back to our key-value store analogy, the αij softly selects what data to look up. We define these weights by computing the
+affinities between the keys and the query, q
+⊤
+i
+kj
+, and then computing
+the softmax over the sequence:
+
+Intuitively, what we’ve done by this operation is take our element
+xi and look in its own sequence x1:n to figure out what information
+(in an informal sense,) from what other tokens, should be used in
+representing xi
+in context.
+
+The self-attention operation has no
+built-in notion of the sequence order
+
+In a recurrent
+neural network, the order of the sequence defines the order of the
+rollout, so two sequences with the same words but in different order have different representations. 
+In the
+self-attention operation, there’s no built-in notion of order
+
+the representation of a word is not positiondependent; it’s just Ew for whatever word w, and (2) there’s no
+dependence on position in the self-attention operations
+
+Position representation through learned embeddings. To represent po-  
+sition in self-attention, you either need to (1) use vectors that are
+already position-dependent as inputs, or (2) change the self-attention
+operation itself. One common solution is a simple implementation
+of (1). We posit a new parameter matrix, P ∈ RN×d
+, where N is
+the maximum length of any sequence that your model will be able to
+process.
+We then simply add embedded representation of the position of a
+word to its word embedding and perform self-attention as we otherwise would. 
+Now, the selfattention operation can use the embedding Pi
+to look at the word at
+position i differently than if that word were at position j. This is done,
+e.g., in the BERT paper
+
+Position representation through changing α directly. Instead of changing the input representation, another thing we can do is change
+the form of self-attention to have a built-in notion of position. One
+intuition is that all else held equal, self-attention should look at
+“nearby” words more than “far” words. Attention with Linear Biases
+[Press et al., 2022] is one implementation of this idea
+the bias
+we add makes attention focus more on nearby words than far away
+words, all else held equal.
+
+Imagine if we were to stack self-attention layers. Would this be
+sufficient for a replacement for stacked LSTM layers? Intuitively,
+there’s one thing that’s missing: the elementwise nonlinearities that
+we’ve come to expect in standard deep learning architectures
+ stacking 2 self-attention layers is just a linear
+combination of a linear transformation of the input, much like a
+single layer of self-attention
+
+In practice, after a layer of self-attention, it’s common to apply
+feed-forward network independently to each word representation:
+
+often the hidden
+dimension of the feed-forward network is substantially larger than
+the hidden dimension of the network, d—this is done because this
+matrix multiply is an efficiently parallelizable operation, so it’s an
+efficient place to put a lot of computation and parameters
+
+Future masking
+language modeling so far (autoregressive modeling)
+One crucial aspect of this process is that we can’t look at the future
+when predicting it—otherwise the problem becomes trivial. This idea
+is built-in to unidirectional RNNs (d by the rollout of the RNN, we haven’t looked at the future.)
+
+In a Transformer, there’s nothing explicit in the self-attention
+weight α that says not to look at indices j > i when representing
+token i. In practice, we enforce this constraint simply adding a large
+negative constant to the input to the softmax (or equivalently, setting
+αij = 0 where j > i.)
+
+4
+It might seem like one should use −∞
+as the constant, to “really” ensure that
+you can’t see the future. However, this
+is not done; a modest constant within
+even the float range of the ‘float16‘
+encoding is used instead, like −105
+.
+Using infinity can lead to NaNs and
+it’s sort of undefined how each library
+should treat infinite inputs, so we tend
+to avoid using it. And because of finite
+precision, a large enough negative
+constant will still set the attention
+weight to exactly zero
+
+summary: Our minimal self-attention architecture has (1) the self-attention
+operation, (2) position representations, (3) elementwise nonlinearities,
+and (4) future masking (in the context of language modeling.)
+
+#### Transformer
+
+ as of 2023, by far the most-used architecture in NLP is called
+the Transformer, introduced by [Vaswani et al., 2017] much more components in addition to self-attention
+
+The Transformer is an architecture based on self-attention that consists of stacked Blocks, each of which contains self-attention and feedforward layers, and a few other components
+
+
+##### multi-head self-attention
+
+a single call of self-attention is best at picking out a single
+value (on average) from the input value set. It does so softly, by
+averaging over all of the values, but it requires a balancing game in
+the key-query dot products in order to carefully average two or more
+things
+
+multi-head self-attention,
+intuitively applies self-attention multiple times at once, each with
+different key, query, and value transformations of the same input,
+and then combines the outputs
+
+ self-attention is performed with each head
+ we define the output of multi-head self-attention as a linear
+transformation of the concatenation of the head outputs
+
+When we perform multi-head self-attention in this matrix form,
+ reshape matrix shape
+ splitting the model dimensionality into two axes, for the
+number of heads and the number of dimensions per head.
+
+he output
+of each head is in reduced dimension d
+
+perform the batched softmax operation in parallel across the
+heads, using the number of heads kind of like a batch axis (and
+indeed in practice we’ll also have a separate batch axis.) So, the
+total computation (except the last linear transformation to combine
+the heads) is the same, just distributed across the (each lower-rank)
+heads.
+
+a diagram like the single-head diagram, demonstrating
+how the multi-head operation ends up much like the single-head
+operation :
+
+#### Layer Norm
+
+ One important learning aid in Transformers is layer normalization
+[Ba et al., 2016]. The intuition of layer norm is to reduce uninformative variation in the activations at a layer, providing a more stable
+input to the next layer. Further work shows that this may be most
+useful not in normalizing the forward pass, but actually in improving
+gradients in the backward pass
+
+To do this, layer norm (1) computes statistics across the activations
+at a layer to estimate the mean and variance of the activations, and (2)
+normalizes the activations with respect to those estimates, while (3)
+optionally learning (as parameters) an elementwise additive bias and
+multiplicative gain by which to sort of de-normalize the activations
+in a predictable way. The third part seems not to be crucial, and may
+even be harmful [Xu et al., 2019], so we omit it
+
+statistics
+computed independently for a single index into the sequence length
+(and a single example in the batch) and shared across the d hidden
+dimensions. Put another way, the statistics for the token at index i
+won’t affect the token at index j ̸= i
+
+##### Residual Connections
+residual connections simply add the input of a layer to the output of
+that layer
+
+the intuition being that (1) the gradient flow of the identity function
+is great (the local gradient is 1 everywhere!) so the connection allows
+for learning much deeper networks, and (2) it is easier to learn the
+difference of a function from the identity function than it is to learn
+the function from scratch
+
+useful in DL in general, not only Tansformers
+
+, the application of layer normalization and residual connection
+are often combined in a single visual block labeled Add & Norm
+
+A VERIFIER
+pre-normalization : layer normalization then residual connection
+or post-normalization : residual connection added then LN
+
+It turns out that the gradients
+of pre-normalization are much better at initialization, leading to
+much faster training
+
+##### Attention logit scaling
+
+Another trick introduced in [Vaswani et al., 2017] they dub scaled dot
+product attention.
+
+The intuition of scaling is that, when
+the dimensionality d of the vectors we’re dotting grows large, the dot
+product of even random vectors (e.g., at initialization) grows roughly
+as √
+d. So, we normalize the dot products by √
+d to stop this scaling:
+
+##### ransformer Encoder
+A Transformer Encoder takes a single sequence w1:n, and performs
+no future masking. It embeds the sequence with E to make x1:n, adds
+the position representation, and then applies a stack of independently
+parameterized Encoder Blocks, each of which consisting of (1) multihead attention and Add & Norm, and (2) feed-forward and Add &
+Norm. So, the output of each Block is the input to the next
+
+In the case that one wants probabilities out of the tokens of a
+Transformer Encoder (as in masked language modeling for BERT
+[Devlin et al., 2019], which we’ll cover later), one applies a linear
+transformation to the output space followed by a softmax.
+
+Uses of the Transformer Encoder. A Transformer Encoder is great in
+contexts where you aren’t trying to generate text autoregressively
+(there’s no masking in the encoder so each position index can see
+the whole sequence,) and want strong representations for the whole
+sequence (again, possible because even the first token can see the
+whole future of the sequence when building its representation.)
+
+##### Transformer Decoder
+To build a Transformer autoregressive language model, one uses a
+Transformer Decoder. These differ from Transformer Encoders simply
+by using future masking at each application of self-attention. This
+ensures that the informational constraint (no cheating by looking at
+the future!) holds throughout the architecture. We show a diagram
+of this architecture in Figure 4. Famous examples of this are GPT2 [Radford et al., 2019], GPT-3 [Brown et al., 2020] and BLOOM
+[Workshop et al., 2022].
+
+##### Transformer Encoder-Decoder
+A Transformer encoder-decoder takes as input two sequences. Figure 6 shows the whole encoder-decoder structure. The first sequence
+x1:n is passed through a Transformer Encoder to build contextual
+representations. The second sequence y1:m is encoded through a
+modified Transformer Decoder architecture in which cross-attention
+(which we haven’t yet defined!) is applied from the encoded representation of y1:m to the output of the Encoder. So, let’s take a quick
+detour to discuss cross-attention; it’s not too different from what
+we’ve already seen.
+
+##### Cross-Attention. Cross-attention uses one sequence to define the
+keys and values of self-attention, and another sequence to define
+the queries.
+
+we have some intermediate representation h
+(y) of sequence y1:m,
+then we let the queries come from the decoder (the h
+(y)
+sequence)
+while the keys and values come from the encoder:
+
+in the Transformer Encoder-Decoder, crossattention always applies to the output of the Transformer encode
+
+Uses of the encoder-decoder. An encoder-decoder is used when we’d
+like bidirectional context on something (like an article to summarize) to build strong represenations (i.e., each token can attend to
+all other tokens), but then generate an output according to an autoregressive decomposition as we can with a decoder. While such
+an architecture has been found to provide better performance than
+decoder-only models at modest scale [Raffel et al., 2020], it involves
+splitting parameters between encoder and decoder, and most of the
+largest Transformers are decoder-only
 
 #### Tokenizers
 
