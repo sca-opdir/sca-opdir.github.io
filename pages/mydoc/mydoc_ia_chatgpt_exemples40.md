@@ -102,6 +102,11 @@ Voici un tableau qui répertorie le nombre d'occurrences de chaque mot (de plus 
 Notez que seules les 10 premières lignes sont affichées ici pour des raisons de concision. Si vous avez besoin de la liste complète, faites-le moi savoir. ​​
 </div>
 
+
+## Exemple avec plugins
+
+ 
+
 ## Accéder à un PDF stocké à une URL et générer un document (.docx ou .pdf) du texte traduit en allemand (plugin *AskYourPDF*)
 
 <div class="mycomment" markdown=1>NB : sans préciser d'utiliser le plugin *AskYourPDF*, cela n'a pas marché car il utilise *WebPilot* et n'arrive pas à lire le pdf.
