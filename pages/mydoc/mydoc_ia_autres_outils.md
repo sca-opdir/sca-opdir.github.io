@@ -23,11 +23,14 @@ folder: mydoc
 ## Analyse / recherche d'informations
 
 * [AskYourPDF](https://askyourpdf.com) (online+plugin)
+* [Claude 2](https://poe.com/Claude-2-100k)
 
 ## Texte et écriture
 
 * Rédaction
+  * Document AI sur Google Cloud
   * ChatGPT
+  * [Claude 2](https://poe.com/Claude-2-100k)
   * Flapper.ai
   * FutureDesk
   * [Bard](https://bard.google.com)
@@ -316,9 +319,14 @@ folder: mydoc
   * FitnessAI
   * Alfa AI
 
+## Plateformes
+* [Anakin](https://anakin.ai/)
+* [Steamship](https://www.steamship.com/)
+
 ## Divers
 
 * Général
+  * [SwissGPT](https://alpineai.ch/products/) : a multi-layered system designed for secure and efficient use of AI in businesses
   * Perplexity.ai: It is an AI chatbot and an alternative to ChatGPT. It also provides the sources of information from where it is taken and has access to the web
   * Microsoft Designer: You can use this tool to generate social media designs and make presentations
   * You TLDR: This Tool helps to summarize, download, search within YouTube videos, and interact with them
