@@ -16,8 +16,13 @@ folder: mydoc
 * *<https://www.techopedia.com/top-10-most-popular-ai-tools>*
 * *<https://clickup.com/blog/ai-tools>*
 * *<https://www.forbes.com/sites/bernardmarr/2023/02/28/beyond-chatgpt-14-mind-blowing-ai-tools-everyone-should-be-trying-out-now/?sh=2581c9627a1b>*
-  
+* *<https://www.techchores.com/top-10-ai-tools-like-chatgpt-you-should-not-miss>*
+* 
 ... et encore beaucoup d'autres ! Liste d'outils IA continuellement mise à jour : [Always Up-to-date AI Tools Database](https://dev-share.clickup.com/9805000210/gr/h/946rvgj-16/6be1ba8fcf3f101?_gl=1*xghqd4*_gcl_au*MTQ2MzY3OTY5MS4xNzAyMTEyNjQx)
+
+## Analyse / recherche d'informations
+
+* [AskYourPDF](https://askyourpdf.com) (online+plugin)
 
 ## Texte et écriture
 
@@ -27,6 +32,7 @@ folder: mydoc
   * FutureDesk
   * [Bard](https://bard.google.com)
   * [NovelAI](https://novelai.net) (génération d'histoires)
+  * GPTminus1.com: This Tool can rewrite your AI-generated content and fool AI Detectors by randomly replacing words with their synonyms in your text
 * Assistant de messagerie
   * Rasa.io
   * SummrAIz
@@ -312,8 +318,37 @@ folder: mydoc
 
 ## Divers
 
+* Général
+  * Perplexity.ai: It is an AI chatbot and an alternative to ChatGPT. It also provides the sources of information from where it is taken and has access to the web
+  * Microsoft Designer: You can use this tool to generate social media designs and make presentations
+  * You TLDR: This Tool helps to summarize, download, search within YouTube videos, and interact with them
+
 * Pharma
   * PharmaSUGEN (analye et interprétation de diverses sources (médias sociaux, forums, etc.) pour comprendre l'expérience des patients, les effets secondaires et les tendances du marché)
 
+## Outils testés
+
+### ChatBase
+
+* seulement 1 chatbot gratuit
+* limite à 400'000 caractères
+* nombre de messages limités
+* mauvais résultats (cf. exemples - sources : OPD (sans annexes) + Annexe 8)
+
+![ChatBase - ex1](../../images/chatbase_ex1.png "ChatBase - ex1")
+
+![ChatBase - ex2](../../images/chatbase_ex1.png "ChatBase - ex2").
+
+![ChatBase - ex3](../../images/chatbase_ex1.png "ChatBase - ex3").
+
+(problème du texte barré dans le pdf ! ne fournit pas toutes les informations)
+
+### AskYourPDF
+
+Version gratuite trop contraignante en terme de limites de taille des documents "chargeables"
+
+### Zapier
+
+Création de chatbots avec ses propres sources de données impossible avec un compte Free
 
 {% include links.html %}
