@@ -11,8 +11,9 @@ folder: mydoc
 
 *Sources*
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
-* Conférence InnoVibes,
-* [6 stratégies d'openAI pour obtenir de meilleurs résultats](https://platform.openai.com/docs/guides/prompt-engineering)
+* Conférence InnoVibes de S. Lendi
+* [*6 stratégies d'openAI pour obtenir de meilleurs résultats*](https://platform.openai.com/docs/guides/prompt-engineering)
+* [*7 conseils Zdnet*](https://www.zdnet.com/article/7-advanced-chatgpt-prompt-writing-tips-you-need-to-know)
   
 ## Eléments-clés du prompt
 
@@ -283,7 +284,6 @@ UTILISATEUR : """<insérer le document ici>"""
 ChatGPT : [...] 
 UTILISATEUR : Existe-t-il d'autres extraits pertinents ? Veillez à ne pas répéter les extraits. Veillez également à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation. En d'autres termes, n'extrayez pas de petits extraits auxquels il manque un contexte important.*
 
-
 9. Utiliser des outils externes
   a.	recherche basée sur les embeddings
 
@@ -310,6 +310,12 @@ Via l'API "Chat Completions" : transmettre une liste de descriptions de fonction
 11. Tester systématiquement les changements (mesurer les performances <u>globales</u> avec une suite de tests complète (*evals*))
   a.	valuer les résultats du modèle par rapport à des réponses de référence (ex: utiliser une requête de modèle pour compter combien de faits requis sont inclus dans la réponse)
 
- 
+
+ ## Divers
+
+* TLDR (Too long; didn't read) : abréviation à utiliser dans le prompt pour obtenir un résumé ; exemple : <br>
+ *TLDR https://www.agrarforschungschweiz.ch/fr/2023/12/combien-danimaux-de-rente-pour-une-utilisation-optimale-des-terres-en-suisse*
+* demander à ChatGPT d'évaluer sa propre réponse
+
 
 {% include links.html %}
