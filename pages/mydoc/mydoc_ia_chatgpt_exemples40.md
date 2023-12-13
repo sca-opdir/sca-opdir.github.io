@@ -103,11 +103,31 @@ Notez que seules les 10 premières lignes sont affichées ici pour des raisons d
 </div>
 
 
-## Exemple avec plugins
+## Exemples avec plugins
 
- 
+### Utiliser le contenu d'un PDF pour répondre à la question (plugin Ai PDF)
 
-## Accéder à un PDF stocké à une URL et générer un document (.docx ou .pdf) du texte traduit en allemand (plugin *AskYourPDF*)
+<div class="chatgptIn">
+  <br>
+Selon les données du pdf contenu à l'URL ci-dessous, quelle réduction faut-il appliquer pour une fauche précoce des prairies extensives ?<br>
+https://www.blw.admin.ch/dam/blw/fr/dokumente/Instrumente/Direktzahlungen/DZV%20fr%20mit%20Weisungen%202024.pdf.download.pdf/DZV%20fr%20mit%20Weisungen%202024.pdf
+</div>
+
+  <div class="chatgptOut>
+  <br>
+Selon le document "Ordonnance sur les paiements directs" du BLW (Bundesamt für Landwirtschaft) pour l'année 2024, les informations suivantes concernant la fauche précoce des prairies extensives sont mentionnées :
+
+<b>Dates de Fauche</b> : Les prairies extensives doivent être fauchées au moins une fois par an. La première fauche ne doit pas avoir lieu avant le 15 juin en région de plaine, avant le 1er juillet dans les zones de montagne I et II, et avant le 15 juillet dans les zones de montagne III et IV. Le canton peut avancer ces dates de deux semaines au plus dans certaines régions (page 83).
+
+<b>Indemnités</b> : Dans un projet de mise en réseau, si l'herbe est laissée à sécher sur place (pour en faire du foin) et qu'une faucheuse préservant la faune est utilisée, l'indemnité passe de 700 francs à 1 000 francs (pages 32, 31).
+
+<b>Réductions pour Non-Respect des Conditions</b> : Si les conditions et charges ne sont pas respectées, notamment si la date de fauche n'est pas respectée ou s'il n'y a pas de fauche annuelle, une réduction de 200 % × CQ I peut être appliquée (page 134).
+
+Ces informations indiquent les directives et les conséquences financières liées à la gestion des prairies extensives, y compris les dates de fauche et les indemnités associées. Nous avons terminé de traiter l'ensemble du document avec le plugin de recherche PDF. Que souhaitez-vous savoir d'autre ?
+</div>
+
+
+### Accéder à un PDF stocké à une URL et générer un document (.docx ou .pdf) du texte traduit en allemand (plugin *AskYourPDF*)
 
 <div class="mycomment" markdown=1>NB : sans préciser d'utiliser le plugin *AskYourPDF*, cela n'a pas marché car il utilise *WebPilot* et n'arrive pas à lire le pdf.
 </div>
@@ -119,7 +139,7 @@ Accède au contenu de la page https://www.vs.ch/documents/15726774/18619542/Mod%
 
 ChatGPT retourne un lien qui permet de télécharger le document traduit en .docx ou .pdf.
 
-## Connaissance sur le monde réel avec le plugin *Wolfram*
+### Connaissance sur le monde réel avec le plugin *Wolfram*
 
 <div class="chatgptIn">
   <br>
