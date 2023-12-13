@@ -53,8 +53,8 @@ entries:
           url: /ChatGPT_exemples40.html
           output: web
 
-        - title: Plugins et bêta
-          url: /ChatGPT_pluginsEtBeta.html
+        - title: Plugins et GPTs
+          url: /ChatGPT_plus.html
           output: web
           
 
