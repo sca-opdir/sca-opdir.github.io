@@ -13,6 +13,8 @@ folder: mydoc
 
 <https://www.rts.ch/audio-podcast/2023/audio/l-invite-de-la-matinale-eric-sadin-ecrivain-et-philosophe-27184936.html>
 
+[Club 44, 15.11.23 - L'intelligence artificielle n'existe pas - Luc Julia](https://vimeo.com/892181556)
+
 <!---
 
 <https://www.radiofrance.fr/franceinter/podcasts/la-tete-au-carre/l-intelligence-artificielle-2354320>
