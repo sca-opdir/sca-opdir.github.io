@@ -105,7 +105,7 @@ A-to-Z Video Summary : décrire ce que l'on souhaite regarder et propose une lis
 
 ### Contenu
 
-Ai PDF
+Ai PDF : très utile car peut trouver l'information même dans des longs documents (contrairement à d'autres plugins)
 
 WebPilot, Link Reader
 
@@ -121,3 +121,39 @@ Canva : pour le dessin, ne fait pas le diagramme, mais propose des templates qui
 Eraser : par défaut fait des diagrammes "informatiques" relation entre bases de données
 
 DocMaker pour créer un pdf d'un CV : n'arrive pas à le faire, toujours une erreur
+
+
+## Les GPTs
+
+### Créer des GPTs personnalisés
+GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities.
+
+
+Knowledge: allows you to upload files to give your GPT additional context beyond what the GPT-4 Turbo model already has
+Custom actions: For details, see the section on Connecting GPTs to third-party applications in this article or check the API documentation.
+
+
+### GPTs publics 
+
+faire une recherche google :
+site:chat.openai.com/g/ "mot-clé"
+
+Quelques exemples : 
+
+1. GPT Finder
+https://chat.openai.com/g/g-RuhDS8mbd
+
+When Custom GPT was launched a few weeks ago, I struggled to find the best GPTs. So, what to do? Well, I came up with the idea to build a Custom GPT that searches OpenAI's database of GPTs.
+
+This GPT allows you to search across all public GPTs in one place and ranks them based on popularity. Moreover, every day, hundreds of new amazing GPTs join the ranks!
+
+* Scholar AI
+* Data Analysis
+ConvertAnything is a specialized GPT designed to handle file conversions with efficiency and precision
+
+Grimoire is a highly specialized AI designed to assist with coding and programming tasks. It meticulously analyzes requirements, plans solutions in detail, and writes bug-free, fully functional, and efficient code. This AI prioritizes readability in code, ensures mobile-friendly design, and caters to both advanced programmers and beginners seeking guidance.
+
+Canva is a specialized chatbot designed to assist users in creating visually appealing designs using Canva's user-friendly platform.
+Zapier - Get the power of Zapier's 6,000+ apps directly in your custom GPT.
+
+
