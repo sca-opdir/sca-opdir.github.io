@@ -13,7 +13,7 @@ folder: mydoc
 * [*Guide publié par l'Etat de Genève*](https://www.ge.ch/document/guide-intelligence-artificielle)
 * [*PME Magazine*](https://www.pme.ch/dossiers-et-hors-series/2023/09/19/comment-utiliser-lintelligence-artificielle-pour-doper-votre-entreprise-632768)
 * [*Novatix*](https://www.novatix.ch/services/intelligence-artificielle)
-* Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
+* *Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)*
 
 ## Définition
 
