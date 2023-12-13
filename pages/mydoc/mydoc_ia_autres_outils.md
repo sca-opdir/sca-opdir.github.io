@@ -17,7 +17,7 @@ folder: mydoc
 * *<https://clickup.com/blog/ai-tools>*
 * *<https://www.forbes.com/sites/bernardmarr/2023/02/28/beyond-chatgpt-14-mind-blowing-ai-tools-everyone-should-be-trying-out-now/?sh=2581c9627a1b>*
 * *<https://www.techchores.com/top-10-ai-tools-like-chatgpt-you-should-not-miss>*
-* 
+
 ... et encore beaucoup d'autres ! Liste d'outils IA continuellement mise à jour : [Always Up-to-date AI Tools Database](https://dev-share.clickup.com/9805000210/gr/h/946rvgj-16/6be1ba8fcf3f101?_gl=1*xghqd4*_gcl_au*MTQ2MzY3OTY5MS4xNzAyMTEyNjQx)
 
 ## Analyse / recherche d'informations
