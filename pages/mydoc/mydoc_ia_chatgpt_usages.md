@@ -63,7 +63,7 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 
 ## Est-ce qu'une tâche est propice à ChatGPT ?
 -	des exemples sont-ils disponibles ?
--	une méthodoogie existe-t-elle ?
+-	une méthodologie existe-t-elle ?
 -	faut-il analyser (documentes, textes, données,etc.) ?
 -	une automatisation est-elle envisageable ?
 -	quel est le niveau de risque ?
