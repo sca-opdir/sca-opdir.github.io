@@ -1,11 +1,11 @@
 ---
-title: ChatGPT - plugins
+title: ChatGPT - plugins et GPTs
 keywords: IA, IT, ChatGPT
 last_updated: December 08, 2023
 tags: [IA]
-summary: "Quelques plugins intéressants"
+summary: "ChatGPT Plus : plugins et GPTs"
 sidebar: mydoc_sidebar
-permalink: ChatGPT_pluginsEtBeta.html
+permalink: ChatGPT_plus.html
 folder: mydoc
 ---
 
