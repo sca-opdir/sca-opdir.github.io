@@ -143,7 +143,7 @@ folder: mydoc
   * Designs.ai
 * Générateur d'images
   * FireFly
-  * [DALL-E](https://www.bing.com/images/create)
+  * [DALL-E](https://www.bing.com/images/create) (intégré à ChatGPT Plus) (NB: échoue à générer une image avec du texte précis indiqué dans le prompte - *the reason this occurs is because the tool is likely using a character-based model instead of a word-based model. This means that it is only considering the individual characters in the image, rather than the words as a whole. Therefore, when it prints the text, it is only considering the individual characters and not the word as a whole.*)
   * Midjourney
   * [civitai](https://civitai.com)
 * Générateur de logo
