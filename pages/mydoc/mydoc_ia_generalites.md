@@ -78,7 +78,7 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 * Connexion Internet requise la plupart du temps
 * Biais algorithmiques et excès de confiance envers les outils
 * Dépendance à la qualité des données d’entrainement auxquelles se réfère l’outil
-* Consommation d’énergie
+* Consommation d'énergie
 
 ## Exemples d'utilisation d'IA générative en entreprise
 
@@ -93,6 +93,8 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 9. Créer un slogan (ex. : Zyro.com, Shopify.com)
 10. Préparer des documents de présentation (format PowerPoint avec ChatGPT ; Beautiful.ai)
 
+L'IA va-t-elle prendre mon travail ? L'IA a déjà débarqué dans le monde professionnel. Dès lors, la question est plutôt : comment utiliser pour améliorer mon travail et le rendre plus intéressant ?
+
 ## Points de vigilance
 
 * Sensibilisation et formation des collaborateurs
@@ -104,8 +106,12 @@ Nombreuses classifications possibles... Quelques catégories fréquentes :
 * Services externes (garantir l'accès à nos donées)
 * Protection des données, encadrement légal
 
-## L'IA va-t-elle prendre mon travail ?
+## Coût environnemental
 
-L'IA a déjà débarqué dans le monde professionnel. Dès lors, la question est plutôt : comment utiliser pour améliorer mon travail et le rendre plus intéressant ?
+Est-ce que le jeu en vaut la chandelle écologique ?
+
+![Impact Google](../../images/co2_google.png "Impact Google").
+![Impact GPT-3](../../images/co2_gpt3.png "Impact GPT-3").
+![Impact GPT-4](../../images/co2_gpt4.png "Impact GPT-4").
 
 {% include links.html %}
