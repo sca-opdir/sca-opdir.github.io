@@ -14,7 +14,7 @@ folder: mydoc
 * Conférence InnoVibes de S. Lendi
 * [*6 stratégies d'openAI pour obtenir de meilleurs résultats*](https://platform.openai.com/docs/guides/prompt-engineering)
 * [*7 conseils Zdnet*](https://www.zdnet.com/article/7-advanced-chatgpt-prompt-writing-tips-you-need-to-know)
-  
+* *<https://www.promptingguide.ai>
 ## Eléments-clés du prompt
 
 * contexte
@@ -316,6 +316,44 @@ Via l'API "Chat Completions" : transmettre une liste de descriptions de fonction
 * TLDR (Too long; didn't read) : abréviation à utiliser dans le prompt pour obtenir un résumé ; exemple : <br>
  *TLDR https://www.agrarforschungschweiz.ch/fr/2023/12/combien-danimaux-de-rente-pour-une-utilisation-optimale-des-terres-en-suisse*
 * demander à ChatGPT d'évaluer sa propre réponse
+
+prompting sans exemple (zero-shot prompting), 
+
+ne technique populaire et efficace pour le prompting est appelée prompting avec quelques exemples (few-shot prompting) où nous fournissons des exemples (c'est-à-dire des démonstrations)
+
+Par exemple, vous pouvez effectuer une tâche simple de classification et fournir des exemples qui démontrent la tâche
+
+Vous pouvez commencer par des messages simples et ajouter de plus en plus d'éléments et de contexte au fur et à mesure que vous cherchez à obtenir de meilleurs résultats
+
+Il est également recommandé d'utiliser un séparateur clair comme "###" pour séparer l'instruction du contexte.
+
+Il n'y a pas de tokens ou de mots-clés spécifiques qui conduisent à de meilleurs résultats. Il est plus important d'avoir un bon format et une prompt descriptive. En fait, fournir des exemples dans la prompt est très efficace pour obtenir les résultats souhaités dans des formats spécifiques
+
+Un autre conseil courant lors de la conception de prompts est d'éviter de dire ce qu'il ne faut pas faire, mais de dire plutôt ce qu'il faut faire. Cela encourage une plus grande spécificité et met l'accent sur les détails qui conduisent à de bonnes réponses de la part du modèle.
+
+
+le prompt "chain-of-thought" (CoT) permet des capacités de raisonnement complexes grâce à des étapes de raisonnement intermédiaires. Vous pouvez le combiner avec des prompts à quelques exemples pour obtenir de meilleurs résultats sur des tâches plus complexes qui nécessitent un raisonnement avant de répondre.
+les auteurs affirment que c'est une capacité émergente qui se produit avec des modèles de langage suffisamment grands.
+chain-of-thought-prompting.png
+
+Une idée récente qui est sortie plus récemment est l'idée de zero-shot CoT (Kojima et al. 2022) qui consiste essentiellement à ajouter « Pensons étape par étape » aux prompt d'origine. 
+
+zero-shot-cot-prompting.png
+
+self-consistency
+d'échantillonner plusieurs chemins de raisonnement divers à travers un CoT à quelques prises de vue et d'utiliser les générations pour sélectionner la réponse la plus cohérente. Cela permet d'améliorer les performances de l'incitation CoT sur les tâches impliquant un raisonnement arithmétique et de bon sens.
+
+Generated Knowledge Prompting
+
+capacité d'incorporer des connaissances ou des informations pour aider le modèle à faire des prédictions plus précises
+
+Tree of Thoughts (ToT)
+generalizes over chain-of-thought prompting and encourages exploration over thoughts that serve as intermediate steps for general problem solving with language models.
+
+Retrieval Augmented Generation (RAG)
+
+RAG takes an input and retrieves a set of relevant/supporting documents given a source (e.g., Wikipedia). The documents are concatenated as context with the original input prompt and fed to the text generator which produces the final output. This makes RAG adaptive for situations where facts could evolve over time. This is very useful as LLMs's parametric knowledge is static. RAG allows language models to bypass retraining, enabling access to the latest information for generating reliable outputs via retrieval-based generation.
+
 
 
 {% include links.html %}
