@@ -150,26 +150,26 @@ Nombre de tokens que ChatGPT peut traiter est limité ; plus la conversation ava
 Cf. livres pour les exemples de prompts suivants :
 
 1. **Entreprenariat**
-a. validation d'idées : génération d'idées, analyse SWOT, recherche de marché, estimation de la demande, création de persona
+a. validation d'idées : génération d'idées, analyse SWOT, recherche de marché, estimation de la demande, création de persona<br>
 b. planification d'entreprise : rédaction d'un énoncé de mission, création d'un plan d'entreprise, analyse des risques, stratégie de croissance, rédaction d'un pitch, élaboration d'un plan de financement, rédaction d'un résumé exécutif, évaluation de l'entreprise, négociation avec les investisseurs, planification stratégique, analyse de la concurrence, planification financière, optimisation des opérations, gestion d'équipes
 
 2. Ventes
-  a. prospection et acquisition de clients : recherche de prospects, stratégie de prospection, optimisation du taux de conversion, engagement de clients, analyse du parcours client
-  b. négociation et clôture de ventes : préparation à la négociation, scénario de clôture de vente, objection de vente, techniques de persuasion, suivi après une présentation de vente
-  c.  stratégie de vente : évaluation du processus de vente, développement de la stratégie de vente, optimisation de la proposition de valeur, planification des ventes, analyse de la performance des ventes
+  a. prospection et acquisition de clients : recherche de prospects, stratégie de prospection, optimisation du taux de conversion, engagement de clients, analyse du parcours client<br>
+  b. négociation et clôture de ventes : préparation à la négociation, scénario de clôture de vente, objection de vente, techniques de persuasion, suivi après une présentation de vente<br>
+  c.  stratégie de vente : évaluation du processus de vente, développement de la stratégie de vente, optimisation de la proposition de valeur, planification des ventes, analyse de la performance des ventes<br>
   d. gestion de la relation client : gestion des plaintes, amélioration de l'expérience client, rétention des clients, analyse de la satisfaction des clients, étude de cas client
 
 3. Ressources humaines
-  a. recrutement et embauche : création annonce emploi, rédaction courriel après entrevue, analyse CV, simulation questions d'entretien, rédaction lettre de projet
-  b. développement et formation du personnel : création plan de formation, feedback de performance, élaboration parcours de carrière, rédaction d'un courrier de formation, élaboration guide d'intégration
-  c. gestion des performances : analyse, retour
-  d. rédaction d'un plan d'amélioration de la performance : évaluation, rédaction d'un plan de formation
+  a. recrutement et embauche : création annonce emploi, rédaction courriel après entrevue, analyse CV, simulation questions d'entretien, rédaction lettre de projet<br>
+  b. développement et formation du personnel : création plan de formation, feedback de performance, élaboration parcours de carrière, rédaction d'un courrier de formation, élaboration guide d'intégration<br>
+  c. gestion des performances : analyse, retour<br>
+  d. rédaction d'un plan d'amélioration de la performance : évaluation, rédaction d'un plan de formation<br>
   e. relations avec les employés et engagement : amélioration de l'engagement, gestion des conflits, rédaction lettre d'appréciation, création enquête de satisfaction, élaboration politique d'équité
 
 4. Marketing
-  a. E-mail marketing : création plan de campagne, rédaction e-mail de bienvenue, élaboration e-mail de relance, analyse de performance des campagnes d'e-mail marketing
-  b. Content marketing : rédaction e-mail promotion spéciale, création de contenus de blog engageants, optimisation contenu pour SEO, rédaction légendes engageantes, création titres de blog attrayants, rédaction e-mails marketing convaincants
-  c. SEO et SEM : rédaction balises méta optimisées pour SEO, audit SEO d'un site web, création campagne SEM, recherche mots-clés pour nouveau contenu, analyse performance SEO
+  a. E-mail marketing : création plan de campagne, rédaction e-mail de bienvenue, élaboration e-mail de relance, analyse de performance des campagnes d'e-mail marketing<br>
+  b. Content marketing : rédaction e-mail promotion spéciale, création de contenus de blog engageants, optimisation contenu pour SEO, rédaction légendes engageantes, création titres de blog attrayants, rédaction e-mails marketing convaincants<br>
+  c. SEO et SEM : rédaction balises méta optimisées pour SEO, audit SEO d'un site web, création campagne SEM, recherche mots-clés pour nouveau contenu, analyse performance SEO<br>
   d. Réseaux sociaux : création calendrier de contenu pour réseaux sociaux, rédactions de posts de médias sociaux engageants, analyse des performances des médias sociaux, gestion des commentaires et interactions sur les réseaux sociaux, planification d'une campagne de publicité sur les réseaux sociaux
 
 5. Service client
