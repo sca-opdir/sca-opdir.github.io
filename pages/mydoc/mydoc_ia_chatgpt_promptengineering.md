@@ -1,4 +1,3 @@
-![image](https://github.com/sca-opdir/sca-opdir.github.io/assets/121675321/34b83dcb-4f75-4a21-894c-1e9c1312756c)---
 title: ChatGPT - prompt engineering et bonnes pratiques
 keywords: IA, IT, ChatGPT
 last_updated: July 3, 2016
