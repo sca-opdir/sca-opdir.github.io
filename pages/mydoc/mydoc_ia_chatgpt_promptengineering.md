@@ -315,7 +315,7 @@ Appel à des API externes : expliquer à un modèle comment utiliser une API en 
 import message
 message.write(to="John", message="Hey, tu veux qu'on se retrouve après le travail ?")``*  
 
-  c.	<u>donner accès à des fonctions spécifiques</u> (manière recommandée d'utiliser les modèles OpenAI pour appeler des fonctions externes)<br>
+c.	<u>donner accès à des fonctions spécifiques</u> (manière recommandée d'utiliser les modèles OpenAI pour appeler des fonctions externes)<br>
 
 Via l'API "Chat Completions" : transmettre une liste de descriptions de fonctions dans les requêtes. Permet de générer des arguments de fonction selon les schémas fournis qui sont renvoyés par l'API au format JSON et peuvent être utilisés pour exécuter les appels de fonction. Les résultats de ces derniers sont ensuite réinjectés dans un modèle dans la requête suivante.<br>
 
@@ -324,7 +324,7 @@ Via l'API "Chat Completions" : transmettre une liste de descriptions de fonction
   a.	<u>évaluer les résultats du modèle</u> par rapport à des réponses de référence (ex: utiliser une requête de modèle pour compter combien de faits requis sont inclus dans la réponse)
 
 
- ## Divers
+## Divers
 
 * TLDR (Too long; didn't read) : abréviation à utiliser dans le prompt pour obtenir un résumé ; exemple : <br>
  *TLDR https://www.agrarforschungschweiz.ch/fr/2023/12/combien-danimaux-de-rente-pour-une-utilisation-optimale-des-terres-en-suisse*
