@@ -1629,9 +1629,50 @@ Ces données sont générées de manière aléatoire et respectent les spécific
 
 
 
+## token Classification (few-shot or zero-shot)
+Prompt: classify the named entities in this text: George Washington and his troops crossed the Delaware
+River on December 25, 1776 during the American Revolutionary War
 
+*Source: <https://www.kdnuggets.com/publications/sheets/ChatGPT_Cheatsheet_Costa.pdf>*
 
+## Docstrings Generation
+Prompt: write a docstring description for this function:
+import requests
+def make_get_request(url):
+response = requests.get(url)
+return response.status_code, response.text
+make_get_request('https://www.example.com')
 
+*Source: <https://www.kdnuggets.com/publications/sheets/ChatGPT_Cheatsheet_Costa.pdf>*
+
+## Programming Language Conversion
+Prompt: convert this code from Python to Javascript:
+print("hello world")
+console.log("hello world");
+
+*Source: <https://www.kdnuggets.com/publications/sheets/ChatGPT_Cheatsheet_Costa.pdf>*
+
+## Data Object Conversions (JSON, XML, CSV etc.)
+Prompt: convert this JSON object into XML:
+{"Name":{"0":"John Smith","1":"Jane Doe","2":"Bob Johnson","3":"Samantha
+Williams"},"Age":{"0":32,"1":28,"2":45,"3":40},"Gender":{"0":"Male","1":"Female","2":"Male","3":"Female"},"O
+ccupation":{"0":"Software Developer","1":"Data Analyst","2":"Project Manager","3":"Marketing Director"}}
+
+*Source: <https://www.kdnuggets.com/publications/sheets/ChatGPT_Cheatsheet_Costa.pdf>*
+
+## Knowledge Graph Generation
+Prompt: convert this text into nodes and edges: Babe Ruth joined the New York Yankees in 1920. The Boston
+Red Sox sold his contract to the Yankees. He played for the Yankees from 1920 to 1934, and during that time
+he established himself as one of the greatest players in baseball history.
+
+*Source: <https://www.kdnuggets.com/publications/sheets/ChatGPT_Cheatsheet_Costa.pdf>*
+
+## Headings and Subheadings
+Prompt: convert this text into headings and subheadings: Babe Ruth joined the New York Yankees in 1920. The
+Boston Red Sox sold his contract to the Yankees. He played for the Yankees from 1920 to 1934, and during
+that time he established himself as one of the greatest players in baseball history.
+
+*Source: <https://www.kdnuggets.com/publications/sheets/ChatGPT_Cheatsheet_Costa.pdf>*
 
 <!--
 <div id="mycontainer">
