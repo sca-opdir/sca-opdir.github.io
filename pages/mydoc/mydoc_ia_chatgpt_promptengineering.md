@@ -214,14 +214,17 @@ b. <u>Planification d'entreprise</u> : rédaction d'un énoncé de mission, cré
 ## 6 stratégies openAI
 
 1. **Instructions claires** <br>
-  a.	<u>ajouter des détails à la requête</u> <br>
-  b.	<u>faire adopter un persona au modèle</u><br>
+
+a.	<u>ajouter des détails à la requête</u> <br>
+
+b.	<u>faire adopter un persona au modèle</u><br>
 "Message système" accessible aux utilisateurs de l’API peut être utilisé pour spécifier le persona utilisé par le modèle dans ses réponses. Exemple:<br>
 *SYSTÈME : "Lorsque je vous demande de m'aider à écrire quelque chose, vous me répondez par un document qui contient au moins une blague ou un commentaire amusant dans chaque paragraphe."*<br>
 *UTILISATEUR : "J'écris une note de remerciement à mon fournisseur de boulons en acier pour avoir livré à temps et dans un délai très court. Cela nous a permis de livrer une commande importante."*
 
-  c.	<u>utiliser des délimiteurs</u> (guillemets triples, balises XML, titres de section, etc.) pour délimiter les sections de l'entrée à traiter différemment<br>
-  d.	<u>préciser les étapes nécessaires à l'accomplissement d'une tâche</u><br>
+c.	<u>utiliser des délimiteurs</u> (guillemets triples, balises XML, titres de section, etc.) pour délimiter les sections de l'entrée à traiter différemment<br>
+
+d.	<u>préciser les étapes nécessaires à l'accomplissement d'une tâche</u><br>
   
 <u>Décomposé la tâche en **séquence d'étapes**</u><br>
 *SYSTÈME : "Utilisez les instructions suivantes, étape par étape, pour répondre aux demandes de l'utilisateur."* <br>
@@ -230,8 +233,9 @@ b. <u>Planification d'entreprise</u> : rédaction d'un énoncé de mission, cré
 *UTILISATEUR : """insérer le texte ici"""*
 
 
-  e.	<u>fournir des exemples</u> (ex: un exemple de style particulier difficile à décrire explicitement - *"few-shot" prompting*)<br>
-  f.	<u>préciser la longueur souhaitée (en nombre de mots, de phrases, de paragraphes, de puces, etc.)</u><br>
+e.	<u>fournir des exemples</u> (ex: un exemple de style particulier difficile à décrire explicitement - *"few-shot" prompting*)<br>
+
+f.	<u>préciser la longueur souhaitée (en nombre de mots, de phrases, de paragraphes, de puces, etc.)</u><br>
 <b>Attention</b> : spécifier un nombre de mots ne permet pas d'obtenir une grande précision (plus fiable de demander des résultats avec un nombre spécifique de paragraphes ou de puces)
 
 
