@@ -149,65 +149,65 @@ Nombre de tokens que ChatGPT peut traiter est limité ; plus la conversation ava
 
 Cf. livres pour les exemples de prompts suivants :
 
-1. entreprenariat
+A. Entreprenariat
   a. validation d'idées : génération d'idées, analyse SWOT, recherche de marché, estimation de la demande, création de persona
   b. planification d'entreprise : rédaction d'un énoncé de mission, création d'un plan d'entreprise, analyse des risques, stratégie de croissance, rédaction d'un pitch, élaboration d'un plan de financement, rédaction d'un résumé exécutif, évaluation de l'entreprise, négociation avec les investisseurs, planification stratégique, analyse de la concurrence, planification financière, optimisation des opérations, gestion d'équipes
 
-2. Ventes
+B. Ventes
   a. prospection et acquisition de clients : recherche de prospects, stratégie de prospection, optimisation du taux de conversion, engagement de clients, analyse du parcours client
   b. négociation et clôture de ventes : préparation à la négociation, scénario de clôture de vente, objection de vente, techniques de persuasion, suivi après une présentation de vente
   c.  stratégie de vente : évaluation du processus de vente, développement de la stratégie de vente, optimisation de la proposition de valeur, planification des ventes, analyse de la performance des ventes
   d. gestion de la relation client : gestion des plaintes, amélioration de l'expérience client, rétention des clients, analyse de la satisfaction des clients, étude de cas client
 
-3. Ressources humaines
+4. Ressources humaines
   a. recrutement et embauche : création annonce emploi, rédaction courriel après entrevue, analyse CV, simulation questions d'entretien, rédaction lettre de projet
   b. développement et formation du personnel : création plan de formation, feedback de performance, élaboration parcours de carrière, rédaction d'un courrier de formation, élaboration guide d'intégration
   c. gestion des performances : analyse, retour
   d. rédaction d'un plan d'amélioration de la performance : évaluation, rédaction d'un plan de formation
   e. relations avec les employés et engagement : amélioration de l'engagement, gestion des conflits, rédaction lettre d'appréciation, création enquête de satisfaction, élaboration politique d'équité
 
-4. Marketing
+5. Marketing
   a. E-mail marketing : création plan de campagne, rédaction e-mail de bienvenue, élaboration e-mail de relance, analyse de performance des campagnes d'e-mail marketing
   b. Content marketing : rédaction e-mail promotion spéciale, création de contenus de blog engageants, optimisation contenu pour SEO, rédaction légendes engageantes, création titres de blog attrayants, rédaction e-mails marketing convaincants
   c. SEO et SEM : rédaction balises méta optimisées pour SEO, audit SEO d'un site web, création campagne SEM, recherche mots-clés pour nouveau contenu, analyse performance SEO
   d. Réseaux sociaux : création calendrier de contenu pour réseaux sociaux, rédactions de posts de médias sociaux engageants, analyse des performances des médias sociaux, gestion des commentaires et interactions sur les réseaux sociaux, planification d'une campagne de publicité sur les réseaux sociaux
 
-5. Service client
+6. Service client
   a. Gestion des réclamations : traitement des retours de produits, gestion des remboursements, réponse à une réclamation, gestion des échanges de produits, traitement de plaintes
   b. réponse aux demandes des clients : réponse à une question, gestion d'une demande de suivi de commande, réponse à une demande d'informations, gestion d'une demande de réservation, réponse à une demande d'assistance technique
   c. formation des employés du service client : création d'un programme de formation, évaluation des compétences, formation continue, gestion des retours, intégration nouvelles technologies
   d. mesure de la satisfaction client : création d'un questionnaire de satisfaction, analyse des retours clients, mise en place système de notation, évaluation des retours après réclamation, mesure fidélité
 
-6. Enseignement et formation
+7. Enseignement et formation
   a. Préparation d'un cours : planification, intégration multimédia, activité sur la probabilité, intégration pensée critique, cours précis
   b. Evaluation des élèves : évaluation compétences, examen, évaluation pensée critique, test oral, évaluation du développement socio-émotionnel
   c. Formation continue pour enseignants : programme sur les méthodologies d'enseignement, webinaire sur les outils numériques, présentation sur la gestion de la classe, guide sur la pédagogie différenciée, atelier sur l'apprentissage collaboratif
   d. Communication avec les parents : lettre e bienvenue pour nouvelle année, courriel sur une sorite, rapport de progrès, courriel sur les candidatures universitaires, lettre sur bien-être mental
 
-7. Développement web
+8. Développement web
   a. Langages de programmation : exploration avancée de JavaScript, astuces CSS avancées, utilisations avancées de Python, optimisation de l'environnement et développement PHP, HTML5 et API
   b. Traduction de code informatique : de JavaScript à Python, de PHP à Node.js, de Python à Java, de JavaScript à TypeScript, de Python à Rust
   c. Conception et UX : critique de l'UX, conception interface utilisateur réactive, intégration UX dans processus de développement, accessibilité web, création prototype
   d. Sécurité web et conformité : audit de sécurité, conformité RGPD, traitement données sensibles, contrôles d'accès, prévention attaques XSS
 
-8. Rédacteurs web
+9. Rédacteurs web
   a. Création de contenu : rédaction article de blog, création étude de cas, écriture guide, rédaction livre blanc, création article de nouvelles
   b. SEO : optimisation mots-clés, rédaction métadescriptions, création titres SEO-friendly, optimisation contenu existant, balisage contenu SEO
   c. Rédaction de scripts : de podcast, de vidéo YouTube, publicitaire, de webinaire, de vidéo explicative
   d. Révision et édition : édition article de blog, correction erreurs grammaires et style, amélioration lisibilité, révision d'un script de podcast, édition SEO
 
-9. Community management
+10. Community management
   a. Stratégie de CM : rédaction d'un plan CM, établissement des objectifs, définition communauté cible, élaboration stratégie d'engagement, évaluation de la performance
   b. Création et curation de contenu : élaboration calendrier de contenu, curation contenu, création contenu engageant, publication promotion, publication réponse
   c. Gestion des médias sociaux : élaboration stratégie médias sociaux, création calendrier de publication, analyse performance médias sociaux, élaboration campagne médias sociaux, gestion commentaires et réactions
   d. Gestion de crise : élaboration plan gestion de crise, communication de crise, analyse de crise, communication interne en temps de crise, reprise après crise
 
-10. Gestion de projets
+11. Gestion de projets
   a. Planification de projet : définition objectifs, création échéancier, identification ressources, création plan, établissement des livrables
   b. Gestion des risques du projet : identification des risques, élaboration plan de contingence, gestion des problèmes, analyse des risques, planification de la réponse aux risques
   c. Suivi et contrôle du projet : suivi avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts
 
-11. Communication de projet : création d'un plan de communication, communication des changements, communication des risques, présentation des progrès, compte rendu final
+12. Communication de projet : création d'un plan de communication, communication des changements, communication des risques, présentation des progrès, compte rendu final
 
 ## 6 stratégies openAI
 
