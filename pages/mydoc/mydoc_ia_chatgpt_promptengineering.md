@@ -154,56 +154,56 @@ Cf. livres pour les exemples de prompts suivants :
 a. <u>Validation d'idées</u> : génération d'idées, analyse SWOT, recherche de marché, estimation de la demande, création de persona<br>
 b. <u>Planification d'entreprise</u> : rédaction d'un énoncé de mission, création d'un plan d'entreprise, analyse des risques, stratégie de croissance, rédaction d'un pitch, élaboration d'un plan de financement, rédaction d'un résumé exécutif, évaluation de l'entreprise, négociation avec les investisseurs, planification stratégique, analyse de la concurrence, planification financière, optimisation des opérations, gestion d'équipes
 
-2. **Ventes**<br>
+2. **Ventes** <br>
   a. <u>Prospection et acquisition de clients</u> : recherche de prospects, stratégie de prospection, optimisation du taux de conversion, engagement de clients, analyse du parcours client<br>
   b. <u>Négociation et clôture de ventes</u> : préparation à la négociation, scénario de clôture de vente, objection de vente, techniques de persuasion, suivi après une présentation de vente<br>
   c. <u>Stratégie de vente</u> : évaluation du processus de vente, développement de la stratégie de vente, optimisation de la proposition de valeur, planification des ventes, analyse de la performance des ventes<br>
   d. <u>Gestion de la relation client</u> : gestion des plaintes, amélioration de l'expérience client, rétention des clients, analyse de la satisfaction des clients, étude de cas client
 
-3. **Ressources humaines**<br>
+3. **Ressources humaines** <br>
   a. <u>Recrutement et embauche</u> : création annonce emploi, rédaction courriel après entrevue, analyse CV, simulation questions d'entretien, rédaction lettre de projet<br>
   b. <u>Développement et formation du personnel</u> : création plan de formation, feedback de performance, élaboration parcours de carrière, rédaction d'un courrier de formation, élaboration guide d'intégration<br>
   c. <u>Gestion des performances</u> : analyse, retour<br>
   d. <u>Rédaction d'un plan d'amélioration de la performance</u> : évaluation, rédaction d'un plan de formation<br>
   e. <u>Relations avec les employés et engagement</u> : amélioration de l'engagement, gestion des conflits, rédaction lettre d'appréciation, création enquête de satisfaction, élaboration politique d'équité
 
-4. **Marketing**<br>
+4. **Marketing** <br>
   a. <u>E-mail marketing</u> : création plan de campagne, rédaction e-mail de bienvenue, élaboration e-mail de relance, analyse de performance des campagnes d'e-mail marketing<br>
   b. <u>Content marketing</u> : rédaction e-mail promotion spéciale, création de contenus de blog engageants, optimisation contenu pour SEO, rédaction légendes engageantes, création titres de blog attrayants, rédaction e-mails marketing convaincants<br>
   c. <u>SEO et SEM</u> : rédaction balises méta optimisées pour SEO, audit SEO d'un site web, création campagne SEM, recherche mots-clés pour nouveau contenu, analyse performance SEO<br>
   d. <u>Réseaux sociaux</u> : création calendrier de contenu pour réseaux sociaux, rédactions de posts de médias sociaux engageants, analyse des performances des médias sociaux, gestion des commentaires et interactions sur les réseaux sociaux, planification d'une campagne de publicité sur les réseaux sociaux
 
-5. **Service client**<br>
+5. **Service client** <br>
   a. <u>Gestion des réclamations</u> : traitement des retours de produits, gestion des remboursements, réponse à une réclamation, gestion des échanges de produits, traitement de plaintes<br>
   b. <u>Réponse aux demandes des clients</u> : réponse à une question, gestion d'une demande de suivi de commande, réponse à une demande d'informations, gestion d'une demande de réservation, réponse à une demande d'assistance technique<br>
   c. <u>Formation des employés du service client</u> : création d'un programme de formation, évaluation des compétences, formation continue, gestion des retours, intégration nouvelles technologies<br>
   d. <u>Mesure de la satisfaction client</u> : création d'un questionnaire de satisfaction, analyse des retours clients, mise en place système de notation, évaluation des retours après réclamation, mesure fidélité
 
-6. **Enseignement et formation**<br>
+6. **Enseignement et formation** <br>
   a. <u>Préparation d'un cours</u> : planification, intégration multimédia, activité sur la probabilité, intégration pensée critique, cours précis<br>
   b. <u>Evaluation des élèves</u> : évaluation compétences, examen, évaluation pensée critique, test oral, évaluation du développement socio-émotionnel<br>
   c. <u>Formation continue pour enseignants</u> : programme sur les méthodologies d'enseignement, webinaire sur les outils numériques, présentation sur la gestion de la classe, guide sur la pédagogie différenciée, atelier sur l'apprentissage collaboratif<br>
   d. <u>Communication avec les parents</u> : lettre e bienvenue pour nouvelle année, courriel sur une sorite, rapport de progrès, courriel sur les candidatures universitaires, lettre sur bien-être mental
 
-7. **Développement web**<br>
+7. **Développement web** <br>
   a. <u>Langages de programmation</u> : exploration avancée de JavaScript, astuces CSS avancées, utilisations avancées de Python, optimisation de l'environnement et développement PHP, HTML5 et API<br>
   b. <u>Traduction de code informatique</u> : de JavaScript à Python, de PHP à Node.js, de Python à Java, de JavaScript à TypeScript, de Python à Rust<br>
   c. <u>Conception et UX</u> : critique de l'UX, conception interface utilisateur réactive, intégration UX dans processus de développement, accessibilité web, création prototype<br>
   d. <u>Sécurité web et conformité</u> : audit de sécurité, conformité RGPD, traitement données sensibles, contrôles d'accès, prévention attaques XSS
 
-8. **Rédacteurs web**
+8. **Rédacteurs web** <br>
   a. <u>Création de contenu</u> : rédaction article de blog, création étude de cas, écriture guide, rédaction livre blanc, création article de nouvelles
   b. <u>SEO</u> : optimisation mots-clés, rédaction métadescriptions, création titres SEO-friendly, optimisation contenu existant, balisage contenu SEO
   c. <u>Rédaction de scripts</u> : de podcast, de vidéo YouTube, publicitaire, de webinaire, de vidéo explicative
   d. <u>Révision et édition</u> : édition article de blog, correction erreurs grammaires et style, amélioration lisibilité, révision d'un script de podcast, édition SEO
 
-9. **Community management**<br>
+9. **Community management** <br>
   a. <u>Stratégie de CM</u> : rédaction d'un plan CM, établissement des objectifs, définition communauté cible, élaboration stratégie d'engagement, évaluation de la performance<br>
   b. <u>Création et curation de contenu</u> : élaboration calendrier de contenu, curation contenu, création contenu engageant, publication promotion, publication réponse<br>
   c. <u>Gestion des médias sociaux</u> : élaboration stratégie médias sociaux, création calendrier de publication, analyse performance médias sociaux, élaboration campagne médias sociaux, gestion commentaires et réactions<br>
   d. <u>Gestion de crise</u> : élaboration plan gestion de crise, communication de crise, analyse de crise, communication interne en temps de crise, reprise après crise
 
-11. **Gestion de projets**<br>
+11. **Gestion de projets** <br>
   a. <u>Planification de projet</u> : définition objectifs, création échéancier, identification ressources, création plan, établissement des livrables<br>
   b. <u>Gestion des risques du projet</u> : identification des risques, élaboration plan de contingence, gestion des problèmes, analyse des risques, planification de la réponse aux risques<br>
   c. <u>Suivi et contrôle du projet</u> : suivi avancement, analyse des écarts, gestion des modifications, évaluation qualité, contrôle des coûts
