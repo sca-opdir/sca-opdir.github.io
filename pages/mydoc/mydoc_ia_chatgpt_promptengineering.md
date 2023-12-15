@@ -213,7 +213,7 @@ b. <u>Planification d'entreprise</u> : rédaction d'un énoncé de mission, cré
 
 ## 6 stratégies openAI
 
-  1. **Instructions claires** <br>
+A. **Instructions claires** <br>
 
 a.	<u>ajouter des détails à la requête</u> <br>
 
@@ -238,8 +238,7 @@ e.	<u>fournir des exemples</u> (ex: un exemple de style particulier difficile à
 f.	<u>préciser la longueur souhaitée (en nombre de mots, de phrases, de paragraphes, de puces, etc.)</u><br>
 <b>Attention</b> : spécifier un nombre de mots ne permet pas d'obtenir une grande précision (plus fiable de demander des résultats avec un nombre spécifique de paragraphes ou de puces)
 
-
-  2. **Fournir un texte de référence** <br>
+B. **Fournir un texte de référence** <br>
    
 a.	<u>faire répondre le modèle à l'aide d'un texte de référence</u> (à partir des informations fournies dans le prompt - mais longueur limitée ! - ou en utilisant les *embeddings*)<br>
 
