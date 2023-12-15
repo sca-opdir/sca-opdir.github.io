@@ -230,8 +230,8 @@ b. <u>Planification d'entreprise</u> : rédaction d'un énoncé de mission, cré
 *UTILISATEUR : """insérer le texte ici"""*
 
 
-  e.	<u>fournir des exemples (ex: un exemple de style particulier difficile à décrire explicitement - *"few-shot" prompting*)<br>
-  f.	<u>préciser la longueur souhaitée (en nombre de mots, de phrases, de paragraphes, de puces, etc.)<br>
+  e.	<u>fournir des exemples</u> (ex: un exemple de style particulier difficile à décrire explicitement - *"few-shot" prompting*)<br>
+  f.	<u>préciser la longueur souhaitée (en nombre de mots, de phrases, de paragraphes, de puces, etc.)</u><br>
 <b>Attention</b> : spécifier un nombre de mots ne permet pas d'obtenir une grande précision (plus fiable de demander des résultats avec un nombre spécifique de paragraphes ou de puces)
 
 
@@ -276,7 +276,7 @@ UTILISATEUR :  J'ai besoin de faire fonctionner mon internet à nouveau.*
 7. **Laisser le modèle "réfléchir" (demander une "chaîne de pensée")**<br>
   a.	<u>faire élaborer au modèle sa propre solution</u> (ex: plutôt que demander si une réponse à un problème est correcte, demander de résoudre le problème et comparer la réponse obtenue)
   b.	<u>monologue intérieur ou séquence de questions</u> pour masquer le raisonnement du modèle (quand le raisonnement ne doit pas être visible pour l'utilisateur; demander une réponse dans un format structuré qui facilite leur analyse et seule une partie du résultat est rendue visible pour l'utilisateur)
-  c.	demander au modèle s'il a manqué quelque chose</u> lors des passages précédents (ex: dans l'analyse de longs documents, risque de s'arrêter trop tôt) : utiliser des requêtes de suivi (*follow-up*) pour trouver les extraits manqués lors des passages précédents
+  c.	<u>demander au modèle s'il a manqué quelque chose</u> lors des passages précédents (ex: dans l'analyse de longs documents, risque de s'arrêter trop tôt) : utiliser des requêtes de suivi (*follow-up*) pour trouver les extraits manqués lors des passages précédents
 
 *SYSTÈME : Vous disposez d'un document délimité par des guillemets triples. Votre tâche consiste à sélectionner les extraits qui se rapportent à la question suivante : "<insérer votre question ici>".
 Veillez à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Fournissez des résultats au format JSON comme suit :
@@ -288,6 +288,7 @@ ChatGPT : [...]
 UTILISATEUR : Existe-t-il d'autres extraits pertinents ? Veillez à ne pas répéter les extraits. Veillez également à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation. En d'autres termes, n'extrayez pas de petits extraits auxquels il manque un contexte important.*
 
 9. **Utiliser des outils externes**
+    
   a.	<u>recherche basée sur les embeddings</u><br>
 
 *Embeddings de texte* = vecteurs permettant de mesurer la parenté entre les chaînes de texte ; utilisés pour mettre en œuvre une recherche de connaissances efficace. Découpage d'un texte en morceau, stockage des embeddings, puis lors d'une requête recherche vectorielle pour trouver les morceaux stockés les plus liés à la requête (c'est-à-dire les plus proches les uns des autres dans l'espace d'embedding). Permet ainsi d'ajouter des informations pertinentes à l'entrée du modèle de manière dynamique au moment de l'exécution.
