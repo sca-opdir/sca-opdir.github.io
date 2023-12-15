@@ -7,6 +7,7 @@ summary: "Conseils de prompt engineering"
 sidebar: mydoc_sidebar
 permalink: ChatGPT_promptEngineering.html
 folder: mydoc
+
 ---
 
 *Sources*
