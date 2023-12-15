@@ -213,7 +213,7 @@ b. <u>Planification d'entreprise</u> : rédaction d'un énoncé de mission, cré
 
 ## 6 stratégies openAI
 
-1. **Instructions claires** <br>
+  1. **Instructions claires** <br>
 
 a.	<u>ajouter des détails à la requête</u> <br>
 
@@ -239,7 +239,7 @@ f.	<u>préciser la longueur souhaitée (en nombre de mots, de phrases, de paragr
 <b>Attention</b> : spécifier un nombre de mots ne permet pas d'obtenir une grande précision (plus fiable de demander des résultats avec un nombre spécifique de paragraphes ou de puces)
 
 
-2. **Fournir un texte de référence** <br>
+  2. **Fournir un texte de référence** <br>
    
 a.	<u>faire répondre le modèle à l'aide d'un texte de référence</u> (à partir des informations fournies dans le prompt - mais longueur limitée ! - ou en utilisant les *embeddings*)<br>
 
@@ -256,7 +256,7 @@ b.	<u>faire répondre le modèle à l'aide de citations tirées d'un texte de r�
 Question : <insérer la question ici>*
 
 
-3. Diviser les tâches complexes en sous-tâches (flux de tâches plus simples, utiliser résultats des tâches antérieures pour construire les entrées des tâches ultérieures)<br>
+  3. **Diviser les tâches complexes en sous-tâches** (flux de tâches plus simples, utiliser résultats des tâches antérieures pour construire les entrées des tâches ultérieures)<br>
 
 a.	<u>classification des intentions</u> pour identifier les instructions les plus pertinentes :<br>
     - quand de nombreux ensembles d'instructions indépendants sont nécessaires pour traiter différents cas, <br>
@@ -278,7 +278,7 @@ b.	<u>résumer ou filtrer les dialogues précédents</u> (longueur de contexte l
     -	sélectionner dynamiquement les parties antérieures de la conversation qui sont les plus pertinentes pour la requête en cours (cf. recherche basée sur les *embeddings*)
     - pour résumer les longs documents : le faire par morceaux et construire un résumé complet de manière récursive (utiliser une séquence de requêtes pour résumer chaque section du document ; si nécessaire inclure un résumé courant du texte)
 
-7. **Laisser le modèle "réfléchir" (demander une "chaîne de pensée")**<br>
+  4. **Laisser le modèle "réfléchir" (demander une "chaîne de pensée")** <br>
 
 a.	<u>faire élaborer au modèle sa propre solution</u> (ex: plutôt que demander si une réponse à un problème est correcte, demander de résoudre le problème et comparer la réponse obtenue) <br>
 
@@ -295,7 +295,7 @@ UTILISATEUR : """<insérer le document ici>"""<br>
 ChatGPT : [...] <br>
 UTILISATEUR : Existe-t-il d'autres extraits pertinents ? Veillez à ne pas répéter les extraits. Veillez également à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation. En d'autres termes, n'extrayez pas de petits extraits auxquels il manque un contexte important.*<br>
 
-9. **Utiliser des outils externes** <br>
+  5. **Utiliser des outils externes** <br>
     
 a.	<u>recherche basée sur les embeddings</u><br>
 
@@ -319,7 +319,8 @@ message.write(to="John", message="Hey, tu veux qu'on se retrouve après le trava
 
 Via l'API "Chat Completions" : transmettre une liste de descriptions de fonctions dans les requêtes. Permet de générer des arguments de fonction selon les schémas fournis qui sont renvoyés par l'API au format JSON et peuvent être utilisés pour exécuter les appels de fonction. Les résultats de ces derniers sont ensuite réinjectés dans un modèle dans la requête suivante.<br>
 
-11. Tester systématiquement les changements (mesurer les performances <u>globales</u> avec une suite de tests complète (*evals*))<br>
+ 6. **Tester systématiquement les changements** (mesurer les performances <u>globales</u> avec une suite de tests complète (*evals*))<br>
+ 
   a.	<u>évaluer les résultats du modèle</u> par rapport à des réponses de référence (ex: utiliser une requête de modèle pour compter combien de faits requis sont inclus dans la réponse)
 
 
