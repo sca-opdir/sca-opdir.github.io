@@ -226,7 +226,7 @@ c.	<u>utiliser des délimiteurs</u> (guillemets triples, balises XML, titres de 
 
 d.	<u>préciser les étapes nécessaires à l'accomplissement d'une tâche</u><br>
   
-<u>Décomposé la tâche en **séquence d'étapes**</u><br>
+Décomposer la tâche en **séquence d'étapes** <br>
 *SYSTÈME : "Utilisez les instructions suivantes, étape par étape, pour répondre aux demandes de l'utilisateur."* <br>
 *Étape 1 - L'utilisateur vous fournira un texte entre trois guillemets. Résumez ce texte en une phrase avec un préfixe indiquant "Résumé : ".*<br>
 *Étape 2 - Traduisez le résumé de l'étape 1 en espagnol, avec un préfixe indiquant "Traduction : ".*<br>
@@ -239,30 +239,31 @@ f.	<u>préciser la longueur souhaitée (en nombre de mots, de phrases, de paragr
 <b>Attention</b> : spécifier un nombre de mots ne permet pas d'obtenir une grande précision (plus fiable de demander des résultats avec un nombre spécifique de paragraphes ou de puces)
 
 
+2. **Fournir un texte de référence** <br>
+   
+a.	<u>faire répondre le modèle à l'aide d'un texte de référence</u> (à partir des informations fournies dans le prompt - mais longueur limitée ! - ou en utilisant les *embeddings*)<br>
 
-2. **Fournir un texte de référence**
-  a.	<u>faire répondre le modèle à l'aide d'un texte de référence</u> (à partir des informations fournies dans le prompt - mais longueur limitée ! - ou en utilisant les *embeddings*)<br>
-
-*SYSTÈME : "Utiliser les articles fournis, délimités par des triples guillemets, pour répondre aux questions. Si la réponse ne se trouve pas dans les articles, écrire "Je n'ai pas trouvé de réponse"."*
-*UTILISATEUR : <insérer les articles, chacun délimité par des guillemets triples>*
-*Question : <insérer la question ici>*
+*SYSTÈME : "Utiliser les articles fournis, délimités par des triples guillemets, pour répondre aux questions. Si la réponse ne se trouve pas dans les articles, écrire "Je n'ai pas trouvé de réponse"."* <br>
+*UTILISATEUR : <insérer les articles, chacun délimité par des guillemets triples>* <br>
+*Question : <insérer la question ici>* <br>
 
 
-  b.	<u>faire répondre le modèle à l'aide de citations tirées d'un texte de référence</u><br>
+b.	<u>faire répondre le modèle à l'aide de citations tirées d'un texte de référence</u><br>
 
-*SYSTÈME : "Vous recevrez un document délimité par des guillemets triples et une question. Votre tâche consiste à répondre à la question en utilisant uniquement le document fourni et à citer le(s) passage(s) du document utilisé(s) pour répondre à la question. Si le document ne contient pas les informations nécessaires pour répondre à la question, écrivez simplement : "Informations insuffisantes" : "Informations insuffisantes". Si une réponse à la question est fournie, elle doit être annotée d'une citation. Utilisez le format suivant pour citer les passages pertinents ({"citation" : ...})."*
-*UTILISATEUR :
-"""<insérer le document ici>""
+*SYSTÈME : "Vous recevrez un document délimité par des guillemets triples et une question. Votre tâche consiste à répondre à la question en utilisant uniquement le document fourni et à citer le(s) passage(s) du document utilisé(s) pour répondre à la question. Si le document ne contient pas les informations nécessaires pour répondre à la question, écrivez simplement : "Informations insuffisantes" : "Informations insuffisantes". Si une réponse à la question est fournie, elle doit être annotée d'une citation. Utilisez le format suivant pour citer les passages pertinents ({"citation" : ...})."* <br>
+*UTILISATEUR : <br>
+"""<insérer le document ici>"" <br>
 Question : <insérer la question ici>*
 
 
 3. Diviser les tâches complexes en sous-tâches (flux de tâches plus simples, utiliser résultats des tâches antérieures pour construire les entrées des tâches ultérieures)<br>
-  a.	<u>classification des intentions</u> pour identifier les instructions les plus pertinentes :<br>
-    - quand de nombreux ensembles d'instructions indépendants sont nécessaires pour traiter différents cas, .
-    - commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires- commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires
-    - définir des catégories fixes et coder en dur les instructions pertinentes pour le traitement des tâches d'une catégorie donnée. 
-    - commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessairesPeut être appliqué de manière récursive pour décomposer une tâche en une séquence d'étapes. 
-    - chaque requête ne contient que les instructions nécessaires à l'exécution de l'étape suivante : réduction du taux d'erreur et éventuellement du coût
+
+a.	<u>classification des intentions</u> pour identifier les instructions les plus pertinentes :<br>
+    - quand de nombreux ensembles d'instructions indépendants sont nécessaires pour traiter différents cas, <br>
+    - commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires- commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessaires<br>
+    - définir des catégories fixes et coder en dur les instructions pertinentes pour le traitement des tâches d'une catégorie donnée. <br>
+    - commencer par classer le type de requête et utiliser cette classification pour déterminer quelles instructions sont nécessairesPeut être appliqué de manière récursive pour décomposer une tâche en une séquence d'étapes. <br>
+    - chaque requête ne contient que les instructions nécessaires à l'exécution de l'étape suivante : réduction du taux d'erreur et éventuellement du coût<br>
 
 Exemple : application de service à la clientèle où les requêtes peuvent être classées <br>
 *SYSTÈME : Vous allez recevoir des demandes de service à la clientèle. Classez chaque requête dans une catégorie principale et une catégorie secondaire. Fournissez votre résultat au format json avec les clés : primaire et secondaire. <br>
@@ -272,38 +273,41 @@ Catégories secondaires du support technique : Dépannage, [...] <br>
 Catégories secondaires de la gestion de compte : Réinitialisation du mot de passe, [...]<br>-
 UTILISATEUR :  J'ai besoin de faire fonctionner mon internet à nouveau.*
 
-  b.	<u>résumer ou filtrer les dialogues précédents</u> (longueur de contexte limitée !)<br>
+b.	<u>résumer ou filtrer les dialogues précédents</u> (longueur de contexte limitée !)<br>
     - résumer les tours de parole précédents
     -	sélectionner dynamiquement les parties antérieures de la conversation qui sont les plus pertinentes pour la requête en cours (cf. recherche basée sur les *embeddings*)
     - pour résumer les longs documents : le faire par morceaux et construire un résumé complet de manière récursive (utiliser une séquence de requêtes pour résumer chaque section du document ; si nécessaire inclure un résumé courant du texte)
 
 7. **Laisser le modèle "réfléchir" (demander une "chaîne de pensée")**<br>
-  a.	<u>faire élaborer au modèle sa propre solution</u> (ex: plutôt que demander si une réponse à un problème est correcte, demander de résoudre le problème et comparer la réponse obtenue)
-  b.	<u>monologue intérieur ou séquence de questions</u> pour masquer le raisonnement du modèle (quand le raisonnement ne doit pas être visible pour l'utilisateur; demander une réponse dans un format structuré qui facilite leur analyse et seule une partie du résultat est rendue visible pour l'utilisateur)
-  c.	<u>demander au modèle s'il a manqué quelque chose</u> lors des passages précédents (ex: dans l'analyse de longs documents, risque de s'arrêter trop tôt) : utiliser des requêtes de suivi (*follow-up*) pour trouver les extraits manqués lors des passages précédents
 
-*SYSTÈME : Vous disposez d'un document délimité par des guillemets triples. Votre tâche consiste à sélectionner les extraits qui se rapportent à la question suivante : "<insérer votre question ici>".
-Veillez à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Fournissez des résultats au format JSON comme suit :
-[{"extrait" : "..."},
-...
-{"extrait" : "..."}]
-UTILISATEUR : """<insérer le document ici>"""
-ChatGPT : [...] 
-UTILISATEUR : Existe-t-il d'autres extraits pertinents ? Veillez à ne pas répéter les extraits. Veillez également à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation. En d'autres termes, n'extrayez pas de petits extraits auxquels il manque un contexte important.*
+a.	<u>faire élaborer au modèle sa propre solution</u> (ex: plutôt que demander si une réponse à un problème est correcte, demander de résoudre le problème et comparer la réponse obtenue) <br>
 
-9. **Utiliser des outils externes**
+b.	<u>monologue intérieur ou séquence de questions</u> pour masquer le raisonnement du modèle (quand le raisonnement ne doit pas être visible pour l'utilisateur; demander une réponse dans un format structuré qui facilite leur analyse et seule une partie du résultat est rendue visible pour l'utilisateur)<br>
+
+c.	<u>demander au modèle s'il a manqué quelque chose</u> lors des passages précédents (ex: dans l'analyse de longs documents, risque de s'arrêter trop tôt) : utiliser des requêtes de suivi (*follow-up*) pour trouver les extraits manqués lors des passages précédents<br>
+
+*SYSTÈME : Vous disposez d'un document délimité par des guillemets triples. Votre tâche consiste à sélectionner les extraits qui se rapportent à la question suivante : "<insérer votre question ici>".<br>
+Veillez à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation - en d'autres termes, n'extrayez pas de petits bouts de texte auxquels il manque un contexte important. Fournissez des résultats au format JSON comme suit :<br>
+[{"extrait" : "..."},<br>
+...<br>
+{"extrait" : "..."}]<br>
+UTILISATEUR : """<insérer le document ici>"""<br>
+ChatGPT : [...] <br>
+UTILISATEUR : Existe-t-il d'autres extraits pertinents ? Veillez à ne pas répéter les extraits. Veillez également à ce que les extraits contiennent tout le contexte nécessaire à leur interprétation. En d'autres termes, n'extrayez pas de petits extraits auxquels il manque un contexte important.*<br>
+
+9. **Utiliser des outils externes** <br>
     
-  a.	<u>recherche basée sur les embeddings</u><br>
+a.	<u>recherche basée sur les embeddings</u><br>
 
-*Embeddings de texte* = vecteurs permettant de mesurer la parenté entre les chaînes de texte ; utilisés pour mettre en œuvre une recherche de connaissances efficace. Découpage d'un texte en morceau, stockage des embeddings, puis lors d'une requête recherche vectorielle pour trouver les morceaux stockés les plus liés à la requête (c'est-à-dire les plus proches les uns des autres dans l'espace d'embedding). Permet ainsi d'ajouter des informations pertinentes à l'entrée du modèle de manière dynamique au moment de l'exécution.
+*Embeddings de texte* = vecteurs permettant de mesurer la parenté entre les chaînes de texte ; utilisés pour mettre en œuvre une recherche de connaissances efficace. Découpage d'un texte en morceau, stockage des embeddings, puis lors d'une requête recherche vectorielle pour trouver les morceaux stockés les plus liés à la requête (c'est-à-dire les plus proches les uns des autres dans l'espace d'embedding). Permet ainsi d'ajouter des informations pertinentes à l'entrée du modèle de manière dynamique au moment de l'exécution.<br>
 
-*Retrieval Augmented Generation (RAG)* = a technique that implements an information retrieval component to the generation process. Allowing us to retrieve relevant information and feed this information into the generation model as a secondary source of information.
+*Retrieval Augmented Generation (RAG)* = a technique that implements an information retrieval component to the generation process. Allowing us to retrieve relevant information and feed this information into the generation model as a secondary source of information.<br>
 
-  b.	<u>exécution de code (calculs, appels à API externes)</u> <br>
+b.	<u>exécution de code (calculs, appels à API externes)</u> <br>
 
 LLMs pas fiables pour calculs arithmétiques précis. Solution : demander d'écrire et d'exécuter du code au lieu d'effectuer ses propres calculs. Exemple :<br>
-*SYSTÈME : Vous pouvez écrire et exécuter du code Python en l'entourant de triples crochets, par exemple ``code goes here``. Utilisez-le pour effectuer des calculs.
-UTILISATEUR : Trouvez toutes les racines réelles du polynôme suivant : 3*x**5 - 5*x**4 - 3*x**3 - 7*x - 10.*
+*SYSTÈME : Vous pouvez écrire et exécuter du code Python en l'entourant de triples crochets, par exemple ``code goes here``. Utilisez-le pour effectuer des calculs.<br>
+UTILISATEUR : Trouvez toutes les racines réelles du polynôme suivant : 3*x**5 - 5*x**4 - 3*x**3 - 7*x - 10.* <br>
 
 Appel à des API externes : expliquer à un modèle comment utiliser une API en lui fournissant de la documentation et/ou des exemples de code montrant comment utiliser l'API. Exemple :<br>
 *SYSTÈME : Vous pouvez écrire et exécuter du code Python en l'entourant de triples crochets. Notez également que vous avez accès au module suivant pour aider les utilisateurs à envoyer des messages à leurs amis :
