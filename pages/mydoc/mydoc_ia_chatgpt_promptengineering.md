@@ -1,3 +1,4 @@
+---
 title: ChatGPT - prompt engineering et bonnes pratiques
 keywords: IA, IT, ChatGPT
 last_updated: July 3, 2016
