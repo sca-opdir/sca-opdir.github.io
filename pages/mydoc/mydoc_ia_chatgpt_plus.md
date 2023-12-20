@@ -93,7 +93,10 @@ GPT-4 peut aussi enfiler la robe d’avocat pour répondre à des questions juri
 
 * **WebPilot** : accéder au web en temps réel ; lui donner une URL pour résumer la page, obtenir une liste structurée des points clés du contenu, extraire les informations essentielles, suggérer des questions en lien avec le contenu
 
-* **AskYourPDF** (testé) : extraire, naviguer ou rechercher des informations dans un document PDF fourni sous formue d'URL ; pour manipuler un document stocké sur votre ordinateur, le télécharger manuellement sur la plateforme AskYourPDF ; une fois le document téléchargé, vous recevrez un identifiant à communiquer à ChatGPT 
+* **AskYourPDF** (testé) : extraire, naviguer ou rechercher des informations dans un document PDF fourni sous formue d'URL ; pour manipuler un document stocké sur votre ordinateur, le télécharger manuellement sur la plateforme AskYourPDF ; une fois le document téléchargé, vous recevrez un identifiant à communiquer à ChatGPT
+
+* **Foxit PDF Assistant** (testé) : conversion documents Office <-> PDF
+
 
 ### Illustration
 
