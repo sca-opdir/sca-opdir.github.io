@@ -128,6 +128,14 @@ Ces informations indiquent les directives et les conséquences financières lié
 </div>
 
 
+### Convertir en Excel un PDF stocké à une URL (plugin *Foxit PDF Assistant*) 
+
+<div class="chatgptIn">
+  <br>
+foxit pdf convertis le pdf du lien ci dessous en format excel 
+https://www.vs.ch/documents/15726774/18619521/Entwicklung+der+Direktzahlungen+nach+Beitragsprogrammen+2013-2022.pdf/c7541803-d61c-86c3-2382-1cc90259b2be?t=1678551522308&v=1.0
+</div>
+
 ### Accéder à un PDF stocké à une URL et générer un document (.docx ou .pdf) du texte traduit en allemand (plugin *AskYourPDF*)
 
 <div class="mycomment" markdown=1>NB : sans préciser d'utiliser le plugin *AskYourPDF*, cela n'a pas marché car il utilise *WebPilot* et n'arrive pas à lire le pdf.
