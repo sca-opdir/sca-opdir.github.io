@@ -81,3 +81,29 @@ entries:
     - title: Apps publiques
       url: /Shiny_public.html
       output: web
+
+
+
+  - title: Programmation
+    output: web
+    folderitems:
+
+    - title: R snippets
+      url: /R_snippets.html
+      output: web
+
+    - title: Python
+      url: /Python_snippets.html
+      output: web
+
+
+  - title: PowerBI
+    output: web
+    folderitems:
+
+    - title: Exemples
+      url: /PowerBI_reports.html
+      output: web
+
+
+      
