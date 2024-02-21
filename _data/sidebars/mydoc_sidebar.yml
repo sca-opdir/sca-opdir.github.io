@@ -92,11 +92,16 @@ entries:
       url: /R_snippets.html
       output: web
 
-    - title: Python
+    - title: Python snippets
       url: /Python_snippets.html
       output: web
 
 
+    - title: Arcpy / Python toolbox
+      url: /Python_toolbox_arcpy.html
+      output: web
+
+      
   - title: PowerBI
     output: web
     folderitems:
