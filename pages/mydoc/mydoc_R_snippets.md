@@ -46,7 +46,6 @@ cat(paste0("end : ", Sys.Date(), "\n"))
 ### Charger ou installer les packages (début de ui.R)
 <button class="copy-btn" data-clipboard-target="#codeBlock2">Copier</button>
 <pre><code id="codeBlock2">
-
 inst_pckg <- function(x, r='http://cran.us.r-project.org'){
   install.packages(x, repos=r)
 }
@@ -59,6 +58,28 @@ for(pck in all_pckgs){
 }
 </code></pre>
 
+### Reshape
+##### long
+<button class="copy-btn" data-clipboard-target="#codeBlock3">Copier</button>
+<pre><code id="codeBlock3">
+l_dt <- reshape(w_dt, 
+        varying = list(keepcols), # Spécifier les colonnes à pivoter
+        v.names = "Value", # Nom de la colonne pour les valeurs pivotées
+        idvar = c(id_col, an_col), # Colonnes identifiant chaque observation,
+        times = keepcols, ## pour éviter que variable soit 1,2,3,etc.
+        timevar = "Variable", # Nom de la nouvelle colonne pour les noms des variables pivotées
+        direction = "long") # Spécifier la direction du pivot
+</code></pre>
 
+##### wide
+<button class="copy-btn" data-clipboard-target="#codeBlock4">Copier</button>
+<pre><code id="codeBlock4">
+w_dt <- reshape(l_dt[,c(id_col, an_col, "VariableA", "Diff")],
+                 direction="wide",
+                 timevar = "VariableA",
+                 idvar = c(id_col, an_col))
+</code></pre>
+
+                 
 
 {% include links.html %}
