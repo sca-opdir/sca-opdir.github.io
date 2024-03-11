@@ -162,6 +162,7 @@ folder: mydoc
 
 * Générateur de sons
   * [Soundraw](https://soundraw.io/)
+  * création de chansons à partir de texte : https://www.suno.ai/
 * Edition audio
   * [Podcastle](https://podcastle.ai)
   * [Lalal.ai](https://www.lalal.ai/) (audio source separation)
