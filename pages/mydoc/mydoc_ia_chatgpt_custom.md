@@ -48,7 +48,7 @@ https://www.zdnet.fr/guide-achat/avec-chatgpt-creez-vos-propres-gpt-personnalise
 
 ##### Custom GPTs publics
 
-* GPT pour la [procédure de demande d'inscription tardive] (https://chatgpt.com/g/g-tYZM6JJj2-sca-insc-tard]ive)
+* GPT pour la [procédure de demande d'inscription tardive] (https://chatgpt.com/g/g-tYZM6JJj2-sca-insc-tardive)
 
 * GPT avec les [principales ordonnances (OPD, OTerm, OCCEA, OSIAgr)](https://chatgpt.com/g/g-x7lHJPugN-sca-oterm-osiagr-occea-opd-2024)
 
