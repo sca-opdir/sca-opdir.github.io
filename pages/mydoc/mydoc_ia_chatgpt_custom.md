@@ -44,15 +44,20 @@ Donnez-lui un nom et une description pour votre futur GPT, puis des instructions
 Vous pouvez même intégrer des données du monde réel pour connecter votre GPT à une base de données externe, à une boîte de réception ou à un site d’e-commerce.
 https://www.zdnet.fr/guide-achat/avec-chatgpt-creez-vos-propres-gpt-personnalises-39962626.htm
 
-### GPTs pour l'OPDir
+### Custom GPTs pour l'OPDir
 
+##### Custom GPTs publics
 * GPT pour la procédure de demande d'inscription tardive
 
 * GPT avec les principales ordonnances (OPD, OTerm, OCCEA)
 
 * GPT avec les ordonnances Bio
 
-### GPTs publics 
+##### Custom GPTs internes
+
+* génération requête SQL pour données export GDM & parsing du retour
+
+### Autres GPTs publics 
 
 faire une recherche google :
 site:chat.openai.com/g/ "mot-clé"
