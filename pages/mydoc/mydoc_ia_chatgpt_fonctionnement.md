@@ -8,8 +8,6 @@ permalink: ChatGPT_fonctionnement.html
 folder: mydoc
 ---
 
-
-
 6.	ChatGPT
 
 6.1.	De GPT à ChatGPT
@@ -731,3 +729,4 @@ largest Transformers are decoder-only
 #### Tokenizers
 
 
+{% include links.html %}
