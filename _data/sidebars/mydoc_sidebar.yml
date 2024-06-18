@@ -34,13 +34,17 @@ entries:
 
 
       subfolders:
-      - title: LLM
+    - title: TAL et LLMs
+      output: web
+      subfolderitems:
+      - title: Intro sur le TAL
+        url: /LLM_TAL_intro.html
         output: web
-        subfolderitems:
-        
-        - title: Fonctionnement
-          url: /LLM_TAL_intro.html
-          output: web
+
+            
+      - title: Architectures neuronales
+        url: /LLM_TAL_architectures.html
+        output: web
 
   
       - title: ChatGPT
