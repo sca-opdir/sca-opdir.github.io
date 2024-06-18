@@ -32,18 +32,7 @@ entries:
       url: /IA_generalites.html
       output: web
 
-    subfolders:
-    - title: LLMs
-      output: web
-      subfolderitems:
-      - title: TAL
-        url: /LLM_TAL_intro.html
-        output: web
 
-            
-    - title: TAL
-      url: /LLM_TAL_architectures.html
-      output: web
 
       subfolders:
       - title: ChatGPT
