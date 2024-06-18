@@ -42,7 +42,7 @@ entries:
           url: /LLM_TAL_intro.html
           output: web
 
-      subfolders:
+  
       - title: ChatGPT
         output: web
         subfolderitems:
