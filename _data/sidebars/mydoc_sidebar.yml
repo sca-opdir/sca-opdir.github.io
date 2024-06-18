@@ -32,7 +32,6 @@ entries:
       url: /IA_generalites.html
       output: web
 
-
       subfolders:
     - title: TAL et LLMs
       output: web
@@ -40,13 +39,10 @@ entries:
       - title: Intro sur le TAL
         url: /LLM_TAL_intro.html
         output: web
-
-            
       - title: Architectures neuronales
         url: /LLM_TAL_architectures.html
         output: web
 
-  
       - title: ChatGPT
         output: web
         subfolderitems:
