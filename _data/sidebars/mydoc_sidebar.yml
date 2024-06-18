@@ -24,7 +24,7 @@ entries:
     output: web
     folderitems:
 
-    - title: Historique/définitions
+    - title: Historique et déf.
       url: /IA_histoire.html
       output: web
       
@@ -32,19 +32,18 @@ entries:
       url: /IA_generalites.html
       output: web
 
-        subfolders:
-      - title: LLMs
+    subfolders:
+    - title: LLMs
+      output: web
+      subfolderitems:
+      - title: TAL
+        url: /LLM_TAL_intro.html
         output: web
-        subfolderitems:
-        
-        - title: TAL
-          url: /LLM_TAL_intro.html
-          output: web
 
-                
-        - title: TAL
-          url: /LLM_TAL_architectures.html
-          output: web
+            
+    - title: TAL
+      url: /LLM_TAL_architectures.html
+      output: web
 
       subfolders:
       - title: ChatGPT
