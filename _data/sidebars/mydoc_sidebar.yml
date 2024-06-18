@@ -1,49 +1,31 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: sidebar
   product: Outils IT
   version: 
   folders:
-
-
   - title: Home
     output: web
     folderitems:
-
     - title: Bienvenue
       url: /index.html
       output: web
       type: homepage
-
     - title: Contact
       url: /contact.html
       output: web
-
   - title: Intelligence artificielle
     output: web
     folderitems:
 
-    - title: Historique et déf.
+    - title: Historique/définitions
       url: /IA_histoire.html
       output: web
-      
+
     - title: Généralités
       url: /IA_generalites.html
       output: web
-      
       subfolders:
-    - title: TAL et LLMs
-      output: web
-      subfolderitems:
-        - title: Intro sur le TAL
-          url: /LLM_TAL_intro.html
-          output: web
-          
-        - title: Architectures neuronales
-          url: /LLM_TAL_architectures.html
-          output: web
-
       - title: ChatGPT
         output: web
         subfolderitems:
@@ -51,37 +33,28 @@ entries:
         - title: Fonctionnement
           url: /ChatGPT_fonctionnement.html
           output: web
-
         - title: Usages
           url: /ChatGPT_usages.html
           output: web
-
         - title: Comment prompter
           url: /ChatGPT_promptEngineering.html
           output: web
-
         - title: Exemples d'utilisation (3.5)
           url: /ChatGPT_exemples35.html
           output: web
-
         - title: Exemples d'utilisation (4.0)
           url: /ChatGPT_exemples40.html
           output: web
-
-
         - title: Plugins
           url: /ChatGPT_plus.html
           output: web
-
         - title: Custom GPTs
           url: /ChatGPT_custom.html
           output: web
           
-
     - title: Autres outils
       url: /IA_autres_outils.html
       output: web
-
     - title: IA en entreprise
       url: /IA_enEntreprise.html
       output: web
@@ -89,44 +62,32 @@ entries:
     - title: Divers
       url: /IA_reflexion.html
       output: web
-
   - title: Shiny
     output: web
     folderitems:
-
     - title: Apps internes
       url: /Shiny_private.html
       output: web
-
     - title: Apps publiques
       url: /Shiny_public.html
       output: web
-
-
-
   - title: Programmation
     output: web
     folderitems:
-
     - title: R snippets
       url: /R_snippets.html
       output: web
-
     - title: Python snippets
       url: /Python_snippets.html
       output: web
-
-
     - title: Arcpy / Python toolbox
       url: /Python_toolbox_arcpy.html
       output: web
-
       
   - title: PowerBI
     output: web
     folderitems:
-
     - title: Exemples
       url: /PowerBI_reports.html
       output: web
-
+      
