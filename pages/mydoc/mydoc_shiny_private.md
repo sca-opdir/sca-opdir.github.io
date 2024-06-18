@@ -13,7 +13,7 @@ folder: mydoc
 
 
 
-## Agricoles
+##### Données OFAG
 
 * Exploration des catalogues SIPA
 
@@ -22,6 +22,12 @@ folder: mydoc
 ##### Contrôles 
 
 * Préparation des campagnes de contrôles
+  
+* Contrôles SCA : bordures tampon, date de fauche, SAU, SBER, contrôles admin
+
+##### Taxation/Admin
+
+* Génération texte
 
 
 
