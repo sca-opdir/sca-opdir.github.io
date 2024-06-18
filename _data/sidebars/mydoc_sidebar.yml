@@ -72,7 +72,7 @@ entries:
       output: web
  
     - title: Divers
-      url: /IA_reflexion.html
+      url: /IA_divers.html
       output: web
   - title: Shiny
     output: web
