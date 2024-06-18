@@ -5,7 +5,7 @@ last_updated: June 18, 2024
 tags: [IA, LLM, TAL]
 summary: "Introdution sur le traitement automatique des langues (TAL)"
 sidebar: mydoc_sidebar
-permalink: LLM_TAL.html
+permalink: LLM_TAL_intro.html
 folder: mydoc
 ---
 
