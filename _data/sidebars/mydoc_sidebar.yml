@@ -24,6 +24,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Historique/définitions
+      url: /IA_histoire.html
+      output: web
+      
     - title: Généralités
       url: /IA_generalites.html
       output: web
