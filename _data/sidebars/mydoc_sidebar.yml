@@ -33,6 +33,14 @@ entries:
       output: web
 
 
+      subfolders:
+      - title: LLM
+        output: web
+        subfolderitems:
+        
+        - title: Fonctionnement
+          url: /LLM_TAL_intro.html
+          output: web
 
       subfolders:
       - title: ChatGPT
