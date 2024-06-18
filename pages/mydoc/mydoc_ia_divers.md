@@ -9,6 +9,19 @@ permalink: IA_divers.html
 folder: mydoc
 ---
 
+## Ressources en ligne
+
+(non exhaustif)
+
+https://github.com/microsoft/generative-ai-for-beginners/tree/main
+
+https://huggingface.co/learn
+
+https://github.com/mistralai/cookbook/tree/main
+
+https://acoustic-licorice-c24.notion.site/Guide-Complet-Utiliser-GPT-4o-en-milieu-professionnel-0657016ce3b34ae6add98af012b11850
+
+
 ## Audio
 
 <https://www.rts.ch/audio-podcast/2023/audio/l-invite-de-la-matinale-eric-sadin-ecrivain-et-philosophe-27184936.html>
