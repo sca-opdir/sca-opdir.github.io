@@ -36,12 +36,13 @@ entries:
     - title: TAL et LLMs
       output: web
       subfolderitems:
-      - title: Intro sur le TAL
-        url: /LLM_TAL_intro.html
-        output: web
-      - title: Architectures neuronales
-        url: /LLM_TAL_architectures.html
-        output: web
+        - title: Intro sur le TAL
+          url: /LLM_TAL_intro.html
+          output: web
+          
+        - title: Architectures neuronales
+          url: /LLM_TAL_architectures.html
+          output: web
 
       - title: ChatGPT
         output: web
