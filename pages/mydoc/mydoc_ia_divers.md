@@ -5,7 +5,7 @@ last_updated: December 3, 2023
 tags: [IA]
 summary: "un peu de recul..."
 sidebar: mydoc_sidebar
-permalink: IA_reflexion.html
+permalink: IA_divers.html
 folder: mydoc
 ---
 
