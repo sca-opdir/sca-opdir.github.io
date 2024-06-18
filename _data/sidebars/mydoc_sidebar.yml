@@ -53,8 +53,13 @@ entries:
           url: /ChatGPT_exemples40.html
           output: web
 
-        - title: Plugins et GPTs
+
+        - title: Plugins
           url: /ChatGPT_plus.html
+          output: web
+
+        - title: Custom GPTs
+          url: /ChatGPT_custom.html
           output: web
           
 
