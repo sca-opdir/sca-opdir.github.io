@@ -54,6 +54,10 @@ https://www.zdnet.fr/guide-achat/avec-chatgpt-creez-vos-propres-gpt-personnalise
 
 * GPT avec les ordonnances Bio
 
+* GPT avec le contenu spécifique de l'OPD pour les contributions à la [biodiversité](https://chatgpt.com/g/g-9pMPLGz8o-sca-opd-biodiversite), au [bien-être animal](https://chatgpt.com/g/g-QL8136ho3-sca-opd-bien-etre-animal) et les [PER](https://chatgpt.com/g/g-7Bt0Fxb1v-sca-opd-per)
+
+* GPT sur [l'agriculture et la biodiversité](https://chatgpt.com/g/g-5HdBQh98j-sca-agriculture-et-biodiversite) (fiches Agridea)
+
 ##### Custom GPTs internes
 
 * génération requête SQL pour données export GDM & parsing du retour
