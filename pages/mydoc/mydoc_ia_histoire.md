@@ -1,5 +1,5 @@
 ---
-title: Intelligence artificielle : brève histoire et (tentatie de ) définitions
+title: Intelligence artificielle : brève histoire et tentative de définitions
 tags: [IA]
 last_updated: July 3, 2016
 keywords: IA, IT
