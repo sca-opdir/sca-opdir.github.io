@@ -34,6 +34,9 @@ Les tâches à faire faire par l’IA : les non importantes et les ennuyeuses.
 6. Automatisez les tâches identifiées
 7. Effectuez un suivi pour évaluer l’efficacité de l'automatisation.
 
+Utilisation de Zapier ou Make pour faciliter l'automatisation.
+
+
 Quelques [observations et conseils](https://academieweb3.com/comment-integrer-lia-en-entreprise) de J.-B. Berhtoux 
 
 * Gain d'efficacité indéniable pour les entreprises grâce à l'IA. Selon une étude conjointe du MIT et Stanford, ChatGPT améliore la productivité de 14% en moyenne, soit environ 1h par jour ; avec certaines applications IA, le gain peut même bondir jusqu’à 56% sur certaines tâches.
