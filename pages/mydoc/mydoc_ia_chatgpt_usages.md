@@ -59,6 +59,10 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 - prise de décision : demander un avis d'expert (plugin *Your AI Council*) ; demander une analyse basée sur un certain modèle (ex. modèle SWOT)
 - apprentissage : créer un plan de cours, formation de nouveaux collaborateurs, poser des questions sur une thématique
 
+## Ce que ChatGPT n'est pas  
+
+- un moteur de recherche
+
 ## 6 cas d'usage classiques ([source](https://acoustic-licorice-c24.notion.site/Inter-Entreprise-18-Juin-Super-Ressource-8577e75afb3345f0a0aec34e9d6e51f8))
 
 **#1 - Générer des idées**
