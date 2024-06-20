@@ -19,6 +19,7 @@ Quelques [observations et conseils](https://academieweb3.com/comment-integrer-li
 
 
 **Quelques exemples d'utilisation dans le monde professionnel**
+(source : [cours](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/4ab9ad2d-2bdb-4904-ba8c-b9e43924ca52/Inter_-_17_Juin_vf.pdf?id=ea0ab4a0-2f4b-4e8d-bbde-2733fb1275c6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718949600000&signature=_a3ZrDAE8lNMhhii9fF04jyETrRPj7W2iyWz-PPJPfM&downloadName=Inter+-+17+Juin_vf.pdf) J.-B. Berthoux)
 
 - Utiliser les arbres de raisonnement pour aller plus loin : "3 experts discutent de cette question lors d'une table ronde, essayant de résoudre étape par étape tous ensemble, en débattant d'éventuels désaccords"
 - Les GPTs pour créer des personas
@@ -26,7 +27,7 @@ Quelques [observations et conseils](https://academieweb3.com/comment-integrer-li
 - Utiliser de concert plusieurs outils IA
 - Créer des chatbots FAQ
 - Utiliser le RAG pour aller faire des recherches dans des documents de 500 pages.
-(source : [cours](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/4ab9ad2d-2bdb-4904-ba8c-b9e43924ca52/Inter_-_17_Juin_vf.pdf?id=ea0ab4a0-2f4b-4e8d-bbde-2733fb1275c6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718949600000&signature=_a3ZrDAE8lNMhhii9fF04jyETrRPj7W2iyWz-PPJPfM&downloadName=Inter+-+17+Juin_vf.pdf) J.-B. Berthoux)
+
 
 
 ![Exemple d'utilisation en entreprise 1](../../images/JBB_exemples1.png "ChatGPT en entreprise 1")
@@ -36,8 +37,6 @@ Quelques [observations et conseils](https://academieweb3.com/comment-integrer-li
 ![Exemple d'utilisation en entreprise 3](../../images/JBB_exemples3.png "ChatGPT en entreprise 3").
 
 ![Exemple d'utilisation en entreprise 4](../../images/JBB_exemples4.png "ChatGPT en entreprise 4").
-
-
 
 
 7.	IA et monde du travail
