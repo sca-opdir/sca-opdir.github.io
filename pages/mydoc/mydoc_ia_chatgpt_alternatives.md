@@ -9,6 +9,7 @@ permalink: ChatGPT_alternatives.html
 folder: mydoc
 ---
 
+[LMSYS Chatbot Arena](https://chat.lmsys.org/) (Multimodal): Benchmarking LLMs and VLMs in the Wild 
 
 [guide](https://academieweb3.com/claude-3-danthropic) pour utiliser Claude3
 
@@ -68,5 +69,7 @@ Avec ChatGPT, vous pouvez utiliser les assistants, mais pas les créer. Pour en 
 - [Les personnages de character.ai](https://character.ai/character/new)
 
 ([source](https://acoustic-licorice-c24.notion.site/6-8-alternatives-gratuites-Chat-GPT-d5a30a33ab0c4c32aeb9232f5341146e)) 
+
+[Lien](https://academieweb3.com/chat-gpt-alternative/) pour une liste/description d'autres modèles
 
 {% include links.html %}
