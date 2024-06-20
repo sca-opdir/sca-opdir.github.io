@@ -14,23 +14,28 @@ folder: mydoc
 * https://www.01net.com/actualites/plugins-chatgpt-extensions-tout-savoir.html 
 https://autogpt.net/top-10-chat-gpt-plugins/
 * trouver des plugins et des GPTs https://www.whatplugin.ai/
-
+* [cours](https://acoustic-licorice-c24.notion.site/4-Que-sont-les-GPTs-10-exemples-4a332e3d18374515b838975848a3220e) et [blog](https://academieweb3.com/gpts/) de J.-B. Berthoux
+  
 ## ChatGPT 4.0
 
 Par rapport à GPT-3.5 : multi-modal, plus de mémoire, plus long contexte, meilleure compréhension, meilleure qualité et précision des résultats mais plus de paramètres, plus lent, plus polluant
-
 
 
 ## Les GPTs
 
 ### Créer des GPTs personnalisés
 
-![créer un GPT personnalisé](../../images/customGPT_cheatsheet.jpg "Créer un GPT").
+![créer un GPT personnalisé](../../images/customGPT_cheatsheet.jpg "Créer un GPT")
 ([source](https://acoustic-licorice-c24.notion.site/4-Que-sont-les-GPTs-10-exemples-4a332e3d18374515b838975848a3220e))
 
 Permet de créer des persona ; les voir comme des stagiaires.
 
 En entreprise : soit créer 1 GPT qui correspond à chaque type de poste ; ou créer 1 GPT par tâche
+
+Limites:
+- même en ajoutant des documents de référence, les GPTs continuent à inventer des faits ; parfois, ils ne se basent pas sur les documents ajoutés pour répondre (bien rédiger les prompts !)
+- GPT-4o a une mémoire de 128 000 tokens soit 300 pages de livre mais des tests ont montré que la mémoire fléchissait à partir de 73 000 tokens.
+- les GPTs accepteraient seulement 20 documents
 
 GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities.
 
@@ -58,9 +63,10 @@ Appeler différents GPTs avec "@" dans une même conversation
 
 ### Exemples de GPTs 
 
-- Whimsical Diagrams
+- [Whimsical Diagrams](https://chatgpt.com/g/g-vI2kaiM9N-whimsical-diagrams) : outil de visualisation (mind map, diagramme de Flux, etc.)
+- [Tree Of Thoughts](https://chatgpt.com/g/g-LVXSGJ1VN-tree-of-thoughts) : demander à 3 experts de donner une perspective sur une problématique métier
 
-
+Lien : 
 
 ### Custom GPTs pour l'OPDir
 
