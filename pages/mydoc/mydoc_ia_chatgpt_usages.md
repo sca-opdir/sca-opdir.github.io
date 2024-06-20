@@ -20,7 +20,12 @@ folder: mydoc
 
 [guide](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/efbbfc80-2e9c-41d3-806d-5b9f5b483b10/guide_dinstallation_.pdf?id=235adcc7-03b9-44cc-8e6e-d18fabe0a6d6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718956800000&signature=9My37wHP6MgzI9wLusxxuPoRrZx7edSCP3kxeVxvGqc&downloadName=guide+d%27installation+.pdf) par J.-B. Berthoux 
 
-## Configurer ChatGPT : "Customize ChatGPT"
+
+## Configurer ChatGPT 
+
+Penser à désactiver l'entrainement du modèle sur nos données !
+
+### "Customize ChatGPT"
 
 Template du GPT [Anna - Instructions personnalisées](https://chatgpt.com/g/g-XRHm1CIvc-anna-instructions-personnalisees) 
 
