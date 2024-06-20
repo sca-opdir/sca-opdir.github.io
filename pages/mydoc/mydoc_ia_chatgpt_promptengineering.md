@@ -100,7 +100,7 @@ Exemple de prompt complet :
 - vérifier la logique de la machine : "Est-ce que ton rôle est clair ?"
 - utiliser des chaînes de pensée : "Résous ce problème étape par étape"
 - *few shot prompting* : montrer des exemples du résultat attendu 
-- utiliser des délimiteurs : ##, <>
+- utiliser des délimiteurs : ##, <>, guillemets triples """, balises XML, titres de section
 - méthode du ping-pong : interagir avec l'IA jusqu'à obtention du résultat escompté (phrase-réponse-phrase-réponse-...-RESULTAT)
 - une phrase qui s'avère utile : "Prends une grande inspiration et réfléchis à ce problème étape par étape"
 - stimulation émotionnelle ("mettre la pression"): "Fais ceci avec utilisant toutes tes compétences car c'est très important pour ma carrière/sinon je ne te ferai plus jamais confiance"
@@ -110,11 +110,56 @@ termine clôture la discussion. Si un expert se rend compte qu'il a tort à un m
 - se montrer créatif pour obtenir des résultats originaux
 - utiliser l'IA pour coder et se faire expliquer le code
 - utiliser des formulations comme "donne moi un exemple de [...]" (par exemple quand l'IA refuse de faire quelque chose)
+- spécifier la longueur (nombre de mots, de paragraphes, de bullet points) ; donner un intervalle (n'est pas exactement précis)
 - ajouter les plus de contexte et de contraintes (les plus précises et spécifiques)
+- fournir un texte de référence, demander de répondre avec des citations d'un texte de référence
 
-Par exemple, les tâches créatives comme un livre. 
+**Exemples d'utilisation des délimiteurs :**
 
-Vous pouvez contourner ça en lui demandant un “exemple de “
+*Résumez le texte délimité par des triples guillemets avec un haïku. """insérer du texte ici"""*
+
+*Vous recevrez une paire d’articles (délimités par des balises XML) sur le même sujet. Résumez d’abord les arguments de chaque article. Ensuite, indiquez lequel d’entre eux présente un meilleur argument et expliquez pourquoi.*
+*<article> insérer le premier article ici </article>*
+*<article> insérer le deuxième article ici </article>*
+
+*Vous recevrez un résumé de thèse et un titre suggéré pour celui-ci. Le titre de la thèse doit donner au lecteur une bonne idée du sujet de la thèse, mais doit également être accrocheur. Si le titre ne répond pas à ces critères, proposez 5 alternatives.*
+*Résumé : insérer le résumé ici* 
+*Titre : insérer le titre ici*
+
+**Pour un prompt parfait**
+Pour un prompt parfait, voici ce que vous devez respecter : 
+
+- Inclure des détails dans vos requêtes pour obtenir des réponses plus pertinentes
+- Attribuer un rôle à l’intelligence artificielle
+- Utilisez des délimiteurs pour indiquer clairement les parties distinctes de l’entrée
+- Spécifiez les étapes requises pour accomplir une tâche
+- Fournir des exemples (few shot prompting)
+- Spécifiez la longueur souhaitée de la sortie
+- Demander au modèle de répondre à l’aide d’un texte de référence
+- Demander au modèle de répondre avec des citations d’un texte de référence
+
+CONTEXTE : 
+Je suis créateur de contenu sur Linkedin.  
+Mon but est d’écrire des posts captivants qui vont retenir l’attention de mes lecteurs.
+ROLE
+Agis comme mon ghostwriter personnel 
+DETAILS + LONGUEUR
+Ton but va être de m’écrire un post Linkedin de 500 mots, et intégrant 3 bullets points à partir de l’article suivant : ARTICLE 
+ETAPE + DÉLIMITEUR XML
+Pour cela, nous allons fonctionner en 3 étapes 
+Etape 1 : Tu vas me faire un résumer de l’article que tu ajouteras entre <RESUME> et <RESUME/>
+Etape 2 : Tu vas me proposer une accroche pour cet article que tu ajouteras entre <ACCROCHE> et <ACCROCHE/>
+Tu vas te baser sur ces exemples d’accroche à succès 
+EXEMPLE 
+Etape 3 : Tu vas me demander quel accroche je préfére et je te répondrai
+Etape 4 : Tu pourras écrire le post Linkedin en commençant par l’accroche que j’ai sélectionné. Tu ajouteras le post entre <POST> et <POST/>
+Pour écrire le post Linkedin, tu utiliseras la structure PAS que je défini entre parenthèse : 
+(L’acronyme PAS correspond à « Problème, Agitation, Solution ». Cette technique de copywriting consiste donc à construire le texte en commençant par identifier le problème du lecteur, en l’agitant pour ensuite proposer une solution.)
+POSER UNE QUESTION
+Est-ce que tout est clair pour toi ?
+
+
+
 
 ## Rebondir sur la réponse de ChatGPT (message de suivi)
 
