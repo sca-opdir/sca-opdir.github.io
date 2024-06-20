@@ -25,6 +25,11 @@ entries:
     - title: Généralités
       url: /IA_generalites.html
       output: web
+
+    - title: Copilot
+      url: /IA_Copilot.html
+      output: web
+      
       subfolders:
 
       - title: LLM et TAL
