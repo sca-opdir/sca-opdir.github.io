@@ -23,12 +23,17 @@ folder: mydoc
 
 Quelques [généralités](https://academieweb3.com/comment-utiliser-lia/) sur l'utilisation d'outils d'IA par J.-B. Berthoux
 
+[Grammarly](https://www.grammarly.com/) : amélioration de la communication écrite
 
-https://www.taskade.com/
+[Taskade](https://www.taskade.com) : AI app that combines and synchronizes five AI tools in a single workspace
 
 [guide](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/b9733a15-6093-47d8-8528-93f41e95138b/Caroussel_-_Faire_une_BD.pdf?id=74cdea7a-09c0-41a9-9e40-3f5552ade256&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718956800000&signature=QaCOtUIALbNIlDvGZ9wgBoruY9pPEPuZer90OQmriMc&downloadName=Caroussel+-+Faire+une+BD.pdf) de J.-B. Berthoux pour réaliser une BD à l'aide de Midjourney
 
 [Udio](https://www.udio.com/) : pour créer de la musique
+
+
+[Perplexity](https://www.perplexity.ai/) : moteur de recherche alimenté par les grands modèles de langage 
+ de J.-B. Berthoux sur l'utilisation de perplexity
 
 
 ## Analyse / recherche d'informations
@@ -155,7 +160,7 @@ https://www.taskade.com/
 * Générateur d'images
   * FireFly
   * [DALL-E](https://www.bing.com/images/create) (intégré à ChatGPT Plus) (NB: échoue à générer une image avec du texte précis indiqué dans le prompte - *the reason this occurs is because the tool is likely using a character-based model instead of a word-based model. This means that it is only considering the individual characters in the image, rather than the words as a whole. Therefore, when it prints the text, it is only considering the individual characters and not the word as a whole.*)
-  * Midjourney
+  * Midjourney ([guide](https://academieweb3.com/comment-utiliser-midjourney/) de J.-B. Berthoux)
   * [civitai](https://civitai.com)
 * Générateur de logo
   * [Looka](https://looka.com/)
