@@ -72,6 +72,40 @@ Exemple :
 
 *[P] Nous sommes dans le domaine culinaire. [R] Durant toute notre conversation, tu es un chef cuisinier très expérimenté. [O] Le but est de procurer des conseils pratiques à des débutants qui savent juste cuire des pâtes. [M] Les instructions seront fournies dans l'ordre chronologique, [P] mais sans ajouter de numérotation avant chaque tâche. Les recettes seront utilisées pour un blog, elles ont un maximum de mille mots. [T] Tu t'exprimes sur un ton jovial, inspirant et avec bienveillance. Montre que tu as compris en m'expliquant comment faire une omelette.*
 
+## Méthode J.-B. Berthoux ([source](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/f4d18d4f-c990-4560-8ae9-e59b2d5afbdb/Affiche_prompt_parfait-1.pdf?id=867458e0-081d-462c-bc83-402afb9da40b&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718956800000&signature=7o3nLCxIiZZzWTy6xJJYMTCLoCOs3B1UmnKQP3GaQKU&downloadName=Affiche+prompt+parfait-1.pdf)]
+
+Du plus important à l'optionnel :
+
+1. tâche [obligatoire] : débuter par un verbe d'action (créer, écrire, analyser, etc.) ; énoncer clairement l'objectif final
+2. contexte (parcours personnel, quel serait le succès du prompt, l'environnement professionnel, etc.)
+3. exemple [important] (exemple d'e-mails déjà rédigés servant de modèles, etc.)
+4. rôle
+5. format
+6. ton [optionnel]
+
+Exemple de prompt complet :
+
+*Tu es la responsable ressources humaines.* [4]
+
+*Tu travailles dans une fondation genevoise et tu viens de recevoir les ordres de ton supérieur qui veut que les recrutements de bénévoles augmentent de 20% dans les 3 prochains mois.* [2]
+
+*Crée-moi une stratégie de recrutement omnicanale pour atteindre les objectifs de ton supérieur.* [1+5]
+
+*Cette stratégie devra comprendre une première section avec les objectifs et le contexte, puis tu détailleras les canaux digitaux et physiques à utiliser. Tu détailleras ensuite par canaux les actions spécifiques à entreprendre et tu fixeras de KPI en utilsant la méthode SMART. Enfin, tu conclueras en listant toutes les obstacles qui pourront être rencontrés avec les solutions possibles. Tu peux te baser sur cette stratégie déjà faite comme exemple entre 3 guillemets : “””STRAT”””* [3]
+
+*Utilise un ton formel et sois le plus rigoureux possible.* [6]
+
+**Autres astuces** :
+- pour ne pas rater du contexte : "Pose moi toutes les questions nécessaire à la compréhension du contexte AVANT de répondre"
+- vérifier la logique de la machine : "Est-ce que ton rôle est clair ?"
+- utiliser des chaînes de pensée : "Résous ce problème étape par étape"
+- *few shot prompting* : montrer des exemples du résultat attendu 
+- utiliser des délimiteurs : ##, <>
+- méthode du ping-pong : interagir avec l'IA jusqu'à obtention du résultat escompté (phrase-réponse-phrase-réponse-...-RESULTAT)
+- une phrase qui s'avère utile : "Prends une grande inspiration et réfléchis à ce problème étape par étape"
+- stimulation émotionnelle ("mettre la pression"): "Fais ceci avec utilisant toutes tes compétences car c'est très important pour ma carrière/sinon je ne te ferai plus jamais confiance"
+- *tree of thoughts* : "Imaginez que trois experts différents répondent à cette question. Tous les experts noteront 1 étape de leur réflexion, puis les partageront avec le groupe. Ensuite, tous les experts passeront à l'étape suivante, jusqu’à ce que l'interlocateur
+termine clôture la discussion. Si un expert se rend compte qu'il a tort à un moment donné, il s'en va. La question est.."
 
 ## Rebondir sur la réponse de ChatGPT (message de suivi)
 
