@@ -1,7 +1,7 @@
 ---
 title: IA - autres outils
 keywords: IA, IT, ChatGPT
-last_updated: July 3, 2016
+last_updated: June 20, 2024
 tags: [IA]
 summary: "outils basés sur l'IA"
 sidebar: mydoc_sidebar
