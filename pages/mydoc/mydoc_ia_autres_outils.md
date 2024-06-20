@@ -20,6 +20,9 @@ folder: mydoc
 
 ... et encore beaucoup d'autres ! Liste d'outils IA continuellement mise à jour : [Always Up-to-date AI Tools Database](https://dev-share.clickup.com/9805000210/gr/h/946rvgj-16/6be1ba8fcf3f101?_gl=1*xghqd4*_gcl_au*MTQ2MzY3OTY5MS4xNzAyMTEyNjQx)
 
+
+https://www.taskade.com/
+
 ## Analyse / recherche d'informations
 
 * [AskYourPDF](https://askyourpdf.com) (online+plugin)
