@@ -85,7 +85,7 @@ Je travaille sur un projet de [langage de programmation] et j'ai besoin d'aide p
 
 Je suis en train de réfléchir à [sujet spécifique] et j'ai besoin d'aide pour structurer mes idées et développer une réflexion approfondie. Pouvez-vous me guider dans cette réflexion en me posant des questions pertinentes et en proposant des angles d'approche ?
 
-[50 Tasks that ChatGPT Can Do in Seconds with these simple Prompts](https://medium.com/@webjinneeofficial/50-tasks-that-chatgpt-can-do-in-seconds-with-these-simple-prompts-242235b03d7c):
+## 50 Tasks that ChatGPT Can Do in Seconds with these simple Prompts ([source](https://medium.com/@webjinneeofficial/50-tasks-that-chatgpt-can-do-in-seconds-with-these-simple-prompts-242235b03d7c))
 1. Display the current time
 2. Print a given message
 3. Count the number of characters in a string
