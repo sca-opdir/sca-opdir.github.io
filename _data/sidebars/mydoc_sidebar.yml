@@ -26,9 +26,7 @@ entries:
       url: /IA_generalites.html
       output: web
 
-    - title: Copilot
-      url: /IA_Copilot.html
-      output: web
+
       
       subfolders:
 
@@ -74,6 +72,10 @@ entries:
         - title: Alternatives
           url: /ChatGPT_alternatives.html
           output: web
+
+    - title: Copilot
+      url: /IA_Copilot.html
+      output: web
           
     - title: Autres outils
       url: /IA_autres_outils.html
