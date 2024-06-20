@@ -9,6 +9,6 @@ permalink: IA_Copilot.html
 folder: mydoc
 ---
 
-[Comparaison ChatGPT - Copilot](https://academieweb3.com/co-pilot-vs-chat-gpt/) 
+[Comparaison ChatGPT Team - Copilot Pro](https://academieweb3.com/co-pilot-vs-chat-gpt/) 
 
 {% include links.html %}
