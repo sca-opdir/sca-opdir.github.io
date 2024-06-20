@@ -18,9 +18,28 @@ Quelques [observations et conseils](https://academieweb3.com/comment-integrer-li
 * Pour intégrer l'IA en entreprise, créer un portail IA avec [Zapier Interface](https://zapier.com/interfaces) où chaque employé pourra sélectionner un chatbot pour l'aider sur des tâches précises.
 
 
+**Quelques exemples d'utilisation dans le monde professionnel**
+
+- Utiliser les arbres de raisonnement pour aller plus loin : "3 experts discutent de cette question lors d'une table ronde, essayant de résoudre étape par étape tous ensemble, en débattant d'éventuels désaccords"
+- Les GPTs pour créer des personas
+- Faire de la synthèse de longs documents avec Claude 3 Opus ou Gemini 1.5 Pro.
+- Utiliser de concert plusieurs outils IA
+- Créer des chatbots FAQ
+- Utiliser le RAG pour aller faire des recherches dans des documents de 500 pages.
+(source : [cours](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/4ab9ad2d-2bdb-4904-ba8c-b9e43924ca52/Inter_-_17_Juin_vf.pdf?id=ea0ab4a0-2f4b-4e8d-bbde-2733fb1275c6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718949600000&signature=_a3ZrDAE8lNMhhii9fF04jyETrRPj7W2iyWz-PPJPfM&downloadName=Inter+-+17+Juin_vf.pdf) J.-B. Berthoux)
 
 
-ordées dans le prochain chapitre.
+![Exemple d'utilisation en entreprise 1](../../images/JBB_exemples1.png "ChatGPT en entreprise 1")
+
+![Exemple d'utilisation en entreprise 2](../../images/JBB_exemples2.png "ChatGPT en entreprise 2").
+
+![Exemple d'utilisation en entreprise 3](../../images/JBB_exemples3.png "ChatGPT en entreprise 3").
+
+![Exemple d'utilisation en entreprise 4](../../images/JBB_exemples4.png "ChatGPT en entreprise 4").
+
+
+
+
 7.	IA et monde du travail
 
 Comme toute innovation technologique, l’arrivée de l’IA dans le champ professionnel impacte le monde du travail. Et là où les (r)évolutions technologiques précédentes chamboulaient les rôles et les activités des êtres humains, l’IA atteint « son identité propre : son intelligence » (Côté et Su 2021). Si l’automatisation par les machines « a remplacé le labeur humain, l'automatisation numérique tend à se substituer à la pensée humaine et au traitement de l'information » (Côté et Su 2021). Mais l’IA pourrait envahir notre quotidien professionnel sans affecter la productivité et la performance économique des entreprises, comme l’ont fait les ordinateurs (paradoxe de Solow ; Mougeot 2023).
