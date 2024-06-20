@@ -65,7 +65,7 @@ Appeler différents GPTs avec "@" dans une même conversation
 
 - [Whimsical Diagrams](https://chatgpt.com/g/g-vI2kaiM9N-whimsical-diagrams) : outil de visualisation (mind map, diagramme de Flux, etc.)
 - [Tree Of Thoughts](https://chatgpt.com/g/g-LVXSGJ1VN-tree-of-thoughts) : demander à 3 experts de donner une perspective sur une problématique métier
-- [Anna - Instructions personnalisées](https://chatgpt.com/g/g-XRHm1CIvc-anna-instructions-personnalisees) : aide à la rédaction d'instructions personnalisées pour son GPT 
+- [Anna - Instructions personnalisées](https://chatgpt.com/g/g-XRHm1CIvc-anna-instructions-personnalisees) : aide à la rédaction d'instructions personnalisées pour GPT (configuration "Customize ChatGPT")
 
 Lien : 
 
