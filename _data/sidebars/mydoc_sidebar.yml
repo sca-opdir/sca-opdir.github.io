@@ -57,11 +57,17 @@ entries:
         - title: Exemples d'utilisation (4.0)
           url: /ChatGPT_exemples40.html
           output: web
+        - title: Exemples d'utilisation (4o)
+          url: /ChatGPT_exemples4o.html
+          output: web
         - title: Plugins
           url: /ChatGPT_plus.html
           output: web
         - title: Custom GPTs
           url: /ChatGPT_custom.html
+          output: web
+        - title: Alternatives
+          url: /ChatGPT_alternatives.html
           output: web
           
     - title: Autres outils
