@@ -9,6 +9,30 @@ permalink: IA_enEntreprise.html
 folder: mydoc
 ---
 
+Automatiser ses tâches avec ChatGPT - [méthode "Automato"](https://academieweb3.com/automatisation-chat-gpt/) de J.-B. Berthoux
+
+Les types de tâches automatisables avec ChatGPT :
+
+- Trouver des idées / Brainstormer
+- Expliquer des concepts/synthétiser pour monter en compétence plus rapidement
+- Coder, traduire, écrire avec Chat GPT
+- Éditer, corriger, recycler du contenu
+- Se mettre à la place d’un client cible
+- Raisonnement 
+
+Les tâches à faire faire par l’IA : les non importantes et les ennuyeuses.
+
+1. Listez toutes les tâches que vous effectuez dans votre travail quotidien.
+2. Classez ces tâches en quatre catégories selon leur importance et leur niveau d’ennui: Important & Ennuyeux, Important & Non-Ennuyeux, Non-Important & Ennuyeux, Non-Important & Non-Ennuyeux.
+3. Passez en revue les tâches classées comme "Non-Important & Ennuyeux" = les candidats à l'automatisation.
+4. Évaluez les tâches sur leur aptitude à être automatisées avec Chat GPT.
+5. Créez un plan d’automatisation pour chaque tâche.
+    - Devez-vous rédiger un prompt avancé pour cette tâche ?
+    - Est-ce que Chat GPT suffit ?
+    - Est-ce que d’autres IA pourraient vous aider ?
+    - Quel ROI pouvez-vous attendre?
+6. Automatisez les tâches identifiées
+7. Effectuez un suivi pour évaluer l’efficacité de l'automatisation.
 
 Quelques [observations et conseils](https://academieweb3.com/comment-integrer-lia-en-entreprise) de J.-B. Berhtoux 
 
