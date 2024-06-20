@@ -14,12 +14,15 @@ folder: mydoc
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
  * Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
 
+Le plus important : passer de la théorie à la pratique !
+
 ## A quoi peut servir ChatGPT ?
 
 *	génération d'idées (brainstorming, nouvelles idées, plans de formation, etc.)
 *	générer du code informatique
 *	rédaction de contenu (communiqués de presse, rapports, textes marketing, articles, e-mails, standards, présentation, FAQ, etc.)
 *	traduire et corriger du texte
+*	simplifier des textes
 *	service client
 *	créer des tableaux
 *	fournir des exemples
@@ -62,6 +65,8 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 ## Ce que ChatGPT n'est pas  
 
 - un moteur de recherche
+- infaillible
+- ne pas l'utiliser pour faire des maths ou de la logique
 
 ## 6 cas d'usage classiques ([source](https://acoustic-licorice-c24.notion.site/Inter-Entreprise-18-Juin-Super-Ressource-8577e75afb3345f0a0aec34e9d6e51f8))
 
