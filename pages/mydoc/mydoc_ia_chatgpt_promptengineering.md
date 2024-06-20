@@ -95,7 +95,7 @@ Exemple de prompt complet :
 
 *Utilise un ton formel et sois le plus rigoureux possible.* [6]
 
-**Autres astuces** :
+**Autres astuces et [conseils](https://academieweb3.com/conseils-de-prompt-engineering/)** :
 - pour ne pas rater du contexte : "Pose moi toutes les questions nécessaire à la compréhension du contexte AVANT de répondre"
 - vérifier la logique de la machine : "Est-ce que ton rôle est clair ?"
 - utiliser des chaînes de pensée : "Résous ce problème étape par étape"
@@ -106,6 +106,15 @@ Exemple de prompt complet :
 - stimulation émotionnelle ("mettre la pression"): "Fais ceci avec utilisant toutes tes compétences car c'est très important pour ma carrière/sinon je ne te ferai plus jamais confiance"
 - *tree of thoughts* : "Imaginez que trois experts différents répondent à cette question. Tous les experts noteront 1 étape de leur réflexion, puis les partageront avec le groupe. Ensuite, tous les experts passeront à l'étape suivante, jusqu’à ce que l'interlocateur
 termine clôture la discussion. Si un expert se rend compte qu'il a tort à un moment donné, il s'en va. La question est.."
+- nourrir Chat GPT avec nos données/documents pour réduire les hallucinations
+- se montrer créatif pour obtenir des résultats originaux
+- utiliser l'IA pour coder et se faire expliquer le code
+- utiliser des formulations comme "donne moi un exemple de [...]" (par exemple quand l'IA refuse de faire quelque chose)
+- ajouter les plus de contexte et de contraintes (les plus précises et spécifiques)
+
+Par exemple, les tâches créatives comme un livre. 
+
+Vous pouvez contourner ça en lui demandant un “exemple de “
 
 ## Rebondir sur la réponse de ChatGPT (message de suivi)
 
