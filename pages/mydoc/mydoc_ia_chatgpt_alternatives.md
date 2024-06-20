@@ -10,7 +10,9 @@ folder: mydoc
 ---
 
 
-[guide pour utiliser Claude 3](https://academieweb3.com/claude-3-danthropic)
+[guide](https://academieweb3.com/claude-3-danthropic) pour utiliser Claude3
+
+[guide](https://academieweb3.com/gemini-1-5-pro/) pour utiliser Gemini
 
 
 {% include links.html %}
