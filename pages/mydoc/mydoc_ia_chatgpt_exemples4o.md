@@ -11,7 +11,7 @@ folder: mydoc
 
 
 
-* Mémoire de 100'000 mots (ChatGPT 3.5 : 6'000)
+* Mémoire de 100'000 mots (128k tokens) (ChatGPT 3.5 : 6'000)
 * 60% de moins d’hallucinations que GPT-3.5 d'après L’Alignement Research Center, 
 * Vision intégré, capacités de d’analyser des fichiers excel et de coder en Python, plugins, custom GPTs, connecté à internet
 
