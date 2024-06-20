@@ -59,6 +59,32 @@ Tâches ou types de tâche à effectuer fréquemment ou celles en veille qu'on a
 - prise de décision : demander un avis d'expert (plugin *Your AI Council*) ; demander une analyse basée sur un certain modèle (ex. modèle SWOT)
 - apprentissage : créer un plan de cours, formation de nouveaux collaborateurs, poser des questions sur une thématique
 
+## 6 cas d'usage classiques ([source](https://acoustic-licorice-c24.notion.site/Inter-Entreprise-18-Juin-Super-Ressource-8577e75afb3345f0a0aec34e9d6e51f8))
+
+**#1 - Générer des idées**
+
+Je suis un [profession]. J'ai besoin de générer des idées pour [un projet spécifique]. Pouvez-vous me proposer des idées créatives et innovantes en lien avec ce domaine ?
+
+**#2 - Corriger et écrire**
+
+Je dois rédiger/corriger [type de document]. Voici les détails : [détails du document]. Pouvez-vous m'aider à écrire/corriger ce texte en gardant un ton [professionnel/amical/formel]
+
+**#3 - Vulgariser un concept**
+
+Je dois expliquer [concept complexe] à [public cible]. Pouvez-vous simplifier ce concept pour le rendre compréhensible par [public cible] ?
+
+**#4 - Traduire des textes**
+
+J'ai besoin de traduire le texte suivant de [langue source] à [langue cible] : [texte]. Pouvez-vous m'aider à le traduire de manière précise tout en conservant le ton et le style du texte original ?
+
+**#5 - Aide au code / excel**
+
+Je travaille sur un projet de [langage de programmation] et j'ai besoin d'aide pour [description du problème ou de la tâche]. Voici le code actuel :  [code]. Pouvez-vous m'aider à résoudre ce problème/améliorer ce code ?
+
+**#6 - Aide à la réflexion**
+
+Je suis en train de réfléchir à [sujet spécifique] et j'ai besoin d'aide pour structurer mes idées et développer une réflexion approfondie. Pouvez-vous me guider dans cette réflexion en me posant des questions pertinentes et en proposant des angles d'approche ?
+
 [50 Tasks that ChatGPT Can Do in Seconds with these simple Prompts](https://medium.com/@webjinneeofficial/50-tasks-that-chatgpt-can-do-in-seconds-with-these-simple-prompts-242235b03d7c):
 1. Display the current time
 2. Print a given message
