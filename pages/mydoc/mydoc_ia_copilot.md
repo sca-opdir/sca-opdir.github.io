@@ -10,9 +10,27 @@ folder: mydoc
 ---
 
 Sources :
-- [blog](https://academieweb3.com/co-pilot-vs-chat-gpt/) de J.-B. Berthoux
+- [article de blog](https://academieweb3.com/co-pilot-vs-chat-gpt/) de J.-B. Berthoux
+- [guide]([https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/2b40c57b-e892-431a-8fd3-7d023aab9698/Guide_Ultime_de_Copilot.pdf?id=a75703d4-c83a-4548-b3bc-53ff06c6711b&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718956800000&signature=13mqIKaqCuXZenG_o4xegauo0hm1d3VUDxtqIDhxSKc&downloadName=Guide+Ultime+de+Copilot.pdf) de J.-B. Berthoux
 
-##Comparaison ChatGPT Team - Copilot Pro
+## Qu'est-ce que Copilot ?
+- Microsoft Copilot est un chatbot développé par Microsoft
+- Initialement lancé le 7 février 2023 sous le nom de "Bing Chat"
+- modèle Microsoft Prometheus construit sur GPT-4 d'OpenAI
+- intégration dans la suite Office 365 (Copilot Pro)
+
+## Exemples de cas d'usage
+
+- générer des idées
+- corriger et écrire
+- vulgariser un concept
+- traduire des textes
+- aide au code/Excel
+- aide à la réflexion
+
+
+
+## Comparaison ChatGPT Team - Copilot Pro
 
 ChatGPT Team : 25 $/mois
 Copilot Pro :  30$/mois
