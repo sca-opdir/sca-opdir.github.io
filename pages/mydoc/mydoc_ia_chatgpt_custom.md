@@ -1,5 +1,5 @@
 ---
-title: ChatGPT Plus - custom GPTs
+title: ChatGPT - les GPTs personnalisés
 keywords: IA, IT, ChatGPT
 last_updated: June 18, 2024
 tags: [IA, chatGPT]
@@ -24,13 +24,18 @@ Par rapport à GPT-3.5 : multi-modal, plus de mémoire, plus long contexte, meil
 ## Les GPTs
 
 ### Créer des GPTs personnalisés
+
+![créer un GPT personnalisé](../../images/customGPT_cheatsheet.jpg "Créer un GPT").
+([source](https://acoustic-licorice-c24.notion.site/4-Que-sont-les-GPTs-10-exemples-4a332e3d18374515b838975848a3220e))
+
+Permet de créer des persona ; les voir comme des stagiaires.
+
+En entreprise : soit créer 1 GPT qui correspond à chaque type de poste ; ou créer 1 GPT par tâche
+
 GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities.
 
 Knowledge: allows you to upload files to give your GPT additional context beyond what the GPT-4 Turbo model already has
 Custom actions: For details, see the section on Connecting GPTs to third-party applications in this article or check the API documentation.
-
-
-## Créer des GPTs personnalisés
 
 https://openai.com/blog/introducing-gpts 
 
@@ -43,6 +48,19 @@ Donnez-lui un nom et une description pour votre futur GPT, puis des instructions
 
 Vous pouvez même intégrer des données du monde réel pour connecter votre GPT à une base de données externe, à une boîte de réception ou à un site d’e-commerce.
 https://www.zdnet.fr/guide-achat/avec-chatgpt-creez-vos-propres-gpt-personnalises-39962626.htm
+
+
+### Utiliser les GPTs personnalisés
+
+Commencer une conversation avec un GPT
+
+Appeler différents GPTs avec "@" dans une même conversation
+
+### Exemples de GPTs 
+
+- Whimsical Diagrams
+
+
 
 ### Custom GPTs pour l'OPDir
 
