@@ -36,4 +36,54 @@ Ensuite, organise ces informations de manière structurée et propose une struct
 
 ([source](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/4ab9ad2d-2bdb-4904-ba8c-b9e43924ca52/Inter_-_17_Juin_vf.pdf?id=ea0ab4a0-2f4b-4e8d-bbde-2733fb1275c6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718949600000&signature=_a3ZrDAE8lNMhhii9fF04jyETrRPj7W2iyWz-PPJPfM&downloadName=Inter+-+17+Juin_vf.pdf))
 
+
+## Exemples de types de tâches
+
+### "Classiques"
+
+**#1 - Générer des idées**
+
+Je suis un [profession]. J'ai besoin de générer des idées pour [un projet spécifique]. Pouvez-vous me proposer des idées créatives et innovantes en lien avec ce domaine ?
+
+**#2 - Corriger et écrire**
+
+Je dois rédiger/corriger [type de document]. Voici les détails : [détails du document]. Pouvez-vous m'aider à écrire/corriger ce texte en gardant un ton [professionnel/amical/formel]
+
+**#3 - Vulgariser un concept**
+
+Je dois expliquer [concept complexe] à [public cible]. Pouvez-vous simplifier ce concept pour le rendre compréhensible par [public cible] ?
+
+**#4 - Traduire des textes**
+
+J'ai besoin de traduire le texte suivant de [langue source] à [langue cible] : [texte]. Pouvez-vous m'aider à le traduire de manière précise tout en conservant le ton et le style du texte original ?
+
+**#5 - Aide au code / excel**
+
+Je travaille sur un projet de [langage de programmation] et j'ai besoin d'aide pour [description du problème ou de la tâche]. Voici le code actuel :  [code]. Pouvez-vous m'aider à résoudre ce problème/améliorer ce code ?
+
+**#6 - Aide à la réflexion**
+
+Je suis en train de réfléchir à [sujet spécifique] et j'ai besoin d'aide pour structurer mes idées et développer une réflexion approfondie. Pouvez-vous me guider dans cette réflexion en me posant des questions pertinentes et en proposant des angles d'approche ?
+
+
+### "Augmentées"
+
+**#7 - Analyse d'un fichier texte**
+
+J'ai un fichier texte qui contient une liste de tâches pour mon équipe. Pouvez-vous me proposer un moyen d'organiser ces tâches de manière efficace et rationnelle ?
+
+**#8 - Analyse d'une image**
+
+J'ai une image d'un organigramme que j'aimerais comprendre. Pouvez-vous analyser cette image et m'expliquer l’organisation de l’entreprise?
+
+**#9 - Recherche sur internet**
+
+Je travaille sur un projet lié à l'industrie des énergies renouvelables. Pouvez-vous effectuer une recherche sur internet pour trouver les dernières tendances et innovations dans ce domaine ?
+
+**#10 - Analyse d'un fichier Excel**
+
+J'ai un fichier Excel qui contient les données de vente de mon entreprise pour le dernier trimestre. Pouvez-vous analyser ces données et me donner un aperçu de nos performances de vente ?
+
+([source](https://acoustic-licorice-c24.notion.site/1-Qu-est-ce-que-GPT-4o-4e4d1ef2b51645d0ac9c5e15cbcd5cb1))
+
 {% include links.html %}
