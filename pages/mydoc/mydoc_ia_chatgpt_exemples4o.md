@@ -19,6 +19,8 @@ folder: mydoc
 
 * Permet de soumettre des prompts "augmentées" : ajout d'images, fichiers excel à analyser, fichiers pdf/word/etc., connexion à internet
 
+([source](https://acoustic-licorice-c24.notion.site/1-Qu-est-ce-que-GPT-4o-4e4d1ef2b51645d0ac9c5e15cbcd5cb1))
+
 ## Exemples d'utilisation
 
 * **demander l'analyse d'un fichier excel** (ChatGPT utilise alors du code Python) : "Suppose que tu es un analyste de données et que tu dois analyser les résultats d'une enquête de satisfaction client.
@@ -32,6 +34,6 @@ D'abord, analyse le rapport de recherche fourni dans le fichier PDF 'rapport IA'
   Commence par faire des recherches en ligne pour trouver les interviews pertinentes. Utilise les ressources trouvées pour identifier les points clés, les citations importantes et les faits saillants.
 Ensuite, organise ces informations de manière structurée et propose une structure pour ton article, incluant un titre accrocheur, une introduction, le corps de l'article et une conclusion".
 
-[Source](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/4ab9ad2d-2bdb-4904-ba8c-b9e43924ca52/Inter_-_17_Juin_vf.pdf?id=ea0ab4a0-2f4b-4e8d-bbde-2733fb1275c6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718949600000&signature=_a3ZrDAE8lNMhhii9fF04jyETrRPj7W2iyWz-PPJPfM&downloadName=Inter+-+17+Juin_vf.pdf)
+([source](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/4ab9ad2d-2bdb-4904-ba8c-b9e43924ca52/Inter_-_17_Juin_vf.pdf?id=ea0ab4a0-2f4b-4e8d-bbde-2733fb1275c6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718949600000&signature=_a3ZrDAE8lNMhhii9fF04jyETrRPj7W2iyWz-PPJPfM&downloadName=Inter+-+17+Juin_vf.pdf))
 
 {% include links.html %}
