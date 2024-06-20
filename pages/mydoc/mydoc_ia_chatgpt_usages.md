@@ -14,7 +14,27 @@ folder: mydoc
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
  * Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
 
-Le plus important : passer de la théorie à la pratique !
+# Le plus important : passer de la théorie à la pratique !
+
+## Installer ChatGPT 
+
+[guide](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/efbbfc80-2e9c-41d3-806d-5b9f5b483b10/guide_dinstallation_.pdf?id=235adcc7-03b9-44cc-8e6e-d18fabe0a6d6&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718956800000&signature=9My37wHP6MgzI9wLusxxuPoRrZx7edSCP3kxeVxvGqc&downloadName=guide+d%27installation+.pdf) par J.-B. Berthoux 
+
+## Configurer ChatGPT : "Customize ChatGPT"
+
+Template du GPT [Anna - Instructions personnalisées](https://chatgpt.com/g/g-XRHm1CIvc-anna-instructions-personnalisees) 
+
+Voici les templates d'instructions personnalisées :
+
+"""
+Template "What would you like ChatGPT to know about you to provide better responses?"
+
+Je m'appelle [Nom et Prénom] et je suis localisé à [Localisation]. Mon métier consiste à être [Métier]. Mes principaux loisirs et centres d'intérêt incluent [Loisirs et centres d'intérêt]. En matière de lecture, je suis passionné par [Types de lecture]. Les sujets qui m'intéressent particulièrement incluent [Sujets d'intérêt]. Mes objectifs professionnels et personnels en ce moment sont : [Objectifs]
+
+Template "How would you like ChatGPT to respond?"
+
+Je préfère que tu d’adresses à moi de manière [formelle/informelle] et que tu utilises [le tutoiement/le vouvoiement]. Concernant la longueur des réponses, je veux que ça soit [concis/long et détaillé].
+ [J’apprécie que tu te donnes tes opinions/Je veux que tu restes neutre]."""
 
 ## A quoi peut servir ChatGPT ?
 
