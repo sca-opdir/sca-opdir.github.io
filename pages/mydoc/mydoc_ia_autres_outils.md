@@ -32,8 +32,8 @@ Quelques [généralités](https://academieweb3.com/comment-utiliser-lia/) sur l'
 [Udio](https://www.udio.com/) : pour créer de la musique
 
 
-[Perplexity](https://www.perplexity.ai/) : moteur de recherche alimenté par les grands modèles de langage 
- de J.-B. Berthoux sur l'utilisation de perplexity
+[Perplexity](https://www.perplexity.ai/) : moteur de recherche alimenté par les grands modèles de langage ; n'a pas de modèle publicitaire comme sur Google et les réseaux sociaux !
+ ([guide](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/2fe220eb-f999-4c18-970d-582477bfb7a5/Carroussel_-_Perplexity.pdf?id=15749505-4bb0-4cd2-af9e-83a46b3541f7&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718956800000&signature=xj3rOwQt5RPjUjouERXMX1RtaSSn2y9QyMiwDO6q_po&downloadName=Carroussel+-+Perplexity.pdf) de J.-B. Berthoux sur l'utilisation de Perplexity) ; on peut attacher des documents, choisir de se focaliser sur un type de sources (par ex. YouTube, Reddit, etc.)
 
 
 ## Analyse / recherche d'informations
