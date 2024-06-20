@@ -76,6 +76,10 @@ entries:
     - title: Copilot
       url: /IA_Copilot.html
       output: web
+
+    - title: HuggingFace
+      url: /IA_HuggingFace.html
+      output: web
           
     - title: Autres outils
       url: /IA_autres_outils.html
