@@ -9,6 +9,17 @@ permalink: IA_enEntreprise.html
 folder: mydoc
 ---
 
+
+Quelques [observations et conseils](https://academieweb3.com/comment-integrer-lia-en-entreprise) de J.-B. Berhtoux 
+
+* Gain d'efficacité indéniable pour les entreprises grâce à l'IA. Selon une étude conjointe du MIT et Stanford, ChatGPT améliore la productivité de 14% en moyenne, soit environ 1h par jour ; avec certaines applications IA, le gain peut même bondir jusqu’à 56% sur certaines tâches.
+* 80% des professionnels n’ont pas le temps de rédiger des prompts ou de créer des chatbots personnalisés.
+* Il faut montrer le bénéfice de l'IA en entrant par l'usage. 
+* Pour intégrer l'IA en entreprise, créer un portail IA avec [Zapier Interface](https://zapier.com/interfaces) où chaque employé pourra sélectionner un chatbot pour l'aider sur des tâches précises.
+
+
+
+
 ordées dans le prochain chapitre.
 7.	IA et monde du travail
 
