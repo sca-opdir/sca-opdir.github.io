@@ -77,7 +77,7 @@ entries:
       url: /IA_Copilot.html
       output: web
 
-    - title: HuggingFace
+    - title: Hugging Face
       url: /IA_HuggingFace.html
       output: web
           
