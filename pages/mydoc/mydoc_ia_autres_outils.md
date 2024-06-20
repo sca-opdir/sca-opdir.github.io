@@ -21,7 +21,15 @@ folder: mydoc
 ... et encore beaucoup d'autres ! Liste d'outils IA continuellement mise à jour : [Always Up-to-date AI Tools Database](https://dev-share.clickup.com/9805000210/gr/h/946rvgj-16/6be1ba8fcf3f101?_gl=1*xghqd4*_gcl_au*MTQ2MzY3OTY5MS4xNzAyMTEyNjQx)
 
 
+Quelques [généralités](https://academieweb3.com/comment-utiliser-lia/) sur l'utilisation d'outils d'IA par J.-B. Berthoux
+
+
 https://www.taskade.com/
+
+[guide](https://file.notion.so/f/f/e0c4cd4c-5dcc-4d82-b312-433753e87d14/b9733a15-6093-47d8-8528-93f41e95138b/Caroussel_-_Faire_une_BD.pdf?id=74cdea7a-09c0-41a9-9e40-3f5552ade256&table=block&spaceId=e0c4cd4c-5dcc-4d82-b312-433753e87d14&expirationTimestamp=1718956800000&signature=QaCOtUIALbNIlDvGZ9wgBoruY9pPEPuZer90OQmriMc&downloadName=Caroussel+-+Faire+une+BD.pdf) de J.-B. Berthoux pour réaliser une BD à l'aide de Midjourney
+
+[Udio](https://www.udio.com/) : pour créer de la musique
+
 
 ## Analyse / recherche d'informations
 
