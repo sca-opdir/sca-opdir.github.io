@@ -100,7 +100,39 @@ ChatGPT et no-code pas toujours suffisant -> RAG, etc.
 - résistance des employés
 - erreurs et difficultés en perspective
 
+[Notes](https://preview.mailerlite.com/p1e1j1s1k6/2509370773353797788/q1w9/) de J.-B. Berhtoux 
 
+Les experts sont les plus à même de rédiger des prompts complexes et efficaces pour les tâches qu'ils connaissent. Une approche du haut (direction) vers le bas (employé) ne sera pas suffisante pour la succès d'une stratégie d'IA générative. 
+
+Condition : avoir Chat GPT Team ou une interface interne avec des assistants. 
+1. **Analyse rapide de l'organisation**
+* <u>Objectif</u> : comprendre la structuration de l'organisation et identifier les pôles clés.
+* <u>Étape</u> : analyser les départements tels que : 
+    - Formation et Ressources Humaines (RH)
+    - Marketing et Communication
+* <u>Action</u> : identifier les tâches et processus dans chaque pôle où les IA peuvent apporter une valeur ajoutée.
+
+2. **Création rapide des assistants de base**
+* <u>Objectif</u> : développer rapidement des prompts pour les assistants IA.
+* <u>Méthode</u> : utiliser un framework pour créer des prompts spécifiques à chaque tâche identifiée.
+* <u>Action</u> : déployer ces prompts en utilisant les GPTs avec Chat GPT Team pour fournir des solutions clé en main aux équipes.
+
+3. **Adoption et utilisation des outils**
+* <u>Objectif</u> : permettre aux équipes de s'approprier et d'utiliser les nouveaux outils IA.
+* <u>Étape</u> : les équipes commencent à utiliser les assistants IA pour leurs tâches quotidiennes.
+* <u>Action</u> : observation et collecte de feedback sur l'efficacité des assistants IA.
+  
+4. **Intervention des experts pour amélioration**
+* <u>Objectif</u> : améliorer les assistants IA de base avec l'expertise spécifique.
+* <u>Participants</u> : réunir les experts de chaque tâche à valeur ajoutée 
+* <u>Méthode</u> : 
+    - Chaque expert travaille sur l'assistant IA de base dans son domaine.
+    - Exemple : Un expert en annonce d'emploi améliore l'assistant pour les annonces d'emploi ; un tuteur expérimenté peaufine l'assistant pour le tutorat ; un spécialiste de LinkedIn perfectionne l'assistant pour les posts LinkedIn.
+
+5. **Création de custom app si besoin**
+* <u>Approche</u> : Sur une sélection de use case à fort ROI, créez des custom apps 
+* <u>Action</u> : Si les assistants IA sont jugés limités, l'IT créé des solutions customisées pour répondre aux besoins spécifiques.
+* <u>Étape</u> : Mise en production des solutions customs et boucle de rétroaction avec feedback des utilisateurs 
 
 Quelques [observations et conseils](https://academieweb3.com/comment-integrer-lia-en-entreprise) de J.-B. Berhtoux 
 
