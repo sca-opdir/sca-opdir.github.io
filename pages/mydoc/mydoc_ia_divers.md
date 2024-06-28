@@ -9,6 +9,17 @@ permalink: IA_divers.html
 folder: mydoc
 ---
 
+
+## A suivre
+
+(non exhaustif)
+
+* IA dans le [canton de Zurich](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/kuenstliche-intelligenz.html), dont repo [GitHub](https://github.com/machinelearningZH)
+* [ParlDebateScanner](https://parldebatescanner.org/) in a Nutshell [source code](https://github.com/JohannesHool/parldebatescanner-in-a-nutshell)
+* [Swiss OSS benchmarks](https://ossbenchmark.com/) : Ranking of Swiss Institutions/Repo/People Releasing Open Source Software
+* [Atlas of automation](https://algorithmwatch.ch/en/atlas-of-automation/) par AlgorithmWatch
+
+
 ## Ressources en ligne
 
 (non exhaustif)
