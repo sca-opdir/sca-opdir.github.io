@@ -14,7 +14,7 @@ folder: mydoc
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
  * Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)
 
-# Le plus important : passer de la théorie à la pratique !
+### Le plus important : passer de la théorie à la pratique !
 
 ## Installer ChatGPT 
 
@@ -131,13 +131,13 @@ Je suis en train de réfléchir à [sujet spécifique] et j'ai besoin d'aide pou
 9. Check if a number is prime
 10. Find the greatest common divisor of two numbers
 11. Sort a list of numbers in ascending or descending order
-12. Find the sum of numbers in a list a
+12. Find the sum of numbers in a list
 13. Check if a string is a palindrome a
 14. Find the length of a list
 15. Search for a given item in a list
 16. Remove duplicates from a list
 17. Merge two lists
-18. Shuffle a list a of items
+18. Shuffle a list of items
 19. Find the minimum or maximum item in a list
 20. Check if a given year is a leap year
 21. Calculate the factorial of a number
@@ -182,11 +182,15 @@ Je suis en train de réfléchir à [sujet spécifique] et j'ai besoin d'aide pou
 -	une automatisation est-elle envisageable ?
 -	quel est le niveau de risque ?
 
+
+
 ## Autres lectures
 
 * [Améliorer les performances administratives grâce à l’Intelligence Artificielle](https://www.esas-formation.fr/actualites/intelligence-artificielle-taches-administratives)
 * [https://www.webotit.ai/blog/un-guide-complet-sur-lutilisation-de-chatgpt-pour-les-entreprises](https://www.webotit.ai/blog/un-guide-complet-sur-lutilisation-de-chatgpt-pour-les-entreprises)
 * [Einsatz Künstlicher Intelligenz in der Verwaltung: rechtliche und ethische Fragen](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/politik-staat/kanton/digitale-verwaltung-und-e-government/projekte_digitale_transformation/ki_einsatz_in_der_verwaltung_2021.pdf) (rapport mandaté par le canton de Zurich, 2021)
+* [The ChatGPT list of lists: A collection of 3000+ prompts, GPTs, use-cases, tools, APIs, extensions, fails and other resources](https://medium.com/@maximilian.vogel/the-chatgpt-list-of-lists-a-collection-of-1500-useful-mind-blowing-and-strange-use-cases-8b14c35eb).
+
 
 
 {% include links.html %}
