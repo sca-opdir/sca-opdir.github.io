@@ -19,6 +19,7 @@ folder: mydoc
 * [Swiss OSS benchmarks](https://ossbenchmark.com/) : Ranking of Swiss Institutions/Repo/People Releasing Open Source Software
 * [Atlas of automation](https://algorithmwatch.ch/en/atlas-of-automation/) par AlgorithmWatch
 * DemoSquare github account with [swissparly](https://github.com/DemoSquare/swissparlpy) python package for connecting [swiss parlament API](https://ws.parlament.ch/odata.svc)
+* Mistral jupyter cookbooks ([github](https://github.com/mistralai/cookbook/blob/main)) 
 
 ## Ressources en ligne
 
@@ -34,8 +35,9 @@ https://acoustic-licorice-c24.notion.site/Guide-Complet-Utiliser-GPT-4o-en-milie
 
 ## Vidéos
 
-* Institut Public Sector Transformation (IPST) [You Tube](https://www.youtube.com/@IPST_BFH) TRANSFORM Vidéos
-
+* Institut Public Sector Transformation (IPST) [You Tube](https://www.youtube.com/@IPST_BFH) Vidéos (e.g. TRANSFORM conférences)
+* [DataScientest](https://www.youtube.com/watch?v=RqZdJyP85NQ&ab_channel=DataScientest) Youtube webinars (e.g. IA dans PowerBI)
+* [ENI](https://www.youtube.com/@EditionsENI/videos) Youtube webinars (e.g. Copilot Pro)
 
 ## Audio
 
