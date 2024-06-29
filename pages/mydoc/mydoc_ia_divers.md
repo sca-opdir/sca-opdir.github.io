@@ -18,7 +18,7 @@ folder: mydoc
 * [ParlDebateScanner](https://parldebatescanner.org/) in a Nutshell [source code](https://github.com/JohannesHool/parldebatescanner-in-a-nutshell)
 * [Swiss OSS benchmarks](https://ossbenchmark.com/) : Ranking of Swiss Institutions/Repo/People Releasing Open Source Software
 * [Atlas of automation](https://algorithmwatch.ch/en/atlas-of-automation/) par AlgorithmWatch
-
+* DemoSquare github account with [swissparly](https://github.com/DemoSquare/swissparlpy) python package for connecting [swiss parlament API](https://ws.parlament.ch/odata.svc)
 
 ## Ressources en ligne
 
