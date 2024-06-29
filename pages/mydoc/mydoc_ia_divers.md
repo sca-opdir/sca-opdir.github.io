@@ -32,6 +32,10 @@ https://github.com/mistralai/cookbook/tree/main
 
 https://acoustic-licorice-c24.notion.site/Guide-Complet-Utiliser-GPT-4o-en-milieu-professionnel-0657016ce3b34ae6add98af012b11850
 
+## Vidéos
+
+* Institut Public Sector Transformation (IPST) [You Tube](https://www.youtube.com/@IPST_BFH) TRANSFORM Vidéos
+
 
 ## Audio
 
