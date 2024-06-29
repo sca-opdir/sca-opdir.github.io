@@ -119,4 +119,10 @@ entries:
     - title: Exemples
       url: /PowerBI_reports.html
       output: web
-      
+
+  - title: Autres
+    output: web
+    folderitems:
+    - title: Divres outils IT
+      url: /autres_outil_IT.html
+      output: web
