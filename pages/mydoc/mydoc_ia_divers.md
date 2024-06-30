@@ -1,7 +1,7 @@
 ---
 title: Divers
 keywords: IA, IT
-last_updated: December 3, 2023
+last_updated: June 30, 2024
 tags: [IA]
 summary: "un peu de recul..."
 sidebar: mydoc_sidebar
