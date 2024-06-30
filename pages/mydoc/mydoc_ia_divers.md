@@ -3,7 +3,7 @@ title: Divers
 keywords: IA, IT
 last_updated: June 30, 2024
 tags: [IA]
-summary: "un peu de recul..."
+summary: "autres infos et sujets divers"
 sidebar: mydoc_sidebar
 permalink: IA_divers.html
 folder: mydoc
@@ -20,7 +20,12 @@ folder: mydoc
 * [Atlas of automation](https://algorithmwatch.ch/en/atlas-of-automation/) par AlgorithmWatch
 * DemoSquare github account with [swissparly](https://github.com/DemoSquare/swissparlpy) python package for connecting [swiss parlament API](https://ws.parlament.ch/odata.svc)
 * Mistral jupyter cookbooks ([github](https://github.com/mistralai/cookbook/blob/main)) 
-* [Building an Agent for Data Visualization (Plotly)](https://medium.com/firebird-technologies/building-an-agent-for-data-visualization-plotly-39310034c4e9)
+
+## RAG and agents
+
+* [Building an Agent for Data Visualization (Plotly)](https://medium.com/firebird-technologies/building-an-agent-for-data-visualization-plotly-39310034c4e9) (with code source examples)
+* [Implementing Agentic RAG using Langchain](https://medium.com/the-ai-forum/implementing-agentic-rag-using-langchain-b22af7f6a3b5) (with code source examples)
+
 
 ## Ressources en ligne
 
