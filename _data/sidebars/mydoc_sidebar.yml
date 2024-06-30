@@ -124,5 +124,5 @@ entries:
     output: web
     folderitems:
     - title: Divres outils IT
-      url: /autres_outil_IT.html
+      url: /autres_outils_IT.html
       output: web
