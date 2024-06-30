@@ -20,6 +20,7 @@ folder: mydoc
 * [Atlas of automation](https://algorithmwatch.ch/en/atlas-of-automation/) par AlgorithmWatch
 * DemoSquare github account with [swissparly](https://github.com/DemoSquare/swissparlpy) python package for connecting [swiss parlament API](https://ws.parlament.ch/odata.svc)
 * Mistral jupyter cookbooks ([github](https://github.com/mistralai/cookbook/blob/main)) 
+* [Building an Agent for Data Visualization (Plotly)](https://medium.com/firebird-technologies/building-an-agent-for-data-visualization-plotly-39310034c4e9)
 
 ## Ressources en ligne
 
