@@ -13,6 +13,8 @@ folder: mydoc
 
 * Schéma de bases de données avec [dbdiagram ](https://www.dbdiagram.io/home)
 * Diagrammes avec [draw.io](https://draw.io/)
+* Outil de collaboration et diagrammes [Figma/Figjam](https://www.figma.com/fr-fr/figjam/diagramming-tool/)
+* Diagrammes "hand-like drawn" avec [Excalidraw](https://excalidraw.com/) (i.a. syntaxe Mermaid) 
 
 
 {% include links.html %}
