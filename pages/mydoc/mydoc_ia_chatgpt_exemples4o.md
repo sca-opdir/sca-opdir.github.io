@@ -21,6 +21,14 @@ folder: mydoc
 
 ([source](https://acoustic-licorice-c24.notion.site/1-Qu-est-ce-que-GPT-4o-4e4d1ef2b51645d0ac9c5e15cbcd5cb1))
 
+## Exemples de prompt
+
+crée un arbre de décision pour la procédure décrite ci-dessous [décrire la procédure, par exemple de demande d'inscription tardive]
+[...]
+génère un code Mermaid pour cet arbre de décision
+[...]
+-> copier/coller le code Mermaid dans un outil de dessin de diagramme, par exemple Excalidraw
+
 ## Exemples d'utilisation
 
 * **demander l'analyse d'un fichier excel** (ChatGPT utilise alors du code Python) : "Suppose que tu es un analyste de données et que tu dois analyser les résultats d'une enquête de satisfaction client.
