@@ -31,7 +31,7 @@ sup_dt = pd.DataFrame.spatial.from_featureclass(fc_path)
 ##### Webmap
 
 
-Customize map style with [Arcade expressions](https://github.com/Esri/arcade-expressions)
+Customize map style with [Arcade expressions](https://github.com/Esri/arcade-expressions) (voir [documentation](https://learn.arcgis.com/fr/paths/try-arcade/))
 
 
 
