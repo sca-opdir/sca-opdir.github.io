@@ -28,5 +28,11 @@ sup_dt = pd.DataFrame.spatial.from_featureclass(fc_path)
 ```
 
 
+##### Webmap
+
+
+Customize map style with [Arcade expressions](https://github.com/Esri/arcade-expressions)
+
+
 
 {% include links.html %}
