@@ -14,6 +14,7 @@ folder: mydoc
 
 (non exhaustif)
 
+* IA [Appenzell Innerrhoden](https://www.ai.ch/themen/staat-und-recht/digitale-verwaltung/verzeichnis-algorithmischer-systeme)
 * IA dans le [canton de Zurich](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/kuenstliche-intelligenz.html), dont repo [GitHub](https://github.com/machinelearningZH)
 * [ParlDebateScanner](https://parldebatescanner.org/) in a Nutshell [source code](https://github.com/JohannesHool/parldebatescanner-in-a-nutshell)
 * [Swiss OSS benchmarks](https://ossbenchmark.com/) : Ranking of Swiss Institutions/Repo/People Releasing Open Source Software
