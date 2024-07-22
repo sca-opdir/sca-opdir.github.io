@@ -164,6 +164,14 @@ Quelques [observations et conseils](https://academieweb3.com/comment-integrer-li
 ![Exemple d'utilisation en entreprise 4](../../images/JBB_exemples4.png "ChatGPT en entreprise 4").
 
 
+## Divers
+
+[Qu'apporte réellement l'IA?](https://www.pme.ch/business/2024/07/15/quapporte-reellement-lia-730319?utm_source=alert&utm_campaign=topic-alert&utm_medium=email) (PME Magazine, 15.07.2024)
+
+
+
+
+
 7.	IA et monde du travail
 
 Comme toute innovation technologique, l'arrivée de l'IA dans le champ professionnel impacte le monde du travail. Et là où les (r)évolutions technologiques précédentes chamboulaient les rôles et les activités des êtres humains, l'IA atteint « son identité propre : son intelligence » (Côté et Su 2021). Si l'automatisation par les machines « a remplacé le labeur humain, l'automatisation numérique tend à se substituer à la pensée humaine et au traitement de l'information » (Côté et Su 2021). Mais l'IA pourrait envahir notre quotidien professionnel sans affecter la productivité et la performance économique des entreprises, comme l'ont fait les ordinateurs (paradoxe de Solow ; Mougeot 2023).
