@@ -15,8 +15,9 @@ folder: mydoc
 * Conférence InnoVibes de S. Lendi
 * [*6 stratégies d'openAI pour obtenir de meilleurs résultats*](https://platform.openai.com/docs/guides/prompt-engineering)
 * [*7 conseils Zdnet*](https://www.zdnet.com/article/7-advanced-chatgpt-prompt-writing-tips-you-need-to-know)
-* *<https://www.promptingguide.ai>
-* 
+* <https://www.promptingguide.ai>
+* <https://www.linkedin.com/in/jean-baptiste-berthoux>
+
 ## Eléments-clés du prompt
 
 * contexte
