@@ -1,7 +1,7 @@
 ---
 title: ChatGPT - prompt engineering et bonnes pratiques
 keywords: IA, IT, ChatGPT
-last_updated: July 3, 2016
+last_updated: December 21, 2024
 tags: [IA]
 summary: "Conseils de prompt engineering"
 sidebar: mydoc_sidebar
@@ -221,6 +221,105 @@ Nombre de tokens que ChatGPT peut traiter est limité ; plus la conversation ava
 
 * Disponible dans Paramètres (Settings)/Fonctionnalités bêta (Beta features)
 * Permet de spécifier un contexte comme base pour toutes les conversations (sans devoir le remettre à chaque nouvelle discussion)
+
+## "Guide ultime" (newsletter JB Berthoux)
+
+1. La clarté est ta meilleure amie
+
+Premier principe fondamental : plus tu es précis dans tes demandes, meilleurs seront les résultats.
+Voici des exemples concrets selon ton métier :
+Pour les RH :
+❌ "Écris une offre d'emploi"
+✅ "Écris une offre d'emploi pour un poste de responsable marketing digital junior à Paris, mettant l'accent sur les compétences en analytics et réseaux sociaux, avec un budget entre 35-40K€, pour une startup en forte croissance dans la FoodTech"
+Pour le marketing :
+❌ "Fais-moi un plan marketing"
+✅ "Développe un plan marketing digital sur 6 mois pour le lancement d'une application mobile de méditation, ciblant les cadres stressés de 30-45 ans en région parisienne, avec un budget de 50K€"
+Pour les ventes :
+❌ "Écris un email de prospection"
+✅ "Rédige un email de prospection B2B pour vendre des solutions de cybersécurité à des DSI d'entreprises de 500+ employés, en mettant l'accent sur la conformité RGPD"
+Pour les développeurs :
+❌ "Comment optimiser mon code"
+✅ "Comment optimiser la performance d'une application React Native qui gère 10 000 utilisateurs simultanés, en se concentrant sur la gestion du state et la mise en cache"
+
+
+2. Montre des exemples à l'IA
+
+C'est ce qu'on appelle le "few-shot prompting". En gros, tu donnes des exemples de ce que tu veux et de ce que tu ne veux pas. C'est comme former un nouveau collègue !
+Exemples concrets :
+Pour les RH :
+"Voici deux exemples d'entretiens annuels réussis et deux exemples d'entretiens mal conduits. Génère un guide d'entretien en suivant les bonnes pratiques des exemples positifs"
+Pour le marketing :
+"Voici trois posts LinkedIn qui ont bien performé dans notre secteur, et deux qui n'ont pas fonctionné. Crée 5 nouveaux posts en t'inspirant des éléments qui ont fait le succès des premiers"
+Pour les ventes :
+"Je te partage trois scripts d'appels qui ont abouti à des rendez-vous et deux qui ont échoué. Aide-moi à identifier les patterns gagnants et à créer un nouveau script"
+Pour les développeurs :
+"Voici deux façons de structurer une API REST : une qui scale bien et une qui pose des problèmes de performance. Aide-moi à concevoir une nouvelle API en suivant les principes de la première approche"
+
+3. Guide l'IA pas à pas
+
+Imagine que tu expliques quelque chose à un nouveau stagiaire brillant. Tu ne lui présentes pas tout d'un coup, tu structures ta pensée.
+Exemples pratiques :
+Pour les RH :
+"Pour créer un plan de formation :
+1. Analyse les besoins actuels de l'entreprise
+2. Identifie les compétences manquantes
+3. Propose un calendrier sur 12 mois
+4. Estime le budget nécessaire
+5. Suggère des indicateurs de succès"
+Pour le marketing :
+"Pour analyser notre présence sur les réseaux sociaux :
+1. Examine nos metrics des 6 derniers mois
+2. Compare avec 3 concurrents principaux
+3. Identifie les posts les plus performants
+4. Analyse les horaires optimaux de publication
+5. Propose une stratégie d'amélioration"
+
+4. Donne du contexte, beaucoup de contexte
+
+L'IA n'est pas dans ta tête (heureusement !). Plus tu lui donnes de contexte, plus elle comprend ton environnement.
+Exemples concrets :
+Pour les RH :
+"Tu es DRH dans une scale-up de 200 personnes en forte croissance dans le secteur de la FinTech. Notre turnover a augmenté de 15% cette année. Aide-moi à élaborer un plan de rétention des talents"
+Pour le marketing :
+"Tu es consultant en growth marketing spécialisé dans le SaaS B2B. Notre CAC actuel est de 1000€ et notre LTV de 3000€. Comment optimiser notre funnel d'acquisition ?"
+Pour les ventes :
+"Tu es directeur commercial d'une entreprise de services IT. Notre cycle de vente moyen est de 6 mois et notre ticket moyen de 50K€. Comment accélérer notre cycle de vente ?"
+Pour les développeurs :
+"Tu es architecte logiciel senior spécialisé en systèmes distribués. Notre application monolithique commence à montrer ses limites avec 100K utilisateurs. Guide-moi dans la transition vers une architecture microservices"
+
+5. Utilise la patience infinie de l'IA
+   
+C'est un de mes secrets préférés : l'IA ne se fatigue JAMAIS. Elle ne va pas lever les yeux au ciel si tu lui demandes 20 variations du même truc.
+Exemples pratiques :
+* RH : Demande 20 façons différentes de formuler un feedback constructif
+* Marketing : Génère 30 variations d'accroches publicitaires. Crée la version 10 de cette accroche 80% plus bizarre. 
+* Ventes : Crée 15 versions d'un même pitch pour différents profils
+* Développement : Explore 10 approches pour résoudre un problème technique
+
+6. Fais de l'IA ton partenaire de réflexion
+   
+L'IA n'est pas juste une machine à réponses, c'est un excellent sparring partner pour affiner tes idées. Tu peux le voir en discutant avec mon GPT Alma, Coach Socratique. 
+Exemples pratiques :
+* RH : Débats des pour et contre du recrutement 100% remote
+* Marketing : Explorer différentes stratégies de content marketing
+* Ventes : Simuler des scénarios de négociation complexes
+* Développement : Discuter des implications architecturales
+
+7. Commence par tes domaines d'expertise
+   
+C'est mon conseil le plus important : démarre avec ce que tu connais. Tu pourras mieux juger la qualité des réponses et affiner tes prompts.
+
+8. Autorise l'IA à dire "je ne sais pas"
+    
+Il y a un un prompt que tu peux utiliser pour réduire le risque d’erreur : 
+« Si tu n’es pas sûr de l’information que tu vas donner, réponds moi en disant : « je n’ai pas assez d’information pour répondre à ta question » 
+Ce n’est pas un garde fou qui est 100% fiable, mais l’astuce est donnée par Anthropic dans cet article : https://lnkd.in/gGFc72U
+Exemples :
+* RH : "Si tu as des doutes sur certains aspects légaux, dis-le moi"
+* Marketing : "Si tu manques de données pour une recommandation précise, signale-le"
+* Ventes : "N'hésite pas à me demander plus de contexte si nécessaire"
+* Dev : "Si plusieurs approches sont possibles, présente les différentes options"
+
 
 ## Mots-types pour construire un prompte
 
