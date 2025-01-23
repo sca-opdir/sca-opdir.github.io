@@ -1,11 +1,11 @@
 ---
-title: R snippets
-tags: [R, programming]
+title: BI : autres infos
+tags: [BI]
 last_updated: February 21, 2024
-keywords: R, programming
-summary: "codes R fréquemment utilisés"
+keywords: BI
+summary: "trucs et astuces & autres infos BI"
 sidebar: mydoc_sidebar
-permalink: R_snippets.html
+permalink:BI_autres_infos.html
 folder: mydoc
 ---
 
