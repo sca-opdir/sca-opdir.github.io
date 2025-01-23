@@ -1,6 +1,6 @@
 ---
 title: SAP webi
-keywords: IA, LLM, TAL
+keywords: BI
 last_updated: June 18, 2024
 tags: [BI]
 summary: "diverses infos sur SAP webi"
