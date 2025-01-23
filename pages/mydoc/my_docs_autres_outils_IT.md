@@ -1,13 +1,17 @@
 ---
 title: Autres outils IT
 keywords: IT
-last_updated: June 29, 2024
+last_updated: January 23, 2025
 tags: [IA]
 summary: "autres outils informatiques utiles"
 sidebar: mydoc_sidebar
 permalink: autres_outils_IT.html
 folder: mydoc
 ---
+
+### Bureautique
+* Conversion de doc en docx (application c#) et modification en masse de docx (via XML) 
+
 
 ### Graphiques / illustrations / diagrammes
 
