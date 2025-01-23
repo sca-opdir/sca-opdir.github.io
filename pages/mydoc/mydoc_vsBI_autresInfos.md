@@ -2,10 +2,10 @@
 title: SAP webi
 keywords: IA, LLM, TAL
 last_updated: June 18, 2024
-tags: [IA, LLM, TAL]
-summary: "Introdution sur le traitement automatique des langues (TAL)"
+tags: [BI]
+summary: "diverses infos sur SAP webi"
 sidebar: mydoc_sidebar
-permalink: LLM_TAL_intro.html
+permalink: SAPwebi_autres_infos.html
 folder: mydoc
 ---
 
