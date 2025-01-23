@@ -9,7 +9,7 @@ permalink: Python_snippets.html
 folder: mydoc
 ---
 
-{% include note.html content="Ne sont pas disponibles en lignes, usage offline uniquement" %}
+{% include note.html content="Davantage de snippets sure git.vs.ch" %}
 
 
 
