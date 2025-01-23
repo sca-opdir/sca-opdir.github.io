@@ -1,5 +1,5 @@
 ---
-title: BI : autres infos
+title: BI - autres infos
 tags: [BI]
 last_updated: February 21, 2024
 keywords: BI
