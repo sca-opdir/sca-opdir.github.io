@@ -17,6 +17,10 @@ folder: mydoc
 
 * Exploration des catalogues SIPA
 
+* pdir-calculator : calcul des contributions à partir des données de surfaces
+
+* pdir-simulator : simulation paiements directs pour une exploitation donnée à partir des données actuelles
+
 * Conversion fichiers BBS wide2long [TODO : à débugger ??]
 
 ##### Contrôles 
@@ -27,7 +31,7 @@ folder: mydoc
 
 ##### Taxation/Admin
 
-* Génération texte
+* Génération de texte pour les taxateurs
 
 
 
