@@ -9,7 +9,7 @@ permalink: R_snippets.html
 folder: mydoc
 ---
 
-{% include note.html content="Ne sont pas disponibles en lignes, usage offline uniquement" %}
+{% include note.html content="Davantage de snippets disponibles sur git.vs.ch" %}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 
