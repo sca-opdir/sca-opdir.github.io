@@ -9,7 +9,15 @@ permalink: autres_outils_IT.html
 folder: mydoc
 ---
 
+### Mendix
+
+* formulaire de demandes de dérogation à l'utilisation de pendillards
+  
+* application pour les contrôles des exploitations d'estivage (en cours)
+
+
 ### Bureautique
+
 * Conversion de doc en docx (application c#) et modification en masse de docx (via XML) 
 
 
