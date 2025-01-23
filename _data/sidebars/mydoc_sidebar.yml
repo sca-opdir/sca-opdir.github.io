@@ -120,6 +120,13 @@ entries:
       url: /PowerBI_reports.html
       output: web
 
+  - title: SAP webi
+    output: web
+    folderitems:
+    - title: Autres infos
+      url: /SAPwebi_autres_infos.html
+      output: web
+
   - title: Autres
     output: web
     folderitems:
