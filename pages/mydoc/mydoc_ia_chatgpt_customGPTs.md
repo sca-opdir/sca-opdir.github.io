@@ -1,7 +1,7 @@
 ---
 title: ChatGPT - les GPTs personnalisés
 keywords: IA, IT, ChatGPT
-last_updated: June 18, 2024
+last_updated: January 23, 2025
 tags: [IA, chatGPT]
 summary: "ChatGPT: customGPTs"
 sidebar: mydoc_sidebar
@@ -77,11 +77,13 @@ Lien :
 
 * GPT avec les [principales ordonnances (OPD, OTerm, OCCEA, OSIAgr)](https://chatgpt.com/g/g-x7lHJPugN-sca-oterm-osiagr-occea-opd-2024)
 
-* GPT avec les ordonnances Bio
+* GPT avec les [ordonnances Bio](https://chatgpt.com/g/g-hzozo3blj-sca-ordonnances-bio-obio-oab-oafg-oab-defr)
 
 * GPT avec le contenu spécifique de l'OPD pour les contributions à la [biodiversité](https://chatgpt.com/g/g-9pMPLGz8o-sca-opd-biodiversite), au [bien-être animal](https://chatgpt.com/g/g-QL8136ho3-sca-opd-bien-etre-animal) et les [PER](https://chatgpt.com/g/g-7Bt0Fxb1v-sca-opd-per)
 
 * GPT sur [l'agriculture et la biodiversité](https://chatgpt.com/g/g-5HdBQh98j-sca-agriculture-et-biodiversite) (fiches Agridea)
+
+* GPT sur les [marchés publics](https://chatgpt.com/g/g-67875d1a76c081919e72ecf74af52ec5-sca-marches-publics) 
 
 ##### Custom GPTs internes
 
