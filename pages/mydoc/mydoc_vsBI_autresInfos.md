@@ -59,3 +59,5 @@ Cette variable compare la longueur de chaque chaîne de caractères avec la long
 fusionner les dimensions, créer une nouvelle mesure -> attention à bien mettre comme détail de la dimension fusionnée
 
 [source](https://japprendslabi.fr/sap/sap-bi-web-intelligence-fiori/croiser-les-dimensions-issues-de-requetes-differentes-dans-un-meme-tableau/)
+
+[autre source](https://community.sap.com/t5/technology-blogs-by-sap/joining-data-from-two-queries-in-a-single-report-when-all-the-objects-are/ba-p/13114644)
