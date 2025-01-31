@@ -61,3 +61,5 @@ fusionner les dimensions, créer une nouvelle mesure -> attention à bien mettre
 [source](https://japprendslabi.fr/sap/sap-bi-web-intelligence-fiori/croiser-les-dimensions-issues-de-requetes-differentes-dans-un-meme-tableau/)
 
 [autre source](https://community.sap.com/t5/technology-blogs-by-sap/joining-data-from-two-queries-in-a-single-report-when-all-the-objects-are/ba-p/13114644)
+
+[autre source 2](https://community.sap.com/t5/technology-q-a/how-to-fetch-query-a-minus-query-b-in-webi-report-from-2-different-data/qaq-p/12251783)
