@@ -9,7 +9,7 @@ permalink: SAPwebi_autres_infos.html
 folder: mydoc
 ---
 
-Concaténation de chaines
+### Concaténation de chaines
 
 Par ex: pour agréger en concaténant City par State
 
@@ -41,7 +41,21 @@ Final_Cities  =NoFilter([Cities])
 
 7) Drag this Final_Cities to report & then hide the column City.
 
-Check your report you got your desired result.
+### (suite) Pour afficher 1 ligne par valeur concaténée + valeur concaténée
+à l'étape précédente, c'est seulement le rank 1 qui contient toutes les valeurs concaténées, il faut donc remplacer par la valeur qui les contient toutes au niveau d'agrégation souhaitée ; la variable que l'on veut donc afficher c'est celle qui a le plus de caractères
+1) Créer une variable pour calculer la longueur de chaque chaîne de caractères :
+=Length([concatNoParc])
+Cette variable calcule la longueur de chaque chaîne de caractères dans [concatNoParc].
+2) Créer une variable pour identifier la chaîne de caractères la plus longue :
+=If([LengthVar] = Max([LengthVar]) In ([clé_parcelle])) Then [concatNoParc]
+Cette variable compare la longueur de chaque chaîne de caractères avec la longueur maximale dans le contexte de [clé_parcelle] et retourne la chaîne de caractères correspondante si elle est la plus longue.
+3) Créer une mesure pour afficher la chaîne de caractères la plus longue :
+=Max([LongestStringVar]) In ([clé_parcelle])
 
-I hope this will help while developing reports.
 
+
+### Join et identifier les valeurs manquantes d'un côté et de l'autre
+
+fusionner les dimensions, créer une nouvelle mesure -> attention à bien mettre comme détail de la dimension fusionnée
+
+[source](https://japprendslabi.fr/sap/sap-bi-web-intelligence-fiori/croiser-les-dimensions-issues-de-requetes-differentes-dans-un-meme-tableau/)
