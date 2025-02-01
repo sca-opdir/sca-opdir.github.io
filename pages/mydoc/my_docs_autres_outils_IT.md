@@ -18,7 +18,7 @@ folder: mydoc
 
 ### Bureautique
 
-* Conversion de doc en docx (application c#) et modification en masse de docx (via XML) 
+* Conversion de doc en docx (application c#) et modification en masse de doc->docx (via XML) 
 
 
 ### Graphiques / illustrations / diagrammes
@@ -27,6 +27,7 @@ folder: mydoc
 * Diagrammes avec [draw.io](https://draw.io/)
 * Outil de collaboration et diagrammes [Figma/Figjam](https://www.figma.com/fr-fr/figjam/diagramming-tool/)
 * Diagrammes "hand-like drawn" avec [Excalidraw](https://excalidraw.com/) (i.a. syntaxe Mermaid) 
-
+* Visualisation de données avec [Observable](https://observablehq.com/) (voir [Observable framework](https://github.com/observablehq/framework))
+* Visualisation de données avec [RAWGraphs](https://www.rawgraphs.io/)
 
 {% include links.html %}
