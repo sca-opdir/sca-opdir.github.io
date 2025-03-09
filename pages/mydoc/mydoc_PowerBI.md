@@ -1,7 +1,7 @@
 ---
 title: PowerBI report examples
 tags: [PowerBI, viz]
-last_updated: February 21, 2024
+last_updated: March 09, 2025
 keywords: PowerBI, viz
 summary: "exemples PowerBI"
 sidebar: mydoc_sidebar
@@ -11,11 +11,7 @@ folder: mydoc
 
 {% include note.html content="Ne sont pas disponibles en lignes, usage offline uniquement" %}
 
-
-##### Exemples PowerBI
-
-
-
+Les rapports powerBI sont publiés à cette [adresse](https://powerbi.vs.ch/Reports/browse/Service%20cantonal%20de%20l'agriculture%20(SCA)) (usage interne uniquement).
 
 
 {% include links.html %}
