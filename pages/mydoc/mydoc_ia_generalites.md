@@ -1,7 +1,7 @@
 ---
 title: Généralités sur l'intelligence artificielle
 tags: [IA]
-last_updated: July 3, 2016
+last_updated: March 09, 2025
 keywords: IA, IT
 summary: "Généralités sur l'intelligence artificielle"
 sidebar: mydoc_sidebar
@@ -14,6 +14,10 @@ folder: mydoc
 * [*PME Magazine*](https://www.pme.ch/dossiers-et-hors-series/2023/09/19/comment-utiliser-lintelligence-artificielle-pour-doper-votre-entreprise-632768)
 * [*Novatix*](https://www.novatix.ch/services/intelligence-artificielle)
 * *Cours "Intelligence artificielle: Une perspective pragmatique pour professionnel-les non-spécialistes" (Prof. Di Marzo / Krebs / Friha, UNIGE)*
+
+[Deep Learning](https://www.deeplearningbook.org) MIT Press Book ([pdf](https://github.com/janishar/mit-deep-learning-book-pdf/tree/master))
+
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) 
 
 ## Définition
 
