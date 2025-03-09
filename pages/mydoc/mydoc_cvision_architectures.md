@@ -32,5 +32,9 @@ major differences
 1.	Architectures neuronales pour la vision par ordinateurs
 
 Vision transformer
+* [https://www.v7labs.com/blog/vision-transformer-guide](https://www.v7labs.com/blog/vision-transformer-guide)
+* [https://viso.ai/deep-learning/vision-transformer-vit/](https://viso.ai/deep-learning/vision-transformer-vit/)
 * [https://amaarora.github.io/posts/2021-01-18-ViT.html](https://amaarora.github.io/posts/2021-01-18-ViT.html)
-[https://tugot17.github.io/Vision-Transformer-Presentation](https://tugot17.github.io/Vision-Transformer-Presentation)
+* [https://tugot17.github.io/Vision-Transformer-Presentation](https://tugot17.github.io/Vision-Transformer-Presentation)
+* [https://medium.com/@hansahettiarachchi/unveiling-vision-transformers-revolutionizing-computer-vision-beyond-convolution-c410110ef061](https://medium.com/@hansahettiarachchi/unveiling-vision-transformers-revolutionizing-computer-vision-beyond-convolution-c410110ef061)
+* Article [AN IMAGE IS WORTH 16X16 WORDS](https://arxiv.org/pdf/2010.11929)
