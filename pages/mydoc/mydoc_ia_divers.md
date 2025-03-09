@@ -1,7 +1,7 @@
 ---
 title: Divers
 keywords: IA, IT
-last_updated: June 30, 2024
+last_updated: March 09, 2025
 tags: [IA]
 summary: "autres infos et sujets divers"
 sidebar: mydoc_sidebar
