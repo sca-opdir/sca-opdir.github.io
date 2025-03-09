@@ -9,6 +9,8 @@ permalink: cvision_architectures.html
 folder: mydoc
 ---
 
+[https://d2l.ai/chapter_attention-mechanisms-and-transformers/vision-transformer.html](https://d2l.ai/chapter_attention-mechanisms-and-transformers/vision-transformer.html)
+
 Article [*Comprehensive comparison between vision transformers and convolutional neural networks for face recognition tasks*](https://www.nature.com/articles/s41598-024-72254-w)
 
 CNNs operate through a series of layers, each of which detects different features in an image by applying various filters, and sends them to the subsequent layer. These filters can initially begin detecting very simple features, and increase in complexity to detect features that uniquely identify a specific object or category.
@@ -31,3 +33,4 @@ major differences
 
 Vision transformer
 * [https://amaarora.github.io/posts/2021-01-18-ViT.html](https://amaarora.github.io/posts/2021-01-18-ViT.html)
+[https://tugot17.github.io/Vision-Transformer-Presentation](https://tugot17.github.io/Vision-Transformer-Presentation)
