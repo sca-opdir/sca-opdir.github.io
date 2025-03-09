@@ -30,6 +30,15 @@ entries:
       
       subfolders:
 
+
+      - title: Analyse d'images
+        output: web
+        subfolderitems:
+
+        - title: Architectures neuronales
+          url: /cvision_architectures.html
+          output: web
+
       - title: LLM et TAL
         output: web
         subfolderitems:
