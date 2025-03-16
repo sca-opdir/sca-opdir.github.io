@@ -139,6 +139,9 @@ entries:
   - title: Autres
     output: web
     folderitems:
-    - title: Divres outils IT
+    - title: Divers outils IT
       url: /autres_outils_IT.html
+      output: web
+    - title: Data viz
+      url: /autres_dataviz.html
       output: web
