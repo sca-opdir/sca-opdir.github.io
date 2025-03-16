@@ -19,6 +19,8 @@ folder: mydoc
 
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) 
 
+[glossaire](https://developers.google.com/machine-learning/glossary?hl=fr)
+
 ## Définition
 
 L'intelligence artificielle fait référence au développement de systèmes informatiques et d'algorithmes capables d'effectuer des tâches nécessitant généralement l'intelligence humaine, telles que l'apprentissage, la résolution de problèmes et la prise de décision.
