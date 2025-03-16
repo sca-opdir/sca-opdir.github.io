@@ -12,7 +12,11 @@ folder: mydoc
 
 ### Généralités
 
-[Chart doctor](https://github.com/Financial-Times/chart-doctor/tree/main?tab=readme-ov-file) du Financial times avec <a href="{{ site.baseurl }}/pages/documents/Visual-vocabulary-fr.pdf">super infographie</a> 
+[Chart doctor](https://github.com/Financial-Times/chart-doctor/tree/main?tab=readme-ov-file) du [Financial times](https://www.ft.com/chart-doctor) avec <a href="{{ site.baseurl }}/pages/documents/Visual-vocabulary-fr.pdf">super infographie</a> 
+
+https://medium.com/data-science-collective/chart-smarter-how-to-design-data-visualizations-that-work-c9241b8b3f37
+
+couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-for-data-visualizations-75423140c554))
 
 
 ### Python 
