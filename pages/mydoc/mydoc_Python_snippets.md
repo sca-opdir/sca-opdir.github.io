@@ -12,6 +12,8 @@ folder: mydoc
 {% include note.html content="Davantage de snippets sure git.vs.ch" %}
 
 
+[article de blog](https://www.stat4decision.com/fr/introduction-a-polars-une-alternative-rapide-a-pandas/) sur **polars** comme alternative à **pandas**
+
 
 ##### Début et fin de script
 
