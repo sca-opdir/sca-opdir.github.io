@@ -1,7 +1,7 @@
 ---
 title: Python snippets
 tags: [Python, programming]
-last_updated: February 21, 2024
+last_updated: March 16, 2025
 keywords: Python, programming
 summary: "codes Python fréquemment utilisés"
 sidebar: mydoc_sidebar
