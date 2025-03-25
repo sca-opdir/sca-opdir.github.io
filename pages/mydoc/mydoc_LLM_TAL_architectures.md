@@ -9,6 +9,8 @@ permalink: LLM_TAL_architectures.html
 folder: mydoc
 ---
 
+représentation visuelle des Transformers : [https://bbycroft.net/llm](https://bbycroft.net/llm)
+
 1.	Architectures neuronales pour le TAL
 
 1.1.	Principes de fonctionnement des réseaux de neurone
