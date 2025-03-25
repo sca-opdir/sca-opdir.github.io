@@ -11,6 +11,8 @@ folder: mydoc
 
 représentation visuelle des Transformers : [https://bbycroft.net/llm](https://bbycroft.net/llm)
 
+tutoriels Transformers [https://github.com/NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)
+
 1.	Architectures neuronales pour le TAL
 
 1.1.	Principes de fonctionnement des réseaux de neurone
