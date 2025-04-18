@@ -34,6 +34,13 @@ couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-f
  
 ### Python 
 
+[PyViz : Python tools for data visualization](https://pyviz.org/)
+
+
+[PyCircular: A Python Library for Circular Data Analysis](https://medium.com/data-science/introducing-pycircular-a-python-library-for-circular-data-analysis-bfd696a6a42b)
+
+[Python Packages for Data Visualization in 2025](https://python.plainenglish.io/python-packages-for-data-visualization-in-2025-9cb2132c9a7e)
+
 [Python Data Visualization Libraries](https://www.dataquest.io/blog/python-data-visualization-libraries/)
 
 [7 visualizations with python to handle multivariate categorical data](https://medium.com/data-science/7-visualizations-with-python-to-handle-multivariate-categorical-data-63158db0911d) et sources citées à la fin
