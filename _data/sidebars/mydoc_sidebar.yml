@@ -136,6 +136,13 @@ entries:
       url: /SAPwebi_autres_infos.html
       output: web
 
+  - title: FME
+    output: web
+    folderitems:
+    - title: Transformers
+      url: /FME_transformers.html
+      output: web
+
   - title: Autres
     output: web
     folderitems:
