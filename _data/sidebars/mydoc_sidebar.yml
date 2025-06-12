@@ -142,6 +142,9 @@ entries:
     - title: Transformers
       url: /FME_transformers.html
       output: web
+    - title: Autres infos
+      url: /FME_autres_infos.html
+      output: web
 
   - title: Autres
     output: web
