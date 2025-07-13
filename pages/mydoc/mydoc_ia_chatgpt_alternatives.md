@@ -72,4 +72,12 @@ Avec ChatGPT, vous pouvez utiliser les assistants, mais pas les créer. Pour en 
 
 [Lien](https://academieweb3.com/chat-gpt-alternative/) pour une liste/description d'autres modèles
 
+
+## Faire tourner des LLM en local
+
+[LM Studio](https://lmstudio.ai/)
+
+[Open WebUI](https://github.com/open-webui/open-webui)
+
+
 {% include links.html %}
