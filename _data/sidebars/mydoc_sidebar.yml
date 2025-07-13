@@ -156,6 +156,14 @@ entries:
       url: /Mendix_autres_infos.html
       output: web
 
+  - title: Opensource
+    output: web
+    folderitems:
+    - title: Dans les AP
+      url: /opensource_et_administrationsPubliques.html
+      output: web
+
+
   - title: Autres
     output: web
     folderitems:
