@@ -1,7 +1,7 @@
 ---
 title: ChatGPT - prompt engineering et bonnes pratiques
 keywords: IA, IT, ChatGPT
-last_updated: December 21, 2024
+last_updated: July 13, 2025
 tags: [IA]
 summary: "Conseils de prompt engineering"
 sidebar: mydoc_sidebar
@@ -10,13 +10,14 @@ folder: mydoc
 
 ---
 
-*Sources*
+*Sources - autres infos*
 * "[ChatGPT en entreprise](https://outilia.fr)" de Matthieu Corthésy
 * Conférence InnoVibes de S. Lendi
 * [*6 stratégies d'openAI pour obtenir de meilleurs résultats*](https://platform.openai.com/docs/guides/prompt-engineering)
 * [*7 conseils Zdnet*](https://www.zdnet.com/article/7-advanced-chatgpt-prompt-writing-tips-you-need-to-know)
 * <https://www.promptingguide.ai>
 * <https://www.linkedin.com/in/jean-baptiste-berthoux>
+* [guide](../documents/IA générative_guide UNIGE_septembre2024.pdf) sur l'IA générative de l'UNIGE 
 
 ## Eléments-clés du prompt
 
