@@ -1,7 +1,7 @@
 ---
 title: ChatGPT 4o - exemples d'utilisation
 keywords: IA, IT, ChatGPT
-last_updated: June 20, 2024
+last_updated: July 13, 2025
 tags: [IA]
 summary: "Exemples d'utilisation de ChatGPT (4o)"
 sidebar: mydoc_sidebar
@@ -23,11 +23,75 @@ folder: mydoc
 
 ## Exemples de prompt
 
+_créer un arbre de décision_
+
 crée un arbre de décision pour la procédure décrite ci-dessous [décrire la procédure, par exemple de demande d'inscription tardive]
 [...]
 génère un code Mermaid pour cet arbre de décision
 [...]
+
 -> copier/coller le code Mermaid dans un outil de dessin de diagramme, par exemple Excalidraw
+
+
+_prompt de veille informationnelle_ par Jean-Baptiste Berthoux : [lien](../documents/prompt pour la veille informationnelle JBB.pdf])
+
+
+cours _Améliorer l’utilisation de l’IA_, Etat du Valais, par Nicolas Oggier : [lien interne](\\infra.vs.ch\dfs\SCA-DLW\PDIRECTS\1_Marie\6_autres infos\formations continues\Améliorer l’utilisation de l’IA  2025 V2 - Etat du Valais.pdf)
+
+
+tâche > contexte > exemple > rôle > format > ton
+
+```
+Tu es un expert en formation dans le domaine de l'IA. 
+Tu disposes des compétences suivantes:
+Tu es spécialisé dans la création de prompts. 
+Tu maitrises parfaitement la création de scripts pour faire des courts métrages vidéo sur des sujets techniques relatifs à l'IA.
+Je souhaite que tu réalises un synopsis pour la création d'une vidéo qui explique comment élaborer un prompt parfait en 2025 pour une IA comme ChatGPT, par exemple.
+Ce script doit contenir des informations pertinentes  liées au sujet.
+Il doit permettre d'élaborer une vidéo de 2 min au maximum
+Il doit être en français
+Assure-toi de ne fournir que des informations fiables.
+Cette vidéo sera utilisée pour introduire la réalisation de prompts parfaits.
+```
+
+la structure du prompt en 2025
+
+ROLE
+Tu es un expert en \[DÉCRIRE THÉMATIQUE(S) CLÉS\]. 
+Tu disposes des compétences suivantes \[DÉCRIRE\]. 
+TACHE
+Je souhaite \[DÉCRIRE VOTRE TACHE/OBJECTIF\].
+FORMAT DE REPONSE ATTENDU
+\[CARACTERISTIQUE 1\]
+\[CARACTERISTIQUE 2\]
+Etc...
+POINTS DE VIGILANCE
+Assure-toi de justifier ta réponse en te basant sur des sources fiables. Ta réponse ne doit pas:
+\[ANTI- CARACTERISTIQUE 1\]
+\[ANTI- CARACTERISTIQUE 2\]
+Etc...
+CONTEXTE
+Pour le contexte : \[DECRIRE AVEC LE PLUS DE DETAILS POSSIBLES VOTRE CONTEXTE\]
+
+Optimiser les prompts
+- début : structuration claire, rôle précis
+- centre : donner les caractéristiques attendues, contexte et objectif, critères spécifiques
+- fin : techniques complémentaires
+
+Exemple de Prompt
+###Mission : ...
+Rôle : ...
+Caractéristiques : texte court, percutant, appel à l’action clair
+Contexte : ...
+Objectif : ...
+###
+###Règles :
+- Maximum xxx mots par phrase.
+- Style xxxx
+###
+###Exemple de xxx réussi :
+...
+###
 
 ## Exemples d'utilisation
 
