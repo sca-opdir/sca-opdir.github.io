@@ -93,6 +93,9 @@ entries:
     - title: Autres outils
       url: /IA_autres_outils.html
       output: web
+    - title: IA dans l'AP
+      url: /IA_administrationsPubliques.html
+      output: web     
     - title: IA en entreprise
       url: /IA_enEntreprise.html
       output: web
@@ -144,6 +147,13 @@ entries:
       output: web
     - title: Autres infos
       url: /FME_autres_infos.html
+      output: web
+
+  - title: Mendix
+    output: web
+    folderitems:
+    - title: Autres infos
+      url: /Mendix_autres_infos.html
       output: web
 
   - title: Autres
