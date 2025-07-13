@@ -32,11 +32,21 @@ L’**agence fédérale allemande pour la souveraineté numérique**, le ZenDiS,
 Rayna Stamboliyska, spécialiste dans les affaires européennes et la diplomatie du numérique, souligne aussi l’existence de la [Suite numérique](https://lasuite.numerique.gouv.fr/) développée par la **Direction interministérielle du numérique en France**. Celle-ci prend la forme d’une librairie d’applications open source conçues pour le service public. «Certaines villes européennes, comme Barcelone ou Munich, pourraient sans doute partager leur expérience avec les autorités genevoises s’agissant de la volonté politique de l’intégration de solutions ouvertes», estime l’experte.
 En Suisse romande, il y a aussi l’exemple du **Tribunal fédéral de Lausanne**. Les juges travaillent sur un environnement informatique totalement indépendant de Microsoft, grâce à l’intégration de différents logiciels ouverts. Une expérience forte d’une vingtaine d’années. 
 
-[L’Etat de Genève a discrètement fait le choix de renforcer sa dépendance à Microsoft](https://www.letemps.ch/cyber/donnees-personnelles/exclusif-l-etat-de-geneve-a-discretement-fait-le-choix-de-renforcer-sa-dependance-a-microsoft)
+Le Temps : [L’Etat de Genève a discrètement fait le choix de renforcer sa dépendance à Microsoft](https://www.letemps.ch/cyber/donnees-personnelles/exclusif-l-etat-de-geneve-a-discretement-fait-le-choix-de-renforcer-sa-dependance-a-microsoft)
 l’Etat de Genève dépense chaque année près de 5 millions de francs en licences Microsoft
 L’informatique du Tribunal fédéral à Lausanne repose sur des logiciels libres et des données hébergées localement. A Genève, le député Julien Nicolet-dit-Félix signale l’existence dans les écoles du canton de milliers de postes de travail fonctionnant sans les outils de Microsoft.
 Le [land allemand de Schleswig-Holstein](https://www.rts.ch/info/monde/2025/article/l-allemagne-defie-microsoft-un-land-opte-pour-les-logiciels-libres-28912724.html) a décidé de se passer de Microsoft, en s’appuyant lui aussi sur des logiciels libres. Au [Danemark](https://www.euronews.com/next/2025/06/12/two-city-governments-in-denmark-are-moving-away-from-microsoft-amid-trump-and-us-big-tech-), deux des plus grandes villes du pays ont aussi choisi d’abandonner les applications commercialisées par le géant américain. 
 
+Le Temps : [Au Tribunal fédéral, l’informatique se passe des géants américains](https://www.letemps.ch/cyber/au-tribunal-federal-l-informatique-se-passe-des-geants-americains)
+L’ensemble des archives physiques du Tribunal fédéral a été numérisé, un processus qui s’est achevé il y a trois ans. Grâce à un moteur de recherche développé en interne, les utilisateurs peuvent consulter cette immense base de données afin d’y trouver les documents pertinents pour leur travail.
+Ce sont différentes versions du système d’exploitation Linux qui équipent les postes de travail de l’institution.
+Côté bureautique, le choix s’est porté sur la suite LibreOffice, sur le navigateur web Firefox, sur Thunderbird et Zimbra pour la partie messagerie et sur Alfresco pour la gestion électronique de documents. L’informatique en nuage (cloud) est, quant à elle, hébergée en interne.
+Lorsque les grands éditeurs de logiciels commerciaux publient un correctif, ou ajoutent une nouvelle fonctionnalité à leurs outils, les utilisateurs n’ont d’autre choix que de les adopter, car l’entreprise ne fournit pas de support pour les versions antérieures. Ce n’est pas le cas pour les logiciels libres, où plusieurs versions d’un même programme peuvent coexister.
+L’autre intérêt, c’est de pouvoir faire évoluer les logiciels selon les besoins des utilisateurs – ici les juges. Comme le code est ouvert, il peut aussi être modifié, ce qui permet d’intégrer de nouvelles fonctionnalités.
+Le service informatique a développé en 2013 un outil qui permet d’aider à l’anonymisation des décisions rendues par les juges. En 2021, les équipes de Daniel Brunner ont intégré une composante d’IA dans le logiciel. 
 
-
+Le Temps : [interview de François Chaix](https://www.letemps.ch/suisse/francois-chaix-president-du-tribunal-federal-les-principes-qui-fondent-l-etat-de-droit-sont-fragiles)
+Dans son rapport de gestion, le Tribunal fédéral évoque la création d’une application ChatTF pour une utilisation responsable de l’intelligence artificielle. C’est-à-dire?
+L’intelligence artificielle est déjà en action depuis plusieurs années pour l’anonymisation de nos décisions. Cela permet d’économiser des ressources. Les projets en cours, qui sont menés avec l’aide de l’EPFL et qui sont encore en phase pilote, visent à proposer, à l’interne, des résumés d’arrêts et des traductions. Il s’agit d’outils d’aide au travail.
+ 
 {% include note.html content="infos diverses sur FME" %}
