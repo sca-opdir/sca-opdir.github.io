@@ -1,7 +1,7 @@
 ---
 title: Data viz
 keywords: IT
-last_updated: March 16, 2025
+last_updated: July 13, 2025
 tags: [viz]
 summary: "diverses infos pour la visualisation de données"
 sidebar: mydoc_sidebar
@@ -34,8 +34,9 @@ couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-f
  
 ### Python 
 
-[PyViz : Python tools for data visualization](https://pyviz.org/)
+[d3blocks Python package](https://d3blocks.github.io/d3blocks/pages/html/index.html)
 
+[PyViz : Python tools for data visualization](https://pyviz.org/)
 
 [PyCircular: A Python Library for Circular Data Analysis](https://medium.com/data-science/introducing-pycircular-a-python-library-for-circular-data-analysis-bfd696a6a42b)
 
