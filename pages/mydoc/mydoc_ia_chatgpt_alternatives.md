@@ -1,7 +1,7 @@
 ---
 title: ChatGPT - alternatives 
 keywords: IA, IT, ChatGPT
-last_updated: June 20, 2024
+last_updated: July 13, 2025
 tags: [IA]
 summary: "Alternatives à ChatGPT"
 sidebar: mydoc_sidebar
