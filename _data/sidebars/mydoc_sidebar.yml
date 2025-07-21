@@ -152,6 +152,9 @@ entries:
   - title: Mendix
     output: web
     folderitems:
+    - title: Apps SCA
+      url: /Mendix_apps_SCA.html
+      output: web
     - title: Autres infos
       url: /Mendix_autres_infos.html
       output: web
