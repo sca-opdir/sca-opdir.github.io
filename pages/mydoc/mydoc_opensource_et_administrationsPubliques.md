@@ -9,6 +9,12 @@ permalink: opensource_et_administrationsPubliques.html
 folder: mydoc
 ---
 
+Le Temps : La Suite numérique, une alternative souveraine pour les administrations
+La Suite numérique \[...\] lancée par la France et l’Allemagne, rejoints récemment  par les Pays-Bas.
+
+[https://lasuite.numerique.gouv.fr/](https://lasuite.numerique.gouv.fr/)
+[https://www.numerique.gouv.fr/numerique-etat/dinum/](https://www.numerique.gouv.fr/numerique-etat/dinum/)
+
 
 Le Temps : [Windows 10, c’est bientôt fini: comment prolonger la durée de vie de sa machine grâce aux logiciels libres](https://www.letemps.ch/cyber/windows-10-c-est-bientot-fini-comment-prolonger-la-duree-de-vie-de-sa-machine-grace-aux-logiciels-libres)
 navigateur web Firefox ; en y ajoutant le bloqueur de publicités uBlock et le module Privacy Badger, qui permet d’identifier et de désactiver les traceurs
