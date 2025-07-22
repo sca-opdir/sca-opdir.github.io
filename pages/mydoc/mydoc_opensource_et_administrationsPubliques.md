@@ -9,6 +9,9 @@ permalink: opensource_et_administrationsPubliques.html
 folder: mydoc
 ---
 
+
+[Microsoft kann Cloud-Zugriff durch USA nicht verhindern](https://www.inside-it.ch/microsoft-kann-cloud-zugriff-durch-usa-nicht-verhindern-20250721)
+
 Le Temps : La Suite numérique, une alternative souveraine pour les administrations
 La Suite numérique \[...\] lancée par la France et l’Allemagne, rejoints récemment  par les Pays-Bas.
 
