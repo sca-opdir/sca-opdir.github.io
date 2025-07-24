@@ -82,6 +82,10 @@ entries:
           url: /ChatGPT_alternatives.html
           output: web
 
+    - title: Agents
+      url: /IA_agents.html
+      output: web
+
     - title: Copilot
       url: /IA_Copilot.html
       output: web
