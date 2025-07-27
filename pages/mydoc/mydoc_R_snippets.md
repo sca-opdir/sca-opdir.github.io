@@ -11,6 +11,11 @@ folder: mydoc
 
 {% include note.html content="Davantage de snippets disponibles sur git.vs.ch" %}
 
+
+créer packages :
+[https://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html](https://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html)
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 
 <script>
