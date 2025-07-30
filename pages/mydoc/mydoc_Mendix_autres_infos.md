@@ -1,7 +1,7 @@
 ---
 title: Diverses infos Mendix
 tags: [Mendix]
-last_updated: June 12, 2025
+last_updated: July 30, 2025
 keywords: Mendix
 summary: "infos diverses et tips Mendix"
 sidebar: mydoc_sidebar
@@ -9,6 +9,13 @@ permalink: Mendix_autres_infos.html
 folder: mydoc
 ---
 
+java actions
+
+[Explore Mendix Java Actions](https://yashvaantlakham73.medium.com/explore-mendix-java-actions-d8293460a297)
+
+[How to work with Variables in Java actions — Mendix How-to](https://medium.com/mendix/how-to-work-with-variables-in-java-actions-mendix-how-to-12db5c79e4fd)
+
+[Medium](https://medium.com/@ryanmocke) de Ryan Mocke
 
 * Mendix documentation [best practices](https://docs.mendix.com/refguide/dev-best-practices/#pages)
 
