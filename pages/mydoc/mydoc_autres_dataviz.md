@@ -34,6 +34,12 @@ couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-f
  
 ### Python 
 
+[9 Visualizations with Python that Catch More Attention than a Bar Chart](https://towardsdatascience.com/9-visualizations-that-catch-more-attention-than-a-bar-chart-72d3aeb2e091/)
+Circular bar chart (aka Race Track Plot) / Radial bar chart / Treemap / Waffle charts / Interactive bar chart
+Pie chart / Radar chart / Bubble chart / Circle packing
+
+[From Default Python Line Chart to Journal-Quality Infographics](https://medium.com/data-science/from-default-python-line-chart-to-journal-quality-infographics-80e3949eacc3)
+
 [4d (time) data visualization in bubble charts](https://medium.com/data-science-collective/4-dimensional-data-visualization-time-in-bubble-charts-e9a774203ef3)
 
 [d3blocks Python package](https://d3blocks.github.io/d3blocks/pages/html/index.html)
