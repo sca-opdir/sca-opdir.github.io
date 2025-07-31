@@ -11,7 +11,7 @@ folder: mydoc
 
 représentation visuelle des Transformers : [https://bbycroft.net/llm](https://bbycroft.net/llm)
 
-tutoriels Transformers [https://github.com/NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)
+tutoriels Transformers [https://github.com/NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials) : this repository contains demos made with the Transformers library by 🤗 HuggingFace. Currently, all of them are implemented in PyTorch
 
 1.	Architectures neuronales pour le TAL
 
