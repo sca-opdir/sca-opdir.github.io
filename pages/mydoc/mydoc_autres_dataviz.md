@@ -34,6 +34,10 @@ couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-f
  
 ### Python 
 
+[9 Visualizations with Python to show Proportions or Percentages instead of a Pie chart](https://medium.com/data-science/9-visualizations-to-show-proportions-or-percentages-instead-of-a-pie-chart-4e8d81617451)
+Dumbbell chart (aka barbell chart) / Bubble chart / Circle packing / Interactive Pie Chart / Interactive Donut Chart
+Treemap / Waffle chart / Bar chart / Stacked bar chart
+
 [9 Visualizations with Python that Catch More Attention than a Bar Chart](https://towardsdatascience.com/9-visualizations-that-catch-more-attention-than-a-bar-chart-72d3aeb2e091/)
 Circular bar chart (aka Race Track Plot) / Radial bar chart / Treemap / Waffle charts / Interactive bar chart
 Pie chart / Radar chart / Bubble chart / Circle packing
