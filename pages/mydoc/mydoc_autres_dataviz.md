@@ -34,6 +34,8 @@ couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-f
  
 ### Python 
 
+[4d (time) data visualization in bubble charts](https://medium.com/data-science-collective/4-dimensional-data-visualization-time-in-bubble-charts-e9a774203ef3)
+
 [d3blocks Python package](https://d3blocks.github.io/d3blocks/pages/html/index.html)
 
 [PyViz : Python tools for data visualization](https://pyviz.org/)
