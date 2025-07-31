@@ -1,7 +1,7 @@
 ---
 title: Python snippets
 tags: [Python, programming]
-last_updated: March 16, 2025
+last_updated: July 31, 2025
 keywords: Python, programming
 summary: "codes Python fréquemment utilisés"
 sidebar: mydoc_sidebar
@@ -11,6 +11,7 @@ folder: mydoc
 
 {% include note.html content="Davantage de snippets sure git.vs.ch" %}
 
+[4d (time) data visualization in bubble charts](https://medium.com/data-science-collective/4-dimensional-data-visualization-time-in-bubble-charts-e9a774203ef3)
 
 [article de blog](https://www.stat4decision.com/fr/introduction-a-polars-une-alternative-rapide-a-pandas/) sur **polars** comme alternative à **pandas**
 
