@@ -36,6 +36,25 @@ couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-f
  
 ### Python 
 
+[Python packages for data viz in 2025](https://python.plainenglish.io/python-packages-for-data-visualization-in-2025-9cb2132c9a7e)
+1. Matplotlib — The mighty grandfather
+2. Bokeh — Beauty and pain
+3. Plotly — The Enterprise Darling
+4. Seaborn — statistically friendly
+5. Altair — The Grammarian on the rise
+6. Plotnine — The R Grammarian
+7. Holoviews — The multi-backend Integrator
+8. Hvplot — The higher-level Integrator
+9. Datashader — The one for large datasets
+10. Pyvista — The three-dimensional one
+
+Others :
+- proplot, which proposed a wrapper around Matplotlib with a different API
+- toyplot, which is great if you never liked all those ticks
+- Pygal, which boasted “beautiful Python charting” and was indeed quite pretty, but does not seem actively maintained.
+- colorcet because it only gives your colormaps, which is useful but only auxiliary
+- PyWaffle, because it is really only about “waffle plots” and this is quite a restricted use case
+
 [9 Visualizations with Python to show Proportions or Percentages instead of a Pie chart](https://medium.com/data-science/9-visualizations-to-show-proportions-or-percentages-instead-of-a-pie-chart-4e8d81617451)
 Dumbbell chart (aka barbell chart) / Bubble chart / Circle packing / Interactive Pie Chart / Interactive Donut Chart
 Treemap / Waffle chart / Bar chart / Stacked bar chart
