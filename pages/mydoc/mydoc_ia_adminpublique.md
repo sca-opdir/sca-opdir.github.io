@@ -32,6 +32,8 @@ folder: mydoc
 
 ## Divers
 
+* [https://deptofcivicthings.com/guides/](https://deptofcivicthings.com/guides/)
+
 * présentation Estelle Pannatier symposium eGovernment 2024 : [Algorithmes & IA dans l’administration publique](../documents/Algorithmes__IA_dans_ladministration_publique_Estelle_Pannatier_eGovernment2024.pdf)
 
 * projets [egovpartner](https://www.egovpartner.ch/aktuelles/news/)
