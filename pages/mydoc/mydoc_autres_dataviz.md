@@ -20,6 +20,8 @@ couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-f
 
 ### R
 
+[GGally](https://ggobi.github.io/ggally/): Extension to ggplot2
+
 [9 Useful R Data Visualization Packages for Data Visualization](https://mode.com/blog/r-data-visualization-packages)
 
 1. ggplot2
