@@ -18,6 +18,8 @@ https://medium.com/data-science-collective/chart-smarter-how-to-design-data-visu
 
 couleurs et palettes ([Medium](https://medium.com/@mokkup/how-to-select-colors-for-data-visualizations-75423140c554))
 
+[Finding the Best Color-blind Friendly Palette on Python Seaborn](https://medium.com/data-science-collective/finding-the-best-color-blind-friendly-palette-on-python-seaborn-0546e4ed33f3)
+
 ### R
 
 [GGally](https://ggobi.github.io/ggally/): Extension to ggplot2
