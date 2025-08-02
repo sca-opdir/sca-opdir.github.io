@@ -11,6 +11,8 @@ folder: mydoc
 
 ### Outils
 
+[Services libres](https://degooglisons-internet.org/fr/) par framasoft
+
 [Services libres](https://www.chapril.org/-services-.html) par chapril
 
 [Sozi](https://sozi.baierouge.fr) est un outil pour créer et jouer des présentations animées
