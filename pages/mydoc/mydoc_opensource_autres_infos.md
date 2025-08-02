@@ -17,6 +17,8 @@ folder: mydoc
 
 [Scribus](https://www.scribus.net/) is the Go-To Libre Desktop Publishing Application
 
+voir liste dans guide [Vers une communication numérique plus sociale et solidaire](https://blog.comem.ch/wp-content/uploads/2020/08/guide_v2_print.pdf) publié par HEIG
+
 ### Autres lectures
 
 [https://www.laquadrature.net/](https://www.laquadrature.net/)
