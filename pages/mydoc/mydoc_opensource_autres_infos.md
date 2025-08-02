@@ -9,9 +9,15 @@ permalink: opensource_autres_infos.html
 folder: mydoc
 ---
 
+### Outils
 
 [Services libres](https://www.chapril.org/-services-.html) par chapril
 
+[Sozi](https://sozi.baierouge.fr) est un outil pour créer et jouer des présentations animées
+
+[Scribus](https://www.scribus.net/) is the Go-To Libre Desktop Publishing Application
+
+### Autres lectures
 
 [https://www.laquadrature.net/](https://www.laquadrature.net/)
 
@@ -20,3 +26,5 @@ folder: mydoc
 [April](https://www.april.org/) : promouvoir et défendre le logiciel libre
 
 [Libre à vous](https://www.libreavous.org/) (podcast)
+
+[Blog](https://www.itopie.ch/actualites-ditopie/) d'itopie
