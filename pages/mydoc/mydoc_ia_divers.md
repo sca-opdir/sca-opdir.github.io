@@ -34,13 +34,15 @@ folder: mydoc
 
 https://uty3.ai/fr/ et leur outil [Piinuts](https://piinuts.ch/) hébergé en Suisse pour anonymiser les données avant d'utiliser les LLMs 
 
-https://github.com/microsoft/generative-ai-for-beginners/tree/main
+[https://github.com/microsoft/generative-ai-for-beginners/tree/main](https://github.com/microsoft/generative-ai-for-beginners/tree/main)
 
-https://huggingface.co/learn
+[https://huggingface.co/learn](https://huggingface.co/learn)
 
-https://github.com/mistralai/cookbook/tree/main
+[https://github.com/mistralai/cookbook/tree/main](https://github.com/mistralai/cookbook/tree/main)
 
-https://acoustic-licorice-c24.notion.site/Guide-Complet-Utiliser-GPT-4o-en-milieu-professionnel-0657016ce3b34ae6add98af012b11850
+[https://acoustic-licorice-c24.notion.site/Guide-Complet-Utiliser-GPT-4o-en-milieu-professionnel-0657016ce3b34ae6add98af012b11850](https://acoustic-licorice-c24.notion.site/Guide-Complet-Utiliser-GPT-4o-en-milieu-professionnel-0657016ce3b34ae6add98af012b11850)
+
+le livre blanc "[Les grands défis de l’IA générative](https://dataforgood.fr/iagenerative)" par dataforgood
 
 ## Vidéos
 
@@ -235,3 +237,4 @@ Zhao Wayne Xin, Zhou Kun, Li Junyi et al.. 2023. A Survey of Large Language Mode
 
 
 {% include links.html %}
+
