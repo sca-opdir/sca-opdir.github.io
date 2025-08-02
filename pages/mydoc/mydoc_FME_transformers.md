@@ -9,6 +9,8 @@ permalink: FME_transformers.html
 folder: mydoc
 ---
 
+[Guide des Transformers 2025](https://www.veremes.com/wp-content/uploads/guide-des-transformers/Guide%20des%20Transformers%20FME.pdf)
+
 {% include note.html content="infos diverses sur les transformers FME" %}
 
 
