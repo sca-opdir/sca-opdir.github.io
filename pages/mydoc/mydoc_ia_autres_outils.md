@@ -45,6 +45,7 @@ Quelques [généralités](https://academieweb3.com/comment-utiliser-lia/) sur l'
 
 * [AskYourPDF](https://askyourpdf.com) (online+plugin)
 * [Claude 2](https://poe.com/Claude-2-100k)
+* [From Unstructured Text to Interactive Knowledge Graphs Using LLMs](https://robert-mcdermott.medium.com/from-unstructured-text-to-interactive-knowledge-graphs-using-llms-dd02a1f71cd6) ([github](https://github.com/robert-mcdermott/ai-knowledge-graph/tree/main/src/knowledge_graph); [demo](https://robert-mcdermott.github.io/ai-knowledge-graph/))
 
 ## Texte et écriture
 
@@ -382,3 +383,4 @@ Version gratuite trop contraignante en terme de limites de taille des documents 
 Création de chatbots avec ses propres sources de données impossible avec un compte Free
 
 {% include links.html %}
+
