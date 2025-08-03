@@ -25,6 +25,29 @@ Filtrer les types d’entités et données nécessaires (clause WHERE, Tester…
 Utiliser le SQL (SQLCreator, SQLExecutor, DatabaseJoiner)
 Filtrer spatialement avec un rectangle englobant (BBOX) ou filtrer les données avec FeatureReader
 Favoriser des formats rapides comme le CSV et bases de données spatiales indexées
+3 – Utiliser le cache à bon escient
+Il est aussi contre-productif d’utiliser le cache lorsque l’on traite des données de type raster (images matricielles). En effet, la mise en cache de ces entités génère un énorme ralentissement du traitement. Il est possible de **créer des signets et de les réduire car cela aura pour effet de ne pas mettre en cache les Transformers dans ce dernier**.
+4 – Réutiliser vos développements
+Transformers personnalisés
+5 – L’usage des paramètres
+Les paramètres publiés permettent de rendre votre script plus adaptable et évolutif.
+6 – **Lecture et écriture dynamique**
+Le mode dynamique quant à lui permet de tout regrouper en un seul Reader et un seul Writer.
+Grâce à une entité schéma, FME sera en mesure de reconstruire les sorties comme les entrées qui sont pourtant fusionnées.
+Cela a aussi l’avantage de gérer le changement de structure des fichiers source de manière automatique tout en diminuant parfois fortement le temps de développement !
+Astuce : l’outil Connexion des types d’entités permet les connexion en masse. Il est disponible dans Affichage > Fenêtres.
+7 – Les fonctionnalités de répartitions
+Que ce soit une répartition du type d’entités ou du jeu de données, ce paramétrage permet un grain énorme de productivité lorsque vous avez besoin d’exporter des données ayants un groupe similaire.
+8 – Travailler la généricité des développements
+9 – Se former et découvrir les Transformers
+10 – Copier/coller et appliquer les paramétrages sur les types d’entités
+Il existe une fonctionnalité pour appliquer des paramétrages sur l’ensemble des types d’entités.
+copier/coller ou dupliquer la ligne sur les Transformers similaires ou de même « famille ». Tester/Testfilter, AttributeCreator/AttributeManager pour copier/coller les valeurs conditionnelles. Ces options, comme beaucoup sur FME sont disponibles via un clic droit.
+copier/coller des Transformers eux-mêmes afin de récupérer des paramétrages similaires à mettre en œuvre.
+
+
+
+
 
 
 [Extracting Geospatial Data from PDFs](https://fme.safe.com/blog/2018/08/convert-geospatial-pdf/)
