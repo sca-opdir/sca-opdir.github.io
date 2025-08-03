@@ -9,7 +9,41 @@ permalink: FME_autres_infos.html
 folder: mydoc
 ---
 
-10 conseils pour gagner en productivité avec FME
+[Traiter les données distantes avec FME](https://www.veremes.com/actus/traiter-les-donnees-distantes-avec-fme)
+
+Les Transformers de jointure disponibles dans FME (FeatureMerger et FeatureJoiner) nécessitent de lire l’ensemble des données dans FME au préalable.
+
+Si la table de référence contient de nombreux enregistrements, sa lecture complète est pénalisante et il sera préférable de recourir à un **DatabaseJoiner**.
+
+Si les tables appartiennent à la même base de données, vous pouvez directement **réaliser la jointure dans la base de données** et exploiter son résultat dans FME. Cela sera encore plus efficace puisque la base de données pourra s’appuyer pleinement sur ses indexes pour comparer les enregistrements.
+
+Qu’est-ce qu’un **index** ? Pour une base de données, un index est un mécanisme accélérateur de recherche, de façon similaire à la table des matières d’un document qui permet d’accéder plus rapidement à une section spécifique.
+
+SQL permet de réaliser des opérations bien plus élaborées qu’une simple jointure, autorisant la mise en œuvre d’algorithmes complexes basés sur le parcours de graphe, la récursivité ou toute librairie de fonctions disponibles sur votre base de données (par exemple PostGIS ou pgRouting pour PostgreSQL).
+
+Lorsque les données lues en base doivent être filtrées pour n’en conserver qu’un sous-ensemble, lire la totalité de la table dans FME avant de sélectionner ce sous-ensemble (par exemple avec un Tester) n’est pas très efficace. Remplacer par un Reader  exploitant le paramètre « Clause Where »
+
+Si les enregistrements à lire doivent correspondre à une restriction géographique (emprise d’intérêt, limite administrative, …), plutôt que lire la totalité des données puis employer un SpatialFilter, il est préférable d’utiliser un **FeatureReader**, qui permet de combiner **filtrage spatial et attributaire**.
+
+Fichiers directement accessibles par une URL : FME permet depuis de nombreuses années de lire directement des jeux de données en spécifiant une URL ; limiter le nombre de téléchargements en activant dans le FeatureReader un « cache » spécifique dont la durée de validité peut être réglée à votre convenance.
+
+Données accessibles via un service normalisé : FME permet également d’exploiter des services d’accès aux données tels que WFS par exemple. Il est alors primordial de paramétrer le Reader ou FeatureReader avec un filtre pour limiter la recherche selon des propriétés d’attribut.
+suivant les formats, le filtre spatial proposé par l’interface du FeatureReader peut s’appliquer avant ou après récupération des données du service, ce qui peut impacter fortement le résultat lorsque le service limite le nombre d’objets retournés. 
+
+Données accessibles via une API : Dans le cas où l’API est suffisamment populaire, il est fréquent que FME dispose déjà d’un Transformer qui gère tous les aspects du dialogue avec le serveur. L’utilisateur FME n’a alors pas à s’occuper des « détails techniques » et peut directement employer le « Connector » adapté au service. 
+Pour une API moins populaire, l’utilisateur FME doit gérer lui-même le dialogue avec un enchaînement de Transformers HTTPCaller entrecoupés de JSONFragmenter / JSONFlattener ou de XMLFragmenter / XMLFlattener suivant le langage de communication proposé par le service. 
+
+dans le Cloud : Lorsque les données sont stockées dans le cloud, que ce soit sous forme de fichiers ou de bases de données, il est recommandé de les exploiter avec une instance FME située dans le même datacenter pour améliorer les performances mais aussi pour diminuer la consommation d’énergie correspondant au transport des données.
+
+L’accès en lecture ou écriture à des systèmes de stockage par objet tels que AWS S3 ou Azure Blob Storage constitue un cas particulier. Il est nécessaire d’utiliser S3Connector ou AzureBlobStorageConnector pour réaliser les opérations de listage, lecture et écriture et échanger des fichiers avec son disque local. 
+
+depuis quelques années, des formats de nouvelle génération tirent parti de la capacité offerte par le protocole HTTP d’accéder à une partie seulement d’un fichier distant sans imposer son téléchargement complet.
+
+le format Cloud-Optimized-Geotiff ou COG permet d’exploiter une portion d’une image distante tout en minimisant les transferts réseaux
+
+les formats Cloud-Optimized-Point-Cloud ou COPC pour le stockage des nuages de points (souvent issus de capteurs LIDAR), ZARR pour le stockage de tableau de résultats multidimensionnels et Seek-Optimized-Zip ou SOZip pour stocker des fichiers de tout type
+
+[10 conseils pour gagner en productivité avec FME](https://www.veremes.com/actus/10-conseils-pour-gagner-en-productivite-avec-fme)
 1 – « Ce que l’on conçoit bien s’exprime clairement » décomposer votre problématique en sous étapes logiques
 2 – Réduire le volume de données
 En développement
