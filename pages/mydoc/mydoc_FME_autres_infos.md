@@ -11,6 +11,8 @@ folder: mydoc
 
 [Extracting Geospatial Data from PDFs](https://fme.safe.com/blog/2018/08/convert-geospatial-pdf/)
 
+[Data Validation and Quality Assurance with FME](https://cdn.safe.com/resources/technical-briefs/Data_Validation_and_Quality_Assurance_with_FME.pdf) (liste les différents types d'erreurs géométriques)
+
 [4 methods for tracking data changes in FME](https://fme.safe.com/blog/2025/04/4-methods-for-tracking-data-changes-in-fme/)
 1. Filtering by modification timestamps
 2. Format-specific change tracking
