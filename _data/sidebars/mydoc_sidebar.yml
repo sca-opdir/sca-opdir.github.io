@@ -153,6 +153,14 @@ entries:
       url: /FME_autres_infos.html
       output: web
 
+  - title: ArcGIS
+    output: web
+    folderitems:
+    - title: Autres infos
+      url: /arcgis_autres_infos.html
+      output: web
+
+
   - title: Mendix
     output: web
     folderitems:
