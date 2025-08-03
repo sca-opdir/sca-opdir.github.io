@@ -11,6 +11,18 @@ folder: mydoc
 
 [Extracting Geospatial Data from PDFs](https://fme.safe.com/blog/2018/08/convert-geospatial-pdf/)
 
+[4 methods for tracking data changes in FME](https://fme.safe.com/blog/2025/04/4-methods-for-tracking-data-changes-in-fme/)
+1. Filtering by modification timestamps
+2. Format-specific change tracking
+3. Leverage Databricks’ Delta tables or other versioned storage systems to access historical versions and detect changes
+4. Log-based change data capture (CDC) : Enable built-in CDC in systems like SQL Server to maintain a detailed log of all changes. FME can query these logs to build audit trails or rollback mechanisms.
+
+
+
+Webinars :
+a. [Managing Changing Data with FME: Part 1 – Compare & Detect](https://fme.safe.com/webinars/managing-changing-data-with-fme-part-1-compare-detect/)
+b. [Managing Changing Data with FME: Part 2 – Flexible Approaches to Tracking Changes](https://fme.safe.com/webinars/managing-changing-data-with-fme-part-2-flexible-approaches-to-tracking-changes/)
+
 [5 best practices for remote data processing in FME](https://fme.safe.com/blog/2025/04/5-best-practices-for-remote-data-processing-in-fme/)
 1. **Process data where it lives** : Rather than pulling entire tables into FME to join or filter them, use SQL queries or the DatabaseJoiner transformer to perform operations directly at the source. This minimizes network traffic and takes advantage of your database’s built-in performance features like indexing.
 2. **Apply filters at the source** : Use a WHERE clause in your Reader when working with attribute data, or go a step further with FeatureReader to combine attribute and spatial filtering.
