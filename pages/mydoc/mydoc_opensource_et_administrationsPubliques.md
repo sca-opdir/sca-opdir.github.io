@@ -1,7 +1,7 @@
 ---
 title: Opensource et administrations publiques
 tags: [AP, opensource]
-last_updated: June 12, 2025
+last_updated: August 03, 2025
 keywords: AP, opensource
 summary: "infos diverses déploiement solutions opensource et administrations publiques"
 sidebar: mydoc_sidebar
@@ -9,6 +9,10 @@ permalink: opensource_et_administrationsPubliques.html
 folder: mydoc
 ---
 
+[Un Land allemand abandonne Microsoft au nom de la souveraineté numérique](https://www.rts.ch/info/monde/2025/article/l-allemagne-defie-microsoft-un-land-opte-pour-les-logiciels-libres-28912724.html) :
+les fonctionnaires sont en train d'abandonner Word et Excel, remplacés par LibreOffice, puis la messagerie Outlook, substituée par Open-Xchange et Thunderbird. Sharepoint doit également être remplacé par la solution nextcloud. [...] La prochaine étape d'ici quelques années: le basculement vers le système d'exploitation Linux, pour tourner définitivement la page Windows. [...] la ville de Munich, pionnière de l'open source dans les années 1990, qui a fait marche arrière en 2017, évoquant des problèmes de compatibilité avec les logiciels fermés omniprésents et le manque de soutien politique continu.
+
+[Two city governments in Denmark are moving away from Microsoft amid Trump and US Big Tech concerns](https://www.euronews.com/next/2025/06/12/two-city-governments-in-denmark-are-moving-away-from-microsoft-amid-trump-and-us-big-tech-)
 
 [Microsoft kann Cloud-Zugriff durch USA nicht verhindern](https://www.inside-it.ch/microsoft-kann-cloud-zugriff-durch-usa-nicht-verhindern-20250721)
 
