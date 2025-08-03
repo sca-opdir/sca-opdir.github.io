@@ -15,6 +15,7 @@ folder: mydoc
 
 [article de blog](https://www.stat4decision.com/fr/introduction-a-polars-une-alternative-rapide-a-pandas/) sur **polars** comme alternative à **pandas**
 
+[Practical Guide to Professional Table Rendering in Python](https://medium.com/data-science-collective/designing-stylish-table-visualizations-in-python-2f43cfc82912)
 
 ### Method chaining et pandas
 
