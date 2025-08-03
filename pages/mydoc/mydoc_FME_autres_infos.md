@@ -9,6 +9,24 @@ permalink: FME_autres_infos.html
 folder: mydoc
 ---
 
+10 conseils pour gagner en productivité avec FME
+1 – « Ce que l’on conçoit bien s’exprime clairement » décomposer votre problématique en sous étapes logiques
+2 – Réduire le volume de données
+En développement
+Limiter le nombre d’entités à lire dans le Reader ou utiliser un Sampler pour avoir un échantillon représentatif de vos données
+Exporter des données échantillonnées au format .ffs en amont du développement
+En production
+Filtrer les types d’entités et données nécessaires (clause WHERE, Tester…)
+Utiliser le SQL (SQLCreator, SQLExecutor, DatabaseJoiner)
+Filtrer spatialement avec un rectangle englobant (BBOX) ou filtrer les données avec FeatureReader
+Favoriser des formats rapides comme le CSV et bases de données spatiales indexées
+En production
+Filtrer les types d’entités et données nécessaires (clause WHERE, Tester…)
+Utiliser le SQL (SQLCreator, SQLExecutor, DatabaseJoiner)
+Filtrer spatialement avec un rectangle englobant (BBOX) ou filtrer les données avec FeatureReader
+Favoriser des formats rapides comme le CSV et bases de données spatiales indexées
+
+
 [Extracting Geospatial Data from PDFs](https://fme.safe.com/blog/2018/08/convert-geospatial-pdf/)
 
 [Data Validation and Quality Assurance with FME](https://cdn.safe.com/resources/technical-briefs/Data_Validation_and_Quality_Assurance_with_FME.pdf) (liste les différents types d'erreurs géométriques)
@@ -18,8 +36,6 @@ folder: mydoc
 2. Format-specific change tracking
 3. Leverage Databricks’ Delta tables or other versioned storage systems to access historical versions and detect changes
 4. Log-based change data capture (CDC) : Enable built-in CDC in systems like SQL Server to maintain a detailed log of all changes. FME can query these logs to build audit trails or rollback mechanisms.
-
-
 
 Webinars :
 a. [Managing Changing Data with FME: Part 1 – Compare & Detect](https://fme.safe.com/webinars/managing-changing-data-with-fme-part-1-compare-detect/)
