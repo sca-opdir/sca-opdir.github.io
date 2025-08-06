@@ -163,10 +163,11 @@ SELECT *
 Permet des requêtes plus tolérantes que SOUNDEX. Score entre 0 (mots pas du tout similaires) et 4 (les deux mots sonnent très similaires)
 
 <button class="copy-btn" data-clipboard-target="#codeBlock11">Copier</button>
-SELECT DISTINCT Nom1 
+<pre><code id="codeBlock11">
+    SELECT DISTINCT Nom1 
   FROM V_EXPLOITATIONS
     WHERE DIFFERENCE(Nom1, 'Zufferey') >= 3;
-<pre><code id="codeBlock11">
+
 </code></pre>
 
 
