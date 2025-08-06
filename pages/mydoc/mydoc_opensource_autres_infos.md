@@ -32,3 +32,6 @@ voir liste dans guide [Vers une communication numérique plus sociale et solidai
 [Libre à vous](https://www.libreavous.org/) (podcast)
 
 [Blog](https://www.itopie.ch/actualites-ditopie/) d'itopie
+
+{% include links.html %}
+
