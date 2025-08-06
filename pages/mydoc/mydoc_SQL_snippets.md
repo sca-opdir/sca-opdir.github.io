@@ -21,6 +21,58 @@ clipboard.on('error', function(e) {
 });
 </script>
 
+### Requête imbriquée : extraire surfaces HER parmi les surfaces avec BCE
+
+<button class="copy-btn" data-clipboard-target="#codeBlock17">Copier</button>
+<pre><code id="codeBlock17">
+SELECT DISTINCT
+  [No CT exploitation]
+FROM V_SURFACES
+WHERE 
+  [Témoin suppression exploitation] IS NULL AND
+  [Exercice comptable] = 2025 AND
+  [Attribut abréviation] = 'HER' AND
+  [Valeur attribut FR] = 'Oui'
+  [Id de la surface] IN (
+    SELECT [Id de la surface]
+    FROM V_SURFACES
+    WHERE 
+      [Témoin suppression exploitation] IS NULL AND
+      [Exercice comptable] = 2025 AND
+      [Attribut abréviation] = 'CTA' AND
+      [Valeur attribut] = 1
+  )
+    ORDER BY [No CT exploitation];
+    </code></pre>
+
+
+### Jointure entre surfaces PBA (BIA) et NRH (HER) 
+
+<button class="copy-btn" data-clipboard-target="#codeBlock16">Copier</button>
+<pre><code id="codeBlock16">
+SELECT 
+  COALESCE(bia.[Id de la surface], her.[Id de la surface]) AS [Id de la surface],
+  COALESCE(bia.[No CT exploitation], her.[No CT exploitation]) AS [No CT exploitation],
+  COALESCE(bia.[No parcelle SAP], her.[No parcelle SAP]) AS [No parcelle SAP],
+  CASE WHEN bia.[Id de la surface] IS NOT NULL THEN 'X' ELSE '' END AS BIA,
+  CASE WHEN her.[Id de la surface] IS NOT NULL THEN 'X' ELSE '' END AS HER
+FROM
+  (SELECT [Id de la surface], [No CT exploitation], [No parcelle SAP]
+   FROM V_SURFACES
+   WHERE [Exercice comptable] = 2025
+     AND [Témoin suppression exploitation] IS NULL
+     AND [Valeur attribut FR] = 'Oui'
+     AND [Attribut abréviation] = 'BIA') AS bia
+FULL OUTER JOIN
+  (SELECT [Id de la surface], [No CT exploitation], [No parcelle SAP]
+   FROM V_SURFACES
+   WHERE [Exercice comptable] = 2025
+     AND [Témoin suppression exploitation] IS NULL
+       AND [Valeur attribut FR] = 'Oui'
+     AND [Attribut abréviation] = 'HER') AS her
+ON bia.[Id de la surface] = her.[Id de la surface]</code></pre>
+</code></pre>
+
 
 ### Tri ascendant 
 
