@@ -60,6 +60,69 @@ WHERE [Code forme exploitation] IN (1, 2, 6) AND
 </code></pre>
 
 
+### Inline If (IIF)
+
+<button class="copy-btn" data-clipboard-target="#codeBlock4">Copier</button>
+<pre><code id="codeBlock4">
+SELECT 
+  [No CT exploitation],
+  IIF([Acompte bloqué] = 'Oui', 'Blocage', 'OK') AS StatutAcompte
+FROM V_EXPLOITATIONS WHERE
+            [Année données annuelles]=2025;
+</code></pre>
+
+### Inline If (IIF)
+
+<button class="copy-btn" data-clipboard-target="#codeBlock5">Copier</button>
+<pre><code id="codeBlock5">
+</code></pre>
+
+### Essai de conversion pour détecter des erreurs de format
+
+<button class="copy-btn" data-clipboard-target="#codeBlock6">Copier</button>
+<pre><code id="codeBlock6">
+    SELECT [No CT exploitation], [Code forme exploitation]
+  FROM dbo.V_EXPLOITATIONS
+WHERE [Année données annuelles]=2025 AND
+TRY_CAST([No CT exploitation] AS INT) IS NULL
+AND [No CT exploitation] IS NOT NULL;
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock7">Copier</button>
+<pre><code id="codeBlock7">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock8">Copier</button>
+<pre><code id="codeBlock8">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock9">Copier</button>
+<pre><code id="codeBlock9">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock10">Copier</button>
+<pre><code id="codeBlock10">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock11">Copier</button>
+<pre><code id="codeBlock11">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock12">Copier</button>
+<pre><code id="codeBlock12">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock13">Copier</button>
+<pre><code id="codeBlock13">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock14">Copier</button>
+<pre><code id="codeBlock14">
+</code></pre>
+
+<button class="copy-btn" data-clipboard-target="#codeBlock15">Copier</button>
+<pre><code id="codeBlock15">
+</code></pre>
 
 
 
