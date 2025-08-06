@@ -44,5 +44,24 @@ SELECT DISTINCT Nom1
               ORDER BY Nom1 AS
 </code></pre>
 
+### Nombre d'exploitations par année 
+
+! attention : pas vraiment correct car le Témoin suppression n'est pas annualisé !
+
+<button class="copy-btn" data-clipboard-target="#codeBlock3">Copier</button>
+<pre><code id="codeBlock3">
+SELECT   [Année données annuelles], 
+  COUNT(DISTINCT [No CT exploitation]) AS nb_exploitations_distinctes
+  FROM dbo.V_EXPLOITATIONS
+WHERE [Code forme exploitation] IN (1, 2, 6) AND
+[Témoin suppression exploitation] IS NULL
+  GROUP BY [Année données annuelles]
+  ORDER BY [Année données annuelles] ASC;
+</code></pre>
+
+
+
+
+
 
 {% include links.html %}
