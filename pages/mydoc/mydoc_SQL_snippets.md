@@ -21,17 +21,6 @@ clipboard.on('error', function(e) {
 });
 </script>
 
-### Recherche floue avec SOUNDEX pour retrouver un nom similaire
-
-<!-- Bouton Copier -->
-<button class="copy-btn" data-clipboard-target="#codeBlock1">Copier</button>
-<pre><code id="codeBlock1">
-SELECT *
-            FROM V_EXPLOITATIONS
-            WHERE SOUNDEX(Nom1) = SOUNDEX('Clement') 
-            AND 
-            [Année données annuelles]=2025
-</code></pre>
 
 ### Tri ascendant 
 
@@ -142,21 +131,67 @@ Attention : n'est pas équivalent à un OR. Par ex. ci-dessous, teste LIKE sur l
     [Année données annuelles]=2025
 </code></pre>
 
+### Classement des exploitations par leur surface exploitée (RANK)
+
 <button class="copy-btn" data-clipboard-target="#codeBlock10">Copier</button>
 <pre><code id="codeBlock10">
+SELECT TOP 5
+    [No CT exploitation],
+    SUM([Surface exploitée]) AS TotalSurface,
+    RANK() OVER (ORDER BY SUM([Surface exploitée]) DESC) AS Rang
+    FROM V_SURFACES
+    WHERE [Exercice comptable]=2025 AND
+    [Code forme exploitation] IN (1,2,6) AND
+    [Code culture surface] NOT LIKE '09%'
+    GROUP BY [No CT exploitation]
+    ORDER BY Rang;
 </code></pre>
 
+### Recherche floue avec SOUNDEX pour retrouver un nom similaire
+
+<!-- Bouton Copier -->
+<button class="copy-btn" data-clipboard-target="#codeBlock1">Copier</button>
+<pre><code id="codeBlock1">
+SELECT *
+            FROM V_EXPLOITATIONS
+            WHERE SOUNDEX(Nom1) = SOUNDEX('Clement') 
+            AND 
+            [Année données annuelles]=2025
+</code></pre>
+
+ ### Filtrage par similarité de texte avec DIFFERENCE() (phonétique avancée)
+
+Permet des requêtes plus tolérantes que SOUNDEX. Score entre 0 (mots pas du tout similaires) et 4 (les deux mots sonnent très similaires)
+
 <button class="copy-btn" data-clipboard-target="#codeBlock11">Copier</button>
+SELECT DISTINCT Nom1 
+  FROM V_EXPLOITATIONS
+    WHERE DIFFERENCE(Nom1, 'Zufferey') >= 3;
 <pre><code id="codeBlock11">
 </code></pre>
 
+
+ ### Compactage/conversion en JSON, XML, etc. 
+
+##### JSON
+
 <button class="copy-btn" data-clipboard-target="#codeBlock12">Copier</button>
 <pre><code id="codeBlock12">
+    SELECT TOP 10 Nom1, Commune, [Année données annuelles]
+FROM V_EXPLOITATIONS
+FOR JSON AUTO;
 </code></pre>
+
+##### XML
 
 <button class="copy-btn" data-clipboard-target="#codeBlock13">Copier</button>
 <pre><code id="codeBlock13">
+    SELECT TOP 10 Nom1, Commune, [Année données annuelles]
+FROM V_EXPLOITATIONS
+FOR XML AUTO, ELEMENTS;
 </code></pre>
+
+(ELEMENTS force les colonnes à apparaître comme des éléments XML (tags) au lieu d’attributs)
 
 <button class="copy-btn" data-clipboard-target="#codeBlock14">Copier</button>
 <pre><code id="codeBlock14">
