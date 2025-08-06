@@ -38,3 +38,7 @@ Vision transformer
 * [https://tugot17.github.io/Vision-Transformer-Presentation](https://tugot17.github.io/Vision-Transformer-Presentation)
 * [https://medium.com/@hansahettiarachchi/unveiling-vision-transformers-revolutionizing-computer-vision-beyond-convolution-c410110ef061](https://medium.com/@hansahettiarachchi/unveiling-vision-transformers-revolutionizing-computer-vision-beyond-convolution-c410110ef061)
 * Article [AN IMAGE IS WORTH 16X16 WORDS](https://arxiv.org/pdf/2010.11929)
+
+
+{% include links.html %}
+
