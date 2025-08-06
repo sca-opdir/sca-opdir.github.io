@@ -11,4 +11,6 @@ folder: mydoc
 
 [Formulaire demande de dérogation pendillard](https://opair-lrv.apps.vs.ch/) 
 
-{% include note.html content="infos diverses sur FME" %}
+{% include links.html %}
+
+
