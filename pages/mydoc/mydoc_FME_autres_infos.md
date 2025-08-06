@@ -128,6 +128,8 @@ Article blog INSER [Transformation MN03 - MN95 et FME](https://www.inser.ch/fr/b
 
 
 
+{% include links.html %}
+
 
 
 
