@@ -98,9 +98,18 @@ TRY_CAST([No CT exploitation] AS INT) IS NULL
 AND [No CT exploitation] IS NOT NULL;
 </code></pre>
 
+### Garder la partie gauche avant un délimitateur
+
 <button class="copy-btn" data-clipboard-target="#codeBlock7">Copier</button>
 <pre><code id="codeBlock7">
-</code></pre>
+SELECT DISTINCT 
+    [No CT exploitation],
+    LEFT([No CT exploitation], CHARINDEX('/', [No CT exploitation]) - 1) AS NomDecoupe
+    FROM V_EXPLOITATIONS
+    WHERE [Année données annuelles] = 2025
+    AND [Code forme exploitation] IN (20)
+    AND CHARINDEX('/', [No CT exploitation]) > 0
+    </code></pre>
 
 <button class="copy-btn" data-clipboard-target="#codeBlock8">Copier</button>
 <pre><code id="codeBlock8">
@@ -135,6 +144,14 @@ AND [No CT exploitation] IS NOT NULL;
 </code></pre>
 
 
+### Autres fonctions
 
+##### STRING_SPLIT
+
+(garde toutes les parties, renvoie le résultat sur plusieurs lignes)
+
+<code>
+CROSS APPLY STRING_SPLIT([No CT exploitation], '/')
+</code>
 
 {% include links.html %}
