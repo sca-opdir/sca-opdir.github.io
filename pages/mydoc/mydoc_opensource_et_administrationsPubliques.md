@@ -64,4 +64,6 @@ Le Temps : [interview de François Chaix](https://www.letemps.ch/suisse/francois
 Dans son rapport de gestion, le Tribunal fédéral évoque la création d’une application ChatTF pour une utilisation responsable de l’intelligence artificielle. C’est-à-dire?
 L’intelligence artificielle est déjà en action depuis plusieurs années pour l’anonymisation de nos décisions. Cela permet d’économiser des ressources. Les projets en cours, qui sont menés avec l’aide de l’EPFL et qui sont encore en phase pilote, visent à proposer, à l’interne, des résumés d’arrêts et des traductions. Il s’agit d’outils d’aide au travail.
  
-{% include note.html content="infos diverses sur FME" %}
+
+{% include links.html %}
+
