@@ -15,4 +15,6 @@ folder: mydoc
 
 {% include note.html content="infos diverses sur les transformers FME" %}
 
+{% include links.html %}
+
 
