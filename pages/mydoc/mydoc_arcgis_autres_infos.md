@@ -16,3 +16,7 @@ Poster [ArcGIS topology rules](https://help.arcgis.com/fr/arcgisdesktop/10.0/hel
 [Tutoriel ArcGis Pro 1.0 Français : 4 – les Vues cartographiques](https://www.sigterritoires.fr/index.php/tutoriel-arcgis-pro-1-0-francais-4-les-vues-cartographiques/) (différences cartes/fonds/fonds de carte)
 
 [Optimisation du travail avec les Geodatabases ArcGis- Introduction – 1-Indexation](https://www.sigterritoires.fr/index.php/optimisation-du-travail-avec-les-geodatabases-arcgis-introduction-1-indexation/)
+
+
+{% include links.html %}
+
