@@ -65,5 +65,5 @@ java actions
   - Anytime you are performing a calculation (with numbers, dates, etc.) always be sure to check for empty values before performing the calculation.  This is particularly important when using On Change microflows.
 9. Annotate your work and test, test, test.
 
+{% include links.html %}
 
-{% include note.html content="infos diverses sur FME" %}
