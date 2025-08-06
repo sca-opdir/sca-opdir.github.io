@@ -28,3 +28,6 @@ https://maijin.beehiiv.com/p/nl-157-guide-ultime-cr-er-son-premier-agent-ia-8e07
 
 n8n
 https://maijin.beehiiv.com/p/n8n-petit-guide-terrain-pour-vraiment-d-marrer
+
+{% include links.html %}
+
