@@ -149,7 +149,6 @@ SELECT TOP 5
 
 ### Recherche floue avec SOUNDEX pour retrouver un nom similaire
 
-<!-- Bouton Copier -->
 <button class="copy-btn" data-clipboard-target="#codeBlock1">Copier</button>
 <pre><code id="codeBlock1">
 SELECT *
