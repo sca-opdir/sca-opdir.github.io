@@ -111,12 +111,35 @@ SELECT DISTINCT
     AND CHARINDEX('/', [No CT exploitation]) > 0
     </code></pre>
 
+### Obtenir différents niveaux d'agrégation dans une seule requête (regroupement conditionnel avec GROUPING SETS)
+
 <button class="copy-btn" data-clipboard-target="#codeBlock8">Copier</button>
 <pre><code id="codeBlock8">
+    SELECT 
+[Commune OFS Secteur], 
+[Exercice comptable], 
+SUM([Surface exploitée]) AS TotalSurface
+FROM V_SURFACES
+WHERE [Exercice comptable] = 2025
+GROUP BY GROUPING SETS (
+  ([Commune OFS Secteur], [Exercice comptable]),
+  ([Commune OFS Secteur]),
+  ([Exercice comptable]),
+  ()
+)
 </code></pre>
+
+
+### Recherche sur plusieurs colonnes avec COALESCE
+
+Attention : n'est pas équivalent à un OR. Par ex. ci-dessous, teste LIKE sur la 1ère valeur non-nulle Nom4, Nom3, etc. dans cet ordre ; ne passe pas à la colonne suivante dès que non-nul trouvé
 
 <button class="copy-btn" data-clipboard-target="#codeBlock9">Copier</button>
 <pre><code id="codeBlock9">
+  SELECT DISTINCT [No CT exploitation], Nom1, Nom2, Nom3, Nom4
+  FROM V_EXPLOITATIONS
+      WHERE COALESCE(Nom4, Nom3, Nom2, Nom1) LIKE '%Studer%' AND
+    [Année données annuelles]=2025
 </code></pre>
 
 <button class="copy-btn" data-clipboard-target="#codeBlock10">Copier</button>
