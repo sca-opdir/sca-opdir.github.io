@@ -71,11 +71,21 @@ FROM V_EXPLOITATIONS WHERE
             [Année données annuelles]=2025;
 </code></pre>
 
-### Inline If (IIF)
+### Conversion du niveau de qualité (LTRIM, COALESCE)
 
 <button class="copy-btn" data-clipboard-target="#codeBlock5">Copier</button>
 <pre><code id="codeBlock5">
+SELECT  DISTINCT TOP 10
+ [Id de la surface], [Niveau SPB],  
+ LTRIM(REPLACE(COALESCE([Niveau SPB], '0'), 'Niveau de qualité', '')) AS NiveauNum
+FROM V_SURFACES
+WHERE [Exercice comptable]=2025
 </code></pre>
+
+Ici on aurait aussi pu utiliser ISNULL : 
+* ISNULL(expr, valeur_par_defaut) est spécifique à SQL Server et ne prend que 2 arguments.
+* COALESCE(expr1, expr2, ..., exprN) est standard SQL, peut prendre plusieurs arguments, et retourne la première non NULL.
+
 
 ### Essai de conversion pour détecter des erreurs de format
 
