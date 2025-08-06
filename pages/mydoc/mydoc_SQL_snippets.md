@@ -171,6 +171,89 @@ SELECT DISTINCT Nom1
 </code></pre>
 
 
+
+### Pivot statique
+
+Le pivot statique demande que tu connaisses à l’avance les colonnes cibles (ex. années).
+
+<button class="copy-btn" data-clipboard-target="#codeBlock14">Copier</button>
+<pre><code id="codeBlock14">
+    SELECT 
+    [No exploitation],
+    ISNULL([A], 0) AS A,
+    ISNULL([B], 0) AS B,
+    ISNULL([D], 0) AS D
+FROM (
+    SELECT 
+        [No exploitation],
+        [code catégorie],
+        SUM([Total UGB]) AS TotalUGBSomme
+    FROM V_ANIMAUX
+    WHERE 
+        [Exercice comptable] = 2025
+        AND [Catégorie déclaration animaux] = 'Nombre au jour de référence (têtes)'
+    GROUP BY 
+        [No exploitation], 
+        [code catégorie]
+) AS SourceTable
+PIVOT (
+    SUM(TotalUGBSomme)
+    FOR [code catégorie] IN ([A], [B], [D])
+) AS PivotTable
+ORDER BY [No exploitation];
+
+</code></pre>
+
+### Pivot dynamique
+
+Le pivot dynamique construit cette liste automatiquement (pratique si la liste change souvent).
+<button class="copy-btn" data-clipboard-target="#codeBlock15">Copier</button>
+<pre><code id="codeBlock15">
+DECLARE @cols NVARCHAR(MAX), @colsIsNull NVARCHAR(MAX), @query NVARCHAR(MAX);
+
+-- 1. Liste des colonnes entre crochets (pour le pivot)
+SELECT @cols = STRING_AGG(QUOTENAME([code catégorie]), ',')
+FROM (
+    SELECT DISTINCT [code catégorie]
+    FROM V_ANIMAUX
+    WHERE [Exercice comptable] = 2025
+      AND [Catégorie déclaration animaux] = 'Nombre au jour de référence (têtes)'
+) AS tmp;
+
+-- 2. Liste des colonnes enveloppées dans ISNULL (pour la sélection finale)
+SELECT @colsIsNull = STRING_AGG('ISNULL(' + QUOTENAME([code catégorie]) + ', 0) AS ' + QUOTENAME([code catégorie]), ', ')
+FROM (
+    SELECT DISTINCT [code catégorie]
+    FROM V_ANIMAUX
+    WHERE [Exercice comptable] = 2025
+      AND [Catégorie déclaration animaux] = 'Nombre au jour de référence (têtes)'
+) AS tmp;
+
+-- 3. Construire la requête dynamique complète
+SET @query = N'
+SELECT [No exploitation], ' + @colsIsNull + '
+FROM (
+    SELECT 
+        [No exploitation], 
+        [code catégorie], 
+        SUM([Total UGB]) AS TotalUGBSomme
+    FROM V_ANIMAUX
+    WHERE [Exercice comptable] = 2025
+      AND [Catégorie déclaration animaux] = ''Nombre au jour de référence (têtes)''
+    GROUP BY [No exploitation], [code catégorie]
+) AS src
+PIVOT (
+    SUM(TotalUGBSomme)
+    FOR [code catégorie] IN (' + @cols + ')
+) AS pvt
+ORDER BY [No exploitation];';
+
+-- 4. Exécuter la requête dynamique
+EXEC sp_executesql @query;
+
+</code></pre>
+
+
  ### Compactage/conversion en JSON, XML, etc. 
 
 ##### JSON
@@ -192,15 +275,6 @@ FOR XML AUTO, ELEMENTS;
 </code></pre>
 
 (ELEMENTS force les colonnes à apparaître comme des éléments XML (tags) au lieu d’attributs)
-
-<button class="copy-btn" data-clipboard-target="#codeBlock14">Copier</button>
-<pre><code id="codeBlock14">
-</code></pre>
-
-<button class="copy-btn" data-clipboard-target="#codeBlock15">Copier</button>
-<pre><code id="codeBlock15">
-</code></pre>
-
 
 ### Autres fonctions
 
