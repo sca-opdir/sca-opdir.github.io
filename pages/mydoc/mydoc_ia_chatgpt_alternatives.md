@@ -9,6 +9,8 @@ permalink: ChatGPT_alternatives.html
 folder: mydoc
 ---
 
+[article Medium](https://alain-airom.medium.com/using-llama-cookbook-text2sql-and-really-impressed-87783b574ef3) : utiliser la recette 'Text2SQL' de la série llama-cookbook pour convertir une question en langage naturel en requête SQL
+
 [LMSYS Chatbot Arena](https://chat.lmsys.org/) (Multimodal): Benchmarking LLMs and VLMs in the Wild 
 
 [guide](https://academieweb3.com/claude-3-danthropic) pour utiliser Claude3
