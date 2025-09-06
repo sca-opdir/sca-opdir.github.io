@@ -67,10 +67,13 @@ entries:
           url: /ChatGPT_exemples35.html
           output: web
         - title: Exemples d'utilisation (4.0)
-          url: /ChatGPT_exemples40.html
+          url: /ChatGPT_exemplesPlus.html
           output: web
         - title: Exemples d'utilisation (4o)
           url: /ChatGPT_exemples4o.html
+          output: web
+        - title: Exemples d'utilisation (OPDir)
+          url: /ChatGPT_exemplesOPDir.html
           output: web
         - title: Plugins
           url: /ChatGPT_plus.html
