@@ -10,4 +10,4 @@ folder: mydoc
 ---
 
 ## Lien interne
-G:\PDIRECTS\1_Marie\6_autres infos\AI\documentation\cas_d_usage_OPD.pptx
+G:\PDIRECTS\1_Marie\6_autres infos\AI\documentation\opdir\cas_d_usage_OPD.pptx
