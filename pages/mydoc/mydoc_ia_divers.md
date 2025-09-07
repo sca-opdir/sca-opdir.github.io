@@ -12,24 +12,20 @@ folder: mydoc
 ## Supports de cours formations continues (liens internes)
 
 * Formation organisée par le canton :
-
-G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\Améliorer l’utilisation de l’IA  2025 V2 - Etat du Valais.pdf
-
-
-* Formation UNIGE décembre 2023
   
-G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\UNIGE
+[G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\Améliorer l’utilisation de l’IA  2025 V2 - Etat du Valais.pdf](\\infra.vs.ch\dfs\SCA-DLW\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\Améliorer l’utilisation de l’IA  2025 V2 - Etat du Valais.pdf)
 
+* Formation UNIGE décembre 2023 :
+  
+[G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\UNIGE](\\infra.vs.ch\dfs\SCA-DLW\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\UNIGE)
 
 * Formation JBB
 
-G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\JBB
-
+[G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\JBB](\\infra.vs.ch\dfs\SCA-DLW\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\JBB)
 
 * Formation IFAGE développeur IA
 
-G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\IFAGE
-
+[G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\IFAGE](\\infra.vs.ch\dfs\SCA-DLW\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\IFAGE)
 
 
 ## A suivre
@@ -259,5 +255,6 @@ Zhao Wayne Xin, Zhou Kun, Li Junyi et al.. 2023. A Survey of Large Language Mode
 
 
 {% include links.html %}
+
 
 
