@@ -62,7 +62,7 @@ paramétrer ses instructions personnalisées
 5. construire une matrice de compétences (regrouper les techniques dans des champs délimités par des balises)
 utiliser des balises dans ses instructions par ex. ("<context>je suis avocat \[...\]</context><response>je souhaite que chatgpt génère des réponses brèves \[...\]</response>")
 
-pense-bête prompt parfait
+pense-bête 
 1. clarté et précision
 2. structure efficace
 3. spécificités : rôle - tâche - objectif - contexte - étapes - contraintes - format - style - expertise
@@ -70,7 +70,10 @@ pense-bête prompt parfait
 5. délimiteurs (par ex. 3 apostrophes pour clarifier la communication avec ChatGPT)
 6. inverser les rôles (lui demander de poser des questions pour mieux cerner notre demande)
 7. comprendre ce qu'on cherche
-8. reverse prompt engineering
+8. reverse prompt engineering (transformer le contenu cible en un guide pour créer des prompts similaires : demander à ChatGPT un prompt basé sur l'exemple)
+9. imitation par l'exemple (fournir un exemple pour guider ChatGPT)
+10. utiliser des modèles pour structurer ses réponses (par ex. AIDA Attention Intérêts Désir Action)
+11. explorer les formats que ChatGPT peut générer
 
 ## L'art du prompt pour les nuls (Y. Salmandjee, 2025)
 
