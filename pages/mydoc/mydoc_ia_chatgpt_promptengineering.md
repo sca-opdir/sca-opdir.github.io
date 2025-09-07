@@ -59,14 +59,36 @@ rédaction d'un prompt pour la génération de textes
 tester plusieurs versions d'un prompt pour identifier le plus efficace
 
 rédaction d'un prompt pour l'image 
-- structure le prompt pour une image cohérente
+- structurer le prompt pour une image cohérente
 - pour un style ou un ambiance particulière : inclure des adjectifs ou des comparaisons
 - prompt détaillé, inclure des techniques artistiques spécifiques, etc.
 - orienter vers un style artistique (par ex. moderne, impressionnisme)
 - choisir un thème spécifique (par ex. surréaliste, futuriste, etc.)
 
-rédaction d'un prompt pour la programmation
-- 
+rédaction d'un prompt pour la génération de code 
+- ajouter des détails pour guider l'IA pour respecter sécurité, performance, lisibilité, maintenance, évolutivité
+- décomposer les tâches
+- inclure des contraintes de performance, des exigences de sécurité, des spécifications pour l'interopérabilité, la lisibilité, l'efficacité du code
+- inclure des détails par ex. algorithme à utiliser, "en optimisant l'utilisation de la mémoire et en minimsant le coût de synchronisation entre les threads"
+- spécifier le style de codage (par ex. suivre les conventions de style de code JavaDoc)
+ - clarté et spécificité
+      - langage de programmation
+      - fonctionnalités et cas d'utilisation
+      - contraintes de performance
+  - adapter les promptes au langage de programmation
+  - inclure des demandes de tests dans le prompt pour s'assurer que l'IA génère du code fonctionnel et validé
+
+10 commandements pour un prompt réussi
+1. être clair et directif
+2. cibler l'expertise ou le rôle de ChatGPT et l'objectif ou la cible
+3. définir un ton et un format de réponse
+4. ne pas demander l'impossible
+5. découper, décomposer, structurer
+6. si la réponse ne convient pas, dites-le
+7. demander de poser toutes les questions nécessaires
+8. donner des exemples ou un format précis
+9. former l'IA selon vos besoins
+10. valider le déroulement du prompt et revérifier les informations sensibles
 
 ## Méthode ACTIF-VE (M. Corthésy)
 
