@@ -17,7 +17,8 @@ folder: mydoc
 * [*7 conseils Zdnet*](https://www.zdnet.com/article/7-advanced-chatgpt-prompt-writing-tips-you-need-to-know)
 * <https://www.promptingguide.ai>
 * <https://www.linkedin.com/in/jean-baptiste-berthoux>
-* [guide](../documents/IA générative_guide UNIGE_septembre2024.pdf) sur l'IA générative de l'UNIGE 
+* [guide](../documents/IA générative_guide UNIGE_septembre2024.pdf) sur l'IA générative de l'UNIGE
+* UNIGE : [comment communiquer ? faire un prompt](https://www.unige.ch/numerique/ia-generative-guide-unige/communiquer-faire-un-prompt) ; [page IA](https://www.unige.ch/numerique/ia-generative-guide-unige)
 
 ## Eléments-clés du prompt
 
