@@ -9,6 +9,19 @@ permalink: Mendix_autres_infos.html
 folder: mydoc
 ---
 
+### Performance
+
+### Exemples d'usages spécifiques 
+
+How to make a Slack bot with Mendix (Medium)
+
+Publishing REST APIs in Mendix (Medium)
+
+GenAI from Marketplace ([Medium](https://medium.com/mendix/2024-wrapped-on-the-mendix-marketplace-genai-genai-genai-42d18f448b36))
+
+### Autres infos
+
+
 java actions
 
 [Explore Mendix Java Actions](https://yashvaantlakham73.medium.com/explore-mendix-java-actions-d8293460a297)
