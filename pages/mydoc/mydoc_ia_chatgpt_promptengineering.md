@@ -26,6 +26,45 @@ folder: mydoc
 * cheminement à suivre
 * cadrage et contraintes
 
+## L'art du prompt pour les nuls (Y. Salmandjee)
+
+structure de base d'un prompt
+- demande claire
+- contexte précis
+- contraintes spécifiques
+
+éléments clés d'un prompt efficace
+- clarté, éviter ambiguïtés
+- concision
+- spécificité
+- contexte
+- détails pertinents
+
+différents types de prompts
+- informatifs
+- créatifs
+- réflexifs
+- directifs
+- interactifs
+
+rédaction d'un prompt pour la génération de textes
+- comprendre l'objectif du texte
+- structurer le prompt pour un texte cohérent : idéalement doit inclure une introduction (présenter le sujet), les points principaux à développer, une conclusion (résumer les points clés), ou un call-to-action si nécessaire
+- inclure les directives sur le ton (informatif, amical, académique, etc.) et le style (simplicité de langate,  utilisation de métaphores, etc.)
+- optimiser les résultats avec des prompts précis
+      - ajouter des contraintes spécifiques (longueur, citations ou références à inclure, etc.)
+      - préciser le contexte et l'audience
+      - éviter les ambiguïtés
+
+tester plusieurs versions d'un prompt pour identifier le plus efficace
+
+rédaction d'un prompt pour l'image 
+- structure le prompt pour une image cohérente
+- pour un style ou un ambiance particulière : inclure des adjectifs ou des comparaisons
+- prompt détaillé, inclure des techniques artistiques spécifiques, etc.
+- orienter vers un style artistique (par ex. moderne, impressionnisme)
+- choisir un thème spécifique (par ex. surréaliste, futuriste, etc.)
+
 ## Méthode ACTIF-VE (M. Corthésy)
 
 7 éléments pour un prompt de qualité, leur ordre n'est pas important :
