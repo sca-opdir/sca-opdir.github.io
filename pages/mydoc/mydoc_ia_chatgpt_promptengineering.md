@@ -65,6 +65,9 @@ rédaction d'un prompt pour l'image
 - orienter vers un style artistique (par ex. moderne, impressionnisme)
 - choisir un thème spécifique (par ex. surréaliste, futuriste, etc.)
 
+rédaction d'un prompt pour la programmation
+- 
+
 ## Méthode ACTIF-VE (M. Corthésy)
 
 7 éléments pour un prompt de qualité, leur ordre n'est pas important :
