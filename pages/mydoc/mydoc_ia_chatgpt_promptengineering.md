@@ -25,8 +25,54 @@ folder: mydoc
 * rôle
 * cheminement à suivre
 * cadrage et contraintes
+* 
+## Super productif (J. Guillo et B. Trophardy, 2025)
 
-## L'art du prompt pour les nuls (Y. Salmandjee)
+différents types de prompts
+- one-shot
+- multi-shot
+- prompt en chaine de pensée
+
+auto-cohérence dans les prompts : poser la question de différentes manières ou sonder plusieurs voies de raisonnement
+- étendre le prompt (fournir une série de questions liées avec des réponses pour donner du contexte et établir une attente quant au type de raisonnement)
+- poser la question plusieurs fois (en intégrant de légères variations) pour encourager des réponses diverses
+- évaluer la cohérence après avoir obtenu plusieurs sorties
+
+structurer un prompt
+- les délimiteurs (indiquer où commence et se termine un élément spécifique ; par exemple utiliser des apostrophes pour indiquer où commence et se termine une liste d'ingrédients)
+- les balises (signaux visuels pour aider à repérer le contexte) : par exemple "voici la liste des \[ingrédients\]" pour faire comprendre que ce qui suit (délimité par apostrophes) sont les ingrédients
+- autoprompt (par ex. demander "demande-moi de traduire en français \[...\]" pour que le modèle génère lui même les prompts
+ => utilisation de délimiteurs our définir clairement les éléments du prompt, insertion de balises pour préciser le contexte, production d'auto-prompts pour permettre au modèle de générer lui-même des prompts
+
+prompt parfait en 8 étapes
+1. déterminer votre rôle idéal
+2. définir votre tâche
+3. créer votre contexte
+4. identifier et définir les contraintes
+5. préciser le format de réponse
+6. découper votre tâche en étapes
+7. clarifier l'objectif
+8. tester et itérer votre prompt
+
+paramétrer ses instructions personnalisées
+1. donner un rôle à ChatGPT
+2. communiquer des informations structurées
+3. créer une séquence
+4. fournir des réponses conditionnelles (fournir des scénarios conditionnels : préciser quelle technique utiliser dans chaque situation)
+5. construire une matrice de compétences (regrouper les techniques dans des champs délimités par des balises)
+utiliser des balises dans ses instructions par ex. ("<context>je suis avocat \[...\]</context><response>je souhaite que chatgpt génère des réponses brèves \[...\]</response>")
+
+pense-bête prompt parfait
+1. clarté et précision
+2. structure efficace
+3. spécificités : rôle - tâche - objectif - contexte - étapes - contraintes - format - style - expertise
+4. choix des mots (par ex. développer plutôt que écrire)
+5. délimiteurs (par ex. 3 apostrophes pour clarifier la communication avec ChatGPT)
+6. inverser les rôles (lui demander de poser des questions pour mieux cerner notre demande)
+7. comprendre ce qu'on cherche
+8. reverse prompt engineering
+
+## L'art du prompt pour les nuls (Y. Salmandjee, 2025)
 
 structure de base d'un prompt
 - demande claire
