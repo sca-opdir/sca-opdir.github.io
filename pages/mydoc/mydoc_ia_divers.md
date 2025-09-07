@@ -28,12 +28,18 @@ folder: mydoc
 [G:\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\IFAGE](\\infra.vs.ch\dfs\SCA-DLW\PDIRECTS\1_Marie\6_autres infos\AI\opdir\documentation\IFAGE)
 
 
+## Autres cantons
+
+* IA dans le [canton de Zurich](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/kuenstliche-intelligenz.html), dont repo [GitHub](https://github.com/machinelearningZH)
+* IA [Appenzell Innerrhoden](https://www.ai.ch/themen/staat-und-recht/digitale-verwaltung/verzeichnis-algorithmischer-systeme)
+* Jura : [stratégie numérique](https://www.jura.ch/fr/Autorites/Administration/DEN/SDI/Strategie-Numerique-SNJU/La-strategie-numerique-du-canton-du-Jura-SNJU.html)
+* Genève : Guide "[Intelligence Artificielle](https://www.ge.ch/document/guide-intelligence-artificielle)"
+* Vaud : rapport [L'intelligence artificielle dans le Canton de Vaud](https://www.vd.ch/fileadmin/user_upload/organisation/dinf/dsi/fichiers_pdf/IA_Rapport_interd%C3%A9partemental.pdf) ; [Guide IA et communes vaudoises](https://www.ucv.ch/thematiques/securite/information-et-protection-des-donnees-personnelles/detail-linfo/guides-intelligence-artificielle-et-communes-vaudoises)
+
 ## A suivre
 
 (non exhaustif)
-
-* IA [Appenzell Innerrhoden](https://www.ai.ch/themen/staat-und-recht/digitale-verwaltung/verzeichnis-algorithmischer-systeme)
-* IA dans le [canton de Zurich](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/kuenstliche-intelligenz.html), dont repo [GitHub](https://github.com/machinelearningZH)
+* UNIGE : [ressources IA](https://www.unige.ch/numerique/ia-generative-guide-unige)
 * [ParlDebateScanner](https://parldebatescanner.org/) in a Nutshell [source code](https://github.com/JohannesHool/parldebatescanner-in-a-nutshell)
 * [Swiss OSS benchmarks](https://ossbenchmark.com/) : Ranking of Swiss Institutions/Repo/People Releasing Open Source Software
 * [Atlas of automation](https://algorithmwatch.ch/en/atlas-of-automation/) par AlgorithmWatch
@@ -255,6 +261,7 @@ Zhao Wayne Xin, Zhou Kun, Li Junyi et al.. 2023. A Survey of Large Language Mode
 
 
 {% include links.html %}
+
 
 
 
