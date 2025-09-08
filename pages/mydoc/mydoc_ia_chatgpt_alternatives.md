@@ -21,6 +21,8 @@ Pour l'analyse de données : pas de réelles alternatives
 
 Les 4 principaux concurrents de Chat GPT donnent accès gratuitement à des modèles plus performants que GPT-3.5.
 
+Apertus modèle suisse testable [https://chat.publicai.co/](https://chat.publicai.co/)
+
 ## Alternatives pour le texte
 
 - Claude 3 Sonnet [disponible gratuitement](https://claude.ai/) 
