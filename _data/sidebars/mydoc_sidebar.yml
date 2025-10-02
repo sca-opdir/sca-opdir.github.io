@@ -178,11 +178,14 @@ entries:
       url: /Mendix_autres_infos.html
       output: web
 
-  - title: Opensource
+  - title: Digital Gov.
     output: web
     folderitems:
-    - title: Dans les AP
-      url: /opensource_et_administrationsPubliques.html
+    - title: opensource
+      url: /digo_opensource.html
+      output: web
+    - title: autres infos
+      url: /digo_autres_infos.html
       output: web
 
 
