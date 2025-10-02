@@ -2,7 +2,7 @@
 title: Opensource et administrations publiques
 tags: [AP, opensource, DiGo]
 last_updated: August 03, 2025
-keywords: AP, opensource
+keywords: AP, opensource, DiGo
 summary: "infos diverses déploiement solutions opensource et administrations publiques"
 sidebar: mydoc_sidebar
 permalink: digo_opensource.html
