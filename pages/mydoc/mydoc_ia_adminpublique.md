@@ -29,6 +29,12 @@ folder: mydoc
 
 * IA générative et ville de Winterthour ([blog Liip](https://www.liip.ch/fr/blog/genai-dans-l-administration-publique-perspectives-de-christoph-zech))
 
+* Neuchâtel : [Mise en place d’une cellule transversale dédiée à la science des données et à l’intelligence artificielle à l’État de Neuchâtel](https://www.ne.ch/medias/Pages/250929-CreationCelluleSDIA.aspx)
+Cette structure aura pour mission de coordonner les initiatives, favoriser les échanges entre les services, promouvoir une utilisation responsable et durable de ces technologies et coordonner la formation des utilisateurs.
+Rattachée au service de statistique (STAT), la cellule compte le service de l'informatique (SIEN) comme partenaire de premier plan. Elle sera coordonnée par Mme Géraldine Schaller-Conti, actuelle collaboratrice au sein du STAT et désignée déléguée IA. Elle associera également d'autres services transversaux et métiers concernés. Cette organisation vise à renforcer la cohérence des projets IA au sein de l'administration cantonale, éviter la multiplication d'initiatives isolées et mettre en commun les compétences existantes.
+La cellule conseillera les services dans le développement de projets métier liés à la science des données et IA, ainsi que dans leur utilisation professionnelle d'outils IA. Elle coordonnera également la formation des collaboratrices et collaborateurs et assurera une veille sur les pratiques et usages émergents dans le domaine. Elle pourra également venir en appui des communes et participer à des projets supra-cantonaux et nationaux, voire internationaux.
+
+
 
 ## Divers
 
