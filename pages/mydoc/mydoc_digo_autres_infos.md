@@ -9,7 +9,13 @@ permalink: digo_opensource.html
 folder: mydoc
 ---
 
-[Fournir dix fois le même document? Genève veut mettre un terme aux labyrinthes administratifs](https://www.letemps.ch/suisse/geneve/fournir-dix-fois-le-meme-document-geneve-veut-mettre-un-terme-aux-labyrinthes-administratifs) (Le Temps)
+**Fribourg** : [Le Référentiel cantonal](https://www.fr.ch/vie-quotidienne/demarches-et-documents/le-referentiel-cantonal)
+En soutien à la numérisation des processus de l'ensemble des organes de l'Etat et à la cyberadministration, une nouvelle infrastructure numérique de traitements de données, dotée d'une gouvernance centrale, a vu le jour dans le canton. Celle-ci est appelée le Référentiel cantonal. Le projet-pilote a démarré en août 2019.
+
+
+
+
+[Fournir dix fois le même document? **Genève** veut mettre un terme aux labyrinthes administratifs](https://www.letemps.ch/suisse/geneve/fournir-dix-fois-le-meme-document-geneve-veut-mettre-un-terme-aux-labyrinthes-administratifs) (Le Temps)
 L’administration veut simplifier les démarches en ligne grâce au principe du «once only», selon lequel l’usager ne devrait plus se voir réclamer plusieurs fois un même document par différents services
 
 Cette grande «simplification» concernera non seulement les citoyens, mais aussi les entreprises. Elle s’appliquera à l’administration cantonale, aux communes, ainsi qu’aux établissements publics autonomes. A cette fin, le Conseil d’Etat a déposé deux projets de loi auprès du parlement. Le premier crée la base légale nécessaire pour mettre en œuvre cette réforme. Le second ouvre un crédit d’investissement de 19 millions de francs afin de faire évoluer la «cyberadministration».
