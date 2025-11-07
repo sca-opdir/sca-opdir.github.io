@@ -9,6 +9,8 @@ permalink: digo_autres_infos.html
 folder: mydoc
 ---
 
+**Valais** : IA au SCC ([article du NF](https://www.lenouvelliste.ch/valais/impots-le-valais-teste-lutilisation-de-lia-comme-aide-aux-decisions-fiscales-1446169))
+
 **Fribourg** : [Le Référentiel cantonal](https://www.fr.ch/vie-quotidienne/demarches-et-documents/le-referentiel-cantonal)
 En soutien à la numérisation des processus de l'ensemble des organes de l'Etat et à la cyberadministration, une nouvelle infrastructure numérique de traitements de données, dotée d'une gouvernance centrale, a vu le jour dans le canton. Celle-ci est appelée le Référentiel cantonal. Le projet-pilote a démarré en août 2019.
 
