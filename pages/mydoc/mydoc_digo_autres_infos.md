@@ -5,15 +5,18 @@ last_updated: August 03, 2025
 keywords: AP, DiGo
 summary: "infos diverses et liens sur la transformation digitale de l'administration publique"
 sidebar: mydoc_sidebar
-permalink: digo_opensource.html
+permalink: digo_autres_infos.html
 folder: mydoc
 ---
 
 **Fribourg** : [Le Référentiel cantonal](https://www.fr.ch/vie-quotidienne/demarches-et-documents/le-referentiel-cantonal)
 En soutien à la numérisation des processus de l'ensemble des organes de l'Etat et à la cyberadministration, une nouvelle infrastructure numérique de traitements de données, dotée d'une gouvernance centrale, a vu le jour dans le canton. Celle-ci est appelée le Référentiel cantonal. Le projet-pilote a démarré en août 2019.
 
+**Zurich** : [stratégie 2025+](https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/strategie-digitale-verwaltung-2025-.html)
 
+Chatbot **Luzi** und Bund ([article inside-it](https://www.inside-it.ch/chatbot-luzi-startet-in-luzern-20250925))
 
+[article ](https://www.netzwoche.ch/news/2025-03-17/im-kanton-solothurn-entscheidet-ki-ueber-die-steuererklaerung) sur IA taxation Soleure
 
 [Fournir dix fois le même document? **Genève** veut mettre un terme aux labyrinthes administratifs](https://www.letemps.ch/suisse/geneve/fournir-dix-fois-le-meme-document-geneve-veut-mettre-un-terme-aux-labyrinthes-administratifs) (Le Temps)
 L’administration veut simplifier les démarches en ligne grâce au principe du «once only», selon lequel l’usager ne devrait plus se voir réclamer plusieurs fois un même document par différents services
