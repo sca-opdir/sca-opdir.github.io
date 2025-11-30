@@ -185,7 +185,7 @@ entries:
   - title: Digital Gov.
     output: web
     folderitems:
-    - title: opensource
+    - title: opensource et libres
       url: /digo_opensource.html
       output: web
     - title: autres infos
