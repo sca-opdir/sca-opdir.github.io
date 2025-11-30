@@ -9,31 +9,63 @@ permalink: SAPwebi_rapports.html
 folder: mydoc
 ---
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+.accordion details {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  background: #f8f9fa;
+}
 
-<div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">Contrôles des données SAP</button></h5>
-    </div>
-    <div id="collapseOne" class="collapse" data-parent="#accordion">
+.accordion summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+.accordion summary::-webkit-details-marker {
+  display: none; /* enlève le triangle moche par défaut */
+}
+
+.accordion summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.4rem;
+  transition: transform 0.2s ease;
+}
+
+/* flèche tournée quand c'est ouvert */
+.accordion details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.accordion ul {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
+</style>
+
+<div class="accordion">
+
+<details>
+  <summary>Contrôles des données SAP</summary>
+  <ul>
+    <li>Attributs
       <ul>
-        <li>Attributs
-          <ul>
-            <li><a href="#">Année d'engagement</a></li>
-            <li><a href="#">Surfaces</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Forme</a></li>
+        <li><a href="#">Année d'engagement</a></li>
+        <li><a href="#">Surfaces</a></li>
       </ul>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5><a href="https://google.ch" target="_blank">Google</a></h5>
-    </div>
-  </div>
-</div>
+    </li>
+    <li><a href="#">Forme</a></li>
+  </ul>
+</details>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<details>
+  <summary>Google</summary>
+  <p>
+    <a href="https://google.ch" target="_blank">Ouvrir Google dans un nouvel onglet</a>
+  </p>
+</details>
+
+</div>
