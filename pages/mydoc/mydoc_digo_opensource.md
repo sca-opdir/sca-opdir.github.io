@@ -11,6 +11,10 @@ folder: mydoc
 
 [openDesk](https://www.opendesk.eu/en) by ZenDiS
 
+Guide des logiciels libres pour l'entreprise : plus de 200 solutions open source ([francenum](https://www.francenum.gouv.fr/guides-et-conseils/pilotage-de-lentreprise/logiciels-de-gestion-de-lentreprise/guide-des-logiciels)) 
+
+Promotion logiciels libres [Grenoble](https://www.grenoble.fr/1052-trouver-et-installer-des-logiciels-libres.htm#par6685)
+
 [Munich's Long History with Open Source in Public Administration](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/document/munichs-long-history-open-source-public-administration)
 
 [Munich Open Source](https://opensource.muenchen.de/) : avec liste d'outils du Free Software ecosystem
