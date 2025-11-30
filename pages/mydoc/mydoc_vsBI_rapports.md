@@ -18,6 +18,13 @@ folder: mydoc
   background: #f8f9fa;
 }
 
+/* 2e niveau : un peu décalé visuellement */
+.accordion details details {
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+  background: #ffffff;
+}
+
 .accordion summary {
   cursor: pointer;
   font-weight: 600;
@@ -25,7 +32,7 @@ folder: mydoc
 }
 
 .accordion summary::-webkit-details-marker {
-  display: none; /* enlève le triangle moche par défaut */
+  display: none; /* enlève le triangle par défaut */
 }
 
 .accordion summary::before {
@@ -36,7 +43,7 @@ folder: mydoc
 }
 
 /* flèche tournée quand c'est ouvert */
-.accordion details[open] summary::before {
+.accordion details[open] > summary::before {
   transform: rotate(90deg);
 }
 
@@ -50,15 +57,19 @@ folder: mydoc
 
 <details>
   <summary>Contrôles des données SAP</summary>
+
+  <details>
+    <summary>Attributs</summary>
+    <ul>
+      <li><a href="#">Année d'engagement</a></li>
+      <li><a href="#">Surfaces</a></li>
+    </ul>
+  </details>
+
   <ul>
-    <li>Attributs
-      <ul>
-        <li><a href="#">Année d'engagement</a></li>
-        <li><a href="#">Surfaces</a></li>
-      </ul>
-    </li>
     <li><a href="#">Forme</a></li>
   </ul>
+
 </details>
 
 <details>
