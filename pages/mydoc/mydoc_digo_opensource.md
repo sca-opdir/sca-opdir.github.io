@@ -11,6 +11,12 @@ folder: mydoc
 
 [openDesk](https://www.opendesk.eu/en) by ZenDiS
 
+[L'État allemand remplace Microsoft Exchange et Outlook par une messagerie électronique open source](https://www.zdnet.fr/actualites/letat-allemand-remplace-microsoft-exchange-et-outlook-par-une-messagerie-electronique-open-source-483401.htm)
+
+[Lyon délaisse la suite Office de Microsoft pour l'open source](https://www.lemondeinformatique.fr/actualites/lire-microsoft-enrichit-bloc-notes-dans-windows-11-98608.html)
+
+[En Autriche, l'armée renonce à Microsoft Office](https://www.cio-online.com/actualites/lire-en-autriche-l-armee-renonce-a-microsoft-office-16563.html)
+
 [Un Land allemand abandonne Microsoft au nom de la souveraineté numérique](https://www.rts.ch/info/monde/2025/article/l-allemagne-defie-microsoft-un-land-opte-pour-les-logiciels-libres-28912724.html) :
 les fonctionnaires sont en train d'abandonner Word et Excel, remplacés par LibreOffice, puis la messagerie Outlook, substituée par Open-Xchange et Thunderbird. Sharepoint doit également être remplacé par la solution nextcloud. [...] La prochaine étape d'ici quelques années: le basculement vers le système d'exploitation Linux, pour tourner définitivement la page Windows. [...] la ville de Munich, pionnière de l'open source dans les années 1990, qui a fait marche arrière en 2017, évoquant des problèmes de compatibilité avec les logiciels fermés omniprésents et le manque de soutien politique continu.
 
