@@ -11,6 +11,8 @@ folder: mydoc
 
 [openDesk](https://www.opendesk.eu/en) by ZenDiS
 
+[Souveraineté numérique : Copenhague et Aarhus enclenchent leur divorce avec Microsoft](https://www.usine-digitale.fr/article/souverainete-numerique-copenhague-et-aarhus-enclenchent-leur-divorce-avec-microsoft.N2233228)
+
 [L'État allemand remplace Microsoft Exchange et Outlook par une messagerie électronique open source](https://www.zdnet.fr/actualites/letat-allemand-remplace-microsoft-exchange-et-outlook-par-une-messagerie-electronique-open-source-483401.htm)
 
 [Lyon délaisse la suite Office de Microsoft pour l'open source](https://www.lemondeinformatique.fr/actualites/lire-microsoft-enrichit-bloc-notes-dans-windows-11-98608.html)
@@ -28,6 +30,9 @@ Le Temps : La Suite numérique, une alternative souveraine pour les administrati
 La Suite numérique \[...\] lancée par la France et l’Allemagne, rejoints récemment  par les Pays-Bas.
 
 [https://lasuite.numerique.gouv.fr/](https://lasuite.numerique.gouv.fr/)
+
+[La Suite Numérique : L’Etat ambitionne de bâtir une alternative souveraine crédible face aux grandes suites bureautiques américaines](https://www.usine-digitale.fr/souverainete/la-suite-numerique-letat-ambitionne-de-batir-une-alternative-souveraine-credible-face-aux-grandes-suites-bureautiques-americaines.EAX2IPKLWRDRVL25FKZUJV3U2E.html)
+
 [https://www.numerique.gouv.fr/numerique-etat/dinum/](https://www.numerique.gouv.fr/numerique-etat/dinum/)
 
 
