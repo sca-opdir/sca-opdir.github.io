@@ -40,4 +40,21 @@ folder: mydoc
 
 * Agrégation de lignes : <https://sca-opdir.shinyapps.io/agregation-de-lignes>
 
+## Autres infos
+
+Déployer une app shiny sur github :
+
+[https://hbctraining.github.io/Training-modules/RShiny/lessons/shinylive.html](https://hbctraining.github.io/Training-modules/RShiny/lessons/shinylive.html)
+
+exporter l'app dans dossier docs
+ensuite dans la console, se déplacer dans le dossier parent qui contient le docs
+créer le dossier public sur github
+git init
+git add .
+git commit -m "Ajout de l'app ShinyLive"
+git remote add origin https://github.com/sca-opdir/info_BI.git
+git branch -M main
+git config --global http."https://github.com/".sslVerify false
+git push -u origin main  
 {% include links.html %}
+
