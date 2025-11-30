@@ -9,6 +9,8 @@ permalink: digo_opensource.html
 folder: mydoc
 ---
 
+Github [Specialist Unit for Open Government Data Canton of Zurich](https://github.com/openZH)
+
 [openDesk](https://www.opendesk.eu/en) by ZenDiS
 
 [Guide des solutions Open Source](https://guide-solutions-opensource.com/)
