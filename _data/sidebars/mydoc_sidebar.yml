@@ -146,9 +146,13 @@ entries:
   - title: SAP webi
     output: web
     folderitems:
+    - title: Rapports données SAP
+      url: /SAPwebi_rapports.html
+      output: web
     - title: Autres infos
       url: /SAPwebi_autres_infos.html
       output: web
+      
 
   - title: FME
     output: web
