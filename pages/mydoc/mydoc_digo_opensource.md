@@ -3,13 +3,17 @@ title: Opensource et administrations publiques
 tags: [AP, opensource, DiGo]
 last_updated: August 03, 2025
 keywords: AP, opensource, DiGo
-summary: "infos diverses déploiement solutions opensource et administrations publiques"
+summary: "infos diverses déploiement solutions opensource/logiciels libres et administrations publiques"
 sidebar: mydoc_sidebar
 permalink: digo_opensource.html
 folder: mydoc
 ---
 
 [openDesk](https://www.opendesk.eu/en) by ZenDiS
+
+[Munich's Long History with Open Source in Public Administration](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/document/munichs-long-history-open-source-public-administration)
+
+[Munich Open Source](https://opensource.muenchen.de/) : avec liste d'outils du Free Software ecosystem
 
 [La Cour pénale internationale remplace Microsoft Office par la suite logicielle souveraine de l'UE OpenDesk
 ](https://office.developpez.com/actu/377386/La-Cour-penale-internationale-remplace-Microsoft-Office-par-la-suite-logicielle-souveraine-de-l-UE-OpenDesk-Le-personnel-de-la-CPI-ne-fait-plus-confiance-a-Microsoft-ni-aux-autres-logiciels-americains/)
