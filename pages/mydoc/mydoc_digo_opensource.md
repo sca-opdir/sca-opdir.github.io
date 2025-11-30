@@ -11,6 +11,9 @@ folder: mydoc
 
 [openDesk](https://www.opendesk.eu/en) by ZenDiS
 
+[La Cour pénale internationale remplace Microsoft Office par la suite logicielle souveraine de l'UE OpenDesk
+](https://office.developpez.com/actu/377386/La-Cour-penale-internationale-remplace-Microsoft-Office-par-la-suite-logicielle-souveraine-de-l-UE-OpenDesk-Le-personnel-de-la-CPI-ne-fait-plus-confiance-a-Microsoft-ni-aux-autres-logiciels-americains/)
+
 [Souveraineté numérique : Copenhague et Aarhus enclenchent leur divorce avec Microsoft](https://www.usine-digitale.fr/article/souverainete-numerique-copenhague-et-aarhus-enclenchent-leur-divorce-avec-microsoft.N2233228)
 
 [L'État allemand remplace Microsoft Exchange et Outlook par une messagerie électronique open source](https://www.zdnet.fr/actualites/letat-allemand-remplace-microsoft-exchange-et-outlook-par-une-messagerie-electronique-open-source-483401.htm)
