@@ -104,13 +104,13 @@ folder: mydoc
   <details>
     <summary>mode de culture</summary>
     <ul>
-      <li><a href="#">check_PI_BIO_grandescult</a></li>
-      <li><a href="#">check_PI_BIO_aromatiques</a></li>
-      <li><a href="#">check_PI_BIO_tout</a></li>
-      <li><a href="#">check_PI_BIO_arbo</a></li>
-      <li><a href="#">check_PI_BIO_petits_fruits</a></li>
-      <li><a href="#">check_PI_BIO_viti</a></li>
-      <li><a href="#">check_PI_BIO_maraich</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbZdYmuPusFPjttw528FuQk" target="blank">check_PI_BIO_grandescult</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ90oAQNSCxBu7uaxmu_WhE" target="blank">check_PI_BIO_tout</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEusIknoPBMrTzdVZfGnjI" target="blank">check_PI_BIO_arbo</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfJSSGPhS4hBsa_i4.cZbR4" target="blank">check_PI_BIO_petits_fruits</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AS5VTTG75IpHkNgz6Sl0YO8" target="blank">check_PI_BIO_viti</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa17XUbrQPFPu6vLv1pKF2c" target="blank">check_PI_BIO_maraich</a></li>
     </ul>
   </details>
   <details>
@@ -128,7 +128,7 @@ folder: mydoc
   <details>
     <summary>parcelles</summary>
     <ul>
-      <li><a href="#">check_parcelles_obsoletes_avec_surfaces</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWncw_Xje7JPmfivEtBRvq4" target="blank">check_parcelles_obsoletes_avec_surfaces</a></li>
     </ul>
   </details>
   <details>
@@ -172,7 +172,7 @@ folder: mydoc
   <details>
     <summary>UP</summary>
     <ul>
-      <li><a href="#">check_inscriptions_forme2</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYPE1ulE7u9CnEhBmj3E6No" target="blank">check_inscriptions_forme2</a></li>
     </ul>
   </details>
   
@@ -187,16 +187,16 @@ folder: mydoc
   <details>
     <summary>autres</summary>
     <ul>
-<li><a href="#">liste_cotisations</a></li>
-<li><a href="#">liste_inscriptions</a></li>
-<li><a href="#">liste_réductions</a></li>
-<li><a href="#">liste_localisation_UP_avec_bétail</a></li>
-<li><a href="#">liste_inscriptions_indications</a></li>
-<li><a href="#">liste_inscriptions_SST_SRPA_bio</a></li>
-<li><a href="#">liste_indications_générales</a></li>
-<li><a href="#">liste_exploitations_exploitants</a></li>
-<li><a href="#">liste_statut_marital</a></li>
-<li><a href="#">liste_charges_usuelle_effective</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ5RLm7mJpRDiR8k4i8QvKA" target="blank">liste_inscriptions</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWbAfzw5X.FCqZgBujdb3wU" target="blank">liste_inscriptions_SST_SRPA_bio</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a></li>
     </ul>
   </details>
     <details>
