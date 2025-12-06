@@ -61,8 +61,7 @@ folder: mydoc
   <details>
     <summary>attributs</summary>
     <ul>
-      <li><a href="#">check_HER_et_BCE</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a></li>
       <li><a href="#">list_surfBio_sans_HER_v4</a></li>
       https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY5t7nS5c_VGpuuYJ5FS_2o
       <li><a href="#">check_valeur_année_d'engagement_parbetpar</a></li>
