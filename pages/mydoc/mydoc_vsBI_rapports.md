@@ -79,7 +79,7 @@ folder: mydoc
     <details>
     <summary>biodiversité</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWmt88S..rNCg3HxzyeFa4I" target="blank">check_céréalesrangéeslarges_surfréseau</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWmt88S..rNCg3HxzyeFa4I" target="blank">check_céréalesrangéeslarges_surfréseau</a> : surf. céréales rangées larges <> surf. réseau</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVe4gfaNifVAp07IGILGp5s" target="blank">check_surfaces_réseau</a> : surf. réseau sans num. réseau ; surf. réseau > surf. exp. ; surf. réseau > surf. SPB1 ; num. réseau sans surf. réseau ; surf. réseau sans droit contrib.</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARUHxGaWU21Foxao83IiQKY" target="blank">check_surfaces_SPB</a> : surf. SPB1 <> surf. exploitée ; surf. SPB1/2 > surf. exploitée ; cc. SPB sans surf. SPB1 ; surf. SPB2 > surf. SPB1 ; année SPB non valide ; année SPB sans surf. SPB ; surf. SPB sans droit contrib. ; droit contrib. sans surf. SPB</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a> : nombre de 908/921/922/923/924 par m2 (plausibilité)</li>
@@ -89,15 +89,15 @@ folder: mydoc
   <details>
     <summary>estivage</summary>
     <ul>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ASWrmzVcv1tMgRcKOMTRD10" target="blank">check_charges_usuelle_effective</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ASWrmzVcv1tMgRcKOMTRD10" target="blank">check_charges_usuelle_effective</a> : vérifications PN autorisés <-> PN estivés</li>
     </ul>
   </details>  
   <details>
     <summary>exploitations</summary>
     <ul>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og" target="blank">liste_exploitations_99_numBDTA</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWYA7YAWYEhGpjJd0YEtG7Y" target="blank">liste_exploitations_liées_supp</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQXcas5f9blPvfzPP3LMCfw" target="blank">liste_réductions_formExp</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og" target="blank">liste_exploitations_99_numBDTA</a> : ne doit pas être en forme 99 si num. BDTA [!!! TODO : num. bdta pas encore dans la BI]</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWYA7YAWYEhGpjJd0YEtG7Y" target="blank">liste_exploitations_liées_supp</a> : exploitation avec exploit. parent ou enfant marquée pour supp. </li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQXcas5f9blPvfzPP3LMCfw" target="blank">liste_réductions_formExp</a> : réductions sur exploitations de forme non valide (vérif. par ex. pas saisie sous forme 2)</li>
       
     </ul>
   </details>
