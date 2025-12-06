@@ -134,15 +134,15 @@ folder: mydoc
   <details>
     <summary>redevances</summary>
     <ul>
-<li><a href="#">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXyOxW7egc5PkaE1wh6URxs
-<li><a href="#">check_parcelles_propriétaires_ccRedevance_v2_OK_viti</a></li>https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATuDGM6iaxVJva9pP3QTNo8
-<li><a href="#">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_viti</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ab5JFXWiIudDsx2VkQQzNaM
-<li><a href="#">check_parcelles_propriétaires_ccRedevance_v2_OK_sansViti</a></li>https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfRI0srZwKNHhhiIJi18uio
-<li><a href="#">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_sansViti</a></li>https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATUpTc7z621JhxjvO92uQQ0
-<li><a href="#">check_parcelles_propriétaires_ccRedev_v2</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXmsuM_lfhhLtqmxUXTxNNc
-<li><a href="#">check_parcelles_propriétaires_ccRedevance_v3_OK_viti</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AalNIbmQbF1Lgv6WfeBkhx8
-<li><a href="#">check_parcelles_propriétaires_ccRedevance_v3_OK_sansViti</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYI1kjH0s4tJqMzvdg4jRVk
-<li><a href="#">check_propriétaires_non_valides</a></li>https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefuWxzpJjNImmVMBJ63fLY
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXyOxW7egc5PkaE1wh6URxs" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATuDGM6iaxVJva9pP3QTNo8" target="blank">check_parcelles_propriétaires_ccRedevance_v2_OK_viti</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ab5JFXWiIudDsx2VkQQzNaM" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_viti</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfRI0srZwKNHhhiIJi18uio" target="blank">check_parcelles_propriétaires_ccRedevance_v2_OK_sansViti</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATUpTc7z621JhxjvO92uQQ0" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_sansViti</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXmsuM_lfhhLtqmxUXTxNNc" target="blank">check_parcelles_propriétaires_ccRedev_v2</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AalNIbmQbF1Lgv6WfeBkhx8" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK_viti</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYI1kjH0s4tJqMzvdg4jRVk" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK_sansViti</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefuWxzpJjNImmVMBJ63fLY" target="blank">check_propriétaires_non_valides</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AepJJCSo1ApBnEk60595mqs" target="blank">check_surfaces_propriétaires_ccRedev_v2_sansViti</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ASzMeTWlhqRDkwNGye5kaeE" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV_Eko5m589Io6ATA1MNLv8" target="blank">check_parcelles_propriétaires_ccRedevance_v2_OK</a></li>
