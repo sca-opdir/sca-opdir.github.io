@@ -79,23 +79,17 @@ folder: mydoc
     <details>
     <summary>biodiversité</summary>
     <ul>
-      <li><a href="#">check_céréalesrangéeslarges_surfréseau</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWmt88S..rNCg3HxzyeFa4I
-      <li><a href="#">check_surfaces_réseau</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVe4gfaNifVAp07IGILGp5s
-      <li><a href="#">check_surfaces_SPB</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARUHxGaWU21Foxao83IiQKY
-      <li><a href="#">check_ratio_nbre_arbres_921-924_908A-B</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY
-      <li><a href="#">liste_nbr_min_arbres_q1</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWmt88S..rNCg3HxzyeFa4I" target="blank">check_céréalesrangéeslarges_surfréseau</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVe4gfaNifVAp07IGILGp5s" target="blank">check_surfaces_réseau</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARUHxGaWU21Foxao83IiQKY" target="blank">check_surfaces_SPB</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a></li>
     </ul>
   </details>
   <details>
     <summary>estivage</summary>
     <ul>
-      <li><a href="#">check_charges_usuelle_effective</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ASWrmzVcv1tMgRcKOMTRD10
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ASWrmzVcv1tMgRcKOMTRD10" target="blank">check_charges_usuelle_effective</a></li>
     </ul>
   </details>  
   <details>
