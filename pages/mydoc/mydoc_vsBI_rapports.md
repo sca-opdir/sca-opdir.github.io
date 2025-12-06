@@ -175,12 +175,7 @@ folder: mydoc
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYPE1ulE7u9CnEhBmj3E6No" target="blank">check_inscriptions_forme2</a></li>
     </ul>
   </details>
-  
-
-
-
 </details>
-
 
 <details>
   <summary>listes_données_SAP</summary>
