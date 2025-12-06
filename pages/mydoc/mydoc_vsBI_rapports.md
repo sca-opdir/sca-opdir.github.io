@@ -95,12 +95,10 @@ folder: mydoc
   <details>
     <summary>exploitations</summary>
     <ul>
-      <li><a href="#">liste_exploitations_99_numBDTA</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og
-      <li><a href="#">liste_exploitations_liées_supp</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWYA7YAWYEhGpjJd0YEtG7Y
-      <li><a href="#">liste_réductions_formExp</a></li>
-      https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQXcas5f9blPvfzPP3LMCfw
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og" target="blank">liste_exploitations_99_numBDTA</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWYA7YAWYEhGpjJd0YEtG7Y" target="blank">liste_exploitations_liées_supp</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQXcas5f9blPvfzPP3LMCfw" target="blank">liste_réductions_formExp</a></li>
+      
     </ul>
   </details>
   <details>
