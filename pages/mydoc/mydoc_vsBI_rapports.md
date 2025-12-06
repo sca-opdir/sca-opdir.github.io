@@ -61,11 +61,11 @@ folder: mydoc
   <details>
     <summary>attributs</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY5t7nS5c_VGpuuYJ5FS_2o" target="blank">list_surfBio_sans_HER_v4</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWNwvUWtai5EsQms78YX1Vk" target="blank">check_valeur_année_d'engagement_parbetpar</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a> : parcelles avec attributs non-recours herbicides (HER) et bande culturale extensive (BCE) (incompatibles)</li> 
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY5t7nS5c_VGpuuYJ5FS_2o" target="blank">list_surfBio_sans_HER_v4</a> : surfaces BIO éligibles sans attributs HER </li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWNwvUWtai5EsQms78YX1Vk" target="blank">check_valeur_année_d'engagement_parbetpar</a> : comparaison par betpar surf. insc. non-rec. PPh 24-25</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : parcelles avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU25SDvH29Gocd1Uk1Mk50" target="blank">check_GIWR_et_BCE</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVHbyVOBdrNHlWr8OoBENnQ" target="blank">check_valeur_année_d'engagement</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXpH1yQ7htRLro19Gk9U5vA" target="blank">liste_surfBio_sans_HER_vquic</a></li>
