@@ -56,14 +56,15 @@ folder: mydoc
 <div class="accordion">
 
 <details>
-  <summary>contrôle_données_SAP</summary>
+  <summary>contrôle_données_SAP !!</summary>
 
   <details>
     <summary>UP</summary>
     <ul>
       <li><a href="#">check_inscriptions_forme2</a></li>
     </ul>
-  </details>  
+  </details>
+  
   <details>
     <summary>mode de culture</summary>
     <ul>
@@ -76,9 +77,7 @@ folder: mydoc
       <li><a href="#">check_PI_BIO_maraich</a></li>
     </ul>
   </details>
-  <ul>
-    <li><a href="#">Forme</a></li>
-  </ul>
+
 
 </details>
 
