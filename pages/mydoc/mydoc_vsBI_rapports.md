@@ -61,18 +61,18 @@ folder: mydoc
   <details>
     <summary>attributs</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a> : parcelles avec attributs non-recours herbicides (HER) et bande culturale extensive (BCE) (incompatibles)</li> 
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a> : surfaces avec attributs non-recours herbicides (HER) et bande culturale extensive (BCE) (incompatibles)</li> 
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY5t7nS5c_VGpuuYJ5FS_2o" target="blank">list_surfBio_sans_HER_v4</a> : surfaces BIO éligibles sans attributs HER </li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWNwvUWtai5EsQms78YX1Vk" target="blank">check_valeur_année_d'engagement_parbetpar</a> : comparaison par betpar surf. insc. non-rec. PPh 24-25</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : parcelles avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWNwvUWtai5EsQms78YX1Vk" target="blank">check_valeur_année_d'engagement_parbetpar</a> : comparaison par betpar surf. insc. non-rec. PPh 24-25 (vérifier durée d'engagement)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : surfaces avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU25SDvH29Gocd1Uk1Mk50" target="blank">check_GIWR_et_BCE</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVHbyVOBdrNHlWr8OoBENnQ" target="blank">check_valeur_année_d'engagement</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXpH1yQ7htRLro19Gk9U5vA" target="blank">liste_surfBio_sans_HER_vquic</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXwq6d_F_gtNi2sawBkop1k" target="blank">liste_surfBio_sans_HER</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ac0xLOCYzXdDrW8g_wEIpDo" target="blank">liste_Bio_sans_HER</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARsD0WJdQd1AjjIj4fLofpQ" target="blank">liste_surfBio_sans_HER_v3</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa6eu6YiSdhIjjA_WQ7qZW0" target="blank">check_durée_engagement_HER</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU25SDvH29Gocd1Uk1Mk50" target="blank">check_GIWR_et_BCE</a> : surfaces avec attributs céréales rangées larges (GIWR) et bande culturale extensive (BCE)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVHbyVOBdrNHlWr8OoBENnQ" target="blank">check_valeur_année_d'engagement</a> : vérifier durée d'engagement </li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXpH1yQ7htRLro19Gk9U5vA" target="blank">liste_surfBio_sans_HER_vquic</a> : surfaces BIO éligibles sans attributs HER</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXwq6d_F_gtNi2sawBkop1k" target="blank">liste_surfBio_sans_HER</a> : surfaces BIO éligibles sans attributs HER</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ac0xLOCYzXdDrW8g_wEIpDo" target="blank">liste_Bio_sans_HER</a> : surfaces BIO éligibles sans attributs HER </li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARsD0WJdQd1AjjIj4fLofpQ" target="blank">liste_surfBio_sans_HER_v3</a> : surfaces BIO éligibles sans attributs HER</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa6eu6YiSdhIjjA_WQ7qZW0" target="blank">check_durée_engagement_HER</a> : vérifier durée d'engagement surfaces avec attribut HER</li>
     </ul>
   </details>
 
@@ -80,10 +80,10 @@ folder: mydoc
     <summary>biodiversité</summary>
     <ul>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWmt88S..rNCg3HxzyeFa4I" target="blank">check_céréalesrangéeslarges_surfréseau</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVe4gfaNifVAp07IGILGp5s" target="blank">check_surfaces_réseau</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARUHxGaWU21Foxao83IiQKY" target="blank">check_surfaces_SPB</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVe4gfaNifVAp07IGILGp5s" target="blank">check_surfaces_réseau</a> : surf. réseau sans num. réseau ; surf. réseau > surf. exp. ; surf. réseau > surf. SPB1 ; num. réseau sans surf. réseau ; surf. réseau sans droit contrib.</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARUHxGaWU21Foxao83IiQKY" target="blank">check_surfaces_SPB</a> : surf. SPB1 <> surf. exploitée ; surf. SPB1/2 > surf. exploitée ; cc. SPB sans surf. SPB1 ; surf. SPB2 > surf. SPB1 ; année SPB non valide ; année SPB sans surf. SPB ; surf. SPB sans droit contrib. ; droit contrib. sans surf. SPB</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a> : nombre de 908/921/922/923/924 par m2 (plausibilité)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a> : vérifier nombre minimal arbres Q1 atteint</li>
     </ul>
   </details>
   <details>
