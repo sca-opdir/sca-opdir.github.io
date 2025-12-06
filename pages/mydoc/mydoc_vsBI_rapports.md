@@ -133,7 +133,7 @@ folder: mydoc
   <details>
     <summary>parcelles</summary>
     <ul>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWncw_Xje7JPmfivEtBRvq4" target="blank">check_parcelles_obsoletes_avec_surfaces</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWncw_Xje7JPmfivEtBRvq4" target="blank">check_parcelles_obsoletes_avec_surfaces</a> : surf. sur parc. PA NV / à traiter / supp.  / TC NV</li>
     </ul>
   </details>
   <details>
@@ -177,7 +177,7 @@ folder: mydoc
   <details>
     <summary>UP</summary>
     <ul>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYPE1ulE7u9CnEhBmj3E6No" target="blank">check_inscriptions_forme2</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYPE1ulE7u9CnEhBmj3E6No" target="blank">check_inscriptions_forme2</a> : vérification inscriptions de l'UP présentes dans l'exploitation parent</li>
     </ul>
   </details>
 </details>
@@ -215,12 +215,12 @@ folder: mydoc
   <details>
     <summary>surfaces</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaKmuq_wJXZDhoFxDkoCSOs" target="blank">liste_surfaces_attributsCTA</a></li> 
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdmU_SVo3KZJiOEZ0H7jsVI" target="blank">liste_surf_réseau_nonvalidRR</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZEaQkyqzRBGiJW2fNeUs0g" target="blank">liste_surfaces_attributs</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeTA09kmCSpPgpAXqq2iXwA" target="blank">surfaces_compensation_horsCE</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3qcKMc2OpAoej5l.7oDiA" target="blank">surfaces_compensation_CE</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8" target="blank">liste_surfaces_non_valides</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaKmuq_wJXZDhoFxDkoCSOs" target="blank">liste_surfaces_attributsCTA</a> : liste de toutes les surfaces avec CTA</li> 
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdmU_SVo3KZJiOEZ0H7jsVI" target="blank">liste_surf_réseau_nonvalidRR</a> : liste surfaces réseau non validées</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZEaQkyqzRBGiJW2fNeUs0g" target="blank">liste_surfaces_attributs</a> : liste de toutes les surfaces avec attribut</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeTA09kmCSpPgpAXqq2iXwA" target="blank">surfaces_compensation_horsCE</a> : données part min. de SPB pour exploit. hors CE</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3qcKMc2OpAoej5l.7oDiA" target="blank">surfaces_compensation_CE</a> : données part min. de SPB pour exploit. dans CE</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8" target="blank">liste_surfaces_non_valides</a> : liste des surfaces avec exploitation "non validées" par PA OU sur parcelles "non validées" ou sur parcelles  marquées pour supp. OU Cultivat = N</li>
     </ul>
   </details>
 </details>
