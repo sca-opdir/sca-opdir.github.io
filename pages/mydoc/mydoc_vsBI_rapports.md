@@ -202,11 +202,26 @@ folder: mydoc
 
 </details>
 
+
 <details>
-  <summary>Google</summary>
-  <p>
-    <a href="https://google.ch" target="_blank">Ouvrir Google dans un nouvel onglet</a>
-  </p>
+  <summary>listes_données_SAP</summary>
+  <details>
+    <summary>autres</summary>
+    <ul>
+<li><a href="#">liste_cotisations</a></li>
+<li><a href="#">liste_inscriptions</a></li>
+<li><a href="#">liste_réductions</a></li>
+<li><a href="#">liste_localisation_UP_avec_bétail</a></li>
+<li><a href="#">liste_inscriptions_indications</a></li>
+<li><a href="#">liste_inscriptions_SST_SRPA_bio</a></li>
+<li><a href="#">liste_indications_générales</a></li>
+<li><a href="#">liste_exploitations_exploitants</a></li>
+<li><a href="#">liste_statut_marital</a></li>
+<li><a href="#">liste_charges_usuelle_effective</a></li>
+    </ul>
+  </details>
 </details>
+
+
 
 </div>
