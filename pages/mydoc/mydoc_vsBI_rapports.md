@@ -202,25 +202,25 @@ folder: mydoc
     <details>
     <summary>exploitations</summary>
     <ul>
-<li><a href="#">liste_forme1_avec_parent6</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZalIxDr7wNHlirtaSTDChk
-<li><a href="#">liste_forme2_avec_parent</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYiClw27T15EpR4zIoKw.uI
-<li><a href="#">liste_exploitations_parents_avec_forme</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZy5WE0qT_5MpbI6O2bZry0
-<li><a href="#">liste_exploitants</a></li>https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk
-<li><a href="#">liste_parent_UPO_avec_loc</a></li>https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZh4lbWMSThKnFHNi7LR8D4
-<li><a href="#">liste_exploitations_membres</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU
-<li><a href="#">liste_exploitations_parents_enfants</a></li>https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZalIxDr7wNHlirtaSTDChk" target="blank">liste_forme1_avec_parent6</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYiClw27T15EpR4zIoKw.uI" target="blank">liste_forme2_avec_parent</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZy5WE0qT_5MpbI6O2bZry0" target="blank">liste_exploitations_parents_avec_forme</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk" target="blank">liste_exploitants</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZh4lbWMSThKnFHNi7LR8D4" target="blank">liste_parent_UPO_avec_loc</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU" target="blank">liste_exploitations_membres</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U" target="blank">liste_exploitations_parents_enfants</a></li>
     </ul>
   </details>
 
   <details>
     <summary>surfaces</summary>
     <ul>
-<li><a href="#">liste_surfaces_attributsCTA</a></li> https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaKmuq_wJXZDhoFxDkoCSOs
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdmU_SVo3KZJiOEZ0H7jsVI">liste_surf_réseau_nonvalidRR</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZEaQkyqzRBGiJW2fNeUs0g">liste_surfaces_attributs</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeTA09kmCSpPgpAXqq2iXwA">surfaces_compensation_horsCE</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3qcKMc2OpAoej5l.7oDiA">surfaces_compensation_CE</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8">liste_surfaces_non_valides</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaKmuq_wJXZDhoFxDkoCSOs" target="blank">liste_surfaces_attributsCTA</a></li> 
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdmU_SVo3KZJiOEZ0H7jsVI" target="blank">liste_surf_réseau_nonvalidRR</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZEaQkyqzRBGiJW2fNeUs0g" target="blank">liste_surfaces_attributs</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeTA09kmCSpPgpAXqq2iXwA" target="blank">surfaces_compensation_horsCE</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3qcKMc2OpAoej5l.7oDiA" target="blank">surfaces_compensation_CE</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8" target="blank">liste_surfaces_non_valides</a></li>
     </ul>
   </details>
 </details>
