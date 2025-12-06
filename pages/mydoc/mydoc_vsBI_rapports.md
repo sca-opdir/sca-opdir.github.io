@@ -102,27 +102,32 @@ folder: mydoc
     </ul>
   </details>
   <details>
-    <summary>mode de culture</summary>
+    <summary>mode de culture <-> OC </summary>
     <ul>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbZdYmuPusFPjttw528FuQk" target="blank">check_PI_BIO_grandescult</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ90oAQNSCxBu7uaxmu_WhE" target="blank">check_PI_BIO_tout</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEusIknoPBMrTzdVZfGnjI" target="blank">check_PI_BIO_arbo</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfJSSGPhS4hBsa_i4.cZbR4" target="blank">check_PI_BIO_petits_fruits</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AS5VTTG75IpHkNgz6Sl0YO8" target="blank">check_PI_BIO_viti</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa17XUbrQPFPu6vLv1pKF2c" target="blank">check_PI_BIO_maraich</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbZdYmuPusFPjttw528FuQk" target="blank">check_PI_BIO_grandescult</a> : vérification cohérence BIO/PI mode de culture <-> OC (grandes cultures)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a> : vérification cohérence BIO/PI mode de culture <-> OC (plantes aromatiques)/li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ90oAQNSCxBu7uaxmu_WhE" target="blank">check_PI_BIO_tout</a> : vérification cohérence BIO/PI mode de culture <-> OC (tout)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEusIknoPBMrTzdVZfGnjI" target="blank">check_PI_BIO_arbo</a> : vérification cohérence BIO/PI mode de culture <-> OC (arboriculture)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfJSSGPhS4hBsa_i4.cZbR4" target="blank">check_PI_BIO_petits_fruits</a> : vérification cohérence BIO/PI mode de culture <-> OC (petits fruits)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AS5VTTG75IpHkNgz6Sl0YO8" target="blank">check_PI_BIO_viti</a> : vérification cohérence BIO/PI mode de culture <-> OC (viticulture)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa17XUbrQPFPu6vLv1pKF2c" target="blank">check_PI_BIO_maraich</a> : vérification cohérence BIO/PI mode de culture <-> OC (maraichage)</li>
     </ul>
+  </details>
+  <details>
+    <summary>code de culture <-> OC</summary>
+    <ul>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeunWVKsxkJMvlH6UZfQKm8" target="blank">check_OC_maraich</a> : vérification cohérence cc <-> OC (maraichage)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX22FoS_5vdJpU4naAovJCI" target="blank">check_OC_viti</a> : vérification cohérence cc <-> OC (viticulture)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVaE9Hovht1PgiGI_rTHSsE" target="blank">check_OC_aromatiques</a> : vérification cohérence cc <-> OC (plantes aromatiques)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdOj_TqsHK9FqHrges5zYUY" target="blank">check_OC_ptsfruits</a> : vérification cohérence cc <-> OC (petits fruits)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a> : vérification cohérence cc <-> OC (arboriculture)</li>
+</ul>
   </details>
   <details>
     <summary>OC</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeunWVKsxkJMvlH6UZfQKm8" target="blank">check_OC_maraich</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX22FoS_5vdJpU4naAovJCI" target="blank">check_OC_viti</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVaE9Hovht1PgiGI_rTHSsE" target="blank">check_OC_aromatiques</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdOj_TqsHK9FqHrges5zYUY" target="blank">check_OC_ptsfruits</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdLlug4juYdJkKD36KtIW94" target="blank">check_cotisations</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdLlug4juYdJkKD36KtIW94" target="blank">check_cotisations</a> : avec No. cotisation mais sans OC cotisation ; avec OC cotisation mais sans No cotisation ; prélèvement sans inscription ; inscription sans prélèvement</li>
     </ul>
   </details>
   <details>
