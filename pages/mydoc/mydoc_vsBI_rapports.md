@@ -56,13 +56,22 @@ folder: mydoc
 <div class="accordion">
 
 <details>
-  <summary>Contrôles des données SAP</summary>
+  <summary>contrôle_données_SAP</summary>
 
   <details>
-    <summary>Attributs</summary>
+    <summary>UP</summary>
     <ul>
-      <li><a href="#">Année d'engagement</a></li>
-      <li><a href="#">Surfaces</a></li>
+      <li><a href="#">check_inscriptions_forme2</a></li>
+    </ul>
+    <summary>mode de culture</summary>
+    <ul>
+      <li><a href="#">check_PI_BIO_grandescult</a></li>
+      <li><a href="#">check_PI_BIO_aromatiques</a></li>
+      <li><a href="#">check_PI_BIO_tout</a></li>
+      <li><a href="#">check_PI_BIO_arbo</a></li>
+      <li><a href="#">check_PI_BIO_petits_fruits</a></li>
+      <li><a href="#">check_PI_BIO_viti</a></li>
+      <li><a href="#">check_PI_BIO_maraich</a></li>
     </ul>
   </details>
 
