@@ -102,7 +102,7 @@ folder: mydoc
     </ul>
   </details>
   <details>
-    <summary>mode de culture <-> OC </summary>
+    <summary>mode de culture - OC </summary>
     <ul>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbZdYmuPusFPjttw528FuQk" target="blank">check_PI_BIO_grandescult</a> : vérification cohérence BIO/PI mode de culture <-> OC (grandes cultures)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a> : vérification cohérence BIO/PI mode de culture <-> OC (plantes aromatiques)/li>
@@ -114,7 +114,7 @@ folder: mydoc
     </ul>
   </details>
   <details>
-    <summary>code de culture <-> OC</summary>
+    <summary>code de culture - OC</summary>
     <ul>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeunWVKsxkJMvlH6UZfQKm8" target="blank">check_OC_maraich</a> : vérification cohérence cc <-> OC (maraichage)</li>
