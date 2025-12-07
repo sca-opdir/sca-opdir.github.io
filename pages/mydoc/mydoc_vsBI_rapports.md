@@ -10,6 +10,11 @@ folder: mydoc
 ---
 
 <style>
+  .titre-rouge {
+  color: red;
+  font-weight: bold; /* optionnel */
+}
+
 .accordion details {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -56,8 +61,9 @@ folder: mydoc
 <div class="accordion">
 
 <details>
-  <summary>contrôle_données_SAP : vérification des données SAP</summary>
-
+  <summary>
+  <span class="titre-rouge">contrôle_données_SAP</span> : vérification des données SAP
+</summary>
   <details>
     <summary>attributs</summary>
     <ul>
