@@ -139,7 +139,7 @@ folder: mydoc
   <details>
     <summary>redevances</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXyOxW7egc5PkaE1wh6URxs" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXyOxW7egc5PkaE1wh6URxs" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev</a> : ratio part propriétaire au niveau surface != ratio part propriétaire au niveau parcelle</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATuDGM6iaxVJva9pP3QTNo8" target="blank">check_parcelles_propriétaires_ccRedevance_v2_OK_viti</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ab5JFXWiIudDsx2VkQQzNaM" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_viti</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfRI0srZwKNHhhiIJi18uio" target="blank">check_parcelles_propriétaires_ccRedevance_v2_OK_sansViti</a></li>
@@ -147,7 +147,7 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXmsuM_lfhhLtqmxUXTxNNc" target="blank">check_parcelles_propriétaires_ccRedev_v2</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AalNIbmQbF1Lgv6WfeBkhx8" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK_viti</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYI1kjH0s4tJqMzvdg4jRVk" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK_sansViti</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefuWxzpJjNImmVMBJ63fLY" target="blank">check_propriétaires_non_valides</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefuWxzpJjNImmVMBJ63fLY" target="blank">check_propriétaires_non_valides</a> : parcelles/surfaces cc redev et propriétaire non valide</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AepJJCSo1ApBnEk60595mqs" target="blank">check_surfaces_propriétaires_ccRedev_v2_sansViti</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ASzMeTWlhqRDkwNGye5kaeE" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV_Eko5m589Io6ATA1MNLv8" target="blank">check_parcelles_propriétaires_ccRedevance_v2_OK</a></li>
@@ -156,19 +156,18 @@ folder: mydoc
     <details>
     <summary>surfaces</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdSqiY.hXeFJpvu55fgLnYg">check_espèces_arbo</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaqjIb2LsLJPg.RZCkx15i8">check_animaux_paturages</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATGlf8g1dKdNuXzcE.JRdtc">check_surfaces_flagExploitée_missing</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ3IuoL98FFKib4nSxDwiNY">check_surfaces_propriétaires</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARK8qIJaBExOs1uiDqzlCJc">check_surfaces_zones</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV6dUqdZr8FIk.6SPJw9_.8">check_surfaces_validées_avec_commentPC</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acn4GrcVG21BnujD9O4Ez.g">check_pentes</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdSqiY.hXeFJpvu55fgLnYg">check_espèces_arbo</a> : surf. arbo avec espèce manquante</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaqjIb2LsLJPg.RZCkx15i8">check_animaux_paturages</a> : exploitations avec bétail sans pâturages ou avec pâturages sans animaux</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a> : surf. sans le flag "exploité"</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ3IuoL98FFKib4nSxDwiNY">check_surfaces_propriétaires</a> : somme surf. exploitée - somme surf. proprio</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARK8qIJaBExOs1uiDqzlCJc">check_surfaces_zones</a> : surf. avec cc SAU hors zones 31-54 et surf. avec cc 930/931 hors zone 61</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV6dUqdZr8FIk.6SPJw9_.8">check_surfaces_validées_avec_commentPC</a> : surf. avec commentaire PC mais n'ayant pas le statut "non validé"</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acn4GrcVG21BnujD9O4Ez.g">check_pentes</a> : vérification somme surfaces pente</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdbpKqXBTVdBkEGQs0B4UgQ">check_animaux_paturages_exploit_avec_UP</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfGuXReWil5HrROvJKD.HB0">check_surfaces_variétés</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfGuXReWil5HrROvJKD.HB0">check_surfaces_variétés</a> : vérification surf. variété (variétés et comparaison avec surf. exploitée)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY0ABz9l05RJgQPETobgphs">_check_droit_contrib</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUqbrIInzJlMhoHhbt0eCO0">check_cc_valides</a></li>
-<li><a href="[#](https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYnl9tt5txpOjkUU34lNs8E)">check_surfexp_0</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYnl9tt5txpOjkUU34lNs8E">check_surfexp_0</a> : surfaces avec surf. exp. = 0 et < 5</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ada8PDRbfs5NqBmKhox63c8">check_surfaces_nonvalidées</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a></li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AchYw4rq4RFEkOGn03msHGk">_check_surf717-701_betpar</a></li>
