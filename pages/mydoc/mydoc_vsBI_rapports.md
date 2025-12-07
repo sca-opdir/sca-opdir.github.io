@@ -205,13 +205,13 @@ folder: mydoc
     <details>
     <summary>exploitations</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZalIxDr7wNHlirtaSTDChk" target="blank">liste_forme1_avec_parent6</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYiClw27T15EpR4zIoKw.uI" target="blank">liste_forme2_avec_parent</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZy5WE0qT_5MpbI6O2bZry0" target="blank">liste_exploitations_parents_avec_forme</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk" target="blank">liste_exploitants</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZh4lbWMSThKnFHNi7LR8D4" target="blank">liste_parent_UPO_avec_loc</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU" target="blank">liste_exploitations_membres</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U" target="blank">liste_exploitations_parents_enfants</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZalIxDr7wNHlirtaSTDChk" target="blank">liste_forme1_avec_parent6</a> : liste des exploitations de forme 1 avec parent de forme 6 ; vérification des inscriptions</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYiClw27T15EpR4zIoKw.uI" target="blank">liste_forme2_avec_parent</a> : liste exploitations de forme 2 avec leur parent</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZy5WE0qT_5MpbI6O2bZry0" target="blank">liste_exploitations_parents_avec_forme</a> : liste exploitations enfant avec exploitations parent et enfants du parent, avec formes</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk" target="blank">liste_exploitants</a> : liste exploitants (noms et année naissance)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZh4lbWMSThKnFHNi7LR8D4" target="blank">liste_parent_UP_avec_loc</a> : liste UP avec parent et leur localisation</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU" target="blank">liste_exploitations_membres</a> : liste des exploitations et membres récursifs / TODO !!! ongoing </li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U" target="blank">liste_exploitations_parents_enfants</a> : liste des exploitations et leur parent et enfant</li>
     </ul>
   </details>
 
