@@ -163,14 +163,11 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARK8qIJaBExOs1uiDqzlCJc">check_surfaces_zones</a> : surf. avec cc SAU hors zones 31-54 et surf. avec cc 930/931 hors zone 61</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV6dUqdZr8FIk.6SPJw9_.8">check_surfaces_validées_avec_commentPC</a> : surf. avec commentaire PC mais n'ayant pas le statut "non validé"</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acn4GrcVG21BnujD9O4Ez.g">check_pentes</a> : vérification somme surfaces pente</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdbpKqXBTVdBkEGQs0B4UgQ">check_animaux_paturages_exploit_avec_UP</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdbpKqXBTVdBkEGQs0B4UgQ">check_animaux_paturages_exploit_avec_UP</a> : vérification animaux et pâturages, en tenant compte des UP / TODO - A CORRIGER</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfGuXReWil5HrROvJKD.HB0">check_surfaces_variétés</a> : vérification surf. variété (variétés et comparaison avec surf. exploitée)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY0ABz9l05RJgQPETobgphs">_check_droit_contrib</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUqbrIInzJlMhoHhbt0eCO0">check_cc_valides</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUqbrIInzJlMhoHhbt0eCO0">check_cc_valides</a> : surfaces avec code culture non valides</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYnl9tt5txpOjkUU34lNs8E">check_surfexp_0</a> : surfaces avec surf. exp. = 0 et < 5</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ada8PDRbfs5NqBmKhox63c8">check_surfaces_nonvalidées</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AchYw4rq4RFEkOGn03msHGk">_check_surf717-701_betpar</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a> : somme surf. exp. > surf. totale parcelle</li>
     </ul>
   </details>
   <details>
