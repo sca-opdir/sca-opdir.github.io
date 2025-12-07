@@ -185,20 +185,21 @@ folder: mydoc
 </details>
 
 <details>
-  <summary>listes_données_SAP : extraction des données SAP</summary>
+  <summary>
+     <span class="titre-rouge">listes_données_SAP</span> : extraction des données SAP</summary>
   <details>
     <summary>autres</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ5RLm7mJpRDiR8k4i8QvKA" target="blank">liste_inscriptions</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste des cotisations</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ5RLm7mJpRDiR8k4i8QvKA" target="blank">liste_inscriptions</a> : liste des inscriptions ou demandes de contributions</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a> : liste des réductions</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a> : liste complète inscriptions/demandes de contributions + indications générales</</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWbAfzw5X.FCqZgBujdb3wU" target="blank">liste_inscriptions_SST_SRPA_bio</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a> : liste indications générales</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a></li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a></li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : liste avec information sur le statut marital des exploitants</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a> : liste charges usuelle et effective ; nombre d'alpages et nombre d'alpages par catégorie d'animaux</li>
     </ul>
   </details>
     <details>
