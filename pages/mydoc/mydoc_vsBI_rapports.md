@@ -56,7 +56,7 @@ folder: mydoc
 <div class="accordion">
 
 <details>
-  <summary>contrôle_données_SAP</summary>
+  <summary><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ado4VptfMNlMlleD_QxGDEc" target="blank">contrôle_données_SAP</a></summary>
 
   <details>
     <summary>attributs</summary>
