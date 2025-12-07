@@ -105,7 +105,7 @@ folder: mydoc
     <summary>mode de culture - OC </summary>
     <ul>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbZdYmuPusFPjttw528FuQk" target="blank">check_PI_BIO_grandescult</a> : vérification cohérence BIO/PI mode de culture <-> OC (grandes cultures)</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a> : vérification cohérence BIO/PI mode de culture <-> OC (plantes aromatiques)/li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a> : vérification cohérence BIO/PI mode de culture <-> OC (plantes aromatiques)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ90oAQNSCxBu7uaxmu_WhE" target="blank">check_PI_BIO_tout</a> : vérification cohérence BIO/PI mode de culture <-> OC (tout)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEusIknoPBMrTzdVZfGnjI" target="blank">check_PI_BIO_arbo</a> : vérification cohérence BIO/PI mode de culture <-> OC (arboriculture)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfJSSGPhS4hBsa_i4.cZbR4" target="blank">check_PI_BIO_petits_fruits</a> : vérification cohérence BIO/PI mode de culture <-> OC (petits fruits)</li>
