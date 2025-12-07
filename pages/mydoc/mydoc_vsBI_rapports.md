@@ -95,7 +95,7 @@ folder: mydoc
   <details>
     <summary>exploitations</summary>
     <ul>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og" target="blank">liste_exploitations_99_numBDTA</a> : ne doit pas être en forme 99 si num. BDTA [!!! TODO : num. bdta pas encore dans la BI]</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og" target="blank">liste_exploitations_99_numBDTA</a> : ne doit pas être en forme 99 si num. BDTA !!! TODO : num. bdta pas encore dans la BI</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWYA7YAWYEhGpjJd0YEtG7Y" target="blank">liste_exploitations_liées_supp</a> : exploitation avec exploit. parent ou enfant marquée pour supp. </li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQXcas5f9blPvfzPP3LMCfw" target="blank">liste_réductions_formExp</a> : réductions sur exploitations de forme non valide (vérif. par ex. pas saisie sous forme 2)</li>
       
