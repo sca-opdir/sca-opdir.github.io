@@ -21,7 +21,6 @@ GenAI from Marketplace ([Medium](https://medium.com/mendix/2024-wrapped-on-the-m
 
 ### Autres infos
 
-
 java actions
 
 [Explore Mendix Java Actions](https://yashvaantlakham73.medium.com/explore-mendix-java-actions-d8293460a297)
@@ -77,6 +76,49 @@ java actions
 8. Account for Null Values
   - Anytime you are performing a calculation (with numbers, dates, etc.) always be sure to check for empty values before performing the calculation.  This is particularly important when using On Change microflows.
 9. Annotate your work and test, test, test.
+
+
+* Medium article : [Common UX mistakes everyone still makes 2.0](https://uxplanet.org/common-ux-mistakes-everyone-still-makes-2-0-c320bb07b21d) 
+
+- rule of thum about whitespace 
+The more often a page is used, the less whitespace it should have. The less often a page is used, the more whitespace it can have.
+
+- tables vs. layout grids
+Tables
+Tables <table> are not responsive by default. They show clear relationships between rows and columns, which matters when multiple entries exist, making them great for comparing data.
+The DOM sees <table> and understands that it holds data in a tabular format.
+(table because the relationship between columns and rows matters)
+
+Layout-grid
+Layouts-grids (CSS Grid) communicate to the browser that this element is part of the layout. The element does not have a defined place or relationship with the data, because of this, the CSS allows us much greater freedom to position elements in relation to other elements.
+
+When building widgets, use the correct HTML elements instead of relying on JavaScript and inline styling. For example, if your data is tabular, render it as a <table> element. This allows users to copy and paste it directly into Excel or Google Sheets while preserving formatting.
+
+- card vs. panel
+
+CARD
+- Modular & portable
+- Actionable
+- Focus on content
+- Visual separation
+→ Clickable unit.
+Can contain content, but not other cards or panels.
+
+PANEL
+- Structural & organizational
+- May not be standalone
+- Interactive
+- Persistent area
+ → Structural container.
+Can hold nested panels or cards.
+
+1. Build consistently. Follow your design system so every page is predictable and maintainable.
+2. Stick to shared interaction patterns. Users learn your app once; don’t make them guess how things behave.
+3. Respect whitespace. Compact for daily-use screens, spacious for rare or goal-focused interactions.
+4. Use widgets wisely. Fancy does not mean better. Follow the patterns your team has agreed on.
+5. Know when to use tables vs layouts. Tables for multiple, structured entries; layouts for single or nested content.
+6. Understand cards vs panels and use semantic HTML. Cards for actions, panels for structure, and always pick the right HTML elements to improve accessibility and maintainability.
+
 
 {% include links.html %}
 
