@@ -186,20 +186,17 @@ folder: mydoc
   <details>
     <summary>autres</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste des cotisations</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ5RLm7mJpRDiR8k4i8QvKA" target="blank">liste_inscriptions</a> : liste des inscriptions ou demandes de contributions</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a> : liste des réductions</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a> : liste complète inscriptions/demandes de contributions + indications générales</</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWbAfzw5X.FCqZgBujdb3wU" target="blank">liste_inscriptions_SST_SRPA_bio</a></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a> : liste complète inscriptions/demandes de contributions + indications générales</</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a> : liste indications générales</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations avec exploitant et leurs coordonnées</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : liste avec information sur le statut marital des exploitants</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste des cotisations</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a> : liste des réductions</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a> : liste charges usuelle et effective ; nombre d'alpages et nombre d'alpages par catégorie d'animaux</li>
     </ul>
   </details>
     <details>
-    <summary>exploitations</summary>
+    <summary>exploitations / exploitants</summary>
     <ul>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZalIxDr7wNHlirtaSTDChk" target="blank">liste_forme1_avec_parent6</a> : liste des exploitations de forme 1 avec parent de forme 6 ; vérification des inscriptions</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYiClw27T15EpR4zIoKw.uI" target="blank">liste_forme2_avec_parent</a> : liste exploitations de forme 2 avec leur parent</li>
@@ -208,6 +205,10 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZh4lbWMSThKnFHNi7LR8D4" target="blank">liste_parent_UP_avec_loc</a> : liste UP avec parent et leur localisation</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU" target="blank">liste_exploitations_membres</a> : liste des exploitations et membres récursifs / TODO !!! ongoing </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U" target="blank">liste_exploitations_parents_enfants</a> : liste des exploitations et leur parent et enfant</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations avec exploitant et leurs coordonnées</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : liste avec information sur le statut marital des exploitants</li>
+
     </ul>
   </details>
 
