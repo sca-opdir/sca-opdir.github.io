@@ -77,10 +77,9 @@ java actions
   - Anytime you are performing a calculation (with numbers, dates, etc.) always be sure to check for empty values before performing the calculation.  This is particularly important when using On Change microflows.
 9. Annotate your work and test, test, test.
 
-
 * Medium article : [Common UX mistakes everyone still makes 2.0](https://uxplanet.org/common-ux-mistakes-everyone-still-makes-2-0-c320bb07b21d) 
 
-- rule of thum about whitespace 
+- rule of thumb about whitespace 
 The more often a page is used, the less whitespace it should have. The less often a page is used, the more whitespace it can have.
 
 - tables vs. layout grids
@@ -119,6 +118,17 @@ Can hold nested panels or cards.
 5. Know when to use tables vs layouts. Tables for multiple, structured entries; layouts for single or nested content.
 6. Understand cards vs panels and use semantic HTML. Cards for actions, panels for structure, and always pick the right HTML elements to improve accessibility and maintainability.
 
+
+* Medium article : [A Sneaky Mendix Trick to Dynamically Trigger Microflows](https://medium.com/@vishnuprasath011/a-sneaky-mendix-trick-to-dynamically-trigger-microflows-6fec6667a7cf)
+aim : dynamically trigger the microflow of the dataview that is inside the groupbox
+Approach 1: Using JavaScript to Toggle the Data View (JS snippet to detect when a Group Box was clicked or expanded)
+Approach 2: Using a Nested Data View Inside a List View (List-to-Widget Trick)
+Approach 3: Switching to Data Grid 2 for Built-In On-Click Handling (**Data Grid 2 comes with a built-in on-click event**)
+
+* Medium article : [Convert a Mendix Page to PDF](https://medium.com/mendix/how-to-convert-a-mendix-page-to-pdf-using-the-document-generation-module-a63714472cc4)
+-> Using the 'Document Generation' Module
+
+* Articles Medium sur comment convertir des champs de sélection de date de naissance en champ de saisie de texte (pour saisie plus facile); [partie 1](https://medium.com/@bart.zantingh/dating-issues-or-re-building-a-date-of-birth-component-in-mendix-part-1-e8652cbfcfe2) avec notamment la logique de validation ; partie 2 sur comment adapter l'accessibilité de ces champs, notamment avec field set et le module [Accessibility Helper](https://marketplace.mendix.com/link/component/114803) (permet par ex. d'ajouter des attributs HTML)
 
 {% include links.html %}
 
