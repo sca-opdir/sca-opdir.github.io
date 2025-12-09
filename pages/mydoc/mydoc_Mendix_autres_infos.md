@@ -130,5 +130,7 @@ Approach 3: Switching to Data Grid 2 for Built-In On-Click Handling (**Data Grid
 
 * Articles Medium sur comment convertir des champs de sélection de date de naissance en champ de saisie de texte (pour saisie plus facile); [partie 1](https://medium.com/@bart.zantingh/dating-issues-or-re-building-a-date-of-birth-component-in-mendix-part-1-e8652cbfcfe2) avec notamment la logique de validation ; partie 2 sur comment adapter l'accessibilité de ces champs, notamment avec field set et le module [Accessibility Helper](https://marketplace.mendix.com/link/component/114803) (permet par ex. d'ajouter des attributs HTML)
 
+* Medium article [Guide for Implementing Drag and Drop Widget in Mendix Applications](https://medium.com/@ashirwadmittal/guide-for-implementing-drag-and-drop-widgets-in-mendix-applications-a3dc6403ba84) (widget [Drag and Drop ](https://marketplace.mendix.com/link/component/116604)de MxLabs)
+
 {% include links.html %}
 
