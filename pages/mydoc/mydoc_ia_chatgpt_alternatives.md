@@ -1,7 +1,7 @@
 ---
 title: ChatGPT - alternatives 
 keywords: IA, IT, ChatGPT
-last_updated: July 13, 2025
+last_updated: December 09, 2025
 tags: [IA]
 summary: "Alternatives à ChatGPT"
 sidebar: mydoc_sidebar
@@ -22,6 +22,9 @@ Pour l'analyse de données : pas de réelles alternatives
 Les 4 principaux concurrents de Chat GPT donnent accès gratuitement à des modèles plus performants que GPT-3.5.
 
 Apertus modèle suisse testable [https://chat.publicai.co/](https://chat.publicai.co/)
+
+[Euria](https://www.infomaniak.com/fr/support/faq/2840/utiliser-euria-sur-kchat-agent-conversationnel) d'Infomaniak (articles [Le Temps](https://www.letemps.ch/cyber/en-plein-debat-sur-la-souverainete-numerique-infomaniak-lance-euria-une-ia-respectueuse-de-la-vie-privee), [frandroid](https://www.frandroid.com/culture-tech/intelligence-artificielle/2902773_on-a-trouve-et-teste-lanti-chatgpt-euria-est-suisse-gratuit-et-chauffe-des-appartements)) : *Sans surprise, Infomaniak traite les données liées à Euria sur ses serveurs en Suisse. Les discussions avec le chatbot sont chiffrées et les données sont exclusivement utilisées pour assurer le fonctionnement du service: aucune information n’est exploitée pour entraîner des modèles d’intelligence artificielle, établir des profils ou alimenter des systèmes tiers, assure l’entreprise. Il y a aussi la possibilité d’utiliser – un peu comme avec ChatGPT –, un mode dit «éphémère», offrant un niveau de confidentialité absolu avec des échanges qui ne sont jamais stockés.*
+
 
 ## Alternatives pour le texte
 
