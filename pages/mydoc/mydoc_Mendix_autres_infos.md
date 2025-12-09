@@ -166,6 +166,16 @@ committing outside a loop is better for performance. Not only because the reduct
 - Don’t assume validations have taken place earlier in the process, preferably do double validations then the possibility to bypass them!
 - If possible, avoid committing the full object after partial validation.
 
+* Article Medium [Mendix — Decoding XAS](https://medium.com/@nkhard98/mendix-decoding-xas-service-655d2c5b7acf) 
+
+**XAS** is the private HTTPS REST API endpoint used by the Mendix client to communicate with Mendix Runtime. It is one of the request handlers offered by Mendix. This is sent as a form of API request [...]. Each type of call to this API is called an **action**, and necessary parts of the state are sent along with it. 
+
+You can inspect XAS requests in the Network tab of your browser’s developer tools and filter out requests to the XAS path.
+
+Whenever a XAS action (such as a microflow call) is triggered, Mendix Client also sends the state. Mendix Client does not send the entire state to the runtime, \[but\] decides which parts of the state should be sent by analyzing each microflow during the deployment of the applications.
+
+
+
 
 {% include links.html %}
 
