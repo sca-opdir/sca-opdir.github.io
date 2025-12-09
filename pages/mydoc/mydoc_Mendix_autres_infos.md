@@ -132,5 +132,33 @@ Approach 3: Switching to Data Grid 2 for Built-In On-Click Handling (**Data Grid
 
 * Medium article [Guide for Implementing Drag and Drop Widget in Mendix Applications](https://medium.com/@ashirwadmittal/guide-for-implementing-drag-and-drop-widgets-in-mendix-applications-a3dc6403ba84) (widget [Drag and Drop ](https://marketplace.mendix.com/link/component/116604)de MxLabs)
 
+* Article Medium sur Commit Mendix et comparaison avec SQL commit ([Committing to the Mendix commit activity](https://medium.com/@rcpoolen/committing-to-the-mendix-commit-activity-70a2a1d954bb)) 
+  
+From Mendix documentation  : *a Mendix commit is not the same as a database commit. For an object of a persistable entity, the saved value is not committed to the database until the microflow and any microflows from which it is called, complete. This means that errors in a microflow can initiate a rollback. If a microflow activity errors and has Error handling set to Rollback or Custom with rollback, the value of the object is rolled back to the value it had at the start of the microflow*
+
+In SQL :
+
+```
+INSERT INTO customer (name, age, gender, …)
+VALUES (“John”, 35, whatever, …);
+COMMIT;
+```
+If you leave out the COMMIT statement it will only save it in the database for your session. No other sessions that are connecting to your database will see your record until you’ve added the COMMIT part. 
+
+a Mendix-Commit can be seen more as an SQL INSERT or UPDATE statement.
+Each Mendix-Commit is automatically adding SQL SAVEPOINT lines (if there is already previous committed data for this microflow transaction). 
+Savepoints in SQL are used to store a moment in the transaction to which it can rollback to whenever an error occurs/is handled.
+
+*If i commit objects in a microflow and afterwards in that same microflow an unhandled error occurs, are my objects then stored in the database or not?*
+No, they will not be stored in the database because the microflow is terminated before it could get to the hardcoded SQL COMMIT statement at the end of the (successful-)microflow transaction. The database that you did are rolledback by the default rollback mendix behaviour. (they are actually removed from your sessions database storage)
+
+*If i commit objects in a microflow and afterwards try to retrieve those objects from the database, will the retrieve action return these objects?*
+Yes, since the commit action is actually a call to the database, it is stored in the database already for your session. So when your session tries to retrieve data it will find your inserted object already. Another session will not be able to retrieve the object though since it has not been released for others yet (at least until the end of your microflow).
+
+*Committing inside a loop VS committing outside a loop:*
+committing outside a loop is better for performance. Not only because the reduction of individual database calls, but also that it does not have to manage a lot of unnecessary savepoints.
+
+
+
 {% include links.html %}
 
