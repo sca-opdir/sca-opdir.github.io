@@ -158,6 +158,13 @@ Yes, since the commit action is actually a call to the database, it is stored in
 *Committing inside a loop VS committing outside a loop:*
 committing outside a loop is better for performance. Not only because the reduction of individual database calls, but also that it does not have to manage a lot of unnecessary savepoints.
 
+* Article Medium : exemple comment exporter Data grid 2 vers Excel des données différentes pour chaque utilisateur (entité "helper" et Xpath) ([Exploring Personalization and Exporting in Data Grid 2](https://itnext.io/exploring-personalization-and-exporting-in-data-grid-2-8130037976f2))
+
+* Article Medium avec points d'attention sur la validation des inputs (validation flow not always triggered) ([Write-up Mendix CTF 2025: Refill Overkill](https://medium.com/@johan.flikweert/write-up-mendix-ctf-2025-refill-overkill-f20ef2b0a327))
+*Why did the validation flow only trigger the first time and not the second? The only difference was that the changes were committed, so apparently the Order flow only executed the validation when the attribute was changed. It seems ok to only validate changed attributes, but as it turns out: it may be unsafe!*
+- Always validate input for flows which can be called by the client, just reuse the (partial) validation flows triggered in on change flows.
+- Don’t assume validations have taken place earlier in the process, preferably do double validations then the possibility to bypass them!
+- If possible, avoid committing the full object after partial validation.
 
 
 {% include links.html %}
