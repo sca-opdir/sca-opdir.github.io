@@ -125,7 +125,7 @@ Approach 1: Using JavaScript to Toggle the Data View (JS snippet to detect when 
 Approach 2: Using a Nested Data View Inside a List View (List-to-Widget Trick)
 Approach 3: Switching to Data Grid 2 for Built-In On-Click Handling (**Data Grid 2 comes with a built-in on-click event**)
 
-* Medium article : [Convert a Mendix Page to PDF](https://medium.com/mendix/how-to-convert-a-mendix-page-to-pdf-using-the-document-generation-module-a63714472cc4)
+* Medium article : [Convert a Mendix Page to PDF](https://medium.com/mendix/how-to-convert-a-mendix-page-to-pdf-using-the-document-generation-module-a63714472cc4) ; voir aussi l'article [PDF Document Generation in Mendix](https://medium.com/mendix/pdf-document-generation-in-mendix-a95e67d41503)
 -> Using the 'Document Generation' Module
 
 * Articles Medium sur comment convertir des champs de sélection de date de naissance en champ de saisie de texte (pour saisie plus facile); [partie 1](https://medium.com/@bart.zantingh/dating-issues-or-re-building-a-date-of-birth-component-in-mendix-part-1-e8652cbfcfe2) avec notamment la logique de validation ; partie 2 sur comment adapter l'accessibilité de ces champs, notamment avec field set et le module [Accessibility Helper](https://marketplace.mendix.com/link/component/114803) (permet par ex. d'ajouter des attributs HTML)
