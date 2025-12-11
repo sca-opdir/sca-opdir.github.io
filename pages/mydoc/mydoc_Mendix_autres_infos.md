@@ -315,6 +315,102 @@ Best Practices: OQL query management
 5. Refresh data grids after modifying underlying entities
 6. Design View Entities with future growth in mind
 
+* [Mendix doc about OQL View Entity](https://docs.mendix.com/refguide/use-view-entities/)
+
+The data that view entities contain is determined when you retrieve the data.
+A view entity can be seen as a named OQL query that behaves like a persistable entity.
+The entire query is executed by the database, often resulting in faster performance compared to executing multiple independent retrieves.
+
+use case : data preparation (e.g. when using data grids with associations from multiple entities, view entities increase speed and allow for full sorting, pagination, and filtering functions), charting, API stability (To **decouple data usage from data storage**, especially for APIs, view entities allow you to expose data while keeping your domain model flexible. This ensures API stability for external applications and allows you to change your domain model as needed without affecting the API.)
+
+example : list all customers at an organization that are over age 18 :
+```
+FROM Shop.Customer AS c
+ LEFT JOIN c/Shop.BillingAddress/Shop.Address as ba
+ LEFT JOIN c/Shop.DeliveryAddress/Shop.Address as da
+WHERE datediff(YEAR,c.DateOfBirth,'[%CurrentDateTime%]') > 18
+SELECT
+ c.CustomerId                                                                                   as CustomerId
+,c.LastName + ', ' + FirstName                                                                  as FullName
+,datediff(YEAR, c.DateOfBirth,'[%CurrentDateTime%]')                                            as Age
+,ba.Streetname + ' ' + ba.StreetNumber + ' ' + ba.Zipcode + ' ' + ba.City + ' ' +  ba.Country   as BillingAddress
+,da.Streetname + ' ' + da.StreetNumber + ' ' + da.Zipcode + ' ' + da.City + ' ' +  da.Country   as DeliveryAddress
+```
+
+count the number of customers that were born in each decade and group them appropriately.
+```
+ FROM
+   (
+    FROM HowToThink.CustomerWithAddressVE as c SELECT CAST(c.Age:10 as integer) * 10 as AgeBucket ,
+                                                      c.CustomerId as CustomerId) as b
+ GROUP BY b.AgeBucket
+ SELECT b.AgeBucket as AgeBucketStart ,
+        b.AgeBucket + 9 as AgeBucketEnd ,
+        COUNT(b.CustomerId) as CustomerCount
+ ORDER BY b.AgeBucket
+ LIMIT 10
+```
+
+The ORDER BY clause can be used in a view entity in combination with LIMIT or OFFSET clauses to define a specific set of data to retrieve. If you do this, **you still should not rely on the order of the output**. If you want the results in particular order, they can be sorted on retrieval.
+
+For example, the following OQL query defines a view entity Books.Bestseller, which contains data of the ten books which have sold the most copies. When using this view entity in your app, **you should still explicitly specify sorting of the results**.
+```
+FROM Books.Book
+SELECT Name AS Name,
+       ISBN AS ISBN,
+       Sold AS Sold
+ORDER BY Sold DESC
+LIMIT 10
+```
+
+assume you have an entity with the attributes FirstName and LastName. In a view entity, you combine both the first name and last name into a FullName attribute. When you select from this entity, you can specify an XPath expression that limits the data on the full attribute name
+Alternatively, you can store the parameter value in the database, then use that value in your view entity. For example, the image below is of a view entity that returns the data of the Product entity in the language of the current user.
+
+```
+FROM Shop.Product as p
+LEFT JOIN System.User as u ON (u.ID = '[%CurrentUser%]')
+LEFT JOIN u/System.User_Language/System.Language as l
+LEFT JOIN p/Shop.ProductTranslations_Product/Shop.ProductTranslations as t ON (t.LanguageCode = l.Code)
+SELECT p.ID as ID,
+       p.ProductId as ProductId,
+       COALESCE(t.Name, p.Name) as Name,
+       COALESCE(t.Description, p.Description) as Description,
+       p.WeightInGrams as WeightInGrams,
+       l.Code as UserLanguageCode
+```
+This is done by joining an entity that has all the necessary translations and filtering it by the language of the current user. Coalesce is used to return the default language in case there is no translation is available.
+
+If you have a multitenant system where every user has a tenant ID, you can ensure through view entities that any data that is tenant-specific will only return data for the tenant of the current user
+
+Use the WHERE clause of a view entity to ensure only data that should be available to the user is returned. This is an alternative to the access rules you can have on both persistable entities and view entities.
+
+**Persistable entity access rules are not applied when using view entities**. Instead, you must specify the access rules. You can define what users have access to while still allowing access to aggregated data. 
+
+For example, you may want to know how many employees are part of each department of a company. However, you should not be able to see the detailed information of each employee. View entities allow you to give a user access to specific employee data without revealing sensitive information.
+
+a view entity is used to implement multitenant security. The view entity CustomersVE only returns the customers that belong to the tenant of the current user. Any additional view entity that uses CustomersVE instead of the persistable entity Customer will only get data belonging to the tenant of the user.
+```
+FROM Shop.Customer as c
+JOIN ShopViewSamples.CurrentUserVe u ON (u.UserTenantId = c.TenantId)
+SELECT c.CustomerId as CustomerId,
+       c.FirstName as FirstName,
+       c.LastName as LastName,
+       c.EmailAddess as EmailAddess,
+       c.DateOfBirth as DateOfBirth
+```
+
+Instead of joining with the \[%CurrentUser%\] expression, this example joins with a view entity that only returns one object: the current user and related details, such active language and tenant ID. This simplifies use of user information for other view entities.
+
+```
+FROM System.User as u
+LEFT JOIN u/System.User_Language/System.Language as l
+LEFT JOIN u/Shop.UserTenant_User/Shop.UserTenant as t
+WHERE (u.ID = '[%CurrentUser%]')
+  SELECT u.Name as UserName ,
+         l.Code as UserLanguageCode ,
+         t.TenantId as UserTenantId
+
+```
 
 {% include links.html %}
 
