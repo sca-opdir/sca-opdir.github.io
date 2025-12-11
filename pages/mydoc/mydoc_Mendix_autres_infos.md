@@ -792,5 +792,219 @@ HAVING
 	)
 ```
 
+* Mendix doc [OQL Expressions](https://docs.mendix.com/refguide/oql-expressions/)
+
+An OQL expression is a query building block that returns a value or a list of values. Expressions can be one of the following:
+- a constant
+- a function
+- a system variable
+- a subquery
+- a combination of attribute names, constants, system variables, functions, and subqueries connected by operators
+
+**Aggregations** are functions that reduce a list of values from a retrieved column (or columns) into a single value. They can be used :
+- as an attribute in a SELECT clause
+- as a condition in a HAVING clause
+
+- AVG
+- MAX and MIN : Boolean values are treated as 0 and 1, Strings are compared alphabetically, NULL values are ignored.
+- SUM : NULL values are ignored
+- STRING_AGG : Combines multiple string values from a specified column into a single string. Each value is separated from the next by a specified separator string.
+This aggregate function is supported in View Entities and Datasets starting from Mendix 11.2.0, whereas previously it was only available in Java actions.
+
+**Parameters** are external variables that are referenced to by name in an OQL query. To use a defined parameter in a query, prepend the $ sign to the name of the parameter.
+If you use undefined in IN and LIKE comparison expressions, the condition always returns true. In other cases, undefined parameters cause an exception.
+
+* Mendix doc : [OQL Syntax](https://docs.mendix.com/refguide/oql-expression-syntax/)
+
+data types : 
+- BOOLEAN	Boolean	TRUE	Conditional data, can be TRUE or FALSE
+- DATETIME	Date and time	'2025-07-05 00:00:00'	Date and time data
+- DECIMAL	Decimal	5.3	Floating point numeric data
+- INTEGER	Integer/Long	5	Integer data
+- LONG	Integer/Long	5	64 bit width integer data
+- STRING
+
+Literals represent values that are constant and are part of the query itself
+
+- BOOLEAN	Conditional constants : TRUE, FALSE
+- STRING	String literal 's*'
+- INTEGER and LONG	Natural number literal d+
+- DECIMAL	Real number literal d+.d+
+- NULL
+
+There is **no direct support for DATETIME literals**. For functions that take DATETIME as input, it can be represented with a **STRING in a ISO date time format** or a **LONG value representing Unix seconds**.
+
+Most XPath system variables can be used in OQL
+
+about using system variables in OQL:
+- \[%CurrentObject%\] is not supported in OQL.
+- The \[%CurrentUser%\] system variable contains an association with the System.User object.
+- The \[%UserRole_<role name>%\] variable contains an association with the object of entity System.UserRole that corresponds to role <role name>.
+- Both \[%CurrentUser%\] and \[%UserRole_<role name>%\] can be used only as references. They cannot be cast to other data types.
+
+gets the Name from all Sales.Person objects that are owned by current user:
+```
+SELECT
+	Name
+FROM
+	Sales.Person
+WHERE
+	System.owner = '[%CurrentUser%]'
+```
+
+Name from all Sales.Person objects that are owned by users with role Manager:
+```
+SELECT
+	Name
+FROM
+	Sales.Person
+WHERE
+	System.owner/System.User/System.UserRoles = '[%UserRole_Manager%]'
+```
+
+The return type of all time-related \[system\] variables and expressions is Date and time. They can be used the same way as values of type Date and time.
+
+```
+SELECT
+	BirthDate,
+	DATEPART(YEAR, '[%BeginOfCurrentYear%]') AS CurrentYear,
+	DATEDIFF(YEAR, BirthDate, '[%CurrentDateTime%]') AS Age,
+	'[%BeginOfCurrentDay%] - 3 * [%YearLength%]' AS TodayThreeYearsAgo
+FROM
+	Sales.Person
+```
+
+Binary operations perform **type casting** when operands have different types ; The resulting type will be the operand type with the highest precedence DECIMAL > LONG > INTEGER
+
+Other Operators
+- LIKE	Matches a string to a specified pattern (wildcard characters : % = Matches zero or more of any character; _ = Matches one of any character ; special characters should be escaped with the \ escape character)
+
+ex : string that has 4 of any character ending with "ment":
+```
+Select PropertyType FROM RealEstate.Properties WHERE PropertyType LIKE '____ment' 
+```
+  
+- IN	Matches any value in a subquery or a list of expression values.
+
+```
+SELECT LastName, FirstName
+FROM Sales.Customer 
+WHERE LastName IN
+    (SELECT subq.LastName 
+    FROM Sales.Order subq
+    WHERE subq.Number > 3)
+```
+
+
+- EXISTS	Test for the existence of any rows when executing the subquery (Returns TRUE if a subquery returns at least one row) ; can be used to check if an entity contains any object matching a condition
+
+test if customer with last name Mose
+```
+EXISTS (SELECT * FROM Sales.Customer WHERE LastName = 'Mose')
+```
+
+get all customers that also have orders placed:
+```
+SELECT *
+FROM Sales.Customer customer
+WHERE EXISTS
+    (SELECT *
+    FROM Sales.Order order
+    WHERE order.LastName = customer.LastName)
+```
+
+- IS	Tests if a value is NULL ; ex. : filter out rows with values that are NULL.
+```
+	SELECT Revenue, Cost FROM Sales.Finances WHERE Revenue IS NOT NULL 
+```
+
+- CASE conditional expression
+
+If the result of a following WHEN condition is TRUE, the value of the CASE expression is the result that follows the condition and the remainder of the CASE expression is not processed. If the result is not TRUE, any subsequent WHEN clauses are examined in the same manner. If no WHEN condition yields TRUE, the value of the CASE expression is the result of the ELSE clause. If the ELSE clause is omitted and no condition is TRUE, the result is null.
+
+2 ways to use it 
+
+1) simple : input_expression will be compared to when_expression. If input_expression matches when_expression, the result of the whole CASE expression will be result_expression given after THEN. The data types of input_expression and when_expression must tch.
+   ```
+ 	CASE input_expression
+	{ WHEN when_expression THEN result_expression } [ ...n ]
+	ELSE else_result_expression
+	END
+```
+
+Ex. :
+
+```
+SELECT
+	LastName,
+	Number,
+	CASE Number
+		WHEN 7 THEN True
+		ELSE False
+		END AS IsLuckyNumber
+FROM Sales.Order
+```
+
+3) extended : boolean_expression is evaluated and if it is TRUE, the result of the whole CASE expression will be result_expression given after THEN. boolean_expression must have return type BOOLEAN.
+
+
+```
+	CASE
+	{ WHEN boolean_expression THEN result_expression } [ ...n ] 
+	ELSE else_result_expression
+	END
+```
+
+Ex. :
+
+```
+SELECT
+	LastName,
+	Number,
+	Price,
+	CASE
+		WHEN Price > 7 THEN 'Priority'
+		WHEN Number = 7 THEN 'Lucky'
+		ELSE 'Regular'
+		END AS OrderType
+FROM Sales.Order
+```
+
+In both instances, else_result_expression is the result of the whole CASE expression, when no previous when_expression matched or no previous boolean_expression returned TRUE.
+
+
+currently supported **functions**:
+
+- CAST : converts an expression to a specified data type
+- COALESCE : Returns the value of the first expression that is not NULL. Ex. : Selecting a non-null name for a customer, ignoring if it is the first name or last name
+	
+```
+SELECT COALESCE(LastName, FirstName) AS Name FROM Sales.CustomerInfo
+```
+- DATEDIFF :  the difference between two given DATETIME expressions. The difference is given in the specified unit.
+- DATEPART : retrieves a specified element from DATETIME values. The return type is INTEGER.
+- LENGTH returns the length in characters of the result of a string expression.
+- LOWER Converts all uppercase characters in a given string to lowercase.
+- RANGEBEGIN Extracts the initial value of a range parameter. Ex. : This query uses $range_future to retrieve all periods that end in the future:
+
+```
+SELECT End, Revenue FROM Sales.Period
+WHERE End > RANGEBEGIN($range_future)
+ ```
+
+- RANGEEND : Extracts the end value of a range parameter. Ex. : retrieve all periods that ended before the end date of $range_past
+
+```
+SELECT End, Revenue FROM Sales.Period
+WHERE End < RANGEEND($range_past)
+```
+
+- REPLACE : takes an input string and replaces all occurrences of a specified string within it with another string. The behavior of the REPLACE function relies on underlying database implementation, which varies by database vendor. For most supported databases, the default behavior of REPLACE is case-sensitive
+- ROUND : Rounds a numeric expression by reducing precision after the decimal point.
+- UPPER : Converts all lowercase characters in a given string to uppercase
+
+
+
+
 {% include links.html %}
 
