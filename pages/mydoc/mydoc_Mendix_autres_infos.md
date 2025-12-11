@@ -174,6 +174,62 @@ You can inspect XAS requests in the Network tab of your browser’s developer to
 
 Whenever a XAS action (such as a microflow call) is triggered, Mendix Client also sends the state. Mendix Client does not send the entire state to the runtime, \[but\] decides which parts of the state should be sent by analyzing each microflow during the deployment of the applications.
 
+* Article Medium sur les entités Object Query Language (OQL) View : [OQL View as a Solution: When XPath and Microflows Aren’t Enough](https://medium.com/@risshis11/oql-view-as-a-solution-when-xpath-and-microflows-arent-enough-91fcf900fc01)
+
+OQL View Entities are stored as database views 
+They don’t store data themselves — only the query definition.
+Each time you access them, the DB runs the query and returns fresh results.
+Performance depends on query efficiency and indexes.
+
+ exemples d'utilisation : 
+- calculer le nombre de commandes par client ; on a une entité "Client" et une entité "Commandes" et on veut afficher le nombre total de commandes par client. On peut avoir un microflow qui le calcule ou mettre à jour un attribut, mais le plus efficace c'est de passer par une entité OQL View.
+- 
+```
+SELECT
+    c.ID AS OrderCount_Customer,
+    COUNT(DISTINCT o.ID) AS OrderCount
+FROM OQLTest.Customer AS c
+LEFT JOIN c/OQLTest.Order_Customer/"OQLTest.Order"/ AS o
+GROUP BY c.ID
+```
+
+- classifier clients comme actif/inactif selon s'ils ont passé commande dans les 6 derniers mois
+- 
+```
+SELECT
+    c.ID AS CustomerStatus_Customer,
+    CASE
+        WHEN DATEDIFF(MONTH, MAX(o.OrderDate), '[%CurrentDateTime%]') <= 6
+            THEN 'Active'
+        ELSE 'Inactive'
+    END AS Status
+FROM OQLTest.Customer AS c
+LEFT JOIN c/OQLTest.Order_Customer/"OQLTest.Order" AS o
+GROUP BY c.ID
+```
+
+- commandes en fonction de l'utilisateur logged-in
+  
+```
+```
+
+- top 5 produits
+
+
+OQL Views for
+- Associations → Link directly to persistable entities.
+- Aggregations → SUM, COUNT, AVG, MIN, MAX.
+- Filtering → Use tokens like $currentUser.
+- Grouping & Ordering → Push heavy logic to DB instead of microflows.
+- Widgets → Use directly in grids, charts, and exports.
+
+
+Avoid them when:
+- Simple XPath already solves the problem.
+- Your domain model changes frequently (OQL needs manual query updates).
+- You need create, update, or delete operations (OQL Views are read-only).
+
+
 
 
 
