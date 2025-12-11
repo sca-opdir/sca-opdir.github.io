@@ -412,5 +412,111 @@ WHERE (u.ID = '[%CurrentUser%]')
 
 ```
 
+Mendix doc [Charting with View Entities](https://docs.mendix.com/refguide/charting-with-view-entities/)
+
+
+Mendix charts do not take associations, so you usually have to take extra steps to use a non-persistable entity as a source. Using view entities is a faster and simpler way to create a chart.
+
+chart to see how much you make in sales each year, and how each product category contributes to the number
+
+
+```
+SELECT
+  CAST(DATEPART(YEAR, o.OrderDate) as INTEGER) as OrderYear
+  , c.CategoryId as CategoryId
+  , c.CategoryName as CategoryName
+  , SUM(ol.Quantity * ol.UnitPrice * (1 - ol.Discount)) as TotalSales
+FROM SalesDashboard."Order" as o
+  JOIN SalesDashboard.OrderLine_Order/SalesDashboard.OrderLine as ol
+  LEFT JOIN SalesDashboard.OrderLine_Product/SalesDashboard.Product as p
+LEFT JOIN SalesDashboard.Product_Category/SalesDashboard.Category as c
+GROUP BY c.CategoryId, c.CategoryName, CAST(DATEPART(YEAR, o.OrderDate) as INTEGER)
+```
+
+* Mendix doc [Create a Pivot Table with View Entities](https://docs.mendix.com/refguide/view-entity-pivot-table/)
+
+You want to analyze seasonal sales volumes, which is how much your business makes from sales in each quarter per year
+
+Create a view entity that shows each order together with its total value, calculated from the OrderLine entity
+
+```
+SELECT
+  o.OrderId as OrderId
+  , CAST(DATEPART(QUARTER, o.OrderDate) as INTEGER) as OrderQuarter
+  , CAST(DATEPART(YEAR, o.OrderDate) as INTEGER) as OrderYear
+  , o.RequiredDate as RequiredDate
+  , o.ShippedDate as ShippedDate
+  , SUM(ol.UnitPrice * ol.Quantity * (1 - ol.Discount)) as TotalOrderValue
+  , SUM(ol.Quantity) as TotalProductCount
+  , COUNT(*) as UniqueProductCount
+FROM Shop."Order" as o
+  JOIN o/Shop.OrderLine_Order/Shop.OrderLine as ol
+GROUP BY o.OrderId, o.OrderDate, o.RequiredDate, o.ShippedDate
+
+```
+
+Add another view entity to show the expected table
+
+```
+SELECT
+    o.OrderYear as OrderYear,
+    SUM(CASE WHEN o.OrderQuarter = 1 THEN o.TotalOrderValue ELSE 0 END) as TotalSales_Q1,
+    SUM(CASE WHEN o.OrderQuarter = 2 THEN o.TotalOrderValue ELSE 0 END) as TotalSales_Q2,
+    SUM(CASE WHEN o.OrderQuarter = 3 THEN o.TotalOrderValue ELSE 0 END) as TotalSales_Q3,
+    SUM(CASE WHEN o.OrderQuarter = 4 THEN o.TotalOrderValue ELSE 0 END) as TotalSales_Q4
+FROM Shop.OrderVE o
+GROUP BY o.OrderYear
+
+```
+
+* Mendix doc [Data Versioning with View Entities](https://docs.mendix.com/refguide/view-entity-data-versioning/)
+
+view the latest status of an order
+
+```
+SELECT
+    o.OrderId as OrderId,
+    o.RequiredDate as RequiredDate,
+    u.OrderStatus as OrderStatus,
+    u.UpdateDate as UpdateDate
+FROM Shop.OrderInfo o
+JOIN o/Shop.OrderUpdate_OrderInfo/Shop.OrderUpdate u
+JOIN (
+    SELECT
+        u.OrderId as OrderId,
+        MAX(u.UpdateDate) as UpdateDate
+    FROM Shop.OrderUpdate u
+    GROUP BY u.OrderId
+) latest ON (latest.OrderId = o.OrderId AND latest.UpdateDate = u.UpdateDate)
+```
+
+The above query is a nested query. It retrieves information from the OrderInfo table, then joins it with the OrderUpdate table. The result is a table with every update of every order. If you are only interested in the latest update of each table, retrieve the latest date an order is updated using MAX(u.UpdateDate) and combine it with the previous JOIN.
+
+
+Another advantage of data versioning is that you can take a snapshot of the order status on any given date
+
+For example, if you want to know the status of orders on 8/17/1997
+
+```
+SELECT o.OrderId AS OrderId,
+    o.RequiredDate AS RequiredDate,
+    u.OrderStatus AS OrderStatus,
+    u.UpdateDate AS UpdateDate
+FROM Shop.ORDER
+Info o
+JOIN O / Shop.OrderUpdate_Order Info / Shop.OrderUpdate u
+JOIN 
+( SELECT u.OrderId AS OrderId,
+        MAX (u.UpdateDate) AS UpdateDate
+    FROM Shop.OrderUpdate u
+    GROUP  BY u.OrderId) latest ON (latest.OrderId = o.OrderId
+                                AND latest.UpdateDate u.UpdateDate)
+WHERE u.UpdateDate <  CAST ( '1997/08/17'  AS DATETIME)
+
+```
+```
+```
+
+
 {% include links.html %}
 
