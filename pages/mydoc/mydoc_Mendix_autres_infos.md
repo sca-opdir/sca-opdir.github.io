@@ -194,7 +194,7 @@ GROUP BY c.ID
 ```
 
 - classifier clients comme actif/inactif selon s'ils ont passé commande dans les 6 derniers mois
-- 
+  
 ```
 SELECT
     c.ID AS CustomerStatus_Customer,
@@ -211,10 +211,33 @@ GROUP BY c.ID
 - commandes en fonction de l'utilisateur logged-in
   
 ```
+SELECT
+    o.ID AS OrderID,
+    o.OrderDate AS OrderDate,
+    o.TotalAmount AS TotalAmount,
+    u.Name AS UserName
+FROM "OQLTest.Order" AS o
+INNER JOIN o/OQLTest.Order_Account/Administration.Account AS u
+WHERE u.ID = '[%CurrentUser%]'
 ```
 
 - top 5 produits
 
+```
+SELECT
+    c.ID AS CustomerID,
+    c.CustomerName AS CustomerName,
+    SUM(o.TotalAmount) AS TotalSales
+FROM OQLTest.Customer AS c
+INNER JOIN c/OQLTest.Order_Customer/'OQLTest.Order' AS o
+GROUP BY
+    c.ID,
+    c.CustomerName
+ORDER BY
+    TotalSales DESC
+LIMIT 5
+
+```
 
 OQL Views for
 - Associations → Link directly to persistable entities.
@@ -229,8 +252,68 @@ Avoid them when:
 - Your domain model changes frequently (OQL needs manual query updates).
 - You need create, update, or delete operations (OQL Views are read-only).
 
+* Article Linkedin [View Entities in Mendix: The Complete Implementation Guide for 10x Performance Gains](https://www.linkedin.com/pulse/view-entities-mendix-complete-implementation-guide-10x-neel-desai-ajklf)
 
 
+
+By storing named OQL queries as virtual entities, developers can achieve database-level performance for operations that previously required extensive microflow processing
+View Entities fundamentally change this paradigm by executing OQL queries directly at the database level, bypassing the Mendix object layer entirely for read operations
+The result is dramatic performance improvement
+scenarios where View Entities provide maximum benefit: data grids with multiple associations, reporting dashboards requiring aggregations, API endpoints exposing denormalized data, etc.
+
+Example: Order summary with customer and product information
+
+```
+SELECT 
+    o.ID,
+    o.OrderNumber,
+    o.OrderDate,
+    c.Name AS CustomerName,
+    c.Email AS CustomerEmail,
+    SUM(oi.Quantity * oi.UnitPrice) AS TotalAmount,
+    COUNT(oi.ID) AS ItemCount
+FROM MyModule.Order o
+JOIN o.Customer c
+JOIN o.OrderItems oi
+WHERE o.OrderDate >= '[%BeginOfCurrentMonth%]'
+GROUP BY o.ID, o.OrderNumber, o.OrderDate, c.Name, c.Email
+ORDER BY o.OrderDate DESC OFFSET 0        
+```
+
+Patterns with multi-level aggregations combined with conditional logic and other advanced techniques can demonstrate huge improvements in server memory and faster performance. Examples of conditional aggregations: Usage of CASE statements, subqueries for complex calculations, and HAVING clauses for post-aggregation filtering. The result is a single query that would otherwise require dozens of microflow operations
+
+View Entities support **parameterization** through system variables and **context-aware filtering**, enabling dynamic behavior while maintaining performance benefits.
+
+```
+SELECT 
+    s.ID,
+    s.SalesDate,
+    s.Amount,
+    s.Region,
+    u.FullName AS SalesRepName,
+    (s.Amount - s.Cost) AS Profit
+FROM MyModule.Sale s
+JOIN s.SalesRep u
+WHERE s.SalesDate BETWEEN '[%BeginOfCurrentMonth%]' AND '[%EndOfCurrentMonth%]'
+    AND u.ID = '[%CurrentUser%]'
+ORDER BY s.SalesDate DESC OFFSET 0        
+```
+
+Optimizing data grid performance : Data grids displaying information from multiple entities represent the ideal View Entity use case. Traditional approaches create N+1 query problems, where displaying 100 records might execute 300+ database queries.
+
+A single query can replace multiple retrieve actions and provide all data needed for a comprehensive dashboard, complete with aggregated statistics.
+
+While View Entities execute at the database level, **proper indexing** remains crucial for optimal performance. Focus indexing efforts on columns used in WHERE clauses, JOIN conditions, and ORDER BY statements.
+
+View Entities consume less memory than traditional entity retrieval since **they bypass object instantiation**. However, large result sets still require careful memory management. Implementing **pagination is recommended for View Entities returning >1000 records**
+
+Best Practices: OQL query management
+1. Comment complex queries to explains business logic
+2. Document parameter usage and expected data ranges
+3. Maintain change logs for query modifications
+4. Create test cases validating query results
+5. Refresh data grids after modifying underlying entities
+6. Design View Entities with future growth in mind
 
 
 {% include links.html %}
