@@ -512,11 +512,285 @@ JOIN
     GROUP  BY u.OrderId) latest ON (latest.OrderId = o.OrderId
                                 AND latest.UpdateDate u.UpdateDate)
 WHERE u.UpdateDate <  CAST ( '1997/08/17'  AS DATETIME)
-
-```
-```
 ```
 
+* Mendix doc [Exporting Data with View Entities](https://docs.mendix.com/refguide/view-entity-expport-data/)
+  
+créer une OQE View et ensuite export mapping pour export json
+
+```
+SELECT
+    c.CustomerId as CustomerID,
+    c.CompanyName as Company,
+    (c.FirstName + ' ' + c.LastName) as FullName,
+    c.Phone as Phone, 
+    c.Fax as Fax,
+    (ba.Address + ', ' + ba.City + ' ' + ba.PostalCode + ', ' + ba.Country) as BillingAddress,
+    (da.Address + ', ' + da.City + ' ' + da.PostalCode + ', ' + da.Country) as DeliveryAddress
+FROM Shop.Customer c
+    LEFT JOIN c/Shop.BillingAddress/Shop.Address ba
+    LEFT JOIN c/Shop.DeliveryAddress/Shop.Address da
+```
+
+* Mendix doc [OQL](https://docs.mendix.com/refguide/oql/)
+
+The Mendix Object Query Language (OQL) is a relational query language inspired by SQL. The major advantage of OQL is that it uses Mendix entity and association names instead of actual database table names. In that way, it is possible to create queries that use names from the data model of your Mendix app without thinking about how that data model is represented in the database.
+
+In addition, OQL can use predefined relations (associations) to easily join objects without having to calculate which columns should be coupled. Despite these differences, many SQL keywords also work in OQL
+
+* Mendix doc [OQL Clauses](https://docs.mendix.com/refguide/oql-clauses/)
+
+- SELECT
+- FROM
+- WHERE
+- GROUP BY
+- HAVING (allowed only in combination with GROUP BY)
+- ORDER BY
+- LIMIT
+- OFFSET
+
+A unique feature of OQL is the ability to access attributes of associated objects using paths. For example:
+
+```
+SELECT
+	Number AS RequestNumber,
+	Sales.Request/Sales.Request_Customer/Sales.Customer/LastName AS CustomerName
+FROM Sales.Request
+```
+
+It is possible to **build paths over multiple associations**. Associated entities can be reached from both directions. 
+System associations System.owner and System.changedBy can also be used in such association paths, assuming they are enabled for the entity. For example:
+
+```
+SELECT
+	LastName AS CustomerName,
+	Sales.Customer/Sales.Request_Customer/Sales.Request/System.owner/System.User/Name AS UserName
+FROM Sales.Customer
+```
+
+In the case when the association multiplicity type is **one-to-many or many-to-many, every attribute over association may result in multiple results per object**. If there are multiple attributes over association in the FROM clause, the result will be a **cartesian product** of associated objects meaning that there will be a row for every combination of associated objects. If you want to avoid that effect, consider rewriting the query using **JOIN**.
+
+For example, when a Sales.Customer with LastName "Doe" has two associated Sales.Request objects with a Number attribute with values 1 and 2, the following query will return 4 rows:
+
+```
+SELECT
+	LastName AS CustomerName,
+	Sales.Customer/Sales.Request_Customer/Sales.Request/Number AS RequestNumber,
+	Sales.Customer/Sales.Request_Customer/Sales.Request/Number AS OrthogonalRequestNumber
+FROM Sales.Customer
+WHERE Sales.Customer/LastName = 'Doe'
+```
+
+You can select data from both entities at once.
+
+```
+SELECT *
+FROM Sales.Customer, Sales.Request
+```
+
+This returns get all attributes of both entities. Every object of the first entity is combined with every object of the second entity, which results in a cartesian product of objects of the two entities.
+
+To avoid ambiguity in case of duplicate attribute names, you should use the entity name or alias when specifying columns to be selected. The format in that case is, respectively, <module>.<entity>/<attribute> or <alias>/<attribute>. You can also **retrieve all attributes** of a particular entity using <alias>/*.
+
+A feature that is specific to OQL and is not in the standard SQL syntax is using paths to other entities over associations.
+
+For example, when selecting from entity Sales.Customer, we can access an attribute of the associated entity Sales.Request:
+
+SELECT FirstName, LastName
+FROM Sales.Customer
+WHERE
+	Sales.Customer/Sales.Request_Customer/Sales.Request/Number = 1
+
+The **HAVING** clause is used to filter aggregated results of GROUP BY. The difference between HAVING and WHERE is that **WHERE is applied to every object before the objects are grouped, and HAVING is applied only to the aggregate rows**.
+
+The following query returns only aggregate rows for brands with more than one location:
+
+```
+SELECT Brand, SUM(Stock) AS SumStock, COUNT(*) AS LocationCount
+FROM Sales.Location
+GROUP BY Brand
+HAVING COUNT(*) > 1
+```
+
+"ORDER BY" clause can include items that do not appear in the SELECT clause, except when SELECT DISTINCT is specified or when a GROUP BY clause exists. When UNION is used, the column names or aliases must be those specified in the SELECT clause of the first part of the query. 
+
+The ORDER BY clause **cannot be used in view entities without a LIMIT or an OFFSET clause**
+
+ if OQL v2 is enabled, an ORDER BY clause cannot be used in subqueries without a LIMIT or an OFFSET clause because the order of the subquery results may not be retained in the outer query.
+
+ASC specifies that the results must be returned in ascending order, from the lowest to the highest value. This is the default sort type, so results are equivalent to not specifying ASC.
+
+You can apply ASC and DESC modifiers to each criterion separately:
+
+```
+SELECT FirstName, LastName
+FROM Sales.SalesPerson
+ORDER BY LastName DESC, FirstName ASC
+```
+
+OQL allows you to specify paths to attributes of associated entities in the ORDER BY clause.
+
+```
+SELECT LastName
+FROM Sales.Customer
+ORDER BY Sales.Customer/Sales.Request_Customer/Sales.Request/Number
+```
+
+With the LIMIT (specifies the maximum amount of rows to return) and OFFSET (specifies how many rows must be skipped before returning the result rows) clauses, you can specify that only a portion of the results of a query is returned.
+
+Mendix recommends **combining LIMIT and OFFSET clauses with ORDER BY because the return order of rows without an ORDER BY clause is undefined and can lead to unpredictable output**.
+
+UNION takes multiple select queries and combines their results into a single result set. The resulting set by default only includes distinct rows. The **ALL** keyword can be used to include all rows. Rows are considered distinct if the combination of the column values is distinct from all other rows
+
+self union of a table, returning fewer rows than the original table, as only distinct rows are included in the result.
+
+```
+SELECT FirstName FName, LastName LName
+FROM Sales.Customer
+UNION
+SELECT FirstName FName, LastName LName
+FROM Sales.Customer
+```
+
+UNION can be chained to use more than 2 select queries as a source. This query collects all distinct first and last names into a single column in a single table:
+
+```
+SELECT FirstName AS Name FROM Sales.SalesPerson
+UNION
+SELECT FirstName AS Name FROM Sales.Customer
+UNION
+SELECT LastName AS Name FROM Sales.SalesPerson
+UNION
+SELECT LastName AS Name FROM Sales.Customer
+```
+
+Performing a UNION with columns that are associations is possible, given the columns refer to the same entity for all select clauses.
+
+The query below combines associations to the Sales.Customer entity from 2 different source entities with duplicates:
+
+```
+SELECT Cust.LastName as CustomerName FROM (
+    SELECT Sales.Request/Sales.Request_Customer as RequestAssoc
+    FROM Sales.Request
+    UNION ALL
+    SELECT Sales.ExtraInfo/Sales.ExtraInfo_Customer as RequestAssoc
+    FROM Sales.ExtraInfo
+) AS Cust
+```
+
+A **subquery** is an OQL query nested inside another query. A subquery can contain the same clauses as a regular OQL query. The entities from the outer query can be referred to in a subquery. A subquery can be used in different parts of the query.
+
+A subquery can be used as a column in the SELECT clause. It can refer to other tables and expressions in FROM.
+
+```
+SELECT
+	Req/Number AS RequestNumber,
+	(
+		SELECT COUNT(*)
+		FROM Sales.Customer AS Cust
+		WHERE Cust/LastName = Req/CustomerName
+	) AS CustomerCount
+FROM Sales.Request Req
+```
+
+It is possible to use a subquery in FROM. 
+
+Subqueries in FROM can be combined with other tables
+
+It is possible to refer to other tables in the outer FROM clause from a subquery
+
+JOIN is also supported
+
+```
+SELECT Cust/LastName, Req/Number
+FROM
+	Sales.Request Req
+	LEFT JOIN
+	(
+		SELECT *
+		FROM Sales.Customer
+	) AS Cust
+	ON Req.CustomerName = Cust.LastName
+```
+
+A subquery can be used in the WHERE clause.
+
+```
+SELECT Brand, City
+FROM Sales.Location AS Location
+WHERE
+	Location.Stock = (
+		SELECT MAX(Stock)
+		FROM Sales.Location AS MaxStockLocation
+		WHERE Location.City = MaxStockLocation.City
+	)
+```
+
+A subquery can be combined with the IN keyword. In that case, the expression is true if a value in the outer query matches one of the results of the subquery. In this case, the subquery can return any number of rows, but it should always return exactly one column.
+
+```
+SELECT FirstName, LastName
+FROM Sales.Customer Cust
+WHERE
+	Cust/LastName IN (
+		SELECT CustomerName
+		FROM Sales.Request Req
+	)
+```
+
+A subquery can be combined with the EXISTS keyword. In that case, the expression is true if the subquery returns at least one row. In case of EXISTS, the subquery can return any number of rows and any number of columns.
+
+```
+SELECT FirstName, LastName
+FROM Sales.Customer Cust
+WHERE
+	EXISTS (
+		SELECT * FROM Sales.Request Req
+		WHERE Req/CustomerName = Cust/LastName
+	)
+```
+
+  Subqueries can be used in a HAVING clause the in same way they are used in WHERE: as a value or combined with IN or EXISTS clauses. For other cases, the same limitations apply to the subquery outcome.
+
+
+```
+SELECT COUNT(*) AS LocationCount, SUM(Stock) as CityStock, City AS City
+FROM Sales.Location AS Location
+GROUP BY City
+HAVING
+	SUM(Stock) <= (
+		SELECT COUNT(*)
+		FROM Sales.Location
+	)
+  ```
+
+```
+SELECT COUNT(*) AS LocationCount, City AS City
+FROM Sales.Location AS Location
+GROUP BY City
+HAVING
+	EXISTS (
+		SELECT *
+		FROM Sales.Location AS SubLocation
+		WHERE
+			Location/City = SubLocation/City
+			AND SubLocation/Brand = 'Rekall'
+	)
+```
+
+The same result can be achieved with IN:
+
+```
+SELECT COUNT(*) AS LocationCount, City AS City
+FROM Sales.Location AS Location
+GROUP BY City
+HAVING
+	Location/City IN (
+		SELECT SubLocation/City
+		FROM Sales.Location AS SubLocation
+		WHERE SubLocation/Brand = 'Rekall'
+	)
+```
 
 {% include links.html %}
 
