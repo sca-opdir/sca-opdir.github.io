@@ -89,7 +89,8 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVe4gfaNifVAp07IGILGp5s" target="blank">check_surfaces_réseau</a> : surf. réseau sans num. réseau ; surf. réseau > surf. exp. ; surf. réseau > surf. SPB1 ; num. réseau sans surf. réseau ; surf. réseau sans droit contrib.</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARUHxGaWU21Foxao83IiQKY" target="blank">check_surfaces_SPB</a> : surf. SPB1 <> surf. exploitée ; surf. SPB1/2 > surf. exploitée ; cc. SPB sans surf. SPB1 ; surf. SPB2 > surf. SPB1 ; année SPB non valide ; année SPB sans surf. SPB ; surf. SPB sans droit contrib. ; droit contrib. sans surf. SPB</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a> : nombre de 908/921/922/923/924 par m2 (plausibilité)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a> : vérifier nombre minimal arbres Q1 atteint</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AapsUZkdPxVHqhKAlmC_bF8" target="blank">check_SPB_zone</a> : jachères et ourlets dans des zones qui ne donnent pas droit aux contributions</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a> : vérifier nombre minimal arbres Q1 atteint</li>  
     </ul>
   </details>
   <details>
