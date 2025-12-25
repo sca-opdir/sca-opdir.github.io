@@ -222,6 +222,7 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeTA09kmCSpPgpAXqq2iXwA" target="blank">surfaces_compensation_horsCE</a> : données part min. de SPB pour exploit. hors CE</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3qcKMc2OpAoej5l.7oDiA" target="blank">surfaces_compensation_CE</a> : données part min. de SPB pour exploit. dans CE</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8" target="blank">liste_surfaces_non_valides</a> : liste des surfaces avec exploitation "non validées" par PA OU sur parcelles "non validées" ou sur parcelles  marquées pour supp. OU Cultivat = N</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW7V_qo1Hy1JrCLxKNYyIIw" target="blank">liste_surfaces_contributions_v2</a> : liste des contributions calculées à la surface</li> 
     </ul>
   </details>
 </details>
