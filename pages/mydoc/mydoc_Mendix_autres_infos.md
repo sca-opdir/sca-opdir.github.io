@@ -19,6 +19,18 @@ Publishing REST APIs in Mendix (Medium)
 
 GenAI from Marketplace ([Medium](https://medium.com/mendix/2024-wrapped-on-the-mendix-marketplace-genai-genai-genai-42d18f448b36))
 
+### Pièges
+
+comme condition de visibilité :
+```
+parseDecimal(replaceAll($currentObject/Graduation , '\.', ',')) > 2)
+```
+
+mais dans un microflow
+```
+parseDecimal(replaceAll($currentObject/Graduation , ',', '.')) > 2)
+```
+
 ### Autres infos
 
 java actions
