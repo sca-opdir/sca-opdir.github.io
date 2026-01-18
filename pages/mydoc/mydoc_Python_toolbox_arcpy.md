@@ -30,7 +30,8 @@ Intepreter path : `C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\pyt
 
 ##### Conversion feature table to pandas data frame
 
-```{Python}
+<button class="copy-btn" data-clipboard-target="#codeBlock2">Copier</button>
+<pre><code id="codeBlock1">
 import os
 import arcpy
 import pandas as pd
@@ -38,8 +39,7 @@ from arcgis.features import GeoAccessor, GeoSeriesAccessor
 
 fc_path = os.path.join(gdb_fold, superpos_fc)
 sup_dt = pd.DataFrame.spatial.from_featureclass(fc_path)
-
-```
+</code></pre>
 
 ##### Webmap
 
@@ -106,7 +106,7 @@ def compare_spatial_refs(path1, path2):
 #### Copie d'une GDB
 
 <button class="copy-btn" data-clipboard-target="#codeBlock2">Copier</button>
-<pre><code id="codeBlock2">
+<pre><code id="codeBlock3">
   
 import arcpy
 import shutil
