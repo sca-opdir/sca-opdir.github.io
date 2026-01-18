@@ -1,7 +1,7 @@
 ---
 title: Python snippets
 tags: [Python, programming]
-last_updated: July 31, 2025
+last_updated: January 18, 2026
 keywords: Python, programming
 summary: "codes Python fréquemment utilisés"
 sidebar: mydoc_sidebar
@@ -16,6 +16,33 @@ folder: mydoc
 [article de blog](https://www.stat4decision.com/fr/introduction-a-polars-une-alternative-rapide-a-pandas/) sur **polars** comme alternative à **pandas**
 
 [Practical Guide to Professional Table Rendering in Python](https://medium.com/data-science-collective/designing-stylish-table-visualizations-in-python-2f43cfc82912)
+
+### Environnements virtuels
+
+##### cloner l'environnement arcpy
+
+<button class="copy-btn" data-clipboard-target="#codeBlock1">Copier</button>
+<pre><code id="codeBlock1">
+& "C:\Program Files\ArcGIS\Pro\bin\Python\Scripts\conda.exe" config --set ssl_verify false
+& "C:\Program Files\ArcGIS\Pro\bin\Python\Scripts\conda.exe" create --clone "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3" -p "G:\PDIRECTS\1_Marie\7_dev\python\arcpy_env\arcgispro-py3-clone" --no-shortcuts --pinned --yes
+</code></pre>
+
+##### activation de l'environnement
+
+<button class="copy-btn" data-clipboard-target="#codeBlock2">Copier</button>
+<pre><code id="codeBlock2">
+& "C:\Program Files\ArcGIS\Pro\bin\Python\Scripts\activate.bat" "\\infra.vs.ch\dfs\SCA-DLW\PDIRECTS\1_Marie\7_dev\python\itineraires\arcgispro-py3-clone"
+</code></pre>
+
+##### installation de packages 
+
+<button class="copy-btn" data-clipboard-target="#codeBlock2">Copier</button>
+<pre><code id="codeBlock3">
+& pip install googlemaps --trusted-host pypi.org --trusted-host files.pythonhosted.org
+& pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org torch==2.0.1 torchvision==0.15.2 --force-reinstall --user --no-cache-dir
+</code></pre>
+
+l'adresse pypi.org, etc. -> à changer selon les packages
 
 ### Method chaining et pandas
 
