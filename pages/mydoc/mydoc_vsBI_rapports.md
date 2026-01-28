@@ -171,6 +171,7 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUqbrIInzJlMhoHhbt0eCO0">check_cc_valides</a> : surfaces avec code culture non valides</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYnl9tt5txpOjkUU34lNs8E">check_surfexp_0</a> : surfaces avec surf. exp. = 0 et < 5</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a> : somme surf. exp. > surf. totale parcelle</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefWWtX6MoRJigx5Ye_Si6I">check_surfaces_viti_couverture_sol</a> : surf. exp. viti <-> couv. sol vigne</li>
     </ul>
   </details>
   <details>
