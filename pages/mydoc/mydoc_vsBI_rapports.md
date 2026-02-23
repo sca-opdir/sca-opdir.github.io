@@ -91,6 +91,7 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a> : nombre de 908/921/922/923/924 par m2 (plausibilité)</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AapsUZkdPxVHqhKAlmC_bF8" target="blank">check_SPB_zone</a> : jachères et ourlets dans des zones qui ne donnent pas droit aux contributions</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a> : vérifier nombre minimal arbres Q1 atteint</li>  
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ6gIEDSa2dOvK._GyIwL7w" target="blank">check_changements_réseaux</a> : codes réseau gagnés ou perdus par exploitation</li>  
     </ul>
   </details>
   <details>
