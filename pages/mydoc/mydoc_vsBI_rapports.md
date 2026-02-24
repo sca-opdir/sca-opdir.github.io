@@ -173,6 +173,7 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYnl9tt5txpOjkUU34lNs8E">check_surfexp_0</a> : surfaces avec surf. exp. = 0 et < 5</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a> : somme surf. exp. > surf. totale parcelle</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefWWtX6MoRJigx5Ye_Si6I">check_surfaces_viti_couverture_sol</a> : surf. exp. viti <-> couv. sol vigne</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUsJlGnx2iVImQ9j.A0MxBc">check_surfaces_930_nouvelles_perdues</a> : parcelles avec nouvelles surf. 930 ou qui n'ont plus de surf. 930 entre année1 et année2 </li>
     </ul>
   </details>
   <details>
