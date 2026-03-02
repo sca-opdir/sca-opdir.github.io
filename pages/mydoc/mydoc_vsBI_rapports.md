@@ -160,6 +160,7 @@ folder: mydoc
     <details>
     <summary>surfaces</summary>
     <ul>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUWwmj_x69pOpHOzcHo2kgg">check_surfaces_totale_vs_exploitée</a> : surf. exploitée <-> surf. totale</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdSqiY.hXeFJpvu55fgLnYg">check_espèces_arbo</a> : surf. arbo avec espèce manquante</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaqjIb2LsLJPg.RZCkx15i8">check_animaux_paturages</a> : exploitations avec bétail sans pâturages ou avec pâturages sans animaux</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a> : surf. sans le flag "exploité"</li>
