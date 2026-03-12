@@ -9,6 +9,16 @@ permalink: Mendix_autres_infos.html
 folder: mydoc
 ---
 
+### Sources Medium
+
+[https://medium.com/@mohammad.saqib_1262](https://medium.com/@mohammad.saqib_1262)
+[https://medium.com/@nkhard98](https://medium.com/@nkhard98)
+[Mendix Community](https://medium.com/me/following-feed/publications/874212944ee7)
+Tag [Mendix](https://medium.com/tag/mendix/archive)
+Tag [Mendix Studio Pro](https://medium.com/tag/mendix-studio-pro)
+Tag [Mendix Developer](https://medium.com/tag/mendix-developer)
+Tag [Mendix World](https://medium.com/tag/mendix-world)
+
 ### Performance
 
 ### Exemples d'usages spécifiques 
@@ -31,7 +41,13 @@ mais dans un microflow
 parseDecimal(replaceAll($currentObject/Graduation , ',', '.')) > 2)
 ```
 
-### Autres infos
+### Export-import de données
+
+[How to generate PDF using simple JavaScript Action in Mendix](https://medium.com/@mohammad.saqib_1262/how-to-generate-pdf-using-simple-javascript-action-in-mendix-81d0598a2e50)
+
+
+
+### Java / JavaScript Actions
 
 java actions
 
@@ -178,6 +194,8 @@ committing outside a loop is better for performance. Not only because the reduct
 - Don’t assume validations have taken place earlier in the process, preferably do double validations then the possibility to bypass them!
 - If possible, avoid committing the full object after partial validation.
 
+### XAS
+
 * Article Medium [Mendix — Decoding XAS](https://medium.com/@nkhard98/mendix-decoding-xas-service-655d2c5b7acf) 
 
 **XAS** is the private HTTPS REST API endpoint used by the Mendix client to communicate with Mendix Runtime. It is one of the request handlers offered by Mendix. This is sent as a form of API request [...]. Each type of call to this API is called an **action**, and necessary parts of the state are sent along with it. 
@@ -185,6 +203,8 @@ committing outside a loop is better for performance. Not only because the reduct
 You can inspect XAS requests in the Network tab of your browser’s developer tools and filter out requests to the XAS path.
 
 Whenever a XAS action (such as a microflow call) is triggered, Mendix Client also sends the state. Mendix Client does not send the entire state to the runtime, \[but\] decides which parts of the state should be sent by analyzing each microflow during the deployment of the applications.
+
+### OQL
 
 * Article Medium sur les entités Object Query Language (OQL) View : [OQL View as a Solution: When XPath and Microflows Aren’t Enough](https://medium.com/@risshis11/oql-view-as-a-solution-when-xpath-and-microflows-arent-enough-91fcf900fc01)
 
@@ -265,8 +285,6 @@ Avoid them when:
 - You need create, update, or delete operations (OQL Views are read-only).
 
 * Article Linkedin [View Entities in Mendix: The Complete Implementation Guide for 10x Performance Gains](https://www.linkedin.com/pulse/view-entities-mendix-complete-implementation-guide-10x-neel-desai-ajklf)
-
-
 
 By storing named OQL queries as virtual entities, developers can achieve database-level performance for operations that previously required extensive microflow processing
 View Entities fundamentally change this paradigm by executing OQL queries directly at the database level, bypassing the Mendix object layer entirely for read operations
@@ -1016,6 +1034,23 @@ WHERE End < RANGEEND($range_past)
 - UPPER : Converts all lowercase characters in a given string to uppercase
 
 
+* [OQL Series Part 1: Introduction to Object Query Language in Mendix] (https://medium.com/@mohammad.saqib_1262/oql-series-part-1-introduction-to-object-query-language-in-mendix-213a0ff132a6)
+
+* [OQL Series Part 2: OQL Clauses & Aggregation in Mendix] (https://medium.com/@mohammad.saqib_1262/oql-series-part-2-oql-clauses-aggregation-in-mendix-4805542ea9bc)
+
+* [The Final Chapter: Combining JSON Exporter and OQL in Mendix] (https://medium.com/mendix/the-final-chapter-combining-json-exporter-and-oql-in-mendix-c3e381ee16c1)
+
+Whenever you use the “as” keyword(BookName as BookN) you have to make a Non-persistable entity to return & please keep the NPE attribute name the same as which you are using after the “as” keyword(BookN).
+
+Whenever you are working with an association you have to use the “as” keyword(BookName as BookN) & need to make NPE to return, without the “as” keyword you are not able to write the SQL Query.
+
+
+### Fun
+
+[Mendix Tip: Quickly Find Out What Page You Are On](https://medium.com/@phuge0708/mendix-tip-quickly-find-out-what-page-you-are-on-620feb2a1b8e)
+
+
+[Dynamic Script Execution in Mendix](https://medium.com/@ockert8080/dynamic-javascript-execution-in-mendix-with-nashorn-4afef0c59751)
 
 
 {% include links.html %}
