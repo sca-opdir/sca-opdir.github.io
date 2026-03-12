@@ -9,15 +9,16 @@ permalink: Mendix_autres_infos.html
 folder: mydoc
 ---
 
-### Sources Medium
+### Sources 
 
-[https://medium.com/@mohammad.saqib_1262](https://medium.com/@mohammad.saqib_1262)
-[https://medium.com/@nkhard98](https://medium.com/@nkhard98)
-[Mendix Community](https://medium.com/me/following-feed/publications/874212944ee7)
-Tag [Mendix](https://medium.com/tag/mendix/archive)
-Tag [Mendix Studio Pro](https://medium.com/tag/mendix-studio-pro)
-Tag [Mendix Developer](https://medium.com/tag/mendix-developer)
-Tag [Mendix World](https://medium.com/tag/mendix-world)
+* [https://medium.com/@mohammad.saqib_1262](https://medium.com/@mohammad.saqib_1262)
+* [https://medium.com/@nkhard98](https://medium.com/@nkhard98)
+* [Mendix Community](https://medium.com/me/following-feed/publications/874212944ee7)
+* Tag [Mendix](https://medium.com/tag/mendix/archive)
+* Tag [Mendix Studio Pro](https://medium.com/tag/mendix-studio-pro)
+* Tag [Mendix Developer](https://medium.com/tag/mendix-developer)
+* Tag [Mendix World](https://medium.com/tag/mendix-world)
+* Tutoriels [Flowkoder](https://flowkoder.com/mendix/#explore-tutorials)
 
 ### Performance
 
