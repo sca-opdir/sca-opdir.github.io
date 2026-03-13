@@ -72,6 +72,7 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWNwvUWtai5EsQms78YX1Vk" target="blank">check_valeur_année_d'engagement_parbetpar</a> : comparaison par betpar surf. insc. non-rec. PPh 24-25 (vérifier durée d'engagement)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : surfaces avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX5JwYVrpQNLkkFQRP21lS0" target="blank">check_attributs_et_inscriptions_v2</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces (v2, jointure externe)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU25SDvH29Gocd1Uk1Mk50" target="blank">check_GIWR_et_BCE</a> : surfaces avec attributs céréales rangées larges (GIWR) et bande culturale extensive (BCE)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVHbyVOBdrNHlWr8OoBENnQ" target="blank">check_valeur_année_d'engagement</a> : vérifier durée d'engagement </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXpH1yQ7htRLro19Gk9U5vA" target="blank">liste_surfBio_sans_HER_vquic</a> : surfaces BIO éligibles sans attributs HER</li>
@@ -106,7 +107,7 @@ folder: mydoc
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og" target="blank">liste_exploitations_99_numBDTA</a> : ne doit pas être en forme 99 si num. BDTA !!! TODO : num. bdta pas encore dans la BI</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWYA7YAWYEhGpjJd0YEtG7Y" target="blank">liste_exploitations_liées_supp</a> : exploitation avec exploit. parent ou enfant marquée pour supp. </li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQXcas5f9blPvfzPP3LMCfw" target="blank">liste_réductions_formExp</a> : réductions sur exploitations de forme non valide (vérif. par ex. pas saisie sous forme 2)</li>
-      
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW1wI3NW9B5EoXVCr_nSoXA" target="blank">inscriptions_enfants_manquante_chez_parent</a> : vérification des inscriptions enfant chez parent</li>
     </ul>
   </details>
   <details>
