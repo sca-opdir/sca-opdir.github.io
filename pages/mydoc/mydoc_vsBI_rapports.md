@@ -216,7 +216,7 @@ folder: mydoc
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations avec exploitant et leurs coordonnées</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : liste avec information sur le statut marital des exploitants</li>
-
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZrmQj9lyLJAuo.zfIbGqrA" target="blank">liste_exploitations_cantonales</a> : liste des exploitations cantonales</li>
     </ul>
   </details>
 
