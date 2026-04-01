@@ -201,7 +201,8 @@ folder: mydoc
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste des cotisations</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a> : liste des réductions</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a> : liste charges usuelle et effective ; nombre d'alpages et nombre d'alpages par catégorie d'animaux</li>
-    </ul>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfOP0_AqyipAuE2OP.P9MxY" target="blank">liste_surfaces_HER_ARF_hors_BCE</a> : pour une exploitation donnée liste des surfaces avec attribut HER et ARF en dehors des surfaces avec BCE</li>
+  </ul>
   </details>
     <details>
     <summary>exploitations / exploitants</summary>
