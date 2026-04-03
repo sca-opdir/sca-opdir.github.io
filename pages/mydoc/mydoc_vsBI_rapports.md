@@ -132,6 +132,12 @@ folder: mydoc
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a> : vérification cohérence cc <-> OC (arboriculture)</li>
 </ul>
   </details>
+    <details>
+    <summary>enregistrement bio</summary>
+    <ul>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfNSDQZoWzlPgBPQNERwpcE" target="blank">check_ocBio_inscBio_surfBio</a> : vérification cohérence mode BIO, enreg. BIO <-> OC BIO</li>
+</ul>
+  </details>
   <details>
     <summary>OC : cotisations</summary>
     <ul>
