@@ -1,8 +1,8 @@
 ---
-title: "ArcGIS. pages"
-tagName: ArcGIS.
+title: "ArcGIS pages"
+tagName: ArcGIS
 search: exclude
-permalink: tag_ArcGIS..html
+permalink: tag_ArcGIS.html
 sidebar: mydoc_sidebar
 folder: tags
 ---
