@@ -225,6 +225,8 @@ folder: mydoc
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : liste avec information sur le statut marital des exploitants</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZrmQj9lyLJAuo.zfIbGqrA" target="blank">liste_exploitations_cantonales</a> : liste des exploitations cantonales</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW6FkUnlkptKrf9Xrwhf0PE" target="blank">liste_exploitations_cantonales</a> : liste des commentaires pour exploitations de forme 1, 2, 5 ou 6</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3lCmQG0TpFpH96Ttiwv4g" target="blank">liste_exploitations_cotisations_BVO</a> : liste surf. coti BVO</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU2rG8Ov7JLq8PznMy9bKU" target="blank">liste_exploitations_cotisations_ACAV</a> : liste surf. coti ACAV</li>
     </ul>
   </details>
 
