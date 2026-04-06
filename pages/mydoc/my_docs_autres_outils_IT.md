@@ -9,13 +9,6 @@ permalink: autres_outils_IT.html
 folder: mydoc
 ---
 
-### Mendix
-
-* formulaire de demandes de dérogation à l'utilisation de pendillards
-  
-* application pour les contrôles des exploitations d'estivage (en cours)
-
-
 ### Bureautique
 
 * Conversion de doc en docx (application c#) et modification en masse de doc->docx (via XML) 
@@ -29,5 +22,9 @@ folder: mydoc
 * Diagrammes "hand-like drawn" avec [Excalidraw](https://excalidraw.com/) (i.a. syntaxe Mermaid) 
 * Visualisation de données avec [Observable](https://observablehq.com/) (voir [Observable framework](https://github.com/observablehq/framework))
 * Visualisation de données avec [RAWGraphs](https://www.rawgraphs.io/)
+
+### Livres en ligne
+
+[https://freecomputerbooks.com/books/](https://freecomputerbooks.com/books/)
 
 {% include links.html %}
