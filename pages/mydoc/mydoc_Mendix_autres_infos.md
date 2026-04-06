@@ -20,6 +20,16 @@ folder: mydoc
 * Tag [Mendix World](https://medium.com/tag/mendix-world)
 * Tutoriels [Flowkoder](https://flowkoder.com/mendix/#explore-tutorials)
 
+### Pour tests de sécurité
+
+https://caido.io/fr/download 
+www.mitmproxy.org
+https://www.zaproxy.org/
+https://httptoolkit.com/ 
+
+### Mendix OQL Playground
+https://service.mendixcloud.com/p/OQL
+
 ### Performance
 
 ### Exemples d'usages spécifiques 
