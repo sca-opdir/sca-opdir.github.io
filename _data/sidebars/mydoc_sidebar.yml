@@ -164,12 +164,16 @@ entries:
       url: /FME_autres_infos.html
       output: web
 
-  - title: ArcGIS
+  - title: Géodonnées
     output: web
     folderitems:
-    - title: Autres infos
+    - title: ArcGIS
       url: /arcgis_autres_infos.html
       output: web
+    - title: Data & GeoAI
+      url: /geodata_autres_infos.html
+      output: web
+
 
 
   - title: Mendix
