@@ -119,6 +119,7 @@ folder: mydoc
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfJSSGPhS4hBsa_i4.cZbR4" target="blank">check_PI_BIO_petits_fruits</a> : vérification cohérence BIO/PI mode de culture <-> OC (petits fruits)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AS5VTTG75IpHkNgz6Sl0YO8" target="blank">check_PI_BIO_viti</a> : vérification cohérence BIO/PI mode de culture <-> OC (viticulture)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa17XUbrQPFPu6vLv1pKF2c" target="blank">check_PI_BIO_maraich</a> : vérification cohérence BIO/PI mode de culture <-> OC (maraichage)</li>
+              <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcO7INJwrpVGqpZUBvit1f0" target="blank">check_exploitations_mixtes</a> : vérification principe globalité BIO/PI</li>
     </ul>
   </details>
   <details>
