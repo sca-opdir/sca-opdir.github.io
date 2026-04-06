@@ -56,6 +56,8 @@ folder: mydoc
 
 (non exhaustif)
 
+[https://cartography-of-generative-ai.net/](https://cartography-of-generative-ai.net/)
+
 https://uty3.ai/fr/ et leur outil [Piinuts](https://piinuts.ch/) hébergé en Suisse pour anonymiser les données avant d'utiliser les LLMs 
 
 [https://github.com/microsoft/generative-ai-for-beginners/tree/main](https://github.com/microsoft/generative-ai-for-beginners/tree/main)
