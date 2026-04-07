@@ -81,5 +81,12 @@ folder: mydoc
 * map legends, controls, add markers and marker clusters
 * visualization of vector data (polylines, polygons, etc.), GeoPandas GeoDataFrames, GeoParquet Data, Choropleth Maps, PMTiles, Overture Maps Data, raster data (Cloud Optimized GeoTIFFs (COGs), local rasters, multi-band rasters), SpatioTemporal Asset Catalog (STAC),  Data, AWS S3 Integration
 
+#### [Whitebox](https://github.com/jblindsay/whitebox-tools)
+* contains over 550 tools for processing many types of geospatial data ; extensive use of parallel computing ; doesn’t need other libraries to be installed ; can be used from scripting environments ; easily plugs into other geographical information system (GIS) software (e.g. can be plugged into QGIS or [ArcGIS](https://github.com/opengeos/WhiteboxTools-ArcGIS))
+* [Python](https://github.com/opengeos/whitebox-python) and [R](https://github.com/opengeos/whiteboxR) frontends
+* used to perform common GIS and remote sensing analysis tasks
+* contains advanced tooling for spatial hydrological analysis and LiDAR data processing
+* is not a cartographic or spatial data visualization package; instead it’s meant to serve as an analytical back-end for other data visualization software, like QGIS and ArcGIS.
+
 
 {% include links.html %}
