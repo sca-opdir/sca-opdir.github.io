@@ -72,8 +72,12 @@ that a CRS can be either
 
 [6.3 Common geometric operations](https://pythongis.org/part2/chapter-06/nb/02-geometric-operations.html#)
 using geopandas
-- .centroid accessor
-- .union_all() : unary union operation combines multiple geometric objects into a single, unified geometric shape
+- .centroid : attribute of GeoDataFrame
+- .union_all() : unary union operation combines multiple geometric objects into a single, unified geometric shape ; returns a shapely polygon object out of the results
+- .dissolve() : merge geometries, returns a GeoDataFrame as an output
+ - .envelope : attribute of GeoDataFrame storing bounding polygon (or bounding box or envelope) = smallest rectangular polygon that encloses a given geometry or a set of geometries ; e.g. to get the bounding rectangle for the whole layer : data.union_all().envelope
+- .total_bounds : attrribute to fetch coordinates of the bounding box for a GeoDataFrame 
+- .bounds : attribute that returns the bounding coordinates of each feature
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
