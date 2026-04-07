@@ -61,6 +61,25 @@ folder: mydoc
 * high-level operations that make common computations straightforward, such as .groupby() for calculating statistics, resample, rolling window operations .rolling() (e.g. for smoothing time series data spatially or temporally), and weighted operations with .weighted() (e.g. weight the mean of the dataset by cell area)
 * reading/writing files (many common scientific data formats, including netCDF and Zarr)
 
+#### [Rioxarray](https://corteva.github.io/rioxarray/) 
+* extension of Xarray that focuses on geospatial raster data
+* integration of rasterio’s geospatial data handling capabilities (such as CRS and affine transforms, .crs and .transform())
+* ability to load georeferenced raster data, including its CRS and geospatial transformations (e.g.  you can load a raster file (e.g., a GeoTIFF file) directly)
+* many accessors, e.g. dimensions with .dims, coordinates with .coords, metadata (including CRS) with .attrs 
+* dataset reprojection with .rio.reproject()
+* clipping with .rio.clip_box() or .rio.clip()
+* rio.resample() to resample the raster dataset to a different resolution 
+* .sel() to extract spatial subsets of the dataset by selecting specific coordinate ranges
+* visualization with matplotlib
+* saving e.g. as GeoTIFF
+* handling of nodata values (.rio.set_nodata(), .rio.write_nodata())
+* band math to perform computations across different bands (e.g. NDVI calculation)
+
+#### [Leafmap](https://leafmap.org/)
+* package for creating, managing, and analyzing interactive geospatial maps ; integrates with Jupyter
+* layers, basemaps, XYZ Tile Layers (images pré-générées), WMS Tile Layers (images générées à la demande ; plus flexible, mais plus lent)
+* map legends, controls, add markers and marker clusters
+* visualization of vector data (polylines, polygons, etc.), GeoPandas GeoDataFrames, GeoParquet Data, Choropleth Maps, PMTiles, Overture Maps Data, raster data (Cloud Optimized GeoTIFFs (COGs), local rasters, multi-band rasters), SpatioTemporal Asset Catalog (STAC),  Data, AWS S3 Integration
 
 
 {% include links.html %}
