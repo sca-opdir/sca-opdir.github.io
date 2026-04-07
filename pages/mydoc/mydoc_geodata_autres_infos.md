@@ -122,9 +122,22 @@ folder: mydoc
 * chart from a manually created or computed DataTable
 * interval chart
 
+#### [SAMGeo](https://samgeo.gishub.org/)
+* Python package for segmenting geospatial data with the Segment Anything Model (SAM)
+* automatic mask generation : image segmentation, object annotations
+* image_comparison : Compare images with a slider (leafmap)
+* image segmentation with input points
+* interactive segmentation
+* bounding box input prompts
+* predict() method to segment the image with specified bounding boxes
+* LangSAM class to segment with text prompts
 
 
+#### [HyperCoast](https://hypercoast.org/)
+accessible and comprehensive set of tools for visualizing and analyzing hyperspectral data in coastal environments
 
+#### [DuckDB](https://pypi.org/project/duckdb/)
+Python package to connect to a DuckDB database and import data from various formats, including CSV, JSON, DataFrame, parquet, GeoJSON, Shapefile, GeoParquet, and more
 
 
 
