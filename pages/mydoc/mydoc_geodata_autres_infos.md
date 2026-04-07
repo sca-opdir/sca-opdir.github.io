@@ -24,6 +24,9 @@ folder: mydoc
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
 
 
+## Notes de lecture "[Earth Engine and Geemap](https://book.geemap.org/)"
+
+
 ## Packages python
 
 (source : [https://geog-312.gishub.org/book/](https://geog-312.gishub.org/book/))
@@ -151,5 +154,4 @@ Python package to connect to a DuckDB database and import data from various form
 
 
 
-Plots groups of features based on property values
 {% include links.html %}
