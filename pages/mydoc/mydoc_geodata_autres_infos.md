@@ -13,8 +13,14 @@ folder: mydoc
 
 * [https://book.opengeoai.org/](https://book.opengeoai.org/) official repository for "GeoAI with Python: A Practical Guide to Open-Source Geospatial AI"
 * [https://geog-312.gishub.org/](https://geog-312.gishub.org/) official course website for “Introduction to GIS Programming,” offered at the University of Tennessee, Knoxville.
-
 * [https://book.geemap.org](https://book.geemap.org) The book "Earth Engine and Geemap - Geospatial Data Science with Python"
+
+* Blog [Cartographie(s) numérique(s)](https://cartonumerique.blogspot.com) 
+
+## Données
+* EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
+* [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
+
 
 ## Packages python
 
