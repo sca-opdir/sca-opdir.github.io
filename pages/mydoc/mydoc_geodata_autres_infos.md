@@ -119,7 +119,15 @@ geopy, geopandas, geocoder -> geocoding based on APIs
 
 [6.6 Selecting data based on spatial relationships](https://pythongis.org/part2/chapter-06/nb/05-spatial-queries.html#)
 
+**spatial queries** = specific GIS operations based on how the data layers are located in relation to each other ; conducted based on the **topological spatial relations** (= fundamental constructs that describe how two or more geometric objects relate to each other concerning their position and boundaries)
 
+most GIS software rely on **Dimensionally Extended 9-Intersection Model** (DE-9IM ) 
+- = ISO and OGC approved standard ; used to describe and analyze spatial relationships between geometric objects
+- defines the topological relations based on the **interior**, **boundary**, and **exterior** of two geometric shapes and how they intersect with each other ; also considers the **dimensionality** of the objects
+- under the hood, uses a specific 3x3 intersection matrix to examine the intersections of the interior, boundary and exterior of two geometric objects
+- gives a result which is called **spatial predicate** (also called as **binary predicate**), for example : disjoint, contains, within, equals, touches, overlaps, covers, covered by
+
+ 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
