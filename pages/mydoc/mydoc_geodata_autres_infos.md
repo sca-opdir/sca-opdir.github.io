@@ -59,7 +59,9 @@ Datum:
 
 Map projection: defines the mathematical transformation used to map the Earth’s surface onto a two-dimensional plane. 
 
-
+that a CRS can be either 
+- **geographic** (=describe positions on the Earth’s surface using latitude and longitude) or
+- **projected** (=describe positions on a two-dimensional plane using a Cartesian coordinate system)
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
