@@ -12,8 +12,23 @@ folder: mydoc
 ## Ressources en ligne
 
 * [https://book.opengeoai.org/](https://book.opengeoai.org/) official repository for "GeoAI with Python: A Practical Guide to Open-Source Geospatial AI"
+* 
 * [https://geog-312.gishub.org/](https://geog-312.gishub.org/) official course website for “Introduction to GIS Programming,” offered at the University of Tennessee, Knoxville.
+revue des principaux packages python (voir plus bas)
+  
 * [https://book.geemap.org](https://book.geemap.org) The book "Earth Engine and Geemap - Geospatial Data Science with Python"
+Python code snippets for :
+1. Introducing GEE and Geemap
+2. Creating Interactive Maps
+3. Using Earth Engine Data
+4. Using Local Geospatial Data
+5. Visualizing Geospatial Data
+6. Analyzing Geospatial Data
+7. Exporting Earth Engine Data
+8. Making Maps with Cartoee
+9. Creating Timelapse Animations
+10. Building Interactive Web Apps
+11. Earth Engine Applications
 
 [GIS OpenCourseWare](https://courses.gisopencourseware.org/)
 
@@ -24,7 +39,7 @@ folder: mydoc
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
 
 
-## Notes de lecture "[Earth Engine and Geemap](https://book.geemap.org/)"
+
 
 
 ## Packages python
