@@ -84,8 +84,8 @@ using geopandas
 - concave_hull() : *method* to calculate a concave hull = a polygon that encloses a set of points but, unlike the convex hull (wraps around the outermost points in the tightest convex manner (like a stretched rubber band)), is allowed to have concavities (can bend inward to more closely follow the distribution of the points, providing a boundary that might be more representative of the actual shape of the dataset) ; to return the concave hull for all geometries, need to use dissolve() before to retrieve GeoDataFrame (concave_hull() does not come directly from shapely but is implemented only on geopandas) : data.dissolve().concave_hull() ; more complicated operation, can use various parameters to control the shape of output
  - .simplify() : can also be used to simplify geometries (uses a Douglas-Peucker algorithm to recursively split the original line into smaller parts and connects these parts’ endpoints by a straight line) ; *tolerance* parameter to control the level of simplification
 - .buffer() : geometric operation that creates a zone around a given geometry (or geometries), usually representing a certain distance from the shape ; *distance* parameter defines the radius of the buffer (according to data CRS)
-
-
+- .dissolve() : groups the data based on a specific attribute column and then produces an union of the geometries for each group in that attribute ; dissolve into groups defined by *by* and at the same time aggregating value with *aggfunc*
+- .value_counts() from pandas (équivalent R table)
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
