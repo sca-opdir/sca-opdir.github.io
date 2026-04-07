@@ -178,6 +178,29 @@ Spatial join can be done easily with geopandas using the **.sjoin()** method ; *
 
 [6.8 Nearest neighbour analysis](https://pythongis.org/part2/chapter-06/nb/07-nearest-neighbour.html#)
 
+various libraries that can be used to find nearest neighbors for given set of geometries, including geopandas, shapely, scipy, scikit-learn, and pysal among others
+
+**.sjoin_nearest()** :
+- geopandas method to find nearest neighbors for all geometries in a given GeoDataFrame 
+- is actually searching for the closest geometries instead of relying on spatial predicates
+- under the hood, the method uses **STRTree** spatial index (an efficient implementation of the R-tree dynamic index structure for spatial searching)
+- works with all geometry types
+- When using more complex geometries as input (e.g. LineStrings or Polygons), the nearest neighbor search uses spatial index, i.e. it creates bounding boxes around the input geometries and inserts them into an R-Tree which is used to make the search queries more efficient. However, the distance between the nearest neighbours is measured based on the true shapes of the geometric features
+- recommended to ensure that 
+1) the both GeoDataFrames are having the **same CRS** 
+2) preferably having a **projected (metric) CRS** : ensures that the reported distances are meaningful (in meters) and correct.
+
+**K-Nearest Neighbors (KNN) search** : find not only the closest geometry, but a specific number of closest geometries to a given location (1st closest, 2nd closest, and so on).
+- also typically built on top of spatial indices to make the queries more efficient
+- R-tree implementation in Python only supports finding the closest neighbor (a limitation in the underlying GEOS software)
+- use another tree structure called **KD-Tree** (K-dimensional tree) 
+- can be conducted using the **scipy** library, after having built the KD-Tree spatial index with **KDTree** method from the scipy.spatial submodule
+
+**nearest neighbors within radius** : 
+- can also be done using the KD-Tree spatial index
+- build the KDTree index for both datasets and then use a **.query_ball_tree()** method to find all neighbors within the radius *r*
+
+[6.9 Vector overlay operations](https://pythongis.org/part2/chapter-06/nb/08-overlay-analysis-with-vector-data.html#)
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
