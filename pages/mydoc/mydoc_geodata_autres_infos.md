@@ -206,7 +206,11 @@ accessible and comprehensive set of tools for visualizing and analyzing hyperspe
 Python package to connect to a DuckDB database and import data from various formats, including CSV, JSON, DataFrame, parquet, GeoJSON, Shapefile, GeoParquet, and more
 
 
+### Set up de Visual Studio Code
 
+pour installer les packages sans problème de certificats -> utiliser trusted-host
+
+c:/Users/marzue/AppData/Local/Programs/Python/Python311/python.exe -m pip install ipykernel -U --user --force-reinstall --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
 
 {% include links.html %}
