@@ -52,6 +52,15 @@ Python code snippets for :
 [5.3. Coordinate reference systems](https://pythongis.org/part2/chapter-05/nb/02-introduction-to-coordinate-reference-systems.html)
  A CRS typically describes the geographic data with three main components: **datum**, **map projection** and **additional parameters**.
 
+Datum: 
+- a **model for Earth’s size and shape**, such as a reference ellipsoid or a geoid, which describes the average sea level surface of the Earth ; e.g. World Geodetic System (WGS84)
+- contains information about the **origin of the coordinate system**, i.e. the reference point at which the ellipsoid/geoid is tied to a known location on Earth. This is used as a reference for determining the location of other control points that have been precisely measured from the origin.
+- includes the **orientation parameters**, which describe the orientation of the coordinate system with respect to the Earth’s surface. They contain information about the tilt of the axis and the position of the origin relative to the Earth’s surface.
+
+Map projection: defines the mathematical transformation used to map the Earth’s surface onto a two-dimensional plane. 
+
+
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
