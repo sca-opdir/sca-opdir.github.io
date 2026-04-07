@@ -110,6 +110,16 @@ common situations when you need to define a CRS for your data is when creating a
 
 global map projections
 
+[6.5 Geocoding](https://pythongis.org/part2/chapter-06/nb/04-geocoding.html#)
+= the process of transforming place names or addresses into coordinates (and vice versa)
+
+geopy, geopandas, geocoder -> geocoding based on APIs
+- from adress to points : geopandas.tools.geocode()
+- reverse geocoding (from list of points / coordinates to address) : geopandas.tools.reverse_geocode()
+
+[6.6 Selecting data based on spatial relationships](https://pythongis.org/part2/chapter-06/nb/05-spatial-queries.html#)
+
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
