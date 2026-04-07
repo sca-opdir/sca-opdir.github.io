@@ -75,9 +75,17 @@ using geopandas
 - .centroid : attribute of GeoDataFrame
 - .union_all() : unary union operation combines multiple geometric objects into a single, unified geometric shape ; returns a shapely polygon object out of the results
 - .dissolve() : merge geometries, returns a GeoDataFrame as an output
- - .envelope : attribute of GeoDataFrame storing bounding polygon (or bounding box or envelope) = smallest rectangular polygon that encloses a given geometry or a set of geometries ; e.g. to get the bounding rectangle for the whole layer : data.union_all().envelope
+- .envelope : attribute of GeoDataFrame storing bounding polygon (or bounding box or envelope) = smallest rectangular polygon that encloses a given geometry or a set of geometries ; e.g. to get the bounding rectangle for the whole layer : data.union_all().envelope
 - .total_bounds : attrribute to fetch coordinates of the bounding box for a GeoDataFrame 
 - .bounds : attribute that returns the bounding coordinates of each feature
+- .minimum_rotated_rectangle() : rotate around the input geometries and aims to encircle them as tightly as possible
+- .minimum_bounding_circle() : creates a circle around the geometries in a way that each geometry is enclosed by the circle
+- .convex_hull : attribute of GeoDataFrame ; convex hull represents the smalles possible polygon that contains all points in an object (to get it for full extent : data.union_all().convex_hull)
+- concave_hull() : *method* to calculate a concave hull = a polygon that encloses a set of points but, unlike the convex hull (wraps around the outermost points in the tightest convex manner (like a stretched rubber band)), is allowed to have concavities (can bend inward to more closely follow the distribution of the points, providing a boundary that might be more representative of the actual shape of the dataset) ; to return the concave hull for all geometries, need to use dissolve() before to retrieve GeoDataFrame (concave_hull() does not come directly from shapely but is implemented only on geopandas) : data.dissolve().concave_hull() ; more complicated operation, can use various parameters to control the shape of output
+ - .simplify() : can also be used to simplify geometries (uses a Douglas-Peucker algorithm to recursively split the original line into smaller parts and connects these parts’ endpoints by a straight line) ; *tolerance* parameter to control the level of simplification
+- .buffer() : geometric operation that creates a zone around a given geometry (or geometries), usually representing a certain distance from the shape ; *distance* parameter defines the radius of the buffer (according to data CRS)
+
+
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
