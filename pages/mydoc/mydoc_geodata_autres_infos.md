@@ -37,7 +37,10 @@ Python code snippets for :
 
 [GIS OpenCourseWare](https://courses.gisopencourseware.org/)
 
-* Blog [Cartographie(s) numérique(s)](https://cartonumerique.blogspot.com) 
+* Blog [Cartographie(s) numérique(s)](https://cartonumerique.blogspot.com)
+
+* [Geo-Python](https://geo-python-site.readthedocs.io/en/latest/) 
+  
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
@@ -206,7 +209,7 @@ accessible and comprehensive set of tools for visualizing and analyzing hyperspe
 Python package to connect to a DuckDB database and import data from various formats, including CSV, JSON, DataFrame, parquet, GeoJSON, Shapefile, GeoParquet, and more
 
 
-### Set up de Visual Studio Code
+## Set up de Visual Studio Code
 
 pour installer les packages sans problème de certificats -> utiliser trusted-host
 
