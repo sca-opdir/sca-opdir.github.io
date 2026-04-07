@@ -33,4 +33,17 @@ folder: mydoc
 * spatial queries and relations, e.g. : .intersects(), .within()
 * CRS and reprojection : .crs, .to_crs()
 
+#### [Rasterio](https://rasterio.readthedocs.io/)
+* geospatial raster data manipulation
+* built on top of GDAL
+* reading/writing raster data
+* access metadata (.meta), CRS (.crs), resolution (.res), dimension (.width, .height), extent (.bounds), data types (.dtypes)
+* affine transformation matrix to map pixel coordinates to geographic coordinate (.transform)
+* integrate with matplotlib for raster visualization
+* multiple bands manipulation
+* band math (e.g. NDVI calculation)
+* clipping : raster data with .clip(), vector data with .mask()
+* reprojection with rasterio.warp module
+* creating raster data from scratch
+
 {% include links.html %}
