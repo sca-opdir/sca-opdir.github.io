@@ -159,15 +159,29 @@ selected_points = points.sjoin(selection.geometry.to_frame(), predicate="within"
 - many different kind of spatial indices, but geopandas uses **R-tree** which is a hierarchical, tree-like structure that divides the space into nested, overlapping rectangles and indexes the bounding boxes of each geometry
 - spatial index improves the performance of spatial queries
 - .sjoin() method takes advantage of the spatial index -> powerful and faster ; **recommended to use .sjoin()** instead of directly calling .within(), .contains() that come with the shapely geometries
-- 
+
+[6.7 Spatial join](https://pythongis.org/part2/chapter-06/nb/06-spatial-join.html#)
+e.g. retrieving table attributes from one layer and transferring them into another layer based on their spatial relationship
+
+spatial join is **always conducted between two layers at a time**
+
+**spatial predicates** control how the spatial relationship between the geometries in the two data layers is checked
+
+**spatial join type** : other parameter used to control how the spatial join is conducted ; 
+- **inner join** : keep such rows from the right and left tables that have received True after testing the relationship based on the chosen spatial predicate
+- **left outer join** : all the rows from the left are kept (no matter what), and the ones from the right that have a match based on spatial predicate will be added to the result
+- **right outer join** : the values on the right layer are always kept (no matter what), and only the ones from the left that have a match based on the spatial predicate will be kept
+
+Spatial join can be done easily with geopandas using the **.sjoin()** method ; *predicate* parameter to control the spatial predicate (intersects, overlaps, etc.), and *how* parameter to control the join type (inner, left, right)
+
+!!! 1st step before making a spatial join : check that the **CRS of the layers are identical**
+
+[6.8 Nearest neighbour analysis](https://pythongis.org/part2/chapter-06/nb/07-nearest-neighbour.html#)
 
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
-
-
-
 
 
 ## Packages python
