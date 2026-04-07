@@ -125,9 +125,43 @@ most GIS software rely on **Dimensionally Extended 9-Intersection Model** (DE-9I
 - = ISO and OGC approved standard ; used to describe and analyze spatial relationships between geometric objects
 - defines the topological relations based on the **interior**, **boundary**, and **exterior** of two geometric shapes and how they intersect with each other ; also considers the **dimensionality** of the objects
 - under the hood, uses a specific 3x3 intersection matrix to examine the intersections of the interior, boundary and exterior of two geometric objects
-- gives a result which is called **spatial predicate** (also called as **binary predicate**), for example : disjoint, contains, within, equals, touches, overlaps, covers, covered by
+- gives a result which is called **spatial predicate** (also called as **binary predicate**), for example : disjoint, contains, within, equals, touches, overlaps, covers (the interior of geometry B is almost totally within A, but they share at least one common coordinate at the border), covered by (geometry A is almost totally contained by the geometry B (except at least one common coordinate at the border) 
 
- 
+all the basic spatial predicates are available from **shapely** library, including:
+- .intersects() : the boundary or interior of one object intersect in any way with the boundary or interior of the other object
+- .within() 
+- .contains()
+- .overlaps()
+- .touches() : the objects have at least one point in common and their interiors do not intersect with any part of the other object.
+- .covers()
+- .covered_by()
+- .equals()
+- .disjoint()
+- .crosses()
+
+use **geopandas** to compare the spatial relationships between multiple geometries stored in separate GeoDataFrames
+- **.sjoin()** : normally used for conducting a **spatial join** between two spatial datasets (=specific attribute information from a given GeoDataFrame is joined to the other one based on their topological relationship)
+- spatial join can be used to conduct spatial queries in geopandas 
+
+selected_points = points.sjoin(selection.geometry.to_frame(), predicate="within")
+
+.geometry.to_frame() : special trick to avoid attaching any extra attributes from the selection geodataframe to our data
+-> we are only interested in the geometries of the right-hand-side layer to do the selection, calling the .geometry.to_frame() will first select the geometry column from the selection layer and then converts it into a GeoDataFrame (which would otherwise be a GeoSeries)
+-> alternative approach : use selection[[selection.active_geometry_name]], which also returns a GeoDataFrame containing only a column with the geodataframe’s active geometry
+
+!!! whenever making spatial queries is that **both layers need to share the same Coordinate Reference System** for the selection to work properly
+
+.sindex.valid_query_predicates : returns all possible spatial predicates for a given GeoDataFrame
+
+ .sindex = **SpatialIndex** object :
+ - prepared automatically by geopandas for GeoDataFrames 
+- contains the spatial index for our data = a special data structure that allows for efficient querying of spatial data.
+- many different kind of spatial indices, but geopandas uses **R-tree** which is a hierarchical, tree-like structure that divides the space into nested, overlapping rectangles and indexes the bounding boxes of each geometry
+- spatial index improves the performance of spatial queries
+- .sjoin() method takes advantage of the spatial index -> powerful and faster ; **recommended to use .sjoin()** instead of directly calling .within(), .contains() that come with the shapely geometries
+- 
+
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
