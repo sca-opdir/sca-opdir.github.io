@@ -39,8 +39,9 @@ Python code snippets for :
 
 * Blog [Cartographie(s) numérique(s)](https://cartonumerique.blogspot.com)
 
-* [Geo-Python](https://geo-python-site.readthedocs.io/en/latest/) 
-  
+* [Geo-Python](https://geo-python-site.readthedocs.io/en/latest/) : basic concepts of programming and scientific data analysis using the Python programming language
+
+* [pythongis.org](https://pythongis.org/) : online version of the book “Introduction to Python for Geographic Data Analysis”
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
