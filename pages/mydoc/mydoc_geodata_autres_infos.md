@@ -12,7 +12,12 @@ folder: mydoc
 ## Ressources en ligne
 
 * [https://book.opengeoai.org/](https://book.opengeoai.org/) official repository for "GeoAI with Python: A Practical Guide to Open-Source Geospatial AI"
-* 
+Recommended VS Code Extensions
+code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
+code --install-extension charliermarsh.ruff
+
+
 * [https://geog-312.gishub.org/](https://geog-312.gishub.org/) official course website for “Introduction to GIS Programming,” offered at the University of Tennessee, Knoxville.
 revue des principaux packages python (voir plus bas)
   
