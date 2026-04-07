@@ -86,12 +86,49 @@ folder: mydoc
 * [Python](https://github.com/opengeos/whitebox-python) and [R](https://github.com/opengeos/whiteboxR) frontends
 * used to perform common GIS and remote sensing analysis tasks
 * contains advanced tooling for spatial hydrological analysis and LiDAR data processing
-* is not a cartographic or spatial data visualization package; instead it’s meant to serve as an analytical back-end for other data visualization software, like QGIS and ArcGIS.
+* is not a cartographic or spatial data visualization package; instead it’s meant to serve as an analytical back-end for other data visualization software, like QGIS and ArcGIS
 
 #### [MapLibre](https://github.com/eodaGmbH/py-maplibregl)
 * mapping backend in the Leafmap library
 * fonctionnalités similaires : build a map from scratch, add controls, and manage different basemap ; 3D building and terrain views, layer customization, and data integration with GeoJSON and raster formats
 * cartes dynamiques et interactives
-* 
 
+#### [Geemap](https://geemap.org/)
+* Google Earth Engine (EE) is a cloud-computing platform that enables scientific analysis and visualization of large-scale geospatial datasets
+* geemap package simplifies the use of Google Earth Engine in Python, offering an intuitive API for visualization and analysis in Jupyter notebooks. In Google Colab, geemap is pre-installed
+* create interactive maps ; basemaps, layers, inspectors, etc.
+* EE Data Catalog can also be searched directly from geemap
+* geemap.datasets module to access specific datasets programmatically
+* EE objects are server-side entities : stored and processed on Earth Engine’s servers rather than locally
+* 5 EE data types : **Image** (= core raster data type, representing single images or scenes) ; **ImageCollection** (= collection or sequence of images, often used for time series analysis) ; **Geometry** (= fundamental vector data type, including shapes like points, lines, and polygons) ; **Feature** (= geometry with associated attributes, used to add descriptive data to vector shapes), **FeatureCollection** (= collection of Features, similar to a shapefile with attribute data)
+* raster data is represented as Image objects. Each Image is composed of bands, with each band having its own name, data type, scale, mask, and projection. Metadata for each image is stored as a set of properties.
+* ImageCollection represents a sequence of images, often used for temporal data like satellite image time series
+* FeatureCollection is a collection of Features. It functions similarly to a GeoJSON FeatureCollection, where features include associated properties or attributes. For example, a shapefile’s data can be represented as a FeatureCollection.
+* operations on collection (e.g. filter, aggregate, clip, visualization)
+* plotting tool with legends, split-panel maps, linked maps, timeseries inspector, time slider
+* vector data : GeoJSON data, shapefiles, GeoDataFrame can be loaded into an EE FeatureCollection (and EE FeatureCollection can be saved into these formats)
+* processing of raster data : extract pixel values, zonal statistics, map algebra (e.g. NDVI calculation)
+* Single-band and multi-band raster data can be loaded from local files
+* Various vector data formats can be loaded and visualized with geemap, including GeoJSON, Shapefile, GeoDataFrame, and GeoPackage formats
+* GeoJSON data is styled dynamically with custom colors based on attributes, while Shapefiles and GeoDataFrames allow for simple, structured addition of geographic features to the map.
+* easy conversion from CSV files to vector data formats like GeoJSON, Shapefile, and GeoPackage
+* add Cloud Optimized GeoTIFF (COG) layers to a map using URLs, which allows for efficient loading and visualization of large raster files stored on the cloud.
+* STAC collections can be accessed and visualized similarly, enabling dynamic mapping of spatiotemporal data. By specifying STAC URLs, you can view dataset bounds, center the map on a dataset, and select specific bands to add as layers
+* export EE data (images, image collections, timelapse animations) to Google Drive or local drive
+* charting EE features (e.g. **feature_by_feature** : feature plotting along the x-axis, with values from selected properties represented along the y-axis (ex. : average monthly temperature across regions, where months serve as series columns) ; **feature.by_property** (ex. : average precipitation by month for each ecoregion ; properties represent precipitation values for each month) ; **feature_groups** : plot groups of features based on property values (ex. : average January temperature for ecoregions divided into “Warm” and “Cold” categories) ; **feature_histogram** (ex. : histogram displaying July precipitation distribution across a region, showing pixel count for different precipitation levels)
+* charting EE images : **image_by_region** (ex. monthly temperature for each ecoregion, aggregating data to visualize average temperature by month across regions) ; **image_regions** (ex. : average monthly precipitation across regions, using properties to represent months and comparing precipitation levels) ; **image_by_class** (ex. : spectral signatures of ecoregions by wavelength) ; **image_histogram** (ex. : histograms to visualize MODIS surface reflectance distribution across red, NIR, and SWIR bands)
+* charting EE image collections : **image_series** (ex. : time series chart of vegetation indices (NDVI and EVI) for a forest region) ; **image_series_by_region** (ex. : NDVI time series by region, each region has a unique series) ; **image_doy_series** (ex. : average vegetation index by day of year for a specific region) ; **image_doy_series_by_year** (ex. : compares NDVI by doy across 2 different years) ; **image_doy_series_by_region** (ex. : visualize average NDVI by doy across regions)
+* Charting Array and List : reduce data to arrays / lists and plot (e.g. scatter plot, transect line plot, metadata scatter plot (e.g. plotting cloud cover against geometric RMSE, useful for quality assessment of image collections), mapped function scatter & line Plot
+* chart from a manually created or computed DataTable
+* interval chart
+
+
+
+
+
+
+
+
+
+Plots groups of features based on property values
 {% include links.html %}
