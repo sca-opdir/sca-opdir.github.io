@@ -63,6 +63,18 @@ that a CRS can be either
 - **geographic** (=describe positions on the Earth’s surface using latitude and longitude) or
 - **projected** (=describe positions on a two-dimensional plane using a Cartesian coordinate system)
 
+
+[6.1 Representing geographic data in vector format](https://pythongis.org/part2/chapter-06/nb/00-introduction-to-geographic-objects.html)
+-> using **shapely**
+
+[6.2 Introduction to geopandas GeoDataFrames](https://pythongis.org/part2/chapter-06/nb/01-geodataframe.html#)
+-> geopandas: GeoSeries and GeoDataFrame
+
+[6.3 Common geometric operations](https://pythongis.org/part2/chapter-06/nb/02-geometric-operations.html#)
+using geopandas
+- .centroid accessor
+- .union_all() : unary union operation combines multiple geometric objects into a single, unified geometric shape
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
