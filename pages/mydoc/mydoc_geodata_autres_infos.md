@@ -43,6 +43,15 @@ Python code snippets for :
 
 * [pythongis.org](https://pythongis.org/) : online version of the book “Introduction to Python for Geographic Data Analysis”
 
+[5.2. Geographic data in Python](https://pythongis.org/part2/chapter-05/nb/01-introduction-to-geographic-data-in-python.html#)
+- vecteurs, rasters, attributs
+- les différents formats de fichiers
+- GDAL
+- bit depth defines the range of distinct values that the raster can store
+
+[5.3. Coordinate reference systems](https://pythongis.org/part2/chapter-05/nb/02-introduction-to-coordinate-reference-systems.html)
+ A CRS typically describes the geographic data with three main components: **datum**, **map projection** and **additional parameters**.
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
