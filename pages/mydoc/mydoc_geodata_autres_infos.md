@@ -133,6 +133,41 @@ folder: mydoc
 * chart from a manually created or computed DataTable
 * interval chart
 
+##### Key features of geemap
+*(source : https://book.geemap.org/chapters/01_introduction.html)*
+* Convert Earth Engine JavaScript projects to Python scripts and Jupyter notebooks.
+* Display Earth Engine data layers on interactive maps.
+* Support Earth Engine JavaScript API-styled functions in Python, such as Map.addLayer(), Map.setCenter(), Map.centerObject(), Map.setOptions().
+* Visualize Earth Engine vector and raster data without coding.
+* Retrieve Earth Engine data interactively using the Inspector tool.
+* Creating interactive plots from Earth Engine data by simply clicking on the map.
+* Convert data between the GeoJSON and Earth Engine FeatureCollection formats.
+* Use drawing tools to interact with Earth Engine data.
+* Use shapefiles with Earth Engine without having to upload data to one’s GEE account.
+* Export data in the Earth Engine FeatureCollection format to other formats (i.e., shp, csv, json, kml, kmz).
+* Export Earth Engine Image and ImageCollection as GeoTIFF.
+* Extract pixels from an Earth Engine Image into a 3D numpy array.
+* Calculate zonal statistics by group.
+* Add a custom legend for Earth Engine data.
+* Convert Earth Engine JavaScript projects to Python code from directly within a Jupyter notebook.
+* Add animated text to GIF images generated from Earth Engine data.
+* Add colorbar and images to GIF animations generated from Earth Engine data.
+* Create satellite timelapse animations with animated text using Earth Engine.
+* Search places and datasets from Earth Engine Data Catalog.
+* Use the timeseries inspector to visualize landscape changes over time.
+* Export Earth Engine maps as HTML files and PNG images.
+* Search Earth Engine API documentation within Jupyter notebooks.
+* Import Earth Engine assets from personal Earth Engine accounts.
+* Publish interactive GEE maps directly within a Jupyter notebook.
+* Add local raster datasets (e.g., GeoTIFF) to the map.
+* Support Cloud Optimized GeoTIFF (COG) and SpatioTemporal Asset Catalog (STAC).
+* Perform image classification and accuracy assessment.
+* Extract pixel values interactively and export data as shapefile and CSV.
+* Visualize land cover change with Sankey diagrams.
+* Load vector data from a PostGIS server.
+* Create publication-quality maps with cartoee.
+
+
 #### [SAMGeo](https://samgeo.gishub.org/)
 * Python package for segmenting geospatial data with the Segment Anything Model (SAM)
 * automatic mask generation : image segmentation, object annotations
