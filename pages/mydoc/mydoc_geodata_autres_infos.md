@@ -15,6 +15,8 @@ folder: mydoc
 * [https://geog-312.gishub.org/](https://geog-312.gishub.org/) official course website for “Introduction to GIS Programming,” offered at the University of Tennessee, Knoxville.
 * [https://book.geemap.org](https://book.geemap.org) The book "Earth Engine and Geemap - Geospatial Data Science with Python"
 
+[GIS OpenCourseWare](https://courses.gisopencourseware.org/)
+
 * Blog [Cartographie(s) numérique(s)](https://cartonumerique.blogspot.com) 
 
 ## Données
