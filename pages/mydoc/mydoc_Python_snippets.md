@@ -9,7 +9,10 @@ permalink: Python_snippets.html
 folder: mydoc
 ---
 
+
 {% include note.html content="Davantage de snippets sure git.vs.ch" %}
+
+Tutoriel [Byte of Python](https://github.com/swaroopch/byte-of-python) et sa traduction française [https://rgilliotte.gitbook.io/byte-of-python](https://rgilliotte.gitbook.io/byte-of-python)
 
 [4d (time) data visualization in bubble charts](https://medium.com/data-science-collective/4-dimensional-data-visualization-time-in-bubble-charts-e9a774203ef3)
 
