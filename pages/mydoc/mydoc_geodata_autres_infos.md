@@ -91,6 +91,25 @@ to store the geometric operations into GeoDataFrame :
 - Overwrite the existing geometries in the geometry column by storing the new (manipulated) geometries into it.
 - Create a new column to store the new geometries. Then .set_geometry() to activate/set this column as the “active geometry” for your GeoDataFrame (=can have multiple simultaneous columns containing geometries in a GeoDataFrame). However, when saving the geographic data into disk, can in most cases only include 1 column with geometries (except GeoParquet)
 
+
+[6.4 Working with map projections](https://pythongis.org/part2/chapter-06/nb/03-coordinate-reference-system.html#)
+Changing from one coordinate system to another = map reprojection or coordinate transformation or geographic coordinate conversion ; involves both translation and rotation, and requires knowledge of the shape and size of the Earth, as well as its orientation in space.
+- .crs attribute to get current CRS : stores a *CRS* object from the *pyproj* library
+- .crs.to_epsg() : to check the current EPSG
+- .to_crs() : coordinate transformation of GeoDataFrame with 2 alternative parameters: 1) *crs* (CRS information from various formats, such as proj-strings or OGS WKT text); 2) *epgs* (EPSG-code)
+
+geopandas uses the pyproj.CRS object to store the coordinate reference system information ;  *pyproj* provides many useful functionalities for dealing with CRS information ; use the CRS object/class to easily parse, define and convert CRS information, etc..
+
+- pyproj.CRS.from_epsg(3035) : to initialize a CRS object
+- various attributes available from CRS object, e.g. : .name, .coordinate_system, .area_of_use.bounds, .datum
+- export CRS information to different formats, e.g. :  .to_wkt(), .to_proj4() and .to_epsg() accordingly
+
+common situations when you need to define a CRS for your data is when creating a new GeoDataFrame from scratch :
+- .set_crs(CRS.from_epsg(4326)) on GeoDataFrame or
+- .GeoDataFrame(geometry=[Point(24.950899, 60.169158)], crs="EPSG:4326") directly at the creation
+
+global map projections
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
