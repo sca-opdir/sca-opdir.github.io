@@ -87,6 +87,10 @@ using geopandas
 - .dissolve() : groups the data based on a specific attribute column and then produces an union of the geometries for each group in that attribute ; dissolve into groups defined by *by* and at the same time aggregating value with *aggfunc*
 - .value_counts() from pandas (équivalent R table)
 
+to store the geometric operations into GeoDataFrame : 
+- Overwrite the existing geometries in the geometry column by storing the new (manipulated) geometries into it.
+- Create a new column to store the new geometries. Then .set_geometry() to activate/set this column as the “active geometry” for your GeoDataFrame (=can have multiple simultaneous columns containing geometries in a GeoDataFrame). However, when saving the geographic data into disk, can in most cases only include 1 column with geometries (except GeoParquet)
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
