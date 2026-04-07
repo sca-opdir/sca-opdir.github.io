@@ -88,5 +88,10 @@ folder: mydoc
 * contains advanced tooling for spatial hydrological analysis and LiDAR data processing
 * is not a cartographic or spatial data visualization package; instead it’s meant to serve as an analytical back-end for other data visualization software, like QGIS and ArcGIS.
 
+#### [MapLibre](https://github.com/eodaGmbH/py-maplibregl)
+* mapping backend in the Leafmap library
+* fonctionnalités similaires : build a map from scratch, add controls, and manage different basemap ; 3D building and terrain views, layer customization, and data integration with GeoJSON and raster formats
+* cartes dynamiques et interactives
+* 
 
 {% include links.html %}
