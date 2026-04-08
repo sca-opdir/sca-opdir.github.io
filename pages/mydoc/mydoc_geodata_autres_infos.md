@@ -316,6 +316,21 @@ Filling **missing data**
 - fill with specific predefined values
 - .rio.interpolate_na() : predict the values for missing cells based on the neighboring values (**interpolation**) ; different methods available : "nearest" (default), "linear" (slower, based on Delanay triangulation) and "cubic" 
 
+[7.4 Coordinate reference system management](https://pythongis.org/part2/chapter-07/nb/03-coordinate-reference-systems-raster.html#)
+2 relevant parts to the georeferencing of a raster dataset:
+1) the definition of the local, regional, or global system in which a raster’s pixels are located (CRS), and
+2) the parameters by which pixel coordinates are transformed into coordinates in that system.
+
+**Georeferencing** ensures that each pixel corresponds to a specific location on Earth. Central concepts related to georeferencing raster data: 
+1) the coordinate reference system (CRS) : defines the **spatial reference** of the raster, specifying how coordinates are measured ; includes a **datum** (e.g. WGS84) and a **projection** (e.g. UTM) that determine how the Earth’s curved surface is represented in a flat raster dataset.
+2) the transform : describes how **pixel coordinates (row, column) map to real-world coordinates** (e.g., meters or degrees) ; defines the raster’s **scale**, **rotation**, and **location**
+3) the affine : mathematical model commonly used in Python to define the **spatial transformation** of raster data. It consists of **six parameters** that control **translation** (position), **scaling** (resolution), and **rotation** (skew)
+
+
+
+
+7.5 Map algebra
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
