@@ -365,16 +365,35 @@ For example : when transforming from geographic WGS84 (CRS that uses degrees) to
 - xrspatial.focal.focal_stats() : focal statistics that can be used e.g. to **smooth** the surface ; define a kernel (moving window) and then calculate any kind of statistics over it
   
 3) **Local operations** : apply functions **on a cell-by-cell basis** between **multiple** raster layers.
-
+- apply any mathematical function
+- data classification (**reclassification**) : do not conduct calculations between multiple raster layers per se, but you apply a specific classification criteria or a set of rules for each pixel one-by-one that is used to generate the output raster layer (xrspatial.classify.natural_breaks() followed by xrspatial.classify.reclassify() (par exemple : on veut trouver l'endroit idéal pour construire une maison, on classe sur un score 1-5 les différentes variables chaque couche séparément et ensuite on combine les couches pour avoir un score final pour chaque pixel)
+  
 4) **Global operations** : use **all raster cells** in computations to calculate e.g. statistical summaries.
+- statistical summaries (e.g. .max().item(), etc.)
+- xrspatial.**viewshed**() : viewshed analysis = identify areas of a landscape that are visible from a specific location considering the surrounding terrain ; can be calculated based on the elevation data by selecting one or more observer points from where the visibility is analyzed based on the line of sight between the observer and every other cell in the raster ; defined the location and elevation (with .interp()) of the observer
+  
+5) **Zonal operations** (zonal statistic) : analyze values **within defined zones**, such as calculating average elevation within a watershed.
+The fundamental goal of zonal operations is to extract statistical or categorical information about the input value layer.
+When the zone layer is a **raster**, each cell value represents a distinct zone ID, and all cells with the same value belong to the same zone.
+The zone layer can also be presented in **vector** format as polygons, in which each polygon defines the area that serves as an individual zone (the vector is **internally converted into a raster format** (i.e. rasterized) that aligns with the input value raster in terms of resolution and alignment).
+The analysis aggregates the values of the input raster within the spatial boundaries of each zone.
 
-5) **Zonal operations** : analyze values **within defined zones**, such as calculating average elevation within a watershed.
+Similarly as with other map algebra operations, you can calculate the mean, sum, minimum, maximum, range, or majority of raster values within each zone. 
 
-6) **Incremental operations** : apply **iterative calculations or cumulative functions** over space or time (e.g. cumulative cost surfaces).
+!!! Before conducting a zonal operation between the rasters, it is important to **ensure that the CRS is the same** for both layers
 
+- xrspatial.zonal_stats() : zonal statistics with raster zones ; can compute several statistics at once ; returns a pandas.DataFrame that contains the statistics for each zone ; *return_type="xarray.DataArray"* to return the zonal statistics as a DataArray 
+- .xvec.zonal_stats() : zonal statistics with vector zones 
 
+7) **Incremental operations** : apply **iterative calculations or cumulative functions** over space or time (e.g. cumulative cost surfaces).
+involve multiple stages of calculation based on the input raster in which the calculations are conducted step-by-step
 
-
+least-cost path calculation based on a raster cost surface :
+- example : find an optimal path across a given surface based on the cost of moving from one cell to the other ; treat elevation data as our cost surface and when finding the optimal path across the surface,
+- necessary to have a raster that represents the costs
+- also common that specific areas cannot be crossed at all (e.g. by providing as a list of values in the cost-raster that cannot be used when finding the optimal path)
+- xrspatial.a_star_search() to conduct least-cost path analysis based on raster data ; used **A\* algorithm** based on Euclidean distance
+  
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
