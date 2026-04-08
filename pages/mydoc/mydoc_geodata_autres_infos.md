@@ -326,10 +326,32 @@ Filling **missing data**
 2) the transform : describes how **pixel coordinates (row, column) map to real-world coordinates** (e.g., meters or degrees) ; defines the raster’s **scale**, **rotation**, and **location**
 3) the affine : mathematical model commonly used in Python to define the **spatial transformation** of raster data. It consists of **six parameters** that control **translation** (position), **scaling** (resolution), and **rotation** (skew)
 
+- .rio.crs attribute to access CRS information attached to the dataset
+- .rio.crs.to_wkt() : to get CRS information in WKT format
+- .is_geographic : returns True if the data is in geographic CRS (False otherwise)
+- .is_projected : returns True if the data is in projected CRS, e.g. UTM (False otherwise)
+- .units_factor : returns information about the units of the coordinates (degree or meter)
+- .spatial_ref.attrs : access attributes of the CRS as Python dictionary
+- .rio.transform() : access information about affine transformation
+- .rio.transform().a : pixel size x-direction
+- .rio.transform().e : pixel size y-direction ; scale in y-direction is often reported with **negative** sign which is normal (as **raster images are often stored top-down**).
+- .rio.transform().b : rotation/skew x-direction (return the row rotation or skew, which is usually 0 for rasters facing north-up)
+- .rio.transform().d : rotation/skew y-direction (return the column rotation or skew, which is usually 0 for rasters facing north-up)
+- .rio.transform().c : x-coordinate of the top-left pixel (location of the pixel that is present at index [0, 0] of the 2D array)
+- .rio.transform().f : y-coordinate of the top-left pixel (location of the pixel that is present at index [0, 0] of the 2D array)
 
+It is relatively common to use **UTM** coordinate reference system especially when working with raster data that covers large areas on a sub-national level. However, many datasets are typically distributed in **WGS84**, which means that you need to know the UTM zone for a given area that covers the raster dataset before you can reproject the data into metric system. 
+- .rio.estimate_utm_crs() : makes it possible to make a sophisticated guess of the UTM-zone that the data falls under. 
+!!! if data covers large areas that span across multiple UTM zones, it might not be possible to identify the UTM zone 
 
+(en WGS84 les coordonnées sont en degrés (lat/lon) -> pas pratique pour mesurer des distances/surfaces ; système UTM utilise des mètres, divisé en zones où chaque zone couvre une partie du globe ; pour reprojeter les données WGS84 en UTM il faut déterminer la zone où se trouve le raster ; si un raster couvre plusieurs zones UTM, il n’y a pas de solution parfaite avec UTM)
 
-7.5 Map algebra
+- .rio.reproject() : transform a dataset from one CRS to another (i.e. **reprojecting**) method ; e.g. using the *dst_crs* parameter that accepts the CRS information as EPSG code, OGC WKT string or Proj4 string
+
+!!! the shape of the raster can change during the CRS transformation : when you reproject raster data to a new coordinate reference system, a few things happen that can change the shape and size of the output raster.
+For example : when transforming from geographic WGS84 (CRS that uses degrees) to metric UTM zone 37S (projected CRS in meters), the curved surface of the Earth gets flattened, causing slight distortions. The grid cells, originally evenly spaced in degrees, now stretch and warp in the UTM projection, that can change the dimensions. In addition, the bounding box (extent) of the output raster might shift or expand. When projecting, rioxarray needs to make sure that the grid is properly aligned, so it adjusts the pixel grid to fit the new projection that aims to prevent data loss. These processes are reasons why rioxarray might **add or remove rows/columns to preserve proper alignment when reprojecting data**.
+ 
+[7.5 Map algebra](https://pythongis.org/part2/chapter-07/nb/04-map-algebra.html#)
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
