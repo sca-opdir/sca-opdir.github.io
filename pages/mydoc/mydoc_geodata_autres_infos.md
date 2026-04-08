@@ -202,6 +202,14 @@ various libraries that can be used to find nearest neighbors for given set of ge
 
 [6.9 Vector overlay operations](https://pythongis.org/part2/chapter-06/nb/08-overlay-analysis-with-vector-data.html#)
 
+- overlays **operate at the GeoDataFrame level**, not on individual geometries, and the properties from both are retained (often, not always)
+- for every shape in the left GeoDataFrame, this operation is executed against every other shape in the right GeoDataFrame
+- typical vector overlay operations : intersection, union, difference, symmetric difference
+- !!! necessary to ensure that both geographic datasetes share the **same CRS**
+- .overlay() method with *how* parameter that control how the overlay analysis is conducted ('intersection', 'union', 'symmetric_difference', 'difference', and 'identity')
+
+(avec *sjoin*, les géométries de départ ne sont pas modifiées, des attributs sont ajoutés ; dans *overlay*, des nouvelles géométries sont créées en combinant les entrées)
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
