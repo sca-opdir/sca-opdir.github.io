@@ -233,7 +233,7 @@ various libraries that can be used to find nearest neighbors for given set of ge
 - **rasterio** : core library for working with GIS raster data (*rioxarray* is an extension of this library that brings the same functionalities on top of *xarray* library)
 - **numpy** : core Python library for numerical computing for representing and working with multidimensional arrays ; has a big influence on how the other raster libraries function and can be used to generate multidimensional arrays from scratch
 
-7.2 Introduction to data structures in xarray
+[7.2 Introduction to data structures in xarray](https://pythongis.org/part2/chapter-07/nb/01-data-structures-xarray.html)
 
 store, combine and analyze all these different layers via a single object, i.e. a **Dataset**.
 
@@ -299,6 +299,22 @@ Raster to vector conversion (**vectorize**) :
 - convert a raster *Dataset* to vector format the raster cells are converted into *shapely.Polygon* objects and the values of the cells are stored as an attribute (column) in the resulting *GeoDataFrame*.
 - to convert xarray.DataArray into vector format : *geocube* library : geocube.vector.vectorize() => converted the DataArray into vector format and return a GeoDataFrame that contains the geometries of individual cells as shapely.Polygon objects in the geometry column, and the cell values in a column (name of the column automatically added based on the name of the DataArray)
 - if similar values close to each other in the raster cells, often good idea to dissolve the geometries based on the data attribute which merges geometries with identical values into single geometries instead of representing all the values as separate polygons with .dissolve() method
+
+Vector to raster conversion (**rasterize**)
+- geocube.api.core.make_geocube() to rasterize GeoDataFrame into xarray ; need to specify output CRS and resolution ; to fit the output to have identical resolution to an already existing xarray.Dataset and align it with the other raster layer
+use *like* parameter
+
+**Resampling** raster data
+= changing the cell values due to changes in the raster grid for example due to changing the effective cell size of an existing dataset. 2 ways :
+1) **Upscaling** (or upsampling) = convert the raster to higher resolution, i.e. smaller cells
+ - .rio.reproject() method is then used to downscale the data using a new *shape* parameter ; *resampling* parameter to determine the resampling method, provided by rasterio.enums.Resampling class, e.g. *resampling=Resampling.average*
+3) **Downscaling** (or downsampling) = resampling (ultimately aggregating) to lower resolution, i.e. having larger cell sizes
+- same .rio.reproject() method ; ultimately estimating values to new pixel cells based on the neighboring raster values of a given cell in the input raster ; various methods to interpolate data (e.g. nearest, bilinear, cubic, average, etc.), e.g. *resampling=Resampling.bilinear* determines the value of a new pixel by taking a weighted average of the four nearest input pixels:
+- there is no “correct” way to do upscaling as **all resampling methods involve interpolation that introduces uncertainty** to the results. 
+
+Filling **missing data**
+- fill with specific predefined values
+- .rio.interpolate_na() : predict the values for missing cells based on the neighboring values (**interpolation**) ; different methods available : "nearest" (default), "linear" (slower, based on Delanay triangulation) and "cubic" 
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
