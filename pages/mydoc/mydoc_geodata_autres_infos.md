@@ -204,11 +204,35 @@ various libraries that can be used to find nearest neighbors for given set of ge
 
 - overlays **operate at the GeoDataFrame level**, not on individual geometries, and the properties from both are retained (often, not always)
 - for every shape in the left GeoDataFrame, this operation is executed against every other shape in the right GeoDataFrame
-- typical vector overlay operations : intersection, union, difference, symmetric difference
+- typical vector overlay operations : intersection (=la partie commune à A et B), union (=tout A et tout B), difference (=A sans la partie avec B), symmetric difference(=parties de A ou de B sans leur intersection)
 - !!! necessary to ensure that both geographic datasetes share the **same CRS**
 - .overlay() method with *how* parameter that control how the overlay analysis is conducted ('intersection', 'union', 'symmetric_difference', 'difference', and 'identity')
+- *identity* : geometric intersection of the input features and identity features ; the input features or portions thereof that overlap identity features will get the attributes of those identity features (toutes les entités de A sont conservées ; attributs de B ajoutés si intersection ; à la différence de *sjoin*, les entités de A sont découpées selon les intersections avec B par ex. 1 entité de A peut être découpée en plusieurs morceaux)
 
 (avec *sjoin*, les géométries de départ ne sont pas modifiées, des attributs sont ajoutés ; dans *overlay*, des nouvelles géométries sont créées en combinant les entrées)
+
+[6.10 Data classification](https://pythongis.org/part2/chapter-06/nb/09-data-classification.html#)
+= determines the assignment of values to distinct classes
+
+**mapclassify** 
+- allows applying various classification schemes on our data that partition the attribute values into mutually exclusive groups
+- adequate classification scheme and number of classes depends on the message we want to convey with our map and the underlying distribution of the data
+- available classification schemes include: box_plot, equal_interval, fisher_jenks, quantiles, std_mean, etc., etc.
+- mapclassify.NaturalBreaks() : tries to split the values into natural clusters
+- mapclassify.Quantiles() : splits the data so that each class has an equal number of observations
+- mapclassify.PrettyBreaks() : rounds the class break values and divides the range equally to create intervals that look nice and that are easy to read
+- mapclassify.UserDefined() : create a custom classification scheme and select which class interval values to use
+- combining multiple criteria for classifying data : use pandas skills to combine these rules
+
+[7.1 Representing geographic data in raster format](https://pythongis.org/part2/chapter-07/nb/00-introduction-to-raster-data.html#)
+
+- **xarray** : user-friendly and intuitive way to work with multidimensional raster data with coordinates and attributes (somewhat similar to geopandas that is used for vector data processing)
+- **rioxarray** : provides methods to conduct GIS-related operations with raster data (e.g. reading/writing, reprojecting, clipping, resampling)
+- **xarray-spatial** : provides methods for analysing raster data (e.g. focal/zonal operations, surface analysis, path finding)
+- **geocube** : provides methods for doing data conversions between raster and vector formats (rasterize, vectorize)
+- **rasterio** : core library for working with GIS raster data (*rioxarray* is an extension of this library that brings the same functionalities on top of *xarray* library)
+- **numpy** : core Python library for numerical computing for representing and working with multidimensional arrays ; has a big influence on how the other raster libraries function and can be used to generate multidimensional arrays from scratch
+
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
