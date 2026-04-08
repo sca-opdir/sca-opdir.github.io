@@ -277,7 +277,28 @@ when working with rioxarray and writing data to different file formats, it is us
 
 [7.3 Common raster operations](https://pythongis.org/part2/chapter-07/nb/02-common-raster-operations.html#)
 
+**selecting** data :
+- .isel() : selecting data by index values
+- .sel() : selecting data based on coordinates (with  *x* and *y* parameters)
+- .where() : selecting data based on logical conditions
 
+**clipping** raster :
+- rio.clip(), for example : use a GeoDataFrame to clip the xarray.Dataset
+!!! important that **CRS of both layers are the same** whenever doing GIS operations between multiple layers
+
+**masking** raster : 
+mask the data based on certain criteria or using another geographical layer as a mask
+- .rio.clip() with *drop=False* and *invert=True* parameters
+
+Creating a **raster mosaic** by merging datasets :
+One very common operation when working with raster data is to combine multiple individual raster layers (also called as **tiles**) into a single larger raster dataset, often called as **raster mosaic**
+- rioxarray.merge.merge_datasets() : to merge multiple xarray.Datasets together (for merging a list of Dataset objects)
+
+Raster to vector conversion (**vectorize**) :
+= convert the data from raster to vector format (**vectorize**) and vice versa (**rasterize**)
+- convert a raster *Dataset* to vector format the raster cells are converted into *shapely.Polygon* objects and the values of the cells are stored as an attribute (column) in the resulting *GeoDataFrame*.
+- to convert xarray.DataArray into vector format : *geocube* library : geocube.vector.vectorize() => converted the DataArray into vector format and return a GeoDataFrame that contains the geometries of individual cells as shapely.Polygon objects in the geometry column, and the cell values in a column (name of the column automatically added based on the name of the DataArray)
+- if similar values close to each other in the raster cells, often good idea to dissolve the geometries based on the data attribute which merges geometries with identical values into single geometries instead of representing all the values as separate polygons with .dissolve() method
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
