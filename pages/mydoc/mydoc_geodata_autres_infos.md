@@ -233,6 +233,51 @@ various libraries that can be used to find nearest neighbors for given set of ge
 - **rasterio** : core library for working with GIS raster data (*rioxarray* is an extension of this library that brings the same functionalities on top of *xarray* library)
 - **numpy** : core Python library for numerical computing for representing and working with multidimensional arrays ; has a big influence on how the other raster libraries function and can be used to generate multidimensional arrays from scratch
 
+7.2 Introduction to data structures in xarray
+
+store, combine and analyze all these different layers via a single object, i.e. a **Dataset**.
+
+2 fundamental data structures
+1) **DataArray** : a labeled N-dimensional array that is similar to pandas.Series but works with raster data (stored as numpy arrays)
+2) **Dataset** : multi-dimensional in-memory array database that contains multiple DataArray objects ; in addition to the variables containing the observations of a given phenomena, you also have the x and y coordinates of the observations stored in separate layers, as well as metadata providing relevant information about your data, such as Coordinate Reference System and/or time ; very similar to geopandas.GeoDataFrame
+
+- .squeeze() to remove a specific dimension
+- .rename() to rename data variable(s)
+- .plot() on DataArray objects
+- .plot.contour() to create contour maps
+- .plot.surface() to create surface maps
+
+functionalities to extract basic statistics :
+- .max(), .min() ; these functions return DataArray object
+- max().item() : add item() to get the xarray.Dataset element as a regular Python scalar value
+
+accessors and methods from rio :
+- data.rio.shape, data.rio.width, data.rio.height : get dimensions of the data
+- data.rio.resolution()
+- data.rio.crs 
+- data.rio.transform() : fetch the affine transformation matrix that maps pixel coordinates to geographic coordinates (defines how the raster data is aligned in space, including information on scaling, rotation, and translation relative to a CRS)
+- data.rio.bounds() : get the spatial extent
+- data\["variable"\].rio.nodata : test whether it contains NaN values
+- data\["variable"\].rio.encoded_nodata :  find out what value has been used in the raster file to code the NoData value (in  many cases, the NoData value in a given raster file is actually coded with a specific numerical value that is a clear outlier compared to the rest of the data, such as -9999 or 9999) ; you can also search for the NoData value by checking the *.attrs* attribute that might include information about NoData and is returned as a Python dictionary
+- data.dtypes : extract information about the radiometric resolution (i.e. bit depth) ; radiometric resolution is determined by the number of bits used to represent the data for each pixel, which defines the range of possible intensity values
+- data.nbytes : information about the memory footprint 
+- .astype() : to convert data type (bit depth)
+
+**GeoTIFF** format is one of the most widely used formats to store individual raster layers (i.e. a single DataArray) 
+
+**Cloud Optimized GeoTIFF** (COG) which is a regular GeoTIFF file with an internal organization that enables more efficient workflows on the cloud (can stream just the portion of data that is needed that can significantly reduce processing times and allow working with a single large GeoTIFF file instead of multiple tiles)
+
+**netCDF** : widely used for storing multiple variables into a single file (i.e. a whole xarray.Dataset that can contain multiple variables) ; based on  HDF5
+
+**Zarr** : newer format designed for cloud-native, chunked, and compressed array storage ; allows to write multiple variables (i.e. a whole xarray.Dataset) ; has the ability to store arrays in various ways, including in memory, in files, and in cloud-based object storage (such as Amazon S3 buckets or Google Cloud Storage)
+
+when working with rioxarray and writing data to different file formats, it is useful to **compress** the data : 
+- **lossless** compression : file size is reduced without losing or changing any data ; LZW or ZSTD is a good balance between size and speed ; for cloud-based workflows, ZSTD or DEFLATE are good choices for compression
+- **lossy** compression : achieves higher compression rate (i.e. smaller file size) with some loss in data quality / precision ; JPEG or JPEG2000
+
+[7.3 Common raster operations](https://pythongis.org/part2/chapter-07/nb/02-common-raster-operations.html#)
+
+
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
