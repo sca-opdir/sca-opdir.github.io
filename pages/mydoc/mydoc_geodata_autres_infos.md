@@ -497,6 +497,18 @@ Both *GeoSeries* (geometry columns) and *GeoDataFrames* have an **area** propert
 
 [Map projections](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-2/map-projections.html#)
 
+Without a **coordinate reference systems** (CRS), the geometries would simply be a collection of coordinates in an arbitrary space. Only the CRS allows GIS software to relate these coordinates to a place on Earth
+
+**Map projections**, also called **projected** coordinate systems, are mathematical models that allow us to transfer coordinates on the surface of our three-dimensional Earth into coordinates in a planar surface
+
+**geographic** coordinate systems simply directly use latitude and longitude, i.e. the degrees along the horizontal and vertical great circles of a sphere approximating the Earth, as the x and y coordinates in a planar map. 
+
+there are both projected and geographic coordinate systems that make use of more complex ellipsoids than a simple sphere to better approximate the ‘potato-shaped’ reality of our planet
+
+full CRS information needed to accurately relate geospatial information to a place on Earth includes both (projected/geographic) **coordinate system** and **ellipsoid**.
+
+
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
