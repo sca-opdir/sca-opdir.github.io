@@ -11,12 +11,18 @@ folder: mydoc
 
 ## Ressources en ligne
 
+TODO : [eo college](https://eo-college.org/)
+TODO : [PyGIS](https://pygis.io/docs/a_intro.html) - Open Source Spatial Programming & Remote Sensing
 TODO : [python-gis-book](https://python-gis-book.readthedocs.io/en/latest/)
 TODO : [Cartographic Visualization in GIS](https://cartogis.readthedocs.io/en/latest/)
 TODO : [GEOG 485: GIS Programming and Software Development](https://courses.ems.psu.edu/geog485/node/169)
 TODO [https://cartonumerique.blogspot.com](https://cartonumerique.blogspot.com)/
 TODO : UZH [EOTutorials](https://github.com/uzh-eoas/EOTutorials)
 TODO : GeoAI package [website](https://opengeoai.org/)
+TODO : data via Microsoft [Planetary Computer](https://planetarycomputer.microsoft.com/explore?c=30.0586%2C29.9930&z=2.00&v=2)
+TODO : [Planet](https://www.planet.com/) data 
+TODO : [SXS Training portal](https://www.cs.technik.fhnw.ch/sxs-training-portal/)
+
 
 * [site](https://gishub.org/) de Qiusheng Wu
 
