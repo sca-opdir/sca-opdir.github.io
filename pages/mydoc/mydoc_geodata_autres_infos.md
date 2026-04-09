@@ -507,7 +507,20 @@ there are both projected and geographic coordinate systems that make use of more
 
 full CRS information needed to accurately relate geospatial information to a place on Earth includes both (projected/geographic) **coordinate system** and **ellipsoid**.
 
+coordinate systems are optimised for certain regions and purposes. No coordinate system can be perfectly accurate around the globe, and the transformation from three- to two-dimensional coordinates can not be accurate in *angles*, *distances*, and *areas* simultaneously.
 
+ESRI Shapefile format consist of multiple files with different file extensions. The .prj file contains information about the coordinate reference system
+
+EPSG code is 4326. This is number to remember, as you will come across it a lot in the geospatial world: It refers to a geographic coordinate system using the WGS-84 reference ellipsoid. This is the most commonly used coordinate reference system in the world. It’s what we refer to when we speak of longitude and latitude.
+
+**pyproj** module for handling CRS
+
+[Geocoding](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-3/geocoding.html)
+converting addresses into coordinates and vice versa, i.e. geocoding
+
+geocoding with **geopy** and **geocoder** ; access geocoding services via APIs
+
+**Nominatim** is a library and service using OpenStreetMap data, and run by the OpenStreetMap Foundation
 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
