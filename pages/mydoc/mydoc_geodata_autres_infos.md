@@ -452,7 +452,51 @@ from owslib.wfs import WebFeatureService ; fetch URL then GeoDataFrame.from_feat
 - read PostGIS database using psycopg2 
 - read / write PostGIS database using SqlAlchemy + GeoAlchemy
 - read / write Spatialite database
-  
+
+## [Automating GIS processes II](https://autogis-site.readthedocs.io/)
+
+[Shapely and geometry objects](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-1/geometry-objects.html#)
+
+LineString geometries (and the related LinearRings) represent lines. They are defined by a sequence of points
+
+A polygon is defined by exactly one LinearRing as its circumference, and any number of additional LinearRings representing holes that are cut out.
+
+MultiPoint geometries represent collections of points.
+
+MultiLineString geometries represent collections of lines.
+
+MultiPolygon geometries represent collections of polygons.
+
+GeometryCollection geometries are collections of points, lines, and polygons, as well as multi-points, multi-lines, and multi-polygons
+
+each geometry types has many properties and methods associated
+
+Shapely geometries are, by design, agnostic (unaware) of the reference system used to represent them. Distances and surface area calculated using the built-in shapely methods will always:
+- assume a flat, Cartesian, Euclidean space, and
+- return the calculated value in the unit of the coordinates (e.g., meters, or degrees).
+
+ shapely.geometry.box() : short-hand function to create rectangular polygons
+
+- .convex_hull : ‘convex hull’ refers to the smallest possible convex polygon that can contain a geometry or a set of geometries.
+- .envelope : smallest rectangular polygon around a geometry/set of geometries
+- .is_valid : built-in check that requirements of geometric primitives are met (e.g. a LineString must consist of at least two points, and a Polygon’s exterior shell and holes must not intersect)
+
+[Vector data I/O](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-2/vector-data-io.html#)  
+
+**fiona** allows very low-level access to geodata files
+
+most commonly used higher-level library for geospatial vector data is **geopandas**
+
+[Geopandas : an introduction](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-2/geopandas-an-introduction.html#)
+
+geometries in a GeoDataFrame are stored as *shapely* objects
+
+geopandas builds on top of *pandas*, and it inherits most of its functionality
+
+Both *GeoSeries* (geometry columns) and *GeoDataFrames* have an **area** property
+
+[Map projections](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-2/map-projections.html#)
+
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
