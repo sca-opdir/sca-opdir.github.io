@@ -11,6 +11,15 @@ folder: mydoc
 
 ## Ressources en ligne
 
+TODO : [python-gis-book](https://python-gis-book.readthedocs.io/en/latest/)
+TODO : [Cartographic Visualization in GIS](https://cartogis.readthedocs.io/en/latest/)
+TODO : [GEOG 485: GIS Programming and Software Development](https://courses.ems.psu.edu/geog485/node/169)
+TODO [https://cartonumerique.blogspot.com](https://cartonumerique.blogspot.com)/
+TODO : UZH [EOTutorials](https://github.com/uzh-eoas/EOTutorials)
+TODO : GeoAI package [website](https://opengeoai.org/)
+
+* [site](https://gishub.org/) de Qiusheng Wu
+
 * [https://book.opengeoai.org/](https://book.opengeoai.org/) official repository for "GeoAI with Python: A Practical Guide to Open-Source Geospatial AI"
 Recommended VS Code Extensions
 code --install-extension ms-python.python
@@ -522,10 +531,41 @@ geocoding with **geopy** and **geocoder** ; access geocoding services via APIs
 
 **Nominatim** is a library and service using OpenStreetMap data, and run by the OpenStreetMap Foundation
 
+.merge() vs .join()
+- .merge() : based on common attributes (more flexible) ; useful for spatial joins when you want to match features based on attribute values in specific columns rather than just the index
+- .join() : based on their index (need to have same number of records and share the same index (same order of rows)) ; works similarly to a SQL join based on the index of the two tables ; ideal for adding columns from one GeoDataFrame to another based on the index or a pre-aligned structure
+
+
+[Point-in-polygon queries](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-3/point-in-polygon-queries.html#)
+
+detecting if a point is inside a polygon is most commonly done using a specific formula called **Ray Casting algorithm** (straight line extended from the point in question to infinity in one direction ; count how many times it intersects with the edges of the polygon ; even number : the point is outside ; odd count : point is inside)
+
+in practice : **shapely’s binary predicates** that can evaluate the topolocical relationships between geographical objects
+- within() : checks if a point is within a polygon
+- contains() : checks if a polygon contains a point
+also work on geopandas.GeoDataFrame (returns whether or not a row’s geometry is contained in the supplied other geometry) ; for ex. : within() against a column is carried out row-wise: the first address point would be checked against the first polygon, the second address point against the second polygon, and so forth
+
+
+[Intersect](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-3/intersect.html)
+
+implemented in shapely
+- intersects():  the boundary or interior of one object intersect in any way with the boundary or interior of the other object.
+- touches(): at least one point in common, but their interiors do not intersect with any part of the other object.
+
+
+[Spatial join](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-3/spatial-join.html)
+= operation that combines data from two or more spatial data sets based on their geometric relationship
+
+require two input parameters: 
+1) the **predicate**, i.e., the *geometric condition* that needs to be met between two geometries (intersects, contains, within, touches, crosses, overlaps)
+2) the **join-type**: whether only rows with matching geometries are kept, or all of one input table’s rows, or all records (left, right, inner)
+
+shapely supports more binary geometric predicates than those geopandas implements for spatial joins
+ 
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
-
+* [Natural Earth Data](https://www.naturalearthdata.co)
 
 ## Packages python
 
