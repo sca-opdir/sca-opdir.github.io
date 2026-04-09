@@ -421,6 +421,31 @@ chloropeth map, multi-panel map, add basemap, add layer, crop map extent, etc.
 - plot.show_hist() : look at the histogram of different bands 
 
 [8.4 Interactive maps](https://pythongis.org/part2/chapter-08/nb/03-interactive-maps.html#)
+
+- **folium** makes it easy to visualize geographic data by integrating with Leaflet.js 
+- Geopandas.GeoDataFrame.**explore**() uses folium/leaflet.js
+
+change basemap, chloropleth map, etc. more customization with [folium plugins](https://python-visualization.github.io/folium/plugins.html) ; add markers, LayerControl, folium.plugins.HeatMap, folium.plugins.MarkerCluster
+
+9.1 Retrieving OpenStreetMap data
+
+- download with **Osmnx** package (relies on geopandas and another module called networkx)
+- ox.geocoder.geocode_to_gdf() : fetch area of interest from place name
+- ox.graph.graph_from_place() : retrieve street network
+- ox.convert.graph_to_gdfs() : convert the streets (edges of the network) into a GeoDataFrame
+- ox.features : module to add features on the map by querying by address: osmnx.features.features_from_address(address, tags, dist) ; bounding box: osmnx.features.features_from_bbox(bbox, tags) ; place: osmnx.features.features_from_place(place, tags) ; point: osmnx.features.features_from_point(center_point, tags, dist) ; polygon: osmnx.features.features_from_polygon(polygon, tags)
+
+[9.2 Retrieving data from Web Feature Service (WFS)](https://pythongis.org/part2/chapter-09/nb/01-retrieving-data-from-wfs.html)
+
+from owslib.wfs import WebFeatureService ; fetch URL then GeoDataFrame.from_features(geojson.loads())
+
+[9.3 Retrieving data from Web Coverage Service (WCS)](https://pythongis.org/part2/chapter-09/nb/02-retrieving-data-from-wcs.html)
+
+[9.4 Reading data from spatial databases](https://pythongis.org/part2/chapter-09/nb/03-read-data-from-spatial-databases.html#)
+
+- read PostGIS database using psycopg2 
+- read / write PostGIS database using SqlAlchemy + GeoAlchemy
+- read / write Spatialite database
   
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
