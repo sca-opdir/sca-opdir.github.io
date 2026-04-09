@@ -450,7 +450,7 @@ chloropeth map, multi-panel map, add basemap, add layer, crop map extent, etc.
 
 change basemap, chloropleth map, etc. more customization with [folium plugins](https://python-visualization.github.io/folium/plugins.html) ; add markers, LayerControl, folium.plugins.HeatMap, folium.plugins.MarkerCluster
 
-9.1 Retrieving OpenStreetMap data
+[9.1 Retrieving OpenStreetMap data](https://pythongis.org/part2/chapter-09/nb/00-retrieving-osm-data.html)
 
 - download with **Osmnx** package (relies on geopandas and another module called networkx)
 - ox.geocoder.geocode_to_gdf() : fetch area of interest from place name
@@ -571,9 +571,11 @@ require two input parameters:
 shapely supports more binary geometric predicates than those geopandas implements for spatial joins
  
 ## Données
-* EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
+* GEE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
+* GEE [community catalog](https://gee-community-catalog.org/projects/gcl/)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
 * [Natural Earth Data](https://www.naturalearthdata.co)
+
 
 ## Packages python
 
