@@ -393,6 +393,34 @@ least-cost path calculation based on a raster cost surface :
 - necessary to have a raster that represents the costs
 - also common that specific areas cannot be crossed at all (e.g. by providing as a list of values in the cost-raster that cannot be used when finding the optimal path)
 - xrspatial.a_star_search() to conduct least-cost path analysis based on raster data ; used **A\* algorithm** based on Euclidean distance
+
+[Introduction to geographic visualization](https://pythongis.org/part2/chapter-08/nb/00-introduction-to-geographic-visualization.html#)
+
+Basic elements of a map : 
+- Legend
+- Scalebar
+- North arrow
+
+Principles of a good map design
+- Tufte’s design principles
+- Tell a story with data
+- Good use of symbols and colors
+- Simple style and easy to understand
+
+[8.2 Static maps](https://pythongis.org/part2/chapter-08/nb/01-static-vector-maps.html#)
+
+geopandas GeoDataFrames have a **.plot()** method that can be used to visualize data from wanted columns. In the background, the method uses matplotlib for creating the plots and we can use **matplotlib.pyplot** tools for further customizing our figures
+
+chloropeth map, multi-panel map, add basemap, add layer, crop map extent, etc.
+
+[8.3 Visualizing raster layers](https://pythongis.org/part2/chapter-08/nb/02-static-raster-maps.html)
+
+- plot.show() : function that comes with rasterio
+- normalize() to scale band values to range from 0.0 to 1.0
+- np.dstack() : stack the values from different values together to produce the RGB true color composite
+- plot.show_hist() : look at the histogram of different bands 
+
+[8.4 Interactive maps](https://pythongis.org/part2/chapter-08/nb/03-interactive-maps.html#)
   
 ## Données
 * EE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
