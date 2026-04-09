@@ -41,6 +41,8 @@ Python code snippets for :
 
 * [Geo-Python](https://geo-python-site.readthedocs.io/en/latest/) : basic concepts of programming and scientific data analysis using the Python programming language
 
+## Introduction to Python for Geographic Data Analysis
+
 * [pythongis.org](https://pythongis.org/) : online version of the book “Introduction to Python for Geographic Data Analysis”
 
 [5.2. Geographic data in Python](https://pythongis.org/part2/chapter-05/nb/01-introduction-to-geographic-data-in-python.html#)
