@@ -39,7 +39,9 @@ Python code snippets for :
 
 * Blog [Cartographie(s) numérique(s)](https://cartonumerique.blogspot.com)
 
-* [Geo-Python](https://geo-python-site.readthedocs.io/en/latest/) : basic concepts of programming and scientific data analysis using the Python programming language
+* Cours du Digital Geography Lab, University of Helsinki
+    - [Automating GIS processes I](https://geo-python-site.readthedocs.io/en/latest/) : basic concepts of programming and scientific data analysis using the Python programming language
+    - [Automating GIS processes II](https://autogis-site.readthedocs.io/en/latest/course-info/create-python-gis-environment.html) 
 
 ## Introduction to Python for Geographic Data Analysis
 
