@@ -24,7 +24,7 @@ TODO : [Planet](https://www.planet.com/) data
 TODO : [SXS Training portal](https://www.cs.technik.fhnw.ch/sxs-training-portal/)
 
 
-* [site](https://gishub.org/) de Qiusheng Wu
+* [site](https://gishub.org/) de Qiusheng Wu (TODO : [Linkedin](https://www.linkedin.com/in/giswqs) posts)
 
 * [https://book.opengeoai.org/](https://book.opengeoai.org/) official repository for "GeoAI with Python: A Practical Guide to Open-Source Geospatial AI"
 Recommended VS Code Extensions
