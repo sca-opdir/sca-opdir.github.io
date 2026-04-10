@@ -569,7 +569,49 @@ require two input parameters:
 2) the **join-type**: whether only rows with matching geometries are kept, or all of one input table’s rows, or all records (left, right, inner)
 
 shapely supports more binary geometric predicates than those geopandas implements for spatial joins
- 
+
+[Overlay analysis](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/overlay-analysis.html#) 
+
+= GIS operation in which two or more vector layers are combined to produce new geometries. 
+
+Typical overlay operations include union, intersection, and difference - named after the result of the combination of two layers.
+
+.overlay() with *how* parameter defining which operation
+
+[Aggregating data](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/vector-data-aggregating.html#)
+
+= combine data into groups, e.g. merge the geometries together into coarser units (based on some attribute), calculate summary statistics, etc.
+
+.dissolve() with *by* parameter ; defaut aggregation method is *aggfunc='first'* ; can take sum, min, max, last, first or lambda function
+
+to apply different aggregations to different columns : do further aggregation manually, e.g. 
+
+dissolved = intersection.dissolve(by="car_r_t")
+dissolved = dissolved.groupby("car_r_t").agg({
+    "column1": "sum",
+    "column2": "mean",
+    "column3": "max"
+})
+
+geometry aggregation : the geometries in the grouped rows are merged (unioned) into a single geometry for each group.
+
+[Simplifying geometries](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/simplifying-geometries.html)
+
+.simplify() function from shapely, with *tolerance* parameter
+
+[Reclassifying data](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/reclassifying-data.html#)
+
+**PySAL** module is an extensive Python library for spatial analysis ; includes all of the most common data classifiers that are used commonly (Box Plot, Equal Interval, Quantiles, Percentiles, Std Mean, User defined, etc.)
+
+visualization : use *scheme* parameter from .plot() to define the classification scheme using pysal/mapclassify
+
+.bins attribute to extract threshold value :
+
+classifier = mapclassify.NaturalBreaks(...)
+classifier.bins
+
+créer le classifier avec make() qui peut ensuite être appelé dans apply()
+
 ## Données
 * GEE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
 * GEE [community catalog](https://gee-community-catalog.org/projects/gcl/)
