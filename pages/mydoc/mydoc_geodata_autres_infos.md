@@ -11,6 +11,8 @@ folder: mydoc
 
 ## Ressources en ligne
 
+TODO : [https://tech.stdl.ch/PROJ-TGLN/](https://tech.stdl.ch/PROJ-TGLN/)
+
 ONGOING : [https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/overview.html](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/overview.html)
 
 TODO : [eo college](https://eo-college.org/)
