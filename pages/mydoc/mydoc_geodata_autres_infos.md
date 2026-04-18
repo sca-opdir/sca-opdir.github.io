@@ -667,14 +667,76 @@ Can be used as background map and many other purposes
 - implements algorithms for finding shortest connections for walking, cycling, or driving.
 - easy-to-use tools to download OpenStreetMap data via the project’s OverPass API.
 
-*osmnx.graph* : module to construct a routable road network graph, based on an user-defined area of interest
+*osmnx.graph* : module to construct a routable road network graph, based on an user-defined area of interest (specified e.g. using place name, bounding box, polygon, etc.)
   
 [NetworkX](https://networkx.github.io/documentation//) : Python package that can be used to create, manipulate, and study the structure, dynamics, and functions of complex networks ; can be used to manipulate and analyse the street network data retrieved from OpenStreetMap. 
 
+place name query : OSMnx uses **Nominatim Geocoding API** (= the place names should exist in the OpenStreetMap database -> run a test search at [openstreetmap.org](openstreetmap.org) or [nominatim.openstreetmap.org](nominatim.openstreetmap.org)
+
+ - osmnx.graph_from_place() : to read an OSM street network
+ - osmnx.plot_graph() : plot based on matplotlib
+ - osmnx.graph_to_gdfs() : convert *networkx.MultiDiGraph* in *geopandas.GeoDataFrame*
+ - osmnx.geocode_to_gdf(PLACE_NAME) : retrieve a polygon (returns a GeoDataFrame object based on the specified place name query)
+ - osmnx.features_from_place()  : download arbitrary geometries or POI, filtered by OSM tags and a place name (OSMnx can also download any other data contained in the OpenStreetMap database (e.g. building footprints, and different points-of-interests (POIs))
+
+To analyse OpenStreetMap data over large areas, it is often more efficient and meaningful to download the data all at once, instead of separate queries to the API (data extracts covering whole countries and continents are available, for instance, at [download.geofabrik.de](download.geofabrik.de))
+
+- *OSMnx* Python package : reads OpenStreetMap data from the Overpass API
+- *Pyrosm* Python package : reads OpenStreetMap data from PBF files
+
+[Network analysis in Python](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-6/network-analysis.html#)
+
+[NetworkX](https://networkx.github.io/documentation/) package provides various tools to analyse networks, and implements several different routing algorithms
+
+OSMnx to dowlnoad network from OpenStreetMap ; network data’s cartographic reference system (CRS) is WGS84 (EPSG:4326), a *geographic reference system*. That means, **distances are recorded and expressed in degrees, areas in square-degrees. This is not convenient for network analyses**, such as finding a shortest path.
+
+- osmnx.project_graph() : function to transform (project) the graph (OSMnx’s graph objects do not offer a method to transform their geodata)
+- osmnx.basic_stats() : basic network characteristics
+- edges.geometry.union_all().convex_hull : to take into account the full area covered by the network
+- osmnx.distance.nearest_nodes() : find nearest nodes (e.g. start and destination before shortest path analysis)
+- osmnx.shortest_path() : shortest path analysis ; get a list of all the nodes that are along the shortest path ; *nodes.loc\[route\]* returns the nodes along the shortest path
+
+convert the nodes from shortest path into a LineString : *shapely.geometry.LineString(list(route_nodes.geometry.values))* (can then be stored as geometry attribute of a geopandas.GeoDataFrame)
+
+
 ### Lesson 7
 
+[Exploring raster data in Python](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-7/Raster-explore.html#)
 
+Raster data :
+- consists of rows and columns of cells or pixels, with each cell representing a single value
+- represents the world as a grid of equally sized cells or pixels, where each cell has a value representing information, such as temperature, elevation, or land cover
+-  2 ways of working with raster data:
+    - *Single-band* raster: Each pixel has one value (e.g., elevation or temperature).
+    - *Multiband* raster: Each pixel has multiple values (e.g., Red, Green, and Blue bands in satellite imagery).
+- *resolution* refers to the ground distance that each cell represents (higher resolution = more details, bigger file size)
 
+Common raster file formats :
+- TIFF (Tagged Image File Format): most common geospatial raster format due to its flexibility ; allows for storage of multiple bands, metadata, and internal compression ; can sometimes be incompatible across software.
+- JPEG, GIF, BMP, PNG : These formats are more suitable for images used in presentations or online applications ; common but not as robust for storing geospatial data due to **lack of metadata support**.
+- ASCII Grid: often used for storing elevation data as simple text files, with spatial information stored in a header
+
+Python packages for raster data :
+
+- [xarray](https://docs.xarray.dev) : powerful library for working with labeled, multi-dimensional arrays ; particularly useful for handling scientific data, including time series and spatial data.
+`[rioxarray](https://corteva.github.io/rioxarray): extension of *xarray* designed for geospatial raster data operations ; builds on top of *rasterio* to handle reading and writing raster formats like GeoTIFF, working with CRS (Coordinate Reference Systems), and performing GIS-specific tasks like reprojection -> easy manipulation of spatial data in a highly efficient manner.
+- [rasterio](https://rasterio.readthedocs.io) : core library for handling raster data formats ; built on the GDAL (Geospatial Data Abstraction Library) and provides efficient, low-level input and output operations for raster data, supporting various formats like GeoTIFF, PNG, and JPEG ; allows to read and write raster files, access pixel values, manage CRS, and perform raster data manipulation.
+
+- rioxarray.open_rasterio() : read single- or multi-band raster file
+- .rio.crs
+- .rio.reproject()
+-.plot() : not working directly for multi-band ! (see below)
+- print() on *(rio)xarray* object : display the metadata
+- .sel() : to select specific band from multi-band raster
+
+**Web Map Service** (WMS) = standard protocol developed by the Open Geospatial Consortium (OGC) that allows users to request and retrieve georeferenced map images over the internet, typically in common formats such as PNG, JPEG, and GeoTIFF
+
+[OWSLib](https://github.com/geopython/OWSLib)
+- owslib.wms.WebMapService() : to retrieve WMS data e.g. from URL
+
+When you try to plot a multiband raster directly using the *plot()* function, *xarray* **interprets the data as a multi-dimensional array and creates a summary**, such as a bar chart, to represent the entire dataset (doesn’t know you’re working with geospatial raster data and tries to plot all bands together) ; To correctly visualize the raster data, you need to plot individual bands or create an RGB composite
+
+Creating a **RGB composite** is a common method for visualizing multiband satellite imagery in natural or false colors : achieved by **loading** the individual red, green, and blue bands (*.sel()*), **stacking** them together into an RGB image (*np.dstack*), and **normalizing** (divide by max value) the values to be suitable for display (with *plt.imshow()*)
 
 
 ## Données
