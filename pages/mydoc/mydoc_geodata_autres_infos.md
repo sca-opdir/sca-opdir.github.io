@@ -12,9 +12,6 @@ folder: mydoc
 ## Ressources en ligne
 
 TODO : [https://tech.stdl.ch/PROJ-TGLN/](https://tech.stdl.ch/PROJ-TGLN/)
-
-ONGOING : [https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/overview.html](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/overview.html)
-
 TODO : [geemap doc](https://geemap.org/notebooks) 
 TODO : [eo college](https://eo-college.org/)
 TODO : [PyGIS](https://pygis.io/docs/a_intro.html) - Open Source Spatial Programming & Remote Sensing
