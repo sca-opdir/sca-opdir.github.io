@@ -475,6 +475,8 @@ from owslib.wfs import WebFeatureService ; fetch URL then GeoDataFrame.from_feat
 
 ## [Automating GIS processes II](https://autogis-site.readthedocs.io/)
 
+### Lesson 1
+
 [Shapely and geometry objects](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-1/geometry-objects.html#)
 
 LineString geometries (and the related LinearRings) represent lines. They are defined by a sequence of points
@@ -500,6 +502,8 @@ Shapely geometries are, by design, agnostic (unaware) of the reference system us
 - .convex_hull : ‘convex hull’ refers to the smallest possible convex polygon that can contain a geometry or a set of geometries.
 - .envelope : smallest rectangular polygon around a geometry/set of geometries
 - .is_valid : built-in check that requirements of geometric primitives are met (e.g. a LineString must consist of at least two points, and a Polygon’s exterior shell and holes must not intersect)
+
+### Lesson 2
 
 [Vector data I/O](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-2/vector-data-io.html#)  
 
@@ -534,6 +538,8 @@ ESRI Shapefile format consist of multiple files with different file extensions. 
 EPSG code is 4326. This is number to remember, as you will come across it a lot in the geospatial world: It refers to a geographic coordinate system using the WGS-84 reference ellipsoid. This is the most commonly used coordinate reference system in the world. It’s what we refer to when we speak of longitude and latitude.
 
 **pyproj** module for handling CRS
+
+### Lesson 3
 
 [Geocoding](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-3/geocoding.html)
 converting addresses into coordinates and vice versa, i.e. geocoding
@@ -572,6 +578,8 @@ require two input parameters:
 2) the **join-type**: whether only rows with matching geometries are kept, or all of one input table’s rows, or all records (left, right, inner)
 
 shapely supports more binary geometric predicates than those geopandas implements for spatial joins
+
+### Lesson 4
 
 [Overlay analysis](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/overlay-analysis.html#) 
 
@@ -614,6 +622,60 @@ classifier = mapclassify.NaturalBreaks(...)
 classifier.bins
 
 créer le classifier avec make() qui peut ensuite être appelé dans apply()
+
+### Lesson 5
+
+[Static maps](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-5/static-maps.html)
+
+plotting basic static maps using geopandas.GeoDataFrame.plot(), that uses matplotlib.pyplot
+
+different geo-data frames need to be in the **same coordinate system** before plotting them in the same map. **geopandas.GeoDataFrame.plot() does not reproject data automatically**.
+
+adding a base map : Python package *contextily* takes care of downloading the necessary map tiles and rendering them in a geopandas plot
+
+- contextily.add_basemap() : add base map to the map
+- contextily.providers : list all providers
+
+Map tiles **from online map providers** are typically in Web Mercator projection (**EPSG:3857**).
+
+[Interactive maps](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-5/interactive-maps.html#)
+
+maps can be saved to an HTML file that can be opened in any web browser
+
+Javascript libraries for interactive web cartography : Leaflet, OpenLayers
+
+Python packages for interactive maps : 
+
+- [Folium](https://python-visualization.github.io/folium/latest/index.html) Python package : helps create interactive Leaflet maps from data stored in geopandas.GeoDataFrames ; add layers, markers, tooltips etc.
+- [GeoViews](https://geoviews.org/) : part of the HoloViz family of tools
+- [Mapbox GL for Jupyter](https://github.com/mapbox/mapboxgl-jupyter) : similar to Folium built on top of the raster Leaflet map library, but with much higher performance for large data sets using WebGL and Mapbox Vector Tiles.
+- [Bokeh](https://docs.bokeh.org/en/latest/index.html#) : Python library for creating interactive visualizations for modern web browsers. It helps you build beautiful graphics, ranging from simple plots to complex dashboards
+- [Plotly Express](https://plotly.com/python/maps/) : interactive, publication-quality maps online
+
+### Lesson 6
+
+[Retrieving data from OpenStreetMap](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-6/retrieve-data-from-openstreetmap.html)
+
+OpenStreetMap (OSM) is a global collaborative (crowd-sourced) database and project that aims at creating a free editable map of the world containing of information about our environment. It contains data about streets, buildings, different services, and landuse, etc.
+
+Can be used as background map and many other purposes
+
+[OSMnx](https://github.com/gboeing/osmnx) : Python package that can be used to 
+- retrieve street networks from OpenStreetMap, and construct, analyse, and visualise them
+- fetch data about Points of Interest, such as restaurants, schools, and different kinds of services
+- find routes on a network downloaded from OpenStreetMap
+- implements algorithms for finding shortest connections for walking, cycling, or driving.
+- easy-to-use tools to download OpenStreetMap data via the project’s OverPass API.
+
+*osmnx.graph* : module to construct a routable road network graph, based on an user-defined area of interest
+  
+[NetworkX](https://networkx.github.io/documentation//) : Python package that can be used to create, manipulate, and study the structure, dynamics, and functions of complex networks ; can be used to manipulate and analyse the street network data retrieved from OpenStreetMap. 
+
+### Lesson 7
+
+
+
+
 
 ## Données
 * GEE datasets : [browser by tags](https://developers.google.com/earth-engine/datasets/tags?hl=fr)
