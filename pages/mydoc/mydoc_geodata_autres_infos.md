@@ -698,7 +698,6 @@ OSMnx to dowlnoad network from OpenStreetMap ; network data’s cartographic ref
 
 convert the nodes from shortest path into a LineString : *shapely.geometry.LineString(list(route_nodes.geometry.values))* (can then be stored as geometry attribute of a geopandas.GeoDataFrame)
 
-
 ### Lesson 7
 
 [Exploring raster data in Python](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-7/Raster-explore.html#)
@@ -728,6 +727,7 @@ Python packages for raster data :
 -.plot() : not working directly for multi-band ! (see below)
 - print() on *(rio)xarray* object : display the metadata
 - .sel() : to select specific band from multi-band raster
+- .rio.to_raster() : save raster to file
 
 **Web Map Service** (WMS) = standard protocol developed by the Open Geospatial Consortium (OGC) that allows users to request and retrieve georeferenced map images over the internet, typically in common formats such as PNG, JPEG, and GeoTIFF
 
@@ -737,6 +737,30 @@ Python packages for raster data :
 When you try to plot a multiband raster directly using the *plot()* function, *xarray* **interprets the data as a multi-dimensional array and creates a summary**, such as a bar chart, to represent the entire dataset (doesn’t know you’re working with geospatial raster data and tries to plot all bands together) ; To correctly visualize the raster data, you need to plot individual bands or create an RGB composite
 
 Creating a **RGB composite** is a common method for visualizing multiband satellite imagery in natural or false colors : achieved by **loading** the individual red, green, and blue bands (*.sel()*), **stacking** them together into an RGB image (*np.dstack*), and **normalizing** (divide by max value) the values to be suitable for display (with *plt.imshow()*)
+
+[Processing and Analysis of Raster Data](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-7/Raster-processing.html#)
+
+- rioxarray.merge.merge_arrays() : merge multiple raster files to create a **raster mosaic**
+- rio.clip() : **clip** rasters using a polygon (ensure that **polygon has the same CRS as raster data**)
+
+to mask the null values
+```
+nodata_value = clipped_mosaic.rio.nodata
+clipped_raster = clipped_mosaic.where(clipped_mosaic != nodata_value)
+clipped_raster.plot()
+``` 
+**Reclassifying** raster data (=process of assigning new values to the pixels of a raster dataset based on their existing values ; often used to simplify or categorize continuous data, such as elevation or land cover, into distinct classes) can be done : 
+- Manual reclassification using *NumPy* 
+- Reclassification using *mapclassify* 
+
+Performing **slope analysis** : calculated by examining the rate of change in elevation between neighboring pixels in a digital elevation model (DEM) ; slope is typically expressed in degrees or as a percentage ; calculate the slope using a clipped elevation raster : the slope at each point is derived by determining the rate of change in elevation between neighboring cells in the raster ; done by :
+- Gradient Calculation : using the elevation differences between adjacent cells
+- Slope Formula: combine these gradients using the Pythagorean theorem
+- Final Slope Values: The result is often expressed in degrees or as a percentage
+
+**Raster-to-Raster Calculations** = performing mathematical or logical operations on two or more raster datasets to derive new information ; each raster grid cell is processed based on corresponding cells from the input rasters (used for e.g. combining terrain attributes, environmental modeling, suitability analysis)
+
+**lazy loading** : libraries like xarray defer loading large datasets until explicitly needed, and slow I/O or caching issues can result in incomplete reads ; Re-running often helps.
 
 
 ## Données
