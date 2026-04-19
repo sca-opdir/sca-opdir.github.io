@@ -23,8 +23,7 @@ TODO : UZH [EOTutorials](https://github.com/uzh-eoas/EOTutorials)
 TODO : GeoAI package [website](https://opengeoai.org/)
 TODO : data via Microsoft [Planetary Computer](https://planetarycomputer.microsoft.com/explore?c=30.0586%2C29.9930&z=2.00&v=2)
 TODO : [Planet](https://www.planet.com/) data 
-TODO : [SXS Training portal](https://www.cs.technik.fhnw.ch/sxs-training-portal/)
-
+TODO : [SXS Training portal](https://www.cs.technik.fhnw.ch/sxs-training-portal/) 
 
 * [site](https://gishub.org/) de Qiusheng Wu (TODO : [Linkedin](https://www.linkedin.com/in/giswqs) posts)
 
@@ -765,7 +764,7 @@ Performing **slope analysis** : calculated by examining the rate of change in el
 * GEE [community catalog](https://gee-community-catalog.org/projects/gcl/)
 * [Fields of The World](https://fieldsofthe.world/) (FTW) : comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. 
 * [Natural Earth Data](https://www.naturalearthdata.co)
-
+* [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu/)
 
 ## Packages python
 
