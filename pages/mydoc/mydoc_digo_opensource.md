@@ -9,6 +9,8 @@ permalink: digo_opensource.html
 folder: mydoc
 ---
 
+[Souveraineté numérique : Sopra Steria lance une suite bureautique européenne, collaborative et 100% open source](https://www.usine-digitale.fr/souverainete/souverainete-numerique-sopra-steria-lance-une-suite-bureautique-collaborative-europeenne-et-100-open-source.OH4GGZEYJNFWVLJ25C5WE2IDP4.html?utm_source=newsletter&utm_medium=email&utm_campaign=info_ud-quotidienne&email=&_emu=2b5e5517eb46cd55d642f224c40654e38602d2f770afcc7008ca9a016398ccc1&src_email_send_date=2026-04-21&user_id_nl=&idbdd=10589136&_ope=eyJndWlkIjoiMmI1ZTU1MTdlYjQ2Y2Q1NWQ2NDJmMjI0YzQwNjU0ZTM4NjAyZDJmNzcwYWZjYzcwMDhjYTlhMDE2Mzk4Y2NjMSJ9)
+
 Github [Specialist Unit for Open Government Data Canton of Zurich](https://github.com/openZH)
 
 [openDesk](https://www.opendesk.eu/en) by ZenDiS
