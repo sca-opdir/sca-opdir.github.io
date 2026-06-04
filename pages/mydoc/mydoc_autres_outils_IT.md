@@ -23,8 +23,10 @@ folder: mydoc
 * Visualisation de données avec [Observable](https://observablehq.com/) (voir [Observable framework](https://github.com/observablehq/framework))
 * Visualisation de données avec [RAWGraphs](https://www.rawgraphs.io/)
 
-### Livres en ligne
+### Ressources en ligne
 
 [https://freecomputerbooks.com/books/](https://freecomputerbooks.com/books/)
+
+[webinaires infomaniak](https://webinar.infomaniak.com/replay-webinar)
 
 {% include links.html %}
