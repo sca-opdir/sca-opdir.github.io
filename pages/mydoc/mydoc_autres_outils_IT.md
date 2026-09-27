@@ -9,6 +9,12 @@ permalink: autres_outils_IT.html
 folder: mydoc
 ---
 
+### Web app'
+
+* Version customisée d'agricheck : [https://sca-opdir.github.io/agricheck-vs](https://sca-opdir.github.io/agricheck-vs) 
+
+* Checklist de contrôle ; lien rubriques contrôles publics <-> points de contrôle privés : [https://sca-opdir.github.io/checklist-controle](https://sca-opdir.github.io/checklist-controle)
+
 ### Bureautique
 
 * Conversion de doc en docx (application c#) et modification en masse de doc->docx (via XML) 
