@@ -106,13 +106,19 @@ folder: mydoc
   <details>
     <summary>exploitations</summary>
     <ul>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Abqj5g17f6ROpgyEATTI5wE" target="blank">check_indications_générales_v2</a> : vérification des indications générales (très lent à l'ouverture)</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ2NQuLipg5KlBk_SqjtF7M" target="blank">check_indications_générales_v3_animaux</a> : vérification des indications générales, en lien avec les animaux en prendant en compte les UP</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaoK5dqMfI9OuTzwXoqJkzc" target="blank">check_indciations_générales_v3_QP</a> : vérification des indications générales, en lien avec QP en prendant en compte les UP</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ8Wd6CFdxREg3zKENIeiL8" target="blank">check_indications_générales_v3_surfaces</a> : vérification des indications générales, en lien avec les surfaces en prendant en compte les UP</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWxBrABbr9JNt9ZIyWf82Og" target="blank">liste_exploitations_99_numBDTA</a> : ne doit pas être en forme 99 si num. BDTA !!! TODO : num. bdta pas encore dans la BI</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWYA7YAWYEhGpjJd0YEtG7Y" target="blank">liste_exploitations_liées_supp</a> : exploitation avec exploit. parent ou enfant marquée pour supp. </li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVuIqeMGF0lCifgurwRVJiw" target="blank">liste_exploitations_parents_OC</a> : exploitations de forme 1,2,6 sans OC et dont le parent n'a pas d'OC non plus</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfmOamD8pFFHosh2uRVifNw" target="blank">liste_inscriptions_ajoutées</a> : liste des demandes de contributions qui n'avaient pas l'inscription l'année précédente</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQXcas5f9blPvfzPP3LMCfw" target="blank">liste_réductions_formExp</a> : réductions sur exploitations de forme non valide (vérif. par ex. pas saisie sous forme 2)</li>
     </ul>
   </details>
   <details>
-    <summary>mode de culture <-> OC </summary>
+    <summary>mode de culture</summary>
     <ul>
                     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcO7INJwrpVGqpZUBvit1f0" target="blank">check_exploitations_mixtes</a> : vérification principe globalité BIO/PI</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEusIknoPBMrTzdVZfGnjI" target="blank">check_PI_BIO_arbo</a> : vérification cohérence BIO/PI mode de culture <-> OC (arboriculture)</li>
@@ -125,14 +131,27 @@ folder: mydoc
     </ul>
   </details>
   <details>
-    <summary>code de culture <-> OC</summary>
+    <summary>OC</summary>
     <ul>
+
+            <li><a href="" target="blank">check_cotisations</a> : </li>
+            
+        <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
+
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a> : vérification cohérence cc <-> OC (arboriculture)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVaE9Hovht1PgiGI_rTHSsE" target="blank">check_OC_aromatiques</a> : vérification cohérence cc <-> OC (plantes aromatiques)</li>
-        <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
+
+      <li><a href="" target="blank">check_OC_IFELV_mixte</a> :</li>
+
+
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeunWVKsxkJMvlH6UZfQKm8" target="blank">check_OC_maraich</a> : vérification cohérence cc <-> OC (maraichage)</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdOj_TqsHK9FqHrges5zYUY" target="blank">check_OC_ptsfruits</a> : vérification cohérence cc <-> OC (petits fruits)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX22FoS_5vdJpU4naAovJCI" target="blank">check_OC_viti</a> : vérification cohérence cc <-> OC (viticulture)</li>
+
+
+<li><a href="" target="blank">check_ocBio_inscBio_surfBio</a> :  </li>
+
+  
 </ul>
   </details>
     <details>
