@@ -126,9 +126,9 @@ folder: mydoc
   <details>
     <summary>code de culture <-> OC</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a> : vérification cohérence cc <-> OC (arboriculture)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVaE9Hovht1PgiGI_rTHSsE" target="blank">check_OC_aromatiques</a> : vérification cohérence cc <-> OC (plantes aromatiques)</li>
+        <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeunWVKsxkJMvlH6UZfQKm8" target="blank">check_OC_maraich</a> : vérification cohérence cc <-> OC (maraichage)</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdOj_TqsHK9FqHrges5zYUY" target="blank">check_OC_ptsfruits</a> : vérification cohérence cc <-> OC (petits fruits)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX22FoS_5vdJpU4naAovJCI" target="blank">check_OC_viti</a> : vérification cohérence cc <-> OC (viticulture)</li>
@@ -175,7 +175,7 @@ folder: mydoc
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acn4GrcVG21BnujD9O4Ez.g">check_pentes</a> : vérification somme surfaces pente</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a> : somme surf. exp. > surf. totale parcelle</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ3IuoL98FFKib4nSxDwiNY">check_surfaces_propriétaires</a> : somme surf. exploitée - somme surf. proprio</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a> : surf. sans le flag "exploité"</li>
+                  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a> : surf. sans le flag "exploité"</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUWwmj_x69pOpHOzcHo2kgg">check_surfaces_totale_vs_exploitée</a> : surf. exploitée <-> surf. totale</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV6dUqdZr8FIk.6SPJw9_.8">check_surfaces_validées_avec_commentPC</a> : surf. avec commentaire PC mais n'ayant pas le statut "non validé"</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfGuXReWil5HrROvJKD.HB0">check_surfaces_variétés</a> : vérification surf. variété (variétés et comparaison avec surf. exploitée)</li>
@@ -204,8 +204,8 @@ folder: mydoc
     <ul>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a> : liste charges usuelle et effective ; nombre d'alpages et nombre d'alpages par catégorie d'animaux</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste des cotisations</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a> : liste indications générales</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ5RLm7mJpRDiR8k4i8QvKA" target="blank">liste_inscriptions</a> : liste des inscriptions ou demandes de contributions</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a> : liste indications générales</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a> : liste complète inscriptions/demandes de contributions + indications générales</</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWbAfzw5X.FCqZgBujdb3wU" target="blank">liste_inscriptions_SST_SRPA_bio</a></li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a> : liste des réductions</li>
@@ -235,12 +235,12 @@ folder: mydoc
   <details>
     <summary>surfaces</summary>
     <ul>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZEaQkyqzRBGiJW2fNeUs0g" target="blank">liste_surfaces_attributs</a> : liste de toutes les surfaces avec attribut</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaKmuq_wJXZDhoFxDkoCSOs" target="blank">liste_surfaces_attributsCTA</a> : liste de toutes les surfaces avec CTA</li> 
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8" target="blank">liste_surfaces_non_valides</a> : liste des surfaces avec exploitation "non validées" par PA OU sur parcelles "non validées" ou sur parcelles  marquées pour supp. OU Cultivat = N</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdmU_SVo3KZJiOEZ0H7jsVI" target="blank">liste_surf_réseau_nonvalidRR</a> : liste surfaces réseau non validées</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZEaQkyqzRBGiJW2fNeUs0g" target="blank">liste_surfaces_attributs</a> : liste de toutes les surfaces avec attribut</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeTA09kmCSpPgpAXqq2iXwA" target="blank">surfaces_compensation_horsCE</a> : données part min. de SPB pour exploit. hors CE</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3qcKMc2OpAoej5l.7oDiA" target="blank">surfaces_compensation_CE</a> : données part min. de SPB pour exploit. dans CE</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8" target="blank">liste_surfaces_non_valides</a> : liste des surfaces avec exploitation "non validées" par PA OU sur parcelles "non validées" ou sur parcelles  marquées pour supp. OU Cultivat = N</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW7V_qo1Hy1JrCLxKNYyIIw" target="blank">liste_surfaces_contributions_v2</a> : liste des contributions calculées à la surface</li> 
     </ul>
   </details>
