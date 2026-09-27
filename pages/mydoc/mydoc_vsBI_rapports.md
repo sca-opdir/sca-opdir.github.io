@@ -67,19 +67,19 @@ folder: mydoc
   <details>
     <summary>attributs</summary>
     <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a> : surfaces avec attributs non-recours herbicides (HER) et bande culturale extensive (BCE) (incompatibles)</li> 
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY5t7nS5c_VGpuuYJ5FS_2o" target="blank">list_surfBio_sans_HER_v4</a> : surfaces BIO éligibles sans attributs HER </li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWNwvUWtai5EsQms78YX1Vk" target="blank">check_valeur_année_d'engagement_parbetpar</a> : comparaison par betpar surf. insc. non-rec. PPh 24-25 (vérifier durée d'engagement)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : surfaces avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : surfaces avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX5JwYVrpQNLkkFQRP21lS0" target="blank">check_attributs_et_inscriptions_v2</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces (v2, jointure externe)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU25SDvH29Gocd1Uk1Mk50" target="blank">check_GIWR_et_BCE</a> : surfaces avec attributs céréales rangées larges (GIWR) et bande culturale extensive (BCE)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa6eu6YiSdhIjjA_WQ7qZW0" target="blank">check_durée_engagement_HER</a> : vérifier durée d'engagement surfaces avec attribut HER</li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU25SDvH29Gocd1Uk1Mk50" target="blank">check_GIWR_et_BCE</a> : surfaces avec attributs céréales rangées larges (GIWR) et bande culturale extensive (BCE)</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a> : surfaces avec attributs non-recours herbicides (HER) et bande culturale extensive (BCE) (incompatibles)</li> 
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVHbyVOBdrNHlWr8OoBENnQ" target="blank">check_valeur_année_d'engagement</a> : vérifier durée d'engagement </li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXpH1yQ7htRLro19Gk9U5vA" target="blank">liste_surfBio_sans_HER_vquic</a> : surfaces BIO éligibles sans attributs HER</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXwq6d_F_gtNi2sawBkop1k" target="blank">liste_surfBio_sans_HER</a> : surfaces BIO éligibles sans attributs HER</li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWNwvUWtai5EsQms78YX1Vk" target="blank">check_valeur_année_d'engagement_parbetpar</a> : comparaison par betpar surf. insc. non-rec. PPh 24-25 (vérifier durée d'engagement)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ac0xLOCYzXdDrW8g_wEIpDo" target="blank">liste_Bio_sans_HER</a> : surfaces BIO éligibles sans attributs HER </li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXwq6d_F_gtNi2sawBkop1k" target="blank">liste_surfBio_sans_HER</a> : surfaces BIO éligibles sans attributs HER</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARsD0WJdQd1AjjIj4fLofpQ" target="blank">liste_surfBio_sans_HER_v3</a> : surfaces BIO éligibles sans attributs HER</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa6eu6YiSdhIjjA_WQ7qZW0" target="blank">check_durée_engagement_HER</a> : vérifier durée d'engagement surfaces avec attribut HER</li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AY5t7nS5c_VGpuuYJ5FS_2o" target="blank">list_surfBio_sans_HER_v4</a> : surfaces BIO éligibles sans attributs HER </li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXpH1yQ7htRLro19Gk9U5vA" target="blank">liste_surfBio_sans_HER_vquic</a> : surfaces BIO éligibles sans attributs HER</li>
     </ul>
   </details>
 
@@ -87,12 +87,13 @@ folder: mydoc
     <summary>biodiversité</summary>
     <ul>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWmt88S..rNCg3HxzyeFa4I" target="blank">check_céréalesrangéeslarges_surfréseau</a> : surf. céréales rangées larges <> surf. réseau</li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ6gIEDSa2dOvK._GyIwL7w" target="blank">check_changements_réseaux</a> : codes réseau gagnés ou perdus par exploitation</li>  
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a> : nombre de 908/921/922/923/924 par m2 (plausibilité)</li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AapsUZkdPxVHqhKAlmC_bF8" target="blank">check_SPB_zone</a> : jachères et ourlets dans des zones qui ne donnent pas droit aux contributions</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVe4gfaNifVAp07IGILGp5s" target="blank">check_surfaces_réseau</a> : surf. réseau sans num. réseau ; surf. réseau > surf. exp. ; surf. réseau > surf. SPB1 ; num. réseau sans surf. réseau ; surf. réseau sans droit contrib.</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARUHxGaWU21Foxao83IiQKY" target="blank">check_surfaces_SPB</a> : surf. SPB1 <> surf. exploitée ; surf. SPB1/2 > surf. exploitée ; cc. SPB sans surf. SPB1 ; surf. SPB2 > surf. SPB1 ; année SPB non valide ; année SPB sans surf. SPB ; surf. SPB sans droit contrib. ; droit contrib. sans surf. SPB</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdvXxNGPeLdEqQ9YmW1eBhY" target="blank">check_ratio_nbre_arbres_921-924_908A-B</a> : nombre de 908/921/922/923/924 par m2 (plausibilité)</li>
-  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AapsUZkdPxVHqhKAlmC_bF8" target="blank">check_SPB_zone</a> : jachères et ourlets dans des zones qui ne donnent pas droit aux contributions</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a> : vérifier nombre minimal arbres Q1 atteint</li>  
-  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ6gIEDSa2dOvK._GyIwL7w" target="blank">check_changements_réseaux</a> : codes réseau gagnés ou perdus par exploitation</li>  
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad6w3M_oUwdPhdG8iawXqXM" target="blank">liste_nbr_min_arbres_q1</a> : vérifier nombre minimal arbres Q1 atteint</li>  
+
     </ul>
   </details>
   <details>
@@ -112,25 +113,25 @@ folder: mydoc
   <details>
     <summary>mode de culture <-> OC </summary>
     <ul>
+                    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcO7INJwrpVGqpZUBvit1f0" target="blank">check_exploitations_mixtes</a> : vérification principe globalité BIO/PI</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEusIknoPBMrTzdVZfGnjI" target="blank">check_PI_BIO_arbo</a> : vérification cohérence BIO/PI mode de culture <-> OC (arboriculture)</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a> : vérification cohérence BIO/PI mode de culture <-> OC (plantes aromatiques)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbZdYmuPusFPjttw528FuQk" target="blank">check_PI_BIO_grandescult</a> : vérification cohérence BIO/PI mode de culture <-> OC (grandes cultures)</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZR4pDsUJ3VFrAPQ1SYCbmA" target="blank">check_PI_BIO_aromatiques</a> : vérification cohérence BIO/PI mode de culture <-> OC (plantes aromatiques)</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ90oAQNSCxBu7uaxmu_WhE" target="blank">check_PI_BIO_tout</a> : vérification cohérence BIO/PI mode de culture <-> OC (tout)</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEusIknoPBMrTzdVZfGnjI" target="blank">check_PI_BIO_arbo</a> : vérification cohérence BIO/PI mode de culture <-> OC (arboriculture)</li>
+              <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa17XUbrQPFPu6vLv1pKF2c" target="blank">check_PI_BIO_maraich</a> : vérification cohérence BIO/PI mode de culture <-> OC (maraichage)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfJSSGPhS4hBsa_i4.cZbR4" target="blank">check_PI_BIO_petits_fruits</a> : vérification cohérence BIO/PI mode de culture <-> OC (petits fruits)</li>
+              <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ90oAQNSCxBu7uaxmu_WhE" target="blank">check_PI_BIO_tout</a> : vérification cohérence BIO/PI mode de culture <-> OC (tout)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AS5VTTG75IpHkNgz6Sl0YO8" target="blank">check_PI_BIO_viti</a> : vérification cohérence BIO/PI mode de culture <-> OC (viticulture)</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa17XUbrQPFPu6vLv1pKF2c" target="blank">check_PI_BIO_maraich</a> : vérification cohérence BIO/PI mode de culture <-> OC (maraichage)</li>
-              <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcO7INJwrpVGqpZUBvit1f0" target="blank">check_exploitations_mixtes</a> : vérification principe globalité BIO/PI</li>
     </ul>
   </details>
   <details>
     <summary>code de culture <-> OC</summary>
     <ul>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a> : vérification cohérence cc <-> OC (arboriculture)</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVaE9Hovht1PgiGI_rTHSsE" target="blank">check_OC_aromatiques</a> : vérification cohérence cc <-> OC (plantes aromatiques)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeunWVKsxkJMvlH6UZfQKm8" target="blank">check_OC_maraich</a> : vérification cohérence cc <-> OC (maraichage)</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdOj_TqsHK9FqHrges5zYUY" target="blank">check_OC_ptsfruits</a> : vérification cohérence cc <-> OC (petits fruits)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX22FoS_5vdJpU4naAovJCI" target="blank">check_OC_viti</a> : vérification cohérence cc <-> OC (viticulture)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVaE9Hovht1PgiGI_rTHSsE" target="blank">check_OC_aromatiques</a> : vérification cohérence cc <-> OC (plantes aromatiques)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdOj_TqsHK9FqHrges5zYUY" target="blank">check_OC_ptsfruits</a> : vérification cohérence cc <-> OC (petits fruits)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a> : vérification cohérence cc <-> OC (arboriculture)</li>
 </ul>
   </details>
     <details>
@@ -155,8 +156,8 @@ folder: mydoc
     <summary>redevances</summary>
     <ul>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXyOxW7egc5PkaE1wh6URxs" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev</a> : ratio part propriétaire au niveau surface != ratio part propriétaire au niveau parcelle</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATUpTc7z621JhxjvO92uQQ0" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_sansViti</a> : idem, sans codes viti</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ab5JFXWiIudDsx2VkQQzNaM" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_viti</a> : idem, codes viti seulement</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATUpTc7z621JhxjvO92uQQ0" target="blank">check_cmp_ratioProprio_surfaces_vs_parcelles_ccRedev_sansViti</a> : idem, sans codes viti</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ASzMeTWlhqRDkwNGye5kaeE" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK</a> : vérif. ratios propriétaires par parcelle ; Parcelles avec surf. cc. redevance sans info proprio</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AalNIbmQbF1Lgv6WfeBkhx8" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK_viti</a> : idem, codes viti</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYI1kjH0s4tJqMzvdg4jRVk" target="blank">check_parcelles_propriétaires_ccRedevance_v3_OK_sansViti</a> : idem, sans codes viti</li>
@@ -167,20 +168,20 @@ folder: mydoc
     <details>
     <summary>surfaces</summary>
     <ul>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaqjIb2LsLJPg.RZCkx15i8">check_animaux_paturages</a> : exploitations avec bétail sans pâturages ou avec pâturages sans animaux</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdbpKqXBTVdBkEGQs0B4UgQ">check_animaux_paturages_exploit_avec_UP</a> : vérification animaux et pâturages, en tenant compte des UP / TODO - A CORRIGER</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUqbrIInzJlMhoHhbt0eCO0">check_cc_valides</a> : surfaces avec code culture non valides</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdSqiY.hXeFJpvu55fgLnYg">check_espèces_arbo</a> : surf. arbo avec espèce manquante</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acn4GrcVG21BnujD9O4Ez.g">check_pentes</a> : vérification somme surfaces pente</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a> : somme surf. exp. > surf. totale parcelle</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ3IuoL98FFKib4nSxDwiNY">check_surfaces_propriétaires</a> : somme surf. exploitée - somme surf. proprio</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a> : surf. sans le flag "exploité"</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUWwmj_x69pOpHOzcHo2kgg">check_surfaces_totale_vs_exploitée</a> : surf. exploitée <-> surf. totale</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdSqiY.hXeFJpvu55fgLnYg">check_espèces_arbo</a> : surf. arbo avec espèce manquante</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaqjIb2LsLJPg.RZCkx15i8">check_animaux_paturages</a> : exploitations avec bétail sans pâturages ou avec pâturages sans animaux</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a> : surf. sans le flag "exploité"</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ3IuoL98FFKib4nSxDwiNY">check_surfaces_propriétaires</a> : somme surf. exploitée - somme surf. proprio</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV6dUqdZr8FIk.6SPJw9_.8">check_surfaces_validées_avec_commentPC</a> : surf. avec commentaire PC mais n'ayant pas le statut "non validé"</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfGuXReWil5HrROvJKD.HB0">check_surfaces_variétés</a> : vérification surf. variété (variétés et comparaison avec surf. exploitée)</li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefWWtX6MoRJigx5Ye_Si6I">check_surfaces_viti_couverture_sol</a> : surf. exp. viti <-> couv. sol vigne</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARK8qIJaBExOs1uiDqzlCJc">check_surfaces_zones</a> : surf. avec cc SAU hors zones 31-54 et surf. avec cc 930/931 hors zone 61</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV6dUqdZr8FIk.6SPJw9_.8">check_surfaces_validées_avec_commentPC</a> : surf. avec commentaire PC mais n'ayant pas le statut "non validé"</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acn4GrcVG21BnujD9O4Ez.g">check_pentes</a> : vérification somme surfaces pente</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdbpKqXBTVdBkEGQs0B4UgQ">check_animaux_paturages_exploit_avec_UP</a> : vérification animaux et pâturages, en tenant compte des UP / TODO - A CORRIGER</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfGuXReWil5HrROvJKD.HB0">check_surfaces_variétés</a> : vérification surf. variété (variétés et comparaison avec surf. exploitée)</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUqbrIInzJlMhoHhbt0eCO0">check_cc_valides</a> : surfaces avec code culture non valides</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYnl9tt5txpOjkUU34lNs8E">check_surfexp_0</a> : surfaces avec surf. exp. = 0 et < 5</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfnEYJCL.kxKgEq4k273QoE">check_surfaces_par_parcelle</a> : somme surf. exp. > surf. totale parcelle</li>
-  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefWWtX6MoRJigx5Ye_Si6I">check_surfaces_viti_couverture_sol</a> : surf. exp. viti <-> couv. sol vigne</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUsJlGnx2iVImQ9j.A0MxBc">check_surfaces_930_nouvelles_perdues</a> : parcelles avec nouvelles surf. 930 ou qui n'ont plus de surf. 930 entre année1 et année2 </li>
     </ul>
   </details>
@@ -189,8 +190,8 @@ folder: mydoc
     <ul>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYPE1ulE7u9CnEhBmj3E6No" target="blank">check_inscriptions_forme2</a> : vérification inscriptions de l'UP présentes dans l'exploitation parent</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUbX6MgYUdlNhXjmJtajKCc" target="blank">check_OC_parents_enfants</a> : vérification OC de l'UP et OC de l'exploitation parent</li>
+                              <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQn2PEcvF9ZNkaN9sOVU7gY" target="blank">check_surface_exploitée_des_formes2</a> : total surf. exp. des exploitations de forme 2</li>
                   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW1wI3NW9B5EoXVCr_nSoXA" target="blank">inscriptions_enfants_manquante_chez_parent</a> : vérification des inscriptions enfant chez parent</li>
-                        <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQn2PEcvF9ZNkaN9sOVU7gY" target="blank">check_surface_exploitée_des_formes2</a> : total surf. exp. des exploitations de forme 2</li>
     </ul>
   </details>
 </details>
@@ -201,33 +202,33 @@ folder: mydoc
   <details>
     <summary>autres</summary>
     <ul>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a> : liste charges usuelle et effective ; nombre d'alpages et nombre d'alpages par catégorie d'animaux</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste des cotisations</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ5RLm7mJpRDiR8k4i8QvKA" target="blank">liste_inscriptions</a> : liste des inscriptions ou demandes de contributions</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a> : liste indications générales</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a> : liste complète inscriptions/demandes de contributions + indications générales</</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWbAfzw5X.FCqZgBujdb3wU" target="blank">liste_inscriptions_SST_SRPA_bio</a></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a> : liste complète inscriptions/demandes de contributions + indications générales</</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a> : liste indications générales</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste des cotisations</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a> : liste des réductions</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a> : liste charges usuelle et effective ; nombre d'alpages et nombre d'alpages par catégorie d'animaux</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfOP0_AqyipAuE2OP.P9MxY" target="blank">liste_surfaces_HER_ARF_hors_BCE</a> : pour une exploitation donnée liste des surfaces avec attribut HER et ARF en dehors des surfaces avec BCE</li>
   </ul>
   </details>
     <details>
     <summary>exploitations / exploitants</summary>
     <ul>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW6FkUnlkptKrf9Xrwhf0PE" target="blank">liste_commentaire_exploitations_1-2-5-6</a> : liste des commentaires pour exploitations de forme 1, 2, 5 ou 6</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk" target="blank">liste_exploitants</a> : liste exploitants (noms et année naissance)</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZrmQj9lyLJAuo.zfIbGqrA" target="blank">liste_exploitations_cantonales</a> : liste des exploitations cantonales</li>
+                  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU2rG8Ov7JLq8PznMy9bKU" target="blank">liste_exploitations_cotisations_ACAV</a> : liste surf. coti ACAV</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3lCmQG0TpFpH96Ttiwv4g" target="blank">liste_exploitations_cotisations_BVO</a> : liste surf. coti BVO</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations avec exploitant et leurs coordonnées</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU" target="blank">liste_exploitations_membres</a> : liste des exploitations et membres récursifs / TODO !!! ongoing </li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZy5WE0qT_5MpbI6O2bZry0" target="blank">liste_exploitations_parents_avec_forme</a> : liste exploitations enfant avec exploitations parent et enfants du parent, avec formes</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U" target="blank">liste_exploitations_parents_enfants</a> : liste des exploitations et leur parent et enfant</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZalIxDr7wNHlirtaSTDChk" target="blank">liste_forme1_avec_parent6</a> : liste des exploitations de forme 1 avec parent de forme 6 ; vérification des inscriptions</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYiClw27T15EpR4zIoKw.uI" target="blank">liste_forme2_avec_parent</a> : liste exploitations de forme 2 avec leur parent</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZy5WE0qT_5MpbI6O2bZry0" target="blank">liste_exploitations_parents_avec_forme</a> : liste exploitations enfant avec exploitations parent et enfants du parent, avec formes</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk" target="blank">liste_exploitants</a> : liste exploitants (noms et année naissance)</li>
+                  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZh4lbWMSThKnFHNi7LR8D4" target="blank">liste_parent_UP_avec_loc</a> : liste UP avec parent et leur localisation</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU" target="blank">liste_exploitations_membres</a> : liste des exploitations et membres récursifs / TODO !!! ongoing </li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U" target="blank">liste_exploitations_parents_enfants</a> : liste des exploitations et leur parent et enfant</li>
-            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations avec exploitant et leurs coordonnées</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : liste avec information sur le statut marital des exploitants</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZrmQj9lyLJAuo.zfIbGqrA" target="blank">liste_exploitations_cantonales</a> : liste des exploitations cantonales</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW6FkUnlkptKrf9Xrwhf0PE" target="blank">liste_exploitations_cantonales</a> : liste des commentaires pour exploitations de forme 1, 2, 5 ou 6</li>
-            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3lCmQG0TpFpH96Ttiwv4g" target="blank">liste_exploitations_cotisations_BVO</a> : liste surf. coti BVO</li>
-            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU2rG8Ov7JLq8PznMy9bKU" target="blank">liste_exploitations_cotisations_ACAV</a> : liste surf. coti ACAV</li>
     </ul>
   </details>
 
