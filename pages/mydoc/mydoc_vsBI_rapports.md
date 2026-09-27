@@ -270,4 +270,8 @@ folder: mydoc
     </ul>
   </details>
 </details>
+<details>
+  <summary>
+     <span class="titre-rouge">OAS</span> : rapports pour l'OAS</summary>
+</details>
 </div>
