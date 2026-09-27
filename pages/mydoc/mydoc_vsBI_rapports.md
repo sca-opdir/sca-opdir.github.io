@@ -272,6 +272,15 @@ folder: mydoc
 </details>
 <details>
   <summary>
+     <span class="titre-rouge">OArbo</span> : rapports pour l'OArbo</summary>
+</details>
+<details>
+  <summary>
      <span class="titre-rouge">OAS</span> : rapports pour l'OAS</summary>
 </details>
+<details>
+  <summary>
+     <span class="titre-rouge">OViti</span> : rapports pour l'OViti</summary>
+</details>
+
 </div>
