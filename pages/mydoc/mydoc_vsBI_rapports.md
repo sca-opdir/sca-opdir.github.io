@@ -133,38 +133,16 @@ folder: mydoc
   <details>
     <summary>OC</summary>
     <ul>
-
-            <li><a href="" target="blank">check_cotisations</a> : </li>
-            
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdLlug4juYdJkKD36KtIW94" target="blank">check_cotisations</a> : avec No. cotisation mais sans OC cotisation ; avec OC cotisation mais sans No cotisation ; prélèvement sans inscription ; inscription sans prélèvement</li>
         <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR2QdueY0ZBKvqKw5rKATcE" target="blank">check_exploit_sans_OC</a> : exploit. forme 1 ou 6 sans OC</li>
-
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AatFwpaOuKRKj2_eljZ9Joo" target="blank">check_OC_arbo</a> : vérification cohérence cc <-> OC (arboriculture)</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVaE9Hovht1PgiGI_rTHSsE" target="blank">check_OC_aromatiques</a> : vérification cohérence cc <-> OC (plantes aromatiques)</li>
-
-      <li><a href="" target="blank">check_OC_IFELV_mixte</a> :</li>
-
-
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ4eSFJo7YBPkYkUW5HJspM" target="blank">check_OC_IFELV_mixte</a> :exploitations avec OC IFELV + autre OC hors ACAV</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeunWVKsxkJMvlH6UZfQKm8" target="blank">check_OC_maraich</a> : vérification cohérence cc <-> OC (maraichage)</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdOj_TqsHK9FqHrges5zYUY" target="blank">check_OC_ptsfruits</a> : vérification cohérence cc <-> OC (petits fruits)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX22FoS_5vdJpU4naAovJCI" target="blank">check_OC_viti</a> : vérification cohérence cc <-> OC (viticulture)</li>
-
-
-<li><a href="" target="blank">check_ocBio_inscBio_surfBio</a> :  </li>
-
-  
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfNSDQZoWzlPgBPQNERwpcE" target="blank">check_ocBio_inscBio_surfBio</a> : vérification cohérence mode BIO, enreg. BIO <-> OC BIO </li>
 </ul>
-  </details>
-    <details>
-    <summary>enregistrement bio</summary>
-    <ul>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfNSDQZoWzlPgBPQNERwpcE" target="blank">check_ocBio_inscBio_surfBio</a> : vérification cohérence mode BIO, enreg. BIO <-> OC BIO</li>
-</ul>
-  </details>
-  <details>
-    <summary>OC : cotisations</summary>
-    <ul>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdLlug4juYdJkKD36KtIW94" target="blank">check_cotisations</a> : avec No. cotisation mais sans OC cotisation ; avec OC cotisation mais sans No cotisation ; prélèvement sans inscription ; inscription sans prélèvement</li>
-    </ul>
   </details>
   <details>
     <summary>parcelles</summary>
