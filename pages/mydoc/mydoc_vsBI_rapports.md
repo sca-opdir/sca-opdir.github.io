@@ -188,6 +188,7 @@ folder: mydoc
     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AefWWtX6MoRJigx5Ye_Si6I">check_surfaces_viti_couverture_sol</a> : surf. exp. viti <-> couv. sol vigne</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARK8qIJaBExOs1uiDqzlCJc">check_surfaces_zones</a> : surf. avec cc SAU hors zones 31-54 et surf. avec cc 930/931 hors zone 61</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYnl9tt5txpOjkUU34lNs8E">check_surfexp_0</a> : surfaces avec surf. exp. = 0 et < 5</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AS47fcivsxZBtI38ieYUTYQ">check_surfexp_ARB_ARU</a> : surfaces exploitées en ARU ou ARB, triées par surf. exp. décroissante des exploitations de forme 1,2,6</li>
     </ul>
   </details>
   <details>
