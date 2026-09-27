@@ -209,46 +209,63 @@ folder: mydoc
     <ul>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aemnevkn9SJNkeFIjv.9rNE" target="blank">liste_BP_décédés</a> : exploitations de forme 1-2-6 avec BP décédé ; toutes les exploitations liées à un BP décédé </li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZb75_QyKLFKooTCi_LbF3U" target="blank">liste_charges_usuelle_effective</a> : liste charges usuelle et effective ; nombre d'alpages et nombre d'alpages par catégorie d'animaux</li>
-            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations et exploitants avec coordonnées des exploitants</li>
+
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATpyesxpPWhAqcrayVuxIH8" target="blank">liste_indications_générales</a> : liste indications générales</li>      
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZ5RLm7mJpRDiR8k4i8QvKA" target="blank">liste_inscriptions</a> : liste des inscriptions ou demandes de contributions</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5nZuYayJpHhm36EDS_AwE" target="blank">liste_inscriptions_indications</a> : liste complète inscriptions/demandes de contributions + indications générales</</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWbAfzw5X.FCqZgBujdb3wU" target="blank">liste_inscriptions_SST_SRPA_bio</a></li>
-            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : localisation de l'UP et localisation de l'exploitation parent ; catégories présentes dans l'UP vs. chez l'exploitation parent</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARP0QqUlFLxGjFA7nzwBz9c" target="blank">liste_réductions</a> : liste des réductions</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : statut marital des exploitants</li>
   </ul>
   </details>
     <details>
-    <summary>exploitations / exploitants</summary>
+    <summary>exploitations</summary>
     <ul>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATvdpI3M7fxLvWcS.LtKIxs" target="blank">liste_calcul BBS_exploitations_1-5-6</a> : flag BBS oui/non (tri décroissant sur flag)</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW6FkUnlkptKrf9Xrwhf0PE" target="blank">liste_commentaire_exploitations_1-2-5-6</a> : liste des commentaires pour exploitations de forme 1, 2, 5 ou 6</li>
+                      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste avec tous les champs des cotisations SAP</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk" target="blank">liste_exploitants</a> : liste exploitants (noms et année naissance)</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZrmQj9lyLJAuo.zfIbGqrA" target="blank">liste_exploitations_cantonales</a> : liste des exploitations cantonales</li>
                   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU2rG8Ov7JLq8PznMy9bKU" target="blank">liste_exploitations_cotisations_ACAV</a> : liste surf. coti ACAV</li>
+         <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU2rG8Ov7JLq8PznMy9bKU" target="blank">liste_exploitations_cotisations_ACAV_surfaces</a> : calcul cotisation ACAV liée aux surfaces (S10, S20, S30 et S99 uniquement) - y.c. UP</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3lCmQG0TpFpH96Ttiwv4g" target="blank">liste_exploitations_cotisations_BVO</a> : liste surf. coti BVO</li>
-            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations avec exploitant et leurs coordonnées</li>
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQ3O25JmrahNsQ5W0UCugzk" target="blank">liste_exploitations_exploitants</a> : liste des exploitations et exploitants avec coordonnées des exploitants</li>
+                     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Abk8LCho_3dMh2jIc3ZFkBo" target="blank">liste_exploitations_localisation</a> : liste des exploitations avec nom exploitant, localisation, commune et district de l'exploitation</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acj1kDohKeBCo02HMFdFrBU" target="blank">liste_exploitations_membres</a> : liste des exploitations et membres récursifs / TODO !!! ongoing </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZy5WE0qT_5MpbI6O2bZry0" target="blank">liste_exploitations_parents_avec_forme</a> : liste exploitations enfant avec exploitations parent et enfants du parent, avec formes</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AT0z0I5IYDtPt5Yr_tqY.5U" target="blank">liste_exploitations_parents_enfants</a> : liste des exploitations et leur parent et enfant</li>
+                     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ARwewPAuLgxMoXdDVvk7uYo" target="blank">liste_exploitations_parents_enfants_avecOC</a> : liste des UP avec OC de l'UP et OC de l'exploitation parent ; UP PI avec parent Bio ; UP Bio avec parent PI </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZalIxDr7wNHlirtaSTDChk" target="blank">liste_forme1_avec_parent6</a> : liste des exploitations de forme 1 avec parent de forme 6 ; vérification des inscriptions</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYiClw27T15EpR4zIoKw.uI" target="blank">liste_forme2_avec_parent</a> : liste exploitations de forme 2 avec leur parent</li>
-                  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AULMtHi47NxGmAX88FmcfXM" target="blank">liste_localisation_UP_avec_bétail</a> : liste exploitations de forme 2 avec leur exploitation parent et localisation ; comparaison bétail enfant - parent </li>
+                     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWDG0zFSzCxJs2cC2rK7Xms" target="blank">liste_OC_toutes_exploitations</a> : liste des inscriptions/demande de contributions des organisations PER de toutes les exploitations (y.c. forme 2 - qui n'apparait pas dans la liste SAP) </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZh4lbWMSThKnFHNi7LR8D4" target="blank">liste_parent_UP_avec_loc</a> : liste UP avec parent et leur localisation</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWkLTl8IzXVLmY0fli6ijso" target="blank">liste_statut_marital</a> : liste avec information sur le statut marital des exploitants</li>
+                     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX7udRCSfhFMlRDSbnsJNiI" target="blank">liste_statut_epdir_exploitations_1-2-6</a> : liste du statut ePDir des exploitations de forme 1-2-6</li>                    
+                     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AcEOmX4yVnBDq2OWclod128" target="blank">liste_UP_avec_loc_surfexp_animaux</a> : liste UP avec forme et localisation des parents et forme et localisation du parent ; total surfaces et total bétail des UP</li>
     </ul>
   </details>
-
+  <details>
+    <summary>parcelles</summary>
+    <ul>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AQMYjdKPKPdFn1bzP5iQtP0" target="blank">liste_parcelles_création</a> : liste avec commentaire parcelle, date de création et nom du créateur</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATxlZbnY1spDh38KFUH5wgU" target="blank">liste_propriétaires</a> : liste des propriétaires de parcelles</li>
+ </ul>
+  </details>
   <details>
     <summary>surfaces</summary>
     <ul>
+ <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW5Sej0dsxtGmjfsKUXMHJ4" target="blank">liste_couverture_sol</a> : comparaison surfaces exploitées et total SIT productif/improductif</li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWFqh23P2ohKtG3CJlxllhM" target="blank">liste_export_biodiversité</a> : liste surfaces biodiversité et réseau</li>
+<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdmU_SVo3KZJiOEZ0H7jsVI" target="blank">liste_surf_réseau_nonvalidRR</a> : liste surfaces réseau non validées</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZEaQkyqzRBGiJW2fNeUs0g" target="blank">liste_surfaces_attributs</a> : liste de toutes les surfaces avec attribut</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaKmuq_wJXZDhoFxDkoCSOs" target="blank">liste_surfaces_attributsCTA</a> : liste de toutes les surfaces avec CTA</li> 
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW7V_qo1Hy1JrCLxKNYyIIw" target="blank">liste_surfaces_contributions_v2</a> : liste des contributions Pdir calculées par surface (lent à l'ouverture !)</li> 
+ <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AfOP0_AqyipAuE2OP.P9MxY" target="blank">liste_surfaces_HER_ARF_hors_BCE</a> : liste des surfaces HER "effectives" (qui n'ont pas BCE)</li>
+ <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AYAc5.Wzg5JBno7ahnUeFEs" target="blank">liste_surfaces_non_exploitees</a> : liste des surfaces sans le flag "exploitée"</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AaBv7pTsP.FHryOHRLYFUG8" target="blank">liste_surfaces_non_valides</a> : liste des surfaces avec exploitation "non validées" par PA OU sur parcelles "non validées" ou sur parcelles  marquées pour supp. OU Cultivat = N</li>
-<li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdmU_SVo3KZJiOEZ0H7jsVI" target="blank">liste_surf_réseau_nonvalidRR</a> : liste surfaces réseau non validées</li>
+ <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdfpWHGKI6lFnlaT4_a7kE8" target="blank">liste_surfaces_zàb</a> : surfaces avec le flag ZàB2014 ; surfaces avec le flag Bauzn</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeTA09kmCSpPgpAXqq2iXwA" target="blank">surfaces_compensation_horsCE</a> : données part min. de SPB pour exploit. hors CE</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX3qcKMc2OpAoej5l.7oDiA" target="blank">surfaces_compensation_CE</a> : données part min. de SPB pour exploit. dans CE</li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW7V_qo1Hy1JrCLxKNYyIIw" target="blank">liste_surfaces_contributions_v2</a> : liste des contributions calculées à la surface</li> 
     </ul>
   </details>
 </details>
