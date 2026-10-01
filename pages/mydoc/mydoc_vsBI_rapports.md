@@ -174,6 +174,7 @@ folder: mydoc
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdSqiY.hXeFJpvu55fgLnYg">check_espèces_arbo</a> : surf. arbo avec espèce manquante</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Acn4GrcVG21BnujD9O4Ez.g">check_pentes</a> : vérification somme surfaces pente</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af63efMXG_JOg9v1vP11ASQ">check_surface_sans_flag_exploitée</a> : surf. sans le flag "exploité"</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUn5wayFttFCsP_OQNrejww">check_surface_viti</a> : différence surface exploitée <-> surface viti</li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUsJlGnx2iVImQ9j.A0MxBc">check_surfaces_930_nouvelles_perdues</a> : parcelles avec nouvelles surf. 930 ou qui n'ont plus de surf. 930 entre année1 et année2 </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbBJT4jqa15HvkNuxsgZdKk">check_surfaces_arbo_arbres</a> : parcelles avec surfaces arbo et arbres HT </li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdKPGpj6d7JOgrrDtYW5i.s">check_surfaces_maïs</a> : vérification surfaces maïs 2 années de suite</li>
