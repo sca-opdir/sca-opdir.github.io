@@ -56,6 +56,22 @@ folder: mydoc
   margin-top: 0.4rem;
   margin-bottom: 0;
 }
+
+  /* Description complémentaire des rapports BI */
+.info-rapport {
+  font-size: 0.85em;
+  color: #777;
+  font-style: italic;
+  margin-top: 3px;
+}
+
+/* Symbole d'information automatique */
+.info-rapport::before {
+  content: "ⓘ";
+  font-style: normal;
+  margin-right: 5px;
+  color: #888;
+}
 </style>
 
 <div class="accordion">
@@ -71,13 +87,10 @@ folder: mydoc
 
      
       
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : surfaces avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles) <div style="font-size: 0.85em; color: #777; font-style: italic; margin-top: 3px;">
-    <span style="font-style: normal;">ⓘ</span>il n'y a pas de paiement ARF si la surface a l'attribut BCE, permet de vérifier si cela concerne beaucoup d'exploitations/surfaces</div></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces <div style="font-size: 0.85em; color: #777; font-style: italic; margin-top: 3px;">
-    <span style="font-style: normal;">ⓘ</span>permet par exemple de vérifier que les attributs des surfaces sont bien enlevés lorsque l'inscription est enlevée au niveau exploitation ou que des attributs n'ont pas été rajoutés avec l'outil de modifs en masse à des exploitations qui n'avaient pas l'inscription</div></li>
-  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX5JwYVrpQNLkkFQRP21lS0" target="blank">check_attributs_et_inscriptions_v2</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces (v2, jointure externe) <div style="font-size: 0.85em; color: #777; font-style: italic; margin-top: 3px;">
-    <span style="font-style: normal;">ⓘ</span>idem que précédent, autre façon de le réaliser</div></li>
-      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa6eu6YiSdhIjjA_WQ7qZW0" target="blank">check_durée_engagement_HER</a> : vérifier durée d'engagement surfaces avec attribut HER - permet de vérifier le respect de la durée d'engagement pour les surfaces de cultures prérennes</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : surfaces avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles) <div class="info-rapport">il n'y a pas de paiement ARF si la surface a l'attribut BCE, permet de vérifier si cela concerne beaucoup d'exploitations/surfaces</div></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces <div class="info-rapport">permet par exemple de vérifier que les attributs des surfaces sont bien enlevés lorsque l'inscription est enlevée au niveau exploitation ou que des attributs n'ont pas été rajoutés avec l'outil de modifs en masse à des exploitations qui n'avaient pas l'inscription</div></li>
+  <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX5JwYVrpQNLkkFQRP21lS0" target="blank">check_attributs_et_inscriptions_v2</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces (v2, jointure externe)<div class="info-rapport">idem que précédent, autre façon de le réaliser</div></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Aa6eu6YiSdhIjjA_WQ7qZW0" target="blank">check_durée_engagement_HER</a> : vérifier durée d'engagement surfaces avec attribut HER <div class="info-rapport">permet de vérifier le respect de la durée d'engagement pour les surfaces de cultures prérennes</div></li>
     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU25SDvH29Gocd1Uk1Mk50" target="blank">check_GIWR_et_BCE</a> : surfaces avec attributs céréales rangées larges (GIWR) et bande culturale extensive (BCE)</li>
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdO_tZliyEpBniIOod_3tnA" target="blank">check_HER_et_BCE</a> : surfaces avec attributs non-recours herbicides (HER) et bande culturale extensive (BCE) (incompatibles)</li> 
 <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVHbyVOBdrNHlWr8OoBENnQ" target="blank">check_valeur_année_d'engagement</a> : vérifier durée d'engagement </li>
