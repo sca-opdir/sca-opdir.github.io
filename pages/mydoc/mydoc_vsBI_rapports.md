@@ -67,6 +67,22 @@ folder: mydoc
   <details>
     <summary>attributs</summary>
     <ul>
+  <li>
+    <details>
+      <summary>
+        <a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="_blank">
+          check_ARF_et_BCE
+        </a>
+      </summary>
+      <p><i>
+        Il n'y a pas de paiement ARF si la surface a
+        l'attribut BCE. Permet de vérifier si cela
+        concerne beaucoup d'exploitations/surfaces.
+      </i></p>
+    </details>
+  </li>
+
+      
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXlKrnPm_aRMqY2SHBgsWfM" target="blank">check_ARF_et_BCE</a> : surfaces avec attributs non-recours PPh grandes cultures (ARF) et bande culturale extensive (BCE) (incompatibles) <br><i>il n'y a pas de paiement ARF si la surface a l'attribut BCE, permet de vérifier si cela concerne beaucoup d'exploitations/surfaces</i></li>
       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVouHcTjnO1Kk8rK88ovEHc" target="blank">check_attributs_et_inscriptions</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces - permet par exemple de vérifier que les attributs des surfaces sont bien enlevés lorsque l'inscription est enlevée au niveau exploitation ou que des attributs n'ont pas été rajoutés avec l'outil de modifs en masse à des exploitations qui n'avaient pas l'inscription</li>
   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AX5JwYVrpQNLkkFQRP21lS0" target="blank">check_attributs_et_inscriptions_v2</a> : vérifier insc. PPh exploitation <-> attribut sur les surfaces (v2, jointure externe) - idem que précédent, autre façon de le réaliser</li>
