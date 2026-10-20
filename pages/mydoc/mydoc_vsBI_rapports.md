@@ -295,10 +295,19 @@ folder: mydoc
 <details>
   <summary>
      <span class="titre-rouge">OArbo</span> : rapports pour l'OArbo</summary>
+  <ul>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATXyaF5VHSBFtP0SqGDA9h8" target="blank">liste_surfaces_feubact</a> : liste des surfaces concernées par le feu bactérien<div class="info-rapport">cc 702,703,731-coings</div></li>
+       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AbH4AOLzJyRHjJH_HtZttck" target="blank">liste_surfaces_variétés_arbo</a> : liste des surfaces arbo<div class="info-rapport">équivalent de la liste SAP ; contrairement à la liste SAP, elle inclut les surfaces avec cc arbo pour lesquelles il manque une surface variété</div></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXLfZYQd57BFmdy2AYl6KZM" target="blank">vérifications_surfaces_variétés_arbo</a> : vérification des données arbo<div class="info-rapport">vérifier que les surfaces avec cc arbo sont renseignées pour les espèces et les variétés</div></li>
+  </ul>
 </details>
 <details>
   <summary>
      <span class="titre-rouge">OAS</span> : rapports pour l'OAS</summary>
+</details>
+<details>
+  <summary>
+     <span class="titre-rouge">OEA</span> : rapports pour l'OEA</summary>
 </details>
 <details>
   <summary>
