@@ -304,14 +304,28 @@ folder: mydoc
 <details>
   <summary>
      <span class="titre-rouge">OAS</span> : rapports pour l'OAS</summary>
+  <ul>
+     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AafJXo1tP31HhIZcliJ4rCE" target="blank">liste_surfaces_avec_UMOS_2025</a> : vérification des données arbo<div class="info-rapport">liste de surfaces pour un n°OFS et avec les UMOS exploitation (fichier BBS)</div></li>
+    <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AR4OAHWkcilHpQKoTKQAcXI" target="blank">liste_surfaces_OAS</a> : exemple de liste de surfaces pour un n°OFS donné<div class="info-rapport">pour démo à l'OAS</div></li>
+  </ul>
 </details>
 <details>
   <summary>
      <span class="titre-rouge">OEA</span> : rapports pour l'OEA</summary>
+    <ul>
+     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AeQ1gSuwoqVNuiN9S60t0fY" target="blank">liste_animaux</a> : exemple de liste avec les données animaux <div class="info-rapport">pour démo à l'OEA</div></li>
+           <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVBRdVtzuulKoFkvaBrb058" target="blank">liste_surfaces_OFS</a> : exemple de liste de surfaces pour un n°OFS donné<div class="info-rapport">pour démo à l'OEA</div></li>
+  </ul>
 </details>
 <details>
   <summary>
      <span class="titre-rouge">OViti</span> : rapports pour l'OViti</summary>
+    <ul>
+     <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AV1VZzjmC11ImeJvOMuK7XY" target="blank">controle_surfaces_viti</a> : vérification de la somme surface variété viti et surf. viti avec la surface exploitée</li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Af5TstYmnI5FskhnfBF.bKw" target="blank">liste_programmes_SP</a> : surfaces avec un attribut programme SP<div class="info-rapport">avec agrégation exploitation et commune</div></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATfZML3iP5FMlwsbDCIzaN0" target="blank">liste_programmes_SP_PDir_2025</a> : surfaces avec un attribut programme SP 2025<div class="info-rapport">liste définitive des surfaces ayant reçu contribution SP (comparaison BBS)</div></li>
+      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AXhfSlxXkNpEtCQUoF12I8o" target="blank">liste_surfaces_viti_OFS</a> : liste des surfaces 701/717 pour un numéro OFS donnéé<div class="info-rapport">pour démo à l'OViti</div></li>
+  </ul>
 </details>
 
 </div>
