@@ -245,9 +245,15 @@ folder: mydoc
     <details>
     <summary>exploitations</summary>
     <ul>
+
+            <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=Ad414.IlBU9MtLTPY3RswKk" target="blank">liste_acomptes et paiements</a> : liste des ordres et montants onglet Acompte/Paiement<div class="info-rapport">permet d'avoir les montants de l'acompte et du paiement dans la même liste (contrairement à la liste SAP)</div></li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATvdpI3M7fxLvWcS.LtKIxs" target="blank">liste_calcul BBS_exploitations_1-5-6</a> : flag BBS oui/non (tri décroissant sur flag)<div class="info-rapport">permet de vérifier que le BBS a bien tourné</div></li>
+                        <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdC21E6faV9MoBCfaWQlXPo" target="blank">liste_cessions</a> : liste des cessions<div class="info-rapport">différents niveaux d'agrégation disponibles, avec filtre sur le type de poste (acompte/paiement)</div></li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AW6FkUnlkptKrf9Xrwhf0PE" target="blank">liste_commentaire_exploitations_1-2-5-6</a> : liste des commentaires pour exploitations de forme 1, 2, 5 ou 6<div class="info-rapport">attention à vérifier que les commentaires ne sont pas tronqués</div></li>
                       <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdpLs2tBUfdEh5qqOWsh7Ho" target="blank">liste_cotisations</a> : liste avec tous les champs des cotisations SAP</li>
+
+                      <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZsoJPV5C5FDgBuiWNPhLFs" target="blank">liste_écritures</a> : liste des écritures comptables<div class="info-rapport">différents niveaux d'agrégation disponibles, avec filtre sur le type de poste (acompte/paiement)</div></li>
+
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AUKfuVp9XnlEkk85MRBxrSk" target="blank">liste_exploitants_naissance_décès</a> : liste des exploitants ; 1er onglet = filtre sur année de naissance ; 2ème onglet = filtre sur date de décès ; 3ème onglet : exploitants des exploitations (tout)</li>
             <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZrmQj9lyLJAuo.zfIbGqrA" target="blank">liste_exploitations_cantonales</a> : liste des exploitations cantonales</li>
                   <li><a href="https://bi.vs.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=ATU2rG8Ov7JLq8PznMy9bKU" target="blank">liste_exploitations_cotisations_ACAV</a> : liste surf. coti ACAV</li>
