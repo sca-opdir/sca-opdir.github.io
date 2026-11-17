@@ -31,6 +31,10 @@ folder: mydoc
 - Airborne LiDAR tutorial 2025 by Gottfried Mandlburger - [Part III: Bathymetric lidar](https://lidarmag.com/wp-content/uploads/PDF/LIDARMagazine_Mandlburger-AirborneLidarPart3_Spring2025.pdf)
 - Airborne LiDAR tutorial 2025 by Gottfried Mandlburger - [Part IV: UAV-Lidar](https://lidarmag.com/wp-content/uploads/PDF/LIDARMagazine_Mandlburger-LidarTutuorialPart4_Vol15Issue4.pdf)
 - [A Slice of Swiss Trees](https://lidarmag.com/2026/09/27/a-slice-of-swiss-trees/) (article sur la reconnaissance des essences forestières par le SITN)
+- [3D AI in the Lidar HD Production Process](https://lidarmag.com/2024/05/04/3d-ai-in-the-lidar-hd-production-process) (classification avec Myria3D)
+- [Emergency mapping for documenting and managing natural hazards](https://lidarmag.com/2026/06/09/emergency-mapping-for-documenting-and-managing-natural-hazards) (article SITN sur l'après-tempête La Chaux-de-Fonds)
+
+[Das Trio der Vegetationshöhenmodelle des LFI – Evaluation und Empfehlungen für forstliche Anwendungen](https://www.szf-jfs.ch/fileadmin/article_pdfs/182796_Deutsch_Forstverein.pdf) (super article de la société forestière suisse qui compare les 3 modèles de hauteur de végétation)
 
 
 {% include links.html %}
