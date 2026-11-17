@@ -5,7 +5,7 @@ last_updated: November 17, 2026
 keywords: ArcGIS, SIG
 summary: "infos diverses en lien avec les types de géodonnées"
 sidebar: mydoc_sidebar
-permalink: geodata_type_infos.html
+permalink: geodatatype_infos.html
 folder: mydoc
 ---
 
