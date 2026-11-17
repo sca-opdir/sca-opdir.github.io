@@ -167,6 +167,9 @@ entries:
   - title: Géodonnées
     output: web
     folderitems:
+    - title: Type de données
+      url: /geodatatype_infos.html
+      output: web
     - title: ArcGIS
       url: /arcgis_autres_infos.html
       output: web
